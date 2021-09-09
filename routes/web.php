@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\AdmDepartamentoController;
+use App\Http\Controllers\AdmMunicipioController;
+use App\Http\Controllers\AdmProvinciaController;
+use App\Http\Controllers\AdmRedController;
+use App\Models\User;
+use Illuminate\Support\Facades\DB;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,6 +37,21 @@ Route::get('/about', function () {
 
 Route::get('/contact-asf', [ContactController::class, 'index'])->name('con');
 
+//AdmDepartamento Controller
+Route::get('/departamento/all', [AdmDepartamentoController::class, 'AllDepartamento'])->name('all.departamento');
+
+//AdmProvincia Controller
+Route::get('/provincia/all', [AdmProvinciaController::class, 'AllProvincia'])->name('all.provincia');
+
+//AdmMunicipio Controller
+Route::get('/municipio/all', [AdmMunicipioController::class, 'AllMunicipio'])->name('all.municipio');
+
+//AdmRed Controller
+Route::get('/red/all', [AdmRedController::class, 'AllRed'])->name('all.red');
+
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
+    // $users = User::all();n
+    $users = DB::table('users')->get();
+    return view('dashboard', compact('users'));
 })->name('dashboard');

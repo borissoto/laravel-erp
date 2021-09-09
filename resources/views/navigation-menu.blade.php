@@ -15,6 +15,22 @@
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
+
+                    <x-jet-nav-link href="{{ route('all.departamento')}}">
+                        Departamentos
+                    </x-jet-nav-link>
+
+                    <x-jet-nav-link href="{{ route('all.provincia')}}">
+                        Provincias
+                    </x-jet-nav-link>
+
+                    <x-jet-nav-link href="{{ route('all.municipio')}}">
+                        Municipios
+                    </x-jet-nav-link>
+
+                    <x-jet-nav-link href="{{ route('all.red')}}">
+                        Redes
+                    </x-jet-nav-link>
                 </div>
             </div>
 
