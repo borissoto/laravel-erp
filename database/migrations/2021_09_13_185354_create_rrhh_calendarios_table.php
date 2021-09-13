@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAdmUnidadesTable extends Migration
+class CreateRrhhCalendariosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,12 @@ class CreateAdmUnidadesTable extends Migration
      */
     public function up()
     {
-        Schema::create('adm_unidades', function (Blueprint $table) {
+        Schema::create('rrhh_calendarios', function (Blueprint $table) {
             $table->id();
-            $table->string('nom_unidad');            
-            $table->string('sigla');            
+            $table->foreignId('users_id');
+            $table->foreignId('rrhh_actividades_id');
+            $table->timestamp('fecha_actividad')->nullable();
             $table->timestamps();
-            $table->SoftDeletes();
         });
     }
 
@@ -29,6 +29,6 @@ class CreateAdmUnidadesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('adm_unidades');
+        Schema::dropIfExists('rrhh_calendarios');
     }
 }

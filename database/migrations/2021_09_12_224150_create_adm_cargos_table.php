@@ -15,7 +15,12 @@ class CreateAdmCargosTable extends Migration
     {
         Schema::create('adm_cargos', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('users_id');
+            $table->string('nom_cargo');
+            $table->string('descripcion');
+            $table->foreignId('adm_cargos_id');            
             $table->timestamps();
+            $table->SoftDeletes();
         });
     }
 

@@ -15,7 +15,7 @@ class CreateAdmDepartamentosTable extends Migration
     {
         Schema::create('adm_departamentos', function (Blueprint $table) {
             $table->id();
-            $table->string('departamento');
+            $table->string('nom_departamento');
             $table->string('extension');
             $table->timestamps();
             $table->SoftDeletes();

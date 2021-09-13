@@ -16,7 +16,7 @@ class CreateAdmProvinciasTable extends Migration
         Schema::create('adm_provincias', function (Blueprint $table) {
             $table->id();
             $table->integer('adm_departamento_id');
-            $table->string('provincia');            
+            $table->string('nom_provincia');            
             $table->timestamps();
             $table->SoftDeletes();
         });

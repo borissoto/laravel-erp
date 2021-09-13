@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAdmUnidadesTable extends Migration
+class CreateRrhhSupervisionesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,14 @@ class CreateAdmUnidadesTable extends Migration
      */
     public function up()
     {
-        Schema::create('adm_unidades', function (Blueprint $table) {
+        Schema::create('rrhh_supervisiones', function (Blueprint $table) {
             $table->id();
-            $table->string('nom_unidad');            
-            $table->string('sigla');            
+            $table->foreignId('users_id'); // id supervisor
+            $table->integer('supervisado_id'); //users_id
+            $table->integer('puntaje');
+            $table->string('desempeno');  
+            $table->string('poa');            
             $table->timestamps();
-            $table->SoftDeletes();
         });
     }
 
@@ -29,6 +31,6 @@ class CreateAdmUnidadesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('adm_unidades');
+        Schema::dropIfExists('rrhh_supervisiones');
     }
 }

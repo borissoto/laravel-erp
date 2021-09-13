@@ -3,9 +3,11 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\AdmDepartamentoController;
+use App\Http\Controllers\AdminUserController;
 use App\Http\Controllers\AdmMunicipioController;
 use App\Http\Controllers\AdmProvinciaController;
 use App\Http\Controllers\AdmRedController;
+use App\Http\Controllers\Backend\UserProfileController;
 use App\Models\User;
 use Illuminate\Support\Facades\DB;
 /*
@@ -34,7 +36,16 @@ Route::get('/about', function () {
 // Route::get('/about', function () {
 //     return view('about');
 // })->middleware('check');
+// UserLogout
+Route::get('/logout', [AdminUserController::class, 'AdminLogout'])->name('admin.logout');
+// User Profile
+Route::prefix('admin')->group(function(){
+    Route::get('/user/profile', [AdminUserController::class, 'UserProfile'])->name('user.profile');
+});
 
+
+
+//
 Route::get('/contact-asf', [ContactController::class, 'index'])->name('con');
 
 //AdmDepartamento Controller
@@ -58,5 +69,6 @@ Route::get('/red/all', [AdmRedController::class, 'AllRed'])->name('all.red');
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('admin.admin_master');
+    return view('admin.index');
 })->name('dashboard');
+

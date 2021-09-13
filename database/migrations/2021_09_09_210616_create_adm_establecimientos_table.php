@@ -19,9 +19,9 @@ class CreateAdmEstablecimientosTable extends Migration
             $table->integer('adm_provincia_id');
             $table->integer('adm_municipio_id');
             $table->integer('adm_red_id');
+            $table->string('nom_establecimiento');
             $table->string('tipo');
             $table->string('codigo');
-            $table->string('nombre');
             $table->string('nivel');
             $table->string('subsector');
             $table->string('ambito');

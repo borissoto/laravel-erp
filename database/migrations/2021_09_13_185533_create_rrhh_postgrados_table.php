@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRrhhBajasTable extends Migration
+class CreateRrhhPostgradosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,12 @@ class CreateRrhhBajasTable extends Migration
      */
     public function up()
     {
-        Schema::create('rrhh_bajas', function (Blueprint $table) {
+        Schema::create('rrhh_postgrados', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('rrhh_bajas_tipos_id');
+            $table->foreignId('users_id');
+            $table->string('tipo_postgrado');
+            $table->string('nom_postgrado');
+            $table->string('universidad');
             $table->timestamp('fecha_ini')->nullable();
             $table->timestamp('fecha_fin')->nullable();
             $table->timestamps();
@@ -29,6 +32,6 @@ class CreateRrhhBajasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('rrhh_bajas');
+        Schema::dropIfExists('rrhh_postgrados');
     }
 }

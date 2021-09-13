@@ -17,8 +17,8 @@ class CreateAdmMunicipiosTable extends Migration
             $table->id();
             $table->integer('adm_departamento_id');
             $table->integer('adm_provincia_id');
-            $table->string('municipio');            
-            $table->string('codigo_municipal');            
+            $table->string('nom_municipio');            
+            $table->string('cod_municipio');            
             $table->timestamps();
             $table->SoftDeletes();
         });

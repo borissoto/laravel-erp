@@ -15,6 +15,7 @@ class CreateRrhhBajaTiposTable extends Migration
     {
         Schema::create('rrhh_baja_tipos', function (Blueprint $table) {
             $table->id();
+            $table->string('nom_baja');
             $table->timestamps();
         });
     }

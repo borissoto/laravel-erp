@@ -18,7 +18,7 @@ class CreateAdmRedsTable extends Migration
             $table->integer('adm_departamento_id');
             $table->integer('adm_provincia_id');
             $table->integer('adm_municipio_id');
-            $table->string('red');            
+            $table->string('cod_red');            
             $table->timestamps();
             $table->SoftDeletes();
         });
