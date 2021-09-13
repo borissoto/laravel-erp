@@ -50,8 +50,13 @@ Route::get('/municipio/all', [AdmMunicipioController::class, 'AllMunicipio'])->n
 Route::get('/red/all', [AdmRedController::class, 'AllRed'])->name('all.red');
 
 
+// Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+//     // $users = User::all();n
+//     $users = DB::table('users')->get();
+//     return view('dashboard', compact('users'));
+// })->name('dashboard');
+
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    // $users = User::all();n
-    $users = DB::table('users')->get();
-    return view('dashboard', compact('users'));
+    return view('admin.admin_master');
 })->name('dashboard');
