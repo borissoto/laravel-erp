@@ -26,21 +26,21 @@
 		
         <li class="treeview">
           <a href="#">
-            <i data-feather="message-circle"></i>
-            <span>Application</span>
+            <i data-feather="user"></i>
+            <span>Recursos Humanos</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-right pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="chat.html"><i class="ti-more"></i>Chat</a></li>
-            <li><a href="calendar.html"><i class="ti-more"></i>Calendar</a></li>
+            <li><a href=""><i class="ti-more"></i>Lista Personal</a></li>
+            <li><a href="calendar.html"><i class="ti-more"></i>Lista Medicos</a></li>
           </ul>
         </li> 
 		  
         <li class="treeview">
           <a href="#">
-            <i data-feather="mail"></i> <span>Mailbox</span>
+            <i data-feather="mail"></i> <span>Sala Situacional</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-right pull-right"></i>
             </span>
@@ -55,7 +55,7 @@
         <li class="treeview">
           <a href="#">
             <i data-feather="file"></i>
-            <span>Pages</span>
+            <span>Administracion</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-right pull-right"></i>
             </span>
@@ -74,7 +74,7 @@
         <li class="treeview">
           <a href="#">
             <i data-feather="grid"></i>
-            <span>Components</span>
+            <span>Pagina Web</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-right pull-right"></i>
             </span>
@@ -94,7 +94,7 @@
 		<li class="treeview">
           <a href="#">
             <i data-feather="credit-card"></i>
-            <span>Cards</span>
+            <span>Configuracion</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-right pull-right"></i>
             </span>

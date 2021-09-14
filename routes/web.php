@@ -41,7 +41,11 @@ Route::get('/logout', [AdminUserController::class, 'AdminLogout'])->name('admin.
 // User Profile
 Route::prefix('admin')->group(function(){
     Route::get('/user/profile', [AdminUserController::class, 'UserProfile'])->name('user.profile');
+    // User Edit Profile
+    Route::get('/user/profile/edit', [AdminUserController::class, 'UserProfileEdit'])->name('user.profile.edit');
+    Route::post('/user/profile/store', [AdminUserController::class, 'UserProfileStore'])->name('user.profile.store');
 });
+
 
 
 
