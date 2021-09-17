@@ -34,7 +34,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="{{ route('user.list') }}"><i class="ti-more"></i>Lista Personal</a></li>
-            <li><a href="calendar.html"><i class="ti-more"></i>Lista Medicos</a></li>
+            <li><a href="{{ route('user.edit')}}"><i class="ti-more"></i>Lista Medicos</a></li>
           </ul>
         </li> 
 		  

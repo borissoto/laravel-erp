@@ -46,6 +46,17 @@ class AdminUserController extends Controller
 
     }
 
+    public function UserAdd(){
+        
+        return view('backend.rrhh.user_add');
+    }
+
+
+    public function UserEdit($id){
+        $users = User::findOrFail($id);
+        return view('backend.rrhh.user_edit', compact('users'));
+    }
+
     public function UserList(){
         $users = User::latest()->get ();
         return view('backend.user.user_list', compact('users'));

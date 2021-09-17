@@ -38,22 +38,15 @@
                               <td>{{ $user->ap_materno}}</td>
                               <td>{{ $user->ci}}</td>                              
                               <td>
-                              <a href="" class="btn btn-info">Editar</a>      
-                              <a href="" class="btn btn-danger">Eliminar</a>      
+                              <a href=" {{ route('user.edit', $user->id)}}" class="btn btn-info" title="Editar"><i class="fa fa-pencil" aria-hidden="true"></i></a>      
+                              <a href="" class="btn btn-success" title="Ver"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>      
+                              <a href="" class="btn btn-danger" title="Eliminar"><i class="fa fa-trash" aria-hidden="true"></i></a>      
                             </td>                              
                           </tr>
                           @endforeach                         
                       </tbody>
                       <tfoot>
-                          <tr>
-                              <th>Name</th>
-                              <th>Position</th>
-                              <th>Office</th>
-                              <th>Age</th>
-                              <th>Start date</th>
-                              <th>Salary</th>
-                          </tr>
-                      </tfoot>
+                       
                     </table>
                   </div>
               </div>

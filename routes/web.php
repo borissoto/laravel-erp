@@ -47,6 +47,8 @@ Route::prefix('admin')->group(function(){
     Route::post('/user/profile/store', [AdminUserController::class, 'UserProfileStore'])->name('user.profile.store');
     // User List All
     Route::get('/user/list', [AdminUserController::class, 'UserList'])->name('user.list');   
+    // User edit
+    Route::get('/user/edit/{id}', [AdminUserController::class, 'UserEdit'])->name('user.edit');   
       
 });
 
