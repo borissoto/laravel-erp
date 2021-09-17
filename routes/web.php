@@ -43,8 +43,14 @@ Route::prefix('admin')->group(function(){
     Route::get('/user/profile', [AdminUserController::class, 'UserProfile'])->name('user.profile');
     // User Edit Profile
     Route::get('/user/profile/edit', [AdminUserController::class, 'UserProfileEdit'])->name('user.profile.edit');
+    // User Store Profile
     Route::post('/user/profile/store', [AdminUserController::class, 'UserProfileStore'])->name('user.profile.store');
+    // User List All
+    Route::get('/user/list', [AdminUserController::class, 'UserList'])->name('user.list');   
+      
 });
+
+
 
 
 

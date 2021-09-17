@@ -45,4 +45,9 @@ class AdminUserController extends Controller
         return redirect()->route('user.profile');
 
     }
+
+    public function UserList(){
+        $users = User::latest()->get ();
+        return view('backend.user.user_list', compact('users'));
+    }
 }
