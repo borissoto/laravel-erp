@@ -6,8 +6,12 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
+use App\Models\AdmDepartamento;
+use App\Models\AdmProvincia;
+use App\Models\AdmMunicipio;
 
-class AdminUserController extends Controller
+
+class AdmUserController extends Controller
 {
     public function AdminLogout(){
         Auth::logout();
@@ -47,8 +51,11 @@ class AdminUserController extends Controller
     }
 
     public function UserAdd(){
+        $departamentos = AdmDepartamento::latest()->get();
+        $provincias = AdmProvincia::latest()->get();
+        $municipios = AdmMunicipio::latest()->get();
         
-        return view('backend.rrhh.user_add');
+        return view('backend.rrhh.user_add', compact('departamentos', 'provincias', 'municipios'));
     }
 
 
