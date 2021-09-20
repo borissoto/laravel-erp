@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\AdmDepartamentoController;
+use App\Http\Controllers\AdmEesstipoController;
 use App\Http\Controllers\AdmUserController;
 use App\Http\Controllers\AdmMunicipioController;
 use App\Http\Controllers\AdmProvinciaController;
@@ -47,7 +48,7 @@ Route::prefix('admin')->group(function(){
     // User Store Profile
     Route::post('/user/profile/store', [AdmUserController::class, 'UserProfileStore'])->name('user.profile.store');
     // User List All
-    Route::get('/user/list', [AdmUserController::class, 'UserList'])->name('user.list');   
+    Route::get('/user/list', [AdmUserController::class, 'UserList'])->name('rrhh.list');   
     // User add
     Route::get('/rrhh/add', [AdmUserController::class, 'UserAdd'])->name('rrhh.add');   
     // User edit
@@ -61,6 +62,8 @@ Route::prefix('admin')->group(function(){
     // EESS edit
     Route::get('/eess/edit/{id}', [AdmEstablecimientoController::class, 'EessEdit'])->name('eess.edit');   
     
+    // Tipo EESS List All
+    Route::get('/eess/tipo/list', [AdmEesstipoController::class, 'EesstipoList'])->name('eess.tipo.list');   
 
       
 });

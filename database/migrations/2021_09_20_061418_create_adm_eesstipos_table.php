@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAdmDepartamentosTable extends Migration
+class CreateAdmEesstiposTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,11 @@ class CreateAdmDepartamentosTable extends Migration
      */
     public function up()
     {
-        Schema::create('adm_departamentos', function (Blueprint $table) {
+        Schema::create('adm_eesstipos', function (Blueprint $table) {
             $table->id();
-            $table->string('nom_departamento');
+            $table->string('tipo_eess');
             $table->string('abreviatura');
             $table->timestamps();
-            $table->SoftDeletes();
         });
     }
 
@@ -29,6 +28,6 @@ class CreateAdmDepartamentosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('adm_departamentos');
+        Schema::dropIfExists('adm_eesstipos');
     }
 }

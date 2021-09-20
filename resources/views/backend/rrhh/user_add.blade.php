@@ -19,123 +19,96 @@
 			<div class="box-body">
 			  <div class="row">
 				<div class="col">
-					<form novalidate>
-					  <div class="row">
-						<div class="col-12">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="class-group">
-                                    <h5>Departamento <span class="text-danger"></span></h5>
+				    <form novalidate>
+					    <div class="row">
+                            <div class="col-md-4"> 
+                                <div class="form-group">
+                                    <h5>Nombres <span class="text-danger">*</span></h5>
                                     <div class="controls">
-                                        <select name="departamento_id" class="form-control" >
-                                            <option value="" selected="" disabled="" >Seleccionar</option>
-                                            @foreach($departamentos as $departamento)
-                                            <option value="{{ $departamento->id }}" {{ $departamento->id == $departamento->departamento_id ? 'selected': ''}}
-                                                > {{ $departamento->dep_nombre}} </option>
-                                              @endforeach                                            
-                                        </select>
+                                        <input type="email" name="email" class="form-control" required data-validation-required-message="This field is required"> 
+                                    </div>
+                                </div>                               
 
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <h5>Apellido Paterno<span class="text-danger">*</span></h5>
+                                    <div class="controls">
+                                        <input type="text" name="ap_paterno" class="form-control" required data-validation-required-message="This field is required"> 
                                     </div>
                                 </div>
 
                             </div>
                             <div class="col-md-4">
+                                <div class="form-group">
+                                    <h5>Apellido Materno<span class="text-danger">*</span></h5>
+                                    <div class="controls">
+                                        <input type="text" name="ap_paterno" class="form-control" required data-validation-required-message="This field is required"> 
+                                    </div>
+                                </div>
 
                             </div>
-                            <div class="col-md-4">
-
+                        </div>                  
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <h5>CI <span class="text-danger">*</span></h5>
+                                    <div class="controls">
+                                        <input name="number" id="ci" class="form-control" required placeholder="Documento de Identidad" />
+                                    </div>
+                                </div>                                    
                             </div>
-                        </div>    
-                        
-							<div class="form-group">
-								<h5>Email Field <span class="text-danger">*</span></h5>
-								<div class="controls">
-									<input type="email" name="email" class="form-control" required data-validation-required-message="This field is required"> </div>
-							</div>
-							<div class="form-group">
-								<h5>Password Input Field <span class="text-danger">*</span></h5>
-								<div class="controls">
-									<input type="password" name="password" class="form-control" required data-validation-required-message="This field is required"> </div>
-							</div>
-							
-						</div>
-						<div class="col-12">							
-							<div class="form-group">
-								<h5>Basic Select <span class="text-danger">*</span></h5>
-								<div class="controls">
-									<select name="select" id="select" required class="form-control">
-										<option value="">Select Your City</option>
-										<option value="1">India</option>
-										<option value="2">USA</option>
-										<option value="3">UK</option>
-										<option value="4">Canada</option>
-										<option value="5">Dubai</option>
-									</select>
-								</div>
-							</div>
-							<div class="form-group">
-								<h5>Textarea <span class="text-danger">*</span></h5>
-								<div class="controls">
-									<textarea name="textarea" id="textarea" class="form-control" required placeholder="Textarea text"></textarea>
-								</div>
-							</div>
-						</div>
-					  </div>
-						<div class="row">
-							<div class="col-md-6">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <h5>Abreviatura <span class="text-danger"></span></h5>
+                                    <div class="controls">
+                                        <select name="departamento_id" class="form-control" >
+                                            <option value="" selected="" disabled="" >Seleccionar</option>
+                                            @foreach($departamentos as $departamento)
+                                            <option value="{{ $departamento->id }}" {{ $departamento->id == $departamento->departamento_id ? 'selected': ''}}
+                                                > {{ $departamento->abreviatura}} </option>
+                                              @endforeach                                            
+                                        </select>
+
+                                    </div>
+                                </div>                                    
+                            </div>                                
+                        </div>									                      		
+                      	<div class="row">
+							<div class="col-md-4">
 								<div class="form-group">
-									<h5>Checkbox <span class="text-danger">*</span></h5>
-									<div class="controls">
-										<input type="checkbox" id="checkbox_1" required value="single">
-										<label for="checkbox_1">Check this custom checkbox</label>
-									</div>								
-								</div>
+                                    <h5>Nro Celular <span class="text-danger">*</span></h5>
+                                    <div class="controls">
+                                        <input type="number" name="telefono" class="form-control" required data-validation-required-message="This field is required"> 
+                                    </div>
+                                </div>  
 							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<h5>Checkbox Group <span class="text-danger">*</span></h5>
-									<div class="controls">
-										<fieldset>
-											<input type="checkbox" id="checkbox_2" required value="x">
-											<label for="checkbox_2">I am unchecked Checkbox</label>
-										</fieldset>
-										<fieldset>
-											<input type="checkbox" id="checkbox_3" value="y">
-											<label for="checkbox_3">I am unchecked too</label>
-										</fieldset>
-									</div>
-								</div>
+							<div class="col-md-4">
+                                <div class="form-group">
+                                    <h5>Domicilio<span class="text-danger">*</span></h5>
+                                    <div class="controls">
+                                        <input type="text" name="telefono" class="form-control" required data-validation-required-message="This field is required"> 
+                                    </div>
+                                </div>
+								
+							</div>
+							<div class="col-md-4">
+                                <div class="form-group">
+                                    <h5>Item <span class="text-danger">*</span></h5>
+                                    <div class="controls">
+                                        <input type="text" name="telefono" class="form-control" required data-validation-required-message="This field is required"> 
+                                    </div>
+                                </div>
+								
 							</div>
 						</div>
 						
 						<div class="row">
 							<div class="col-md-6">
-								<div class="form-group">
-									<h5>Radio Buttons <span class="text-danger">*</span></h5>
-									<fieldset class="controls">
-										<input name="group1" type="radio" id="radio_1" value="1" required>
-										<label for="radio_1">Check Me</label>
-									</fieldset>
-									<fieldset>
-										<input name="group1" type="radio" id="radio_2" value="2">
-										<label for="radio_2">Or Me</label>									
-									</fieldset>
-								</div>
+								
 							</div>
 							<div class="col-md-6">
-								<div class="form-group">
-									<h5>Inline Radio Buttons <span class="text-danger">*</span></h5>
-									<div class="controls">
-										<fieldset>
-											<input name="group2" type="radio" id="radio_3" value="Yes" required>
-											<label for="radio_3">Check Me</label>
-										</fieldset>
-										<fieldset>
-											<input name="group2" type="radio" id="radio_4" value="No">
-											<label for="radio_4">Or Me</label>
-										</fieldset>
-									</div>
-								</div>
+								
 							</div>
 						</div>
 						<div class="text-xs-right">

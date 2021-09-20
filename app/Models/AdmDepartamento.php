@@ -13,6 +13,6 @@ class AdmDepartamento extends Model
 
     protected $fillable = [
         'departamento',
-        'extension',        
+        'abreviatura',        
     ];
 }

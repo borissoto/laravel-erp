@@ -33,7 +33,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ route('user.list') }}"><i class="ti-more"></i>Lista Usuarios</a></li>
+            <li><a href="{{ route('rrhh.list') }}"><i class="ti-more"></i>Lista Usuarios</a></li>
             <li><a href="{{ route('rrhh.add') }}"><i class="ti-more"></i>Añadir Usuario</a></li>
           </ul>
         </li> 
@@ -46,8 +46,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="mailbox_inbox.html"><i class="ti-more"></i>Lista EESS</a></li>
-            <li><a href="mailbox_compose.html"><i class="ti-more"></i>Añadir EESS</a></li>            
+            <li><a href="{{ route('eess.list') }}"><i class="ti-more"></i>Lista EESS</a></li>
+            <li><a href="{{ route('eess.add') }}"><i class="ti-more"></i>Añadir EESS</a></li>            
+            <li><a href="{{ route('eess.tipo.list') }}"><i class="ti-more"></i>Tipo EESS</a></li>            
           </ul>
         </li>
 		

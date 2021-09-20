@@ -21,9 +21,7 @@ class AdmDepartamentoFactory extends Factory
      */
     public function definition()
     {
-        return [
-            'departamento' => 'Beni',
-            'extension' => 'Bn',            
+        return [                
         ];
     }
 }

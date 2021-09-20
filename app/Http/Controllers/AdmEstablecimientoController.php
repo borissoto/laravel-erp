@@ -3,6 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\AdmDepartamento;
+use App\Models\AdmEstablecimiento;
+use App\Models\AdmProvincia;
+use App\Models\AdmMunicipio;
+use App\Models\AdmRed;
+
+
 
 class AdmEstablecimientoController extends Controller
 {
@@ -12,17 +19,17 @@ class AdmEstablecimientoController extends Controller
         $municipios = AdmMunicipio::latest()->get();
         $redes = AdmRed::latest()->get();
         
-        return view('backend.rrhh.Eess_add', compact('departamentos', 'provincias', 'municipios'));
+        return view('backend.eess.eess_add', compact('departamentos', 'provincias', 'municipios', 'redes'));
     }
 
 
     public function EessEdit($id){
-        $Eesss = Eess::findOrFail($id);
-        return view('backend.rrhh.Eess_edit', compact('Eesss'));
+        $eesss = AdmEstablecimiento::findOrFail($id);
+        return view('backend.eess.eess_edit', compact('eesss'));
     }
 
     public function EessList(){
-        $Eesss = Eess::latest()->get ();
-        return view('backend.Eess.Eess_list', compact('Eesss'));
+        $eesss = AdmEstablecimiento::latest()->get();
+        return view('backend.eess.eess_list', compact('eesss'));
     }
 }

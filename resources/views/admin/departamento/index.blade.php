@@ -13,7 +13,7 @@
                   <tr>
                     <th scope="col">N°</th>
                     <th scope="col">Departamento</th>
-                    <th scope="col">Extension</th>
+                    <th scope="col">Abreviatura</th>
                     <th scope="col">Created at</th>
                   </tr>
                 </thead>
