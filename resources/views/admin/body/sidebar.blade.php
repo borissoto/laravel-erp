@@ -69,8 +69,7 @@
           </ul>
         </li> 		  
 		 
-        <li class="header nav-small-cap">User Interface</li>
-		  
+        <li class="header nav-small-cap">User Interface</li>        
         <li class="treeview">
           <a href="#">
             <i data-feather="grid"></i>

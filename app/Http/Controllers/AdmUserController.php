@@ -66,6 +66,6 @@ class AdmUserController extends Controller
 
     public function UserList(){
         $users = User::latest()->get();
-        return view('backend.user.user_list', compact('users'));
+        return view('backend.rrhh.rrhh_list', compact('users'));
     }
 }

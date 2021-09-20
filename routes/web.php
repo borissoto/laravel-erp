@@ -48,7 +48,7 @@ Route::prefix('admin')->group(function(){
     // User Store Profile
     Route::post('/user/profile/store', [AdmUserController::class, 'UserProfileStore'])->name('user.profile.store');
     // User List All
-    Route::get('/user/list', [AdmUserController::class, 'UserList'])->name('rrhh.list');   
+    Route::get('/rrhh/list', [AdmUserController::class, 'UserList'])->name('rrhh.list');   
     // User add
     Route::get('/rrhh/add', [AdmUserController::class, 'UserAdd'])->name('rrhh.add');   
     // User edit
@@ -64,6 +64,11 @@ Route::prefix('admin')->group(function(){
     
     // Tipo EESS List All
     Route::get('/eess/tipo/list', [AdmEesstipoController::class, 'EesstipoList'])->name('eess.tipo.list');   
+    // Tipo EESS Add
+    Route::get('/eess/tipo/add', [AdmEesstipoController::class, 'EesstipoAdd'])->name('eess.tipo.add');   
+
+    // Tipo EESS Store
+    Route::post('/eess/tipo/store', [AdmEesstipoController::class, 'EesstipoStore'])->name('eess.tipo.store');   
 
       
 });

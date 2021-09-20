@@ -38,7 +38,8 @@
 
 
   </div>
-  <!-- /.content-wrapper -->
+ 
+
 
   @include('admin.body.footer')
 
