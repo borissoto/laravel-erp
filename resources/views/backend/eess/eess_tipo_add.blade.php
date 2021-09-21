@@ -19,7 +19,7 @@
 			<div class="box-body">
 			  <div class="row">
 				<div class="col">
-				    <form method="post" action="{{ route('eess.tipo.store')}}" enctype="text/plain">
+				    <form method="post" action="{{ route('eess.tipo.store')}}" enctype="multipart/form-data">
 						@csrf
 
 					    <div class="row">

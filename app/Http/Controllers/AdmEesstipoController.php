@@ -26,7 +26,7 @@ class AdmEesstipoController extends Controller
             'alert-type' => 'success'
         );
                 
-        return redirect()->route('backend.eess.eess_tipo_list');
+        return redirect()->action([AdmEesstipoController::class, 'EesstipoList']);
     }
 
     public function EesstipoAdd(Request $request){

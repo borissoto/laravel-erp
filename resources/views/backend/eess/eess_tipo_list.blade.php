@@ -62,8 +62,9 @@
                       <tbody>
                           @foreach ($eess_tipos as $eess_tipo) 
                           <tr>
-                              <td>{{ $$eess_tipo->tipo_eess}}</td>
-                              <td>{{ $$eess_tipo->abreviatura}}</td>                                                     
+                              <td></td>
+                              <td>{{ $eess_tipo->tipo_eess}}</td>
+                              <td>{{ $eess_tipo->abreviatura}}</td>                                                     
                               <td>
                               {{-- <a href=" {{ route('user.edit', $user->id)}}" class="btn btn-info" title="Editar"><i class="fa fa-pencil" aria-hidden="true"></i></a>      
                               <a href="" class="btn btn-success" title="Ver"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>      
