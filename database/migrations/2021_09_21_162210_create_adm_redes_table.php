@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAdmRedsTable extends Migration
+class CreateAdmRedesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,13 @@ class CreateAdmRedsTable extends Migration
      */
     public function up()
     {
-        Schema::create('adm_reds', function (Blueprint $table) {
+        Schema::create('adm_redes', function (Blueprint $table) {
             $table->id();
             $table->integer('adm_departamento_id');
-            $table->integer('adm_provincia_id');
-            $table->integer('adm_municipio_id');
-            $table->string('cod_red');            
+            $table->integer('cod_municipio');
+            $table->integer('cod_red');
+            $table->string('nom_red');
             $table->timestamps();
-            $table->SoftDeletes();
         });
     }
 
@@ -31,6 +30,6 @@ class CreateAdmRedsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('adm_reds');
+        Schema::dropIfExists('adm_redes');
     }
 }

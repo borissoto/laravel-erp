@@ -39,7 +39,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-3">
+                            {{-- <div class="col-md-3">
                                 <div class="class-group">
                                     <h5>Provincia <span class="text-danger"></span></h5>
                                     <div class="controls">
@@ -54,7 +54,7 @@
                                     </div>
                                 </div>
 
-                            </div>
+                            </div> --}}
                             <div class="col-md-3">
                                 <div class="class-group">
                                     <h5>Municipio <span class="text-danger"></span></h5>
@@ -104,13 +104,12 @@
 							<div class="form-group">
 								<h5>Tipo EESS <span class="text-danger">*</span></h5>
 								<div class="controls">
-									<select name="select" id="select" required class="form-control">
-										<option value="">Seleccionar</option>
-										<option value="1">CS CON INTERNACION</option>
-										<option value="2">CS AMBULATORIO</option>
-										<option value="">HOSPITAL GENERAL</option>
-										<option value="4">Canada</option>
-										<option value="5">Dubai</option>
+									<select name="eess_tipo" class="form-control" >
+										<option value="" selected="" disabled="" >Seleccionar</option>
+										@foreach($eess_tipos as $eess_tipo)
+										<option value="{{ $eess_tipo->id }}" {{ $eess_tipo->id == $eess_tipo->eess_tipo_id ? 'selected': ''}}
+											> {{ $eess_tipo->eess_tipo}} </option>
+										  @endforeach                                            
 									</select>
 								</div>
 							</div>

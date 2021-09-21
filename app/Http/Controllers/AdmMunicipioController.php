@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\AdmMunicipio;
 use Illuminate\Http\Request;
 
 class AdmMunicipioController extends Controller
 {
-    public function AllMunicipio(){
-        return view('admin.municipio.index');
+    public function MunicipioList(){
+        $municipios = AdmMunicipio::latest()->get();
+        return view('admin.municipio.municipio_list', compact('municipios'));
     }
 }

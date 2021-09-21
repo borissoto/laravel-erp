@@ -16,9 +16,10 @@ class CreateAdmMunicipiosTable extends Migration
         Schema::create('adm_municipios', function (Blueprint $table) {
             $table->id();
             $table->integer('adm_departamento_id');
-            $table->integer('adm_provincia_id');
+            $table->integer('cod_red');
+            $table->string('nom_provincia');
             $table->string('nom_municipio');            
-            $table->string('cod_municipio');            
+            $table->integer('cod_municipio');            
             $table->timestamps();
             $table->SoftDeletes();
         });

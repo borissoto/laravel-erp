@@ -89,10 +89,10 @@ Route::get('/departamento/all', [AdmDepartamentoController::class, 'AllDepartame
 Route::get('/provincia/all', [AdmProvinciaController::class, 'AllProvincia'])->name('all.provincia');
 
 //AdmMunicipio Controller
-Route::get('/municipio/all', [AdmMunicipioController::class, 'AllMunicipio'])->name('all.municipio');
+Route::get('/municipio/list', [AdmMunicipioController::class, 'MunicipioList'])->name('municipio.list');
 
-//AdmRed Controller
-Route::get('/red/all', [AdmRedController::class, 'AllRed'])->name('all.red');
+//AdmRedes Controller
+Route::get('/red/list', [AdmRedController::class, 'RedList'])->name('red.list');
 
 
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

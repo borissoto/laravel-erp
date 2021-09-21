@@ -4,10 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\AdmDepartamento;
+use App\Models\AdmEesstipo;
 use App\Models\AdmEstablecimiento;
 use App\Models\AdmProvincia;
 use App\Models\AdmMunicipio;
-use App\Models\AdmRed;
+use App\Models\AdmRedes;
 
 
 
@@ -17,9 +18,10 @@ class AdmEstablecimientoController extends Controller
         $departamentos = AdmDepartamento::latest()->get();
         $provincias = AdmProvincia::latest()->get();
         $municipios = AdmMunicipio::latest()->get();
-        $redes = AdmRed::latest()->get();
+        $redes = AdmRedes::latest()->get();
+        $eess_tipos = AdmEesstipo::latest()->get();
         
-        return view('backend.eess.eess_add', compact('departamentos', 'provincias', 'municipios', 'redes'));
+        return view('backend.eess.eess_add', compact('departamentos', 'provincias', 'municipios', 'redes', 'eess_tipos'));
     }
 
 
