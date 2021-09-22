@@ -16,21 +16,27 @@ class CreateUsersTable extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('email')->unique();
+            $table->string('email')->unique()->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->foreignId('current_team_id')->nullable();
             $table->string('profile_photo_path', 2048)->nullable();
-            $table->string('nombres')->nullable();;    
-            $table->string('ap_paterno')->nullable();;    
+            $table->integer('nivel')->nullable();  
+            $table->foreignId('adm_establecimiento_id')->nullable();  
+            $table->string('nombres')->nullable();  
+            $table->string('ap_paterno')->nullable();
             $table->string('ap_materno')->nullable();    
-            $table->string('ci')->nullable();;    
-            $table->foreignId('adm_departamento_id')->nullable();;    
-            $table->timestamp('fecha_nac')->nullable();    
-            $table->string('telefono')->nullable();;    
-            $table->string('domicilio')->nullable();;    
-            $table->string('item')->nullable();;                  
+            $table->string('ci')->nullable();    
+            $table->foreignId('adm_departamento_id')->nullable();    
+            $table->string('sexo')->nullable();
+            $table->timestamp('fecha_nac')->nullable();
+            $table->string('telefono')->nullable();
+            $table->string('domicilio')->nullable();
+            $table->string('item')->nullable();
+            $table->timestamp('incorporacion')->nullable();
+            $table->string('docente')->nullable();              
+            $table->string('obs')->nullable();              
             $table->timestamps();
         });
     }
