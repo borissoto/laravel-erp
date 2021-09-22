@@ -15,21 +15,20 @@ class CreateAdmEstablecimientosTable extends Migration
     {
         Schema::create('adm_establecimientos', function (Blueprint $table) {
             $table->id();
-            $table->integer('adm_departamento_id');
-            $table->integer('adm_provincia_id');
+            $table->integer('adm_departamento_id');            
             $table->integer('adm_municipio_id');
-            $table->integer('adm_red_id');
-            $table->string('nom_establecimiento');
+            $table->integer('cod_red');
             $table->string('tipo');
-            $table->string('codigo');
-            $table->string('nivel');
+            $table->string('nom_establecimiento');
             $table->string('subsector');
             $table->string('ambito');
             $table->string('dependencia');
+            $table->string('nivel');
             $table->string('codsnis');
-            $table->string('lat');
-            $table->string('long');
+            $table->decimal('lat',10,8);
+            $table->decimal('long',11,8);
             $table->string('soaps');            
+            $table->integer('estado');
             $table->timestamps();
             $table->SoftDeletes();            
         });

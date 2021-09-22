@@ -31,7 +31,7 @@ class AdmEstablecimientoController extends Controller
     }
 
     public function EessList(){
-        $eesss = AdmEstablecimiento::latest()->get();
-        return view('backend.eess.eess_list', compact('eesss'));
+        $establecimientos = AdmEstablecimiento::latest()->get();
+        return view('backend.eess.eess_list', compact('establecimientos'));
     }
 }
