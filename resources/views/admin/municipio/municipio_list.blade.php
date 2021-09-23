@@ -38,7 +38,7 @@
 
            <div class="box">
               <div class="box-header with-border">
-                <h3 class="box-title">Lista Municipio</h3>
+                <h3 class="box-title">Lista Municipios</h3>
                 {{-- <div class="text-xs-right">  --}}
                     <a href="{{ route('eess.tipo.add')}}" style="float: right;" class="btn btn-rounded btn-primary mb-5">Nuevo Tipo EESS</a>
                 {{-- </div> --}}

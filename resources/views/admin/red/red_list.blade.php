@@ -38,7 +38,7 @@
 
            <div class="box">
               <div class="box-header with-border">
-                <h3 class="box-title">Lista Tipo Establecimientos de Salud</h3>
+                <h3 class="box-title">Lista de Redes</h3>
                 {{-- <div class="text-xs-right">  --}}
                     <a href="{{ route('eess.tipo.add')}}" style="float: right;" class="btn btn-rounded btn-primary mb-5">Nuevo Tipo EESS</a>
                 {{-- </div> --}}
@@ -70,6 +70,7 @@
                               <td>{{ $red->cod_red}}</td>                                                     
                               <td>{{ $red->nom_red}}</td>                                                     
                               <td>
+                                <a href="" class="btn btn-secondary btn-light" title="Editar"><i class="fa fa-pencil" aria-hidden="true"></i></a>      
                               {{-- <a href=" {{ route('user.edit', $user->id)}}" class="btn btn-info" title="Editar"><i class="fa fa-pencil" aria-hidden="true"></i></a>      
                               <a href="" class="btn btn-success" title="Ver"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>      
                               <a href="" class="btn btn-danger" title="Eliminar"><i class="fa fa-trash" aria-hidden="true"></i></a>       --}}

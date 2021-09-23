@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class AdmEstablecimientosTableSeeder extends Seeder
 {
@@ -16,9 +17,9 @@ class AdmEstablecimientosTableSeeder extends Seeder
     {
         
 
-        \DB::table('adm_establecimientos')->delete();
+        DB::table('adm_establecimientos')->delete();
         
-        \DB::table('adm_establecimientos')->insert(array (
+        DB::table('adm_establecimientos')->insert(array (
             0 => 
             array (
                 'id' => 1940,
@@ -10520,7 +10521,7 @@ class AdmEstablecimientosTableSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
         ));
-        \DB::table('adm_establecimientos')->insert(array (
+        DB::table('adm_establecimientos')->insert(array (
             0 => 
             array (
                 'id' => 2485,
@@ -21022,7 +21023,7 @@ class AdmEstablecimientosTableSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
         ));
-        \DB::table('adm_establecimientos')->insert(array (
+        DB::table('adm_establecimientos')->insert(array (
             0 => 
             array (
                 'id' => 3004,
@@ -31524,7 +31525,7 @@ class AdmEstablecimientosTableSeeder extends Seeder
                                     'deleted_at' => NULL,
                                 ),
                             ));
-        \DB::table('adm_establecimientos')->insert(array (
+        DB::table('adm_establecimientos')->insert(array (
             0 => 
             array (
                 'id' => 3536,
@@ -42026,7 +42027,7 @@ class AdmEstablecimientosTableSeeder extends Seeder
                     'deleted_at' => NULL,
                 ),
             ));
-        \DB::table('adm_establecimientos')->insert(array (
+        DB::table('adm_establecimientos')->insert(array (
             0 => 
             array (
                 'id' => 4075,

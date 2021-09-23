@@ -38,9 +38,9 @@
                               <td>{{ $user->ap_materno}}</td>
                               <td>{{ $user->ci}}</td>                              
                               <td>
-                              <a href=" {{ route('user.edit', $user->id)}}" class="btn btn-info" title="Editar"><i class="fa fa-pencil" aria-hidden="true"></i></a>      
-                              <a href="" class="btn btn-success" title="Ver"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>      
-                              <a href="" class="btn btn-danger" title="Eliminar"><i class="fa fa-trash" aria-hidden="true"></i></a>      
+                              <a href=" {{ route('user.edit', $user->id)}}" class="btn btn-secondary btn-light" title="Editar"><i class="fa fa-pencil" aria-hidden="true"></i></a>      
+                              <a href="" class="btn btn-secondary btn-light" title="Ver"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>      
+                              <a href="" class="btn btn-secondary btn-light" title="Eliminar"><i class="fa fa-trash" aria-hidden="true"></i></a>      
                             </td>                              
                           </tr>
                           @endforeach                         
