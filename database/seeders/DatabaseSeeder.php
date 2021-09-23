@@ -17,6 +17,9 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
         $this->call(AdmDepartamentoSeeder::class);
 
-        //$this->call(AdmMunicipiosTableSeeder::class);
+        $this->call(AdmMunicipiosTableSeeder::class);
+        //$this->call(UsersTableSeeder::class);
+        $this->call(AdmEstablecimientosTableSeeder::class);
+        $this->call(AdmRedesTableSeeder::class);
     }
 }
