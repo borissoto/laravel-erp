@@ -47,11 +47,13 @@ Route::prefix('admin')->group(function(){
     Route::get('/user/profile/edit', [AdmUserController::class, 'UserProfileEdit'])->name('user.profile.edit');
     // User Store Profile
     Route::post('/user/profile/store', [AdmUserController::class, 'UserProfileStore'])->name('user.profile.store');
-    // User List All
+    // RRHH List All
     Route::get('/rrhh/list', [AdmUserController::class, 'UserList'])->name('rrhh.list');   
-    // User add
+    // RRHH view
+    Route::get('/rrhh/view/{id}', [AdmUserController::class, 'rrhhView'])->name('rrhh.view');   
+    // RRHH add
     Route::get('/rrhh/add', [AdmUserController::class, 'UserAdd'])->name('rrhh.add');   
-    // User edit
+    // RRHH edit
     Route::get('/user/edit/{id}', [AdmUserController::class, 'UserEdit'])->name('user.edit');   
     
     /*EESS*/

@@ -68,4 +68,9 @@ class AdmUserController extends Controller
         $users = User::latest()->get();
         return view('backend.rrhh.rrhh_list', compact('users'));
     }
+
+    public function rrhhView($id){
+        $user = User::findOrFail($id);
+        return view('backend.rrhh.rrhh_view', compact('user'));
+    }
 }

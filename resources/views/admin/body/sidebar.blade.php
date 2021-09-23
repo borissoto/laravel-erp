@@ -20,7 +20,7 @@
 		<li>
           <a href="index.html">
             <i data-feather="pie-chart"></i>
-			<span>Dashboard</span>
+			<span>Inicio</span>
           </a>
         </li>  
 		
@@ -48,7 +48,7 @@
           <ul class="treeview-menu">
             <li><a href="{{ route('eess.list') }}"><i class="ti-more"></i>Lista EESS</a></li>
             <li><a href="{{ route('eess.add') }}"><i class="ti-more"></i>Añadir EESS</a></li>            
-            <li><a href="{{ route('eess.tipo.list') }}"><i class="ti-more"></i>Tipo EESS</a></li>            
+            {{-- <li><a href="{{ route('eess.tipo.list') }}"><i class="ti-more"></i>Tipo EESS</a></li>             --}}
           </ul>
         </li>
 		
