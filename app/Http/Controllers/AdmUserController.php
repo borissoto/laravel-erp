@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Redirect;
 use App\Models\AdmDepartamento;
 use App\Models\AdmProvincia;
 use App\Models\AdmMunicipio;
-
+use Carbon\Carbon;
 
 class AdmUserController extends Controller
 {
@@ -59,9 +59,9 @@ class AdmUserController extends Controller
     }
 
 
-    public function UserEdit($id){
-        $users = User::findOrFail($id);
-        return view('backend.rrhh.user_edit', compact('users'));
+    public function rrhhEdit($id){
+        $user = User::findOrFail($id);
+        return view('backend.rrhh.rrhh_edit', compact('user'));
     }
 
     public function UserList(){

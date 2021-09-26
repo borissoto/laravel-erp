@@ -54,7 +54,7 @@ Route::prefix('admin')->group(function(){
     // RRHH add
     Route::get('/rrhh/add', [AdmUserController::class, 'UserAdd'])->name('rrhh.add');   
     // RRHH edit
-    Route::get('/user/edit/{id}', [AdmUserController::class, 'UserEdit'])->name('user.edit');   
+    Route::get('/user/edit/{id}', [AdmUserController::class, 'rrhhEdit'])->name('rrhh.edit');   
     
     /*EESS*/
     // EESS List All
