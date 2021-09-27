@@ -1,18 +1,35 @@
 @extends('admin.admin_master')
 @section('admin')
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<div class="container-full">
+<section class="content-header">
+    <div class="container-fluid">
+      <div class="row mb-2">
+        <div class="col-sm-6">
+          <h1>
+            Mi Datos Personales
+            <small>new</small>
+          </h1>
+        </div>
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active">Navbar & Tabs</li>
+          </ol>
+        </div>
+      </div>
+    </div><!-- /.container-fluid -->
+  </section>
 
 <section class="content">
 
     <!-- Basic Forms -->
-     <div class="box">
-       <div class="box-header with-border">
-         <h4 class="box-title">Editar Perfil Usuario</h4>         
+    <div class="card card-primary card-outline">
+       <div class="card-header">
+            <i class="fas fa-edit"></i>
+            <h4 class="card-title">Editar Perfil Usuario</h4>         
        </div>
        <!-- /.box-header -->
-       <div class="box-body">
+       <div class="card-body">
          <div class="row">
            <div class="col">
                <form method="post" action=" {{ route('user.profile.store')}} " enctype="multipart/form-data">
@@ -70,12 +87,17 @@
          <!-- /.row -->
        </div>
        <!-- /.box-body -->
-     </div>
+    </div>
      <!-- /.box -->
 
    </section>
   
-</div>
+
+   
+
+
+
+
 
 <script type="text/javascript">
     $(document).ready(function(){

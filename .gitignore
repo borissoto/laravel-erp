@@ -1,8 +1,10 @@
 /node_modules
 /public/hot
 /public/storage
-/public/backend
-/public/assets
+/public/backend_borrar
+/public/assets_borrar
+/public/dist
+/public/plugins
 /storage/*.key
 /vendor
 .env
