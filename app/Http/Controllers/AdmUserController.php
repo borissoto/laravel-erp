@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use App\Models\AdmDepartamento;
+use App\Models\AdmEstablecimiento;
 use App\Models\AdmProvincia;
 use App\Models\AdmMunicipio;
 use Carbon\Carbon;
@@ -65,12 +66,12 @@ class AdmUserController extends Controller
     }
 
     public function UserList(){
-        $users = User::latest()->get();
+        $users = User::latest()->paginate(10);
         return view('backend.rrhh.rrhh_list', compact('users'));
     }
 
     public function rrhhView($id){
         $user = User::findOrFail($id);
         return view('backend.rrhh.rrhh_view', compact('user'));
-    }
+    }    
 }

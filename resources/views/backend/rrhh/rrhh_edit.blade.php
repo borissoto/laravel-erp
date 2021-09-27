@@ -27,106 +27,96 @@
                         <div class="tab-pane active" id="perfil" role="tabpanel">
                             <div class="p-15">
                                 <div class="col-lg-10 col-12">
-                                    <!-- Basic Forms -->
-                                      {{-- <div class="box">--}}
-                                        <!-- /.box-header -->
-                                        {{-- <div class="box-body"> --}}
-                                          <div class="row">
-                                            <div class="col-12">
-                                                <div class="form-group row">
-                                                  <label for="nombres" class="col-sm-3 col-form-label">Nombres</label>
-                                                  <div class="col-sm-9">
-                                                    <input class="form-control" type="text" value="{{ $user->nombres}}" id="nombres">
-                                                  </div>
-                                                </div>                                                
-                                                <div class="form-group row">
-                                                  <label for="ap-paterno" class="col-sm-3 col-form-label">Apellido Paterno</label>
-                                                  <div class="col-sm-9">
-                                                    <input class="form-control" type="text" value="{{ $user->ap_paterno}}" id="ap-paterno">
-                                                  </div>
-                                                </div>                                                
-                                                <div class="form-group row">
-                                                  <label for="ap-materno" class="col-sm-3 col-form-label">Apellido Materno</label>
-                                                  <div class="col-sm-9">
-                                                    <input class="form-control" type="text" value="{{ $user->ap_materno}}" id="ap-materno">
-                                                  </div>
-                                                </div>                                                
-                                                <div class="form-group row">
-                                                  <label for="ci" class="col-sm-3 col-form-label">Carnet Identidad</label>
-                                                  <div class="col-sm-5">
-                                                    <input class="form-control" type="number" value="{{ $user->ci }}" id="ci">
-                                                  </div>
-                                                  <label for="extension" class="col-sm-1 col-form-label">Dpto</label>
-                                                  <div class="col-sm-3" >
-                                                    <select class="form-control" id="extension">
-                                                        <option>Budget</option>
-                                                        <option>less than 5000$</option>
-                                                        <option>5000$ - 10000$</option>
-                                                        <option>10000$ - 20000$</option>
-                                                        <option>more than 20000$</option>
-                                                    </select>
-                                                  </div>                                                  
-                                                </div>                                                
-                                                <div class="form-group row">
-                                                    <label for="example-date-input" class="col-sm-3 col-form-label">Fecha Nacimiento</label>                                                                                                  
-                                                    <div class="col-sm-5"> 
-                                                        <input class="form-control" type="date" value="{{\Carbon\Carbon::parse($user->fecha_nac)->format('Y-m-d')}}" id="example-date-input">
-                                                    </div>
-                                                    <label for="extension" class="col-sm-1 col-form-label">Sexo</label>
-                                                    <div class="col-sm-3" >
-                                                        <select class="form-control" id="extension">
-                                                            <option>MASCULINO</option>
-                                                            <option>FEMENINO</option>                                                        
-                                                        </select>
-                                                    </div>                                                  
-                                                </div>                                                
-                                                <div class="form-group row">
-                                                    <label for="email" class="col-sm-3 col-form-label">Email</label>
-                                                    <div class="col-sm-9">
-                                                        <input class="form-control" type="email" value="{{ $user->email}}" id="email">
-                                                    </div>
-                                                </div>                                                
-                                                <div class="form-group row">
-                                                  <label for="telefono" class="col-sm-3 col-form-label">Telefono</label>
-                                                  <div class="col-sm-9">
-                                                    <input class="form-control" type="number" value="{{ $user->telefono }}" id="telefono">
-                                                  </div>
-                                                </div>
-                                                <div class="form-group row">
-                                                    <label for="domicilio" class="col-sm-3 col-form-label">Domicilio</label>
-                                                    <div class="col-sm-9">
-                                                      <input class="form-control" type="text" value="{{ $user->domicilio}}" id="domicilio">
-                                                    </div>
-                                                </div> 
-                                                <div class="form-group row">
-                                                    <label for="incorporacion" class="col-sm-3 col-form-label">Incorporacion</label>
-                                                    <div class="col-sm-5">
-                                                        <input class="form-control" type="date" value="{{\Carbon\Carbon::parse($user->incorporacion)->format('Y-m-d')}}" id="incorporacion">
-                                                    </div>
-                                                    <label for="item" class="col-sm-1 col-form-label">Item</label>
-                                                    <div class="col-sm-3">
-                                                        <input class="form-control" type="number" value="{{ $user->item }}" id="item">
-                                                    </div>                                                 
-                                                </div>   
-                                                <div class="form-group row">
-                                                    <label for="incorporacion" class="col-sm-3 col-form-label">Observaciones</label>
-                                                    <div class="col-sm-5">
-                                                      <input class="form-control" type="textarea" value="{{ $user->obs}}" id="nombres">
-                                                    </div>
-                                                    <label for="item" class="col-sm-1 col-form-label">Docente</label>
-                                                    <div class="col-sm-3">
-                                                      <input class="form-control" type="text" value="{{ $user->docente}}" id="nombres">
-                                                    </div>                                                 
-                                                </div>   
-                                                
-                                            </div>
-                                            <!-- /.col -->
+                                  <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group row">
+                                          <label for="nombres" class="col-sm-3 col-form-label">Nombres</label>
+                                          <div class="col-sm-9">
+                                            <input class="form-control" type="text" value="{{ $user->nombres}}" id="nombres">
                                           </div>
-                                          <!-- /.row -->
-                                        {{-- </div> --}}
-                                        <!-- /.box-body -->
-                                      {{-- </div> --}}
-                                      <!-- /.box -->			
+                                        </div>                                                
+                                        <div class="form-group row">
+                                          <label for="ap-paterno" class="col-sm-3 col-form-label">Apellido Paterno</label>
+                                          <div class="col-sm-9">
+                                            <input class="form-control" type="text" value="{{ $user->ap_paterno}}" id="ap-paterno">
+                                          </div>
+                                        </div>                                                
+                                        <div class="form-group row">
+                                          <label for="ap-materno" class="col-sm-3 col-form-label">Apellido Materno</label>
+                                          <div class="col-sm-9">
+                                            <input class="form-control" type="text" value="{{ $user->ap_materno}}" id="ap-materno">
+                                          </div>
+                                        </div>                                                
+                                        <div class="form-group row">
+                                          <label for="ci" class="col-sm-3 col-form-label">Carnet Identidad</label>
+                                          <div class="col-sm-5">
+                                            <input class="form-control" type="number" value="{{ $user->ci }}" id="ci">
+                                          </div>
+                                          <label for="extension" class="col-sm-1 col-form-label">Dpto</label>
+                                          <div class="col-sm-3" >
+                                            <select class="form-control" id="extension">
+                                                <option>Budget</option>
+                                                <option>less than 5000$</option>
+                                                <option>5000$ - 10000$</option>
+                                                <option>10000$ - 20000$</option>
+                                                <option>more than 20000$</option>
+                                            </select>
+                                          </div>                                                  
+                                        </div>                                                
+                                        <div class="form-group row">
+                                            <label for="example-date-input" class="col-sm-3 col-form-label">Fecha Nacimiento</label>                                                                                                  
+                                            <div class="col-sm-5"> 
+                                                <input class="form-control" type="date" value="{{\Carbon\Carbon::parse($user->fecha_nac)->format('Y-m-d')}}" id="example-date-input">
+                                            </div>
+                                            <label for="extension" class="col-sm-1 col-form-label">Sexo</label>
+                                            <div class="col-sm-3" >
+                                                <select class="form-control" id="extension">
+                                                    <option>MASCULINO</option>
+                                                    <option>FEMENINO</option>                                                        
+                                                </select>
+                                            </div>                                                  
+                                        </div>                                                
+                                        <div class="form-group row">
+                                            <label for="email" class="col-sm-3 col-form-label">Email</label>
+                                            <div class="col-sm-9">
+                                                <input class="form-control" type="email" value="{{ $user->email}}" id="email">
+                                            </div>
+                                        </div>                                                
+                                        <div class="form-group row">
+                                          <label for="telefono" class="col-sm-3 col-form-label">Telefono</label>
+                                          <div class="col-sm-9">
+                                            <input class="form-control" type="number" value="{{ $user->telefono }}" id="telefono">
+                                          </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="domicilio" class="col-sm-3 col-form-label">Domicilio</label>
+                                            <div class="col-sm-9">
+                                              <input class="form-control" type="text" value="{{ $user->domicilio}}" id="domicilio">
+                                            </div>
+                                        </div> 
+                                        <div class="form-group row">
+                                            <label for="incorporacion" class="col-sm-3 col-form-label">Incorporacion</label>
+                                            <div class="col-sm-5">
+                                                <input class="form-control" type="date" value="{{\Carbon\Carbon::parse($user->incorporacion)->format('Y-m-d')}}" id="incorporacion">
+                                            </div>
+                                            <label for="item" class="col-sm-1 col-form-label">Item</label>
+                                            <div class="col-sm-3">
+                                                <input class="form-control" type="number" value="{{ $user->item }}" id="item">
+                                            </div>                                                 
+                                        </div>   
+                                        <div class="form-group row">
+                                            <label for="incorporacion" class="col-sm-3 col-form-label">Observaciones</label>
+                                            <div class="col-sm-5">
+                                              <input class="form-control" type="textarea" value="{{ $user->obs}}" id="nombres">
+                                            </div>
+                                            <label for="item" class="col-sm-1 col-form-label">Docente</label>
+                                            <div class="col-sm-3">
+                                              <input class="form-control" type="text" value="{{ $user->docente}}" id="nombres">
+                                            </div>                                                 
+                                        </div>                                           
+                                    </div>
+                                    <!-- /.col -->
+                                  </div>                                          		
                                 </div>
                             </div>
                         </div>

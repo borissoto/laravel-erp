@@ -100,9 +100,9 @@
 			  </li>
 			</ul>
 		  </li>	 --}}
-		  {{-- @php
+		  @php
 			  $user = DB::table('users')->first();
-		  @endphp --}}
+		  @endphp
 
 	      <!-- User Account-->
           {{-- <li class="dropdown user user-menu">	 --}}

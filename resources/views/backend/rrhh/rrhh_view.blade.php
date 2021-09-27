@@ -12,7 +12,7 @@
             <div class="box-header with-border">
               <h4 class="box-title"><strong>{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno}}</strong> </h4>
               <h5 class="box-subtitle">{{ $user->name }}</h5>
-            </div>
+          </div>
           <!-- /.box-header -->
           <div class="box-body">
             <!-- Nav tabs -->
@@ -37,21 +37,21 @@
                           <img class="avatar avatar-xxl avatar-bordered" src="{{ (!empty($user->profile_photo_path))? url('upload/user_images/'.$user->profile_photo_path):url('upload/no_image.jpg')}}" alt="Foto de perfil" alt="">
                         </a>
                         <h4 class="mt-2 mb-0">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno}}<a class="hover-primary text-white" href="#"></a></h4>
-                        <span><i class="fa fa-id-card-o w-20"></i>{{$user->ci.' '.$user->adm_departamento_id}} </span>
+                        <span><i class="fa fa-hospital-o w-20"></i>{{$user->establecimiento->nom_establecimiento}} </span>
                         </div>
             
                         <ul class="box-body flexbox flex-justified text-center" data-overlay="4">
                         <li>
-                          <span class="opacity-60">Item/Contrato</span><br>
-                          <span class="font-size-20">{{$user->item}}</span>
+                          <span class="opacity-60">CI</span><br>
+                          <span class="font-size-16">{{$user->ci.' '.$user->departamento->abreviatura}}</span>
                         </li>
                         <li>
                           <span class="opacity-60">Telefono</span><br>
-                          <span class="font-size-20">{{$user->telefono}}</span>
+                          <span class="font-size-16">{{$user->telefono}}</span>
                         </li>
                         <li>
-                          <span class="opacity-60">EESS Actual</span><br>
-                          <span class="font-size-20">{{$user->adm_establecimiento_id}}</span>
+                          <span class="opacity-60">Item/Contrato</span><br>
+                          <span class="font-size-16">{{$user->item}}</span>
                         </li>
                         </ul>
                       </div>	

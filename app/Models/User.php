@@ -58,4 +58,12 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    public function establecimiento(){
+        return $this->hasOne(AdmEstablecimiento::class,'id','adm_establecimiento_id');
+    }
+
+    public function departamento(){
+        return $this->hasOne(AdmDepartamento::class,'id','adm_departamento_id');
+    }
 }

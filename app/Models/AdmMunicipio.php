@@ -17,4 +17,8 @@ class AdmMunicipio extends Model
         'municipio',
         'codigo_municipal',
     ];
+
+    public function departamento(){
+        return $this->hasOne(AdmDepartamento::class,'id','adm_departamento_id');
+    }
 }
