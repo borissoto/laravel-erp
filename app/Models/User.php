@@ -66,4 +66,8 @@ class User extends Authenticatable
     public function departamento(){
         return $this->hasOne(AdmDepartamento::class,'id','adm_departamento_id');
     }
+
+    public function cargos(){
+        return $this->hasMany(AdmCargo::class);
+    }
 }

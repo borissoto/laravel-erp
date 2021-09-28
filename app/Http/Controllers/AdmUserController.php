@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\AdmCargo;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -23,14 +24,18 @@ class AdmUserController extends Controller
         $id = Auth::user()->id;
         $user = User::find($id);
 
-        return view('backend.user.user_profile', compact('user'));
+        $cargo = AdmCargo::where(['users_id'=> $id, 'estado'=>1])->first();
+
+        return view('backend.user.user_profile', compact('user', 'cargo'));
     }
 
     public function UserProfileEdit(){
         $id = Auth::user()->id;
         $user = User::find($id);
 
-        return view('backend.user.user_profile_edit ', compact('user'));
+        $cargo = AdmCargo::where(['user_id'=> $user, 'estado'=>1])->get();
+
+        return view('backend.user.user_profile_edit ', compact('user','cargo'));
          
     }
 

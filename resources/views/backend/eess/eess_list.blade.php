@@ -43,19 +43,19 @@
                       <thead>
                           <tr>
                               {{-- <th>N°</th> --}}
-                              <th>Departamento</th>
-                              <th>Municipio</th>                              
-                              <th>Codigo Red</th>
-                              <th>Tipo</th>
                               <th>Establecimiento</th>
-                              <th>SubSector</th>
+                              <th>Dpto</th>
+                              <th>Municipio</th>                              
+                              <th>Cod-Red</th>
+                              <th>Tipo</th>
+                              {{-- <th>SubSector</th>
                               <th>Ambito</th>
-                              <th>Dependencia</th>
+                              <th>Dependencia</th> --}}
                               <th>Nivel</th>
-                              <th>Codigo SNIS</th>
+                              <th>Cod-SNIS</th>
                               {{-- <th>Latitud</th> --}}
                               {{-- <th>Longitud</th> --}}
-                              <th>Soaps</th>
+                              {{-- <th>Soaps</th> --}}
                               {{-- <th>Estado</th> --}}
                               <th>Acciones</th>
                           </tr>
@@ -64,19 +64,19 @@
                           @foreach ($establecimientos as $establecimiento) 
                           <tr>
                               {{-- <td></td> --}}
-                              <td>{{ $establecimiento->departamento->nom_departamento}}</td>
+                              <td>{{ $establecimiento->nom_establecimiento}}</td>                                                     
+                              <td>{{ $establecimiento->departamento->abreviatura}}</td>
                               <td>{{ $establecimiento->municipio->nom_municipio}}</td>                                                     
                               <td>{{ $establecimiento->cod_red}}</td>                                                     
                               <td>{{ $establecimiento->tipo}}</td>                                                     
-                              <td>{{ $establecimiento->nom_establecimiento}}</td>                                                     
-                              <td>{{ $establecimiento->subsector}}</td>                                                     
+                              {{-- <td>{{ $establecimiento->subsector}}</td>                                                     
                               <td>{{ $establecimiento->ambito}}</td>                                                     
-                              <td>{{ $establecimiento->dependencia}}</td>                                                     
+                              <td>{{ $establecimiento->dependencia}}</td>                                                      --}}
                               <td>{{ $establecimiento->nivel}}</td>                                                     
                               <td>{{ $establecimiento->codsnis}}</td>                                                     
                               {{-- <td>{{ $establecimiento->lat}}</td>                                                      --}}
                               {{-- <td>{{ $establecimiento->long}}</td>                                                      --}}
-                              <td>{{ $establecimiento->soaps}}</td>                                                     
+                              {{-- <td>{{ $establecimiento->soaps}}</td>                                                      --}}
                               {{-- <td>{{ $establecimiento->estado}}</td>                                                      --}}
                               <td>
                               {{-- <a href=" {{ route('user.edit', $user->id)}}" class="btn btn-info" title="Editar"><i class="fa fa-pencil" aria-hidden="true"></i></a>      

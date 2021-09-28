@@ -53,6 +53,7 @@
             <div class="card-header p-0 border-bottom-0">
               <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item"><a class="nav-link active" href="#personal" data-toggle="tab">Inf. Personal</a></li>
+                <li class="nav-item"><a class="nav-link" href="#cargo" data-toggle="tab">Cargo</a></li>
                 <li class="nav-item"><a class="nav-link" href="#establecimiento" data-toggle="tab">Establecimiento</a></li>
                 <li class="nav-item"><a class="nav-link" href="#educacion" data-toggle="tab">Educacion</a></li>
               </ul>
@@ -147,6 +148,40 @@
                     </div>
                     <!-- /.col -->
                   </div>  
+                </div>
+                <!-- /.tab-pane -->
+                <div class="tab-pane" id="cargo">
+                  <div class="row">
+                    <div class="col-12">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Estado</label>
+                          <div class="col-sm-9">                            
+                            <input class="form-control" type="text" disabled value="{{ $cargo->estado == 1 ? 'CARGO ACTUAL' : 'CARGO PASADO' }}" >
+                          </div>
+                        </div>                                                
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Cargo </label>
+                          <div class="col-sm-9">
+                            <input class="form-control" type="text" disabled value="{{ $cargo->nom_cargo}}" >
+                          </div>
+                        </div>                                                
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Area</label>
+                          <div class="col-sm-9">
+                            <input class="form-control" type="text" disabled value="{{ $cargo->unidad->nom_unidad}}" >
+                          </div>
+                        </div>                                                
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Desde</label>
+                          <div class="col-sm-9">
+                            <input class="form-control" type="text" disabled value="{{ $cargo->incorporacion}}" >
+                          </div>
+                        </div>                                              
+                                             
+                    </div>
+                    <!-- /.col -->
+                  </div> 
+                  
                 </div>
                 <!-- /.tab-pane -->
                 <div class="tab-pane" id="establecimiento">
