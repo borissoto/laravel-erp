@@ -31,7 +31,7 @@
           <img src="{{ (!empty($user->profile_photo_path))? url('upload/user_images/'.$user->profile_photo_path):url('upload/no_image.jpg')}}" 
         alt="" class="img-circle elevation-2" alt="Imagen del usuario">
           <p>{{$user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }} - 
-            <small>Bienvenido</small>
+            <small>Bienvenid@</small>
           </p>
         </li>
         <!-- Menu Body -->
