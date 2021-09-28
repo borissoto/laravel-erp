@@ -6,14 +6,14 @@
     <div class="row mb-2">
       <div class="col-sm-6">
         <h1>
-          Mi Datos Personales
-          <small>new</small>
+          Mi Perfil
+          <small><i class="fa fa-info-circle w-20"></i></small>
         </h1>
       </div>
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item active">Navbar & Tabs</li>
+          <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+          <li class="breadcrumb-item active">Mi Perfil</li>
         </ol>
       </div>
     </div>
@@ -28,7 +28,7 @@
 
           <!-- Profile Image -->
           <div class="card card-primary card-outline">
-            <div class="card-body box-profile">
+            <div class="card-body">
               <div class="text-center">
                 <img class="profile-user-img img-fluid img-circle"
                 src="{{ (!empty($user->profile_photo_path))? url('upload/user_images/'.$user->profile_photo_path):url('upload/no_image.jpg')}}" alt="Foto de perfil">
@@ -43,6 +43,8 @@
             <!-- /.card-body -->
           </div>
           <!-- /.card -->
+
+          <a href="{{ route('user.profile.edit')}}" style="float: right;" class="btn btn-rounded btn-success">Editar</a>
 
         </div>
         <!-- /.col -->

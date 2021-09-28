@@ -1,18 +1,18 @@
 @extends('admin.admin_master')
 @section('admin')
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
 <!-- Content Header (Page header) -->
 <section class="content-header">
   <div class="container-fluid">
     <div class="row mb-2">
       <div class="col-sm-6">
-        <h1>Lista Recrusos Humanos</h1>
+        <h1>Lista Recursos Humanos</h1>
       </div>
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item active">Simple Tables</li>
+          <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+          <li class="breadcrumb-item active">RRHH</li>
         </ol>
       </div>
     </div>
@@ -64,7 +64,9 @@
                           @endforeach                         
                         </tbody>                       
                       </table>
+                      <div class="d-flex justify-content-center">
                       {{$users->links('pagination::bootstrap-4')}}
+                      </div>
                   {{-- </div> --}}
               </div>
               <!-- /.box-body -->
