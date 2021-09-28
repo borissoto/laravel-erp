@@ -36,7 +36,8 @@ class CreateUsersTable extends Migration
             $table->string('item')->nullable();
             $table->timestamp('incorporacion')->nullable();
             $table->string('docente')->nullable();              
-            $table->string('obs')->nullable();              
+            $table->string('obs')->nullable();
+            $table->integer('estado');
             $table->timestamps();
         });
     }

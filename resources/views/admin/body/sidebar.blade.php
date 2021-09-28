@@ -54,7 +54,7 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item"><a href="{{ route('rrhh.list') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Usuarios</a></li>
-            <li class="nav-item"><a href="{{ route('rrhh.add') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Añadir Usuario</a></li>
+            <li class="nav-item"><a href="{{ route('rrhh.add') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Nuevo Usuario</a></li>
           </ul>
         </li>
 
@@ -67,8 +67,36 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item"><a href="{{ route('eess.list') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista EESS</a></li>
-            <li class="nav-item"><a href="{{ route('eess.add') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Añadir EESS</a></li>            
+            <li class="nav-item"><a href="{{ route('eess.add') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Nuevo EESS</a></li>            
             <li class="nav-item"><a href="{{ route('eess.tipo.list') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Tipo EESS</a></li>          
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-ambulance nav-icon"></i> 
+            <p>Brigadas
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Brigadas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Brigada</a></li>            
+            
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-map-signs nav-icon"></i> 
+            <p>Comunidades
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Comunidades(EESS)</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Comunidad</a></li>            
+            
           </ul>
         </li>
 
@@ -84,7 +112,7 @@
             <li class="nav-item"><a href="{{ route('municipio.list')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Municipios</a></li>            
             <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Tipo EESS</a></li>          
           </ul>
-        </li>
+        </li>   
         
       </ul>
     </nav>

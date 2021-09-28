@@ -16,7 +16,7 @@ class CreateAdmUnidadesTable extends Migration
         Schema::create('adm_unidades', function (Blueprint $table) {
             $table->id();
             $table->string('nom_unidad');            
-            $table->string('sigla');            
+            $table->string('sigla')->nullable();            
             $table->timestamps();
             $table->SoftDeletes();
         });
