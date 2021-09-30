@@ -10,6 +10,7 @@ use App\Http\Controllers\AdmProvinciaController;
 use App\Http\Controllers\AdmRedController;
 use App\Http\Controllers\AdmEstablecimientoController;
 use App\Http\Controllers\Backend\UserProfileController;
+use App\Http\Controllers\RrhhCalendarioController;
 use App\Http\Controllers\RrhhEventoController;
 use App\Models\User;
 use Illuminate\Support\Facades\DB;
@@ -75,9 +76,9 @@ Route::prefix('admin')->group(function(){
 
 
     /******CALENDARIO */
-    Route::get('/calendario/index', [RrhhEventoController::class, 'index'])->name('calendario.index');   
-    Route::get('/calendario/index', [RrhhEventoController::class, 'eventos'])->name('eventos');   
-    Route::post('/calendario/store', [RrhhEventoController::class, 'store'])->name('calendario.store');   
+    Route::get('/calendario/index', [RrhhCalendarioController::class, 'index'])->name('calendario.index');   
+    // Route::get('/calendario/index', [RrhhCalendarioController::class, 'eventos'])->name('eventos');   
+    Route::post('/calendario/store', [RrhhCalendarioController::class, 'store'])->name('calendario.store');   
 
       
 });

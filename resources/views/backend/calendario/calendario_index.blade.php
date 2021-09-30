@@ -34,12 +34,12 @@
                     @csrf                                                                        
                       <div class="form-group">
                         <label>Titulo Evento </label>                        
-                        <input class="form-control" type="text" name="titulo"  value="" >                        
+                        <input class="form-control" type="text" name="title"  value="" >                        
                       </div>                                       
-                      <div class="form-group">
+                      {{-- <div class="form-group">
                         <label>Descripcion</label>                          
                         <input type="text" name="descripcion" class="form-control" value="">                           
-                      </div>                                
+                      </div>                                 --}}
                       <div class="form-group">
                         <label>Fecha Inicio</label>                          
                         <input type="text" name="inicio" id="start" class="form-control" value="">                           
@@ -50,16 +50,16 @@
                       </div>                                
                       <div class="form-group">
                         <label>Todo el Dia</label>                            
-                          <input type="checkbox" name="todo_dia" value="1"> Si                           
-                          <input type="checkbox" name="todo_dia" value="0"> No                                                  
+                          <input type="checkbox" name="allDay" value="1"> Si                           
+                          <input type="checkbox" name="allDay" value="0"> No                                                  
                       </div>                                
                       <div class="form-group">
                         <label>Color Fondo</label>                          
-                        <input type="color" name="color" class="form-control" value="">                           
+                        <input type="color" name="backgroundColor" class="form-control" value="">                           
                       </div>                                
                       <div class="form-group">
                         <label>Color Texto</label>                          
-                        <input type="color" name="text_color" class="form-control" value="">                           
+                        <input type="color" name="textColor" class="form-control" value="">                           
                       </div>                                
                       <div class="text-xs-right">
                         <input type="submit"  class="btn btn-rounded btn-primary mb-5" value="Crear">
@@ -121,66 +121,84 @@
 @section('scripts')
 @parent
 <script> 
-$(document).ready(function() {
+// $(document).ready(function() {
 
-// page is now ready, initialize the calendar...
+// // page is now ready, initialize the calendar...
 
-function convert(str){
-  str = moment().format('YYYY-MM-DD HH:mm:ss');
-  return str;
-}
+// function convert(str){
+//   str = moment().format('YYYY-MM-DD HH:mm:ss');
+//   return str;
+// }
 
-var calendar = $('#calendar').fullCalendar({
-  // put your options and callbacks here
-  header: {
-    left: 'prev,next today',
-    center: 'title',
-    right: 'year,month,basicWeek,basicDay'
+// var calendar = $('#calendar').fullCalendar({
+//   // put your options and callbacks here
+//   header: {
+//     left: 'prev,next today',
+//     center: 'title',
+//     right: 'year,month,basicWeek,basicDay'
 
-  },
-  events:"{{route('eventos')}}",
-  dayClick:function(date,event,view){
-    $('#start').val(convert(date));     
+//   },  
+//   dayClick:function(date,event,view){
+//     $('#start').val(convert(date));     
   
-  },
-  timezone: 'local',
-  height: "auto",
-  selectable: true,
-  dragabble: true,
-  defaultView: 'month',
-  yearColumns: 3,
+//   },
+//   locale:'es',
+//   timezone: 'local',
+//   height: "auto",
+//   selectable: true,
+//   dragabble: true,
+//   defaultView: 'month',
+//   yearColumns: 3,
 
-  durationEditable: true,
+//   durationEditable: true,
 
-
-})
-});
-//   $(function () {
-
-//     var Calendar = FullCalendar.Calendar;
-//     var calendarEl = document.getElementById('calendar');
-
-//     var calendar = new Calendar(calendarEl, {
-//       headerToolbar: {
-//         left  : 'prev,next today',
-//         center: 'title',
-//         right : 'dayGridMonth,timeGridWeek,timeGridDay'
-//       },
-//       themeSystem: 'bootstrap',
-     
-//       editable  : true,
-//       droppable : true, // this allows things to be dropped onto the calendar !!!
-//       drop      : function(info) {
-//         // is the "remove after drop" checkbox checked?
-//         if (checkbox.checked) {
-//           // if so, remove the element from the "Draggable Events" list
-//           info.draggedEl.parentNode.removeChild(info.draggedEl);
-//         }
-//       }
-//     });
-
-//     calendar.render();
 
 // })
+// });
+  $(function () {
+
+    function convert(str){
+      str = moment().format('YYYY-MM-DD HH:mm:ss');
+      return str;
+    }
+
+    var Calendar = FullCalendar.Calendar;
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new Calendar(calendarEl, {     
+      locale: 'es',
+      selectable: true,
+      headerToolbar: {
+        left  : 'prev,next today',
+        center: 'title',
+        right : 'dayGridMonth,timeGridWeek,timeGridDay'
+      },
+      // eventClick:function(date,event,view){
+      //   $('#start').val(convert(date));
+      // },
+      
+      dateClick: function(info) {
+        $('#start').val(convert(info));
+        // alert('Clicked on: ' + info.dateStr);
+        // alert('Coordinates: ' + info.jsEvent.pageX + ',' + info.jsEvent.pageY);
+        // alert('Current view: ' + info.view.type);
+        // // change the day's background color just for fun
+        info.dayEl.style.backgroundColor = '#99b9d1';
+      },
+      themeSystem: 'bootstrap',     
+      editable  : true,
+      droppable : true, // this allows things to be dropped onto the calendar !!!
+      drop      : function(info) {
+        // is the "remove after drop" checkbox checked?
+        if (checkbox.checked) {
+          // if so, remove the element from the "Draggable Events" list
+          info.draggedEl.parentNode.removeChild(info.draggedEl);
+        }
+      }
+    });
+
+    calendar.render();
+
+})
 </script>    
 @endsection

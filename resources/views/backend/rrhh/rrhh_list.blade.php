@@ -54,9 +54,23 @@
                               <td>{{ $user->ap_materno}}</td>
                               <td>{{ $user->ci}}</td>                              
                               <td>
-                                <a href="{{ route('rrhh.view', $user->id)}}" class="btn btn-secondary btn-light" title="Ver"><i class="fa fa-eye" aria-hidden="true"></i></a>      
+                                <div class="btn-group">
+                                  {{-- <button type="button" class="btn btn-secondary">Action</button> --}}
+                                  <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fas fa-bars"></i>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                  </button>
+                                  <div class="dropdown-menu" role="menu">
+                                    <a class="dropdown-item" href="{{ route('rrhh.view', $user->id)}}">Ver</a>
+                                    <a class="dropdown-item" href="{{ route('rrhh.edit', $user->id)}}">Editar</a>
+                                    <a class="dropdown-item" href="#"></a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Asignar</a>
+                                    <a class="dropdown-item" href="#">Asignar</a>
+                                  </div>
+                                </div>
+                                {{-- <a href="{{ route('rrhh.view', $user->id)}}" class="btn btn-secondary btn-light" title="Ver"><i class="fa fa-eye" aria-hidden="true"></i></a>      
                                 <a href="{{ route('rrhh.edit', $user->id)}}" class="btn btn-secondary btn-light" title="Editar"><i class="fa fa-pencil" aria-hidden="true"></i></a>      
-                                <button type="button" class="btn btn-rounded btn-info" data-toggle="modal" data-target="#view-rrhh" >	Modal</button>
+                                <button type="button" class="btn btn-rounded btn-info" data-toggle="modal" data-target="#view-rrhh" >	Modal</button> --}}
                     
                                 {{-- <a href="" class="btn btn-secondary btn-light" title="Eliminar"><i class="fa fa-trash" aria-hidden="true"></i></a>       --}}
                               </td>                              
@@ -64,9 +78,12 @@
                           @endforeach                         
                         </tbody>                       
                       </table>
-                      <div class="d-flex justify-content-center">
-                      {{$users->links('pagination::bootstrap-4')}}
-                      </div>
+                      <div class="d-flex justify-content-start text-muted">
+                        Mostrando {{ $users->firstItem() }} to {{ $users->lastItem() }} de {{$users->total()}} registros.
+                        </div>
+                      <div class="d-flex justify-content-end">
+                        {{$users->links('pagination::bootstrap-4')}}                   
+                       </div>
                   {{-- </div> --}}
               </div>
               <!-- /.box-body -->

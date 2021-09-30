@@ -15,9 +15,14 @@ class CreateRrhhCalendariosTable extends Migration
     {
         Schema::create('rrhh_calendarios', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id');
-            $table->foreignId('rrhh_actividades_id');
-            $table->timestamp('fecha_actividad')->nullable();
+            $table->foreignId('user_id')->constrained();
+            $table->string('title',100);
+            //$table->string('descripcion',250)->nullable();
+            $table->dateTime('start');
+            $table->dateTime('end');
+            $table->integer('allDay');
+            $table->string('backgroundColor');
+            $table->string('textColor');
             $table->timestamps();
         });
     }

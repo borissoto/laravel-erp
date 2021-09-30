@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class RrhhCalendario extends Model
 {
     use HasFactory;
+    protected $fillable= ['user_id','title','start','end','allDay','backgrundColor','textColor'];
 }

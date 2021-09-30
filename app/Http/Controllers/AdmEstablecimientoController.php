@@ -15,8 +15,7 @@ use App\Models\AdmRedes;
 class AdmEstablecimientoController extends Controller
 {
     public function EessAdd(){
-        $departamentos = AdmDepartamento::latest()->get();
-        $provincias = AdmProvincia::latest()->get();
+        $departamentos = AdmDepartamento::latest()->get();        
         $municipios = AdmMunicipio::latest()->get();
         $redes = AdmRedes::latest()->get();
         $eess_tipos = AdmEesstipo::latest()->get();

@@ -88,9 +88,11 @@
                       </tbody>                      
                        
                     </table>
-                    <div class="d-flex justify-content-center">
-                    {{$establecimientos->links('pagination::bootstrap-4')}}
-                    Mostrando {{ $establecimientos->firstItem() }} to {{ $establecimientos->lastItem() }} de total {{$establecimientos->total()}} registros
+                    <div class="d-flex justify-content-start text-muted">
+                    Mostrando {{ $establecimientos->firstItem() }} to {{ $establecimientos->lastItem() }} de {{$establecimientos->total()}} registros.
+                    </div>
+                    <div class="d-flex justify-content-end">
+                    {{$establecimientos->links('pagination::bootstrap-4')}}                   
                     </div>
                   {{-- </div> --}}
               </div>

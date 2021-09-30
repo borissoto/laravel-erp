@@ -12,10 +12,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
+   <!-- Ionicons -->
+   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
    <!-- overlayScrollbars -->
    {{-- <link rel="stylesheet" href="{{asset('plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}"> --}}
   <!-- fullCalendar -->
-  <link rel="stylesheet" href="{{asset('css/fullcalendar.css')}}">
+  <link rel="stylesheet" href="{{asset('plugins/fullcalendar/main.css')}}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
 </head>
@@ -61,8 +63,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="{{asset('dist/js/adminlte.min.js')}}"></script>
 <!-- fullCalendar 2.2.5 -->
 <script src="{{asset('plugins/moment/moment.min.js')}}"></script>
-<script src="{{asset('js/fullcalendar.js')}}"></script>
-
+<script src="{{asset('plugins/fullcalendar/main.js')}}"></script>
+<script src="{{asset('plugins/fullcalendar/locales/es.js')}}"></script>
   @yield('scripts')
 
 </body>
