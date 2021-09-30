@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class RrhhBrigada extends Model
 {
     use HasFactory;
+
+    //Relacion uno a muchos (inversa)
+    public function usuario(){
+        return $this->belongsTo('App\Models\User');
+    }
 }

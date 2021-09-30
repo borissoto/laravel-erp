@@ -15,9 +15,9 @@ class CreateAdmRedesTable extends Migration
     {
         Schema::create('adm_redes', function (Blueprint $table) {
             $table->id();
-            $table->integer('adm_departamento_id');
+            $table->foreignId('adm_departamento_id')->nullable()->constrained('adm_departamentos')->onDelete('set null');
             $table->integer('cod_municipio');
-            $table->integer('cod_red');
+            $table->unsignedBigInteger('cod_red');
             $table->string('nom_red');
             $table->timestamps();
         });

@@ -16,7 +16,8 @@ class CreateAdmEstablecimientosTable extends Migration
         Schema::create('adm_establecimientos', function (Blueprint $table) {
             $table->id();
             $table->integer('adm_departamento_id');            
-            $table->integer('adm_municipio_id');
+            $table->unsignedBigInteger('adm_municipio_id')->nullable();
+            $table->foreign('adm_municipio_id')->references('id')->on('adm_municipios')->onDelete('set null');
             $table->integer('cod_red');
             $table->string('tipo');
             $table->string('nom_establecimiento');

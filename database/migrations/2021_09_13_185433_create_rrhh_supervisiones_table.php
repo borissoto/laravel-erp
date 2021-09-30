@@ -15,8 +15,8 @@ class CreateRrhhSupervisionesTable extends Migration
     {
         Schema::create('rrhh_supervisiones', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('users_id'); // id supervisor
-            $table->integer('supervisado_id'); //users_id
+            $table->foreignId('user_id'); // id supervisor
+            $table->integer('supervisado_id'); //user_id
             $table->integer('puntaje');
             $table->string('desempeno');  
             $table->string('poa');            

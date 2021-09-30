@@ -10,6 +10,7 @@ use App\Http\Controllers\AdmProvinciaController;
 use App\Http\Controllers\AdmRedController;
 use App\Http\Controllers\AdmEstablecimientoController;
 use App\Http\Controllers\Backend\UserProfileController;
+use App\Http\Controllers\RrhhEventoController;
 use App\Models\User;
 use Illuminate\Support\Facades\DB;
 /*
@@ -71,6 +72,12 @@ Route::prefix('admin')->group(function(){
 
     // Tipo EESS Store
     Route::post('/eess/tipo/store', [AdmEesstipoController::class, 'EesstipoStore'])->name('eess.tipo.store');   
+
+
+    /******CALENDARIO */
+    Route::get('/calendario/index', [RrhhEventoController::class, 'index'])->name('calendario.index');   
+    Route::get('/calendario/index', [RrhhEventoController::class, 'eventos'])->name('eventos');   
+    Route::post('/calendario/store', [RrhhEventoController::class, 'store'])->name('calendario.store');   
 
       
 });

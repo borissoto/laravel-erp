@@ -15,7 +15,7 @@ class CreateRrhhVacunasTable extends Migration
     {
         Schema::create('rrhh_vacunas', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('users_id');
+            $table->foreignId('user_id');
             $table->string('dosis');
             $table->timestamps();
         });

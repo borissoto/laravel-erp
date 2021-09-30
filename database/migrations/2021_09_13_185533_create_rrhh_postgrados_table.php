@@ -15,7 +15,7 @@ class CreateRrhhPostgradosTable extends Migration
     {
         Schema::create('rrhh_postgrados', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('users_id');
+            $table->foreignId('user_id');
             $table->string('tipo_postgrado');
             $table->string('nom_postgrado');
             $table->string('universidad');

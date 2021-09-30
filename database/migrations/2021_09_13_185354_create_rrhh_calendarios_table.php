@@ -15,7 +15,7 @@ class CreateRrhhCalendariosTable extends Migration
     {
         Schema::create('rrhh_calendarios', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('users_id');
+            $table->foreignId('user_id');
             $table->foreignId('rrhh_actividades_id');
             $table->timestamp('fecha_actividad')->nullable();
             $table->timestamps();

@@ -18,9 +18,11 @@ class DatabaseSeeder extends Seeder
         $this->call(AdmDepartamentoSeeder::class);
 
         $this->call(AdmMunicipiosTableSeeder::class);
-        // $this->call(UsersTableSeeder::class);
+        $this->call(UsersTableSeeder::class);
         $this->call(AdmEstablecimientosTableSeeder::class);
         $this->call(AdmRedesTableSeeder::class);
+
+        $this->call(AdmUnidadesSeeder::class);
         $this->call(AdmCargosTableSeeder::class);
     }
 }

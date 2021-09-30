@@ -23,8 +23,10 @@ class AdmUserController extends Controller
     public function UserProfile(){
         $id = Auth::user()->id;
         $user = User::find($id);
+        $cargo = AdmCargo::where('estado',1)->first();
 
-        $cargo = AdmCargo::where(['users_id'=> $id, 'estado'=>1])->first();
+        // $cargo = AdmCargo::where(['user_id'=> $id, 'estado'=>1])->first();
+        
 
         return view('backend.user.user_profile', compact('user', 'cargo'));
     }
@@ -33,7 +35,8 @@ class AdmUserController extends Controller
         $id = Auth::user()->id;
         $user = User::find($id);
 
-        $cargo = AdmCargo::where(['user_id'=> $user, 'estado'=>1])->get();
+        $cargo = AdmCargo::where('estado',1)->first();
+        // $cargo = AdmCargo::where(['user_id'=> $user, 'estado'=>1])->get();
 
         return view('backend.user.user_profile_edit ', compact('user','cargo'));
          
@@ -57,11 +60,10 @@ class AdmUserController extends Controller
     }
 
     public function UserAdd(){
-        $departamentos = AdmDepartamento::latest()->get();
-        $provincias = AdmProvincia::latest()->get();
+        $departamentos = AdmDepartamento::latest()->get();        
         $municipios = AdmMunicipio::latest()->get();
         
-        return view('backend.rrhh.user_add', compact('departamentos', 'provincias', 'municipios'));
+        return view('backend.rrhh.user_add', compact('departamentos', 'municipios'));
     }
 
 

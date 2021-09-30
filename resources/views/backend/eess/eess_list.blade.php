@@ -90,6 +90,7 @@
                     </table>
                     <div class="d-flex justify-content-center">
                     {{$establecimientos->links('pagination::bootstrap-4')}}
+                    Mostrando {{ $establecimientos->firstItem() }} to {{ $establecimientos->lastItem() }} de total {{$establecimientos->total()}} registros
                     </div>
                   {{-- </div> --}}
               </div>

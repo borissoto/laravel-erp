@@ -4,19 +4,21 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\User;
+use App\Models\AdmUnidades;
 
 class AdmCargo extends Model
 {
     use HasFactory;
 
-    public function usuariocargo()
+    public function usuario()
     {
-        return $this->belongsTo('App\User', 'users_id');
+        return $this->belongsTo(User::class);
     }
 
     public function unidad()
     {
-        return $this->hasOne(AdmUnidades::class,'id','adm_unidades_id');
+        return $this->belongsTo(AdmUnidades::class,'adm_unidades_id');
     }
 
 }

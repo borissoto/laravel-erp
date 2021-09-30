@@ -4,13 +4,9 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use App\Models\AdmCargo;
 
-class AdmUnidades extends Model
+class RrhhEvento extends Model
 {
     use HasFactory;
-
-    public function cargos(){
-        return $this->hasMany(AdmCargo::class);
-    }
+    protected $fillable= ['user_id','titulo','descripcion','inicio','fin','todo_dia','color','text_color'];
 }

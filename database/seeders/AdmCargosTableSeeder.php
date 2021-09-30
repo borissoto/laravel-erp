@@ -22,7 +22,7 @@ class AdmCargosTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'users_id' => 14,
+                'user_id' => 14,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35,7 +35,7 @@ class AdmCargosTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 2,
-                'users_id' => 56,
+                'user_id' => 56,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DE INFORMACION Y BASE DE DATOS',
                 'descripcion' => '',
@@ -48,7 +48,7 @@ class AdmCargosTableSeeder extends Seeder
             2 => 
             array (
                 'id' => 3,
-                'users_id' => 57,
+                'user_id' => 57,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -61,7 +61,7 @@ class AdmCargosTableSeeder extends Seeder
             3 => 
             array (
                 'id' => 4,
-                'users_id' => 58,
+                'user_id' => 58,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -74,7 +74,7 @@ class AdmCargosTableSeeder extends Seeder
             4 => 
             array (
                 'id' => 5,
-                'users_id' => 60,
+                'user_id' => 60,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -87,7 +87,7 @@ class AdmCargosTableSeeder extends Seeder
             5 => 
             array (
                 'id' => 6,
-                'users_id' => 61,
+                'user_id' => 61,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -100,7 +100,7 @@ class AdmCargosTableSeeder extends Seeder
             6 => 
             array (
                 'id' => 7,
-                'users_id' => 62,
+                'user_id' => 62,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -113,7 +113,7 @@ class AdmCargosTableSeeder extends Seeder
             7 => 
             array (
                 'id' => 8,
-                'users_id' => 63,
+                'user_id' => 63,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -126,7 +126,7 @@ class AdmCargosTableSeeder extends Seeder
             8 => 
             array (
                 'id' => 9,
-                'users_id' => 64,
+                'user_id' => 64,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -139,7 +139,7 @@ class AdmCargosTableSeeder extends Seeder
             9 => 
             array (
                 'id' => 10,
-                'users_id' => 65,
+                'user_id' => 65,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -152,7 +152,7 @@ class AdmCargosTableSeeder extends Seeder
             10 => 
             array (
                 'id' => 11,
-                'users_id' => 66,
+                'user_id' => 66,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -165,7 +165,7 @@ class AdmCargosTableSeeder extends Seeder
             11 => 
             array (
                 'id' => 12,
-                'users_id' => 68,
+                'user_id' => 68,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -178,7 +178,7 @@ class AdmCargosTableSeeder extends Seeder
             12 => 
             array (
                 'id' => 13,
-                'users_id' => 70,
+                'user_id' => 70,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -191,7 +191,7 @@ class AdmCargosTableSeeder extends Seeder
             13 => 
             array (
                 'id' => 14,
-                'users_id' => 72,
+                'user_id' => 72,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -204,7 +204,7 @@ class AdmCargosTableSeeder extends Seeder
             14 => 
             array (
                 'id' => 15,
-                'users_id' => 73,
+                'user_id' => 73,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -217,7 +217,7 @@ class AdmCargosTableSeeder extends Seeder
             15 => 
             array (
                 'id' => 16,
-                'users_id' => 74,
+                'user_id' => 74,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -230,7 +230,7 @@ class AdmCargosTableSeeder extends Seeder
             16 => 
             array (
                 'id' => 17,
-                'users_id' => 75,
+                'user_id' => 75,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -243,7 +243,7 @@ class AdmCargosTableSeeder extends Seeder
             17 => 
             array (
                 'id' => 18,
-                'users_id' => 76,
+                'user_id' => 76,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -256,7 +256,7 @@ class AdmCargosTableSeeder extends Seeder
             18 => 
             array (
                 'id' => 19,
-                'users_id' => 81,
+                'user_id' => 81,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -269,7 +269,7 @@ class AdmCargosTableSeeder extends Seeder
             19 => 
             array (
                 'id' => 20,
-                'users_id' => 82,
+                'user_id' => 82,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -282,7 +282,7 @@ class AdmCargosTableSeeder extends Seeder
             20 => 
             array (
                 'id' => 21,
-                'users_id' => 83,
+                'user_id' => 83,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -295,7 +295,7 @@ class AdmCargosTableSeeder extends Seeder
             21 => 
             array (
                 'id' => 22,
-                'users_id' => 84,
+                'user_id' => 84,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -308,7 +308,7 @@ class AdmCargosTableSeeder extends Seeder
             22 => 
             array (
                 'id' => 23,
-                'users_id' => 85,
+                'user_id' => 85,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -321,7 +321,7 @@ class AdmCargosTableSeeder extends Seeder
             23 => 
             array (
                 'id' => 24,
-                'users_id' => 86,
+                'user_id' => 86,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -334,7 +334,7 @@ class AdmCargosTableSeeder extends Seeder
             24 => 
             array (
                 'id' => 25,
-                'users_id' => 88,
+                'user_id' => 88,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -347,7 +347,7 @@ class AdmCargosTableSeeder extends Seeder
             25 => 
             array (
                 'id' => 26,
-                'users_id' => 89,
+                'user_id' => 89,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -360,7 +360,7 @@ class AdmCargosTableSeeder extends Seeder
             26 => 
             array (
                 'id' => 27,
-                'users_id' => 91,
+                'user_id' => 91,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -373,7 +373,7 @@ class AdmCargosTableSeeder extends Seeder
             27 => 
             array (
                 'id' => 28,
-                'users_id' => 92,
+                'user_id' => 92,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -386,7 +386,7 @@ class AdmCargosTableSeeder extends Seeder
             28 => 
             array (
                 'id' => 29,
-                'users_id' => 93,
+                'user_id' => 93,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -399,7 +399,7 @@ class AdmCargosTableSeeder extends Seeder
             29 => 
             array (
                 'id' => 30,
-                'users_id' => 96,
+                'user_id' => 96,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -412,7 +412,7 @@ class AdmCargosTableSeeder extends Seeder
             30 => 
             array (
                 'id' => 31,
-                'users_id' => 98,
+                'user_id' => 98,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -425,7 +425,7 @@ class AdmCargosTableSeeder extends Seeder
             31 => 
             array (
                 'id' => 32,
-                'users_id' => 99,
+                'user_id' => 99,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -438,7 +438,7 @@ class AdmCargosTableSeeder extends Seeder
             32 => 
             array (
                 'id' => 33,
-                'users_id' => 108,
+                'user_id' => 108,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -451,7 +451,7 @@ class AdmCargosTableSeeder extends Seeder
             33 => 
             array (
                 'id' => 34,
-                'users_id' => 109,
+                'user_id' => 109,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -464,7 +464,7 @@ class AdmCargosTableSeeder extends Seeder
             34 => 
             array (
                 'id' => 35,
-                'users_id' => 110,
+                'user_id' => 110,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -477,7 +477,7 @@ class AdmCargosTableSeeder extends Seeder
             35 => 
             array (
                 'id' => 36,
-                'users_id' => 111,
+                'user_id' => 111,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -490,7 +490,7 @@ class AdmCargosTableSeeder extends Seeder
             36 => 
             array (
                 'id' => 37,
-                'users_id' => 112,
+                'user_id' => 112,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -503,7 +503,7 @@ class AdmCargosTableSeeder extends Seeder
             37 => 
             array (
                 'id' => 38,
-                'users_id' => 113,
+                'user_id' => 113,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -516,7 +516,7 @@ class AdmCargosTableSeeder extends Seeder
             38 => 
             array (
                 'id' => 39,
-                'users_id' => 114,
+                'user_id' => 114,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -529,7 +529,7 @@ class AdmCargosTableSeeder extends Seeder
             39 => 
             array (
                 'id' => 40,
-                'users_id' => 115,
+                'user_id' => 115,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -542,7 +542,7 @@ class AdmCargosTableSeeder extends Seeder
             40 => 
             array (
                 'id' => 41,
-                'users_id' => 116,
+                'user_id' => 116,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -555,7 +555,7 @@ class AdmCargosTableSeeder extends Seeder
             41 => 
             array (
                 'id' => 42,
-                'users_id' => 117,
+                'user_id' => 117,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -568,7 +568,7 @@ class AdmCargosTableSeeder extends Seeder
             42 => 
             array (
                 'id' => 43,
-                'users_id' => 118,
+                'user_id' => 118,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -581,7 +581,7 @@ class AdmCargosTableSeeder extends Seeder
             43 => 
             array (
                 'id' => 44,
-                'users_id' => 119,
+                'user_id' => 119,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -594,7 +594,7 @@ class AdmCargosTableSeeder extends Seeder
             44 => 
             array (
                 'id' => 45,
-                'users_id' => 120,
+                'user_id' => 120,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -607,7 +607,7 @@ class AdmCargosTableSeeder extends Seeder
             45 => 
             array (
                 'id' => 46,
-                'users_id' => 121,
+                'user_id' => 121,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -620,7 +620,7 @@ class AdmCargosTableSeeder extends Seeder
             46 => 
             array (
                 'id' => 47,
-                'users_id' => 122,
+                'user_id' => 122,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -633,7 +633,7 @@ class AdmCargosTableSeeder extends Seeder
             47 => 
             array (
                 'id' => 48,
-                'users_id' => 123,
+                'user_id' => 123,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -646,7 +646,7 @@ class AdmCargosTableSeeder extends Seeder
             48 => 
             array (
                 'id' => 49,
-                'users_id' => 124,
+                'user_id' => 124,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -659,7 +659,7 @@ class AdmCargosTableSeeder extends Seeder
             49 => 
             array (
                 'id' => 50,
-                'users_id' => 126,
+                'user_id' => 126,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -672,7 +672,7 @@ class AdmCargosTableSeeder extends Seeder
             50 => 
             array (
                 'id' => 51,
-                'users_id' => 128,
+                'user_id' => 128,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -685,7 +685,7 @@ class AdmCargosTableSeeder extends Seeder
             51 => 
             array (
                 'id' => 52,
-                'users_id' => 130,
+                'user_id' => 130,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -698,7 +698,7 @@ class AdmCargosTableSeeder extends Seeder
             52 => 
             array (
                 'id' => 53,
-                'users_id' => 132,
+                'user_id' => 132,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -711,7 +711,7 @@ class AdmCargosTableSeeder extends Seeder
             53 => 
             array (
                 'id' => 54,
-                'users_id' => 133,
+                'user_id' => 133,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -724,7 +724,7 @@ class AdmCargosTableSeeder extends Seeder
             54 => 
             array (
                 'id' => 55,
-                'users_id' => 134,
+                'user_id' => 134,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -737,7 +737,7 @@ class AdmCargosTableSeeder extends Seeder
             55 => 
             array (
                 'id' => 56,
-                'users_id' => 135,
+                'user_id' => 135,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -750,7 +750,7 @@ class AdmCargosTableSeeder extends Seeder
             56 => 
             array (
                 'id' => 57,
-                'users_id' => 137,
+                'user_id' => 137,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -763,7 +763,7 @@ class AdmCargosTableSeeder extends Seeder
             57 => 
             array (
                 'id' => 58,
-                'users_id' => 140,
+                'user_id' => 140,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -776,7 +776,7 @@ class AdmCargosTableSeeder extends Seeder
             58 => 
             array (
                 'id' => 59,
-                'users_id' => 141,
+                'user_id' => 141,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -789,7 +789,7 @@ class AdmCargosTableSeeder extends Seeder
             59 => 
             array (
                 'id' => 60,
-                'users_id' => 142,
+                'user_id' => 142,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -802,7 +802,7 @@ class AdmCargosTableSeeder extends Seeder
             60 => 
             array (
                 'id' => 61,
-                'users_id' => 143,
+                'user_id' => 143,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -815,7 +815,7 @@ class AdmCargosTableSeeder extends Seeder
             61 => 
             array (
                 'id' => 62,
-                'users_id' => 144,
+                'user_id' => 144,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -828,7 +828,7 @@ class AdmCargosTableSeeder extends Seeder
             62 => 
             array (
                 'id' => 63,
-                'users_id' => 145,
+                'user_id' => 145,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -841,7 +841,7 @@ class AdmCargosTableSeeder extends Seeder
             63 => 
             array (
                 'id' => 64,
-                'users_id' => 146,
+                'user_id' => 146,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -854,7 +854,7 @@ class AdmCargosTableSeeder extends Seeder
             64 => 
             array (
                 'id' => 65,
-                'users_id' => 149,
+                'user_id' => 149,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -867,7 +867,7 @@ class AdmCargosTableSeeder extends Seeder
             65 => 
             array (
                 'id' => 66,
-                'users_id' => 150,
+                'user_id' => 150,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -880,7 +880,7 @@ class AdmCargosTableSeeder extends Seeder
             66 => 
             array (
                 'id' => 67,
-                'users_id' => 152,
+                'user_id' => 152,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -893,7 +893,7 @@ class AdmCargosTableSeeder extends Seeder
             67 => 
             array (
                 'id' => 68,
-                'users_id' => 153,
+                'user_id' => 153,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -906,7 +906,7 @@ class AdmCargosTableSeeder extends Seeder
             68 => 
             array (
                 'id' => 69,
-                'users_id' => 154,
+                'user_id' => 154,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -919,7 +919,7 @@ class AdmCargosTableSeeder extends Seeder
             69 => 
             array (
                 'id' => 70,
-                'users_id' => 155,
+                'user_id' => 155,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -932,7 +932,7 @@ class AdmCargosTableSeeder extends Seeder
             70 => 
             array (
                 'id' => 71,
-                'users_id' => 156,
+                'user_id' => 156,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -945,7 +945,7 @@ class AdmCargosTableSeeder extends Seeder
             71 => 
             array (
                 'id' => 72,
-                'users_id' => 157,
+                'user_id' => 157,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -958,7 +958,7 @@ class AdmCargosTableSeeder extends Seeder
             72 => 
             array (
                 'id' => 73,
-                'users_id' => 158,
+                'user_id' => 158,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -971,7 +971,7 @@ class AdmCargosTableSeeder extends Seeder
             73 => 
             array (
                 'id' => 74,
-                'users_id' => 159,
+                'user_id' => 159,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -984,7 +984,7 @@ class AdmCargosTableSeeder extends Seeder
             74 => 
             array (
                 'id' => 75,
-                'users_id' => 160,
+                'user_id' => 160,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -997,7 +997,7 @@ class AdmCargosTableSeeder extends Seeder
             75 => 
             array (
                 'id' => 76,
-                'users_id' => 161,
+                'user_id' => 161,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1010,7 +1010,7 @@ class AdmCargosTableSeeder extends Seeder
             76 => 
             array (
                 'id' => 77,
-                'users_id' => 162,
+                'user_id' => 162,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -1023,7 +1023,7 @@ class AdmCargosTableSeeder extends Seeder
             77 => 
             array (
                 'id' => 78,
-                'users_id' => 163,
+                'user_id' => 163,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1036,7 +1036,7 @@ class AdmCargosTableSeeder extends Seeder
             78 => 
             array (
                 'id' => 79,
-                'users_id' => 164,
+                'user_id' => 164,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1049,7 +1049,7 @@ class AdmCargosTableSeeder extends Seeder
             79 => 
             array (
                 'id' => 80,
-                'users_id' => 165,
+                'user_id' => 165,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1062,7 +1062,7 @@ class AdmCargosTableSeeder extends Seeder
             80 => 
             array (
                 'id' => 81,
-                'users_id' => 166,
+                'user_id' => 166,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1075,7 +1075,7 @@ class AdmCargosTableSeeder extends Seeder
             81 => 
             array (
                 'id' => 82,
-                'users_id' => 167,
+                'user_id' => 167,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1088,7 +1088,7 @@ class AdmCargosTableSeeder extends Seeder
             82 => 
             array (
                 'id' => 83,
-                'users_id' => 168,
+                'user_id' => 168,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1101,7 +1101,7 @@ class AdmCargosTableSeeder extends Seeder
             83 => 
             array (
                 'id' => 84,
-                'users_id' => 171,
+                'user_id' => 171,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1114,7 +1114,7 @@ class AdmCargosTableSeeder extends Seeder
             84 => 
             array (
                 'id' => 85,
-                'users_id' => 172,
+                'user_id' => 172,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1127,7 +1127,7 @@ class AdmCargosTableSeeder extends Seeder
             85 => 
             array (
                 'id' => 86,
-                'users_id' => 173,
+                'user_id' => 173,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1140,7 +1140,7 @@ class AdmCargosTableSeeder extends Seeder
             86 => 
             array (
                 'id' => 87,
-                'users_id' => 174,
+                'user_id' => 174,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -1153,7 +1153,7 @@ class AdmCargosTableSeeder extends Seeder
             87 => 
             array (
                 'id' => 88,
-                'users_id' => 176,
+                'user_id' => 176,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1166,7 +1166,7 @@ class AdmCargosTableSeeder extends Seeder
             88 => 
             array (
                 'id' => 89,
-                'users_id' => 181,
+                'user_id' => 181,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -1179,7 +1179,7 @@ class AdmCargosTableSeeder extends Seeder
             89 => 
             array (
                 'id' => 90,
-                'users_id' => 184,
+                'user_id' => 184,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1192,7 +1192,7 @@ class AdmCargosTableSeeder extends Seeder
             90 => 
             array (
                 'id' => 91,
-                'users_id' => 185,
+                'user_id' => 185,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1205,7 +1205,7 @@ class AdmCargosTableSeeder extends Seeder
             91 => 
             array (
                 'id' => 92,
-                'users_id' => 186,
+                'user_id' => 186,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1218,7 +1218,7 @@ class AdmCargosTableSeeder extends Seeder
             92 => 
             array (
                 'id' => 93,
-                'users_id' => 187,
+                'user_id' => 187,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1231,7 +1231,7 @@ class AdmCargosTableSeeder extends Seeder
             93 => 
             array (
                 'id' => 94,
-                'users_id' => 188,
+                'user_id' => 188,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1244,7 +1244,7 @@ class AdmCargosTableSeeder extends Seeder
             94 => 
             array (
                 'id' => 95,
-                'users_id' => 189,
+                'user_id' => 189,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1257,7 +1257,7 @@ class AdmCargosTableSeeder extends Seeder
             95 => 
             array (
                 'id' => 96,
-                'users_id' => 190,
+                'user_id' => 190,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1270,7 +1270,7 @@ class AdmCargosTableSeeder extends Seeder
             96 => 
             array (
                 'id' => 97,
-                'users_id' => 191,
+                'user_id' => 191,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1283,7 +1283,7 @@ class AdmCargosTableSeeder extends Seeder
             97 => 
             array (
                 'id' => 98,
-                'users_id' => 192,
+                'user_id' => 192,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1296,7 +1296,7 @@ class AdmCargosTableSeeder extends Seeder
             98 => 
             array (
                 'id' => 99,
-                'users_id' => 193,
+                'user_id' => 193,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1309,7 +1309,7 @@ class AdmCargosTableSeeder extends Seeder
             99 => 
             array (
                 'id' => 100,
-                'users_id' => 195,
+                'user_id' => 195,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -1322,7 +1322,7 @@ class AdmCargosTableSeeder extends Seeder
             100 => 
             array (
                 'id' => 101,
-                'users_id' => 196,
+                'user_id' => 196,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1335,7 +1335,7 @@ class AdmCargosTableSeeder extends Seeder
             101 => 
             array (
                 'id' => 102,
-                'users_id' => 197,
+                'user_id' => 197,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -1348,7 +1348,7 @@ class AdmCargosTableSeeder extends Seeder
             102 => 
             array (
                 'id' => 103,
-                'users_id' => 198,
+                'user_id' => 198,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1361,7 +1361,7 @@ class AdmCargosTableSeeder extends Seeder
             103 => 
             array (
                 'id' => 104,
-                'users_id' => 199,
+                'user_id' => 199,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -1374,7 +1374,7 @@ class AdmCargosTableSeeder extends Seeder
             104 => 
             array (
                 'id' => 105,
-                'users_id' => 201,
+                'user_id' => 201,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1387,7 +1387,7 @@ class AdmCargosTableSeeder extends Seeder
             105 => 
             array (
                 'id' => 106,
-                'users_id' => 202,
+                'user_id' => 202,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1400,7 +1400,7 @@ class AdmCargosTableSeeder extends Seeder
             106 => 
             array (
                 'id' => 107,
-                'users_id' => 203,
+                'user_id' => 203,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1413,7 +1413,7 @@ class AdmCargosTableSeeder extends Seeder
             107 => 
             array (
                 'id' => 108,
-                'users_id' => 204,
+                'user_id' => 204,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1426,7 +1426,7 @@ class AdmCargosTableSeeder extends Seeder
             108 => 
             array (
                 'id' => 109,
-                'users_id' => 206,
+                'user_id' => 206,
                 'estado' => 1,
                 'nom_cargo' => 'JEFE DE ENSEÑANZA',
                 'descripcion' => '',
@@ -1439,7 +1439,7 @@ class AdmCargosTableSeeder extends Seeder
             109 => 
             array (
                 'id' => 110,
-                'users_id' => 208,
+                'user_id' => 208,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1452,7 +1452,7 @@ class AdmCargosTableSeeder extends Seeder
             110 => 
             array (
                 'id' => 111,
-                'users_id' => 209,
+                'user_id' => 209,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1465,7 +1465,7 @@ class AdmCargosTableSeeder extends Seeder
             111 => 
             array (
                 'id' => 112,
-                'users_id' => 210,
+                'user_id' => 210,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1478,7 +1478,7 @@ class AdmCargosTableSeeder extends Seeder
             112 => 
             array (
                 'id' => 113,
-                'users_id' => 211,
+                'user_id' => 211,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1491,7 +1491,7 @@ class AdmCargosTableSeeder extends Seeder
             113 => 
             array (
                 'id' => 114,
-                'users_id' => 212,
+                'user_id' => 212,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1504,7 +1504,7 @@ class AdmCargosTableSeeder extends Seeder
             114 => 
             array (
                 'id' => 115,
-                'users_id' => 213,
+                'user_id' => 213,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1517,7 +1517,7 @@ class AdmCargosTableSeeder extends Seeder
             115 => 
             array (
                 'id' => 116,
-                'users_id' => 214,
+                'user_id' => 214,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1530,7 +1530,7 @@ class AdmCargosTableSeeder extends Seeder
             116 => 
             array (
                 'id' => 117,
-                'users_id' => 215,
+                'user_id' => 215,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1543,7 +1543,7 @@ class AdmCargosTableSeeder extends Seeder
             117 => 
             array (
                 'id' => 118,
-                'users_id' => 217,
+                'user_id' => 217,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1556,7 +1556,7 @@ class AdmCargosTableSeeder extends Seeder
             118 => 
             array (
                 'id' => 119,
-                'users_id' => 218,
+                'user_id' => 218,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1569,7 +1569,7 @@ class AdmCargosTableSeeder extends Seeder
             119 => 
             array (
                 'id' => 120,
-                'users_id' => 221,
+                'user_id' => 221,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1582,7 +1582,7 @@ class AdmCargosTableSeeder extends Seeder
             120 => 
             array (
                 'id' => 121,
-                'users_id' => 222,
+                'user_id' => 222,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1595,7 +1595,7 @@ class AdmCargosTableSeeder extends Seeder
             121 => 
             array (
                 'id' => 122,
-                'users_id' => 223,
+                'user_id' => 223,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1608,7 +1608,7 @@ class AdmCargosTableSeeder extends Seeder
             122 => 
             array (
                 'id' => 123,
-                'users_id' => 224,
+                'user_id' => 224,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1621,7 +1621,7 @@ class AdmCargosTableSeeder extends Seeder
             123 => 
             array (
                 'id' => 124,
-                'users_id' => 225,
+                'user_id' => 225,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1634,7 +1634,7 @@ class AdmCargosTableSeeder extends Seeder
             124 => 
             array (
                 'id' => 125,
-                'users_id' => 226,
+                'user_id' => 226,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1647,7 +1647,7 @@ class AdmCargosTableSeeder extends Seeder
             125 => 
             array (
                 'id' => 126,
-                'users_id' => 227,
+                'user_id' => 227,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1660,7 +1660,7 @@ class AdmCargosTableSeeder extends Seeder
             126 => 
             array (
                 'id' => 127,
-                'users_id' => 228,
+                'user_id' => 228,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1673,7 +1673,7 @@ class AdmCargosTableSeeder extends Seeder
             127 => 
             array (
                 'id' => 128,
-                'users_id' => 229,
+                'user_id' => 229,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1686,7 +1686,7 @@ class AdmCargosTableSeeder extends Seeder
             128 => 
             array (
                 'id' => 129,
-                'users_id' => 230,
+                'user_id' => 230,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1699,7 +1699,7 @@ class AdmCargosTableSeeder extends Seeder
             129 => 
             array (
                 'id' => 130,
-                'users_id' => 231,
+                'user_id' => 231,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1712,7 +1712,7 @@ class AdmCargosTableSeeder extends Seeder
             130 => 
             array (
                 'id' => 131,
-                'users_id' => 232,
+                'user_id' => 232,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1725,7 +1725,7 @@ class AdmCargosTableSeeder extends Seeder
             131 => 
             array (
                 'id' => 132,
-                'users_id' => 234,
+                'user_id' => 234,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1738,7 +1738,7 @@ class AdmCargosTableSeeder extends Seeder
             132 => 
             array (
                 'id' => 133,
-                'users_id' => 235,
+                'user_id' => 235,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1751,7 +1751,7 @@ class AdmCargosTableSeeder extends Seeder
             133 => 
             array (
                 'id' => 134,
-                'users_id' => 236,
+                'user_id' => 236,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1764,7 +1764,7 @@ class AdmCargosTableSeeder extends Seeder
             134 => 
             array (
                 'id' => 135,
-                'users_id' => 239,
+                'user_id' => 239,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -1777,7 +1777,7 @@ class AdmCargosTableSeeder extends Seeder
             135 => 
             array (
                 'id' => 136,
-                'users_id' => 240,
+                'user_id' => 240,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1790,7 +1790,7 @@ class AdmCargosTableSeeder extends Seeder
             136 => 
             array (
                 'id' => 137,
-                'users_id' => 242,
+                'user_id' => 242,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1803,7 +1803,7 @@ class AdmCargosTableSeeder extends Seeder
             137 => 
             array (
                 'id' => 138,
-                'users_id' => 244,
+                'user_id' => 244,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1816,7 +1816,7 @@ class AdmCargosTableSeeder extends Seeder
             138 => 
             array (
                 'id' => 139,
-                'users_id' => 245,
+                'user_id' => 245,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1829,7 +1829,7 @@ class AdmCargosTableSeeder extends Seeder
             139 => 
             array (
                 'id' => 140,
-                'users_id' => 246,
+                'user_id' => 246,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -1842,7 +1842,7 @@ class AdmCargosTableSeeder extends Seeder
             140 => 
             array (
                 'id' => 141,
-                'users_id' => 247,
+                'user_id' => 247,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1855,7 +1855,7 @@ class AdmCargosTableSeeder extends Seeder
             141 => 
             array (
                 'id' => 142,
-                'users_id' => 248,
+                'user_id' => 248,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1868,7 +1868,7 @@ class AdmCargosTableSeeder extends Seeder
             142 => 
             array (
                 'id' => 143,
-                'users_id' => 249,
+                'user_id' => 249,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1881,7 +1881,7 @@ class AdmCargosTableSeeder extends Seeder
             143 => 
             array (
                 'id' => 144,
-                'users_id' => 250,
+                'user_id' => 250,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -1894,7 +1894,7 @@ class AdmCargosTableSeeder extends Seeder
             144 => 
             array (
                 'id' => 145,
-                'users_id' => 251,
+                'user_id' => 251,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1907,7 +1907,7 @@ class AdmCargosTableSeeder extends Seeder
             145 => 
             array (
                 'id' => 146,
-                'users_id' => 253,
+                'user_id' => 253,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1920,7 +1920,7 @@ class AdmCargosTableSeeder extends Seeder
             146 => 
             array (
                 'id' => 147,
-                'users_id' => 254,
+                'user_id' => 254,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1933,7 +1933,7 @@ class AdmCargosTableSeeder extends Seeder
             147 => 
             array (
                 'id' => 148,
-                'users_id' => 255,
+                'user_id' => 255,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1946,7 +1946,7 @@ class AdmCargosTableSeeder extends Seeder
             148 => 
             array (
                 'id' => 149,
-                'users_id' => 257,
+                'user_id' => 257,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1959,7 +1959,7 @@ class AdmCargosTableSeeder extends Seeder
             149 => 
             array (
                 'id' => 150,
-                'users_id' => 258,
+                'user_id' => 258,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1972,7 +1972,7 @@ class AdmCargosTableSeeder extends Seeder
             150 => 
             array (
                 'id' => 151,
-                'users_id' => 259,
+                'user_id' => 259,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -1985,7 +1985,7 @@ class AdmCargosTableSeeder extends Seeder
             151 => 
             array (
                 'id' => 152,
-                'users_id' => 260,
+                'user_id' => 260,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -1998,7 +1998,7 @@ class AdmCargosTableSeeder extends Seeder
             152 => 
             array (
                 'id' => 153,
-                'users_id' => 261,
+                'user_id' => 261,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2011,7 +2011,7 @@ class AdmCargosTableSeeder extends Seeder
             153 => 
             array (
                 'id' => 154,
-                'users_id' => 262,
+                'user_id' => 262,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2024,7 +2024,7 @@ class AdmCargosTableSeeder extends Seeder
             154 => 
             array (
                 'id' => 155,
-                'users_id' => 263,
+                'user_id' => 263,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2037,7 +2037,7 @@ class AdmCargosTableSeeder extends Seeder
             155 => 
             array (
                 'id' => 156,
-                'users_id' => 264,
+                'user_id' => 264,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2050,7 +2050,7 @@ class AdmCargosTableSeeder extends Seeder
             156 => 
             array (
                 'id' => 157,
-                'users_id' => 265,
+                'user_id' => 265,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2063,7 +2063,7 @@ class AdmCargosTableSeeder extends Seeder
             157 => 
             array (
                 'id' => 158,
-                'users_id' => 266,
+                'user_id' => 266,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -2076,7 +2076,7 @@ class AdmCargosTableSeeder extends Seeder
             158 => 
             array (
                 'id' => 159,
-                'users_id' => 267,
+                'user_id' => 267,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2089,7 +2089,7 @@ class AdmCargosTableSeeder extends Seeder
             159 => 
             array (
                 'id' => 160,
-                'users_id' => 268,
+                'user_id' => 268,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2102,7 +2102,7 @@ class AdmCargosTableSeeder extends Seeder
             160 => 
             array (
                 'id' => 161,
-                'users_id' => 270,
+                'user_id' => 270,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2115,7 +2115,7 @@ class AdmCargosTableSeeder extends Seeder
             161 => 
             array (
                 'id' => 162,
-                'users_id' => 271,
+                'user_id' => 271,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2128,7 +2128,7 @@ class AdmCargosTableSeeder extends Seeder
             162 => 
             array (
                 'id' => 163,
-                'users_id' => 272,
+                'user_id' => 272,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -2141,7 +2141,7 @@ class AdmCargosTableSeeder extends Seeder
             163 => 
             array (
                 'id' => 164,
-                'users_id' => 274,
+                'user_id' => 274,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2154,7 +2154,7 @@ class AdmCargosTableSeeder extends Seeder
             164 => 
             array (
                 'id' => 165,
-                'users_id' => 275,
+                'user_id' => 275,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2167,7 +2167,7 @@ class AdmCargosTableSeeder extends Seeder
             165 => 
             array (
                 'id' => 166,
-                'users_id' => 276,
+                'user_id' => 276,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2180,7 +2180,7 @@ class AdmCargosTableSeeder extends Seeder
             166 => 
             array (
                 'id' => 167,
-                'users_id' => 277,
+                'user_id' => 277,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -2193,7 +2193,7 @@ class AdmCargosTableSeeder extends Seeder
             167 => 
             array (
                 'id' => 168,
-                'users_id' => 279,
+                'user_id' => 279,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2206,7 +2206,7 @@ class AdmCargosTableSeeder extends Seeder
             168 => 
             array (
                 'id' => 169,
-                'users_id' => 280,
+                'user_id' => 280,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2219,7 +2219,7 @@ class AdmCargosTableSeeder extends Seeder
             169 => 
             array (
                 'id' => 170,
-                'users_id' => 282,
+                'user_id' => 282,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -2232,7 +2232,7 @@ class AdmCargosTableSeeder extends Seeder
             170 => 
             array (
                 'id' => 171,
-                'users_id' => 283,
+                'user_id' => 283,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2245,7 +2245,7 @@ class AdmCargosTableSeeder extends Seeder
             171 => 
             array (
                 'id' => 172,
-                'users_id' => 284,
+                'user_id' => 284,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2258,7 +2258,7 @@ class AdmCargosTableSeeder extends Seeder
             172 => 
             array (
                 'id' => 173,
-                'users_id' => 285,
+                'user_id' => 285,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2271,7 +2271,7 @@ class AdmCargosTableSeeder extends Seeder
             173 => 
             array (
                 'id' => 174,
-                'users_id' => 286,
+                'user_id' => 286,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2284,7 +2284,7 @@ class AdmCargosTableSeeder extends Seeder
             174 => 
             array (
                 'id' => 175,
-                'users_id' => 287,
+                'user_id' => 287,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2297,7 +2297,7 @@ class AdmCargosTableSeeder extends Seeder
             175 => 
             array (
                 'id' => 176,
-                'users_id' => 288,
+                'user_id' => 288,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2310,7 +2310,7 @@ class AdmCargosTableSeeder extends Seeder
             176 => 
             array (
                 'id' => 177,
-                'users_id' => 289,
+                'user_id' => 289,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2323,7 +2323,7 @@ class AdmCargosTableSeeder extends Seeder
             177 => 
             array (
                 'id' => 178,
-                'users_id' => 290,
+                'user_id' => 290,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2336,7 +2336,7 @@ class AdmCargosTableSeeder extends Seeder
             178 => 
             array (
                 'id' => 179,
-                'users_id' => 291,
+                'user_id' => 291,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2349,7 +2349,7 @@ class AdmCargosTableSeeder extends Seeder
             179 => 
             array (
                 'id' => 180,
-                'users_id' => 292,
+                'user_id' => 292,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2362,7 +2362,7 @@ class AdmCargosTableSeeder extends Seeder
             180 => 
             array (
                 'id' => 181,
-                'users_id' => 293,
+                'user_id' => 293,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2375,7 +2375,7 @@ class AdmCargosTableSeeder extends Seeder
             181 => 
             array (
                 'id' => 182,
-                'users_id' => 294,
+                'user_id' => 294,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2388,7 +2388,7 @@ class AdmCargosTableSeeder extends Seeder
             182 => 
             array (
                 'id' => 183,
-                'users_id' => 295,
+                'user_id' => 295,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2401,7 +2401,7 @@ class AdmCargosTableSeeder extends Seeder
             183 => 
             array (
                 'id' => 184,
-                'users_id' => 296,
+                'user_id' => 296,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2414,7 +2414,7 @@ class AdmCargosTableSeeder extends Seeder
             184 => 
             array (
                 'id' => 185,
-                'users_id' => 297,
+                'user_id' => 297,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -2427,7 +2427,7 @@ class AdmCargosTableSeeder extends Seeder
             185 => 
             array (
                 'id' => 186,
-                'users_id' => 298,
+                'user_id' => 298,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2440,7 +2440,7 @@ class AdmCargosTableSeeder extends Seeder
             186 => 
             array (
                 'id' => 187,
-                'users_id' => 299,
+                'user_id' => 299,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2453,7 +2453,7 @@ class AdmCargosTableSeeder extends Seeder
             187 => 
             array (
                 'id' => 188,
-                'users_id' => 300,
+                'user_id' => 300,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -2466,7 +2466,7 @@ class AdmCargosTableSeeder extends Seeder
             188 => 
             array (
                 'id' => 189,
-                'users_id' => 301,
+                'user_id' => 301,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2479,7 +2479,7 @@ class AdmCargosTableSeeder extends Seeder
             189 => 
             array (
                 'id' => 190,
-                'users_id' => 302,
+                'user_id' => 302,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2492,7 +2492,7 @@ class AdmCargosTableSeeder extends Seeder
             190 => 
             array (
                 'id' => 191,
-                'users_id' => 303,
+                'user_id' => 303,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2505,7 +2505,7 @@ class AdmCargosTableSeeder extends Seeder
             191 => 
             array (
                 'id' => 192,
-                'users_id' => 304,
+                'user_id' => 304,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2518,7 +2518,7 @@ class AdmCargosTableSeeder extends Seeder
             192 => 
             array (
                 'id' => 193,
-                'users_id' => 305,
+                'user_id' => 305,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2531,7 +2531,7 @@ class AdmCargosTableSeeder extends Seeder
             193 => 
             array (
                 'id' => 194,
-                'users_id' => 306,
+                'user_id' => 306,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2544,7 +2544,7 @@ class AdmCargosTableSeeder extends Seeder
             194 => 
             array (
                 'id' => 195,
-                'users_id' => 307,
+                'user_id' => 307,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2557,7 +2557,7 @@ class AdmCargosTableSeeder extends Seeder
             195 => 
             array (
                 'id' => 196,
-                'users_id' => 308,
+                'user_id' => 308,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2570,7 +2570,7 @@ class AdmCargosTableSeeder extends Seeder
             196 => 
             array (
                 'id' => 197,
-                'users_id' => 309,
+                'user_id' => 309,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2583,7 +2583,7 @@ class AdmCargosTableSeeder extends Seeder
             197 => 
             array (
                 'id' => 198,
-                'users_id' => 310,
+                'user_id' => 310,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2596,7 +2596,7 @@ class AdmCargosTableSeeder extends Seeder
             198 => 
             array (
                 'id' => 199,
-                'users_id' => 311,
+                'user_id' => 311,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2609,7 +2609,7 @@ class AdmCargosTableSeeder extends Seeder
             199 => 
             array (
                 'id' => 200,
-                'users_id' => 312,
+                'user_id' => 312,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2622,7 +2622,7 @@ class AdmCargosTableSeeder extends Seeder
             200 => 
             array (
                 'id' => 201,
-                'users_id' => 313,
+                'user_id' => 313,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2635,7 +2635,7 @@ class AdmCargosTableSeeder extends Seeder
             201 => 
             array (
                 'id' => 202,
-                'users_id' => 314,
+                'user_id' => 314,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2648,7 +2648,7 @@ class AdmCargosTableSeeder extends Seeder
             202 => 
             array (
                 'id' => 203,
-                'users_id' => 315,
+                'user_id' => 315,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2661,7 +2661,7 @@ class AdmCargosTableSeeder extends Seeder
             203 => 
             array (
                 'id' => 204,
-                'users_id' => 316,
+                'user_id' => 316,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2674,7 +2674,7 @@ class AdmCargosTableSeeder extends Seeder
             204 => 
             array (
                 'id' => 205,
-                'users_id' => 317,
+                'user_id' => 317,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2687,7 +2687,7 @@ class AdmCargosTableSeeder extends Seeder
             205 => 
             array (
                 'id' => 206,
-                'users_id' => 318,
+                'user_id' => 318,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2700,7 +2700,7 @@ class AdmCargosTableSeeder extends Seeder
             206 => 
             array (
                 'id' => 207,
-                'users_id' => 319,
+                'user_id' => 319,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2713,7 +2713,7 @@ class AdmCargosTableSeeder extends Seeder
             207 => 
             array (
                 'id' => 208,
-                'users_id' => 321,
+                'user_id' => 321,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -2726,7 +2726,7 @@ class AdmCargosTableSeeder extends Seeder
             208 => 
             array (
                 'id' => 209,
-                'users_id' => 322,
+                'user_id' => 322,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2739,7 +2739,7 @@ class AdmCargosTableSeeder extends Seeder
             209 => 
             array (
                 'id' => 210,
-                'users_id' => 323,
+                'user_id' => 323,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2752,7 +2752,7 @@ class AdmCargosTableSeeder extends Seeder
             210 => 
             array (
                 'id' => 211,
-                'users_id' => 324,
+                'user_id' => 324,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2765,7 +2765,7 @@ class AdmCargosTableSeeder extends Seeder
             211 => 
             array (
                 'id' => 212,
-                'users_id' => 325,
+                'user_id' => 325,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -2778,7 +2778,7 @@ class AdmCargosTableSeeder extends Seeder
             212 => 
             array (
                 'id' => 213,
-                'users_id' => 326,
+                'user_id' => 326,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2791,7 +2791,7 @@ class AdmCargosTableSeeder extends Seeder
             213 => 
             array (
                 'id' => 214,
-                'users_id' => 327,
+                'user_id' => 327,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2804,7 +2804,7 @@ class AdmCargosTableSeeder extends Seeder
             214 => 
             array (
                 'id' => 215,
-                'users_id' => 328,
+                'user_id' => 328,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2817,7 +2817,7 @@ class AdmCargosTableSeeder extends Seeder
             215 => 
             array (
                 'id' => 216,
-                'users_id' => 329,
+                'user_id' => 329,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -2830,7 +2830,7 @@ class AdmCargosTableSeeder extends Seeder
             216 => 
             array (
                 'id' => 217,
-                'users_id' => 330,
+                'user_id' => 330,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2843,7 +2843,7 @@ class AdmCargosTableSeeder extends Seeder
             217 => 
             array (
                 'id' => 218,
-                'users_id' => 331,
+                'user_id' => 331,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2856,7 +2856,7 @@ class AdmCargosTableSeeder extends Seeder
             218 => 
             array (
                 'id' => 219,
-                'users_id' => 332,
+                'user_id' => 332,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2869,7 +2869,7 @@ class AdmCargosTableSeeder extends Seeder
             219 => 
             array (
                 'id' => 220,
-                'users_id' => 333,
+                'user_id' => 333,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2882,7 +2882,7 @@ class AdmCargosTableSeeder extends Seeder
             220 => 
             array (
                 'id' => 221,
-                'users_id' => 334,
+                'user_id' => 334,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2895,7 +2895,7 @@ class AdmCargosTableSeeder extends Seeder
             221 => 
             array (
                 'id' => 222,
-                'users_id' => 335,
+                'user_id' => 335,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2908,7 +2908,7 @@ class AdmCargosTableSeeder extends Seeder
             222 => 
             array (
                 'id' => 223,
-                'users_id' => 336,
+                'user_id' => 336,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2921,7 +2921,7 @@ class AdmCargosTableSeeder extends Seeder
             223 => 
             array (
                 'id' => 224,
-                'users_id' => 337,
+                'user_id' => 337,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2934,7 +2934,7 @@ class AdmCargosTableSeeder extends Seeder
             224 => 
             array (
                 'id' => 225,
-                'users_id' => 339,
+                'user_id' => 339,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2947,7 +2947,7 @@ class AdmCargosTableSeeder extends Seeder
             225 => 
             array (
                 'id' => 226,
-                'users_id' => 340,
+                'user_id' => 340,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -2960,7 +2960,7 @@ class AdmCargosTableSeeder extends Seeder
             226 => 
             array (
                 'id' => 227,
-                'users_id' => 342,
+                'user_id' => 342,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2973,7 +2973,7 @@ class AdmCargosTableSeeder extends Seeder
             227 => 
             array (
                 'id' => 228,
-                'users_id' => 343,
+                'user_id' => 343,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -2986,7 +2986,7 @@ class AdmCargosTableSeeder extends Seeder
             228 => 
             array (
                 'id' => 229,
-                'users_id' => 344,
+                'user_id' => 344,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -2999,7 +2999,7 @@ class AdmCargosTableSeeder extends Seeder
             229 => 
             array (
                 'id' => 230,
-                'users_id' => 345,
+                'user_id' => 345,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3012,7 +3012,7 @@ class AdmCargosTableSeeder extends Seeder
             230 => 
             array (
                 'id' => 231,
-                'users_id' => 352,
+                'user_id' => 352,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3025,7 +3025,7 @@ class AdmCargosTableSeeder extends Seeder
             231 => 
             array (
                 'id' => 232,
-                'users_id' => 353,
+                'user_id' => 353,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3038,7 +3038,7 @@ class AdmCargosTableSeeder extends Seeder
             232 => 
             array (
                 'id' => 233,
-                'users_id' => 354,
+                'user_id' => 354,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3051,7 +3051,7 @@ class AdmCargosTableSeeder extends Seeder
             233 => 
             array (
                 'id' => 234,
-                'users_id' => 355,
+                'user_id' => 355,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3064,7 +3064,7 @@ class AdmCargosTableSeeder extends Seeder
             234 => 
             array (
                 'id' => 235,
-                'users_id' => 356,
+                'user_id' => 356,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3077,7 +3077,7 @@ class AdmCargosTableSeeder extends Seeder
             235 => 
             array (
                 'id' => 236,
-                'users_id' => 357,
+                'user_id' => 357,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3090,7 +3090,7 @@ class AdmCargosTableSeeder extends Seeder
             236 => 
             array (
                 'id' => 237,
-                'users_id' => 358,
+                'user_id' => 358,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3103,7 +3103,7 @@ class AdmCargosTableSeeder extends Seeder
             237 => 
             array (
                 'id' => 238,
-                'users_id' => 359,
+                'user_id' => 359,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3116,7 +3116,7 @@ class AdmCargosTableSeeder extends Seeder
             238 => 
             array (
                 'id' => 239,
-                'users_id' => 360,
+                'user_id' => 360,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3129,7 +3129,7 @@ class AdmCargosTableSeeder extends Seeder
             239 => 
             array (
                 'id' => 240,
-                'users_id' => 361,
+                'user_id' => 361,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3142,7 +3142,7 @@ class AdmCargosTableSeeder extends Seeder
             240 => 
             array (
                 'id' => 241,
-                'users_id' => 362,
+                'user_id' => 362,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3155,7 +3155,7 @@ class AdmCargosTableSeeder extends Seeder
             241 => 
             array (
                 'id' => 242,
-                'users_id' => 363,
+                'user_id' => 363,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3168,7 +3168,7 @@ class AdmCargosTableSeeder extends Seeder
             242 => 
             array (
                 'id' => 243,
-                'users_id' => 364,
+                'user_id' => 364,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3181,7 +3181,7 @@ class AdmCargosTableSeeder extends Seeder
             243 => 
             array (
                 'id' => 244,
-                'users_id' => 365,
+                'user_id' => 365,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3194,7 +3194,7 @@ class AdmCargosTableSeeder extends Seeder
             244 => 
             array (
                 'id' => 245,
-                'users_id' => 366,
+                'user_id' => 366,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3207,7 +3207,7 @@ class AdmCargosTableSeeder extends Seeder
             245 => 
             array (
                 'id' => 246,
-                'users_id' => 367,
+                'user_id' => 367,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3220,7 +3220,7 @@ class AdmCargosTableSeeder extends Seeder
             246 => 
             array (
                 'id' => 247,
-                'users_id' => 368,
+                'user_id' => 368,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3233,7 +3233,7 @@ class AdmCargosTableSeeder extends Seeder
             247 => 
             array (
                 'id' => 248,
-                'users_id' => 370,
+                'user_id' => 370,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3246,7 +3246,7 @@ class AdmCargosTableSeeder extends Seeder
             248 => 
             array (
                 'id' => 249,
-                'users_id' => 372,
+                'user_id' => 372,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3259,7 +3259,7 @@ class AdmCargosTableSeeder extends Seeder
             249 => 
             array (
                 'id' => 250,
-                'users_id' => 374,
+                'user_id' => 374,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3272,7 +3272,7 @@ class AdmCargosTableSeeder extends Seeder
             250 => 
             array (
                 'id' => 251,
-                'users_id' => 375,
+                'user_id' => 375,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3285,7 +3285,7 @@ class AdmCargosTableSeeder extends Seeder
             251 => 
             array (
                 'id' => 252,
-                'users_id' => 376,
+                'user_id' => 376,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3298,7 +3298,7 @@ class AdmCargosTableSeeder extends Seeder
             252 => 
             array (
                 'id' => 253,
-                'users_id' => 378,
+                'user_id' => 378,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3311,7 +3311,7 @@ class AdmCargosTableSeeder extends Seeder
             253 => 
             array (
                 'id' => 254,
-                'users_id' => 379,
+                'user_id' => 379,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3324,7 +3324,7 @@ class AdmCargosTableSeeder extends Seeder
             254 => 
             array (
                 'id' => 255,
-                'users_id' => 381,
+                'user_id' => 381,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3337,7 +3337,7 @@ class AdmCargosTableSeeder extends Seeder
             255 => 
             array (
                 'id' => 256,
-                'users_id' => 385,
+                'user_id' => 385,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3350,7 +3350,7 @@ class AdmCargosTableSeeder extends Seeder
             256 => 
             array (
                 'id' => 257,
-                'users_id' => 388,
+                'user_id' => 388,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3363,7 +3363,7 @@ class AdmCargosTableSeeder extends Seeder
             257 => 
             array (
                 'id' => 258,
-                'users_id' => 389,
+                'user_id' => 389,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3376,7 +3376,7 @@ class AdmCargosTableSeeder extends Seeder
             258 => 
             array (
                 'id' => 259,
-                'users_id' => 390,
+                'user_id' => 390,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3389,7 +3389,7 @@ class AdmCargosTableSeeder extends Seeder
             259 => 
             array (
                 'id' => 260,
-                'users_id' => 391,
+                'user_id' => 391,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3402,7 +3402,7 @@ class AdmCargosTableSeeder extends Seeder
             260 => 
             array (
                 'id' => 261,
-                'users_id' => 392,
+                'user_id' => 392,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3415,7 +3415,7 @@ class AdmCargosTableSeeder extends Seeder
             261 => 
             array (
                 'id' => 262,
-                'users_id' => 393,
+                'user_id' => 393,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3428,7 +3428,7 @@ class AdmCargosTableSeeder extends Seeder
             262 => 
             array (
                 'id' => 263,
-                'users_id' => 394,
+                'user_id' => 394,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3441,7 +3441,7 @@ class AdmCargosTableSeeder extends Seeder
             263 => 
             array (
                 'id' => 264,
-                'users_id' => 395,
+                'user_id' => 395,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3454,7 +3454,7 @@ class AdmCargosTableSeeder extends Seeder
             264 => 
             array (
                 'id' => 265,
-                'users_id' => 396,
+                'user_id' => 396,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3467,7 +3467,7 @@ class AdmCargosTableSeeder extends Seeder
             265 => 
             array (
                 'id' => 266,
-                'users_id' => 397,
+                'user_id' => 397,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3480,7 +3480,7 @@ class AdmCargosTableSeeder extends Seeder
             266 => 
             array (
                 'id' => 267,
-                'users_id' => 398,
+                'user_id' => 398,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3493,7 +3493,7 @@ class AdmCargosTableSeeder extends Seeder
             267 => 
             array (
                 'id' => 268,
-                'users_id' => 399,
+                'user_id' => 399,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3506,7 +3506,7 @@ class AdmCargosTableSeeder extends Seeder
             268 => 
             array (
                 'id' => 269,
-                'users_id' => 400,
+                'user_id' => 400,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3519,7 +3519,7 @@ class AdmCargosTableSeeder extends Seeder
             269 => 
             array (
                 'id' => 270,
-                'users_id' => 401,
+                'user_id' => 401,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3532,7 +3532,7 @@ class AdmCargosTableSeeder extends Seeder
             270 => 
             array (
                 'id' => 271,
-                'users_id' => 402,
+                'user_id' => 402,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3545,7 +3545,7 @@ class AdmCargosTableSeeder extends Seeder
             271 => 
             array (
                 'id' => 272,
-                'users_id' => 405,
+                'user_id' => 405,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3558,7 +3558,7 @@ class AdmCargosTableSeeder extends Seeder
             272 => 
             array (
                 'id' => 273,
-                'users_id' => 408,
+                'user_id' => 408,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3571,7 +3571,7 @@ class AdmCargosTableSeeder extends Seeder
             273 => 
             array (
                 'id' => 274,
-                'users_id' => 410,
+                'user_id' => 410,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3584,7 +3584,7 @@ class AdmCargosTableSeeder extends Seeder
             274 => 
             array (
                 'id' => 275,
-                'users_id' => 411,
+                'user_id' => 411,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3597,7 +3597,7 @@ class AdmCargosTableSeeder extends Seeder
             275 => 
             array (
                 'id' => 276,
-                'users_id' => 412,
+                'user_id' => 412,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3610,7 +3610,7 @@ class AdmCargosTableSeeder extends Seeder
             276 => 
             array (
                 'id' => 277,
-                'users_id' => 413,
+                'user_id' => 413,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3623,7 +3623,7 @@ class AdmCargosTableSeeder extends Seeder
             277 => 
             array (
                 'id' => 278,
-                'users_id' => 414,
+                'user_id' => 414,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3636,7 +3636,7 @@ class AdmCargosTableSeeder extends Seeder
             278 => 
             array (
                 'id' => 279,
-                'users_id' => 415,
+                'user_id' => 415,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3649,7 +3649,7 @@ class AdmCargosTableSeeder extends Seeder
             279 => 
             array (
                 'id' => 280,
-                'users_id' => 416,
+                'user_id' => 416,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3662,7 +3662,7 @@ class AdmCargosTableSeeder extends Seeder
             280 => 
             array (
                 'id' => 281,
-                'users_id' => 417,
+                'user_id' => 417,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3675,7 +3675,7 @@ class AdmCargosTableSeeder extends Seeder
             281 => 
             array (
                 'id' => 282,
-                'users_id' => 418,
+                'user_id' => 418,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3688,7 +3688,7 @@ class AdmCargosTableSeeder extends Seeder
             282 => 
             array (
                 'id' => 283,
-                'users_id' => 419,
+                'user_id' => 419,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3701,7 +3701,7 @@ class AdmCargosTableSeeder extends Seeder
             283 => 
             array (
                 'id' => 284,
-                'users_id' => 420,
+                'user_id' => 420,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3714,7 +3714,7 @@ class AdmCargosTableSeeder extends Seeder
             284 => 
             array (
                 'id' => 285,
-                'users_id' => 421,
+                'user_id' => 421,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3727,7 +3727,7 @@ class AdmCargosTableSeeder extends Seeder
             285 => 
             array (
                 'id' => 286,
-                'users_id' => 422,
+                'user_id' => 422,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3740,7 +3740,7 @@ class AdmCargosTableSeeder extends Seeder
             286 => 
             array (
                 'id' => 287,
-                'users_id' => 423,
+                'user_id' => 423,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3753,7 +3753,7 @@ class AdmCargosTableSeeder extends Seeder
             287 => 
             array (
                 'id' => 288,
-                'users_id' => 425,
+                'user_id' => 425,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3766,7 +3766,7 @@ class AdmCargosTableSeeder extends Seeder
             288 => 
             array (
                 'id' => 289,
-                'users_id' => 426,
+                'user_id' => 426,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3779,7 +3779,7 @@ class AdmCargosTableSeeder extends Seeder
             289 => 
             array (
                 'id' => 290,
-                'users_id' => 427,
+                'user_id' => 427,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3792,7 +3792,7 @@ class AdmCargosTableSeeder extends Seeder
             290 => 
             array (
                 'id' => 291,
-                'users_id' => 428,
+                'user_id' => 428,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3805,7 +3805,7 @@ class AdmCargosTableSeeder extends Seeder
             291 => 
             array (
                 'id' => 292,
-                'users_id' => 429,
+                'user_id' => 429,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3818,7 +3818,7 @@ class AdmCargosTableSeeder extends Seeder
             292 => 
             array (
                 'id' => 293,
-                'users_id' => 430,
+                'user_id' => 430,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3831,7 +3831,7 @@ class AdmCargosTableSeeder extends Seeder
             293 => 
             array (
                 'id' => 294,
-                'users_id' => 431,
+                'user_id' => 431,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3844,7 +3844,7 @@ class AdmCargosTableSeeder extends Seeder
             294 => 
             array (
                 'id' => 295,
-                'users_id' => 432,
+                'user_id' => 432,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3857,7 +3857,7 @@ class AdmCargosTableSeeder extends Seeder
             295 => 
             array (
                 'id' => 296,
-                'users_id' => 435,
+                'user_id' => 435,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3870,7 +3870,7 @@ class AdmCargosTableSeeder extends Seeder
             296 => 
             array (
                 'id' => 297,
-                'users_id' => 436,
+                'user_id' => 436,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3883,7 +3883,7 @@ class AdmCargosTableSeeder extends Seeder
             297 => 
             array (
                 'id' => 298,
-                'users_id' => 438,
+                'user_id' => 438,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3896,7 +3896,7 @@ class AdmCargosTableSeeder extends Seeder
             298 => 
             array (
                 'id' => 299,
-                'users_id' => 439,
+                'user_id' => 439,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3909,7 +3909,7 @@ class AdmCargosTableSeeder extends Seeder
             299 => 
             array (
                 'id' => 300,
-                'users_id' => 440,
+                'user_id' => 440,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3922,7 +3922,7 @@ class AdmCargosTableSeeder extends Seeder
             300 => 
             array (
                 'id' => 301,
-                'users_id' => 441,
+                'user_id' => 441,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3935,7 +3935,7 @@ class AdmCargosTableSeeder extends Seeder
             301 => 
             array (
                 'id' => 302,
-                'users_id' => 442,
+                'user_id' => 442,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3948,7 +3948,7 @@ class AdmCargosTableSeeder extends Seeder
             302 => 
             array (
                 'id' => 303,
-                'users_id' => 443,
+                'user_id' => 443,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3961,7 +3961,7 @@ class AdmCargosTableSeeder extends Seeder
             303 => 
             array (
                 'id' => 304,
-                'users_id' => 444,
+                'user_id' => 444,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -3974,7 +3974,7 @@ class AdmCargosTableSeeder extends Seeder
             304 => 
             array (
                 'id' => 305,
-                'users_id' => 445,
+                'user_id' => 445,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -3987,7 +3987,7 @@ class AdmCargosTableSeeder extends Seeder
             305 => 
             array (
                 'id' => 306,
-                'users_id' => 446,
+                'user_id' => 446,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4000,7 +4000,7 @@ class AdmCargosTableSeeder extends Seeder
             306 => 
             array (
                 'id' => 307,
-                'users_id' => 448,
+                'user_id' => 448,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -4013,7 +4013,7 @@ class AdmCargosTableSeeder extends Seeder
             307 => 
             array (
                 'id' => 308,
-                'users_id' => 450,
+                'user_id' => 450,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4026,7 +4026,7 @@ class AdmCargosTableSeeder extends Seeder
             308 => 
             array (
                 'id' => 309,
-                'users_id' => 451,
+                'user_id' => 451,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4039,7 +4039,7 @@ class AdmCargosTableSeeder extends Seeder
             309 => 
             array (
                 'id' => 310,
-                'users_id' => 453,
+                'user_id' => 453,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4052,7 +4052,7 @@ class AdmCargosTableSeeder extends Seeder
             310 => 
             array (
                 'id' => 311,
-                'users_id' => 454,
+                'user_id' => 454,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4065,7 +4065,7 @@ class AdmCargosTableSeeder extends Seeder
             311 => 
             array (
                 'id' => 312,
-                'users_id' => 456,
+                'user_id' => 456,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4078,7 +4078,7 @@ class AdmCargosTableSeeder extends Seeder
             312 => 
             array (
                 'id' => 313,
-                'users_id' => 460,
+                'user_id' => 460,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4091,7 +4091,7 @@ class AdmCargosTableSeeder extends Seeder
             313 => 
             array (
                 'id' => 314,
-                'users_id' => 461,
+                'user_id' => 461,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4104,7 +4104,7 @@ class AdmCargosTableSeeder extends Seeder
             314 => 
             array (
                 'id' => 315,
-                'users_id' => 462,
+                'user_id' => 462,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4117,7 +4117,7 @@ class AdmCargosTableSeeder extends Seeder
             315 => 
             array (
                 'id' => 316,
-                'users_id' => 463,
+                'user_id' => 463,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4130,7 +4130,7 @@ class AdmCargosTableSeeder extends Seeder
             316 => 
             array (
                 'id' => 317,
-                'users_id' => 464,
+                'user_id' => 464,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4143,7 +4143,7 @@ class AdmCargosTableSeeder extends Seeder
             317 => 
             array (
                 'id' => 318,
-                'users_id' => 465,
+                'user_id' => 465,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4156,7 +4156,7 @@ class AdmCargosTableSeeder extends Seeder
             318 => 
             array (
                 'id' => 319,
-                'users_id' => 467,
+                'user_id' => 467,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4169,7 +4169,7 @@ class AdmCargosTableSeeder extends Seeder
             319 => 
             array (
                 'id' => 320,
-                'users_id' => 468,
+                'user_id' => 468,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4182,7 +4182,7 @@ class AdmCargosTableSeeder extends Seeder
             320 => 
             array (
                 'id' => 321,
-                'users_id' => 469,
+                'user_id' => 469,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4195,7 +4195,7 @@ class AdmCargosTableSeeder extends Seeder
             321 => 
             array (
                 'id' => 322,
-                'users_id' => 470,
+                'user_id' => 470,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4208,7 +4208,7 @@ class AdmCargosTableSeeder extends Seeder
             322 => 
             array (
                 'id' => 323,
-                'users_id' => 471,
+                'user_id' => 471,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4221,7 +4221,7 @@ class AdmCargosTableSeeder extends Seeder
             323 => 
             array (
                 'id' => 324,
-                'users_id' => 473,
+                'user_id' => 473,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4234,7 +4234,7 @@ class AdmCargosTableSeeder extends Seeder
             324 => 
             array (
                 'id' => 325,
-                'users_id' => 474,
+                'user_id' => 474,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4247,7 +4247,7 @@ class AdmCargosTableSeeder extends Seeder
             325 => 
             array (
                 'id' => 326,
-                'users_id' => 475,
+                'user_id' => 475,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4260,7 +4260,7 @@ class AdmCargosTableSeeder extends Seeder
             326 => 
             array (
                 'id' => 327,
-                'users_id' => 476,
+                'user_id' => 476,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4273,7 +4273,7 @@ class AdmCargosTableSeeder extends Seeder
             327 => 
             array (
                 'id' => 328,
-                'users_id' => 477,
+                'user_id' => 477,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4286,7 +4286,7 @@ class AdmCargosTableSeeder extends Seeder
             328 => 
             array (
                 'id' => 329,
-                'users_id' => 478,
+                'user_id' => 478,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4299,7 +4299,7 @@ class AdmCargosTableSeeder extends Seeder
             329 => 
             array (
                 'id' => 330,
-                'users_id' => 479,
+                'user_id' => 479,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4312,7 +4312,7 @@ class AdmCargosTableSeeder extends Seeder
             330 => 
             array (
                 'id' => 331,
-                'users_id' => 480,
+                'user_id' => 480,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4325,7 +4325,7 @@ class AdmCargosTableSeeder extends Seeder
             331 => 
             array (
                 'id' => 332,
-                'users_id' => 481,
+                'user_id' => 481,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4338,7 +4338,7 @@ class AdmCargosTableSeeder extends Seeder
             332 => 
             array (
                 'id' => 333,
-                'users_id' => 482,
+                'user_id' => 482,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4351,7 +4351,7 @@ class AdmCargosTableSeeder extends Seeder
             333 => 
             array (
                 'id' => 334,
-                'users_id' => 483,
+                'user_id' => 483,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4364,7 +4364,7 @@ class AdmCargosTableSeeder extends Seeder
             334 => 
             array (
                 'id' => 335,
-                'users_id' => 484,
+                'user_id' => 484,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4377,7 +4377,7 @@ class AdmCargosTableSeeder extends Seeder
             335 => 
             array (
                 'id' => 336,
-                'users_id' => 485,
+                'user_id' => 485,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4390,7 +4390,7 @@ class AdmCargosTableSeeder extends Seeder
             336 => 
             array (
                 'id' => 337,
-                'users_id' => 486,
+                'user_id' => 486,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4403,7 +4403,7 @@ class AdmCargosTableSeeder extends Seeder
             337 => 
             array (
                 'id' => 338,
-                'users_id' => 487,
+                'user_id' => 487,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4416,7 +4416,7 @@ class AdmCargosTableSeeder extends Seeder
             338 => 
             array (
                 'id' => 339,
-                'users_id' => 488,
+                'user_id' => 488,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4429,7 +4429,7 @@ class AdmCargosTableSeeder extends Seeder
             339 => 
             array (
                 'id' => 340,
-                'users_id' => 489,
+                'user_id' => 489,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4442,7 +4442,7 @@ class AdmCargosTableSeeder extends Seeder
             340 => 
             array (
                 'id' => 341,
-                'users_id' => 490,
+                'user_id' => 490,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4455,7 +4455,7 @@ class AdmCargosTableSeeder extends Seeder
             341 => 
             array (
                 'id' => 342,
-                'users_id' => 491,
+                'user_id' => 491,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4468,7 +4468,7 @@ class AdmCargosTableSeeder extends Seeder
             342 => 
             array (
                 'id' => 343,
-                'users_id' => 492,
+                'user_id' => 492,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4481,7 +4481,7 @@ class AdmCargosTableSeeder extends Seeder
             343 => 
             array (
                 'id' => 344,
-                'users_id' => 493,
+                'user_id' => 493,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4494,7 +4494,7 @@ class AdmCargosTableSeeder extends Seeder
             344 => 
             array (
                 'id' => 345,
-                'users_id' => 494,
+                'user_id' => 494,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4507,7 +4507,7 @@ class AdmCargosTableSeeder extends Seeder
             345 => 
             array (
                 'id' => 346,
-                'users_id' => 495,
+                'user_id' => 495,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4520,7 +4520,7 @@ class AdmCargosTableSeeder extends Seeder
             346 => 
             array (
                 'id' => 347,
-                'users_id' => 496,
+                'user_id' => 496,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4533,7 +4533,7 @@ class AdmCargosTableSeeder extends Seeder
             347 => 
             array (
                 'id' => 348,
-                'users_id' => 497,
+                'user_id' => 497,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4546,7 +4546,7 @@ class AdmCargosTableSeeder extends Seeder
             348 => 
             array (
                 'id' => 349,
-                'users_id' => 498,
+                'user_id' => 498,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4559,7 +4559,7 @@ class AdmCargosTableSeeder extends Seeder
             349 => 
             array (
                 'id' => 350,
-                'users_id' => 500,
+                'user_id' => 500,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4572,7 +4572,7 @@ class AdmCargosTableSeeder extends Seeder
             350 => 
             array (
                 'id' => 351,
-                'users_id' => 501,
+                'user_id' => 501,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4585,7 +4585,7 @@ class AdmCargosTableSeeder extends Seeder
             351 => 
             array (
                 'id' => 352,
-                'users_id' => 502,
+                'user_id' => 502,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4598,7 +4598,7 @@ class AdmCargosTableSeeder extends Seeder
             352 => 
             array (
                 'id' => 353,
-                'users_id' => 503,
+                'user_id' => 503,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4611,7 +4611,7 @@ class AdmCargosTableSeeder extends Seeder
             353 => 
             array (
                 'id' => 354,
-                'users_id' => 504,
+                'user_id' => 504,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4624,7 +4624,7 @@ class AdmCargosTableSeeder extends Seeder
             354 => 
             array (
                 'id' => 355,
-                'users_id' => 505,
+                'user_id' => 505,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4637,7 +4637,7 @@ class AdmCargosTableSeeder extends Seeder
             355 => 
             array (
                 'id' => 356,
-                'users_id' => 506,
+                'user_id' => 506,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4650,7 +4650,7 @@ class AdmCargosTableSeeder extends Seeder
             356 => 
             array (
                 'id' => 357,
-                'users_id' => 510,
+                'user_id' => 510,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4663,7 +4663,7 @@ class AdmCargosTableSeeder extends Seeder
             357 => 
             array (
                 'id' => 358,
-                'users_id' => 511,
+                'user_id' => 511,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4676,7 +4676,7 @@ class AdmCargosTableSeeder extends Seeder
             358 => 
             array (
                 'id' => 359,
-                'users_id' => 512,
+                'user_id' => 512,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4689,7 +4689,7 @@ class AdmCargosTableSeeder extends Seeder
             359 => 
             array (
                 'id' => 360,
-                'users_id' => 513,
+                'user_id' => 513,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4702,7 +4702,7 @@ class AdmCargosTableSeeder extends Seeder
             360 => 
             array (
                 'id' => 361,
-                'users_id' => 514,
+                'user_id' => 514,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4715,7 +4715,7 @@ class AdmCargosTableSeeder extends Seeder
             361 => 
             array (
                 'id' => 362,
-                'users_id' => 515,
+                'user_id' => 515,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4728,7 +4728,7 @@ class AdmCargosTableSeeder extends Seeder
             362 => 
             array (
                 'id' => 363,
-                'users_id' => 516,
+                'user_id' => 516,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4741,7 +4741,7 @@ class AdmCargosTableSeeder extends Seeder
             363 => 
             array (
                 'id' => 364,
-                'users_id' => 517,
+                'user_id' => 517,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4754,7 +4754,7 @@ class AdmCargosTableSeeder extends Seeder
             364 => 
             array (
                 'id' => 365,
-                'users_id' => 518,
+                'user_id' => 518,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4767,7 +4767,7 @@ class AdmCargosTableSeeder extends Seeder
             365 => 
             array (
                 'id' => 366,
-                'users_id' => 519,
+                'user_id' => 519,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4780,7 +4780,7 @@ class AdmCargosTableSeeder extends Seeder
             366 => 
             array (
                 'id' => 367,
-                'users_id' => 520,
+                'user_id' => 520,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4793,7 +4793,7 @@ class AdmCargosTableSeeder extends Seeder
             367 => 
             array (
                 'id' => 368,
-                'users_id' => 522,
+                'user_id' => 522,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4806,7 +4806,7 @@ class AdmCargosTableSeeder extends Seeder
             368 => 
             array (
                 'id' => 369,
-                'users_id' => 524,
+                'user_id' => 524,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4819,7 +4819,7 @@ class AdmCargosTableSeeder extends Seeder
             369 => 
             array (
                 'id' => 370,
-                'users_id' => 525,
+                'user_id' => 525,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4832,7 +4832,7 @@ class AdmCargosTableSeeder extends Seeder
             370 => 
             array (
                 'id' => 371,
-                'users_id' => 526,
+                'user_id' => 526,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4845,7 +4845,7 @@ class AdmCargosTableSeeder extends Seeder
             371 => 
             array (
                 'id' => 372,
-                'users_id' => 527,
+                'user_id' => 527,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4858,7 +4858,7 @@ class AdmCargosTableSeeder extends Seeder
             372 => 
             array (
                 'id' => 373,
-                'users_id' => 528,
+                'user_id' => 528,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4871,7 +4871,7 @@ class AdmCargosTableSeeder extends Seeder
             373 => 
             array (
                 'id' => 374,
-                'users_id' => 529,
+                'user_id' => 529,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4884,7 +4884,7 @@ class AdmCargosTableSeeder extends Seeder
             374 => 
             array (
                 'id' => 375,
-                'users_id' => 530,
+                'user_id' => 530,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4897,7 +4897,7 @@ class AdmCargosTableSeeder extends Seeder
             375 => 
             array (
                 'id' => 376,
-                'users_id' => 531,
+                'user_id' => 531,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4910,7 +4910,7 @@ class AdmCargosTableSeeder extends Seeder
             376 => 
             array (
                 'id' => 377,
-                'users_id' => 532,
+                'user_id' => 532,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4923,7 +4923,7 @@ class AdmCargosTableSeeder extends Seeder
             377 => 
             array (
                 'id' => 378,
-                'users_id' => 533,
+                'user_id' => 533,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4936,7 +4936,7 @@ class AdmCargosTableSeeder extends Seeder
             378 => 
             array (
                 'id' => 379,
-                'users_id' => 534,
+                'user_id' => 534,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4949,7 +4949,7 @@ class AdmCargosTableSeeder extends Seeder
             379 => 
             array (
                 'id' => 380,
-                'users_id' => 535,
+                'user_id' => 535,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4962,7 +4962,7 @@ class AdmCargosTableSeeder extends Seeder
             380 => 
             array (
                 'id' => 381,
-                'users_id' => 536,
+                'user_id' => 536,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4975,7 +4975,7 @@ class AdmCargosTableSeeder extends Seeder
             381 => 
             array (
                 'id' => 382,
-                'users_id' => 537,
+                'user_id' => 537,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -4988,7 +4988,7 @@ class AdmCargosTableSeeder extends Seeder
             382 => 
             array (
                 'id' => 383,
-                'users_id' => 538,
+                'user_id' => 538,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5001,7 +5001,7 @@ class AdmCargosTableSeeder extends Seeder
             383 => 
             array (
                 'id' => 384,
-                'users_id' => 539,
+                'user_id' => 539,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5014,7 +5014,7 @@ class AdmCargosTableSeeder extends Seeder
             384 => 
             array (
                 'id' => 385,
-                'users_id' => 540,
+                'user_id' => 540,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5027,7 +5027,7 @@ class AdmCargosTableSeeder extends Seeder
             385 => 
             array (
                 'id' => 386,
-                'users_id' => 541,
+                'user_id' => 541,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5040,7 +5040,7 @@ class AdmCargosTableSeeder extends Seeder
             386 => 
             array (
                 'id' => 387,
-                'users_id' => 542,
+                'user_id' => 542,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5053,7 +5053,7 @@ class AdmCargosTableSeeder extends Seeder
             387 => 
             array (
                 'id' => 388,
-                'users_id' => 543,
+                'user_id' => 543,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5066,7 +5066,7 @@ class AdmCargosTableSeeder extends Seeder
             388 => 
             array (
                 'id' => 389,
-                'users_id' => 544,
+                'user_id' => 544,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5079,7 +5079,7 @@ class AdmCargosTableSeeder extends Seeder
             389 => 
             array (
                 'id' => 390,
-                'users_id' => 545,
+                'user_id' => 545,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5092,7 +5092,7 @@ class AdmCargosTableSeeder extends Seeder
             390 => 
             array (
                 'id' => 391,
-                'users_id' => 546,
+                'user_id' => 546,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5105,7 +5105,7 @@ class AdmCargosTableSeeder extends Seeder
             391 => 
             array (
                 'id' => 392,
-                'users_id' => 547,
+                'user_id' => 547,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5118,7 +5118,7 @@ class AdmCargosTableSeeder extends Seeder
             392 => 
             array (
                 'id' => 393,
-                'users_id' => 548,
+                'user_id' => 548,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5131,7 +5131,7 @@ class AdmCargosTableSeeder extends Seeder
             393 => 
             array (
                 'id' => 394,
-                'users_id' => 549,
+                'user_id' => 549,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5144,7 +5144,7 @@ class AdmCargosTableSeeder extends Seeder
             394 => 
             array (
                 'id' => 395,
-                'users_id' => 550,
+                'user_id' => 550,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5157,7 +5157,7 @@ class AdmCargosTableSeeder extends Seeder
             395 => 
             array (
                 'id' => 396,
-                'users_id' => 552,
+                'user_id' => 552,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5170,7 +5170,7 @@ class AdmCargosTableSeeder extends Seeder
             396 => 
             array (
                 'id' => 397,
-                'users_id' => 554,
+                'user_id' => 554,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5183,7 +5183,7 @@ class AdmCargosTableSeeder extends Seeder
             397 => 
             array (
                 'id' => 398,
-                'users_id' => 555,
+                'user_id' => 555,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5196,7 +5196,7 @@ class AdmCargosTableSeeder extends Seeder
             398 => 
             array (
                 'id' => 399,
-                'users_id' => 557,
+                'user_id' => 557,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5209,7 +5209,7 @@ class AdmCargosTableSeeder extends Seeder
             399 => 
             array (
                 'id' => 400,
-                'users_id' => 558,
+                'user_id' => 558,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5222,7 +5222,7 @@ class AdmCargosTableSeeder extends Seeder
             400 => 
             array (
                 'id' => 401,
-                'users_id' => 561,
+                'user_id' => 561,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5235,7 +5235,7 @@ class AdmCargosTableSeeder extends Seeder
             401 => 
             array (
                 'id' => 402,
-                'users_id' => 562,
+                'user_id' => 562,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -5248,7 +5248,7 @@ class AdmCargosTableSeeder extends Seeder
             402 => 
             array (
                 'id' => 403,
-                'users_id' => 563,
+                'user_id' => 563,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5261,7 +5261,7 @@ class AdmCargosTableSeeder extends Seeder
             403 => 
             array (
                 'id' => 404,
-                'users_id' => 564,
+                'user_id' => 564,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5274,7 +5274,7 @@ class AdmCargosTableSeeder extends Seeder
             404 => 
             array (
                 'id' => 405,
-                'users_id' => 565,
+                'user_id' => 565,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5287,7 +5287,7 @@ class AdmCargosTableSeeder extends Seeder
             405 => 
             array (
                 'id' => 406,
-                'users_id' => 566,
+                'user_id' => 566,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5300,7 +5300,7 @@ class AdmCargosTableSeeder extends Seeder
             406 => 
             array (
                 'id' => 407,
-                'users_id' => 567,
+                'user_id' => 567,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5313,7 +5313,7 @@ class AdmCargosTableSeeder extends Seeder
             407 => 
             array (
                 'id' => 408,
-                'users_id' => 568,
+                'user_id' => 568,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5326,7 +5326,7 @@ class AdmCargosTableSeeder extends Seeder
             408 => 
             array (
                 'id' => 409,
-                'users_id' => 569,
+                'user_id' => 569,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5339,7 +5339,7 @@ class AdmCargosTableSeeder extends Seeder
             409 => 
             array (
                 'id' => 410,
-                'users_id' => 570,
+                'user_id' => 570,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5352,7 +5352,7 @@ class AdmCargosTableSeeder extends Seeder
             410 => 
             array (
                 'id' => 411,
-                'users_id' => 571,
+                'user_id' => 571,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5365,7 +5365,7 @@ class AdmCargosTableSeeder extends Seeder
             411 => 
             array (
                 'id' => 412,
-                'users_id' => 572,
+                'user_id' => 572,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5378,7 +5378,7 @@ class AdmCargosTableSeeder extends Seeder
             412 => 
             array (
                 'id' => 413,
-                'users_id' => 573,
+                'user_id' => 573,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5391,7 +5391,7 @@ class AdmCargosTableSeeder extends Seeder
             413 => 
             array (
                 'id' => 414,
-                'users_id' => 574,
+                'user_id' => 574,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5404,7 +5404,7 @@ class AdmCargosTableSeeder extends Seeder
             414 => 
             array (
                 'id' => 415,
-                'users_id' => 575,
+                'user_id' => 575,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5417,7 +5417,7 @@ class AdmCargosTableSeeder extends Seeder
             415 => 
             array (
                 'id' => 416,
-                'users_id' => 576,
+                'user_id' => 576,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5430,7 +5430,7 @@ class AdmCargosTableSeeder extends Seeder
             416 => 
             array (
                 'id' => 417,
-                'users_id' => 577,
+                'user_id' => 577,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5443,7 +5443,7 @@ class AdmCargosTableSeeder extends Seeder
             417 => 
             array (
                 'id' => 418,
-                'users_id' => 578,
+                'user_id' => 578,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5456,7 +5456,7 @@ class AdmCargosTableSeeder extends Seeder
             418 => 
             array (
                 'id' => 419,
-                'users_id' => 579,
+                'user_id' => 579,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5469,7 +5469,7 @@ class AdmCargosTableSeeder extends Seeder
             419 => 
             array (
                 'id' => 420,
-                'users_id' => 580,
+                'user_id' => 580,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5482,7 +5482,7 @@ class AdmCargosTableSeeder extends Seeder
             420 => 
             array (
                 'id' => 421,
-                'users_id' => 581,
+                'user_id' => 581,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5495,7 +5495,7 @@ class AdmCargosTableSeeder extends Seeder
             421 => 
             array (
                 'id' => 422,
-                'users_id' => 582,
+                'user_id' => 582,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5508,7 +5508,7 @@ class AdmCargosTableSeeder extends Seeder
             422 => 
             array (
                 'id' => 423,
-                'users_id' => 583,
+                'user_id' => 583,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5521,7 +5521,7 @@ class AdmCargosTableSeeder extends Seeder
             423 => 
             array (
                 'id' => 424,
-                'users_id' => 584,
+                'user_id' => 584,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5534,7 +5534,7 @@ class AdmCargosTableSeeder extends Seeder
             424 => 
             array (
                 'id' => 425,
-                'users_id' => 585,
+                'user_id' => 585,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5547,7 +5547,7 @@ class AdmCargosTableSeeder extends Seeder
             425 => 
             array (
                 'id' => 426,
-                'users_id' => 586,
+                'user_id' => 586,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5560,7 +5560,7 @@ class AdmCargosTableSeeder extends Seeder
             426 => 
             array (
                 'id' => 427,
-                'users_id' => 587,
+                'user_id' => 587,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5573,7 +5573,7 @@ class AdmCargosTableSeeder extends Seeder
             427 => 
             array (
                 'id' => 428,
-                'users_id' => 588,
+                'user_id' => 588,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5586,7 +5586,7 @@ class AdmCargosTableSeeder extends Seeder
             428 => 
             array (
                 'id' => 429,
-                'users_id' => 589,
+                'user_id' => 589,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5599,7 +5599,7 @@ class AdmCargosTableSeeder extends Seeder
             429 => 
             array (
                 'id' => 430,
-                'users_id' => 590,
+                'user_id' => 590,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5612,7 +5612,7 @@ class AdmCargosTableSeeder extends Seeder
             430 => 
             array (
                 'id' => 431,
-                'users_id' => 592,
+                'user_id' => 592,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5625,7 +5625,7 @@ class AdmCargosTableSeeder extends Seeder
             431 => 
             array (
                 'id' => 432,
-                'users_id' => 593,
+                'user_id' => 593,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5638,7 +5638,7 @@ class AdmCargosTableSeeder extends Seeder
             432 => 
             array (
                 'id' => 433,
-                'users_id' => 594,
+                'user_id' => 594,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5651,7 +5651,7 @@ class AdmCargosTableSeeder extends Seeder
             433 => 
             array (
                 'id' => 434,
-                'users_id' => 595,
+                'user_id' => 595,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5664,7 +5664,7 @@ class AdmCargosTableSeeder extends Seeder
             434 => 
             array (
                 'id' => 435,
-                'users_id' => 596,
+                'user_id' => 596,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5677,7 +5677,7 @@ class AdmCargosTableSeeder extends Seeder
             435 => 
             array (
                 'id' => 436,
-                'users_id' => 597,
+                'user_id' => 597,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5690,7 +5690,7 @@ class AdmCargosTableSeeder extends Seeder
             436 => 
             array (
                 'id' => 437,
-                'users_id' => 598,
+                'user_id' => 598,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5703,7 +5703,7 @@ class AdmCargosTableSeeder extends Seeder
             437 => 
             array (
                 'id' => 438,
-                'users_id' => 599,
+                'user_id' => 599,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5716,7 +5716,7 @@ class AdmCargosTableSeeder extends Seeder
             438 => 
             array (
                 'id' => 439,
-                'users_id' => 600,
+                'user_id' => 600,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5729,7 +5729,7 @@ class AdmCargosTableSeeder extends Seeder
             439 => 
             array (
                 'id' => 440,
-                'users_id' => 601,
+                'user_id' => 601,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5742,7 +5742,7 @@ class AdmCargosTableSeeder extends Seeder
             440 => 
             array (
                 'id' => 441,
-                'users_id' => 602,
+                'user_id' => 602,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5755,7 +5755,7 @@ class AdmCargosTableSeeder extends Seeder
             441 => 
             array (
                 'id' => 442,
-                'users_id' => 604,
+                'user_id' => 604,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5768,7 +5768,7 @@ class AdmCargosTableSeeder extends Seeder
             442 => 
             array (
                 'id' => 443,
-                'users_id' => 605,
+                'user_id' => 605,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5781,7 +5781,7 @@ class AdmCargosTableSeeder extends Seeder
             443 => 
             array (
                 'id' => 444,
-                'users_id' => 606,
+                'user_id' => 606,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5794,7 +5794,7 @@ class AdmCargosTableSeeder extends Seeder
             444 => 
             array (
                 'id' => 445,
-                'users_id' => 607,
+                'user_id' => 607,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5807,7 +5807,7 @@ class AdmCargosTableSeeder extends Seeder
             445 => 
             array (
                 'id' => 446,
-                'users_id' => 608,
+                'user_id' => 608,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -5820,7 +5820,7 @@ class AdmCargosTableSeeder extends Seeder
             446 => 
             array (
                 'id' => 447,
-                'users_id' => 609,
+                'user_id' => 609,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5833,7 +5833,7 @@ class AdmCargosTableSeeder extends Seeder
             447 => 
             array (
                 'id' => 448,
-                'users_id' => 610,
+                'user_id' => 610,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -5846,7 +5846,7 @@ class AdmCargosTableSeeder extends Seeder
             448 => 
             array (
                 'id' => 449,
-                'users_id' => 611,
+                'user_id' => 611,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5859,7 +5859,7 @@ class AdmCargosTableSeeder extends Seeder
             449 => 
             array (
                 'id' => 450,
-                'users_id' => 612,
+                'user_id' => 612,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5872,7 +5872,7 @@ class AdmCargosTableSeeder extends Seeder
             450 => 
             array (
                 'id' => 451,
-                'users_id' => 613,
+                'user_id' => 613,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5885,7 +5885,7 @@ class AdmCargosTableSeeder extends Seeder
             451 => 
             array (
                 'id' => 452,
-                'users_id' => 614,
+                'user_id' => 614,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5898,7 +5898,7 @@ class AdmCargosTableSeeder extends Seeder
             452 => 
             array (
                 'id' => 453,
-                'users_id' => 615,
+                'user_id' => 615,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5911,7 +5911,7 @@ class AdmCargosTableSeeder extends Seeder
             453 => 
             array (
                 'id' => 454,
-                'users_id' => 616,
+                'user_id' => 616,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5924,7 +5924,7 @@ class AdmCargosTableSeeder extends Seeder
             454 => 
             array (
                 'id' => 455,
-                'users_id' => 617,
+                'user_id' => 617,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5937,7 +5937,7 @@ class AdmCargosTableSeeder extends Seeder
             455 => 
             array (
                 'id' => 456,
-                'users_id' => 618,
+                'user_id' => 618,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5950,7 +5950,7 @@ class AdmCargosTableSeeder extends Seeder
             456 => 
             array (
                 'id' => 457,
-                'users_id' => 619,
+                'user_id' => 619,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -5963,7 +5963,7 @@ class AdmCargosTableSeeder extends Seeder
             457 => 
             array (
                 'id' => 458,
-                'users_id' => 620,
+                'user_id' => 620,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5976,7 +5976,7 @@ class AdmCargosTableSeeder extends Seeder
             458 => 
             array (
                 'id' => 459,
-                'users_id' => 621,
+                'user_id' => 621,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -5989,7 +5989,7 @@ class AdmCargosTableSeeder extends Seeder
             459 => 
             array (
                 'id' => 460,
-                'users_id' => 622,
+                'user_id' => 622,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -6002,7 +6002,7 @@ class AdmCargosTableSeeder extends Seeder
             460 => 
             array (
                 'id' => 461,
-                'users_id' => 623,
+                'user_id' => 623,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6015,7 +6015,7 @@ class AdmCargosTableSeeder extends Seeder
             461 => 
             array (
                 'id' => 462,
-                'users_id' => 624,
+                'user_id' => 624,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6028,7 +6028,7 @@ class AdmCargosTableSeeder extends Seeder
             462 => 
             array (
                 'id' => 463,
-                'users_id' => 625,
+                'user_id' => 625,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6041,7 +6041,7 @@ class AdmCargosTableSeeder extends Seeder
             463 => 
             array (
                 'id' => 464,
-                'users_id' => 626,
+                'user_id' => 626,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6054,7 +6054,7 @@ class AdmCargosTableSeeder extends Seeder
             464 => 
             array (
                 'id' => 465,
-                'users_id' => 631,
+                'user_id' => 631,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6067,7 +6067,7 @@ class AdmCargosTableSeeder extends Seeder
             465 => 
             array (
                 'id' => 466,
-                'users_id' => 632,
+                'user_id' => 632,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -6080,7 +6080,7 @@ class AdmCargosTableSeeder extends Seeder
             466 => 
             array (
                 'id' => 467,
-                'users_id' => 633,
+                'user_id' => 633,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6093,7 +6093,7 @@ class AdmCargosTableSeeder extends Seeder
             467 => 
             array (
                 'id' => 468,
-                'users_id' => 634,
+                'user_id' => 634,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6106,7 +6106,7 @@ class AdmCargosTableSeeder extends Seeder
             468 => 
             array (
                 'id' => 469,
-                'users_id' => 635,
+                'user_id' => 635,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6119,7 +6119,7 @@ class AdmCargosTableSeeder extends Seeder
             469 => 
             array (
                 'id' => 470,
-                'users_id' => 637,
+                'user_id' => 637,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6132,7 +6132,7 @@ class AdmCargosTableSeeder extends Seeder
             470 => 
             array (
                 'id' => 471,
-                'users_id' => 638,
+                'user_id' => 638,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6145,7 +6145,7 @@ class AdmCargosTableSeeder extends Seeder
             471 => 
             array (
                 'id' => 472,
-                'users_id' => 639,
+                'user_id' => 639,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -6158,7 +6158,7 @@ class AdmCargosTableSeeder extends Seeder
             472 => 
             array (
                 'id' => 473,
-                'users_id' => 640,
+                'user_id' => 640,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6171,7 +6171,7 @@ class AdmCargosTableSeeder extends Seeder
             473 => 
             array (
                 'id' => 474,
-                'users_id' => 641,
+                'user_id' => 641,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6184,7 +6184,7 @@ class AdmCargosTableSeeder extends Seeder
             474 => 
             array (
                 'id' => 475,
-                'users_id' => 642,
+                'user_id' => 642,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6197,7 +6197,7 @@ class AdmCargosTableSeeder extends Seeder
             475 => 
             array (
                 'id' => 476,
-                'users_id' => 643,
+                'user_id' => 643,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6210,7 +6210,7 @@ class AdmCargosTableSeeder extends Seeder
             476 => 
             array (
                 'id' => 477,
-                'users_id' => 644,
+                'user_id' => 644,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6223,7 +6223,7 @@ class AdmCargosTableSeeder extends Seeder
             477 => 
             array (
                 'id' => 478,
-                'users_id' => 645,
+                'user_id' => 645,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6236,7 +6236,7 @@ class AdmCargosTableSeeder extends Seeder
             478 => 
             array (
                 'id' => 479,
-                'users_id' => 646,
+                'user_id' => 646,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6249,7 +6249,7 @@ class AdmCargosTableSeeder extends Seeder
             479 => 
             array (
                 'id' => 480,
-                'users_id' => 649,
+                'user_id' => 649,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -6262,7 +6262,7 @@ class AdmCargosTableSeeder extends Seeder
             480 => 
             array (
                 'id' => 481,
-                'users_id' => 650,
+                'user_id' => 650,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6275,7 +6275,7 @@ class AdmCargosTableSeeder extends Seeder
             481 => 
             array (
                 'id' => 482,
-                'users_id' => 651,
+                'user_id' => 651,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6288,7 +6288,7 @@ class AdmCargosTableSeeder extends Seeder
             482 => 
             array (
                 'id' => 483,
-                'users_id' => 659,
+                'user_id' => 659,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6301,7 +6301,7 @@ class AdmCargosTableSeeder extends Seeder
             483 => 
             array (
                 'id' => 484,
-                'users_id' => 660,
+                'user_id' => 660,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6314,7 +6314,7 @@ class AdmCargosTableSeeder extends Seeder
             484 => 
             array (
                 'id' => 485,
-                'users_id' => 662,
+                'user_id' => 662,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6327,7 +6327,7 @@ class AdmCargosTableSeeder extends Seeder
             485 => 
             array (
                 'id' => 486,
-                'users_id' => 663,
+                'user_id' => 663,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6340,7 +6340,7 @@ class AdmCargosTableSeeder extends Seeder
             486 => 
             array (
                 'id' => 487,
-                'users_id' => 664,
+                'user_id' => 664,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6353,7 +6353,7 @@ class AdmCargosTableSeeder extends Seeder
             487 => 
             array (
                 'id' => 488,
-                'users_id' => 665,
+                'user_id' => 665,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -6366,7 +6366,7 @@ class AdmCargosTableSeeder extends Seeder
             488 => 
             array (
                 'id' => 489,
-                'users_id' => 666,
+                'user_id' => 666,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6379,7 +6379,7 @@ class AdmCargosTableSeeder extends Seeder
             489 => 
             array (
                 'id' => 490,
-                'users_id' => 667,
+                'user_id' => 667,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6392,7 +6392,7 @@ class AdmCargosTableSeeder extends Seeder
             490 => 
             array (
                 'id' => 491,
-                'users_id' => 668,
+                'user_id' => 668,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6405,7 +6405,7 @@ class AdmCargosTableSeeder extends Seeder
             491 => 
             array (
                 'id' => 492,
-                'users_id' => 669,
+                'user_id' => 669,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6418,7 +6418,7 @@ class AdmCargosTableSeeder extends Seeder
             492 => 
             array (
                 'id' => 493,
-                'users_id' => 671,
+                'user_id' => 671,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6431,7 +6431,7 @@ class AdmCargosTableSeeder extends Seeder
             493 => 
             array (
                 'id' => 494,
-                'users_id' => 672,
+                'user_id' => 672,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6444,7 +6444,7 @@ class AdmCargosTableSeeder extends Seeder
             494 => 
             array (
                 'id' => 495,
-                'users_id' => 673,
+                'user_id' => 673,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6457,7 +6457,7 @@ class AdmCargosTableSeeder extends Seeder
             495 => 
             array (
                 'id' => 496,
-                'users_id' => 674,
+                'user_id' => 674,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6470,7 +6470,7 @@ class AdmCargosTableSeeder extends Seeder
             496 => 
             array (
                 'id' => 497,
-                'users_id' => 675,
+                'user_id' => 675,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6483,7 +6483,7 @@ class AdmCargosTableSeeder extends Seeder
             497 => 
             array (
                 'id' => 498,
-                'users_id' => 676,
+                'user_id' => 676,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6496,7 +6496,7 @@ class AdmCargosTableSeeder extends Seeder
             498 => 
             array (
                 'id' => 499,
-                'users_id' => 677,
+                'user_id' => 677,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -6509,7 +6509,7 @@ class AdmCargosTableSeeder extends Seeder
             499 => 
             array (
                 'id' => 500,
-                'users_id' => 678,
+                'user_id' => 678,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6524,7 +6524,7 @@ class AdmCargosTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 501,
-                'users_id' => 679,
+                'user_id' => 679,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6537,7 +6537,7 @@ class AdmCargosTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 502,
-                'users_id' => 680,
+                'user_id' => 680,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6550,7 +6550,7 @@ class AdmCargosTableSeeder extends Seeder
             2 => 
             array (
                 'id' => 503,
-                'users_id' => 681,
+                'user_id' => 681,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6563,7 +6563,7 @@ class AdmCargosTableSeeder extends Seeder
             3 => 
             array (
                 'id' => 504,
-                'users_id' => 682,
+                'user_id' => 682,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6576,7 +6576,7 @@ class AdmCargosTableSeeder extends Seeder
             4 => 
             array (
                 'id' => 505,
-                'users_id' => 683,
+                'user_id' => 683,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6589,7 +6589,7 @@ class AdmCargosTableSeeder extends Seeder
             5 => 
             array (
                 'id' => 506,
-                'users_id' => 684,
+                'user_id' => 684,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6602,7 +6602,7 @@ class AdmCargosTableSeeder extends Seeder
             6 => 
             array (
                 'id' => 507,
-                'users_id' => 685,
+                'user_id' => 685,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6615,7 +6615,7 @@ class AdmCargosTableSeeder extends Seeder
             7 => 
             array (
                 'id' => 508,
-                'users_id' => 686,
+                'user_id' => 686,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6628,7 +6628,7 @@ class AdmCargosTableSeeder extends Seeder
             8 => 
             array (
                 'id' => 509,
-                'users_id' => 687,
+                'user_id' => 687,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -6641,7 +6641,7 @@ class AdmCargosTableSeeder extends Seeder
             9 => 
             array (
                 'id' => 510,
-                'users_id' => 688,
+                'user_id' => 688,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6654,7 +6654,7 @@ class AdmCargosTableSeeder extends Seeder
             10 => 
             array (
                 'id' => 511,
-                'users_id' => 689,
+                'user_id' => 689,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6667,7 +6667,7 @@ class AdmCargosTableSeeder extends Seeder
             11 => 
             array (
                 'id' => 512,
-                'users_id' => 690,
+                'user_id' => 690,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -6680,7 +6680,7 @@ class AdmCargosTableSeeder extends Seeder
             12 => 
             array (
                 'id' => 513,
-                'users_id' => 694,
+                'user_id' => 694,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -6693,7 +6693,7 @@ class AdmCargosTableSeeder extends Seeder
             13 => 
             array (
                 'id' => 514,
-                'users_id' => 695,
+                'user_id' => 695,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -6706,7 +6706,7 @@ class AdmCargosTableSeeder extends Seeder
             14 => 
             array (
                 'id' => 515,
-                'users_id' => 696,
+                'user_id' => 696,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -6719,7 +6719,7 @@ class AdmCargosTableSeeder extends Seeder
             15 => 
             array (
                 'id' => 516,
-                'users_id' => 697,
+                'user_id' => 697,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6732,7 +6732,7 @@ class AdmCargosTableSeeder extends Seeder
             16 => 
             array (
                 'id' => 517,
-                'users_id' => 698,
+                'user_id' => 698,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6745,7 +6745,7 @@ class AdmCargosTableSeeder extends Seeder
             17 => 
             array (
                 'id' => 518,
-                'users_id' => 699,
+                'user_id' => 699,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6758,7 +6758,7 @@ class AdmCargosTableSeeder extends Seeder
             18 => 
             array (
                 'id' => 519,
-                'users_id' => 700,
+                'user_id' => 700,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6771,7 +6771,7 @@ class AdmCargosTableSeeder extends Seeder
             19 => 
             array (
                 'id' => 520,
-                'users_id' => 701,
+                'user_id' => 701,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6784,7 +6784,7 @@ class AdmCargosTableSeeder extends Seeder
             20 => 
             array (
                 'id' => 521,
-                'users_id' => 702,
+                'user_id' => 702,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6797,7 +6797,7 @@ class AdmCargosTableSeeder extends Seeder
             21 => 
             array (
                 'id' => 522,
-                'users_id' => 703,
+                'user_id' => 703,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6810,7 +6810,7 @@ class AdmCargosTableSeeder extends Seeder
             22 => 
             array (
                 'id' => 523,
-                'users_id' => 704,
+                'user_id' => 704,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6823,7 +6823,7 @@ class AdmCargosTableSeeder extends Seeder
             23 => 
             array (
                 'id' => 524,
-                'users_id' => 705,
+                'user_id' => 705,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6836,7 +6836,7 @@ class AdmCargosTableSeeder extends Seeder
             24 => 
             array (
                 'id' => 525,
-                'users_id' => 706,
+                'user_id' => 706,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -6849,7 +6849,7 @@ class AdmCargosTableSeeder extends Seeder
             25 => 
             array (
                 'id' => 526,
-                'users_id' => 707,
+                'user_id' => 707,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6862,7 +6862,7 @@ class AdmCargosTableSeeder extends Seeder
             26 => 
             array (
                 'id' => 527,
-                'users_id' => 708,
+                'user_id' => 708,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6875,7 +6875,7 @@ class AdmCargosTableSeeder extends Seeder
             27 => 
             array (
                 'id' => 528,
-                'users_id' => 709,
+                'user_id' => 709,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6888,7 +6888,7 @@ class AdmCargosTableSeeder extends Seeder
             28 => 
             array (
                 'id' => 529,
-                'users_id' => 710,
+                'user_id' => 710,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6901,7 +6901,7 @@ class AdmCargosTableSeeder extends Seeder
             29 => 
             array (
                 'id' => 530,
-                'users_id' => 711,
+                'user_id' => 711,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6914,7 +6914,7 @@ class AdmCargosTableSeeder extends Seeder
             30 => 
             array (
                 'id' => 531,
-                'users_id' => 712,
+                'user_id' => 712,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6927,7 +6927,7 @@ class AdmCargosTableSeeder extends Seeder
             31 => 
             array (
                 'id' => 532,
-                'users_id' => 713,
+                'user_id' => 713,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6940,7 +6940,7 @@ class AdmCargosTableSeeder extends Seeder
             32 => 
             array (
                 'id' => 533,
-                'users_id' => 714,
+                'user_id' => 714,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -6953,7 +6953,7 @@ class AdmCargosTableSeeder extends Seeder
             33 => 
             array (
                 'id' => 534,
-                'users_id' => 715,
+                'user_id' => 715,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -6966,7 +6966,7 @@ class AdmCargosTableSeeder extends Seeder
             34 => 
             array (
                 'id' => 535,
-                'users_id' => 716,
+                'user_id' => 716,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -6979,7 +6979,7 @@ class AdmCargosTableSeeder extends Seeder
             35 => 
             array (
                 'id' => 536,
-                'users_id' => 717,
+                'user_id' => 717,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -6992,7 +6992,7 @@ class AdmCargosTableSeeder extends Seeder
             36 => 
             array (
                 'id' => 537,
-                'users_id' => 720,
+                'user_id' => 720,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7005,7 +7005,7 @@ class AdmCargosTableSeeder extends Seeder
             37 => 
             array (
                 'id' => 538,
-                'users_id' => 721,
+                'user_id' => 721,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7018,7 +7018,7 @@ class AdmCargosTableSeeder extends Seeder
             38 => 
             array (
                 'id' => 539,
-                'users_id' => 722,
+                'user_id' => 722,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7031,7 +7031,7 @@ class AdmCargosTableSeeder extends Seeder
             39 => 
             array (
                 'id' => 540,
-                'users_id' => 723,
+                'user_id' => 723,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7044,7 +7044,7 @@ class AdmCargosTableSeeder extends Seeder
             40 => 
             array (
                 'id' => 541,
-                'users_id' => 724,
+                'user_id' => 724,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7057,7 +7057,7 @@ class AdmCargosTableSeeder extends Seeder
             41 => 
             array (
                 'id' => 542,
-                'users_id' => 725,
+                'user_id' => 725,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7070,7 +7070,7 @@ class AdmCargosTableSeeder extends Seeder
             42 => 
             array (
                 'id' => 543,
-                'users_id' => 726,
+                'user_id' => 726,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7083,7 +7083,7 @@ class AdmCargosTableSeeder extends Seeder
             43 => 
             array (
                 'id' => 544,
-                'users_id' => 727,
+                'user_id' => 727,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7096,7 +7096,7 @@ class AdmCargosTableSeeder extends Seeder
             44 => 
             array (
                 'id' => 545,
-                'users_id' => 728,
+                'user_id' => 728,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7109,7 +7109,7 @@ class AdmCargosTableSeeder extends Seeder
             45 => 
             array (
                 'id' => 546,
-                'users_id' => 729,
+                'user_id' => 729,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7122,7 +7122,7 @@ class AdmCargosTableSeeder extends Seeder
             46 => 
             array (
                 'id' => 547,
-                'users_id' => 730,
+                'user_id' => 730,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -7135,7 +7135,7 @@ class AdmCargosTableSeeder extends Seeder
             47 => 
             array (
                 'id' => 548,
-                'users_id' => 731,
+                'user_id' => 731,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -7148,7 +7148,7 @@ class AdmCargosTableSeeder extends Seeder
             48 => 
             array (
                 'id' => 549,
-                'users_id' => 732,
+                'user_id' => 732,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7161,7 +7161,7 @@ class AdmCargosTableSeeder extends Seeder
             49 => 
             array (
                 'id' => 550,
-                'users_id' => 733,
+                'user_id' => 733,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7174,7 +7174,7 @@ class AdmCargosTableSeeder extends Seeder
             50 => 
             array (
                 'id' => 551,
-                'users_id' => 735,
+                'user_id' => 735,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7187,7 +7187,7 @@ class AdmCargosTableSeeder extends Seeder
             51 => 
             array (
                 'id' => 552,
-                'users_id' => 736,
+                'user_id' => 736,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7200,7 +7200,7 @@ class AdmCargosTableSeeder extends Seeder
             52 => 
             array (
                 'id' => 553,
-                'users_id' => 737,
+                'user_id' => 737,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7213,7 +7213,7 @@ class AdmCargosTableSeeder extends Seeder
             53 => 
             array (
                 'id' => 554,
-                'users_id' => 739,
+                'user_id' => 739,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7226,7 +7226,7 @@ class AdmCargosTableSeeder extends Seeder
             54 => 
             array (
                 'id' => 555,
-                'users_id' => 740,
+                'user_id' => 740,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7239,7 +7239,7 @@ class AdmCargosTableSeeder extends Seeder
             55 => 
             array (
                 'id' => 556,
-                'users_id' => 741,
+                'user_id' => 741,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7252,7 +7252,7 @@ class AdmCargosTableSeeder extends Seeder
             56 => 
             array (
                 'id' => 557,
-                'users_id' => 742,
+                'user_id' => 742,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7265,7 +7265,7 @@ class AdmCargosTableSeeder extends Seeder
             57 => 
             array (
                 'id' => 558,
-                'users_id' => 743,
+                'user_id' => 743,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7278,7 +7278,7 @@ class AdmCargosTableSeeder extends Seeder
             58 => 
             array (
                 'id' => 559,
-                'users_id' => 744,
+                'user_id' => 744,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7291,7 +7291,7 @@ class AdmCargosTableSeeder extends Seeder
             59 => 
             array (
                 'id' => 560,
-                'users_id' => 745,
+                'user_id' => 745,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -7304,7 +7304,7 @@ class AdmCargosTableSeeder extends Seeder
             60 => 
             array (
                 'id' => 561,
-                'users_id' => 746,
+                'user_id' => 746,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7317,7 +7317,7 @@ class AdmCargosTableSeeder extends Seeder
             61 => 
             array (
                 'id' => 562,
-                'users_id' => 748,
+                'user_id' => 748,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7330,7 +7330,7 @@ class AdmCargosTableSeeder extends Seeder
             62 => 
             array (
                 'id' => 563,
-                'users_id' => 750,
+                'user_id' => 750,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7343,7 +7343,7 @@ class AdmCargosTableSeeder extends Seeder
             63 => 
             array (
                 'id' => 564,
-                'users_id' => 751,
+                'user_id' => 751,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7356,7 +7356,7 @@ class AdmCargosTableSeeder extends Seeder
             64 => 
             array (
                 'id' => 565,
-                'users_id' => 752,
+                'user_id' => 752,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7369,7 +7369,7 @@ class AdmCargosTableSeeder extends Seeder
             65 => 
             array (
                 'id' => 566,
-                'users_id' => 753,
+                'user_id' => 753,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7382,7 +7382,7 @@ class AdmCargosTableSeeder extends Seeder
             66 => 
             array (
                 'id' => 567,
-                'users_id' => 754,
+                'user_id' => 754,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7395,7 +7395,7 @@ class AdmCargosTableSeeder extends Seeder
             67 => 
             array (
                 'id' => 568,
-                'users_id' => 755,
+                'user_id' => 755,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7408,7 +7408,7 @@ class AdmCargosTableSeeder extends Seeder
             68 => 
             array (
                 'id' => 569,
-                'users_id' => 756,
+                'user_id' => 756,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7421,7 +7421,7 @@ class AdmCargosTableSeeder extends Seeder
             69 => 
             array (
                 'id' => 570,
-                'users_id' => 757,
+                'user_id' => 757,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7434,7 +7434,7 @@ class AdmCargosTableSeeder extends Seeder
             70 => 
             array (
                 'id' => 571,
-                'users_id' => 758,
+                'user_id' => 758,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7447,7 +7447,7 @@ class AdmCargosTableSeeder extends Seeder
             71 => 
             array (
                 'id' => 572,
-                'users_id' => 759,
+                'user_id' => 759,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7460,7 +7460,7 @@ class AdmCargosTableSeeder extends Seeder
             72 => 
             array (
                 'id' => 573,
-                'users_id' => 760,
+                'user_id' => 760,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7473,7 +7473,7 @@ class AdmCargosTableSeeder extends Seeder
             73 => 
             array (
                 'id' => 574,
-                'users_id' => 761,
+                'user_id' => 761,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7486,7 +7486,7 @@ class AdmCargosTableSeeder extends Seeder
             74 => 
             array (
                 'id' => 575,
-                'users_id' => 763,
+                'user_id' => 763,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7499,7 +7499,7 @@ class AdmCargosTableSeeder extends Seeder
             75 => 
             array (
                 'id' => 576,
-                'users_id' => 764,
+                'user_id' => 764,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7512,7 +7512,7 @@ class AdmCargosTableSeeder extends Seeder
             76 => 
             array (
                 'id' => 577,
-                'users_id' => 765,
+                'user_id' => 765,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7525,7 +7525,7 @@ class AdmCargosTableSeeder extends Seeder
             77 => 
             array (
                 'id' => 578,
-                'users_id' => 766,
+                'user_id' => 766,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7538,7 +7538,7 @@ class AdmCargosTableSeeder extends Seeder
             78 => 
             array (
                 'id' => 579,
-                'users_id' => 767,
+                'user_id' => 767,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7551,7 +7551,7 @@ class AdmCargosTableSeeder extends Seeder
             79 => 
             array (
                 'id' => 580,
-                'users_id' => 768,
+                'user_id' => 768,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7564,7 +7564,7 @@ class AdmCargosTableSeeder extends Seeder
             80 => 
             array (
                 'id' => 581,
-                'users_id' => 770,
+                'user_id' => 770,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7577,7 +7577,7 @@ class AdmCargosTableSeeder extends Seeder
             81 => 
             array (
                 'id' => 582,
-                'users_id' => 771,
+                'user_id' => 771,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7590,7 +7590,7 @@ class AdmCargosTableSeeder extends Seeder
             82 => 
             array (
                 'id' => 583,
-                'users_id' => 772,
+                'user_id' => 772,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7603,7 +7603,7 @@ class AdmCargosTableSeeder extends Seeder
             83 => 
             array (
                 'id' => 584,
-                'users_id' => 773,
+                'user_id' => 773,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7616,7 +7616,7 @@ class AdmCargosTableSeeder extends Seeder
             84 => 
             array (
                 'id' => 585,
-                'users_id' => 774,
+                'user_id' => 774,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7629,7 +7629,7 @@ class AdmCargosTableSeeder extends Seeder
             85 => 
             array (
                 'id' => 586,
-                'users_id' => 775,
+                'user_id' => 775,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7642,7 +7642,7 @@ class AdmCargosTableSeeder extends Seeder
             86 => 
             array (
                 'id' => 587,
-                'users_id' => 777,
+                'user_id' => 777,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7655,7 +7655,7 @@ class AdmCargosTableSeeder extends Seeder
             87 => 
             array (
                 'id' => 588,
-                'users_id' => 779,
+                'user_id' => 779,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7668,7 +7668,7 @@ class AdmCargosTableSeeder extends Seeder
             88 => 
             array (
                 'id' => 589,
-                'users_id' => 780,
+                'user_id' => 780,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -7681,7 +7681,7 @@ class AdmCargosTableSeeder extends Seeder
             89 => 
             array (
                 'id' => 590,
-                'users_id' => 781,
+                'user_id' => 781,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7694,7 +7694,7 @@ class AdmCargosTableSeeder extends Seeder
             90 => 
             array (
                 'id' => 591,
-                'users_id' => 782,
+                'user_id' => 782,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -7707,7 +7707,7 @@ class AdmCargosTableSeeder extends Seeder
             91 => 
             array (
                 'id' => 592,
-                'users_id' => 783,
+                'user_id' => 783,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7720,7 +7720,7 @@ class AdmCargosTableSeeder extends Seeder
             92 => 
             array (
                 'id' => 593,
-                'users_id' => 784,
+                'user_id' => 784,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7733,7 +7733,7 @@ class AdmCargosTableSeeder extends Seeder
             93 => 
             array (
                 'id' => 594,
-                'users_id' => 785,
+                'user_id' => 785,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7746,7 +7746,7 @@ class AdmCargosTableSeeder extends Seeder
             94 => 
             array (
                 'id' => 595,
-                'users_id' => 786,
+                'user_id' => 786,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7759,7 +7759,7 @@ class AdmCargosTableSeeder extends Seeder
             95 => 
             array (
                 'id' => 596,
-                'users_id' => 787,
+                'user_id' => 787,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7772,7 +7772,7 @@ class AdmCargosTableSeeder extends Seeder
             96 => 
             array (
                 'id' => 597,
-                'users_id' => 788,
+                'user_id' => 788,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7785,7 +7785,7 @@ class AdmCargosTableSeeder extends Seeder
             97 => 
             array (
                 'id' => 598,
-                'users_id' => 790,
+                'user_id' => 790,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7798,7 +7798,7 @@ class AdmCargosTableSeeder extends Seeder
             98 => 
             array (
                 'id' => 599,
-                'users_id' => 793,
+                'user_id' => 793,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7811,7 +7811,7 @@ class AdmCargosTableSeeder extends Seeder
             99 => 
             array (
                 'id' => 600,
-                'users_id' => 794,
+                'user_id' => 794,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7824,7 +7824,7 @@ class AdmCargosTableSeeder extends Seeder
             100 => 
             array (
                 'id' => 601,
-                'users_id' => 795,
+                'user_id' => 795,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7837,7 +7837,7 @@ class AdmCargosTableSeeder extends Seeder
             101 => 
             array (
                 'id' => 602,
-                'users_id' => 796,
+                'user_id' => 796,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7850,7 +7850,7 @@ class AdmCargosTableSeeder extends Seeder
             102 => 
             array (
                 'id' => 603,
-                'users_id' => 797,
+                'user_id' => 797,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7863,7 +7863,7 @@ class AdmCargosTableSeeder extends Seeder
             103 => 
             array (
                 'id' => 604,
-                'users_id' => 798,
+                'user_id' => 798,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7876,7 +7876,7 @@ class AdmCargosTableSeeder extends Seeder
             104 => 
             array (
                 'id' => 605,
-                'users_id' => 799,
+                'user_id' => 799,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7889,7 +7889,7 @@ class AdmCargosTableSeeder extends Seeder
             105 => 
             array (
                 'id' => 606,
-                'users_id' => 800,
+                'user_id' => 800,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7902,7 +7902,7 @@ class AdmCargosTableSeeder extends Seeder
             106 => 
             array (
                 'id' => 607,
-                'users_id' => 801,
+                'user_id' => 801,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7915,7 +7915,7 @@ class AdmCargosTableSeeder extends Seeder
             107 => 
             array (
                 'id' => 608,
-                'users_id' => 802,
+                'user_id' => 802,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7928,7 +7928,7 @@ class AdmCargosTableSeeder extends Seeder
             108 => 
             array (
                 'id' => 609,
-                'users_id' => 803,
+                'user_id' => 803,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7941,7 +7941,7 @@ class AdmCargosTableSeeder extends Seeder
             109 => 
             array (
                 'id' => 610,
-                'users_id' => 804,
+                'user_id' => 804,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7954,7 +7954,7 @@ class AdmCargosTableSeeder extends Seeder
             110 => 
             array (
                 'id' => 611,
-                'users_id' => 805,
+                'user_id' => 805,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7967,7 +7967,7 @@ class AdmCargosTableSeeder extends Seeder
             111 => 
             array (
                 'id' => 612,
-                'users_id' => 806,
+                'user_id' => 806,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7980,7 +7980,7 @@ class AdmCargosTableSeeder extends Seeder
             112 => 
             array (
                 'id' => 613,
-                'users_id' => 807,
+                'user_id' => 807,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -7993,7 +7993,7 @@ class AdmCargosTableSeeder extends Seeder
             113 => 
             array (
                 'id' => 614,
-                'users_id' => 808,
+                'user_id' => 808,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8006,7 +8006,7 @@ class AdmCargosTableSeeder extends Seeder
             114 => 
             array (
                 'id' => 615,
-                'users_id' => 809,
+                'user_id' => 809,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8019,7 +8019,7 @@ class AdmCargosTableSeeder extends Seeder
             115 => 
             array (
                 'id' => 616,
-                'users_id' => 810,
+                'user_id' => 810,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8032,7 +8032,7 @@ class AdmCargosTableSeeder extends Seeder
             116 => 
             array (
                 'id' => 617,
-                'users_id' => 811,
+                'user_id' => 811,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -8045,7 +8045,7 @@ class AdmCargosTableSeeder extends Seeder
             117 => 
             array (
                 'id' => 618,
-                'users_id' => 812,
+                'user_id' => 812,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8058,7 +8058,7 @@ class AdmCargosTableSeeder extends Seeder
             118 => 
             array (
                 'id' => 619,
-                'users_id' => 814,
+                'user_id' => 814,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8071,7 +8071,7 @@ class AdmCargosTableSeeder extends Seeder
             119 => 
             array (
                 'id' => 620,
-                'users_id' => 815,
+                'user_id' => 815,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -8084,7 +8084,7 @@ class AdmCargosTableSeeder extends Seeder
             120 => 
             array (
                 'id' => 621,
-                'users_id' => 816,
+                'user_id' => 816,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8097,7 +8097,7 @@ class AdmCargosTableSeeder extends Seeder
             121 => 
             array (
                 'id' => 622,
-                'users_id' => 817,
+                'user_id' => 817,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8110,7 +8110,7 @@ class AdmCargosTableSeeder extends Seeder
             122 => 
             array (
                 'id' => 623,
-                'users_id' => 818,
+                'user_id' => 818,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8123,7 +8123,7 @@ class AdmCargosTableSeeder extends Seeder
             123 => 
             array (
                 'id' => 624,
-                'users_id' => 819,
+                'user_id' => 819,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8136,7 +8136,7 @@ class AdmCargosTableSeeder extends Seeder
             124 => 
             array (
                 'id' => 625,
-                'users_id' => 820,
+                'user_id' => 820,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8149,7 +8149,7 @@ class AdmCargosTableSeeder extends Seeder
             125 => 
             array (
                 'id' => 626,
-                'users_id' => 821,
+                'user_id' => 821,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8162,7 +8162,7 @@ class AdmCargosTableSeeder extends Seeder
             126 => 
             array (
                 'id' => 627,
-                'users_id' => 822,
+                'user_id' => 822,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8175,7 +8175,7 @@ class AdmCargosTableSeeder extends Seeder
             127 => 
             array (
                 'id' => 628,
-                'users_id' => 823,
+                'user_id' => 823,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8188,7 +8188,7 @@ class AdmCargosTableSeeder extends Seeder
             128 => 
             array (
                 'id' => 629,
-                'users_id' => 824,
+                'user_id' => 824,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8201,7 +8201,7 @@ class AdmCargosTableSeeder extends Seeder
             129 => 
             array (
                 'id' => 630,
-                'users_id' => 825,
+                'user_id' => 825,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8214,7 +8214,7 @@ class AdmCargosTableSeeder extends Seeder
             130 => 
             array (
                 'id' => 631,
-                'users_id' => 826,
+                'user_id' => 826,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8227,7 +8227,7 @@ class AdmCargosTableSeeder extends Seeder
             131 => 
             array (
                 'id' => 632,
-                'users_id' => 827,
+                'user_id' => 827,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8240,7 +8240,7 @@ class AdmCargosTableSeeder extends Seeder
             132 => 
             array (
                 'id' => 633,
-                'users_id' => 828,
+                'user_id' => 828,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8253,7 +8253,7 @@ class AdmCargosTableSeeder extends Seeder
             133 => 
             array (
                 'id' => 634,
-                'users_id' => 829,
+                'user_id' => 829,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8266,7 +8266,7 @@ class AdmCargosTableSeeder extends Seeder
             134 => 
             array (
                 'id' => 635,
-                'users_id' => 830,
+                'user_id' => 830,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8279,7 +8279,7 @@ class AdmCargosTableSeeder extends Seeder
             135 => 
             array (
                 'id' => 636,
-                'users_id' => 831,
+                'user_id' => 831,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8292,7 +8292,7 @@ class AdmCargosTableSeeder extends Seeder
             136 => 
             array (
                 'id' => 637,
-                'users_id' => 832,
+                'user_id' => 832,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8305,7 +8305,7 @@ class AdmCargosTableSeeder extends Seeder
             137 => 
             array (
                 'id' => 638,
-                'users_id' => 834,
+                'user_id' => 834,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8318,7 +8318,7 @@ class AdmCargosTableSeeder extends Seeder
             138 => 
             array (
                 'id' => 639,
-                'users_id' => 835,
+                'user_id' => 835,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8331,7 +8331,7 @@ class AdmCargosTableSeeder extends Seeder
             139 => 
             array (
                 'id' => 640,
-                'users_id' => 836,
+                'user_id' => 836,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8344,7 +8344,7 @@ class AdmCargosTableSeeder extends Seeder
             140 => 
             array (
                 'id' => 641,
-                'users_id' => 837,
+                'user_id' => 837,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8357,7 +8357,7 @@ class AdmCargosTableSeeder extends Seeder
             141 => 
             array (
                 'id' => 642,
-                'users_id' => 838,
+                'user_id' => 838,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8370,7 +8370,7 @@ class AdmCargosTableSeeder extends Seeder
             142 => 
             array (
                 'id' => 643,
-                'users_id' => 839,
+                'user_id' => 839,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8383,7 +8383,7 @@ class AdmCargosTableSeeder extends Seeder
             143 => 
             array (
                 'id' => 644,
-                'users_id' => 840,
+                'user_id' => 840,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8396,7 +8396,7 @@ class AdmCargosTableSeeder extends Seeder
             144 => 
             array (
                 'id' => 645,
-                'users_id' => 841,
+                'user_id' => 841,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8409,7 +8409,7 @@ class AdmCargosTableSeeder extends Seeder
             145 => 
             array (
                 'id' => 646,
-                'users_id' => 842,
+                'user_id' => 842,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8422,7 +8422,7 @@ class AdmCargosTableSeeder extends Seeder
             146 => 
             array (
                 'id' => 647,
-                'users_id' => 843,
+                'user_id' => 843,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8435,7 +8435,7 @@ class AdmCargosTableSeeder extends Seeder
             147 => 
             array (
                 'id' => 648,
-                'users_id' => 844,
+                'user_id' => 844,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8448,7 +8448,7 @@ class AdmCargosTableSeeder extends Seeder
             148 => 
             array (
                 'id' => 649,
-                'users_id' => 846,
+                'user_id' => 846,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8461,7 +8461,7 @@ class AdmCargosTableSeeder extends Seeder
             149 => 
             array (
                 'id' => 650,
-                'users_id' => 847,
+                'user_id' => 847,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8474,7 +8474,7 @@ class AdmCargosTableSeeder extends Seeder
             150 => 
             array (
                 'id' => 651,
-                'users_id' => 848,
+                'user_id' => 848,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8487,7 +8487,7 @@ class AdmCargosTableSeeder extends Seeder
             151 => 
             array (
                 'id' => 652,
-                'users_id' => 849,
+                'user_id' => 849,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8500,7 +8500,7 @@ class AdmCargosTableSeeder extends Seeder
             152 => 
             array (
                 'id' => 653,
-                'users_id' => 850,
+                'user_id' => 850,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8513,7 +8513,7 @@ class AdmCargosTableSeeder extends Seeder
             153 => 
             array (
                 'id' => 654,
-                'users_id' => 851,
+                'user_id' => 851,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8526,7 +8526,7 @@ class AdmCargosTableSeeder extends Seeder
             154 => 
             array (
                 'id' => 655,
-                'users_id' => 852,
+                'user_id' => 852,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8539,7 +8539,7 @@ class AdmCargosTableSeeder extends Seeder
             155 => 
             array (
                 'id' => 656,
-                'users_id' => 853,
+                'user_id' => 853,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8552,7 +8552,7 @@ class AdmCargosTableSeeder extends Seeder
             156 => 
             array (
                 'id' => 657,
-                'users_id' => 854,
+                'user_id' => 854,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8565,7 +8565,7 @@ class AdmCargosTableSeeder extends Seeder
             157 => 
             array (
                 'id' => 658,
-                'users_id' => 855,
+                'user_id' => 855,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8578,7 +8578,7 @@ class AdmCargosTableSeeder extends Seeder
             158 => 
             array (
                 'id' => 659,
-                'users_id' => 858,
+                'user_id' => 858,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -8591,7 +8591,7 @@ class AdmCargosTableSeeder extends Seeder
             159 => 
             array (
                 'id' => 660,
-                'users_id' => 859,
+                'user_id' => 859,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8604,7 +8604,7 @@ class AdmCargosTableSeeder extends Seeder
             160 => 
             array (
                 'id' => 661,
-                'users_id' => 860,
+                'user_id' => 860,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8617,7 +8617,7 @@ class AdmCargosTableSeeder extends Seeder
             161 => 
             array (
                 'id' => 662,
-                'users_id' => 861,
+                'user_id' => 861,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8630,7 +8630,7 @@ class AdmCargosTableSeeder extends Seeder
             162 => 
             array (
                 'id' => 663,
-                'users_id' => 862,
+                'user_id' => 862,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8643,7 +8643,7 @@ class AdmCargosTableSeeder extends Seeder
             163 => 
             array (
                 'id' => 664,
-                'users_id' => 864,
+                'user_id' => 864,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8656,7 +8656,7 @@ class AdmCargosTableSeeder extends Seeder
             164 => 
             array (
                 'id' => 665,
-                'users_id' => 865,
+                'user_id' => 865,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8669,7 +8669,7 @@ class AdmCargosTableSeeder extends Seeder
             165 => 
             array (
                 'id' => 666,
-                'users_id' => 866,
+                'user_id' => 866,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8682,7 +8682,7 @@ class AdmCargosTableSeeder extends Seeder
             166 => 
             array (
                 'id' => 667,
-                'users_id' => 868,
+                'user_id' => 868,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8695,7 +8695,7 @@ class AdmCargosTableSeeder extends Seeder
             167 => 
             array (
                 'id' => 668,
-                'users_id' => 869,
+                'user_id' => 869,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8708,7 +8708,7 @@ class AdmCargosTableSeeder extends Seeder
             168 => 
             array (
                 'id' => 669,
-                'users_id' => 871,
+                'user_id' => 871,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8721,7 +8721,7 @@ class AdmCargosTableSeeder extends Seeder
             169 => 
             array (
                 'id' => 670,
-                'users_id' => 872,
+                'user_id' => 872,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8734,7 +8734,7 @@ class AdmCargosTableSeeder extends Seeder
             170 => 
             array (
                 'id' => 671,
-                'users_id' => 874,
+                'user_id' => 874,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8747,7 +8747,7 @@ class AdmCargosTableSeeder extends Seeder
             171 => 
             array (
                 'id' => 672,
-                'users_id' => 875,
+                'user_id' => 875,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -8760,7 +8760,7 @@ class AdmCargosTableSeeder extends Seeder
             172 => 
             array (
                 'id' => 673,
-                'users_id' => 878,
+                'user_id' => 878,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8773,7 +8773,7 @@ class AdmCargosTableSeeder extends Seeder
             173 => 
             array (
                 'id' => 674,
-                'users_id' => 882,
+                'user_id' => 882,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8786,7 +8786,7 @@ class AdmCargosTableSeeder extends Seeder
             174 => 
             array (
                 'id' => 675,
-                'users_id' => 889,
+                'user_id' => 889,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8799,7 +8799,7 @@ class AdmCargosTableSeeder extends Seeder
             175 => 
             array (
                 'id' => 676,
-                'users_id' => 892,
+                'user_id' => 892,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8812,7 +8812,7 @@ class AdmCargosTableSeeder extends Seeder
             176 => 
             array (
                 'id' => 677,
-                'users_id' => 894,
+                'user_id' => 894,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -8825,7 +8825,7 @@ class AdmCargosTableSeeder extends Seeder
             177 => 
             array (
                 'id' => 678,
-                'users_id' => 895,
+                'user_id' => 895,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8838,7 +8838,7 @@ class AdmCargosTableSeeder extends Seeder
             178 => 
             array (
                 'id' => 679,
-                'users_id' => 896,
+                'user_id' => 896,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8851,7 +8851,7 @@ class AdmCargosTableSeeder extends Seeder
             179 => 
             array (
                 'id' => 680,
-                'users_id' => 897,
+                'user_id' => 897,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -8864,7 +8864,7 @@ class AdmCargosTableSeeder extends Seeder
             180 => 
             array (
                 'id' => 681,
-                'users_id' => 898,
+                'user_id' => 898,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8877,7 +8877,7 @@ class AdmCargosTableSeeder extends Seeder
             181 => 
             array (
                 'id' => 682,
-                'users_id' => 900,
+                'user_id' => 900,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8890,7 +8890,7 @@ class AdmCargosTableSeeder extends Seeder
             182 => 
             array (
                 'id' => 683,
-                'users_id' => 901,
+                'user_id' => 901,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8903,7 +8903,7 @@ class AdmCargosTableSeeder extends Seeder
             183 => 
             array (
                 'id' => 684,
-                'users_id' => 902,
+                'user_id' => 902,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8916,7 +8916,7 @@ class AdmCargosTableSeeder extends Seeder
             184 => 
             array (
                 'id' => 685,
-                'users_id' => 904,
+                'user_id' => 904,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8929,7 +8929,7 @@ class AdmCargosTableSeeder extends Seeder
             185 => 
             array (
                 'id' => 686,
-                'users_id' => 905,
+                'user_id' => 905,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8942,7 +8942,7 @@ class AdmCargosTableSeeder extends Seeder
             186 => 
             array (
                 'id' => 687,
-                'users_id' => 907,
+                'user_id' => 907,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8955,7 +8955,7 @@ class AdmCargosTableSeeder extends Seeder
             187 => 
             array (
                 'id' => 688,
-                'users_id' => 912,
+                'user_id' => 912,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -8968,7 +8968,7 @@ class AdmCargosTableSeeder extends Seeder
             188 => 
             array (
                 'id' => 689,
-                'users_id' => 913,
+                'user_id' => 913,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8981,7 +8981,7 @@ class AdmCargosTableSeeder extends Seeder
             189 => 
             array (
                 'id' => 690,
-                'users_id' => 914,
+                'user_id' => 914,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -8994,7 +8994,7 @@ class AdmCargosTableSeeder extends Seeder
             190 => 
             array (
                 'id' => 691,
-                'users_id' => 915,
+                'user_id' => 915,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9007,7 +9007,7 @@ class AdmCargosTableSeeder extends Seeder
             191 => 
             array (
                 'id' => 692,
-                'users_id' => 917,
+                'user_id' => 917,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9020,7 +9020,7 @@ class AdmCargosTableSeeder extends Seeder
             192 => 
             array (
                 'id' => 693,
-                'users_id' => 918,
+                'user_id' => 918,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9033,7 +9033,7 @@ class AdmCargosTableSeeder extends Seeder
             193 => 
             array (
                 'id' => 694,
-                'users_id' => 921,
+                'user_id' => 921,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9046,7 +9046,7 @@ class AdmCargosTableSeeder extends Seeder
             194 => 
             array (
                 'id' => 695,
-                'users_id' => 922,
+                'user_id' => 922,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9059,7 +9059,7 @@ class AdmCargosTableSeeder extends Seeder
             195 => 
             array (
                 'id' => 696,
-                'users_id' => 923,
+                'user_id' => 923,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9072,7 +9072,7 @@ class AdmCargosTableSeeder extends Seeder
             196 => 
             array (
                 'id' => 697,
-                'users_id' => 924,
+                'user_id' => 924,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9085,7 +9085,7 @@ class AdmCargosTableSeeder extends Seeder
             197 => 
             array (
                 'id' => 698,
-                'users_id' => 925,
+                'user_id' => 925,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9098,7 +9098,7 @@ class AdmCargosTableSeeder extends Seeder
             198 => 
             array (
                 'id' => 699,
-                'users_id' => 926,
+                'user_id' => 926,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9111,7 +9111,7 @@ class AdmCargosTableSeeder extends Seeder
             199 => 
             array (
                 'id' => 700,
-                'users_id' => 927,
+                'user_id' => 927,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9124,7 +9124,7 @@ class AdmCargosTableSeeder extends Seeder
             200 => 
             array (
                 'id' => 701,
-                'users_id' => 928,
+                'user_id' => 928,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9137,7 +9137,7 @@ class AdmCargosTableSeeder extends Seeder
             201 => 
             array (
                 'id' => 702,
-                'users_id' => 929,
+                'user_id' => 929,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9150,7 +9150,7 @@ class AdmCargosTableSeeder extends Seeder
             202 => 
             array (
                 'id' => 703,
-                'users_id' => 930,
+                'user_id' => 930,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9163,7 +9163,7 @@ class AdmCargosTableSeeder extends Seeder
             203 => 
             array (
                 'id' => 704,
-                'users_id' => 931,
+                'user_id' => 931,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -9176,7 +9176,7 @@ class AdmCargosTableSeeder extends Seeder
             204 => 
             array (
                 'id' => 705,
-                'users_id' => 932,
+                'user_id' => 932,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9189,7 +9189,7 @@ class AdmCargosTableSeeder extends Seeder
             205 => 
             array (
                 'id' => 706,
-                'users_id' => 933,
+                'user_id' => 933,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9202,7 +9202,7 @@ class AdmCargosTableSeeder extends Seeder
             206 => 
             array (
                 'id' => 707,
-                'users_id' => 934,
+                'user_id' => 934,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -9215,7 +9215,7 @@ class AdmCargosTableSeeder extends Seeder
             207 => 
             array (
                 'id' => 708,
-                'users_id' => 935,
+                'user_id' => 935,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -9228,7 +9228,7 @@ class AdmCargosTableSeeder extends Seeder
             208 => 
             array (
                 'id' => 709,
-                'users_id' => 936,
+                'user_id' => 936,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9241,7 +9241,7 @@ class AdmCargosTableSeeder extends Seeder
             209 => 
             array (
                 'id' => 710,
-                'users_id' => 937,
+                'user_id' => 937,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9254,7 +9254,7 @@ class AdmCargosTableSeeder extends Seeder
             210 => 
             array (
                 'id' => 711,
-                'users_id' => 938,
+                'user_id' => 938,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9267,7 +9267,7 @@ class AdmCargosTableSeeder extends Seeder
             211 => 
             array (
                 'id' => 712,
-                'users_id' => 939,
+                'user_id' => 939,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9280,7 +9280,7 @@ class AdmCargosTableSeeder extends Seeder
             212 => 
             array (
                 'id' => 713,
-                'users_id' => 940,
+                'user_id' => 940,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9293,7 +9293,7 @@ class AdmCargosTableSeeder extends Seeder
             213 => 
             array (
                 'id' => 714,
-                'users_id' => 941,
+                'user_id' => 941,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9306,7 +9306,7 @@ class AdmCargosTableSeeder extends Seeder
             214 => 
             array (
                 'id' => 715,
-                'users_id' => 942,
+                'user_id' => 942,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9319,7 +9319,7 @@ class AdmCargosTableSeeder extends Seeder
             215 => 
             array (
                 'id' => 716,
-                'users_id' => 947,
+                'user_id' => 947,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9332,7 +9332,7 @@ class AdmCargosTableSeeder extends Seeder
             216 => 
             array (
                 'id' => 717,
-                'users_id' => 949,
+                'user_id' => 949,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9345,7 +9345,7 @@ class AdmCargosTableSeeder extends Seeder
             217 => 
             array (
                 'id' => 718,
-                'users_id' => 950,
+                'user_id' => 950,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9358,7 +9358,7 @@ class AdmCargosTableSeeder extends Seeder
             218 => 
             array (
                 'id' => 719,
-                'users_id' => 952,
+                'user_id' => 952,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9371,7 +9371,7 @@ class AdmCargosTableSeeder extends Seeder
             219 => 
             array (
                 'id' => 720,
-                'users_id' => 953,
+                'user_id' => 953,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9384,7 +9384,7 @@ class AdmCargosTableSeeder extends Seeder
             220 => 
             array (
                 'id' => 721,
-                'users_id' => 955,
+                'user_id' => 955,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9397,7 +9397,7 @@ class AdmCargosTableSeeder extends Seeder
             221 => 
             array (
                 'id' => 722,
-                'users_id' => 956,
+                'user_id' => 956,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9410,7 +9410,7 @@ class AdmCargosTableSeeder extends Seeder
             222 => 
             array (
                 'id' => 723,
-                'users_id' => 957,
+                'user_id' => 957,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9423,7 +9423,7 @@ class AdmCargosTableSeeder extends Seeder
             223 => 
             array (
                 'id' => 724,
-                'users_id' => 958,
+                'user_id' => 958,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9436,7 +9436,7 @@ class AdmCargosTableSeeder extends Seeder
             224 => 
             array (
                 'id' => 725,
-                'users_id' => 959,
+                'user_id' => 959,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9449,7 +9449,7 @@ class AdmCargosTableSeeder extends Seeder
             225 => 
             array (
                 'id' => 726,
-                'users_id' => 960,
+                'user_id' => 960,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9462,7 +9462,7 @@ class AdmCargosTableSeeder extends Seeder
             226 => 
             array (
                 'id' => 727,
-                'users_id' => 961,
+                'user_id' => 961,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9475,7 +9475,7 @@ class AdmCargosTableSeeder extends Seeder
             227 => 
             array (
                 'id' => 728,
-                'users_id' => 962,
+                'user_id' => 962,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9488,7 +9488,7 @@ class AdmCargosTableSeeder extends Seeder
             228 => 
             array (
                 'id' => 729,
-                'users_id' => 963,
+                'user_id' => 963,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9501,7 +9501,7 @@ class AdmCargosTableSeeder extends Seeder
             229 => 
             array (
                 'id' => 730,
-                'users_id' => 964,
+                'user_id' => 964,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9514,7 +9514,7 @@ class AdmCargosTableSeeder extends Seeder
             230 => 
             array (
                 'id' => 731,
-                'users_id' => 965,
+                'user_id' => 965,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9527,7 +9527,7 @@ class AdmCargosTableSeeder extends Seeder
             231 => 
             array (
                 'id' => 732,
-                'users_id' => 966,
+                'user_id' => 966,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9540,7 +9540,7 @@ class AdmCargosTableSeeder extends Seeder
             232 => 
             array (
                 'id' => 733,
-                'users_id' => 967,
+                'user_id' => 967,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9553,7 +9553,7 @@ class AdmCargosTableSeeder extends Seeder
             233 => 
             array (
                 'id' => 734,
-                'users_id' => 968,
+                'user_id' => 968,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9566,7 +9566,7 @@ class AdmCargosTableSeeder extends Seeder
             234 => 
             array (
                 'id' => 735,
-                'users_id' => 969,
+                'user_id' => 969,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9579,7 +9579,7 @@ class AdmCargosTableSeeder extends Seeder
             235 => 
             array (
                 'id' => 736,
-                'users_id' => 970,
+                'user_id' => 970,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9592,7 +9592,7 @@ class AdmCargosTableSeeder extends Seeder
             236 => 
             array (
                 'id' => 737,
-                'users_id' => 971,
+                'user_id' => 971,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9605,7 +9605,7 @@ class AdmCargosTableSeeder extends Seeder
             237 => 
             array (
                 'id' => 738,
-                'users_id' => 973,
+                'user_id' => 973,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9618,7 +9618,7 @@ class AdmCargosTableSeeder extends Seeder
             238 => 
             array (
                 'id' => 739,
-                'users_id' => 975,
+                'user_id' => 975,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9631,7 +9631,7 @@ class AdmCargosTableSeeder extends Seeder
             239 => 
             array (
                 'id' => 740,
-                'users_id' => 976,
+                'user_id' => 976,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9644,7 +9644,7 @@ class AdmCargosTableSeeder extends Seeder
             240 => 
             array (
                 'id' => 741,
-                'users_id' => 977,
+                'user_id' => 977,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9657,7 +9657,7 @@ class AdmCargosTableSeeder extends Seeder
             241 => 
             array (
                 'id' => 742,
-                'users_id' => 978,
+                'user_id' => 978,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9670,7 +9670,7 @@ class AdmCargosTableSeeder extends Seeder
             242 => 
             array (
                 'id' => 743,
-                'users_id' => 979,
+                'user_id' => 979,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9683,7 +9683,7 @@ class AdmCargosTableSeeder extends Seeder
             243 => 
             array (
                 'id' => 744,
-                'users_id' => 980,
+                'user_id' => 980,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9696,7 +9696,7 @@ class AdmCargosTableSeeder extends Seeder
             244 => 
             array (
                 'id' => 745,
-                'users_id' => 981,
+                'user_id' => 981,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9709,7 +9709,7 @@ class AdmCargosTableSeeder extends Seeder
             245 => 
             array (
                 'id' => 746,
-                'users_id' => 982,
+                'user_id' => 982,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9722,7 +9722,7 @@ class AdmCargosTableSeeder extends Seeder
             246 => 
             array (
                 'id' => 747,
-                'users_id' => 983,
+                'user_id' => 983,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9735,7 +9735,7 @@ class AdmCargosTableSeeder extends Seeder
             247 => 
             array (
                 'id' => 748,
-                'users_id' => 984,
+                'user_id' => 984,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9748,7 +9748,7 @@ class AdmCargosTableSeeder extends Seeder
             248 => 
             array (
                 'id' => 749,
-                'users_id' => 985,
+                'user_id' => 985,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9761,7 +9761,7 @@ class AdmCargosTableSeeder extends Seeder
             249 => 
             array (
                 'id' => 750,
-                'users_id' => 986,
+                'user_id' => 986,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9774,7 +9774,7 @@ class AdmCargosTableSeeder extends Seeder
             250 => 
             array (
                 'id' => 751,
-                'users_id' => 987,
+                'user_id' => 987,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9787,7 +9787,7 @@ class AdmCargosTableSeeder extends Seeder
             251 => 
             array (
                 'id' => 752,
-                'users_id' => 988,
+                'user_id' => 988,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9800,7 +9800,7 @@ class AdmCargosTableSeeder extends Seeder
             252 => 
             array (
                 'id' => 753,
-                'users_id' => 989,
+                'user_id' => 989,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9813,7 +9813,7 @@ class AdmCargosTableSeeder extends Seeder
             253 => 
             array (
                 'id' => 754,
-                'users_id' => 990,
+                'user_id' => 990,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9826,7 +9826,7 @@ class AdmCargosTableSeeder extends Seeder
             254 => 
             array (
                 'id' => 755,
-                'users_id' => 991,
+                'user_id' => 991,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9839,7 +9839,7 @@ class AdmCargosTableSeeder extends Seeder
             255 => 
             array (
                 'id' => 756,
-                'users_id' => 992,
+                'user_id' => 992,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9852,7 +9852,7 @@ class AdmCargosTableSeeder extends Seeder
             256 => 
             array (
                 'id' => 757,
-                'users_id' => 993,
+                'user_id' => 993,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9865,7 +9865,7 @@ class AdmCargosTableSeeder extends Seeder
             257 => 
             array (
                 'id' => 758,
-                'users_id' => 995,
+                'user_id' => 995,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9878,7 +9878,7 @@ class AdmCargosTableSeeder extends Seeder
             258 => 
             array (
                 'id' => 759,
-                'users_id' => 996,
+                'user_id' => 996,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9891,7 +9891,7 @@ class AdmCargosTableSeeder extends Seeder
             259 => 
             array (
                 'id' => 760,
-                'users_id' => 997,
+                'user_id' => 997,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9904,7 +9904,7 @@ class AdmCargosTableSeeder extends Seeder
             260 => 
             array (
                 'id' => 761,
-                'users_id' => 998,
+                'user_id' => 998,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9917,7 +9917,7 @@ class AdmCargosTableSeeder extends Seeder
             261 => 
             array (
                 'id' => 762,
-                'users_id' => 999,
+                'user_id' => 999,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9930,7 +9930,7 @@ class AdmCargosTableSeeder extends Seeder
             262 => 
             array (
                 'id' => 763,
-                'users_id' => 1000,
+                'user_id' => 1000,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9943,7 +9943,7 @@ class AdmCargosTableSeeder extends Seeder
             263 => 
             array (
                 'id' => 764,
-                'users_id' => 1001,
+                'user_id' => 1001,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9956,7 +9956,7 @@ class AdmCargosTableSeeder extends Seeder
             264 => 
             array (
                 'id' => 765,
-                'users_id' => 1002,
+                'user_id' => 1002,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9969,7 +9969,7 @@ class AdmCargosTableSeeder extends Seeder
             265 => 
             array (
                 'id' => 766,
-                'users_id' => 1003,
+                'user_id' => 1003,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9982,7 +9982,7 @@ class AdmCargosTableSeeder extends Seeder
             266 => 
             array (
                 'id' => 767,
-                'users_id' => 1005,
+                'user_id' => 1005,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -9995,7 +9995,7 @@ class AdmCargosTableSeeder extends Seeder
             267 => 
             array (
                 'id' => 768,
-                'users_id' => 1006,
+                'user_id' => 1006,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10008,7 +10008,7 @@ class AdmCargosTableSeeder extends Seeder
             268 => 
             array (
                 'id' => 769,
-                'users_id' => 1007,
+                'user_id' => 1007,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10021,7 +10021,7 @@ class AdmCargosTableSeeder extends Seeder
             269 => 
             array (
                 'id' => 770,
-                'users_id' => 1008,
+                'user_id' => 1008,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10034,7 +10034,7 @@ class AdmCargosTableSeeder extends Seeder
             270 => 
             array (
                 'id' => 771,
-                'users_id' => 1009,
+                'user_id' => 1009,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10047,7 +10047,7 @@ class AdmCargosTableSeeder extends Seeder
             271 => 
             array (
                 'id' => 772,
-                'users_id' => 1010,
+                'user_id' => 1010,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10060,7 +10060,7 @@ class AdmCargosTableSeeder extends Seeder
             272 => 
             array (
                 'id' => 773,
-                'users_id' => 1011,
+                'user_id' => 1011,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10073,7 +10073,7 @@ class AdmCargosTableSeeder extends Seeder
             273 => 
             array (
                 'id' => 774,
-                'users_id' => 1012,
+                'user_id' => 1012,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10086,7 +10086,7 @@ class AdmCargosTableSeeder extends Seeder
             274 => 
             array (
                 'id' => 775,
-                'users_id' => 1013,
+                'user_id' => 1013,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10099,7 +10099,7 @@ class AdmCargosTableSeeder extends Seeder
             275 => 
             array (
                 'id' => 776,
-                'users_id' => 1015,
+                'user_id' => 1015,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10112,7 +10112,7 @@ class AdmCargosTableSeeder extends Seeder
             276 => 
             array (
                 'id' => 777,
-                'users_id' => 1016,
+                'user_id' => 1016,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10125,7 +10125,7 @@ class AdmCargosTableSeeder extends Seeder
             277 => 
             array (
                 'id' => 778,
-                'users_id' => 1019,
+                'user_id' => 1019,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10138,7 +10138,7 @@ class AdmCargosTableSeeder extends Seeder
             278 => 
             array (
                 'id' => 779,
-                'users_id' => 1020,
+                'user_id' => 1020,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10151,7 +10151,7 @@ class AdmCargosTableSeeder extends Seeder
             279 => 
             array (
                 'id' => 780,
-                'users_id' => 1021,
+                'user_id' => 1021,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10164,7 +10164,7 @@ class AdmCargosTableSeeder extends Seeder
             280 => 
             array (
                 'id' => 781,
-                'users_id' => 1022,
+                'user_id' => 1022,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10177,7 +10177,7 @@ class AdmCargosTableSeeder extends Seeder
             281 => 
             array (
                 'id' => 782,
-                'users_id' => 1023,
+                'user_id' => 1023,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -10190,7 +10190,7 @@ class AdmCargosTableSeeder extends Seeder
             282 => 
             array (
                 'id' => 783,
-                'users_id' => 1024,
+                'user_id' => 1024,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -10203,7 +10203,7 @@ class AdmCargosTableSeeder extends Seeder
             283 => 
             array (
                 'id' => 784,
-                'users_id' => 1025,
+                'user_id' => 1025,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10216,7 +10216,7 @@ class AdmCargosTableSeeder extends Seeder
             284 => 
             array (
                 'id' => 785,
-                'users_id' => 1026,
+                'user_id' => 1026,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10229,7 +10229,7 @@ class AdmCargosTableSeeder extends Seeder
             285 => 
             array (
                 'id' => 786,
-                'users_id' => 1028,
+                'user_id' => 1028,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10242,7 +10242,7 @@ class AdmCargosTableSeeder extends Seeder
             286 => 
             array (
                 'id' => 787,
-                'users_id' => 1029,
+                'user_id' => 1029,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10255,7 +10255,7 @@ class AdmCargosTableSeeder extends Seeder
             287 => 
             array (
                 'id' => 788,
-                'users_id' => 1030,
+                'user_id' => 1030,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10268,7 +10268,7 @@ class AdmCargosTableSeeder extends Seeder
             288 => 
             array (
                 'id' => 789,
-                'users_id' => 1031,
+                'user_id' => 1031,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10281,7 +10281,7 @@ class AdmCargosTableSeeder extends Seeder
             289 => 
             array (
                 'id' => 790,
-                'users_id' => 1032,
+                'user_id' => 1032,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10294,7 +10294,7 @@ class AdmCargosTableSeeder extends Seeder
             290 => 
             array (
                 'id' => 791,
-                'users_id' => 1033,
+                'user_id' => 1033,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10307,7 +10307,7 @@ class AdmCargosTableSeeder extends Seeder
             291 => 
             array (
                 'id' => 792,
-                'users_id' => 1034,
+                'user_id' => 1034,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10320,7 +10320,7 @@ class AdmCargosTableSeeder extends Seeder
             292 => 
             array (
                 'id' => 793,
-                'users_id' => 1036,
+                'user_id' => 1036,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10333,7 +10333,7 @@ class AdmCargosTableSeeder extends Seeder
             293 => 
             array (
                 'id' => 794,
-                'users_id' => 1037,
+                'user_id' => 1037,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10346,7 +10346,7 @@ class AdmCargosTableSeeder extends Seeder
             294 => 
             array (
                 'id' => 795,
-                'users_id' => 1038,
+                'user_id' => 1038,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10359,7 +10359,7 @@ class AdmCargosTableSeeder extends Seeder
             295 => 
             array (
                 'id' => 796,
-                'users_id' => 1039,
+                'user_id' => 1039,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10372,7 +10372,7 @@ class AdmCargosTableSeeder extends Seeder
             296 => 
             array (
                 'id' => 797,
-                'users_id' => 1040,
+                'user_id' => 1040,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10385,7 +10385,7 @@ class AdmCargosTableSeeder extends Seeder
             297 => 
             array (
                 'id' => 798,
-                'users_id' => 1041,
+                'user_id' => 1041,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10398,7 +10398,7 @@ class AdmCargosTableSeeder extends Seeder
             298 => 
             array (
                 'id' => 799,
-                'users_id' => 1042,
+                'user_id' => 1042,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10411,7 +10411,7 @@ class AdmCargosTableSeeder extends Seeder
             299 => 
             array (
                 'id' => 800,
-                'users_id' => 1043,
+                'user_id' => 1043,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10424,7 +10424,7 @@ class AdmCargosTableSeeder extends Seeder
             300 => 
             array (
                 'id' => 801,
-                'users_id' => 1044,
+                'user_id' => 1044,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10437,7 +10437,7 @@ class AdmCargosTableSeeder extends Seeder
             301 => 
             array (
                 'id' => 802,
-                'users_id' => 1045,
+                'user_id' => 1045,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10450,7 +10450,7 @@ class AdmCargosTableSeeder extends Seeder
             302 => 
             array (
                 'id' => 803,
-                'users_id' => 1046,
+                'user_id' => 1046,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10463,7 +10463,7 @@ class AdmCargosTableSeeder extends Seeder
             303 => 
             array (
                 'id' => 804,
-                'users_id' => 1047,
+                'user_id' => 1047,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10476,7 +10476,7 @@ class AdmCargosTableSeeder extends Seeder
             304 => 
             array (
                 'id' => 805,
-                'users_id' => 1048,
+                'user_id' => 1048,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10489,7 +10489,7 @@ class AdmCargosTableSeeder extends Seeder
             305 => 
             array (
                 'id' => 806,
-                'users_id' => 1049,
+                'user_id' => 1049,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10502,7 +10502,7 @@ class AdmCargosTableSeeder extends Seeder
             306 => 
             array (
                 'id' => 807,
-                'users_id' => 1051,
+                'user_id' => 1051,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10515,7 +10515,7 @@ class AdmCargosTableSeeder extends Seeder
             307 => 
             array (
                 'id' => 808,
-                'users_id' => 1052,
+                'user_id' => 1052,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10528,7 +10528,7 @@ class AdmCargosTableSeeder extends Seeder
             308 => 
             array (
                 'id' => 809,
-                'users_id' => 1053,
+                'user_id' => 1053,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10541,7 +10541,7 @@ class AdmCargosTableSeeder extends Seeder
             309 => 
             array (
                 'id' => 810,
-                'users_id' => 1054,
+                'user_id' => 1054,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10554,7 +10554,7 @@ class AdmCargosTableSeeder extends Seeder
             310 => 
             array (
                 'id' => 811,
-                'users_id' => 1055,
+                'user_id' => 1055,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10567,7 +10567,7 @@ class AdmCargosTableSeeder extends Seeder
             311 => 
             array (
                 'id' => 812,
-                'users_id' => 1056,
+                'user_id' => 1056,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10580,7 +10580,7 @@ class AdmCargosTableSeeder extends Seeder
             312 => 
             array (
                 'id' => 813,
-                'users_id' => 1057,
+                'user_id' => 1057,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10593,7 +10593,7 @@ class AdmCargosTableSeeder extends Seeder
             313 => 
             array (
                 'id' => 814,
-                'users_id' => 1058,
+                'user_id' => 1058,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10606,7 +10606,7 @@ class AdmCargosTableSeeder extends Seeder
             314 => 
             array (
                 'id' => 815,
-                'users_id' => 1059,
+                'user_id' => 1059,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10619,7 +10619,7 @@ class AdmCargosTableSeeder extends Seeder
             315 => 
             array (
                 'id' => 816,
-                'users_id' => 1060,
+                'user_id' => 1060,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10632,7 +10632,7 @@ class AdmCargosTableSeeder extends Seeder
             316 => 
             array (
                 'id' => 817,
-                'users_id' => 1061,
+                'user_id' => 1061,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10645,7 +10645,7 @@ class AdmCargosTableSeeder extends Seeder
             317 => 
             array (
                 'id' => 818,
-                'users_id' => 1062,
+                'user_id' => 1062,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10658,7 +10658,7 @@ class AdmCargosTableSeeder extends Seeder
             318 => 
             array (
                 'id' => 819,
-                'users_id' => 1063,
+                'user_id' => 1063,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10671,7 +10671,7 @@ class AdmCargosTableSeeder extends Seeder
             319 => 
             array (
                 'id' => 820,
-                'users_id' => 1064,
+                'user_id' => 1064,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10684,7 +10684,7 @@ class AdmCargosTableSeeder extends Seeder
             320 => 
             array (
                 'id' => 821,
-                'users_id' => 1065,
+                'user_id' => 1065,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10697,7 +10697,7 @@ class AdmCargosTableSeeder extends Seeder
             321 => 
             array (
                 'id' => 822,
-                'users_id' => 1066,
+                'user_id' => 1066,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10710,7 +10710,7 @@ class AdmCargosTableSeeder extends Seeder
             322 => 
             array (
                 'id' => 823,
-                'users_id' => 1067,
+                'user_id' => 1067,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10723,7 +10723,7 @@ class AdmCargosTableSeeder extends Seeder
             323 => 
             array (
                 'id' => 824,
-                'users_id' => 1068,
+                'user_id' => 1068,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10736,7 +10736,7 @@ class AdmCargosTableSeeder extends Seeder
             324 => 
             array (
                 'id' => 825,
-                'users_id' => 1069,
+                'user_id' => 1069,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10749,7 +10749,7 @@ class AdmCargosTableSeeder extends Seeder
             325 => 
             array (
                 'id' => 826,
-                'users_id' => 1070,
+                'user_id' => 1070,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10762,7 +10762,7 @@ class AdmCargosTableSeeder extends Seeder
             326 => 
             array (
                 'id' => 827,
-                'users_id' => 1071,
+                'user_id' => 1071,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10775,7 +10775,7 @@ class AdmCargosTableSeeder extends Seeder
             327 => 
             array (
                 'id' => 828,
-                'users_id' => 1072,
+                'user_id' => 1072,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10788,7 +10788,7 @@ class AdmCargosTableSeeder extends Seeder
             328 => 
             array (
                 'id' => 829,
-                'users_id' => 1073,
+                'user_id' => 1073,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10801,7 +10801,7 @@ class AdmCargosTableSeeder extends Seeder
             329 => 
             array (
                 'id' => 830,
-                'users_id' => 1074,
+                'user_id' => 1074,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10814,7 +10814,7 @@ class AdmCargosTableSeeder extends Seeder
             330 => 
             array (
                 'id' => 831,
-                'users_id' => 1077,
+                'user_id' => 1077,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10827,7 +10827,7 @@ class AdmCargosTableSeeder extends Seeder
             331 => 
             array (
                 'id' => 832,
-                'users_id' => 1078,
+                'user_id' => 1078,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10840,7 +10840,7 @@ class AdmCargosTableSeeder extends Seeder
             332 => 
             array (
                 'id' => 833,
-                'users_id' => 1079,
+                'user_id' => 1079,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10853,7 +10853,7 @@ class AdmCargosTableSeeder extends Seeder
             333 => 
             array (
                 'id' => 834,
-                'users_id' => 1080,
+                'user_id' => 1080,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10866,7 +10866,7 @@ class AdmCargosTableSeeder extends Seeder
             334 => 
             array (
                 'id' => 835,
-                'users_id' => 1081,
+                'user_id' => 1081,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10879,7 +10879,7 @@ class AdmCargosTableSeeder extends Seeder
             335 => 
             array (
                 'id' => 836,
-                'users_id' => 1082,
+                'user_id' => 1082,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10892,7 +10892,7 @@ class AdmCargosTableSeeder extends Seeder
             336 => 
             array (
                 'id' => 837,
-                'users_id' => 1083,
+                'user_id' => 1083,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10905,7 +10905,7 @@ class AdmCargosTableSeeder extends Seeder
             337 => 
             array (
                 'id' => 838,
-                'users_id' => 1084,
+                'user_id' => 1084,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10918,7 +10918,7 @@ class AdmCargosTableSeeder extends Seeder
             338 => 
             array (
                 'id' => 839,
-                'users_id' => 1086,
+                'user_id' => 1086,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10931,7 +10931,7 @@ class AdmCargosTableSeeder extends Seeder
             339 => 
             array (
                 'id' => 840,
-                'users_id' => 1087,
+                'user_id' => 1087,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10944,7 +10944,7 @@ class AdmCargosTableSeeder extends Seeder
             340 => 
             array (
                 'id' => 841,
-                'users_id' => 1088,
+                'user_id' => 1088,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10957,7 +10957,7 @@ class AdmCargosTableSeeder extends Seeder
             341 => 
             array (
                 'id' => 842,
-                'users_id' => 1089,
+                'user_id' => 1089,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10970,7 +10970,7 @@ class AdmCargosTableSeeder extends Seeder
             342 => 
             array (
                 'id' => 843,
-                'users_id' => 1090,
+                'user_id' => 1090,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10983,7 +10983,7 @@ class AdmCargosTableSeeder extends Seeder
             343 => 
             array (
                 'id' => 844,
-                'users_id' => 1091,
+                'user_id' => 1091,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -10996,7 +10996,7 @@ class AdmCargosTableSeeder extends Seeder
             344 => 
             array (
                 'id' => 845,
-                'users_id' => 1092,
+                'user_id' => 1092,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -11009,7 +11009,7 @@ class AdmCargosTableSeeder extends Seeder
             345 => 
             array (
                 'id' => 846,
-                'users_id' => 1093,
+                'user_id' => 1093,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -11022,7 +11022,7 @@ class AdmCargosTableSeeder extends Seeder
             346 => 
             array (
                 'id' => 847,
-                'users_id' => 1094,
+                'user_id' => 1094,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11035,7 +11035,7 @@ class AdmCargosTableSeeder extends Seeder
             347 => 
             array (
                 'id' => 848,
-                'users_id' => 1095,
+                'user_id' => 1095,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11048,7 +11048,7 @@ class AdmCargosTableSeeder extends Seeder
             348 => 
             array (
                 'id' => 849,
-                'users_id' => 1096,
+                'user_id' => 1096,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11061,7 +11061,7 @@ class AdmCargosTableSeeder extends Seeder
             349 => 
             array (
                 'id' => 850,
-                'users_id' => 1097,
+                'user_id' => 1097,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11074,7 +11074,7 @@ class AdmCargosTableSeeder extends Seeder
             350 => 
             array (
                 'id' => 851,
-                'users_id' => 1098,
+                'user_id' => 1098,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11087,7 +11087,7 @@ class AdmCargosTableSeeder extends Seeder
             351 => 
             array (
                 'id' => 852,
-                'users_id' => 1099,
+                'user_id' => 1099,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11100,7 +11100,7 @@ class AdmCargosTableSeeder extends Seeder
             352 => 
             array (
                 'id' => 853,
-                'users_id' => 1100,
+                'user_id' => 1100,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11113,7 +11113,7 @@ class AdmCargosTableSeeder extends Seeder
             353 => 
             array (
                 'id' => 854,
-                'users_id' => 1101,
+                'user_id' => 1101,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11126,7 +11126,7 @@ class AdmCargosTableSeeder extends Seeder
             354 => 
             array (
                 'id' => 855,
-                'users_id' => 1102,
+                'user_id' => 1102,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11139,7 +11139,7 @@ class AdmCargosTableSeeder extends Seeder
             355 => 
             array (
                 'id' => 856,
-                'users_id' => 1103,
+                'user_id' => 1103,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11152,7 +11152,7 @@ class AdmCargosTableSeeder extends Seeder
             356 => 
             array (
                 'id' => 857,
-                'users_id' => 1104,
+                'user_id' => 1104,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11165,7 +11165,7 @@ class AdmCargosTableSeeder extends Seeder
             357 => 
             array (
                 'id' => 858,
-                'users_id' => 1105,
+                'user_id' => 1105,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DE INFORMACION A.I.',
                 'descripcion' => '',
@@ -11178,7 +11178,7 @@ class AdmCargosTableSeeder extends Seeder
             358 => 
             array (
                 'id' => 859,
-                'users_id' => 1106,
+                'user_id' => 1106,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11191,7 +11191,7 @@ class AdmCargosTableSeeder extends Seeder
             359 => 
             array (
                 'id' => 860,
-                'users_id' => 1107,
+                'user_id' => 1107,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11204,7 +11204,7 @@ class AdmCargosTableSeeder extends Seeder
             360 => 
             array (
                 'id' => 861,
-                'users_id' => 1108,
+                'user_id' => 1108,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11217,7 +11217,7 @@ class AdmCargosTableSeeder extends Seeder
             361 => 
             array (
                 'id' => 862,
-                'users_id' => 1109,
+                'user_id' => 1109,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11230,7 +11230,7 @@ class AdmCargosTableSeeder extends Seeder
             362 => 
             array (
                 'id' => 863,
-                'users_id' => 1110,
+                'user_id' => 1110,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11243,7 +11243,7 @@ class AdmCargosTableSeeder extends Seeder
             363 => 
             array (
                 'id' => 864,
-                'users_id' => 1111,
+                'user_id' => 1111,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11256,7 +11256,7 @@ class AdmCargosTableSeeder extends Seeder
             364 => 
             array (
                 'id' => 865,
-                'users_id' => 1112,
+                'user_id' => 1112,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11269,7 +11269,7 @@ class AdmCargosTableSeeder extends Seeder
             365 => 
             array (
                 'id' => 866,
-                'users_id' => 1113,
+                'user_id' => 1113,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11282,7 +11282,7 @@ class AdmCargosTableSeeder extends Seeder
             366 => 
             array (
                 'id' => 867,
-                'users_id' => 1116,
+                'user_id' => 1116,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11295,7 +11295,7 @@ class AdmCargosTableSeeder extends Seeder
             367 => 
             array (
                 'id' => 868,
-                'users_id' => 1117,
+                'user_id' => 1117,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11308,7 +11308,7 @@ class AdmCargosTableSeeder extends Seeder
             368 => 
             array (
                 'id' => 869,
-                'users_id' => 1118,
+                'user_id' => 1118,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11321,7 +11321,7 @@ class AdmCargosTableSeeder extends Seeder
             369 => 
             array (
                 'id' => 870,
-                'users_id' => 1119,
+                'user_id' => 1119,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11334,7 +11334,7 @@ class AdmCargosTableSeeder extends Seeder
             370 => 
             array (
                 'id' => 871,
-                'users_id' => 1120,
+                'user_id' => 1120,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11347,7 +11347,7 @@ class AdmCargosTableSeeder extends Seeder
             371 => 
             array (
                 'id' => 872,
-                'users_id' => 1121,
+                'user_id' => 1121,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11360,7 +11360,7 @@ class AdmCargosTableSeeder extends Seeder
             372 => 
             array (
                 'id' => 873,
-                'users_id' => 1122,
+                'user_id' => 1122,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11373,7 +11373,7 @@ class AdmCargosTableSeeder extends Seeder
             373 => 
             array (
                 'id' => 874,
-                'users_id' => 1123,
+                'user_id' => 1123,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11386,7 +11386,7 @@ class AdmCargosTableSeeder extends Seeder
             374 => 
             array (
                 'id' => 875,
-                'users_id' => 1124,
+                'user_id' => 1124,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11399,7 +11399,7 @@ class AdmCargosTableSeeder extends Seeder
             375 => 
             array (
                 'id' => 876,
-                'users_id' => 1125,
+                'user_id' => 1125,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11412,7 +11412,7 @@ class AdmCargosTableSeeder extends Seeder
             376 => 
             array (
                 'id' => 877,
-                'users_id' => 1126,
+                'user_id' => 1126,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11425,7 +11425,7 @@ class AdmCargosTableSeeder extends Seeder
             377 => 
             array (
                 'id' => 878,
-                'users_id' => 1127,
+                'user_id' => 1127,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11438,7 +11438,7 @@ class AdmCargosTableSeeder extends Seeder
             378 => 
             array (
                 'id' => 879,
-                'users_id' => 1128,
+                'user_id' => 1128,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -11451,7 +11451,7 @@ class AdmCargosTableSeeder extends Seeder
             379 => 
             array (
                 'id' => 880,
-                'users_id' => 1129,
+                'user_id' => 1129,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11464,7 +11464,7 @@ class AdmCargosTableSeeder extends Seeder
             380 => 
             array (
                 'id' => 881,
-                'users_id' => 1130,
+                'user_id' => 1130,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11477,7 +11477,7 @@ class AdmCargosTableSeeder extends Seeder
             381 => 
             array (
                 'id' => 882,
-                'users_id' => 1131,
+                'user_id' => 1131,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -11490,7 +11490,7 @@ class AdmCargosTableSeeder extends Seeder
             382 => 
             array (
                 'id' => 883,
-                'users_id' => 1132,
+                'user_id' => 1132,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11503,7 +11503,7 @@ class AdmCargosTableSeeder extends Seeder
             383 => 
             array (
                 'id' => 884,
-                'users_id' => 1133,
+                'user_id' => 1133,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11516,7 +11516,7 @@ class AdmCargosTableSeeder extends Seeder
             384 => 
             array (
                 'id' => 885,
-                'users_id' => 1134,
+                'user_id' => 1134,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11529,7 +11529,7 @@ class AdmCargosTableSeeder extends Seeder
             385 => 
             array (
                 'id' => 886,
-                'users_id' => 1135,
+                'user_id' => 1135,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11542,7 +11542,7 @@ class AdmCargosTableSeeder extends Seeder
             386 => 
             array (
                 'id' => 887,
-                'users_id' => 1136,
+                'user_id' => 1136,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11555,7 +11555,7 @@ class AdmCargosTableSeeder extends Seeder
             387 => 
             array (
                 'id' => 888,
-                'users_id' => 1137,
+                'user_id' => 1137,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11568,7 +11568,7 @@ class AdmCargosTableSeeder extends Seeder
             388 => 
             array (
                 'id' => 889,
-                'users_id' => 1138,
+                'user_id' => 1138,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11581,7 +11581,7 @@ class AdmCargosTableSeeder extends Seeder
             389 => 
             array (
                 'id' => 890,
-                'users_id' => 1139,
+                'user_id' => 1139,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -11594,7 +11594,7 @@ class AdmCargosTableSeeder extends Seeder
             390 => 
             array (
                 'id' => 891,
-                'users_id' => 1140,
+                'user_id' => 1140,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11607,7 +11607,7 @@ class AdmCargosTableSeeder extends Seeder
             391 => 
             array (
                 'id' => 892,
-                'users_id' => 1141,
+                'user_id' => 1141,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11620,7 +11620,7 @@ class AdmCargosTableSeeder extends Seeder
             392 => 
             array (
                 'id' => 893,
-                'users_id' => 1142,
+                'user_id' => 1142,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11633,7 +11633,7 @@ class AdmCargosTableSeeder extends Seeder
             393 => 
             array (
                 'id' => 894,
-                'users_id' => 1143,
+                'user_id' => 1143,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11646,7 +11646,7 @@ class AdmCargosTableSeeder extends Seeder
             394 => 
             array (
                 'id' => 895,
-                'users_id' => 1144,
+                'user_id' => 1144,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11659,7 +11659,7 @@ class AdmCargosTableSeeder extends Seeder
             395 => 
             array (
                 'id' => 896,
-                'users_id' => 1145,
+                'user_id' => 1145,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11672,7 +11672,7 @@ class AdmCargosTableSeeder extends Seeder
             396 => 
             array (
                 'id' => 897,
-                'users_id' => 1146,
+                'user_id' => 1146,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -11685,7 +11685,7 @@ class AdmCargosTableSeeder extends Seeder
             397 => 
             array (
                 'id' => 898,
-                'users_id' => 1147,
+                'user_id' => 1147,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11698,7 +11698,7 @@ class AdmCargosTableSeeder extends Seeder
             398 => 
             array (
                 'id' => 899,
-                'users_id' => 1148,
+                'user_id' => 1148,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11711,7 +11711,7 @@ class AdmCargosTableSeeder extends Seeder
             399 => 
             array (
                 'id' => 900,
-                'users_id' => 1149,
+                'user_id' => 1149,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11724,7 +11724,7 @@ class AdmCargosTableSeeder extends Seeder
             400 => 
             array (
                 'id' => 901,
-                'users_id' => 1150,
+                'user_id' => 1150,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11737,7 +11737,7 @@ class AdmCargosTableSeeder extends Seeder
             401 => 
             array (
                 'id' => 902,
-                'users_id' => 1151,
+                'user_id' => 1151,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -11750,7 +11750,7 @@ class AdmCargosTableSeeder extends Seeder
             402 => 
             array (
                 'id' => 903,
-                'users_id' => 1152,
+                'user_id' => 1152,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11763,7 +11763,7 @@ class AdmCargosTableSeeder extends Seeder
             403 => 
             array (
                 'id' => 904,
-                'users_id' => 1153,
+                'user_id' => 1153,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11776,7 +11776,7 @@ class AdmCargosTableSeeder extends Seeder
             404 => 
             array (
                 'id' => 905,
-                'users_id' => 1154,
+                'user_id' => 1154,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11789,7 +11789,7 @@ class AdmCargosTableSeeder extends Seeder
             405 => 
             array (
                 'id' => 906,
-                'users_id' => 1155,
+                'user_id' => 1155,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -11802,7 +11802,7 @@ class AdmCargosTableSeeder extends Seeder
             406 => 
             array (
                 'id' => 907,
-                'users_id' => 1156,
+                'user_id' => 1156,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11815,7 +11815,7 @@ class AdmCargosTableSeeder extends Seeder
             407 => 
             array (
                 'id' => 908,
-                'users_id' => 1157,
+                'user_id' => 1157,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11828,7 +11828,7 @@ class AdmCargosTableSeeder extends Seeder
             408 => 
             array (
                 'id' => 909,
-                'users_id' => 1158,
+                'user_id' => 1158,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -11841,7 +11841,7 @@ class AdmCargosTableSeeder extends Seeder
             409 => 
             array (
                 'id' => 910,
-                'users_id' => 1159,
+                'user_id' => 1159,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11854,7 +11854,7 @@ class AdmCargosTableSeeder extends Seeder
             410 => 
             array (
                 'id' => 911,
-                'users_id' => 1160,
+                'user_id' => 1160,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11867,7 +11867,7 @@ class AdmCargosTableSeeder extends Seeder
             411 => 
             array (
                 'id' => 912,
-                'users_id' => 1162,
+                'user_id' => 1162,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11880,7 +11880,7 @@ class AdmCargosTableSeeder extends Seeder
             412 => 
             array (
                 'id' => 913,
-                'users_id' => 1164,
+                'user_id' => 1164,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -11893,7 +11893,7 @@ class AdmCargosTableSeeder extends Seeder
             413 => 
             array (
                 'id' => 914,
-                'users_id' => 1165,
+                'user_id' => 1165,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11906,7 +11906,7 @@ class AdmCargosTableSeeder extends Seeder
             414 => 
             array (
                 'id' => 915,
-                'users_id' => 1166,
+                'user_id' => 1166,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -11919,7 +11919,7 @@ class AdmCargosTableSeeder extends Seeder
             415 => 
             array (
                 'id' => 916,
-                'users_id' => 1167,
+                'user_id' => 1167,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11932,7 +11932,7 @@ class AdmCargosTableSeeder extends Seeder
             416 => 
             array (
                 'id' => 917,
-                'users_id' => 1168,
+                'user_id' => 1168,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -11945,7 +11945,7 @@ class AdmCargosTableSeeder extends Seeder
             417 => 
             array (
                 'id' => 918,
-                'users_id' => 1169,
+                'user_id' => 1169,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11958,7 +11958,7 @@ class AdmCargosTableSeeder extends Seeder
             418 => 
             array (
                 'id' => 919,
-                'users_id' => 1170,
+                'user_id' => 1170,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -11971,7 +11971,7 @@ class AdmCargosTableSeeder extends Seeder
             419 => 
             array (
                 'id' => 920,
-                'users_id' => 1171,
+                'user_id' => 1171,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -11984,7 +11984,7 @@ class AdmCargosTableSeeder extends Seeder
             420 => 
             array (
                 'id' => 921,
-                'users_id' => 1172,
+                'user_id' => 1172,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -11997,7 +11997,7 @@ class AdmCargosTableSeeder extends Seeder
             421 => 
             array (
                 'id' => 922,
-                'users_id' => 1173,
+                'user_id' => 1173,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -12010,7 +12010,7 @@ class AdmCargosTableSeeder extends Seeder
             422 => 
             array (
                 'id' => 923,
-                'users_id' => 1174,
+                'user_id' => 1174,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12023,7 +12023,7 @@ class AdmCargosTableSeeder extends Seeder
             423 => 
             array (
                 'id' => 924,
-                'users_id' => 1175,
+                'user_id' => 1175,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12036,7 +12036,7 @@ class AdmCargosTableSeeder extends Seeder
             424 => 
             array (
                 'id' => 925,
-                'users_id' => 1176,
+                'user_id' => 1176,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -12049,7 +12049,7 @@ class AdmCargosTableSeeder extends Seeder
             425 => 
             array (
                 'id' => 926,
-                'users_id' => 1177,
+                'user_id' => 1177,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12062,7 +12062,7 @@ class AdmCargosTableSeeder extends Seeder
             426 => 
             array (
                 'id' => 927,
-                'users_id' => 1178,
+                'user_id' => 1178,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12075,7 +12075,7 @@ class AdmCargosTableSeeder extends Seeder
             427 => 
             array (
                 'id' => 928,
-                'users_id' => 1179,
+                'user_id' => 1179,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12088,7 +12088,7 @@ class AdmCargosTableSeeder extends Seeder
             428 => 
             array (
                 'id' => 929,
-                'users_id' => 1180,
+                'user_id' => 1180,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -12101,7 +12101,7 @@ class AdmCargosTableSeeder extends Seeder
             429 => 
             array (
                 'id' => 930,
-                'users_id' => 1181,
+                'user_id' => 1181,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12114,7 +12114,7 @@ class AdmCargosTableSeeder extends Seeder
             430 => 
             array (
                 'id' => 931,
-                'users_id' => 1182,
+                'user_id' => 1182,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12127,7 +12127,7 @@ class AdmCargosTableSeeder extends Seeder
             431 => 
             array (
                 'id' => 932,
-                'users_id' => 1183,
+                'user_id' => 1183,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -12140,7 +12140,7 @@ class AdmCargosTableSeeder extends Seeder
             432 => 
             array (
                 'id' => 933,
-                'users_id' => 1184,
+                'user_id' => 1184,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12153,7 +12153,7 @@ class AdmCargosTableSeeder extends Seeder
             433 => 
             array (
                 'id' => 934,
-                'users_id' => 1185,
+                'user_id' => 1185,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12166,7 +12166,7 @@ class AdmCargosTableSeeder extends Seeder
             434 => 
             array (
                 'id' => 935,
-                'users_id' => 1187,
+                'user_id' => 1187,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -12179,7 +12179,7 @@ class AdmCargosTableSeeder extends Seeder
             435 => 
             array (
                 'id' => 936,
-                'users_id' => 1188,
+                'user_id' => 1188,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -12192,7 +12192,7 @@ class AdmCargosTableSeeder extends Seeder
             436 => 
             array (
                 'id' => 937,
-                'users_id' => 1189,
+                'user_id' => 1189,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -12205,7 +12205,7 @@ class AdmCargosTableSeeder extends Seeder
             437 => 
             array (
                 'id' => 938,
-                'users_id' => 1190,
+                'user_id' => 1190,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12218,7 +12218,7 @@ class AdmCargosTableSeeder extends Seeder
             438 => 
             array (
                 'id' => 939,
-                'users_id' => 1191,
+                'user_id' => 1191,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12231,7 +12231,7 @@ class AdmCargosTableSeeder extends Seeder
             439 => 
             array (
                 'id' => 940,
-                'users_id' => 1192,
+                'user_id' => 1192,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12244,7 +12244,7 @@ class AdmCargosTableSeeder extends Seeder
             440 => 
             array (
                 'id' => 941,
-                'users_id' => 1193,
+                'user_id' => 1193,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -12257,7 +12257,7 @@ class AdmCargosTableSeeder extends Seeder
             441 => 
             array (
                 'id' => 942,
-                'users_id' => 1196,
+                'user_id' => 1196,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12270,7 +12270,7 @@ class AdmCargosTableSeeder extends Seeder
             442 => 
             array (
                 'id' => 943,
-                'users_id' => 1197,
+                'user_id' => 1197,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12283,7 +12283,7 @@ class AdmCargosTableSeeder extends Seeder
             443 => 
             array (
                 'id' => 944,
-                'users_id' => 1199,
+                'user_id' => 1199,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -12296,7 +12296,7 @@ class AdmCargosTableSeeder extends Seeder
             444 => 
             array (
                 'id' => 945,
-                'users_id' => 1200,
+                'user_id' => 1200,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12309,7 +12309,7 @@ class AdmCargosTableSeeder extends Seeder
             445 => 
             array (
                 'id' => 946,
-                'users_id' => 1201,
+                'user_id' => 1201,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12322,7 +12322,7 @@ class AdmCargosTableSeeder extends Seeder
             446 => 
             array (
                 'id' => 947,
-                'users_id' => 1202,
+                'user_id' => 1202,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12335,7 +12335,7 @@ class AdmCargosTableSeeder extends Seeder
             447 => 
             array (
                 'id' => 948,
-                'users_id' => 1203,
+                'user_id' => 1203,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12348,7 +12348,7 @@ class AdmCargosTableSeeder extends Seeder
             448 => 
             array (
                 'id' => 949,
-                'users_id' => 1204,
+                'user_id' => 1204,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12361,7 +12361,7 @@ class AdmCargosTableSeeder extends Seeder
             449 => 
             array (
                 'id' => 950,
-                'users_id' => 1206,
+                'user_id' => 1206,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12374,7 +12374,7 @@ class AdmCargosTableSeeder extends Seeder
             450 => 
             array (
                 'id' => 951,
-                'users_id' => 1207,
+                'user_id' => 1207,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12387,7 +12387,7 @@ class AdmCargosTableSeeder extends Seeder
             451 => 
             array (
                 'id' => 952,
-                'users_id' => 1208,
+                'user_id' => 1208,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12400,7 +12400,7 @@ class AdmCargosTableSeeder extends Seeder
             452 => 
             array (
                 'id' => 953,
-                'users_id' => 1209,
+                'user_id' => 1209,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12413,7 +12413,7 @@ class AdmCargosTableSeeder extends Seeder
             453 => 
             array (
                 'id' => 954,
-                'users_id' => 1210,
+                'user_id' => 1210,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -12426,7 +12426,7 @@ class AdmCargosTableSeeder extends Seeder
             454 => 
             array (
                 'id' => 955,
-                'users_id' => 1211,
+                'user_id' => 1211,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12439,7 +12439,7 @@ class AdmCargosTableSeeder extends Seeder
             455 => 
             array (
                 'id' => 956,
-                'users_id' => 1212,
+                'user_id' => 1212,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12452,7 +12452,7 @@ class AdmCargosTableSeeder extends Seeder
             456 => 
             array (
                 'id' => 957,
-                'users_id' => 1213,
+                'user_id' => 1213,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12465,7 +12465,7 @@ class AdmCargosTableSeeder extends Seeder
             457 => 
             array (
                 'id' => 958,
-                'users_id' => 1214,
+                'user_id' => 1214,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12478,7 +12478,7 @@ class AdmCargosTableSeeder extends Seeder
             458 => 
             array (
                 'id' => 959,
-                'users_id' => 1215,
+                'user_id' => 1215,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12491,7 +12491,7 @@ class AdmCargosTableSeeder extends Seeder
             459 => 
             array (
                 'id' => 960,
-                'users_id' => 1216,
+                'user_id' => 1216,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12504,7 +12504,7 @@ class AdmCargosTableSeeder extends Seeder
             460 => 
             array (
                 'id' => 961,
-                'users_id' => 1217,
+                'user_id' => 1217,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12517,7 +12517,7 @@ class AdmCargosTableSeeder extends Seeder
             461 => 
             array (
                 'id' => 962,
-                'users_id' => 1218,
+                'user_id' => 1218,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12530,7 +12530,7 @@ class AdmCargosTableSeeder extends Seeder
             462 => 
             array (
                 'id' => 963,
-                'users_id' => 1219,
+                'user_id' => 1219,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12543,7 +12543,7 @@ class AdmCargosTableSeeder extends Seeder
             463 => 
             array (
                 'id' => 964,
-                'users_id' => 1220,
+                'user_id' => 1220,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12556,7 +12556,7 @@ class AdmCargosTableSeeder extends Seeder
             464 => 
             array (
                 'id' => 965,
-                'users_id' => 1221,
+                'user_id' => 1221,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -12569,7 +12569,7 @@ class AdmCargosTableSeeder extends Seeder
             465 => 
             array (
                 'id' => 966,
-                'users_id' => 1222,
+                'user_id' => 1222,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12582,7 +12582,7 @@ class AdmCargosTableSeeder extends Seeder
             466 => 
             array (
                 'id' => 967,
-                'users_id' => 1223,
+                'user_id' => 1223,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12595,7 +12595,7 @@ class AdmCargosTableSeeder extends Seeder
             467 => 
             array (
                 'id' => 968,
-                'users_id' => 1224,
+                'user_id' => 1224,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12608,7 +12608,7 @@ class AdmCargosTableSeeder extends Seeder
             468 => 
             array (
                 'id' => 969,
-                'users_id' => 1225,
+                'user_id' => 1225,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12621,7 +12621,7 @@ class AdmCargosTableSeeder extends Seeder
             469 => 
             array (
                 'id' => 970,
-                'users_id' => 1226,
+                'user_id' => 1226,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12634,7 +12634,7 @@ class AdmCargosTableSeeder extends Seeder
             470 => 
             array (
                 'id' => 971,
-                'users_id' => 1227,
+                'user_id' => 1227,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12647,7 +12647,7 @@ class AdmCargosTableSeeder extends Seeder
             471 => 
             array (
                 'id' => 972,
-                'users_id' => 1228,
+                'user_id' => 1228,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12660,7 +12660,7 @@ class AdmCargosTableSeeder extends Seeder
             472 => 
             array (
                 'id' => 973,
-                'users_id' => 1229,
+                'user_id' => 1229,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12673,7 +12673,7 @@ class AdmCargosTableSeeder extends Seeder
             473 => 
             array (
                 'id' => 974,
-                'users_id' => 1230,
+                'user_id' => 1230,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12686,7 +12686,7 @@ class AdmCargosTableSeeder extends Seeder
             474 => 
             array (
                 'id' => 975,
-                'users_id' => 1231,
+                'user_id' => 1231,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -12699,7 +12699,7 @@ class AdmCargosTableSeeder extends Seeder
             475 => 
             array (
                 'id' => 976,
-                'users_id' => 1232,
+                'user_id' => 1232,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12712,7 +12712,7 @@ class AdmCargosTableSeeder extends Seeder
             476 => 
             array (
                 'id' => 977,
-                'users_id' => 1233,
+                'user_id' => 1233,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12725,7 +12725,7 @@ class AdmCargosTableSeeder extends Seeder
             477 => 
             array (
                 'id' => 978,
-                'users_id' => 1234,
+                'user_id' => 1234,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12738,7 +12738,7 @@ class AdmCargosTableSeeder extends Seeder
             478 => 
             array (
                 'id' => 979,
-                'users_id' => 1235,
+                'user_id' => 1235,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12751,7 +12751,7 @@ class AdmCargosTableSeeder extends Seeder
             479 => 
             array (
                 'id' => 980,
-                'users_id' => 1236,
+                'user_id' => 1236,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -12764,7 +12764,7 @@ class AdmCargosTableSeeder extends Seeder
             480 => 
             array (
                 'id' => 981,
-                'users_id' => 1237,
+                'user_id' => 1237,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12777,7 +12777,7 @@ class AdmCargosTableSeeder extends Seeder
             481 => 
             array (
                 'id' => 982,
-                'users_id' => 1238,
+                'user_id' => 1238,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12790,7 +12790,7 @@ class AdmCargosTableSeeder extends Seeder
             482 => 
             array (
                 'id' => 983,
-                'users_id' => 1239,
+                'user_id' => 1239,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12803,7 +12803,7 @@ class AdmCargosTableSeeder extends Seeder
             483 => 
             array (
                 'id' => 984,
-                'users_id' => 1240,
+                'user_id' => 1240,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -12816,7 +12816,7 @@ class AdmCargosTableSeeder extends Seeder
             484 => 
             array (
                 'id' => 985,
-                'users_id' => 1241,
+                'user_id' => 1241,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12829,7 +12829,7 @@ class AdmCargosTableSeeder extends Seeder
             485 => 
             array (
                 'id' => 986,
-                'users_id' => 1242,
+                'user_id' => 1242,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12842,7 +12842,7 @@ class AdmCargosTableSeeder extends Seeder
             486 => 
             array (
                 'id' => 987,
-                'users_id' => 1243,
+                'user_id' => 1243,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -12855,7 +12855,7 @@ class AdmCargosTableSeeder extends Seeder
             487 => 
             array (
                 'id' => 988,
-                'users_id' => 1244,
+                'user_id' => 1244,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12868,7 +12868,7 @@ class AdmCargosTableSeeder extends Seeder
             488 => 
             array (
                 'id' => 989,
-                'users_id' => 1245,
+                'user_id' => 1245,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12881,7 +12881,7 @@ class AdmCargosTableSeeder extends Seeder
             489 => 
             array (
                 'id' => 990,
-                'users_id' => 1246,
+                'user_id' => 1246,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12894,7 +12894,7 @@ class AdmCargosTableSeeder extends Seeder
             490 => 
             array (
                 'id' => 991,
-                'users_id' => 1247,
+                'user_id' => 1247,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12907,7 +12907,7 @@ class AdmCargosTableSeeder extends Seeder
             491 => 
             array (
                 'id' => 992,
-                'users_id' => 1248,
+                'user_id' => 1248,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12920,7 +12920,7 @@ class AdmCargosTableSeeder extends Seeder
             492 => 
             array (
                 'id' => 993,
-                'users_id' => 1249,
+                'user_id' => 1249,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12933,7 +12933,7 @@ class AdmCargosTableSeeder extends Seeder
             493 => 
             array (
                 'id' => 994,
-                'users_id' => 1250,
+                'user_id' => 1250,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -12946,7 +12946,7 @@ class AdmCargosTableSeeder extends Seeder
             494 => 
             array (
                 'id' => 995,
-                'users_id' => 1251,
+                'user_id' => 1251,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -12959,7 +12959,7 @@ class AdmCargosTableSeeder extends Seeder
             495 => 
             array (
                 'id' => 996,
-                'users_id' => 1252,
+                'user_id' => 1252,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12972,7 +12972,7 @@ class AdmCargosTableSeeder extends Seeder
             496 => 
             array (
                 'id' => 997,
-                'users_id' => 1253,
+                'user_id' => 1253,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12985,7 +12985,7 @@ class AdmCargosTableSeeder extends Seeder
             497 => 
             array (
                 'id' => 998,
-                'users_id' => 1254,
+                'user_id' => 1254,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -12998,7 +12998,7 @@ class AdmCargosTableSeeder extends Seeder
             498 => 
             array (
                 'id' => 999,
-                'users_id' => 1255,
+                'user_id' => 1255,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13011,7 +13011,7 @@ class AdmCargosTableSeeder extends Seeder
             499 => 
             array (
                 'id' => 1000,
-                'users_id' => 1256,
+                'user_id' => 1256,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -13026,7 +13026,7 @@ class AdmCargosTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1001,
-                'users_id' => 1257,
+                'user_id' => 1257,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13039,7 +13039,7 @@ class AdmCargosTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 1002,
-                'users_id' => 1258,
+                'user_id' => 1258,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13052,7 +13052,7 @@ class AdmCargosTableSeeder extends Seeder
             2 => 
             array (
                 'id' => 1003,
-                'users_id' => 1259,
+                'user_id' => 1259,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13065,7 +13065,7 @@ class AdmCargosTableSeeder extends Seeder
             3 => 
             array (
                 'id' => 1004,
-                'users_id' => 1260,
+                'user_id' => 1260,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13078,7 +13078,7 @@ class AdmCargosTableSeeder extends Seeder
             4 => 
             array (
                 'id' => 1005,
-                'users_id' => 1261,
+                'user_id' => 1261,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13091,7 +13091,7 @@ class AdmCargosTableSeeder extends Seeder
             5 => 
             array (
                 'id' => 1006,
-                'users_id' => 1262,
+                'user_id' => 1262,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13104,7 +13104,7 @@ class AdmCargosTableSeeder extends Seeder
             6 => 
             array (
                 'id' => 1007,
-                'users_id' => 1263,
+                'user_id' => 1263,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13117,7 +13117,7 @@ class AdmCargosTableSeeder extends Seeder
             7 => 
             array (
                 'id' => 1008,
-                'users_id' => 1264,
+                'user_id' => 1264,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13130,7 +13130,7 @@ class AdmCargosTableSeeder extends Seeder
             8 => 
             array (
                 'id' => 1009,
-                'users_id' => 1265,
+                'user_id' => 1265,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13143,7 +13143,7 @@ class AdmCargosTableSeeder extends Seeder
             9 => 
             array (
                 'id' => 1010,
-                'users_id' => 1266,
+                'user_id' => 1266,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13156,7 +13156,7 @@ class AdmCargosTableSeeder extends Seeder
             10 => 
             array (
                 'id' => 1011,
-                'users_id' => 1267,
+                'user_id' => 1267,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13169,7 +13169,7 @@ class AdmCargosTableSeeder extends Seeder
             11 => 
             array (
                 'id' => 1012,
-                'users_id' => 1268,
+                'user_id' => 1268,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13182,7 +13182,7 @@ class AdmCargosTableSeeder extends Seeder
             12 => 
             array (
                 'id' => 1013,
-                'users_id' => 1269,
+                'user_id' => 1269,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13195,7 +13195,7 @@ class AdmCargosTableSeeder extends Seeder
             13 => 
             array (
                 'id' => 1014,
-                'users_id' => 1270,
+                'user_id' => 1270,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13208,7 +13208,7 @@ class AdmCargosTableSeeder extends Seeder
             14 => 
             array (
                 'id' => 1015,
-                'users_id' => 1271,
+                'user_id' => 1271,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13221,7 +13221,7 @@ class AdmCargosTableSeeder extends Seeder
             15 => 
             array (
                 'id' => 1016,
-                'users_id' => 1272,
+                'user_id' => 1272,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13234,7 +13234,7 @@ class AdmCargosTableSeeder extends Seeder
             16 => 
             array (
                 'id' => 1017,
-                'users_id' => 1273,
+                'user_id' => 1273,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13247,7 +13247,7 @@ class AdmCargosTableSeeder extends Seeder
             17 => 
             array (
                 'id' => 1018,
-                'users_id' => 1274,
+                'user_id' => 1274,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13260,7 +13260,7 @@ class AdmCargosTableSeeder extends Seeder
             18 => 
             array (
                 'id' => 1019,
-                'users_id' => 1275,
+                'user_id' => 1275,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13273,7 +13273,7 @@ class AdmCargosTableSeeder extends Seeder
             19 => 
             array (
                 'id' => 1020,
-                'users_id' => 1276,
+                'user_id' => 1276,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13286,7 +13286,7 @@ class AdmCargosTableSeeder extends Seeder
             20 => 
             array (
                 'id' => 1021,
-                'users_id' => 1277,
+                'user_id' => 1277,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13299,7 +13299,7 @@ class AdmCargosTableSeeder extends Seeder
             21 => 
             array (
                 'id' => 1022,
-                'users_id' => 1279,
+                'user_id' => 1279,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13312,7 +13312,7 @@ class AdmCargosTableSeeder extends Seeder
             22 => 
             array (
                 'id' => 1023,
-                'users_id' => 1280,
+                'user_id' => 1280,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13325,7 +13325,7 @@ class AdmCargosTableSeeder extends Seeder
             23 => 
             array (
                 'id' => 1024,
-                'users_id' => 1282,
+                'user_id' => 1282,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13338,7 +13338,7 @@ class AdmCargosTableSeeder extends Seeder
             24 => 
             array (
                 'id' => 1025,
-                'users_id' => 1283,
+                'user_id' => 1283,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13351,7 +13351,7 @@ class AdmCargosTableSeeder extends Seeder
             25 => 
             array (
                 'id' => 1026,
-                'users_id' => 1284,
+                'user_id' => 1284,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13364,7 +13364,7 @@ class AdmCargosTableSeeder extends Seeder
             26 => 
             array (
                 'id' => 1027,
-                'users_id' => 1285,
+                'user_id' => 1285,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13377,7 +13377,7 @@ class AdmCargosTableSeeder extends Seeder
             27 => 
             array (
                 'id' => 1028,
-                'users_id' => 1287,
+                'user_id' => 1287,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13390,7 +13390,7 @@ class AdmCargosTableSeeder extends Seeder
             28 => 
             array (
                 'id' => 1029,
-                'users_id' => 1288,
+                'user_id' => 1288,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13403,7 +13403,7 @@ class AdmCargosTableSeeder extends Seeder
             29 => 
             array (
                 'id' => 1030,
-                'users_id' => 1289,
+                'user_id' => 1289,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13416,7 +13416,7 @@ class AdmCargosTableSeeder extends Seeder
             30 => 
             array (
                 'id' => 1031,
-                'users_id' => 1290,
+                'user_id' => 1290,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13429,7 +13429,7 @@ class AdmCargosTableSeeder extends Seeder
             31 => 
             array (
                 'id' => 1032,
-                'users_id' => 1291,
+                'user_id' => 1291,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13442,7 +13442,7 @@ class AdmCargosTableSeeder extends Seeder
             32 => 
             array (
                 'id' => 1033,
-                'users_id' => 1295,
+                'user_id' => 1295,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13455,7 +13455,7 @@ class AdmCargosTableSeeder extends Seeder
             33 => 
             array (
                 'id' => 1034,
-                'users_id' => 1296,
+                'user_id' => 1296,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13468,7 +13468,7 @@ class AdmCargosTableSeeder extends Seeder
             34 => 
             array (
                 'id' => 1035,
-                'users_id' => 1297,
+                'user_id' => 1297,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13481,7 +13481,7 @@ class AdmCargosTableSeeder extends Seeder
             35 => 
             array (
                 'id' => 1036,
-                'users_id' => 1298,
+                'user_id' => 1298,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13494,7 +13494,7 @@ class AdmCargosTableSeeder extends Seeder
             36 => 
             array (
                 'id' => 1037,
-                'users_id' => 1299,
+                'user_id' => 1299,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13507,7 +13507,7 @@ class AdmCargosTableSeeder extends Seeder
             37 => 
             array (
                 'id' => 1038,
-                'users_id' => 1300,
+                'user_id' => 1300,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13520,7 +13520,7 @@ class AdmCargosTableSeeder extends Seeder
             38 => 
             array (
                 'id' => 1039,
-                'users_id' => 1302,
+                'user_id' => 1302,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13533,7 +13533,7 @@ class AdmCargosTableSeeder extends Seeder
             39 => 
             array (
                 'id' => 1040,
-                'users_id' => 1303,
+                'user_id' => 1303,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13546,7 +13546,7 @@ class AdmCargosTableSeeder extends Seeder
             40 => 
             array (
                 'id' => 1041,
-                'users_id' => 1304,
+                'user_id' => 1304,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13559,7 +13559,7 @@ class AdmCargosTableSeeder extends Seeder
             41 => 
             array (
                 'id' => 1042,
-                'users_id' => 1305,
+                'user_id' => 1305,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13572,7 +13572,7 @@ class AdmCargosTableSeeder extends Seeder
             42 => 
             array (
                 'id' => 1043,
-                'users_id' => 1306,
+                'user_id' => 1306,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13585,7 +13585,7 @@ class AdmCargosTableSeeder extends Seeder
             43 => 
             array (
                 'id' => 1044,
-                'users_id' => 1307,
+                'user_id' => 1307,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13598,7 +13598,7 @@ class AdmCargosTableSeeder extends Seeder
             44 => 
             array (
                 'id' => 1045,
-                'users_id' => 1310,
+                'user_id' => 1310,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13611,7 +13611,7 @@ class AdmCargosTableSeeder extends Seeder
             45 => 
             array (
                 'id' => 1046,
-                'users_id' => 1313,
+                'user_id' => 1313,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13624,7 +13624,7 @@ class AdmCargosTableSeeder extends Seeder
             46 => 
             array (
                 'id' => 1047,
-                'users_id' => 1315,
+                'user_id' => 1315,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -13637,7 +13637,7 @@ class AdmCargosTableSeeder extends Seeder
             47 => 
             array (
                 'id' => 1048,
-                'users_id' => 1316,
+                'user_id' => 1316,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13650,7 +13650,7 @@ class AdmCargosTableSeeder extends Seeder
             48 => 
             array (
                 'id' => 1049,
-                'users_id' => 1317,
+                'user_id' => 1317,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13663,7 +13663,7 @@ class AdmCargosTableSeeder extends Seeder
             49 => 
             array (
                 'id' => 1050,
-                'users_id' => 1319,
+                'user_id' => 1319,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13676,7 +13676,7 @@ class AdmCargosTableSeeder extends Seeder
             50 => 
             array (
                 'id' => 1051,
-                'users_id' => 1322,
+                'user_id' => 1322,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13689,7 +13689,7 @@ class AdmCargosTableSeeder extends Seeder
             51 => 
             array (
                 'id' => 1052,
-                'users_id' => 1325,
+                'user_id' => 1325,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13702,7 +13702,7 @@ class AdmCargosTableSeeder extends Seeder
             52 => 
             array (
                 'id' => 1053,
-                'users_id' => 1327,
+                'user_id' => 1327,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13715,7 +13715,7 @@ class AdmCargosTableSeeder extends Seeder
             53 => 
             array (
                 'id' => 1054,
-                'users_id' => 1328,
+                'user_id' => 1328,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -13728,7 +13728,7 @@ class AdmCargosTableSeeder extends Seeder
             54 => 
             array (
                 'id' => 1055,
-                'users_id' => 1329,
+                'user_id' => 1329,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13741,7 +13741,7 @@ class AdmCargosTableSeeder extends Seeder
             55 => 
             array (
                 'id' => 1056,
-                'users_id' => 1331,
+                'user_id' => 1331,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -13754,7 +13754,7 @@ class AdmCargosTableSeeder extends Seeder
             56 => 
             array (
                 'id' => 1057,
-                'users_id' => 1332,
+                'user_id' => 1332,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13767,7 +13767,7 @@ class AdmCargosTableSeeder extends Seeder
             57 => 
             array (
                 'id' => 1058,
-                'users_id' => 1333,
+                'user_id' => 1333,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13780,7 +13780,7 @@ class AdmCargosTableSeeder extends Seeder
             58 => 
             array (
                 'id' => 1059,
-                'users_id' => 1336,
+                'user_id' => 1336,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13793,7 +13793,7 @@ class AdmCargosTableSeeder extends Seeder
             59 => 
             array (
                 'id' => 1060,
-                'users_id' => 1337,
+                'user_id' => 1337,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13806,7 +13806,7 @@ class AdmCargosTableSeeder extends Seeder
             60 => 
             array (
                 'id' => 1061,
-                'users_id' => 1339,
+                'user_id' => 1339,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13819,7 +13819,7 @@ class AdmCargosTableSeeder extends Seeder
             61 => 
             array (
                 'id' => 1062,
-                'users_id' => 1340,
+                'user_id' => 1340,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13832,7 +13832,7 @@ class AdmCargosTableSeeder extends Seeder
             62 => 
             array (
                 'id' => 1063,
-                'users_id' => 1341,
+                'user_id' => 1341,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13845,7 +13845,7 @@ class AdmCargosTableSeeder extends Seeder
             63 => 
             array (
                 'id' => 1064,
-                'users_id' => 1342,
+                'user_id' => 1342,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13858,7 +13858,7 @@ class AdmCargosTableSeeder extends Seeder
             64 => 
             array (
                 'id' => 1065,
-                'users_id' => 1343,
+                'user_id' => 1343,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13871,7 +13871,7 @@ class AdmCargosTableSeeder extends Seeder
             65 => 
             array (
                 'id' => 1066,
-                'users_id' => 1348,
+                'user_id' => 1348,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13884,7 +13884,7 @@ class AdmCargosTableSeeder extends Seeder
             66 => 
             array (
                 'id' => 1067,
-                'users_id' => 1349,
+                'user_id' => 1349,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13897,7 +13897,7 @@ class AdmCargosTableSeeder extends Seeder
             67 => 
             array (
                 'id' => 1068,
-                'users_id' => 1350,
+                'user_id' => 1350,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13910,7 +13910,7 @@ class AdmCargosTableSeeder extends Seeder
             68 => 
             array (
                 'id' => 1069,
-                'users_id' => 1351,
+                'user_id' => 1351,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13923,7 +13923,7 @@ class AdmCargosTableSeeder extends Seeder
             69 => 
             array (
                 'id' => 1070,
-                'users_id' => 1352,
+                'user_id' => 1352,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13936,7 +13936,7 @@ class AdmCargosTableSeeder extends Seeder
             70 => 
             array (
                 'id' => 1071,
-                'users_id' => 1353,
+                'user_id' => 1353,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13949,7 +13949,7 @@ class AdmCargosTableSeeder extends Seeder
             71 => 
             array (
                 'id' => 1072,
-                'users_id' => 1355,
+                'user_id' => 1355,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13962,7 +13962,7 @@ class AdmCargosTableSeeder extends Seeder
             72 => 
             array (
                 'id' => 1073,
-                'users_id' => 1357,
+                'user_id' => 1357,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13975,7 +13975,7 @@ class AdmCargosTableSeeder extends Seeder
             73 => 
             array (
                 'id' => 1074,
-                'users_id' => 1358,
+                'user_id' => 1358,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -13988,7 +13988,7 @@ class AdmCargosTableSeeder extends Seeder
             74 => 
             array (
                 'id' => 1075,
-                'users_id' => 1359,
+                'user_id' => 1359,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -14001,7 +14001,7 @@ class AdmCargosTableSeeder extends Seeder
             75 => 
             array (
                 'id' => 1076,
-                'users_id' => 1360,
+                'user_id' => 1360,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14014,7 +14014,7 @@ class AdmCargosTableSeeder extends Seeder
             76 => 
             array (
                 'id' => 1077,
-                'users_id' => 1361,
+                'user_id' => 1361,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14027,7 +14027,7 @@ class AdmCargosTableSeeder extends Seeder
             77 => 
             array (
                 'id' => 1078,
-                'users_id' => 1362,
+                'user_id' => 1362,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14040,7 +14040,7 @@ class AdmCargosTableSeeder extends Seeder
             78 => 
             array (
                 'id' => 1079,
-                'users_id' => 1364,
+                'user_id' => 1364,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -14053,7 +14053,7 @@ class AdmCargosTableSeeder extends Seeder
             79 => 
             array (
                 'id' => 1080,
-                'users_id' => 1365,
+                'user_id' => 1365,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14066,7 +14066,7 @@ class AdmCargosTableSeeder extends Seeder
             80 => 
             array (
                 'id' => 1081,
-                'users_id' => 1366,
+                'user_id' => 1366,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14079,7 +14079,7 @@ class AdmCargosTableSeeder extends Seeder
             81 => 
             array (
                 'id' => 1082,
-                'users_id' => 1368,
+                'user_id' => 1368,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14092,7 +14092,7 @@ class AdmCargosTableSeeder extends Seeder
             82 => 
             array (
                 'id' => 1083,
-                'users_id' => 1369,
+                'user_id' => 1369,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14105,7 +14105,7 @@ class AdmCargosTableSeeder extends Seeder
             83 => 
             array (
                 'id' => 1084,
-                'users_id' => 1370,
+                'user_id' => 1370,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14118,7 +14118,7 @@ class AdmCargosTableSeeder extends Seeder
             84 => 
             array (
                 'id' => 1085,
-                'users_id' => 1371,
+                'user_id' => 1371,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14131,7 +14131,7 @@ class AdmCargosTableSeeder extends Seeder
             85 => 
             array (
                 'id' => 1086,
-                'users_id' => 1372,
+                'user_id' => 1372,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14144,7 +14144,7 @@ class AdmCargosTableSeeder extends Seeder
             86 => 
             array (
                 'id' => 1087,
-                'users_id' => 1373,
+                'user_id' => 1373,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14157,7 +14157,7 @@ class AdmCargosTableSeeder extends Seeder
             87 => 
             array (
                 'id' => 1088,
-                'users_id' => 1374,
+                'user_id' => 1374,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14170,7 +14170,7 @@ class AdmCargosTableSeeder extends Seeder
             88 => 
             array (
                 'id' => 1089,
-                'users_id' => 1375,
+                'user_id' => 1375,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -14183,7 +14183,7 @@ class AdmCargosTableSeeder extends Seeder
             89 => 
             array (
                 'id' => 1090,
-                'users_id' => 1376,
+                'user_id' => 1376,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14196,7 +14196,7 @@ class AdmCargosTableSeeder extends Seeder
             90 => 
             array (
                 'id' => 1091,
-                'users_id' => 1377,
+                'user_id' => 1377,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14209,7 +14209,7 @@ class AdmCargosTableSeeder extends Seeder
             91 => 
             array (
                 'id' => 1092,
-                'users_id' => 1378,
+                'user_id' => 1378,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14222,7 +14222,7 @@ class AdmCargosTableSeeder extends Seeder
             92 => 
             array (
                 'id' => 1093,
-                'users_id' => 1380,
+                'user_id' => 1380,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14235,7 +14235,7 @@ class AdmCargosTableSeeder extends Seeder
             93 => 
             array (
                 'id' => 1094,
-                'users_id' => 1382,
+                'user_id' => 1382,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14248,7 +14248,7 @@ class AdmCargosTableSeeder extends Seeder
             94 => 
             array (
                 'id' => 1095,
-                'users_id' => 1383,
+                'user_id' => 1383,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14261,7 +14261,7 @@ class AdmCargosTableSeeder extends Seeder
             95 => 
             array (
                 'id' => 1096,
-                'users_id' => 1384,
+                'user_id' => 1384,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14274,7 +14274,7 @@ class AdmCargosTableSeeder extends Seeder
             96 => 
             array (
                 'id' => 1097,
-                'users_id' => 1385,
+                'user_id' => 1385,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14287,7 +14287,7 @@ class AdmCargosTableSeeder extends Seeder
             97 => 
             array (
                 'id' => 1098,
-                'users_id' => 1386,
+                'user_id' => 1386,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14300,7 +14300,7 @@ class AdmCargosTableSeeder extends Seeder
             98 => 
             array (
                 'id' => 1099,
-                'users_id' => 1387,
+                'user_id' => 1387,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14313,7 +14313,7 @@ class AdmCargosTableSeeder extends Seeder
             99 => 
             array (
                 'id' => 1100,
-                'users_id' => 1388,
+                'user_id' => 1388,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14326,7 +14326,7 @@ class AdmCargosTableSeeder extends Seeder
             100 => 
             array (
                 'id' => 1101,
-                'users_id' => 1391,
+                'user_id' => 1391,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14339,7 +14339,7 @@ class AdmCargosTableSeeder extends Seeder
             101 => 
             array (
                 'id' => 1102,
-                'users_id' => 1394,
+                'user_id' => 1394,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14352,7 +14352,7 @@ class AdmCargosTableSeeder extends Seeder
             102 => 
             array (
                 'id' => 1103,
-                'users_id' => 1395,
+                'user_id' => 1395,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14365,7 +14365,7 @@ class AdmCargosTableSeeder extends Seeder
             103 => 
             array (
                 'id' => 1104,
-                'users_id' => 1396,
+                'user_id' => 1396,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14378,7 +14378,7 @@ class AdmCargosTableSeeder extends Seeder
             104 => 
             array (
                 'id' => 1105,
-                'users_id' => 1397,
+                'user_id' => 1397,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14391,7 +14391,7 @@ class AdmCargosTableSeeder extends Seeder
             105 => 
             array (
                 'id' => 1106,
-                'users_id' => 1398,
+                'user_id' => 1398,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14404,7 +14404,7 @@ class AdmCargosTableSeeder extends Seeder
             106 => 
             array (
                 'id' => 1107,
-                'users_id' => 1399,
+                'user_id' => 1399,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14417,7 +14417,7 @@ class AdmCargosTableSeeder extends Seeder
             107 => 
             array (
                 'id' => 1108,
-                'users_id' => 1400,
+                'user_id' => 1400,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14430,7 +14430,7 @@ class AdmCargosTableSeeder extends Seeder
             108 => 
             array (
                 'id' => 1109,
-                'users_id' => 1401,
+                'user_id' => 1401,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14443,7 +14443,7 @@ class AdmCargosTableSeeder extends Seeder
             109 => 
             array (
                 'id' => 1110,
-                'users_id' => 1402,
+                'user_id' => 1402,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14456,7 +14456,7 @@ class AdmCargosTableSeeder extends Seeder
             110 => 
             array (
                 'id' => 1111,
-                'users_id' => 1403,
+                'user_id' => 1403,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14469,7 +14469,7 @@ class AdmCargosTableSeeder extends Seeder
             111 => 
             array (
                 'id' => 1112,
-                'users_id' => 1404,
+                'user_id' => 1404,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14482,7 +14482,7 @@ class AdmCargosTableSeeder extends Seeder
             112 => 
             array (
                 'id' => 1113,
-                'users_id' => 1405,
+                'user_id' => 1405,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -14495,7 +14495,7 @@ class AdmCargosTableSeeder extends Seeder
             113 => 
             array (
                 'id' => 1114,
-                'users_id' => 1406,
+                'user_id' => 1406,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14508,7 +14508,7 @@ class AdmCargosTableSeeder extends Seeder
             114 => 
             array (
                 'id' => 1115,
-                'users_id' => 1408,
+                'user_id' => 1408,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14521,7 +14521,7 @@ class AdmCargosTableSeeder extends Seeder
             115 => 
             array (
                 'id' => 1116,
-                'users_id' => 1410,
+                'user_id' => 1410,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14534,7 +14534,7 @@ class AdmCargosTableSeeder extends Seeder
             116 => 
             array (
                 'id' => 1117,
-                'users_id' => 1411,
+                'user_id' => 1411,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14547,7 +14547,7 @@ class AdmCargosTableSeeder extends Seeder
             117 => 
             array (
                 'id' => 1118,
-                'users_id' => 1413,
+                'user_id' => 1413,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14560,7 +14560,7 @@ class AdmCargosTableSeeder extends Seeder
             118 => 
             array (
                 'id' => 1119,
-                'users_id' => 1414,
+                'user_id' => 1414,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14573,7 +14573,7 @@ class AdmCargosTableSeeder extends Seeder
             119 => 
             array (
                 'id' => 1120,
-                'users_id' => 1415,
+                'user_id' => 1415,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -14586,7 +14586,7 @@ class AdmCargosTableSeeder extends Seeder
             120 => 
             array (
                 'id' => 1121,
-                'users_id' => 1417,
+                'user_id' => 1417,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14599,7 +14599,7 @@ class AdmCargosTableSeeder extends Seeder
             121 => 
             array (
                 'id' => 1122,
-                'users_id' => 1418,
+                'user_id' => 1418,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14612,7 +14612,7 @@ class AdmCargosTableSeeder extends Seeder
             122 => 
             array (
                 'id' => 1123,
-                'users_id' => 1420,
+                'user_id' => 1420,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14625,7 +14625,7 @@ class AdmCargosTableSeeder extends Seeder
             123 => 
             array (
                 'id' => 1124,
-                'users_id' => 1421,
+                'user_id' => 1421,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14638,7 +14638,7 @@ class AdmCargosTableSeeder extends Seeder
             124 => 
             array (
                 'id' => 1125,
-                'users_id' => 1422,
+                'user_id' => 1422,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14651,7 +14651,7 @@ class AdmCargosTableSeeder extends Seeder
             125 => 
             array (
                 'id' => 1126,
-                'users_id' => 1423,
+                'user_id' => 1423,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14664,7 +14664,7 @@ class AdmCargosTableSeeder extends Seeder
             126 => 
             array (
                 'id' => 1127,
-                'users_id' => 1424,
+                'user_id' => 1424,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14677,7 +14677,7 @@ class AdmCargosTableSeeder extends Seeder
             127 => 
             array (
                 'id' => 1128,
-                'users_id' => 1427,
+                'user_id' => 1427,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14690,7 +14690,7 @@ class AdmCargosTableSeeder extends Seeder
             128 => 
             array (
                 'id' => 1129,
-                'users_id' => 1430,
+                'user_id' => 1430,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14703,7 +14703,7 @@ class AdmCargosTableSeeder extends Seeder
             129 => 
             array (
                 'id' => 1130,
-                'users_id' => 1431,
+                'user_id' => 1431,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14716,7 +14716,7 @@ class AdmCargosTableSeeder extends Seeder
             130 => 
             array (
                 'id' => 1131,
-                'users_id' => 1433,
+                'user_id' => 1433,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14729,7 +14729,7 @@ class AdmCargosTableSeeder extends Seeder
             131 => 
             array (
                 'id' => 1132,
-                'users_id' => 1434,
+                'user_id' => 1434,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -14742,7 +14742,7 @@ class AdmCargosTableSeeder extends Seeder
             132 => 
             array (
                 'id' => 1133,
-                'users_id' => 1435,
+                'user_id' => 1435,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14755,7 +14755,7 @@ class AdmCargosTableSeeder extends Seeder
             133 => 
             array (
                 'id' => 1134,
-                'users_id' => 1439,
+                'user_id' => 1439,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14768,7 +14768,7 @@ class AdmCargosTableSeeder extends Seeder
             134 => 
             array (
                 'id' => 1135,
-                'users_id' => 1441,
+                'user_id' => 1441,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14781,7 +14781,7 @@ class AdmCargosTableSeeder extends Seeder
             135 => 
             array (
                 'id' => 1136,
-                'users_id' => 1442,
+                'user_id' => 1442,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14794,7 +14794,7 @@ class AdmCargosTableSeeder extends Seeder
             136 => 
             array (
                 'id' => 1137,
-                'users_id' => 1443,
+                'user_id' => 1443,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14807,7 +14807,7 @@ class AdmCargosTableSeeder extends Seeder
             137 => 
             array (
                 'id' => 1138,
-                'users_id' => 1444,
+                'user_id' => 1444,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -14820,7 +14820,7 @@ class AdmCargosTableSeeder extends Seeder
             138 => 
             array (
                 'id' => 1139,
-                'users_id' => 1445,
+                'user_id' => 1445,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14833,7 +14833,7 @@ class AdmCargosTableSeeder extends Seeder
             139 => 
             array (
                 'id' => 1140,
-                'users_id' => 1446,
+                'user_id' => 1446,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14846,7 +14846,7 @@ class AdmCargosTableSeeder extends Seeder
             140 => 
             array (
                 'id' => 1141,
-                'users_id' => 1447,
+                'user_id' => 1447,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14859,7 +14859,7 @@ class AdmCargosTableSeeder extends Seeder
             141 => 
             array (
                 'id' => 1142,
-                'users_id' => 1449,
+                'user_id' => 1449,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14872,7 +14872,7 @@ class AdmCargosTableSeeder extends Seeder
             142 => 
             array (
                 'id' => 1143,
-                'users_id' => 1450,
+                'user_id' => 1450,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14885,7 +14885,7 @@ class AdmCargosTableSeeder extends Seeder
             143 => 
             array (
                 'id' => 1144,
-                'users_id' => 1453,
+                'user_id' => 1453,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14898,7 +14898,7 @@ class AdmCargosTableSeeder extends Seeder
             144 => 
             array (
                 'id' => 1145,
-                'users_id' => 1454,
+                'user_id' => 1454,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14911,7 +14911,7 @@ class AdmCargosTableSeeder extends Seeder
             145 => 
             array (
                 'id' => 1146,
-                'users_id' => 1455,
+                'user_id' => 1455,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14924,7 +14924,7 @@ class AdmCargosTableSeeder extends Seeder
             146 => 
             array (
                 'id' => 1147,
-                'users_id' => 1458,
+                'user_id' => 1458,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14937,7 +14937,7 @@ class AdmCargosTableSeeder extends Seeder
             147 => 
             array (
                 'id' => 1148,
-                'users_id' => 1459,
+                'user_id' => 1459,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14950,7 +14950,7 @@ class AdmCargosTableSeeder extends Seeder
             148 => 
             array (
                 'id' => 1149,
-                'users_id' => 1460,
+                'user_id' => 1460,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14963,7 +14963,7 @@ class AdmCargosTableSeeder extends Seeder
             149 => 
             array (
                 'id' => 1150,
-                'users_id' => 1466,
+                'user_id' => 1466,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14976,7 +14976,7 @@ class AdmCargosTableSeeder extends Seeder
             150 => 
             array (
                 'id' => 1151,
-                'users_id' => 1467,
+                'user_id' => 1467,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -14989,7 +14989,7 @@ class AdmCargosTableSeeder extends Seeder
             151 => 
             array (
                 'id' => 1152,
-                'users_id' => 1468,
+                'user_id' => 1468,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15002,7 +15002,7 @@ class AdmCargosTableSeeder extends Seeder
             152 => 
             array (
                 'id' => 1153,
-                'users_id' => 1469,
+                'user_id' => 1469,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15015,7 +15015,7 @@ class AdmCargosTableSeeder extends Seeder
             153 => 
             array (
                 'id' => 1154,
-                'users_id' => 1470,
+                'user_id' => 1470,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15028,7 +15028,7 @@ class AdmCargosTableSeeder extends Seeder
             154 => 
             array (
                 'id' => 1155,
-                'users_id' => 1471,
+                'user_id' => 1471,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15041,7 +15041,7 @@ class AdmCargosTableSeeder extends Seeder
             155 => 
             array (
                 'id' => 1156,
-                'users_id' => 1472,
+                'user_id' => 1472,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15054,7 +15054,7 @@ class AdmCargosTableSeeder extends Seeder
             156 => 
             array (
                 'id' => 1157,
-                'users_id' => 1473,
+                'user_id' => 1473,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15067,7 +15067,7 @@ class AdmCargosTableSeeder extends Seeder
             157 => 
             array (
                 'id' => 1158,
-                'users_id' => 1475,
+                'user_id' => 1475,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15080,7 +15080,7 @@ class AdmCargosTableSeeder extends Seeder
             158 => 
             array (
                 'id' => 1159,
-                'users_id' => 1477,
+                'user_id' => 1477,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15093,7 +15093,7 @@ class AdmCargosTableSeeder extends Seeder
             159 => 
             array (
                 'id' => 1160,
-                'users_id' => 1478,
+                'user_id' => 1478,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15106,7 +15106,7 @@ class AdmCargosTableSeeder extends Seeder
             160 => 
             array (
                 'id' => 1161,
-                'users_id' => 1479,
+                'user_id' => 1479,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -15119,7 +15119,7 @@ class AdmCargosTableSeeder extends Seeder
             161 => 
             array (
                 'id' => 1162,
-                'users_id' => 1481,
+                'user_id' => 1481,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15132,7 +15132,7 @@ class AdmCargosTableSeeder extends Seeder
             162 => 
             array (
                 'id' => 1163,
-                'users_id' => 1482,
+                'user_id' => 1482,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15145,7 +15145,7 @@ class AdmCargosTableSeeder extends Seeder
             163 => 
             array (
                 'id' => 1164,
-                'users_id' => 1483,
+                'user_id' => 1483,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15158,7 +15158,7 @@ class AdmCargosTableSeeder extends Seeder
             164 => 
             array (
                 'id' => 1165,
-                'users_id' => 1484,
+                'user_id' => 1484,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15171,7 +15171,7 @@ class AdmCargosTableSeeder extends Seeder
             165 => 
             array (
                 'id' => 1166,
-                'users_id' => 1487,
+                'user_id' => 1487,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15184,7 +15184,7 @@ class AdmCargosTableSeeder extends Seeder
             166 => 
             array (
                 'id' => 1167,
-                'users_id' => 1488,
+                'user_id' => 1488,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15197,7 +15197,7 @@ class AdmCargosTableSeeder extends Seeder
             167 => 
             array (
                 'id' => 1168,
-                'users_id' => 1489,
+                'user_id' => 1489,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15210,7 +15210,7 @@ class AdmCargosTableSeeder extends Seeder
             168 => 
             array (
                 'id' => 1169,
-                'users_id' => 1490,
+                'user_id' => 1490,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15223,7 +15223,7 @@ class AdmCargosTableSeeder extends Seeder
             169 => 
             array (
                 'id' => 1170,
-                'users_id' => 1491,
+                'user_id' => 1491,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15236,7 +15236,7 @@ class AdmCargosTableSeeder extends Seeder
             170 => 
             array (
                 'id' => 1171,
-                'users_id' => 1492,
+                'user_id' => 1492,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15249,7 +15249,7 @@ class AdmCargosTableSeeder extends Seeder
             171 => 
             array (
                 'id' => 1172,
-                'users_id' => 1493,
+                'user_id' => 1493,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15262,7 +15262,7 @@ class AdmCargosTableSeeder extends Seeder
             172 => 
             array (
                 'id' => 1173,
-                'users_id' => 1494,
+                'user_id' => 1494,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15275,7 +15275,7 @@ class AdmCargosTableSeeder extends Seeder
             173 => 
             array (
                 'id' => 1174,
-                'users_id' => 1496,
+                'user_id' => 1496,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15288,7 +15288,7 @@ class AdmCargosTableSeeder extends Seeder
             174 => 
             array (
                 'id' => 1175,
-                'users_id' => 1499,
+                'user_id' => 1499,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15301,7 +15301,7 @@ class AdmCargosTableSeeder extends Seeder
             175 => 
             array (
                 'id' => 1176,
-                'users_id' => 1500,
+                'user_id' => 1500,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15314,7 +15314,7 @@ class AdmCargosTableSeeder extends Seeder
             176 => 
             array (
                 'id' => 1177,
-                'users_id' => 1501,
+                'user_id' => 1501,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15327,7 +15327,7 @@ class AdmCargosTableSeeder extends Seeder
             177 => 
             array (
                 'id' => 1178,
-                'users_id' => 1502,
+                'user_id' => 1502,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15340,7 +15340,7 @@ class AdmCargosTableSeeder extends Seeder
             178 => 
             array (
                 'id' => 1179,
-                'users_id' => 1503,
+                'user_id' => 1503,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15353,7 +15353,7 @@ class AdmCargosTableSeeder extends Seeder
             179 => 
             array (
                 'id' => 1180,
-                'users_id' => 1504,
+                'user_id' => 1504,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15366,7 +15366,7 @@ class AdmCargosTableSeeder extends Seeder
             180 => 
             array (
                 'id' => 1181,
-                'users_id' => 1505,
+                'user_id' => 1505,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15379,7 +15379,7 @@ class AdmCargosTableSeeder extends Seeder
             181 => 
             array (
                 'id' => 1182,
-                'users_id' => 1506,
+                'user_id' => 1506,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15392,7 +15392,7 @@ class AdmCargosTableSeeder extends Seeder
             182 => 
             array (
                 'id' => 1183,
-                'users_id' => 1507,
+                'user_id' => 1507,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15405,7 +15405,7 @@ class AdmCargosTableSeeder extends Seeder
             183 => 
             array (
                 'id' => 1184,
-                'users_id' => 1509,
+                'user_id' => 1509,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15418,7 +15418,7 @@ class AdmCargosTableSeeder extends Seeder
             184 => 
             array (
                 'id' => 1185,
-                'users_id' => 1510,
+                'user_id' => 1510,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15431,7 +15431,7 @@ class AdmCargosTableSeeder extends Seeder
             185 => 
             array (
                 'id' => 1186,
-                'users_id' => 1513,
+                'user_id' => 1513,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15444,7 +15444,7 @@ class AdmCargosTableSeeder extends Seeder
             186 => 
             array (
                 'id' => 1187,
-                'users_id' => 1516,
+                'user_id' => 1516,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15457,7 +15457,7 @@ class AdmCargosTableSeeder extends Seeder
             187 => 
             array (
                 'id' => 1188,
-                'users_id' => 1517,
+                'user_id' => 1517,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15470,7 +15470,7 @@ class AdmCargosTableSeeder extends Seeder
             188 => 
             array (
                 'id' => 1189,
-                'users_id' => 1518,
+                'user_id' => 1518,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15483,7 +15483,7 @@ class AdmCargosTableSeeder extends Seeder
             189 => 
             array (
                 'id' => 1190,
-                'users_id' => 1519,
+                'user_id' => 1519,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15496,7 +15496,7 @@ class AdmCargosTableSeeder extends Seeder
             190 => 
             array (
                 'id' => 1191,
-                'users_id' => 1520,
+                'user_id' => 1520,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15509,7 +15509,7 @@ class AdmCargosTableSeeder extends Seeder
             191 => 
             array (
                 'id' => 1192,
-                'users_id' => 1522,
+                'user_id' => 1522,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15522,7 +15522,7 @@ class AdmCargosTableSeeder extends Seeder
             192 => 
             array (
                 'id' => 1193,
-                'users_id' => 1523,
+                'user_id' => 1523,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15535,7 +15535,7 @@ class AdmCargosTableSeeder extends Seeder
             193 => 
             array (
                 'id' => 1194,
-                'users_id' => 1524,
+                'user_id' => 1524,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15548,7 +15548,7 @@ class AdmCargosTableSeeder extends Seeder
             194 => 
             array (
                 'id' => 1195,
-                'users_id' => 1525,
+                'user_id' => 1525,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15561,7 +15561,7 @@ class AdmCargosTableSeeder extends Seeder
             195 => 
             array (
                 'id' => 1196,
-                'users_id' => 1526,
+                'user_id' => 1526,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15574,7 +15574,7 @@ class AdmCargosTableSeeder extends Seeder
             196 => 
             array (
                 'id' => 1197,
-                'users_id' => 1527,
+                'user_id' => 1527,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15587,7 +15587,7 @@ class AdmCargosTableSeeder extends Seeder
             197 => 
             array (
                 'id' => 1198,
-                'users_id' => 1528,
+                'user_id' => 1528,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15600,7 +15600,7 @@ class AdmCargosTableSeeder extends Seeder
             198 => 
             array (
                 'id' => 1199,
-                'users_id' => 1529,
+                'user_id' => 1529,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15613,7 +15613,7 @@ class AdmCargosTableSeeder extends Seeder
             199 => 
             array (
                 'id' => 1200,
-                'users_id' => 1530,
+                'user_id' => 1530,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15626,7 +15626,7 @@ class AdmCargosTableSeeder extends Seeder
             200 => 
             array (
                 'id' => 1201,
-                'users_id' => 1532,
+                'user_id' => 1532,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15639,7 +15639,7 @@ class AdmCargosTableSeeder extends Seeder
             201 => 
             array (
                 'id' => 1202,
-                'users_id' => 1533,
+                'user_id' => 1533,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15652,7 +15652,7 @@ class AdmCargosTableSeeder extends Seeder
             202 => 
             array (
                 'id' => 1203,
-                'users_id' => 1534,
+                'user_id' => 1534,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -15665,7 +15665,7 @@ class AdmCargosTableSeeder extends Seeder
             203 => 
             array (
                 'id' => 1204,
-                'users_id' => 1535,
+                'user_id' => 1535,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15678,7 +15678,7 @@ class AdmCargosTableSeeder extends Seeder
             204 => 
             array (
                 'id' => 1205,
-                'users_id' => 1536,
+                'user_id' => 1536,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15691,7 +15691,7 @@ class AdmCargosTableSeeder extends Seeder
             205 => 
             array (
                 'id' => 1206,
-                'users_id' => 1537,
+                'user_id' => 1537,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15704,7 +15704,7 @@ class AdmCargosTableSeeder extends Seeder
             206 => 
             array (
                 'id' => 1207,
-                'users_id' => 1538,
+                'user_id' => 1538,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15717,7 +15717,7 @@ class AdmCargosTableSeeder extends Seeder
             207 => 
             array (
                 'id' => 1208,
-                'users_id' => 1539,
+                'user_id' => 1539,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15730,7 +15730,7 @@ class AdmCargosTableSeeder extends Seeder
             208 => 
             array (
                 'id' => 1209,
-                'users_id' => 1540,
+                'user_id' => 1540,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -15743,7 +15743,7 @@ class AdmCargosTableSeeder extends Seeder
             209 => 
             array (
                 'id' => 1210,
-                'users_id' => 1541,
+                'user_id' => 1541,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15756,7 +15756,7 @@ class AdmCargosTableSeeder extends Seeder
             210 => 
             array (
                 'id' => 1211,
-                'users_id' => 1542,
+                'user_id' => 1542,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15769,7 +15769,7 @@ class AdmCargosTableSeeder extends Seeder
             211 => 
             array (
                 'id' => 1212,
-                'users_id' => 1544,
+                'user_id' => 1544,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15782,7 +15782,7 @@ class AdmCargosTableSeeder extends Seeder
             212 => 
             array (
                 'id' => 1213,
-                'users_id' => 1545,
+                'user_id' => 1545,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15795,7 +15795,7 @@ class AdmCargosTableSeeder extends Seeder
             213 => 
             array (
                 'id' => 1214,
-                'users_id' => 1546,
+                'user_id' => 1546,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15808,7 +15808,7 @@ class AdmCargosTableSeeder extends Seeder
             214 => 
             array (
                 'id' => 1215,
-                'users_id' => 1547,
+                'user_id' => 1547,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15821,7 +15821,7 @@ class AdmCargosTableSeeder extends Seeder
             215 => 
             array (
                 'id' => 1216,
-                'users_id' => 1548,
+                'user_id' => 1548,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15834,7 +15834,7 @@ class AdmCargosTableSeeder extends Seeder
             216 => 
             array (
                 'id' => 1217,
-                'users_id' => 1549,
+                'user_id' => 1549,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15847,7 +15847,7 @@ class AdmCargosTableSeeder extends Seeder
             217 => 
             array (
                 'id' => 1218,
-                'users_id' => 1550,
+                'user_id' => 1550,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15860,7 +15860,7 @@ class AdmCargosTableSeeder extends Seeder
             218 => 
             array (
                 'id' => 1219,
-                'users_id' => 1551,
+                'user_id' => 1551,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15873,7 +15873,7 @@ class AdmCargosTableSeeder extends Seeder
             219 => 
             array (
                 'id' => 1220,
-                'users_id' => 1552,
+                'user_id' => 1552,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15886,7 +15886,7 @@ class AdmCargosTableSeeder extends Seeder
             220 => 
             array (
                 'id' => 1221,
-                'users_id' => 1553,
+                'user_id' => 1553,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15899,7 +15899,7 @@ class AdmCargosTableSeeder extends Seeder
             221 => 
             array (
                 'id' => 1222,
-                'users_id' => 1554,
+                'user_id' => 1554,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15912,7 +15912,7 @@ class AdmCargosTableSeeder extends Seeder
             222 => 
             array (
                 'id' => 1223,
-                'users_id' => 1555,
+                'user_id' => 1555,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15925,7 +15925,7 @@ class AdmCargosTableSeeder extends Seeder
             223 => 
             array (
                 'id' => 1224,
-                'users_id' => 1556,
+                'user_id' => 1556,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15938,7 +15938,7 @@ class AdmCargosTableSeeder extends Seeder
             224 => 
             array (
                 'id' => 1225,
-                'users_id' => 1557,
+                'user_id' => 1557,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15951,7 +15951,7 @@ class AdmCargosTableSeeder extends Seeder
             225 => 
             array (
                 'id' => 1226,
-                'users_id' => 1558,
+                'user_id' => 1558,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15964,7 +15964,7 @@ class AdmCargosTableSeeder extends Seeder
             226 => 
             array (
                 'id' => 1227,
-                'users_id' => 1559,
+                'user_id' => 1559,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15977,7 +15977,7 @@ class AdmCargosTableSeeder extends Seeder
             227 => 
             array (
                 'id' => 1228,
-                'users_id' => 1560,
+                'user_id' => 1560,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -15990,7 +15990,7 @@ class AdmCargosTableSeeder extends Seeder
             228 => 
             array (
                 'id' => 1229,
-                'users_id' => 1561,
+                'user_id' => 1561,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16003,7 +16003,7 @@ class AdmCargosTableSeeder extends Seeder
             229 => 
             array (
                 'id' => 1230,
-                'users_id' => 1562,
+                'user_id' => 1562,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16016,7 +16016,7 @@ class AdmCargosTableSeeder extends Seeder
             230 => 
             array (
                 'id' => 1231,
-                'users_id' => 1563,
+                'user_id' => 1563,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16029,7 +16029,7 @@ class AdmCargosTableSeeder extends Seeder
             231 => 
             array (
                 'id' => 1232,
-                'users_id' => 1564,
+                'user_id' => 1564,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16042,7 +16042,7 @@ class AdmCargosTableSeeder extends Seeder
             232 => 
             array (
                 'id' => 1233,
-                'users_id' => 1565,
+                'user_id' => 1565,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16055,7 +16055,7 @@ class AdmCargosTableSeeder extends Seeder
             233 => 
             array (
                 'id' => 1234,
-                'users_id' => 1567,
+                'user_id' => 1567,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -16068,7 +16068,7 @@ class AdmCargosTableSeeder extends Seeder
             234 => 
             array (
                 'id' => 1235,
-                'users_id' => 1568,
+                'user_id' => 1568,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -16081,7 +16081,7 @@ class AdmCargosTableSeeder extends Seeder
             235 => 
             array (
                 'id' => 1236,
-                'users_id' => 1569,
+                'user_id' => 1569,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16094,7 +16094,7 @@ class AdmCargosTableSeeder extends Seeder
             236 => 
             array (
                 'id' => 1237,
-                'users_id' => 1570,
+                'user_id' => 1570,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16107,7 +16107,7 @@ class AdmCargosTableSeeder extends Seeder
             237 => 
             array (
                 'id' => 1238,
-                'users_id' => 1571,
+                'user_id' => 1571,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16120,7 +16120,7 @@ class AdmCargosTableSeeder extends Seeder
             238 => 
             array (
                 'id' => 1239,
-                'users_id' => 1572,
+                'user_id' => 1572,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16133,7 +16133,7 @@ class AdmCargosTableSeeder extends Seeder
             239 => 
             array (
                 'id' => 1240,
-                'users_id' => 1574,
+                'user_id' => 1574,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16146,7 +16146,7 @@ class AdmCargosTableSeeder extends Seeder
             240 => 
             array (
                 'id' => 1241,
-                'users_id' => 1576,
+                'user_id' => 1576,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16159,7 +16159,7 @@ class AdmCargosTableSeeder extends Seeder
             241 => 
             array (
                 'id' => 1242,
-                'users_id' => 1577,
+                'user_id' => 1577,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16172,7 +16172,7 @@ class AdmCargosTableSeeder extends Seeder
             242 => 
             array (
                 'id' => 1243,
-                'users_id' => 1578,
+                'user_id' => 1578,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16185,7 +16185,7 @@ class AdmCargosTableSeeder extends Seeder
             243 => 
             array (
                 'id' => 1244,
-                'users_id' => 1579,
+                'user_id' => 1579,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16198,7 +16198,7 @@ class AdmCargosTableSeeder extends Seeder
             244 => 
             array (
                 'id' => 1245,
-                'users_id' => 1580,
+                'user_id' => 1580,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16211,7 +16211,7 @@ class AdmCargosTableSeeder extends Seeder
             245 => 
             array (
                 'id' => 1246,
-                'users_id' => 1581,
+                'user_id' => 1581,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16224,7 +16224,7 @@ class AdmCargosTableSeeder extends Seeder
             246 => 
             array (
                 'id' => 1247,
-                'users_id' => 1582,
+                'user_id' => 1582,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16237,7 +16237,7 @@ class AdmCargosTableSeeder extends Seeder
             247 => 
             array (
                 'id' => 1248,
-                'users_id' => 1583,
+                'user_id' => 1583,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16250,7 +16250,7 @@ class AdmCargosTableSeeder extends Seeder
             248 => 
             array (
                 'id' => 1249,
-                'users_id' => 1584,
+                'user_id' => 1584,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16263,7 +16263,7 @@ class AdmCargosTableSeeder extends Seeder
             249 => 
             array (
                 'id' => 1250,
-                'users_id' => 1585,
+                'user_id' => 1585,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16276,7 +16276,7 @@ class AdmCargosTableSeeder extends Seeder
             250 => 
             array (
                 'id' => 1251,
-                'users_id' => 1586,
+                'user_id' => 1586,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16289,7 +16289,7 @@ class AdmCargosTableSeeder extends Seeder
             251 => 
             array (
                 'id' => 1252,
-                'users_id' => 1587,
+                'user_id' => 1587,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16302,7 +16302,7 @@ class AdmCargosTableSeeder extends Seeder
             252 => 
             array (
                 'id' => 1253,
-                'users_id' => 1588,
+                'user_id' => 1588,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16315,7 +16315,7 @@ class AdmCargosTableSeeder extends Seeder
             253 => 
             array (
                 'id' => 1254,
-                'users_id' => 1589,
+                'user_id' => 1589,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16328,7 +16328,7 @@ class AdmCargosTableSeeder extends Seeder
             254 => 
             array (
                 'id' => 1255,
-                'users_id' => 1590,
+                'user_id' => 1590,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16341,7 +16341,7 @@ class AdmCargosTableSeeder extends Seeder
             255 => 
             array (
                 'id' => 1256,
-                'users_id' => 1592,
+                'user_id' => 1592,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16354,7 +16354,7 @@ class AdmCargosTableSeeder extends Seeder
             256 => 
             array (
                 'id' => 1257,
-                'users_id' => 1593,
+                'user_id' => 1593,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16367,7 +16367,7 @@ class AdmCargosTableSeeder extends Seeder
             257 => 
             array (
                 'id' => 1258,
-                'users_id' => 1594,
+                'user_id' => 1594,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16380,7 +16380,7 @@ class AdmCargosTableSeeder extends Seeder
             258 => 
             array (
                 'id' => 1259,
-                'users_id' => 1595,
+                'user_id' => 1595,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16393,7 +16393,7 @@ class AdmCargosTableSeeder extends Seeder
             259 => 
             array (
                 'id' => 1260,
-                'users_id' => 1596,
+                'user_id' => 1596,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16406,7 +16406,7 @@ class AdmCargosTableSeeder extends Seeder
             260 => 
             array (
                 'id' => 1261,
-                'users_id' => 1597,
+                'user_id' => 1597,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16419,7 +16419,7 @@ class AdmCargosTableSeeder extends Seeder
             261 => 
             array (
                 'id' => 1262,
-                'users_id' => 1598,
+                'user_id' => 1598,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16432,7 +16432,7 @@ class AdmCargosTableSeeder extends Seeder
             262 => 
             array (
                 'id' => 1263,
-                'users_id' => 1599,
+                'user_id' => 1599,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16445,7 +16445,7 @@ class AdmCargosTableSeeder extends Seeder
             263 => 
             array (
                 'id' => 1264,
-                'users_id' => 1600,
+                'user_id' => 1600,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16458,7 +16458,7 @@ class AdmCargosTableSeeder extends Seeder
             264 => 
             array (
                 'id' => 1265,
-                'users_id' => 1601,
+                'user_id' => 1601,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16471,7 +16471,7 @@ class AdmCargosTableSeeder extends Seeder
             265 => 
             array (
                 'id' => 1266,
-                'users_id' => 1602,
+                'user_id' => 1602,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16484,7 +16484,7 @@ class AdmCargosTableSeeder extends Seeder
             266 => 
             array (
                 'id' => 1267,
-                'users_id' => 1603,
+                'user_id' => 1603,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16497,7 +16497,7 @@ class AdmCargosTableSeeder extends Seeder
             267 => 
             array (
                 'id' => 1268,
-                'users_id' => 1604,
+                'user_id' => 1604,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16510,7 +16510,7 @@ class AdmCargosTableSeeder extends Seeder
             268 => 
             array (
                 'id' => 1269,
-                'users_id' => 1605,
+                'user_id' => 1605,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16523,7 +16523,7 @@ class AdmCargosTableSeeder extends Seeder
             269 => 
             array (
                 'id' => 1270,
-                'users_id' => 1606,
+                'user_id' => 1606,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16536,7 +16536,7 @@ class AdmCargosTableSeeder extends Seeder
             270 => 
             array (
                 'id' => 1271,
-                'users_id' => 1607,
+                'user_id' => 1607,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16549,7 +16549,7 @@ class AdmCargosTableSeeder extends Seeder
             271 => 
             array (
                 'id' => 1272,
-                'users_id' => 1608,
+                'user_id' => 1608,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16562,7 +16562,7 @@ class AdmCargosTableSeeder extends Seeder
             272 => 
             array (
                 'id' => 1273,
-                'users_id' => 1609,
+                'user_id' => 1609,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16575,7 +16575,7 @@ class AdmCargosTableSeeder extends Seeder
             273 => 
             array (
                 'id' => 1274,
-                'users_id' => 1610,
+                'user_id' => 1610,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16588,7 +16588,7 @@ class AdmCargosTableSeeder extends Seeder
             274 => 
             array (
                 'id' => 1275,
-                'users_id' => 1611,
+                'user_id' => 1611,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16601,7 +16601,7 @@ class AdmCargosTableSeeder extends Seeder
             275 => 
             array (
                 'id' => 1276,
-                'users_id' => 1612,
+                'user_id' => 1612,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16614,7 +16614,7 @@ class AdmCargosTableSeeder extends Seeder
             276 => 
             array (
                 'id' => 1277,
-                'users_id' => 1613,
+                'user_id' => 1613,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16627,7 +16627,7 @@ class AdmCargosTableSeeder extends Seeder
             277 => 
             array (
                 'id' => 1278,
-                'users_id' => 1614,
+                'user_id' => 1614,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16640,7 +16640,7 @@ class AdmCargosTableSeeder extends Seeder
             278 => 
             array (
                 'id' => 1279,
-                'users_id' => 1615,
+                'user_id' => 1615,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16653,7 +16653,7 @@ class AdmCargosTableSeeder extends Seeder
             279 => 
             array (
                 'id' => 1280,
-                'users_id' => 1616,
+                'user_id' => 1616,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16666,7 +16666,7 @@ class AdmCargosTableSeeder extends Seeder
             280 => 
             array (
                 'id' => 1281,
-                'users_id' => 1617,
+                'user_id' => 1617,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16679,7 +16679,7 @@ class AdmCargosTableSeeder extends Seeder
             281 => 
             array (
                 'id' => 1282,
-                'users_id' => 1618,
+                'user_id' => 1618,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16692,7 +16692,7 @@ class AdmCargosTableSeeder extends Seeder
             282 => 
             array (
                 'id' => 1283,
-                'users_id' => 1619,
+                'user_id' => 1619,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16705,7 +16705,7 @@ class AdmCargosTableSeeder extends Seeder
             283 => 
             array (
                 'id' => 1284,
-                'users_id' => 1620,
+                'user_id' => 1620,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16718,7 +16718,7 @@ class AdmCargosTableSeeder extends Seeder
             284 => 
             array (
                 'id' => 1285,
-                'users_id' => 1621,
+                'user_id' => 1621,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16731,7 +16731,7 @@ class AdmCargosTableSeeder extends Seeder
             285 => 
             array (
                 'id' => 1286,
-                'users_id' => 1622,
+                'user_id' => 1622,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16744,7 +16744,7 @@ class AdmCargosTableSeeder extends Seeder
             286 => 
             array (
                 'id' => 1287,
-                'users_id' => 1623,
+                'user_id' => 1623,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16757,7 +16757,7 @@ class AdmCargosTableSeeder extends Seeder
             287 => 
             array (
                 'id' => 1288,
-                'users_id' => 1624,
+                'user_id' => 1624,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16770,7 +16770,7 @@ class AdmCargosTableSeeder extends Seeder
             288 => 
             array (
                 'id' => 1289,
-                'users_id' => 1626,
+                'user_id' => 1626,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16783,7 +16783,7 @@ class AdmCargosTableSeeder extends Seeder
             289 => 
             array (
                 'id' => 1290,
-                'users_id' => 1627,
+                'user_id' => 1627,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16796,7 +16796,7 @@ class AdmCargosTableSeeder extends Seeder
             290 => 
             array (
                 'id' => 1291,
-                'users_id' => 1628,
+                'user_id' => 1628,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16809,7 +16809,7 @@ class AdmCargosTableSeeder extends Seeder
             291 => 
             array (
                 'id' => 1292,
-                'users_id' => 1629,
+                'user_id' => 1629,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16822,7 +16822,7 @@ class AdmCargosTableSeeder extends Seeder
             292 => 
             array (
                 'id' => 1293,
-                'users_id' => 1630,
+                'user_id' => 1630,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16835,7 +16835,7 @@ class AdmCargosTableSeeder extends Seeder
             293 => 
             array (
                 'id' => 1294,
-                'users_id' => 1632,
+                'user_id' => 1632,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16848,7 +16848,7 @@ class AdmCargosTableSeeder extends Seeder
             294 => 
             array (
                 'id' => 1295,
-                'users_id' => 1633,
+                'user_id' => 1633,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16861,7 +16861,7 @@ class AdmCargosTableSeeder extends Seeder
             295 => 
             array (
                 'id' => 1296,
-                'users_id' => 1634,
+                'user_id' => 1634,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16874,7 +16874,7 @@ class AdmCargosTableSeeder extends Seeder
             296 => 
             array (
                 'id' => 1297,
-                'users_id' => 1635,
+                'user_id' => 1635,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16887,7 +16887,7 @@ class AdmCargosTableSeeder extends Seeder
             297 => 
             array (
                 'id' => 1298,
-                'users_id' => 1636,
+                'user_id' => 1636,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16900,7 +16900,7 @@ class AdmCargosTableSeeder extends Seeder
             298 => 
             array (
                 'id' => 1299,
-                'users_id' => 1637,
+                'user_id' => 1637,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16913,7 +16913,7 @@ class AdmCargosTableSeeder extends Seeder
             299 => 
             array (
                 'id' => 1300,
-                'users_id' => 1638,
+                'user_id' => 1638,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16926,7 +16926,7 @@ class AdmCargosTableSeeder extends Seeder
             300 => 
             array (
                 'id' => 1301,
-                'users_id' => 1639,
+                'user_id' => 1639,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16939,7 +16939,7 @@ class AdmCargosTableSeeder extends Seeder
             301 => 
             array (
                 'id' => 1302,
-                'users_id' => 1640,
+                'user_id' => 1640,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16952,7 +16952,7 @@ class AdmCargosTableSeeder extends Seeder
             302 => 
             array (
                 'id' => 1303,
-                'users_id' => 1642,
+                'user_id' => 1642,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16965,7 +16965,7 @@ class AdmCargosTableSeeder extends Seeder
             303 => 
             array (
                 'id' => 1304,
-                'users_id' => 1643,
+                'user_id' => 1643,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16978,7 +16978,7 @@ class AdmCargosTableSeeder extends Seeder
             304 => 
             array (
                 'id' => 1305,
-                'users_id' => 1645,
+                'user_id' => 1645,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -16991,7 +16991,7 @@ class AdmCargosTableSeeder extends Seeder
             305 => 
             array (
                 'id' => 1306,
-                'users_id' => 1646,
+                'user_id' => 1646,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17004,7 +17004,7 @@ class AdmCargosTableSeeder extends Seeder
             306 => 
             array (
                 'id' => 1307,
-                'users_id' => 1647,
+                'user_id' => 1647,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17017,7 +17017,7 @@ class AdmCargosTableSeeder extends Seeder
             307 => 
             array (
                 'id' => 1308,
-                'users_id' => 1648,
+                'user_id' => 1648,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17030,7 +17030,7 @@ class AdmCargosTableSeeder extends Seeder
             308 => 
             array (
                 'id' => 1309,
-                'users_id' => 1650,
+                'user_id' => 1650,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17043,7 +17043,7 @@ class AdmCargosTableSeeder extends Seeder
             309 => 
             array (
                 'id' => 1310,
-                'users_id' => 1651,
+                'user_id' => 1651,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17056,7 +17056,7 @@ class AdmCargosTableSeeder extends Seeder
             310 => 
             array (
                 'id' => 1311,
-                'users_id' => 1652,
+                'user_id' => 1652,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17069,7 +17069,7 @@ class AdmCargosTableSeeder extends Seeder
             311 => 
             array (
                 'id' => 1312,
-                'users_id' => 1653,
+                'user_id' => 1653,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17082,7 +17082,7 @@ class AdmCargosTableSeeder extends Seeder
             312 => 
             array (
                 'id' => 1313,
-                'users_id' => 1654,
+                'user_id' => 1654,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17095,7 +17095,7 @@ class AdmCargosTableSeeder extends Seeder
             313 => 
             array (
                 'id' => 1314,
-                'users_id' => 1655,
+                'user_id' => 1655,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17108,7 +17108,7 @@ class AdmCargosTableSeeder extends Seeder
             314 => 
             array (
                 'id' => 1315,
-                'users_id' => 1656,
+                'user_id' => 1656,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17121,7 +17121,7 @@ class AdmCargosTableSeeder extends Seeder
             315 => 
             array (
                 'id' => 1316,
-                'users_id' => 1657,
+                'user_id' => 1657,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17134,7 +17134,7 @@ class AdmCargosTableSeeder extends Seeder
             316 => 
             array (
                 'id' => 1317,
-                'users_id' => 1658,
+                'user_id' => 1658,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17147,7 +17147,7 @@ class AdmCargosTableSeeder extends Seeder
             317 => 
             array (
                 'id' => 1318,
-                'users_id' => 1659,
+                'user_id' => 1659,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17160,7 +17160,7 @@ class AdmCargosTableSeeder extends Seeder
             318 => 
             array (
                 'id' => 1319,
-                'users_id' => 1661,
+                'user_id' => 1661,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17173,7 +17173,7 @@ class AdmCargosTableSeeder extends Seeder
             319 => 
             array (
                 'id' => 1320,
-                'users_id' => 1662,
+                'user_id' => 1662,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17186,7 +17186,7 @@ class AdmCargosTableSeeder extends Seeder
             320 => 
             array (
                 'id' => 1321,
-                'users_id' => 1663,
+                'user_id' => 1663,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17199,7 +17199,7 @@ class AdmCargosTableSeeder extends Seeder
             321 => 
             array (
                 'id' => 1322,
-                'users_id' => 1664,
+                'user_id' => 1664,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17212,7 +17212,7 @@ class AdmCargosTableSeeder extends Seeder
             322 => 
             array (
                 'id' => 1323,
-                'users_id' => 1665,
+                'user_id' => 1665,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17225,7 +17225,7 @@ class AdmCargosTableSeeder extends Seeder
             323 => 
             array (
                 'id' => 1324,
-                'users_id' => 1666,
+                'user_id' => 1666,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17238,7 +17238,7 @@ class AdmCargosTableSeeder extends Seeder
             324 => 
             array (
                 'id' => 1325,
-                'users_id' => 1667,
+                'user_id' => 1667,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17251,7 +17251,7 @@ class AdmCargosTableSeeder extends Seeder
             325 => 
             array (
                 'id' => 1326,
-                'users_id' => 1668,
+                'user_id' => 1668,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17264,7 +17264,7 @@ class AdmCargosTableSeeder extends Seeder
             326 => 
             array (
                 'id' => 1327,
-                'users_id' => 1669,
+                'user_id' => 1669,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17277,7 +17277,7 @@ class AdmCargosTableSeeder extends Seeder
             327 => 
             array (
                 'id' => 1328,
-                'users_id' => 1670,
+                'user_id' => 1670,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17290,7 +17290,7 @@ class AdmCargosTableSeeder extends Seeder
             328 => 
             array (
                 'id' => 1329,
-                'users_id' => 1671,
+                'user_id' => 1671,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17303,7 +17303,7 @@ class AdmCargosTableSeeder extends Seeder
             329 => 
             array (
                 'id' => 1330,
-                'users_id' => 1672,
+                'user_id' => 1672,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17316,7 +17316,7 @@ class AdmCargosTableSeeder extends Seeder
             330 => 
             array (
                 'id' => 1331,
-                'users_id' => 1673,
+                'user_id' => 1673,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17329,7 +17329,7 @@ class AdmCargosTableSeeder extends Seeder
             331 => 
             array (
                 'id' => 1332,
-                'users_id' => 1674,
+                'user_id' => 1674,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17342,7 +17342,7 @@ class AdmCargosTableSeeder extends Seeder
             332 => 
             array (
                 'id' => 1333,
-                'users_id' => 1675,
+                'user_id' => 1675,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17355,7 +17355,7 @@ class AdmCargosTableSeeder extends Seeder
             333 => 
             array (
                 'id' => 1334,
-                'users_id' => 1676,
+                'user_id' => 1676,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17368,7 +17368,7 @@ class AdmCargosTableSeeder extends Seeder
             334 => 
             array (
                 'id' => 1335,
-                'users_id' => 1677,
+                'user_id' => 1677,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17381,7 +17381,7 @@ class AdmCargosTableSeeder extends Seeder
             335 => 
             array (
                 'id' => 1336,
-                'users_id' => 1678,
+                'user_id' => 1678,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17394,7 +17394,7 @@ class AdmCargosTableSeeder extends Seeder
             336 => 
             array (
                 'id' => 1337,
-                'users_id' => 1679,
+                'user_id' => 1679,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17407,7 +17407,7 @@ class AdmCargosTableSeeder extends Seeder
             337 => 
             array (
                 'id' => 1338,
-                'users_id' => 1680,
+                'user_id' => 1680,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17420,7 +17420,7 @@ class AdmCargosTableSeeder extends Seeder
             338 => 
             array (
                 'id' => 1339,
-                'users_id' => 1681,
+                'user_id' => 1681,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17433,7 +17433,7 @@ class AdmCargosTableSeeder extends Seeder
             339 => 
             array (
                 'id' => 1340,
-                'users_id' => 1682,
+                'user_id' => 1682,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17446,7 +17446,7 @@ class AdmCargosTableSeeder extends Seeder
             340 => 
             array (
                 'id' => 1341,
-                'users_id' => 1683,
+                'user_id' => 1683,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17459,7 +17459,7 @@ class AdmCargosTableSeeder extends Seeder
             341 => 
             array (
                 'id' => 1342,
-                'users_id' => 1684,
+                'user_id' => 1684,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17472,7 +17472,7 @@ class AdmCargosTableSeeder extends Seeder
             342 => 
             array (
                 'id' => 1343,
-                'users_id' => 1685,
+                'user_id' => 1685,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17485,7 +17485,7 @@ class AdmCargosTableSeeder extends Seeder
             343 => 
             array (
                 'id' => 1344,
-                'users_id' => 1686,
+                'user_id' => 1686,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17498,7 +17498,7 @@ class AdmCargosTableSeeder extends Seeder
             344 => 
             array (
                 'id' => 1345,
-                'users_id' => 1687,
+                'user_id' => 1687,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17511,7 +17511,7 @@ class AdmCargosTableSeeder extends Seeder
             345 => 
             array (
                 'id' => 1346,
-                'users_id' => 1688,
+                'user_id' => 1688,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17524,7 +17524,7 @@ class AdmCargosTableSeeder extends Seeder
             346 => 
             array (
                 'id' => 1347,
-                'users_id' => 1690,
+                'user_id' => 1690,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17537,7 +17537,7 @@ class AdmCargosTableSeeder extends Seeder
             347 => 
             array (
                 'id' => 1348,
-                'users_id' => 1691,
+                'user_id' => 1691,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17550,7 +17550,7 @@ class AdmCargosTableSeeder extends Seeder
             348 => 
             array (
                 'id' => 1349,
-                'users_id' => 1693,
+                'user_id' => 1693,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17563,7 +17563,7 @@ class AdmCargosTableSeeder extends Seeder
             349 => 
             array (
                 'id' => 1350,
-                'users_id' => 1694,
+                'user_id' => 1694,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17576,7 +17576,7 @@ class AdmCargosTableSeeder extends Seeder
             350 => 
             array (
                 'id' => 1351,
-                'users_id' => 1695,
+                'user_id' => 1695,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17589,7 +17589,7 @@ class AdmCargosTableSeeder extends Seeder
             351 => 
             array (
                 'id' => 1352,
-                'users_id' => 1696,
+                'user_id' => 1696,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17602,7 +17602,7 @@ class AdmCargosTableSeeder extends Seeder
             352 => 
             array (
                 'id' => 1353,
-                'users_id' => 1697,
+                'user_id' => 1697,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17615,7 +17615,7 @@ class AdmCargosTableSeeder extends Seeder
             353 => 
             array (
                 'id' => 1354,
-                'users_id' => 1698,
+                'user_id' => 1698,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17628,7 +17628,7 @@ class AdmCargosTableSeeder extends Seeder
             354 => 
             array (
                 'id' => 1355,
-                'users_id' => 1700,
+                'user_id' => 1700,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17641,7 +17641,7 @@ class AdmCargosTableSeeder extends Seeder
             355 => 
             array (
                 'id' => 1356,
-                'users_id' => 1701,
+                'user_id' => 1701,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17654,7 +17654,7 @@ class AdmCargosTableSeeder extends Seeder
             356 => 
             array (
                 'id' => 1357,
-                'users_id' => 1702,
+                'user_id' => 1702,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17667,7 +17667,7 @@ class AdmCargosTableSeeder extends Seeder
             357 => 
             array (
                 'id' => 1358,
-                'users_id' => 1703,
+                'user_id' => 1703,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17680,7 +17680,7 @@ class AdmCargosTableSeeder extends Seeder
             358 => 
             array (
                 'id' => 1359,
-                'users_id' => 1704,
+                'user_id' => 1704,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17693,7 +17693,7 @@ class AdmCargosTableSeeder extends Seeder
             359 => 
             array (
                 'id' => 1360,
-                'users_id' => 1705,
+                'user_id' => 1705,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17706,7 +17706,7 @@ class AdmCargosTableSeeder extends Seeder
             360 => 
             array (
                 'id' => 1361,
-                'users_id' => 1706,
+                'user_id' => 1706,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17719,7 +17719,7 @@ class AdmCargosTableSeeder extends Seeder
             361 => 
             array (
                 'id' => 1362,
-                'users_id' => 1707,
+                'user_id' => 1707,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17732,7 +17732,7 @@ class AdmCargosTableSeeder extends Seeder
             362 => 
             array (
                 'id' => 1363,
-                'users_id' => 1708,
+                'user_id' => 1708,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17745,7 +17745,7 @@ class AdmCargosTableSeeder extends Seeder
             363 => 
             array (
                 'id' => 1364,
-                'users_id' => 1709,
+                'user_id' => 1709,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17758,7 +17758,7 @@ class AdmCargosTableSeeder extends Seeder
             364 => 
             array (
                 'id' => 1365,
-                'users_id' => 1710,
+                'user_id' => 1710,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17771,7 +17771,7 @@ class AdmCargosTableSeeder extends Seeder
             365 => 
             array (
                 'id' => 1366,
-                'users_id' => 1711,
+                'user_id' => 1711,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17784,7 +17784,7 @@ class AdmCargosTableSeeder extends Seeder
             366 => 
             array (
                 'id' => 1367,
-                'users_id' => 1712,
+                'user_id' => 1712,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17797,7 +17797,7 @@ class AdmCargosTableSeeder extends Seeder
             367 => 
             array (
                 'id' => 1368,
-                'users_id' => 1713,
+                'user_id' => 1713,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17810,7 +17810,7 @@ class AdmCargosTableSeeder extends Seeder
             368 => 
             array (
                 'id' => 1369,
-                'users_id' => 1714,
+                'user_id' => 1714,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17823,7 +17823,7 @@ class AdmCargosTableSeeder extends Seeder
             369 => 
             array (
                 'id' => 1370,
-                'users_id' => 1715,
+                'user_id' => 1715,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17836,7 +17836,7 @@ class AdmCargosTableSeeder extends Seeder
             370 => 
             array (
                 'id' => 1371,
-                'users_id' => 1716,
+                'user_id' => 1716,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17849,7 +17849,7 @@ class AdmCargosTableSeeder extends Seeder
             371 => 
             array (
                 'id' => 1372,
-                'users_id' => 1717,
+                'user_id' => 1717,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17862,7 +17862,7 @@ class AdmCargosTableSeeder extends Seeder
             372 => 
             array (
                 'id' => 1373,
-                'users_id' => 1718,
+                'user_id' => 1718,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17875,7 +17875,7 @@ class AdmCargosTableSeeder extends Seeder
             373 => 
             array (
                 'id' => 1374,
-                'users_id' => 1719,
+                'user_id' => 1719,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17888,7 +17888,7 @@ class AdmCargosTableSeeder extends Seeder
             374 => 
             array (
                 'id' => 1375,
-                'users_id' => 1720,
+                'user_id' => 1720,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17901,7 +17901,7 @@ class AdmCargosTableSeeder extends Seeder
             375 => 
             array (
                 'id' => 1376,
-                'users_id' => 1721,
+                'user_id' => 1721,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17914,7 +17914,7 @@ class AdmCargosTableSeeder extends Seeder
             376 => 
             array (
                 'id' => 1377,
-                'users_id' => 1722,
+                'user_id' => 1722,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17927,7 +17927,7 @@ class AdmCargosTableSeeder extends Seeder
             377 => 
             array (
                 'id' => 1378,
-                'users_id' => 1723,
+                'user_id' => 1723,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17940,7 +17940,7 @@ class AdmCargosTableSeeder extends Seeder
             378 => 
             array (
                 'id' => 1379,
-                'users_id' => 1724,
+                'user_id' => 1724,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17953,7 +17953,7 @@ class AdmCargosTableSeeder extends Seeder
             379 => 
             array (
                 'id' => 1380,
-                'users_id' => 1725,
+                'user_id' => 1725,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17966,7 +17966,7 @@ class AdmCargosTableSeeder extends Seeder
             380 => 
             array (
                 'id' => 1381,
-                'users_id' => 1726,
+                'user_id' => 1726,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17979,7 +17979,7 @@ class AdmCargosTableSeeder extends Seeder
             381 => 
             array (
                 'id' => 1382,
-                'users_id' => 1727,
+                'user_id' => 1727,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -17992,7 +17992,7 @@ class AdmCargosTableSeeder extends Seeder
             382 => 
             array (
                 'id' => 1383,
-                'users_id' => 1728,
+                'user_id' => 1728,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18005,7 +18005,7 @@ class AdmCargosTableSeeder extends Seeder
             383 => 
             array (
                 'id' => 1384,
-                'users_id' => 1729,
+                'user_id' => 1729,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18018,7 +18018,7 @@ class AdmCargosTableSeeder extends Seeder
             384 => 
             array (
                 'id' => 1385,
-                'users_id' => 1730,
+                'user_id' => 1730,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18031,7 +18031,7 @@ class AdmCargosTableSeeder extends Seeder
             385 => 
             array (
                 'id' => 1386,
-                'users_id' => 1731,
+                'user_id' => 1731,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18044,7 +18044,7 @@ class AdmCargosTableSeeder extends Seeder
             386 => 
             array (
                 'id' => 1387,
-                'users_id' => 1732,
+                'user_id' => 1732,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18057,7 +18057,7 @@ class AdmCargosTableSeeder extends Seeder
             387 => 
             array (
                 'id' => 1388,
-                'users_id' => 1733,
+                'user_id' => 1733,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18070,7 +18070,7 @@ class AdmCargosTableSeeder extends Seeder
             388 => 
             array (
                 'id' => 1389,
-                'users_id' => 1734,
+                'user_id' => 1734,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18083,7 +18083,7 @@ class AdmCargosTableSeeder extends Seeder
             389 => 
             array (
                 'id' => 1390,
-                'users_id' => 1735,
+                'user_id' => 1735,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18096,7 +18096,7 @@ class AdmCargosTableSeeder extends Seeder
             390 => 
             array (
                 'id' => 1391,
-                'users_id' => 1736,
+                'user_id' => 1736,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18109,7 +18109,7 @@ class AdmCargosTableSeeder extends Seeder
             391 => 
             array (
                 'id' => 1392,
-                'users_id' => 1738,
+                'user_id' => 1738,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18122,7 +18122,7 @@ class AdmCargosTableSeeder extends Seeder
             392 => 
             array (
                 'id' => 1393,
-                'users_id' => 1739,
+                'user_id' => 1739,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18135,7 +18135,7 @@ class AdmCargosTableSeeder extends Seeder
             393 => 
             array (
                 'id' => 1394,
-                'users_id' => 1740,
+                'user_id' => 1740,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18148,7 +18148,7 @@ class AdmCargosTableSeeder extends Seeder
             394 => 
             array (
                 'id' => 1395,
-                'users_id' => 1741,
+                'user_id' => 1741,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18161,7 +18161,7 @@ class AdmCargosTableSeeder extends Seeder
             395 => 
             array (
                 'id' => 1396,
-                'users_id' => 1742,
+                'user_id' => 1742,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18174,7 +18174,7 @@ class AdmCargosTableSeeder extends Seeder
             396 => 
             array (
                 'id' => 1397,
-                'users_id' => 1743,
+                'user_id' => 1743,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18187,7 +18187,7 @@ class AdmCargosTableSeeder extends Seeder
             397 => 
             array (
                 'id' => 1398,
-                'users_id' => 1745,
+                'user_id' => 1745,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18200,7 +18200,7 @@ class AdmCargosTableSeeder extends Seeder
             398 => 
             array (
                 'id' => 1399,
-                'users_id' => 1746,
+                'user_id' => 1746,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18213,7 +18213,7 @@ class AdmCargosTableSeeder extends Seeder
             399 => 
             array (
                 'id' => 1400,
-                'users_id' => 1747,
+                'user_id' => 1747,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18226,7 +18226,7 @@ class AdmCargosTableSeeder extends Seeder
             400 => 
             array (
                 'id' => 1401,
-                'users_id' => 1748,
+                'user_id' => 1748,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18239,7 +18239,7 @@ class AdmCargosTableSeeder extends Seeder
             401 => 
             array (
                 'id' => 1402,
-                'users_id' => 1749,
+                'user_id' => 1749,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18252,7 +18252,7 @@ class AdmCargosTableSeeder extends Seeder
             402 => 
             array (
                 'id' => 1403,
-                'users_id' => 1750,
+                'user_id' => 1750,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18265,7 +18265,7 @@ class AdmCargosTableSeeder extends Seeder
             403 => 
             array (
                 'id' => 1404,
-                'users_id' => 1751,
+                'user_id' => 1751,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18278,7 +18278,7 @@ class AdmCargosTableSeeder extends Seeder
             404 => 
             array (
                 'id' => 1405,
-                'users_id' => 1752,
+                'user_id' => 1752,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18291,7 +18291,7 @@ class AdmCargosTableSeeder extends Seeder
             405 => 
             array (
                 'id' => 1406,
-                'users_id' => 1753,
+                'user_id' => 1753,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18304,7 +18304,7 @@ class AdmCargosTableSeeder extends Seeder
             406 => 
             array (
                 'id' => 1407,
-                'users_id' => 1754,
+                'user_id' => 1754,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18317,7 +18317,7 @@ class AdmCargosTableSeeder extends Seeder
             407 => 
             array (
                 'id' => 1408,
-                'users_id' => 1755,
+                'user_id' => 1755,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18330,7 +18330,7 @@ class AdmCargosTableSeeder extends Seeder
             408 => 
             array (
                 'id' => 1409,
-                'users_id' => 1756,
+                'user_id' => 1756,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18343,7 +18343,7 @@ class AdmCargosTableSeeder extends Seeder
             409 => 
             array (
                 'id' => 1410,
-                'users_id' => 2225,
+                'user_id' => 2225,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18356,7 +18356,7 @@ class AdmCargosTableSeeder extends Seeder
             410 => 
             array (
                 'id' => 1411,
-                'users_id' => 2226,
+                'user_id' => 2226,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18369,7 +18369,7 @@ class AdmCargosTableSeeder extends Seeder
             411 => 
             array (
                 'id' => 1412,
-                'users_id' => 2227,
+                'user_id' => 2227,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18382,7 +18382,7 @@ class AdmCargosTableSeeder extends Seeder
             412 => 
             array (
                 'id' => 1413,
-                'users_id' => 2228,
+                'user_id' => 2228,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18395,7 +18395,7 @@ class AdmCargosTableSeeder extends Seeder
             413 => 
             array (
                 'id' => 1414,
-                'users_id' => 2229,
+                'user_id' => 2229,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18408,7 +18408,7 @@ class AdmCargosTableSeeder extends Seeder
             414 => 
             array (
                 'id' => 1415,
-                'users_id' => 2230,
+                'user_id' => 2230,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18421,7 +18421,7 @@ class AdmCargosTableSeeder extends Seeder
             415 => 
             array (
                 'id' => 1416,
-                'users_id' => 2231,
+                'user_id' => 2231,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18434,7 +18434,7 @@ class AdmCargosTableSeeder extends Seeder
             416 => 
             array (
                 'id' => 1417,
-                'users_id' => 2232,
+                'user_id' => 2232,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18447,7 +18447,7 @@ class AdmCargosTableSeeder extends Seeder
             417 => 
             array (
                 'id' => 1418,
-                'users_id' => 2233,
+                'user_id' => 2233,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18460,7 +18460,7 @@ class AdmCargosTableSeeder extends Seeder
             418 => 
             array (
                 'id' => 1419,
-                'users_id' => 2234,
+                'user_id' => 2234,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18473,7 +18473,7 @@ class AdmCargosTableSeeder extends Seeder
             419 => 
             array (
                 'id' => 1420,
-                'users_id' => 2235,
+                'user_id' => 2235,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18486,7 +18486,7 @@ class AdmCargosTableSeeder extends Seeder
             420 => 
             array (
                 'id' => 1421,
-                'users_id' => 2236,
+                'user_id' => 2236,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18499,7 +18499,7 @@ class AdmCargosTableSeeder extends Seeder
             421 => 
             array (
                 'id' => 1422,
-                'users_id' => 2237,
+                'user_id' => 2237,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18512,7 +18512,7 @@ class AdmCargosTableSeeder extends Seeder
             422 => 
             array (
                 'id' => 1423,
-                'users_id' => 2238,
+                'user_id' => 2238,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18525,7 +18525,7 @@ class AdmCargosTableSeeder extends Seeder
             423 => 
             array (
                 'id' => 1424,
-                'users_id' => 2239,
+                'user_id' => 2239,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18538,7 +18538,7 @@ class AdmCargosTableSeeder extends Seeder
             424 => 
             array (
                 'id' => 1425,
-                'users_id' => 2240,
+                'user_id' => 2240,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18551,7 +18551,7 @@ class AdmCargosTableSeeder extends Seeder
             425 => 
             array (
                 'id' => 1426,
-                'users_id' => 2241,
+                'user_id' => 2241,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18564,7 +18564,7 @@ class AdmCargosTableSeeder extends Seeder
             426 => 
             array (
                 'id' => 1427,
-                'users_id' => 2242,
+                'user_id' => 2242,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18577,7 +18577,7 @@ class AdmCargosTableSeeder extends Seeder
             427 => 
             array (
                 'id' => 1428,
-                'users_id' => 2243,
+                'user_id' => 2243,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18590,7 +18590,7 @@ class AdmCargosTableSeeder extends Seeder
             428 => 
             array (
                 'id' => 1429,
-                'users_id' => 2244,
+                'user_id' => 2244,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18603,7 +18603,7 @@ class AdmCargosTableSeeder extends Seeder
             429 => 
             array (
                 'id' => 1430,
-                'users_id' => 2245,
+                'user_id' => 2245,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18616,7 +18616,7 @@ class AdmCargosTableSeeder extends Seeder
             430 => 
             array (
                 'id' => 1431,
-                'users_id' => 2246,
+                'user_id' => 2246,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18629,7 +18629,7 @@ class AdmCargosTableSeeder extends Seeder
             431 => 
             array (
                 'id' => 1432,
-                'users_id' => 2247,
+                'user_id' => 2247,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18642,7 +18642,7 @@ class AdmCargosTableSeeder extends Seeder
             432 => 
             array (
                 'id' => 1433,
-                'users_id' => 2248,
+                'user_id' => 2248,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18655,7 +18655,7 @@ class AdmCargosTableSeeder extends Seeder
             433 => 
             array (
                 'id' => 1434,
-                'users_id' => 2249,
+                'user_id' => 2249,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18668,7 +18668,7 @@ class AdmCargosTableSeeder extends Seeder
             434 => 
             array (
                 'id' => 1435,
-                'users_id' => 2250,
+                'user_id' => 2250,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18681,7 +18681,7 @@ class AdmCargosTableSeeder extends Seeder
             435 => 
             array (
                 'id' => 1436,
-                'users_id' => 2251,
+                'user_id' => 2251,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18694,7 +18694,7 @@ class AdmCargosTableSeeder extends Seeder
             436 => 
             array (
                 'id' => 1437,
-                'users_id' => 2253,
+                'user_id' => 2253,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18707,7 +18707,7 @@ class AdmCargosTableSeeder extends Seeder
             437 => 
             array (
                 'id' => 1438,
-                'users_id' => 2254,
+                'user_id' => 2254,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18720,7 +18720,7 @@ class AdmCargosTableSeeder extends Seeder
             438 => 
             array (
                 'id' => 1439,
-                'users_id' => 2255,
+                'user_id' => 2255,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18733,7 +18733,7 @@ class AdmCargosTableSeeder extends Seeder
             439 => 
             array (
                 'id' => 1440,
-                'users_id' => 2256,
+                'user_id' => 2256,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18746,7 +18746,7 @@ class AdmCargosTableSeeder extends Seeder
             440 => 
             array (
                 'id' => 1441,
-                'users_id' => 2257,
+                'user_id' => 2257,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18759,7 +18759,7 @@ class AdmCargosTableSeeder extends Seeder
             441 => 
             array (
                 'id' => 1442,
-                'users_id' => 2259,
+                'user_id' => 2259,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18772,7 +18772,7 @@ class AdmCargosTableSeeder extends Seeder
             442 => 
             array (
                 'id' => 1443,
-                'users_id' => 2260,
+                'user_id' => 2260,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18785,7 +18785,7 @@ class AdmCargosTableSeeder extends Seeder
             443 => 
             array (
                 'id' => 1444,
-                'users_id' => 2261,
+                'user_id' => 2261,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18798,7 +18798,7 @@ class AdmCargosTableSeeder extends Seeder
             444 => 
             array (
                 'id' => 1445,
-                'users_id' => 2262,
+                'user_id' => 2262,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18811,7 +18811,7 @@ class AdmCargosTableSeeder extends Seeder
             445 => 
             array (
                 'id' => 1446,
-                'users_id' => 2264,
+                'user_id' => 2264,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18824,7 +18824,7 @@ class AdmCargosTableSeeder extends Seeder
             446 => 
             array (
                 'id' => 1447,
-                'users_id' => 2265,
+                'user_id' => 2265,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18837,7 +18837,7 @@ class AdmCargosTableSeeder extends Seeder
             447 => 
             array (
                 'id' => 1448,
-                'users_id' => 2266,
+                'user_id' => 2266,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -18850,7 +18850,7 @@ class AdmCargosTableSeeder extends Seeder
             448 => 
             array (
                 'id' => 1449,
-                'users_id' => 2267,
+                'user_id' => 2267,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18863,7 +18863,7 @@ class AdmCargosTableSeeder extends Seeder
             449 => 
             array (
                 'id' => 1450,
-                'users_id' => 2268,
+                'user_id' => 2268,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18876,7 +18876,7 @@ class AdmCargosTableSeeder extends Seeder
             450 => 
             array (
                 'id' => 1451,
-                'users_id' => 2269,
+                'user_id' => 2269,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18889,7 +18889,7 @@ class AdmCargosTableSeeder extends Seeder
             451 => 
             array (
                 'id' => 1452,
-                'users_id' => 2273,
+                'user_id' => 2273,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18902,7 +18902,7 @@ class AdmCargosTableSeeder extends Seeder
             452 => 
             array (
                 'id' => 1453,
-                'users_id' => 2274,
+                'user_id' => 2274,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18915,7 +18915,7 @@ class AdmCargosTableSeeder extends Seeder
             453 => 
             array (
                 'id' => 1454,
-                'users_id' => 2275,
+                'user_id' => 2275,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18928,7 +18928,7 @@ class AdmCargosTableSeeder extends Seeder
             454 => 
             array (
                 'id' => 1455,
-                'users_id' => 2276,
+                'user_id' => 2276,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18941,7 +18941,7 @@ class AdmCargosTableSeeder extends Seeder
             455 => 
             array (
                 'id' => 1456,
-                'users_id' => 2277,
+                'user_id' => 2277,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -18954,7 +18954,7 @@ class AdmCargosTableSeeder extends Seeder
             456 => 
             array (
                 'id' => 1457,
-                'users_id' => 2278,
+                'user_id' => 2278,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18967,7 +18967,7 @@ class AdmCargosTableSeeder extends Seeder
             457 => 
             array (
                 'id' => 1458,
-                'users_id' => 2279,
+                'user_id' => 2279,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18980,7 +18980,7 @@ class AdmCargosTableSeeder extends Seeder
             458 => 
             array (
                 'id' => 1459,
-                'users_id' => 2280,
+                'user_id' => 2280,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -18993,7 +18993,7 @@ class AdmCargosTableSeeder extends Seeder
             459 => 
             array (
                 'id' => 1460,
-                'users_id' => 2281,
+                'user_id' => 2281,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19006,7 +19006,7 @@ class AdmCargosTableSeeder extends Seeder
             460 => 
             array (
                 'id' => 1461,
-                'users_id' => 2282,
+                'user_id' => 2282,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19019,7 +19019,7 @@ class AdmCargosTableSeeder extends Seeder
             461 => 
             array (
                 'id' => 1462,
-                'users_id' => 2283,
+                'user_id' => 2283,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19032,7 +19032,7 @@ class AdmCargosTableSeeder extends Seeder
             462 => 
             array (
                 'id' => 1463,
-                'users_id' => 2284,
+                'user_id' => 2284,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19045,7 +19045,7 @@ class AdmCargosTableSeeder extends Seeder
             463 => 
             array (
                 'id' => 1464,
-                'users_id' => 2286,
+                'user_id' => 2286,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19058,7 +19058,7 @@ class AdmCargosTableSeeder extends Seeder
             464 => 
             array (
                 'id' => 1465,
-                'users_id' => 2288,
+                'user_id' => 2288,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19071,7 +19071,7 @@ class AdmCargosTableSeeder extends Seeder
             465 => 
             array (
                 'id' => 1466,
-                'users_id' => 2289,
+                'user_id' => 2289,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19084,7 +19084,7 @@ class AdmCargosTableSeeder extends Seeder
             466 => 
             array (
                 'id' => 1467,
-                'users_id' => 2290,
+                'user_id' => 2290,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19097,7 +19097,7 @@ class AdmCargosTableSeeder extends Seeder
             467 => 
             array (
                 'id' => 1468,
-                'users_id' => 2291,
+                'user_id' => 2291,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19110,7 +19110,7 @@ class AdmCargosTableSeeder extends Seeder
             468 => 
             array (
                 'id' => 1469,
-                'users_id' => 2292,
+                'user_id' => 2292,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19123,7 +19123,7 @@ class AdmCargosTableSeeder extends Seeder
             469 => 
             array (
                 'id' => 1470,
-                'users_id' => 2294,
+                'user_id' => 2294,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19136,7 +19136,7 @@ class AdmCargosTableSeeder extends Seeder
             470 => 
             array (
                 'id' => 1471,
-                'users_id' => 2295,
+                'user_id' => 2295,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19149,7 +19149,7 @@ class AdmCargosTableSeeder extends Seeder
             471 => 
             array (
                 'id' => 1472,
-                'users_id' => 2296,
+                'user_id' => 2296,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19162,7 +19162,7 @@ class AdmCargosTableSeeder extends Seeder
             472 => 
             array (
                 'id' => 1473,
-                'users_id' => 2297,
+                'user_id' => 2297,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19175,7 +19175,7 @@ class AdmCargosTableSeeder extends Seeder
             473 => 
             array (
                 'id' => 1474,
-                'users_id' => 2298,
+                'user_id' => 2298,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19188,7 +19188,7 @@ class AdmCargosTableSeeder extends Seeder
             474 => 
             array (
                 'id' => 1475,
-                'users_id' => 2299,
+                'user_id' => 2299,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -19201,7 +19201,7 @@ class AdmCargosTableSeeder extends Seeder
             475 => 
             array (
                 'id' => 1476,
-                'users_id' => 2301,
+                'user_id' => 2301,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19214,7 +19214,7 @@ class AdmCargosTableSeeder extends Seeder
             476 => 
             array (
                 'id' => 1477,
-                'users_id' => 2302,
+                'user_id' => 2302,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19227,7 +19227,7 @@ class AdmCargosTableSeeder extends Seeder
             477 => 
             array (
                 'id' => 1478,
-                'users_id' => 2303,
+                'user_id' => 2303,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19240,7 +19240,7 @@ class AdmCargosTableSeeder extends Seeder
             478 => 
             array (
                 'id' => 1479,
-                'users_id' => 2304,
+                'user_id' => 2304,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19253,7 +19253,7 @@ class AdmCargosTableSeeder extends Seeder
             479 => 
             array (
                 'id' => 1480,
-                'users_id' => 2305,
+                'user_id' => 2305,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19266,7 +19266,7 @@ class AdmCargosTableSeeder extends Seeder
             480 => 
             array (
                 'id' => 1481,
-                'users_id' => 2306,
+                'user_id' => 2306,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19279,7 +19279,7 @@ class AdmCargosTableSeeder extends Seeder
             481 => 
             array (
                 'id' => 1482,
-                'users_id' => 2307,
+                'user_id' => 2307,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19292,7 +19292,7 @@ class AdmCargosTableSeeder extends Seeder
             482 => 
             array (
                 'id' => 1483,
-                'users_id' => 2308,
+                'user_id' => 2308,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19305,7 +19305,7 @@ class AdmCargosTableSeeder extends Seeder
             483 => 
             array (
                 'id' => 1484,
-                'users_id' => 2309,
+                'user_id' => 2309,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19318,7 +19318,7 @@ class AdmCargosTableSeeder extends Seeder
             484 => 
             array (
                 'id' => 1485,
-                'users_id' => 2311,
+                'user_id' => 2311,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19331,7 +19331,7 @@ class AdmCargosTableSeeder extends Seeder
             485 => 
             array (
                 'id' => 1486,
-                'users_id' => 2312,
+                'user_id' => 2312,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19344,7 +19344,7 @@ class AdmCargosTableSeeder extends Seeder
             486 => 
             array (
                 'id' => 1487,
-                'users_id' => 2313,
+                'user_id' => 2313,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19357,7 +19357,7 @@ class AdmCargosTableSeeder extends Seeder
             487 => 
             array (
                 'id' => 1488,
-                'users_id' => 2315,
+                'user_id' => 2315,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19370,7 +19370,7 @@ class AdmCargosTableSeeder extends Seeder
             488 => 
             array (
                 'id' => 1489,
-                'users_id' => 2316,
+                'user_id' => 2316,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19383,7 +19383,7 @@ class AdmCargosTableSeeder extends Seeder
             489 => 
             array (
                 'id' => 1490,
-                'users_id' => 2317,
+                'user_id' => 2317,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19396,7 +19396,7 @@ class AdmCargosTableSeeder extends Seeder
             490 => 
             array (
                 'id' => 1491,
-                'users_id' => 2318,
+                'user_id' => 2318,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19409,7 +19409,7 @@ class AdmCargosTableSeeder extends Seeder
             491 => 
             array (
                 'id' => 1492,
-                'users_id' => 2319,
+                'user_id' => 2319,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19422,7 +19422,7 @@ class AdmCargosTableSeeder extends Seeder
             492 => 
             array (
                 'id' => 1493,
-                'users_id' => 2320,
+                'user_id' => 2320,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19435,7 +19435,7 @@ class AdmCargosTableSeeder extends Seeder
             493 => 
             array (
                 'id' => 1494,
-                'users_id' => 2321,
+                'user_id' => 2321,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19448,7 +19448,7 @@ class AdmCargosTableSeeder extends Seeder
             494 => 
             array (
                 'id' => 1495,
-                'users_id' => 2322,
+                'user_id' => 2322,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -19461,7 +19461,7 @@ class AdmCargosTableSeeder extends Seeder
             495 => 
             array (
                 'id' => 1496,
-                'users_id' => 2323,
+                'user_id' => 2323,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19474,7 +19474,7 @@ class AdmCargosTableSeeder extends Seeder
             496 => 
             array (
                 'id' => 1497,
-                'users_id' => 2324,
+                'user_id' => 2324,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19487,7 +19487,7 @@ class AdmCargosTableSeeder extends Seeder
             497 => 
             array (
                 'id' => 1498,
-                'users_id' => 2325,
+                'user_id' => 2325,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19500,7 +19500,7 @@ class AdmCargosTableSeeder extends Seeder
             498 => 
             array (
                 'id' => 1499,
-                'users_id' => 2326,
+                'user_id' => 2326,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19513,7 +19513,7 @@ class AdmCargosTableSeeder extends Seeder
             499 => 
             array (
                 'id' => 1500,
-                'users_id' => 2327,
+                'user_id' => 2327,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19528,7 +19528,7 @@ class AdmCargosTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1501,
-                'users_id' => 2328,
+                'user_id' => 2328,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19541,7 +19541,7 @@ class AdmCargosTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 1502,
-                'users_id' => 2329,
+                'user_id' => 2329,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19554,7 +19554,7 @@ class AdmCargosTableSeeder extends Seeder
             2 => 
             array (
                 'id' => 1503,
-                'users_id' => 2330,
+                'user_id' => 2330,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19567,7 +19567,7 @@ class AdmCargosTableSeeder extends Seeder
             3 => 
             array (
                 'id' => 1504,
-                'users_id' => 2333,
+                'user_id' => 2333,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19580,7 +19580,7 @@ class AdmCargosTableSeeder extends Seeder
             4 => 
             array (
                 'id' => 1505,
-                'users_id' => 2334,
+                'user_id' => 2334,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19593,7 +19593,7 @@ class AdmCargosTableSeeder extends Seeder
             5 => 
             array (
                 'id' => 1506,
-                'users_id' => 2336,
+                'user_id' => 2336,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19606,7 +19606,7 @@ class AdmCargosTableSeeder extends Seeder
             6 => 
             array (
                 'id' => 1507,
-                'users_id' => 2337,
+                'user_id' => 2337,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19619,7 +19619,7 @@ class AdmCargosTableSeeder extends Seeder
             7 => 
             array (
                 'id' => 1508,
-                'users_id' => 2338,
+                'user_id' => 2338,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19632,7 +19632,7 @@ class AdmCargosTableSeeder extends Seeder
             8 => 
             array (
                 'id' => 1509,
-                'users_id' => 2339,
+                'user_id' => 2339,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19645,7 +19645,7 @@ class AdmCargosTableSeeder extends Seeder
             9 => 
             array (
                 'id' => 1510,
-                'users_id' => 2340,
+                'user_id' => 2340,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19658,7 +19658,7 @@ class AdmCargosTableSeeder extends Seeder
             10 => 
             array (
                 'id' => 1511,
-                'users_id' => 2341,
+                'user_id' => 2341,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19671,7 +19671,7 @@ class AdmCargosTableSeeder extends Seeder
             11 => 
             array (
                 'id' => 1512,
-                'users_id' => 2343,
+                'user_id' => 2343,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19684,7 +19684,7 @@ class AdmCargosTableSeeder extends Seeder
             12 => 
             array (
                 'id' => 1513,
-                'users_id' => 2344,
+                'user_id' => 2344,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19697,7 +19697,7 @@ class AdmCargosTableSeeder extends Seeder
             13 => 
             array (
                 'id' => 1514,
-                'users_id' => 2345,
+                'user_id' => 2345,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19710,7 +19710,7 @@ class AdmCargosTableSeeder extends Seeder
             14 => 
             array (
                 'id' => 1515,
-                'users_id' => 2346,
+                'user_id' => 2346,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19723,7 +19723,7 @@ class AdmCargosTableSeeder extends Seeder
             15 => 
             array (
                 'id' => 1516,
-                'users_id' => 2347,
+                'user_id' => 2347,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19736,7 +19736,7 @@ class AdmCargosTableSeeder extends Seeder
             16 => 
             array (
                 'id' => 1517,
-                'users_id' => 2348,
+                'user_id' => 2348,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19749,7 +19749,7 @@ class AdmCargosTableSeeder extends Seeder
             17 => 
             array (
                 'id' => 1518,
-                'users_id' => 2350,
+                'user_id' => 2350,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19762,7 +19762,7 @@ class AdmCargosTableSeeder extends Seeder
             18 => 
             array (
                 'id' => 1519,
-                'users_id' => 2351,
+                'user_id' => 2351,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19775,7 +19775,7 @@ class AdmCargosTableSeeder extends Seeder
             19 => 
             array (
                 'id' => 1520,
-                'users_id' => 2352,
+                'user_id' => 2352,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19788,7 +19788,7 @@ class AdmCargosTableSeeder extends Seeder
             20 => 
             array (
                 'id' => 1521,
-                'users_id' => 2353,
+                'user_id' => 2353,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19801,7 +19801,7 @@ class AdmCargosTableSeeder extends Seeder
             21 => 
             array (
                 'id' => 1522,
-                'users_id' => 2354,
+                'user_id' => 2354,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19814,7 +19814,7 @@ class AdmCargosTableSeeder extends Seeder
             22 => 
             array (
                 'id' => 1523,
-                'users_id' => 2355,
+                'user_id' => 2355,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19827,7 +19827,7 @@ class AdmCargosTableSeeder extends Seeder
             23 => 
             array (
                 'id' => 1524,
-                'users_id' => 2356,
+                'user_id' => 2356,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19840,7 +19840,7 @@ class AdmCargosTableSeeder extends Seeder
             24 => 
             array (
                 'id' => 1525,
-                'users_id' => 2357,
+                'user_id' => 2357,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19853,7 +19853,7 @@ class AdmCargosTableSeeder extends Seeder
             25 => 
             array (
                 'id' => 1526,
-                'users_id' => 2358,
+                'user_id' => 2358,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19866,7 +19866,7 @@ class AdmCargosTableSeeder extends Seeder
             26 => 
             array (
                 'id' => 1527,
-                'users_id' => 2360,
+                'user_id' => 2360,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19879,7 +19879,7 @@ class AdmCargosTableSeeder extends Seeder
             27 => 
             array (
                 'id' => 1528,
-                'users_id' => 2362,
+                'user_id' => 2362,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19892,7 +19892,7 @@ class AdmCargosTableSeeder extends Seeder
             28 => 
             array (
                 'id' => 1529,
-                'users_id' => 2363,
+                'user_id' => 2363,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19905,7 +19905,7 @@ class AdmCargosTableSeeder extends Seeder
             29 => 
             array (
                 'id' => 1530,
-                'users_id' => 2364,
+                'user_id' => 2364,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19918,7 +19918,7 @@ class AdmCargosTableSeeder extends Seeder
             30 => 
             array (
                 'id' => 1531,
-                'users_id' => 2365,
+                'user_id' => 2365,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19931,7 +19931,7 @@ class AdmCargosTableSeeder extends Seeder
             31 => 
             array (
                 'id' => 1532,
-                'users_id' => 2366,
+                'user_id' => 2366,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19944,7 +19944,7 @@ class AdmCargosTableSeeder extends Seeder
             32 => 
             array (
                 'id' => 1533,
-                'users_id' => 2367,
+                'user_id' => 2367,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19957,7 +19957,7 @@ class AdmCargosTableSeeder extends Seeder
             33 => 
             array (
                 'id' => 1534,
-                'users_id' => 2368,
+                'user_id' => 2368,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19970,7 +19970,7 @@ class AdmCargosTableSeeder extends Seeder
             34 => 
             array (
                 'id' => 1535,
-                'users_id' => 2369,
+                'user_id' => 2369,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -19983,7 +19983,7 @@ class AdmCargosTableSeeder extends Seeder
             35 => 
             array (
                 'id' => 1536,
-                'users_id' => 2370,
+                'user_id' => 2370,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -19996,7 +19996,7 @@ class AdmCargosTableSeeder extends Seeder
             36 => 
             array (
                 'id' => 1537,
-                'users_id' => 2371,
+                'user_id' => 2371,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20009,7 +20009,7 @@ class AdmCargosTableSeeder extends Seeder
             37 => 
             array (
                 'id' => 1538,
-                'users_id' => 2372,
+                'user_id' => 2372,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20022,7 +20022,7 @@ class AdmCargosTableSeeder extends Seeder
             38 => 
             array (
                 'id' => 1539,
-                'users_id' => 2373,
+                'user_id' => 2373,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20035,7 +20035,7 @@ class AdmCargosTableSeeder extends Seeder
             39 => 
             array (
                 'id' => 1540,
-                'users_id' => 2374,
+                'user_id' => 2374,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20048,7 +20048,7 @@ class AdmCargosTableSeeder extends Seeder
             40 => 
             array (
                 'id' => 1541,
-                'users_id' => 2375,
+                'user_id' => 2375,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20061,7 +20061,7 @@ class AdmCargosTableSeeder extends Seeder
             41 => 
             array (
                 'id' => 1542,
-                'users_id' => 2376,
+                'user_id' => 2376,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20074,7 +20074,7 @@ class AdmCargosTableSeeder extends Seeder
             42 => 
             array (
                 'id' => 1543,
-                'users_id' => 2377,
+                'user_id' => 2377,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20087,7 +20087,7 @@ class AdmCargosTableSeeder extends Seeder
             43 => 
             array (
                 'id' => 1544,
-                'users_id' => 2378,
+                'user_id' => 2378,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20100,7 +20100,7 @@ class AdmCargosTableSeeder extends Seeder
             44 => 
             array (
                 'id' => 1545,
-                'users_id' => 2379,
+                'user_id' => 2379,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20113,7 +20113,7 @@ class AdmCargosTableSeeder extends Seeder
             45 => 
             array (
                 'id' => 1546,
-                'users_id' => 2380,
+                'user_id' => 2380,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20126,7 +20126,7 @@ class AdmCargosTableSeeder extends Seeder
             46 => 
             array (
                 'id' => 1547,
-                'users_id' => 2381,
+                'user_id' => 2381,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20139,7 +20139,7 @@ class AdmCargosTableSeeder extends Seeder
             47 => 
             array (
                 'id' => 1548,
-                'users_id' => 2383,
+                'user_id' => 2383,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20152,7 +20152,7 @@ class AdmCargosTableSeeder extends Seeder
             48 => 
             array (
                 'id' => 1549,
-                'users_id' => 2384,
+                'user_id' => 2384,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20165,7 +20165,7 @@ class AdmCargosTableSeeder extends Seeder
             49 => 
             array (
                 'id' => 1550,
-                'users_id' => 2385,
+                'user_id' => 2385,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20178,7 +20178,7 @@ class AdmCargosTableSeeder extends Seeder
             50 => 
             array (
                 'id' => 1551,
-                'users_id' => 2386,
+                'user_id' => 2386,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20191,7 +20191,7 @@ class AdmCargosTableSeeder extends Seeder
             51 => 
             array (
                 'id' => 1552,
-                'users_id' => 2387,
+                'user_id' => 2387,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20204,7 +20204,7 @@ class AdmCargosTableSeeder extends Seeder
             52 => 
             array (
                 'id' => 1553,
-                'users_id' => 2388,
+                'user_id' => 2388,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20217,7 +20217,7 @@ class AdmCargosTableSeeder extends Seeder
             53 => 
             array (
                 'id' => 1554,
-                'users_id' => 2393,
+                'user_id' => 2393,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20230,7 +20230,7 @@ class AdmCargosTableSeeder extends Seeder
             54 => 
             array (
                 'id' => 1555,
-                'users_id' => 2395,
+                'user_id' => 2395,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20243,7 +20243,7 @@ class AdmCargosTableSeeder extends Seeder
             55 => 
             array (
                 'id' => 1556,
-                'users_id' => 2396,
+                'user_id' => 2396,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20256,7 +20256,7 @@ class AdmCargosTableSeeder extends Seeder
             56 => 
             array (
                 'id' => 1557,
-                'users_id' => 2397,
+                'user_id' => 2397,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20269,7 +20269,7 @@ class AdmCargosTableSeeder extends Seeder
             57 => 
             array (
                 'id' => 1558,
-                'users_id' => 2398,
+                'user_id' => 2398,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20282,7 +20282,7 @@ class AdmCargosTableSeeder extends Seeder
             58 => 
             array (
                 'id' => 1559,
-                'users_id' => 2399,
+                'user_id' => 2399,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20295,7 +20295,7 @@ class AdmCargosTableSeeder extends Seeder
             59 => 
             array (
                 'id' => 1560,
-                'users_id' => 2400,
+                'user_id' => 2400,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20308,7 +20308,7 @@ class AdmCargosTableSeeder extends Seeder
             60 => 
             array (
                 'id' => 1561,
-                'users_id' => 2401,
+                'user_id' => 2401,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20321,7 +20321,7 @@ class AdmCargosTableSeeder extends Seeder
             61 => 
             array (
                 'id' => 1562,
-                'users_id' => 2402,
+                'user_id' => 2402,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20334,7 +20334,7 @@ class AdmCargosTableSeeder extends Seeder
             62 => 
             array (
                 'id' => 1563,
-                'users_id' => 2403,
+                'user_id' => 2403,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20347,7 +20347,7 @@ class AdmCargosTableSeeder extends Seeder
             63 => 
             array (
                 'id' => 1564,
-                'users_id' => 2404,
+                'user_id' => 2404,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20360,7 +20360,7 @@ class AdmCargosTableSeeder extends Seeder
             64 => 
             array (
                 'id' => 1565,
-                'users_id' => 2405,
+                'user_id' => 2405,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20373,7 +20373,7 @@ class AdmCargosTableSeeder extends Seeder
             65 => 
             array (
                 'id' => 1566,
-                'users_id' => 2406,
+                'user_id' => 2406,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20386,7 +20386,7 @@ class AdmCargosTableSeeder extends Seeder
             66 => 
             array (
                 'id' => 1567,
-                'users_id' => 2407,
+                'user_id' => 2407,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20399,7 +20399,7 @@ class AdmCargosTableSeeder extends Seeder
             67 => 
             array (
                 'id' => 1568,
-                'users_id' => 2408,
+                'user_id' => 2408,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20412,7 +20412,7 @@ class AdmCargosTableSeeder extends Seeder
             68 => 
             array (
                 'id' => 1569,
-                'users_id' => 2410,
+                'user_id' => 2410,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20425,7 +20425,7 @@ class AdmCargosTableSeeder extends Seeder
             69 => 
             array (
                 'id' => 1570,
-                'users_id' => 2411,
+                'user_id' => 2411,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20438,7 +20438,7 @@ class AdmCargosTableSeeder extends Seeder
             70 => 
             array (
                 'id' => 1571,
-                'users_id' => 2412,
+                'user_id' => 2412,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20451,7 +20451,7 @@ class AdmCargosTableSeeder extends Seeder
             71 => 
             array (
                 'id' => 1572,
-                'users_id' => 2413,
+                'user_id' => 2413,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20464,7 +20464,7 @@ class AdmCargosTableSeeder extends Seeder
             72 => 
             array (
                 'id' => 1573,
-                'users_id' => 2414,
+                'user_id' => 2414,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20477,7 +20477,7 @@ class AdmCargosTableSeeder extends Seeder
             73 => 
             array (
                 'id' => 1574,
-                'users_id' => 2415,
+                'user_id' => 2415,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20490,7 +20490,7 @@ class AdmCargosTableSeeder extends Seeder
             74 => 
             array (
                 'id' => 1575,
-                'users_id' => 2416,
+                'user_id' => 2416,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20503,7 +20503,7 @@ class AdmCargosTableSeeder extends Seeder
             75 => 
             array (
                 'id' => 1576,
-                'users_id' => 2418,
+                'user_id' => 2418,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20516,7 +20516,7 @@ class AdmCargosTableSeeder extends Seeder
             76 => 
             array (
                 'id' => 1577,
-                'users_id' => 2426,
+                'user_id' => 2426,
                 'estado' => 1,
                 'nom_cargo' => 'JEFE DE ENSEÑANZA',
                 'descripcion' => '',
@@ -20529,7 +20529,7 @@ class AdmCargosTableSeeder extends Seeder
             77 => 
             array (
                 'id' => 1578,
-                'users_id' => 2428,
+                'user_id' => 2428,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20542,7 +20542,7 @@ class AdmCargosTableSeeder extends Seeder
             78 => 
             array (
                 'id' => 1579,
-                'users_id' => 2430,
+                'user_id' => 2430,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -20555,7 +20555,7 @@ class AdmCargosTableSeeder extends Seeder
             79 => 
             array (
                 'id' => 1580,
-                'users_id' => 2431,
+                'user_id' => 2431,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20568,7 +20568,7 @@ class AdmCargosTableSeeder extends Seeder
             80 => 
             array (
                 'id' => 1581,
-                'users_id' => 2432,
+                'user_id' => 2432,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20581,7 +20581,7 @@ class AdmCargosTableSeeder extends Seeder
             81 => 
             array (
                 'id' => 1582,
-                'users_id' => 2433,
+                'user_id' => 2433,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -20594,7 +20594,7 @@ class AdmCargosTableSeeder extends Seeder
             82 => 
             array (
                 'id' => 1583,
-                'users_id' => 2434,
+                'user_id' => 2434,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -20607,7 +20607,7 @@ class AdmCargosTableSeeder extends Seeder
             83 => 
             array (
                 'id' => 1584,
-                'users_id' => 2435,
+                'user_id' => 2435,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20620,7 +20620,7 @@ class AdmCargosTableSeeder extends Seeder
             84 => 
             array (
                 'id' => 1585,
-                'users_id' => 2436,
+                'user_id' => 2436,
                 'estado' => 1,
                 'nom_cargo' => 'APOYO TECNICO',
                 'descripcion' => '',
@@ -20633,7 +20633,7 @@ class AdmCargosTableSeeder extends Seeder
             85 => 
             array (
                 'id' => 1586,
-                'users_id' => 2437,
+                'user_id' => 2437,
                 'estado' => 1,
                 'nom_cargo' => 'APOYO TECNICO',
                 'descripcion' => '',
@@ -20646,7 +20646,7 @@ class AdmCargosTableSeeder extends Seeder
             86 => 
             array (
                 'id' => 1587,
-                'users_id' => 2438,
+                'user_id' => 2438,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -20659,7 +20659,7 @@ class AdmCargosTableSeeder extends Seeder
             87 => 
             array (
                 'id' => 1588,
-                'users_id' => 2439,
+                'user_id' => 2439,
                 'estado' => 1,
                 'nom_cargo' => 'AUXILIAR ADMINISTRATIVO',
                 'descripcion' => '',
@@ -20672,7 +20672,7 @@ class AdmCargosTableSeeder extends Seeder
             88 => 
             array (
                 'id' => 1589,
-                'users_id' => 2440,
+                'user_id' => 2440,
                 'estado' => 1,
                 'nom_cargo' => 'CONDUCTOR',
                 'descripcion' => '',
@@ -20685,7 +20685,7 @@ class AdmCargosTableSeeder extends Seeder
             89 => 
             array (
                 'id' => 1590,
-                'users_id' => 2441,
+                'user_id' => 2441,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -20698,7 +20698,7 @@ class AdmCargosTableSeeder extends Seeder
             90 => 
             array (
                 'id' => 1591,
-                'users_id' => 2443,
+                'user_id' => 2443,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE REGIONAL',
                 'descripcion' => '',
@@ -20711,7 +20711,7 @@ class AdmCargosTableSeeder extends Seeder
             91 => 
             array (
                 'id' => 1592,
-                'users_id' => 2444,
+                'user_id' => 2444,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -20724,7 +20724,7 @@ class AdmCargosTableSeeder extends Seeder
             92 => 
             array (
                 'id' => 1593,
-                'users_id' => 2445,
+                'user_id' => 2445,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20737,7 +20737,7 @@ class AdmCargosTableSeeder extends Seeder
             93 => 
             array (
                 'id' => 1594,
-                'users_id' => 2446,
+                'user_id' => 2446,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20750,7 +20750,7 @@ class AdmCargosTableSeeder extends Seeder
             94 => 
             array (
                 'id' => 1595,
-                'users_id' => 2447,
+                'user_id' => 2447,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE REGIONAL',
                 'descripcion' => '',
@@ -20763,7 +20763,7 @@ class AdmCargosTableSeeder extends Seeder
             95 => 
             array (
                 'id' => 1596,
-                'users_id' => 2448,
+                'user_id' => 2448,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -20776,7 +20776,7 @@ class AdmCargosTableSeeder extends Seeder
             96 => 
             array (
                 'id' => 1597,
-                'users_id' => 2449,
+                'user_id' => 2449,
                 'estado' => 1,
                 'nom_cargo' => 'APOYO TECNICO',
                 'descripcion' => '',
@@ -20789,7 +20789,7 @@ class AdmCargosTableSeeder extends Seeder
             97 => 
             array (
                 'id' => 1598,
-                'users_id' => 2450,
+                'user_id' => 2450,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20802,7 +20802,7 @@ class AdmCargosTableSeeder extends Seeder
             98 => 
             array (
                 'id' => 1599,
-                'users_id' => 2451,
+                'user_id' => 2451,
                 'estado' => 1,
                 'nom_cargo' => 'JEFE DE ENSEÑANZA',
                 'descripcion' => '',
@@ -20815,7 +20815,7 @@ class AdmCargosTableSeeder extends Seeder
             99 => 
             array (
                 'id' => 1600,
-                'users_id' => 2452,
+                'user_id' => 2452,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20828,7 +20828,7 @@ class AdmCargosTableSeeder extends Seeder
             100 => 
             array (
                 'id' => 1601,
-                'users_id' => 2454,
+                'user_id' => 2454,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20841,7 +20841,7 @@ class AdmCargosTableSeeder extends Seeder
             101 => 
             array (
                 'id' => 1602,
-                'users_id' => 2455,
+                'user_id' => 2455,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -20854,7 +20854,7 @@ class AdmCargosTableSeeder extends Seeder
             102 => 
             array (
                 'id' => 1603,
-                'users_id' => 2457,
+                'user_id' => 2457,
                 'estado' => 1,
                 'nom_cargo' => 'CONDUCTOR',
                 'descripcion' => '',
@@ -20867,7 +20867,7 @@ class AdmCargosTableSeeder extends Seeder
             103 => 
             array (
                 'id' => 1604,
-                'users_id' => 2459,
+                'user_id' => 2459,
                 'estado' => 1,
                 'nom_cargo' => 'CONDUCTOR',
                 'descripcion' => '',
@@ -20880,7 +20880,7 @@ class AdmCargosTableSeeder extends Seeder
             104 => 
             array (
                 'id' => 1605,
-                'users_id' => 2460,
+                'user_id' => 2460,
                 'estado' => 1,
                 'nom_cargo' => 'APOYO TECNICO',
                 'descripcion' => '',
@@ -20893,7 +20893,7 @@ class AdmCargosTableSeeder extends Seeder
             105 => 
             array (
                 'id' => 1606,
-                'users_id' => 2461,
+                'user_id' => 2461,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20906,7 +20906,7 @@ class AdmCargosTableSeeder extends Seeder
             106 => 
             array (
                 'id' => 1607,
-                'users_id' => 2462,
+                'user_id' => 2462,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20919,7 +20919,7 @@ class AdmCargosTableSeeder extends Seeder
             107 => 
             array (
                 'id' => 1608,
-                'users_id' => 2464,
+                'user_id' => 2464,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -20932,7 +20932,7 @@ class AdmCargosTableSeeder extends Seeder
             108 => 
             array (
                 'id' => 1609,
-                'users_id' => 2465,
+                'user_id' => 2465,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -20945,7 +20945,7 @@ class AdmCargosTableSeeder extends Seeder
             109 => 
             array (
                 'id' => 1610,
-                'users_id' => 2466,
+                'user_id' => 2466,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20958,7 +20958,7 @@ class AdmCargosTableSeeder extends Seeder
             110 => 
             array (
                 'id' => 1611,
-                'users_id' => 2468,
+                'user_id' => 2468,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20971,7 +20971,7 @@ class AdmCargosTableSeeder extends Seeder
             111 => 
             array (
                 'id' => 1612,
-                'users_id' => 2469,
+                'user_id' => 2469,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -20984,7 +20984,7 @@ class AdmCargosTableSeeder extends Seeder
             112 => 
             array (
                 'id' => 1613,
-                'users_id' => 2470,
+                'user_id' => 2470,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -20997,7 +20997,7 @@ class AdmCargosTableSeeder extends Seeder
             113 => 
             array (
                 'id' => 1614,
-                'users_id' => 2471,
+                'user_id' => 2471,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -21010,7 +21010,7 @@ class AdmCargosTableSeeder extends Seeder
             114 => 
             array (
                 'id' => 1615,
-                'users_id' => 2472,
+                'user_id' => 2472,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -21023,7 +21023,7 @@ class AdmCargosTableSeeder extends Seeder
             115 => 
             array (
                 'id' => 1616,
-                'users_id' => 2473,
+                'user_id' => 2473,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -21036,7 +21036,7 @@ class AdmCargosTableSeeder extends Seeder
             116 => 
             array (
                 'id' => 1617,
-                'users_id' => 2474,
+                'user_id' => 2474,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -21049,7 +21049,7 @@ class AdmCargosTableSeeder extends Seeder
             117 => 
             array (
                 'id' => 1618,
-                'users_id' => 2475,
+                'user_id' => 2475,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -21062,7 +21062,7 @@ class AdmCargosTableSeeder extends Seeder
             118 => 
             array (
                 'id' => 1619,
-                'users_id' => 2476,
+                'user_id' => 2476,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -21075,7 +21075,7 @@ class AdmCargosTableSeeder extends Seeder
             119 => 
             array (
                 'id' => 1620,
-                'users_id' => 2478,
+                'user_id' => 2478,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -21088,7 +21088,7 @@ class AdmCargosTableSeeder extends Seeder
             120 => 
             array (
                 'id' => 1621,
-                'users_id' => 2479,
+                'user_id' => 2479,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -21101,7 +21101,7 @@ class AdmCargosTableSeeder extends Seeder
             121 => 
             array (
                 'id' => 1622,
-                'users_id' => 2480,
+                'user_id' => 2480,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21114,7 +21114,7 @@ class AdmCargosTableSeeder extends Seeder
             122 => 
             array (
                 'id' => 1623,
-                'users_id' => 2481,
+                'user_id' => 2481,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21127,7 +21127,7 @@ class AdmCargosTableSeeder extends Seeder
             123 => 
             array (
                 'id' => 1624,
-                'users_id' => 2482,
+                'user_id' => 2482,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21140,7 +21140,7 @@ class AdmCargosTableSeeder extends Seeder
             124 => 
             array (
                 'id' => 1625,
-                'users_id' => 2483,
+                'user_id' => 2483,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21153,7 +21153,7 @@ class AdmCargosTableSeeder extends Seeder
             125 => 
             array (
                 'id' => 1626,
-                'users_id' => 2484,
+                'user_id' => 2484,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21166,7 +21166,7 @@ class AdmCargosTableSeeder extends Seeder
             126 => 
             array (
                 'id' => 1627,
-                'users_id' => 2486,
+                'user_id' => 2486,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21179,7 +21179,7 @@ class AdmCargosTableSeeder extends Seeder
             127 => 
             array (
                 'id' => 1628,
-                'users_id' => 2488,
+                'user_id' => 2488,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21192,7 +21192,7 @@ class AdmCargosTableSeeder extends Seeder
             128 => 
             array (
                 'id' => 1629,
-                'users_id' => 2489,
+                'user_id' => 2489,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21205,7 +21205,7 @@ class AdmCargosTableSeeder extends Seeder
             129 => 
             array (
                 'id' => 1630,
-                'users_id' => 2490,
+                'user_id' => 2490,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21218,7 +21218,7 @@ class AdmCargosTableSeeder extends Seeder
             130 => 
             array (
                 'id' => 1631,
-                'users_id' => 2491,
+                'user_id' => 2491,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21231,7 +21231,7 @@ class AdmCargosTableSeeder extends Seeder
             131 => 
             array (
                 'id' => 1632,
-                'users_id' => 2492,
+                'user_id' => 2492,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21244,7 +21244,7 @@ class AdmCargosTableSeeder extends Seeder
             132 => 
             array (
                 'id' => 1633,
-                'users_id' => 2494,
+                'user_id' => 2494,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21257,7 +21257,7 @@ class AdmCargosTableSeeder extends Seeder
             133 => 
             array (
                 'id' => 1634,
-                'users_id' => 2497,
+                'user_id' => 2497,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21270,7 +21270,7 @@ class AdmCargosTableSeeder extends Seeder
             134 => 
             array (
                 'id' => 1635,
-                'users_id' => 2498,
+                'user_id' => 2498,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21283,7 +21283,7 @@ class AdmCargosTableSeeder extends Seeder
             135 => 
             array (
                 'id' => 1636,
-                'users_id' => 2499,
+                'user_id' => 2499,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21296,7 +21296,7 @@ class AdmCargosTableSeeder extends Seeder
             136 => 
             array (
                 'id' => 1637,
-                'users_id' => 2500,
+                'user_id' => 2500,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21309,7 +21309,7 @@ class AdmCargosTableSeeder extends Seeder
             137 => 
             array (
                 'id' => 1638,
-                'users_id' => 2502,
+                'user_id' => 2502,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21322,7 +21322,7 @@ class AdmCargosTableSeeder extends Seeder
             138 => 
             array (
                 'id' => 1639,
-                'users_id' => 2503,
+                'user_id' => 2503,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21335,7 +21335,7 @@ class AdmCargosTableSeeder extends Seeder
             139 => 
             array (
                 'id' => 1640,
-                'users_id' => 2505,
+                'user_id' => 2505,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21348,7 +21348,7 @@ class AdmCargosTableSeeder extends Seeder
             140 => 
             array (
                 'id' => 1641,
-                'users_id' => 2507,
+                'user_id' => 2507,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21361,7 +21361,7 @@ class AdmCargosTableSeeder extends Seeder
             141 => 
             array (
                 'id' => 1642,
-                'users_id' => 2508,
+                'user_id' => 2508,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21374,7 +21374,7 @@ class AdmCargosTableSeeder extends Seeder
             142 => 
             array (
                 'id' => 1643,
-                'users_id' => 2509,
+                'user_id' => 2509,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21387,7 +21387,7 @@ class AdmCargosTableSeeder extends Seeder
             143 => 
             array (
                 'id' => 1644,
-                'users_id' => 2510,
+                'user_id' => 2510,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21400,7 +21400,7 @@ class AdmCargosTableSeeder extends Seeder
             144 => 
             array (
                 'id' => 1645,
-                'users_id' => 2511,
+                'user_id' => 2511,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21413,7 +21413,7 @@ class AdmCargosTableSeeder extends Seeder
             145 => 
             array (
                 'id' => 1646,
-                'users_id' => 2512,
+                'user_id' => 2512,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21426,7 +21426,7 @@ class AdmCargosTableSeeder extends Seeder
             146 => 
             array (
                 'id' => 1647,
-                'users_id' => 2513,
+                'user_id' => 2513,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21439,7 +21439,7 @@ class AdmCargosTableSeeder extends Seeder
             147 => 
             array (
                 'id' => 1648,
-                'users_id' => 2516,
+                'user_id' => 2516,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21452,7 +21452,7 @@ class AdmCargosTableSeeder extends Seeder
             148 => 
             array (
                 'id' => 1649,
-                'users_id' => 2518,
+                'user_id' => 2518,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21465,7 +21465,7 @@ class AdmCargosTableSeeder extends Seeder
             149 => 
             array (
                 'id' => 1650,
-                'users_id' => 2519,
+                'user_id' => 2519,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21478,7 +21478,7 @@ class AdmCargosTableSeeder extends Seeder
             150 => 
             array (
                 'id' => 1651,
-                'users_id' => 2520,
+                'user_id' => 2520,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21491,7 +21491,7 @@ class AdmCargosTableSeeder extends Seeder
             151 => 
             array (
                 'id' => 1652,
-                'users_id' => 2523,
+                'user_id' => 2523,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21504,7 +21504,7 @@ class AdmCargosTableSeeder extends Seeder
             152 => 
             array (
                 'id' => 1653,
-                'users_id' => 2526,
+                'user_id' => 2526,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21517,7 +21517,7 @@ class AdmCargosTableSeeder extends Seeder
             153 => 
             array (
                 'id' => 1654,
-                'users_id' => 2528,
+                'user_id' => 2528,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21530,7 +21530,7 @@ class AdmCargosTableSeeder extends Seeder
             154 => 
             array (
                 'id' => 1655,
-                'users_id' => 2530,
+                'user_id' => 2530,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21543,7 +21543,7 @@ class AdmCargosTableSeeder extends Seeder
             155 => 
             array (
                 'id' => 1656,
-                'users_id' => 2531,
+                'user_id' => 2531,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21556,7 +21556,7 @@ class AdmCargosTableSeeder extends Seeder
             156 => 
             array (
                 'id' => 1657,
-                'users_id' => 2532,
+                'user_id' => 2532,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21569,7 +21569,7 @@ class AdmCargosTableSeeder extends Seeder
             157 => 
             array (
                 'id' => 1658,
-                'users_id' => 2535,
+                'user_id' => 2535,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21582,7 +21582,7 @@ class AdmCargosTableSeeder extends Seeder
             158 => 
             array (
                 'id' => 1659,
-                'users_id' => 2536,
+                'user_id' => 2536,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -21595,7 +21595,7 @@ class AdmCargosTableSeeder extends Seeder
             159 => 
             array (
                 'id' => 1660,
-                'users_id' => 2537,
+                'user_id' => 2537,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21608,7 +21608,7 @@ class AdmCargosTableSeeder extends Seeder
             160 => 
             array (
                 'id' => 1661,
-                'users_id' => 2539,
+                'user_id' => 2539,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21621,7 +21621,7 @@ class AdmCargosTableSeeder extends Seeder
             161 => 
             array (
                 'id' => 1662,
-                'users_id' => 2541,
+                'user_id' => 2541,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -21634,7 +21634,7 @@ class AdmCargosTableSeeder extends Seeder
             162 => 
             array (
                 'id' => 1663,
-                'users_id' => 2542,
+                'user_id' => 2542,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21647,7 +21647,7 @@ class AdmCargosTableSeeder extends Seeder
             163 => 
             array (
                 'id' => 1664,
-                'users_id' => 2543,
+                'user_id' => 2543,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21660,7 +21660,7 @@ class AdmCargosTableSeeder extends Seeder
             164 => 
             array (
                 'id' => 1665,
-                'users_id' => 2544,
+                'user_id' => 2544,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21673,7 +21673,7 @@ class AdmCargosTableSeeder extends Seeder
             165 => 
             array (
                 'id' => 1666,
-                'users_id' => 2546,
+                'user_id' => 2546,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21686,7 +21686,7 @@ class AdmCargosTableSeeder extends Seeder
             166 => 
             array (
                 'id' => 1667,
-                'users_id' => 2547,
+                'user_id' => 2547,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21699,7 +21699,7 @@ class AdmCargosTableSeeder extends Seeder
             167 => 
             array (
                 'id' => 1668,
-                'users_id' => 2548,
+                'user_id' => 2548,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21712,7 +21712,7 @@ class AdmCargosTableSeeder extends Seeder
             168 => 
             array (
                 'id' => 1669,
-                'users_id' => 2549,
+                'user_id' => 2549,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21725,7 +21725,7 @@ class AdmCargosTableSeeder extends Seeder
             169 => 
             array (
                 'id' => 1670,
-                'users_id' => 2550,
+                'user_id' => 2550,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21738,7 +21738,7 @@ class AdmCargosTableSeeder extends Seeder
             170 => 
             array (
                 'id' => 1671,
-                'users_id' => 2551,
+                'user_id' => 2551,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21751,7 +21751,7 @@ class AdmCargosTableSeeder extends Seeder
             171 => 
             array (
                 'id' => 1672,
-                'users_id' => 2552,
+                'user_id' => 2552,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21764,7 +21764,7 @@ class AdmCargosTableSeeder extends Seeder
             172 => 
             array (
                 'id' => 1673,
-                'users_id' => 2553,
+                'user_id' => 2553,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21777,7 +21777,7 @@ class AdmCargosTableSeeder extends Seeder
             173 => 
             array (
                 'id' => 1674,
-                'users_id' => 2554,
+                'user_id' => 2554,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21790,7 +21790,7 @@ class AdmCargosTableSeeder extends Seeder
             174 => 
             array (
                 'id' => 1675,
-                'users_id' => 2555,
+                'user_id' => 2555,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21803,7 +21803,7 @@ class AdmCargosTableSeeder extends Seeder
             175 => 
             array (
                 'id' => 1676,
-                'users_id' => 2557,
+                'user_id' => 2557,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21816,7 +21816,7 @@ class AdmCargosTableSeeder extends Seeder
             176 => 
             array (
                 'id' => 1677,
-                'users_id' => 2558,
+                'user_id' => 2558,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21829,7 +21829,7 @@ class AdmCargosTableSeeder extends Seeder
             177 => 
             array (
                 'id' => 1678,
-                'users_id' => 2560,
+                'user_id' => 2560,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21842,7 +21842,7 @@ class AdmCargosTableSeeder extends Seeder
             178 => 
             array (
                 'id' => 1679,
-                'users_id' => 2561,
+                'user_id' => 2561,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21855,7 +21855,7 @@ class AdmCargosTableSeeder extends Seeder
             179 => 
             array (
                 'id' => 1680,
-                'users_id' => 2562,
+                'user_id' => 2562,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21868,7 +21868,7 @@ class AdmCargosTableSeeder extends Seeder
             180 => 
             array (
                 'id' => 1681,
-                'users_id' => 2563,
+                'user_id' => 2563,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21881,7 +21881,7 @@ class AdmCargosTableSeeder extends Seeder
             181 => 
             array (
                 'id' => 1682,
-                'users_id' => 2564,
+                'user_id' => 2564,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21894,7 +21894,7 @@ class AdmCargosTableSeeder extends Seeder
             182 => 
             array (
                 'id' => 1683,
-                'users_id' => 2565,
+                'user_id' => 2565,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21907,7 +21907,7 @@ class AdmCargosTableSeeder extends Seeder
             183 => 
             array (
                 'id' => 1684,
-                'users_id' => 2567,
+                'user_id' => 2567,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21920,7 +21920,7 @@ class AdmCargosTableSeeder extends Seeder
             184 => 
             array (
                 'id' => 1685,
-                'users_id' => 2568,
+                'user_id' => 2568,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21933,7 +21933,7 @@ class AdmCargosTableSeeder extends Seeder
             185 => 
             array (
                 'id' => 1686,
-                'users_id' => 2569,
+                'user_id' => 2569,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21946,7 +21946,7 @@ class AdmCargosTableSeeder extends Seeder
             186 => 
             array (
                 'id' => 1687,
-                'users_id' => 2570,
+                'user_id' => 2570,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21959,7 +21959,7 @@ class AdmCargosTableSeeder extends Seeder
             187 => 
             array (
                 'id' => 1688,
-                'users_id' => 2571,
+                'user_id' => 2571,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21972,7 +21972,7 @@ class AdmCargosTableSeeder extends Seeder
             188 => 
             array (
                 'id' => 1689,
-                'users_id' => 2572,
+                'user_id' => 2572,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21985,7 +21985,7 @@ class AdmCargosTableSeeder extends Seeder
             189 => 
             array (
                 'id' => 1690,
-                'users_id' => 2573,
+                'user_id' => 2573,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -21998,7 +21998,7 @@ class AdmCargosTableSeeder extends Seeder
             190 => 
             array (
                 'id' => 1691,
-                'users_id' => 2574,
+                'user_id' => 2574,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22011,7 +22011,7 @@ class AdmCargosTableSeeder extends Seeder
             191 => 
             array (
                 'id' => 1692,
-                'users_id' => 2576,
+                'user_id' => 2576,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22024,7 +22024,7 @@ class AdmCargosTableSeeder extends Seeder
             192 => 
             array (
                 'id' => 1693,
-                'users_id' => 2577,
+                'user_id' => 2577,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22037,7 +22037,7 @@ class AdmCargosTableSeeder extends Seeder
             193 => 
             array (
                 'id' => 1694,
-                'users_id' => 2579,
+                'user_id' => 2579,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22050,7 +22050,7 @@ class AdmCargosTableSeeder extends Seeder
             194 => 
             array (
                 'id' => 1695,
-                'users_id' => 2580,
+                'user_id' => 2580,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22063,7 +22063,7 @@ class AdmCargosTableSeeder extends Seeder
             195 => 
             array (
                 'id' => 1696,
-                'users_id' => 2581,
+                'user_id' => 2581,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22076,7 +22076,7 @@ class AdmCargosTableSeeder extends Seeder
             196 => 
             array (
                 'id' => 1697,
-                'users_id' => 2583,
+                'user_id' => 2583,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22089,7 +22089,7 @@ class AdmCargosTableSeeder extends Seeder
             197 => 
             array (
                 'id' => 1698,
-                'users_id' => 2584,
+                'user_id' => 2584,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22102,7 +22102,7 @@ class AdmCargosTableSeeder extends Seeder
             198 => 
             array (
                 'id' => 1699,
-                'users_id' => 2585,
+                'user_id' => 2585,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22115,7 +22115,7 @@ class AdmCargosTableSeeder extends Seeder
             199 => 
             array (
                 'id' => 1700,
-                'users_id' => 2587,
+                'user_id' => 2587,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22128,7 +22128,7 @@ class AdmCargosTableSeeder extends Seeder
             200 => 
             array (
                 'id' => 1701,
-                'users_id' => 2591,
+                'user_id' => 2591,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22141,7 +22141,7 @@ class AdmCargosTableSeeder extends Seeder
             201 => 
             array (
                 'id' => 1702,
-                'users_id' => 2592,
+                'user_id' => 2592,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22154,7 +22154,7 @@ class AdmCargosTableSeeder extends Seeder
             202 => 
             array (
                 'id' => 1703,
-                'users_id' => 2593,
+                'user_id' => 2593,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22167,7 +22167,7 @@ class AdmCargosTableSeeder extends Seeder
             203 => 
             array (
                 'id' => 1704,
-                'users_id' => 2594,
+                'user_id' => 2594,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22180,7 +22180,7 @@ class AdmCargosTableSeeder extends Seeder
             204 => 
             array (
                 'id' => 1705,
-                'users_id' => 2595,
+                'user_id' => 2595,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22193,7 +22193,7 @@ class AdmCargosTableSeeder extends Seeder
             205 => 
             array (
                 'id' => 1706,
-                'users_id' => 2596,
+                'user_id' => 2596,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22206,7 +22206,7 @@ class AdmCargosTableSeeder extends Seeder
             206 => 
             array (
                 'id' => 1707,
-                'users_id' => 2599,
+                'user_id' => 2599,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22219,7 +22219,7 @@ class AdmCargosTableSeeder extends Seeder
             207 => 
             array (
                 'id' => 1708,
-                'users_id' => 2600,
+                'user_id' => 2600,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22232,7 +22232,7 @@ class AdmCargosTableSeeder extends Seeder
             208 => 
             array (
                 'id' => 1709,
-                'users_id' => 2601,
+                'user_id' => 2601,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22245,7 +22245,7 @@ class AdmCargosTableSeeder extends Seeder
             209 => 
             array (
                 'id' => 1710,
-                'users_id' => 2602,
+                'user_id' => 2602,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22258,7 +22258,7 @@ class AdmCargosTableSeeder extends Seeder
             210 => 
             array (
                 'id' => 1711,
-                'users_id' => 2604,
+                'user_id' => 2604,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22271,7 +22271,7 @@ class AdmCargosTableSeeder extends Seeder
             211 => 
             array (
                 'id' => 1712,
-                'users_id' => 2605,
+                'user_id' => 2605,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22284,7 +22284,7 @@ class AdmCargosTableSeeder extends Seeder
             212 => 
             array (
                 'id' => 1713,
-                'users_id' => 2606,
+                'user_id' => 2606,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22297,7 +22297,7 @@ class AdmCargosTableSeeder extends Seeder
             213 => 
             array (
                 'id' => 1714,
-                'users_id' => 2607,
+                'user_id' => 2607,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22310,7 +22310,7 @@ class AdmCargosTableSeeder extends Seeder
             214 => 
             array (
                 'id' => 1715,
-                'users_id' => 2609,
+                'user_id' => 2609,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22323,7 +22323,7 @@ class AdmCargosTableSeeder extends Seeder
             215 => 
             array (
                 'id' => 1716,
-                'users_id' => 2610,
+                'user_id' => 2610,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22336,7 +22336,7 @@ class AdmCargosTableSeeder extends Seeder
             216 => 
             array (
                 'id' => 1717,
-                'users_id' => 2611,
+                'user_id' => 2611,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22349,7 +22349,7 @@ class AdmCargosTableSeeder extends Seeder
             217 => 
             array (
                 'id' => 1718,
-                'users_id' => 2612,
+                'user_id' => 2612,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22362,7 +22362,7 @@ class AdmCargosTableSeeder extends Seeder
             218 => 
             array (
                 'id' => 1719,
-                'users_id' => 2613,
+                'user_id' => 2613,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22375,7 +22375,7 @@ class AdmCargosTableSeeder extends Seeder
             219 => 
             array (
                 'id' => 1720,
-                'users_id' => 2614,
+                'user_id' => 2614,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22388,7 +22388,7 @@ class AdmCargosTableSeeder extends Seeder
             220 => 
             array (
                 'id' => 1721,
-                'users_id' => 2615,
+                'user_id' => 2615,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22401,7 +22401,7 @@ class AdmCargosTableSeeder extends Seeder
             221 => 
             array (
                 'id' => 1722,
-                'users_id' => 2616,
+                'user_id' => 2616,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22414,7 +22414,7 @@ class AdmCargosTableSeeder extends Seeder
             222 => 
             array (
                 'id' => 1723,
-                'users_id' => 2617,
+                'user_id' => 2617,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22427,7 +22427,7 @@ class AdmCargosTableSeeder extends Seeder
             223 => 
             array (
                 'id' => 1724,
-                'users_id' => 2618,
+                'user_id' => 2618,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22440,7 +22440,7 @@ class AdmCargosTableSeeder extends Seeder
             224 => 
             array (
                 'id' => 1725,
-                'users_id' => 2619,
+                'user_id' => 2619,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22453,7 +22453,7 @@ class AdmCargosTableSeeder extends Seeder
             225 => 
             array (
                 'id' => 1726,
-                'users_id' => 2621,
+                'user_id' => 2621,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22466,7 +22466,7 @@ class AdmCargosTableSeeder extends Seeder
             226 => 
             array (
                 'id' => 1727,
-                'users_id' => 2622,
+                'user_id' => 2622,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22479,7 +22479,7 @@ class AdmCargosTableSeeder extends Seeder
             227 => 
             array (
                 'id' => 1728,
-                'users_id' => 2623,
+                'user_id' => 2623,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22492,7 +22492,7 @@ class AdmCargosTableSeeder extends Seeder
             228 => 
             array (
                 'id' => 1729,
-                'users_id' => 2624,
+                'user_id' => 2624,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22505,7 +22505,7 @@ class AdmCargosTableSeeder extends Seeder
             229 => 
             array (
                 'id' => 1730,
-                'users_id' => 2625,
+                'user_id' => 2625,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22518,7 +22518,7 @@ class AdmCargosTableSeeder extends Seeder
             230 => 
             array (
                 'id' => 1731,
-                'users_id' => 2626,
+                'user_id' => 2626,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22531,7 +22531,7 @@ class AdmCargosTableSeeder extends Seeder
             231 => 
             array (
                 'id' => 1732,
-                'users_id' => 2627,
+                'user_id' => 2627,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22544,7 +22544,7 @@ class AdmCargosTableSeeder extends Seeder
             232 => 
             array (
                 'id' => 1733,
-                'users_id' => 2628,
+                'user_id' => 2628,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22557,7 +22557,7 @@ class AdmCargosTableSeeder extends Seeder
             233 => 
             array (
                 'id' => 1734,
-                'users_id' => 2629,
+                'user_id' => 2629,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22570,7 +22570,7 @@ class AdmCargosTableSeeder extends Seeder
             234 => 
             array (
                 'id' => 1735,
-                'users_id' => 2630,
+                'user_id' => 2630,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22583,7 +22583,7 @@ class AdmCargosTableSeeder extends Seeder
             235 => 
             array (
                 'id' => 1736,
-                'users_id' => 2631,
+                'user_id' => 2631,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22596,7 +22596,7 @@ class AdmCargosTableSeeder extends Seeder
             236 => 
             array (
                 'id' => 1737,
-                'users_id' => 2634,
+                'user_id' => 2634,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22609,7 +22609,7 @@ class AdmCargosTableSeeder extends Seeder
             237 => 
             array (
                 'id' => 1738,
-                'users_id' => 2635,
+                'user_id' => 2635,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22622,7 +22622,7 @@ class AdmCargosTableSeeder extends Seeder
             238 => 
             array (
                 'id' => 1739,
-                'users_id' => 2637,
+                'user_id' => 2637,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22635,7 +22635,7 @@ class AdmCargosTableSeeder extends Seeder
             239 => 
             array (
                 'id' => 1740,
-                'users_id' => 2639,
+                'user_id' => 2639,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22648,7 +22648,7 @@ class AdmCargosTableSeeder extends Seeder
             240 => 
             array (
                 'id' => 1741,
-                'users_id' => 2640,
+                'user_id' => 2640,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22661,7 +22661,7 @@ class AdmCargosTableSeeder extends Seeder
             241 => 
             array (
                 'id' => 1742,
-                'users_id' => 2642,
+                'user_id' => 2642,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22674,7 +22674,7 @@ class AdmCargosTableSeeder extends Seeder
             242 => 
             array (
                 'id' => 1743,
-                'users_id' => 2644,
+                'user_id' => 2644,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22687,7 +22687,7 @@ class AdmCargosTableSeeder extends Seeder
             243 => 
             array (
                 'id' => 1744,
-                'users_id' => 2645,
+                'user_id' => 2645,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22700,7 +22700,7 @@ class AdmCargosTableSeeder extends Seeder
             244 => 
             array (
                 'id' => 1745,
-                'users_id' => 2646,
+                'user_id' => 2646,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22713,7 +22713,7 @@ class AdmCargosTableSeeder extends Seeder
             245 => 
             array (
                 'id' => 1746,
-                'users_id' => 2647,
+                'user_id' => 2647,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22726,7 +22726,7 @@ class AdmCargosTableSeeder extends Seeder
             246 => 
             array (
                 'id' => 1747,
-                'users_id' => 2648,
+                'user_id' => 2648,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22739,7 +22739,7 @@ class AdmCargosTableSeeder extends Seeder
             247 => 
             array (
                 'id' => 1748,
-                'users_id' => 2649,
+                'user_id' => 2649,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22752,7 +22752,7 @@ class AdmCargosTableSeeder extends Seeder
             248 => 
             array (
                 'id' => 1749,
-                'users_id' => 2650,
+                'user_id' => 2650,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22765,7 +22765,7 @@ class AdmCargosTableSeeder extends Seeder
             249 => 
             array (
                 'id' => 1750,
-                'users_id' => 2651,
+                'user_id' => 2651,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22778,7 +22778,7 @@ class AdmCargosTableSeeder extends Seeder
             250 => 
             array (
                 'id' => 1751,
-                'users_id' => 2652,
+                'user_id' => 2652,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22791,7 +22791,7 @@ class AdmCargosTableSeeder extends Seeder
             251 => 
             array (
                 'id' => 1752,
-                'users_id' => 2653,
+                'user_id' => 2653,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22804,7 +22804,7 @@ class AdmCargosTableSeeder extends Seeder
             252 => 
             array (
                 'id' => 1753,
-                'users_id' => 2655,
+                'user_id' => 2655,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22817,7 +22817,7 @@ class AdmCargosTableSeeder extends Seeder
             253 => 
             array (
                 'id' => 1754,
-                'users_id' => 2657,
+                'user_id' => 2657,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22830,7 +22830,7 @@ class AdmCargosTableSeeder extends Seeder
             254 => 
             array (
                 'id' => 1755,
-                'users_id' => 2658,
+                'user_id' => 2658,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22843,7 +22843,7 @@ class AdmCargosTableSeeder extends Seeder
             255 => 
             array (
                 'id' => 1756,
-                'users_id' => 2659,
+                'user_id' => 2659,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22856,7 +22856,7 @@ class AdmCargosTableSeeder extends Seeder
             256 => 
             array (
                 'id' => 1757,
-                'users_id' => 2660,
+                'user_id' => 2660,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22869,7 +22869,7 @@ class AdmCargosTableSeeder extends Seeder
             257 => 
             array (
                 'id' => 1758,
-                'users_id' => 2665,
+                'user_id' => 2665,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22882,7 +22882,7 @@ class AdmCargosTableSeeder extends Seeder
             258 => 
             array (
                 'id' => 1759,
-                'users_id' => 2667,
+                'user_id' => 2667,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22895,7 +22895,7 @@ class AdmCargosTableSeeder extends Seeder
             259 => 
             array (
                 'id' => 1760,
-                'users_id' => 2668,
+                'user_id' => 2668,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22908,7 +22908,7 @@ class AdmCargosTableSeeder extends Seeder
             260 => 
             array (
                 'id' => 1761,
-                'users_id' => 2669,
+                'user_id' => 2669,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22921,7 +22921,7 @@ class AdmCargosTableSeeder extends Seeder
             261 => 
             array (
                 'id' => 1762,
-                'users_id' => 2670,
+                'user_id' => 2670,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22934,7 +22934,7 @@ class AdmCargosTableSeeder extends Seeder
             262 => 
             array (
                 'id' => 1763,
-                'users_id' => 2671,
+                'user_id' => 2671,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22947,7 +22947,7 @@ class AdmCargosTableSeeder extends Seeder
             263 => 
             array (
                 'id' => 1764,
-                'users_id' => 2673,
+                'user_id' => 2673,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22960,7 +22960,7 @@ class AdmCargosTableSeeder extends Seeder
             264 => 
             array (
                 'id' => 1765,
-                'users_id' => 2674,
+                'user_id' => 2674,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22973,7 +22973,7 @@ class AdmCargosTableSeeder extends Seeder
             265 => 
             array (
                 'id' => 1766,
-                'users_id' => 2675,
+                'user_id' => 2675,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22986,7 +22986,7 @@ class AdmCargosTableSeeder extends Seeder
             266 => 
             array (
                 'id' => 1767,
-                'users_id' => 2677,
+                'user_id' => 2677,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -22999,7 +22999,7 @@ class AdmCargosTableSeeder extends Seeder
             267 => 
             array (
                 'id' => 1768,
-                'users_id' => 2678,
+                'user_id' => 2678,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23012,7 +23012,7 @@ class AdmCargosTableSeeder extends Seeder
             268 => 
             array (
                 'id' => 1769,
-                'users_id' => 2679,
+                'user_id' => 2679,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23025,7 +23025,7 @@ class AdmCargosTableSeeder extends Seeder
             269 => 
             array (
                 'id' => 1770,
-                'users_id' => 2680,
+                'user_id' => 2680,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23038,7 +23038,7 @@ class AdmCargosTableSeeder extends Seeder
             270 => 
             array (
                 'id' => 1771,
-                'users_id' => 2681,
+                'user_id' => 2681,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23051,7 +23051,7 @@ class AdmCargosTableSeeder extends Seeder
             271 => 
             array (
                 'id' => 1772,
-                'users_id' => 2683,
+                'user_id' => 2683,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23064,7 +23064,7 @@ class AdmCargosTableSeeder extends Seeder
             272 => 
             array (
                 'id' => 1773,
-                'users_id' => 2684,
+                'user_id' => 2684,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23077,7 +23077,7 @@ class AdmCargosTableSeeder extends Seeder
             273 => 
             array (
                 'id' => 1774,
-                'users_id' => 2685,
+                'user_id' => 2685,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23090,7 +23090,7 @@ class AdmCargosTableSeeder extends Seeder
             274 => 
             array (
                 'id' => 1775,
-                'users_id' => 2687,
+                'user_id' => 2687,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23103,7 +23103,7 @@ class AdmCargosTableSeeder extends Seeder
             275 => 
             array (
                 'id' => 1776,
-                'users_id' => 2688,
+                'user_id' => 2688,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23116,7 +23116,7 @@ class AdmCargosTableSeeder extends Seeder
             276 => 
             array (
                 'id' => 1777,
-                'users_id' => 2689,
+                'user_id' => 2689,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23129,7 +23129,7 @@ class AdmCargosTableSeeder extends Seeder
             277 => 
             array (
                 'id' => 1778,
-                'users_id' => 2690,
+                'user_id' => 2690,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23142,7 +23142,7 @@ class AdmCargosTableSeeder extends Seeder
             278 => 
             array (
                 'id' => 1779,
-                'users_id' => 2691,
+                'user_id' => 2691,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23155,7 +23155,7 @@ class AdmCargosTableSeeder extends Seeder
             279 => 
             array (
                 'id' => 1780,
-                'users_id' => 2692,
+                'user_id' => 2692,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23168,7 +23168,7 @@ class AdmCargosTableSeeder extends Seeder
             280 => 
             array (
                 'id' => 1781,
-                'users_id' => 2693,
+                'user_id' => 2693,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23181,7 +23181,7 @@ class AdmCargosTableSeeder extends Seeder
             281 => 
             array (
                 'id' => 1782,
-                'users_id' => 2694,
+                'user_id' => 2694,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23194,7 +23194,7 @@ class AdmCargosTableSeeder extends Seeder
             282 => 
             array (
                 'id' => 1783,
-                'users_id' => 2695,
+                'user_id' => 2695,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23207,7 +23207,7 @@ class AdmCargosTableSeeder extends Seeder
             283 => 
             array (
                 'id' => 1784,
-                'users_id' => 2697,
+                'user_id' => 2697,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23220,7 +23220,7 @@ class AdmCargosTableSeeder extends Seeder
             284 => 
             array (
                 'id' => 1785,
-                'users_id' => 2698,
+                'user_id' => 2698,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23233,7 +23233,7 @@ class AdmCargosTableSeeder extends Seeder
             285 => 
             array (
                 'id' => 1786,
-                'users_id' => 2699,
+                'user_id' => 2699,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23246,7 +23246,7 @@ class AdmCargosTableSeeder extends Seeder
             286 => 
             array (
                 'id' => 1787,
-                'users_id' => 2700,
+                'user_id' => 2700,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23259,7 +23259,7 @@ class AdmCargosTableSeeder extends Seeder
             287 => 
             array (
                 'id' => 1788,
-                'users_id' => 2701,
+                'user_id' => 2701,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23272,7 +23272,7 @@ class AdmCargosTableSeeder extends Seeder
             288 => 
             array (
                 'id' => 1789,
-                'users_id' => 2703,
+                'user_id' => 2703,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23285,7 +23285,7 @@ class AdmCargosTableSeeder extends Seeder
             289 => 
             array (
                 'id' => 1790,
-                'users_id' => 2704,
+                'user_id' => 2704,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -23298,7 +23298,7 @@ class AdmCargosTableSeeder extends Seeder
             290 => 
             array (
                 'id' => 1791,
-                'users_id' => 2705,
+                'user_id' => 2705,
                 'estado' => 1,
                 'nom_cargo' => 'APOYO TECNICO',
                 'descripcion' => '',
@@ -23311,7 +23311,7 @@ class AdmCargosTableSeeder extends Seeder
             291 => 
             array (
                 'id' => 1792,
-                'users_id' => 2707,
+                'user_id' => 2707,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -23324,7 +23324,7 @@ class AdmCargosTableSeeder extends Seeder
             292 => 
             array (
                 'id' => 1793,
-                'users_id' => 2708,
+                'user_id' => 2708,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -23337,7 +23337,7 @@ class AdmCargosTableSeeder extends Seeder
             293 => 
             array (
                 'id' => 1794,
-                'users_id' => 2709,
+                'user_id' => 2709,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -23350,7 +23350,7 @@ class AdmCargosTableSeeder extends Seeder
             294 => 
             array (
                 'id' => 1795,
-                'users_id' => 2710,
+                'user_id' => 2710,
                 'estado' => 1,
                 'nom_cargo' => 'JEFE DE ENSEÑANZA',
                 'descripcion' => '',
@@ -23363,7 +23363,7 @@ class AdmCargosTableSeeder extends Seeder
             295 => 
             array (
                 'id' => 1796,
-                'users_id' => 2711,
+                'user_id' => 2711,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -23376,7 +23376,7 @@ class AdmCargosTableSeeder extends Seeder
             296 => 
             array (
                 'id' => 1797,
-                'users_id' => 2712,
+                'user_id' => 2712,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -23389,7 +23389,7 @@ class AdmCargosTableSeeder extends Seeder
             297 => 
             array (
                 'id' => 1798,
-                'users_id' => 2713,
+                'user_id' => 2713,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -23402,7 +23402,7 @@ class AdmCargosTableSeeder extends Seeder
             298 => 
             array (
                 'id' => 1799,
-                'users_id' => 2715,
+                'user_id' => 2715,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23415,7 +23415,7 @@ class AdmCargosTableSeeder extends Seeder
             299 => 
             array (
                 'id' => 1800,
-                'users_id' => 2716,
+                'user_id' => 2716,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23428,7 +23428,7 @@ class AdmCargosTableSeeder extends Seeder
             300 => 
             array (
                 'id' => 1801,
-                'users_id' => 2717,
+                'user_id' => 2717,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23441,7 +23441,7 @@ class AdmCargosTableSeeder extends Seeder
             301 => 
             array (
                 'id' => 1802,
-                'users_id' => 2718,
+                'user_id' => 2718,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23454,7 +23454,7 @@ class AdmCargosTableSeeder extends Seeder
             302 => 
             array (
                 'id' => 1803,
-                'users_id' => 2719,
+                'user_id' => 2719,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23467,7 +23467,7 @@ class AdmCargosTableSeeder extends Seeder
             303 => 
             array (
                 'id' => 1804,
-                'users_id' => 2720,
+                'user_id' => 2720,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23480,7 +23480,7 @@ class AdmCargosTableSeeder extends Seeder
             304 => 
             array (
                 'id' => 1805,
-                'users_id' => 2721,
+                'user_id' => 2721,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -23493,7 +23493,7 @@ class AdmCargosTableSeeder extends Seeder
             305 => 
             array (
                 'id' => 1806,
-                'users_id' => 2722,
+                'user_id' => 2722,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23506,7 +23506,7 @@ class AdmCargosTableSeeder extends Seeder
             306 => 
             array (
                 'id' => 1807,
-                'users_id' => 2723,
+                'user_id' => 2723,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23519,7 +23519,7 @@ class AdmCargosTableSeeder extends Seeder
             307 => 
             array (
                 'id' => 1808,
-                'users_id' => 2725,
+                'user_id' => 2725,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23532,7 +23532,7 @@ class AdmCargosTableSeeder extends Seeder
             308 => 
             array (
                 'id' => 1809,
-                'users_id' => 2726,
+                'user_id' => 2726,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23545,7 +23545,7 @@ class AdmCargosTableSeeder extends Seeder
             309 => 
             array (
                 'id' => 1810,
-                'users_id' => 2727,
+                'user_id' => 2727,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23558,7 +23558,7 @@ class AdmCargosTableSeeder extends Seeder
             310 => 
             array (
                 'id' => 1811,
-                'users_id' => 2728,
+                'user_id' => 2728,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23571,7 +23571,7 @@ class AdmCargosTableSeeder extends Seeder
             311 => 
             array (
                 'id' => 1812,
-                'users_id' => 2729,
+                'user_id' => 2729,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23584,7 +23584,7 @@ class AdmCargosTableSeeder extends Seeder
             312 => 
             array (
                 'id' => 1813,
-                'users_id' => 2730,
+                'user_id' => 2730,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23597,7 +23597,7 @@ class AdmCargosTableSeeder extends Seeder
             313 => 
             array (
                 'id' => 1814,
-                'users_id' => 2731,
+                'user_id' => 2731,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23610,7 +23610,7 @@ class AdmCargosTableSeeder extends Seeder
             314 => 
             array (
                 'id' => 1815,
-                'users_id' => 2732,
+                'user_id' => 2732,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23623,7 +23623,7 @@ class AdmCargosTableSeeder extends Seeder
             315 => 
             array (
                 'id' => 1816,
-                'users_id' => 2733,
+                'user_id' => 2733,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23636,7 +23636,7 @@ class AdmCargosTableSeeder extends Seeder
             316 => 
             array (
                 'id' => 1817,
-                'users_id' => 2734,
+                'user_id' => 2734,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23649,7 +23649,7 @@ class AdmCargosTableSeeder extends Seeder
             317 => 
             array (
                 'id' => 1818,
-                'users_id' => 2735,
+                'user_id' => 2735,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23662,7 +23662,7 @@ class AdmCargosTableSeeder extends Seeder
             318 => 
             array (
                 'id' => 1819,
-                'users_id' => 2736,
+                'user_id' => 2736,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23675,7 +23675,7 @@ class AdmCargosTableSeeder extends Seeder
             319 => 
             array (
                 'id' => 1820,
-                'users_id' => 2737,
+                'user_id' => 2737,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -23688,7 +23688,7 @@ class AdmCargosTableSeeder extends Seeder
             320 => 
             array (
                 'id' => 1821,
-                'users_id' => 2738,
+                'user_id' => 2738,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23701,7 +23701,7 @@ class AdmCargosTableSeeder extends Seeder
             321 => 
             array (
                 'id' => 1822,
-                'users_id' => 2739,
+                'user_id' => 2739,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23714,7 +23714,7 @@ class AdmCargosTableSeeder extends Seeder
             322 => 
             array (
                 'id' => 1823,
-                'users_id' => 2744,
+                'user_id' => 2744,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23727,7 +23727,7 @@ class AdmCargosTableSeeder extends Seeder
             323 => 
             array (
                 'id' => 1824,
-                'users_id' => 2746,
+                'user_id' => 2746,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23740,7 +23740,7 @@ class AdmCargosTableSeeder extends Seeder
             324 => 
             array (
                 'id' => 1825,
-                'users_id' => 2752,
+                'user_id' => 2752,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23753,7 +23753,7 @@ class AdmCargosTableSeeder extends Seeder
             325 => 
             array (
                 'id' => 1826,
-                'users_id' => 2756,
+                'user_id' => 2756,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23766,7 +23766,7 @@ class AdmCargosTableSeeder extends Seeder
             326 => 
             array (
                 'id' => 1827,
-                'users_id' => 2758,
+                'user_id' => 2758,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23779,7 +23779,7 @@ class AdmCargosTableSeeder extends Seeder
             327 => 
             array (
                 'id' => 1828,
-                'users_id' => 2759,
+                'user_id' => 2759,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23792,7 +23792,7 @@ class AdmCargosTableSeeder extends Seeder
             328 => 
             array (
                 'id' => 1829,
-                'users_id' => 2760,
+                'user_id' => 2760,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23805,7 +23805,7 @@ class AdmCargosTableSeeder extends Seeder
             329 => 
             array (
                 'id' => 1830,
-                'users_id' => 2761,
+                'user_id' => 2761,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23818,7 +23818,7 @@ class AdmCargosTableSeeder extends Seeder
             330 => 
             array (
                 'id' => 1831,
-                'users_id' => 2762,
+                'user_id' => 2762,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23831,7 +23831,7 @@ class AdmCargosTableSeeder extends Seeder
             331 => 
             array (
                 'id' => 1832,
-                'users_id' => 2763,
+                'user_id' => 2763,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23844,7 +23844,7 @@ class AdmCargosTableSeeder extends Seeder
             332 => 
             array (
                 'id' => 1833,
-                'users_id' => 2764,
+                'user_id' => 2764,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23857,7 +23857,7 @@ class AdmCargosTableSeeder extends Seeder
             333 => 
             array (
                 'id' => 1834,
-                'users_id' => 2765,
+                'user_id' => 2765,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23870,7 +23870,7 @@ class AdmCargosTableSeeder extends Seeder
             334 => 
             array (
                 'id' => 1835,
-                'users_id' => 2766,
+                'user_id' => 2766,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23883,7 +23883,7 @@ class AdmCargosTableSeeder extends Seeder
             335 => 
             array (
                 'id' => 1836,
-                'users_id' => 2769,
+                'user_id' => 2769,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23896,7 +23896,7 @@ class AdmCargosTableSeeder extends Seeder
             336 => 
             array (
                 'id' => 1837,
-                'users_id' => 2774,
+                'user_id' => 2774,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23909,7 +23909,7 @@ class AdmCargosTableSeeder extends Seeder
             337 => 
             array (
                 'id' => 1838,
-                'users_id' => 2776,
+                'user_id' => 2776,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -23922,7 +23922,7 @@ class AdmCargosTableSeeder extends Seeder
             338 => 
             array (
                 'id' => 1839,
-                'users_id' => 2777,
+                'user_id' => 2777,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23935,7 +23935,7 @@ class AdmCargosTableSeeder extends Seeder
             339 => 
             array (
                 'id' => 1840,
-                'users_id' => 2778,
+                'user_id' => 2778,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -23948,7 +23948,7 @@ class AdmCargosTableSeeder extends Seeder
             340 => 
             array (
                 'id' => 1841,
-                'users_id' => 2780,
+                'user_id' => 2780,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23961,7 +23961,7 @@ class AdmCargosTableSeeder extends Seeder
             341 => 
             array (
                 'id' => 1842,
-                'users_id' => 2781,
+                'user_id' => 2781,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23974,7 +23974,7 @@ class AdmCargosTableSeeder extends Seeder
             342 => 
             array (
                 'id' => 1843,
-                'users_id' => 2782,
+                'user_id' => 2782,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -23987,7 +23987,7 @@ class AdmCargosTableSeeder extends Seeder
             343 => 
             array (
                 'id' => 1844,
-                'users_id' => 2783,
+                'user_id' => 2783,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -24000,7 +24000,7 @@ class AdmCargosTableSeeder extends Seeder
             344 => 
             array (
                 'id' => 1845,
-                'users_id' => 2784,
+                'user_id' => 2784,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24013,7 +24013,7 @@ class AdmCargosTableSeeder extends Seeder
             345 => 
             array (
                 'id' => 1846,
-                'users_id' => 2785,
+                'user_id' => 2785,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24026,7 +24026,7 @@ class AdmCargosTableSeeder extends Seeder
             346 => 
             array (
                 'id' => 1847,
-                'users_id' => 2786,
+                'user_id' => 2786,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24039,7 +24039,7 @@ class AdmCargosTableSeeder extends Seeder
             347 => 
             array (
                 'id' => 1848,
-                'users_id' => 2787,
+                'user_id' => 2787,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -24052,7 +24052,7 @@ class AdmCargosTableSeeder extends Seeder
             348 => 
             array (
                 'id' => 1849,
-                'users_id' => 2788,
+                'user_id' => 2788,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24065,7 +24065,7 @@ class AdmCargosTableSeeder extends Seeder
             349 => 
             array (
                 'id' => 1850,
-                'users_id' => 2789,
+                'user_id' => 2789,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24078,7 +24078,7 @@ class AdmCargosTableSeeder extends Seeder
             350 => 
             array (
                 'id' => 1851,
-                'users_id' => 2792,
+                'user_id' => 2792,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24091,7 +24091,7 @@ class AdmCargosTableSeeder extends Seeder
             351 => 
             array (
                 'id' => 1852,
-                'users_id' => 2795,
+                'user_id' => 2795,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24104,7 +24104,7 @@ class AdmCargosTableSeeder extends Seeder
             352 => 
             array (
                 'id' => 1853,
-                'users_id' => 2797,
+                'user_id' => 2797,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24117,7 +24117,7 @@ class AdmCargosTableSeeder extends Seeder
             353 => 
             array (
                 'id' => 1854,
-                'users_id' => 2798,
+                'user_id' => 2798,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24130,7 +24130,7 @@ class AdmCargosTableSeeder extends Seeder
             354 => 
             array (
                 'id' => 1855,
-                'users_id' => 2800,
+                'user_id' => 2800,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24143,7 +24143,7 @@ class AdmCargosTableSeeder extends Seeder
             355 => 
             array (
                 'id' => 1856,
-                'users_id' => 2801,
+                'user_id' => 2801,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24156,7 +24156,7 @@ class AdmCargosTableSeeder extends Seeder
             356 => 
             array (
                 'id' => 1857,
-                'users_id' => 2802,
+                'user_id' => 2802,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24169,7 +24169,7 @@ class AdmCargosTableSeeder extends Seeder
             357 => 
             array (
                 'id' => 1858,
-                'users_id' => 2803,
+                'user_id' => 2803,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24182,7 +24182,7 @@ class AdmCargosTableSeeder extends Seeder
             358 => 
             array (
                 'id' => 1859,
-                'users_id' => 2804,
+                'user_id' => 2804,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24195,7 +24195,7 @@ class AdmCargosTableSeeder extends Seeder
             359 => 
             array (
                 'id' => 1860,
-                'users_id' => 2805,
+                'user_id' => 2805,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24208,7 +24208,7 @@ class AdmCargosTableSeeder extends Seeder
             360 => 
             array (
                 'id' => 1861,
-                'users_id' => 2806,
+                'user_id' => 2806,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24221,7 +24221,7 @@ class AdmCargosTableSeeder extends Seeder
             361 => 
             array (
                 'id' => 1862,
-                'users_id' => 2807,
+                'user_id' => 2807,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24234,7 +24234,7 @@ class AdmCargosTableSeeder extends Seeder
             362 => 
             array (
                 'id' => 1863,
-                'users_id' => 2811,
+                'user_id' => 2811,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24247,7 +24247,7 @@ class AdmCargosTableSeeder extends Seeder
             363 => 
             array (
                 'id' => 1864,
-                'users_id' => 2812,
+                'user_id' => 2812,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24260,7 +24260,7 @@ class AdmCargosTableSeeder extends Seeder
             364 => 
             array (
                 'id' => 1865,
-                'users_id' => 2815,
+                'user_id' => 2815,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24273,7 +24273,7 @@ class AdmCargosTableSeeder extends Seeder
             365 => 
             array (
                 'id' => 1866,
-                'users_id' => 2817,
+                'user_id' => 2817,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24286,7 +24286,7 @@ class AdmCargosTableSeeder extends Seeder
             366 => 
             array (
                 'id' => 1867,
-                'users_id' => 2818,
+                'user_id' => 2818,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24299,7 +24299,7 @@ class AdmCargosTableSeeder extends Seeder
             367 => 
             array (
                 'id' => 1868,
-                'users_id' => 2819,
+                'user_id' => 2819,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24312,7 +24312,7 @@ class AdmCargosTableSeeder extends Seeder
             368 => 
             array (
                 'id' => 1869,
-                'users_id' => 2820,
+                'user_id' => 2820,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24325,7 +24325,7 @@ class AdmCargosTableSeeder extends Seeder
             369 => 
             array (
                 'id' => 1870,
-                'users_id' => 2821,
+                'user_id' => 2821,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24338,7 +24338,7 @@ class AdmCargosTableSeeder extends Seeder
             370 => 
             array (
                 'id' => 1871,
-                'users_id' => 2824,
+                'user_id' => 2824,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24351,7 +24351,7 @@ class AdmCargosTableSeeder extends Seeder
             371 => 
             array (
                 'id' => 1872,
-                'users_id' => 2825,
+                'user_id' => 2825,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24364,7 +24364,7 @@ class AdmCargosTableSeeder extends Seeder
             372 => 
             array (
                 'id' => 1873,
-                'users_id' => 2827,
+                'user_id' => 2827,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24377,7 +24377,7 @@ class AdmCargosTableSeeder extends Seeder
             373 => 
             array (
                 'id' => 1874,
-                'users_id' => 2828,
+                'user_id' => 2828,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24390,7 +24390,7 @@ class AdmCargosTableSeeder extends Seeder
             374 => 
             array (
                 'id' => 1875,
-                'users_id' => 2829,
+                'user_id' => 2829,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24403,7 +24403,7 @@ class AdmCargosTableSeeder extends Seeder
             375 => 
             array (
                 'id' => 1876,
-                'users_id' => 2830,
+                'user_id' => 2830,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24416,7 +24416,7 @@ class AdmCargosTableSeeder extends Seeder
             376 => 
             array (
                 'id' => 1877,
-                'users_id' => 2831,
+                'user_id' => 2831,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24429,7 +24429,7 @@ class AdmCargosTableSeeder extends Seeder
             377 => 
             array (
                 'id' => 1878,
-                'users_id' => 2834,
+                'user_id' => 2834,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24442,7 +24442,7 @@ class AdmCargosTableSeeder extends Seeder
             378 => 
             array (
                 'id' => 1879,
-                'users_id' => 2838,
+                'user_id' => 2838,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24455,7 +24455,7 @@ class AdmCargosTableSeeder extends Seeder
             379 => 
             array (
                 'id' => 1880,
-                'users_id' => 2840,
+                'user_id' => 2840,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -24468,7 +24468,7 @@ class AdmCargosTableSeeder extends Seeder
             380 => 
             array (
                 'id' => 1881,
-                'users_id' => 2841,
+                'user_id' => 2841,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24481,7 +24481,7 @@ class AdmCargosTableSeeder extends Seeder
             381 => 
             array (
                 'id' => 1882,
-                'users_id' => 2842,
+                'user_id' => 2842,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24494,7 +24494,7 @@ class AdmCargosTableSeeder extends Seeder
             382 => 
             array (
                 'id' => 1883,
-                'users_id' => 2843,
+                'user_id' => 2843,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24507,7 +24507,7 @@ class AdmCargosTableSeeder extends Seeder
             383 => 
             array (
                 'id' => 1884,
-                'users_id' => 2844,
+                'user_id' => 2844,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24520,7 +24520,7 @@ class AdmCargosTableSeeder extends Seeder
             384 => 
             array (
                 'id' => 1885,
-                'users_id' => 2845,
+                'user_id' => 2845,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24533,7 +24533,7 @@ class AdmCargosTableSeeder extends Seeder
             385 => 
             array (
                 'id' => 1886,
-                'users_id' => 2846,
+                'user_id' => 2846,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24546,7 +24546,7 @@ class AdmCargosTableSeeder extends Seeder
             386 => 
             array (
                 'id' => 1887,
-                'users_id' => 2847,
+                'user_id' => 2847,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24559,7 +24559,7 @@ class AdmCargosTableSeeder extends Seeder
             387 => 
             array (
                 'id' => 1888,
-                'users_id' => 2849,
+                'user_id' => 2849,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24572,7 +24572,7 @@ class AdmCargosTableSeeder extends Seeder
             388 => 
             array (
                 'id' => 1889,
-                'users_id' => 2850,
+                'user_id' => 2850,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24585,7 +24585,7 @@ class AdmCargosTableSeeder extends Seeder
             389 => 
             array (
                 'id' => 1890,
-                'users_id' => 2851,
+                'user_id' => 2851,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24598,7 +24598,7 @@ class AdmCargosTableSeeder extends Seeder
             390 => 
             array (
                 'id' => 1891,
-                'users_id' => 2852,
+                'user_id' => 2852,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24611,7 +24611,7 @@ class AdmCargosTableSeeder extends Seeder
             391 => 
             array (
                 'id' => 1892,
-                'users_id' => 2853,
+                'user_id' => 2853,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24624,7 +24624,7 @@ class AdmCargosTableSeeder extends Seeder
             392 => 
             array (
                 'id' => 1893,
-                'users_id' => 2854,
+                'user_id' => 2854,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24637,7 +24637,7 @@ class AdmCargosTableSeeder extends Seeder
             393 => 
             array (
                 'id' => 1894,
-                'users_id' => 2856,
+                'user_id' => 2856,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24650,7 +24650,7 @@ class AdmCargosTableSeeder extends Seeder
             394 => 
             array (
                 'id' => 1895,
-                'users_id' => 2857,
+                'user_id' => 2857,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24663,7 +24663,7 @@ class AdmCargosTableSeeder extends Seeder
             395 => 
             array (
                 'id' => 1896,
-                'users_id' => 2858,
+                'user_id' => 2858,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24676,7 +24676,7 @@ class AdmCargosTableSeeder extends Seeder
             396 => 
             array (
                 'id' => 1897,
-                'users_id' => 2864,
+                'user_id' => 2864,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24689,7 +24689,7 @@ class AdmCargosTableSeeder extends Seeder
             397 => 
             array (
                 'id' => 1898,
-                'users_id' => 2865,
+                'user_id' => 2865,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24702,7 +24702,7 @@ class AdmCargosTableSeeder extends Seeder
             398 => 
             array (
                 'id' => 1899,
-                'users_id' => 2866,
+                'user_id' => 2866,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24715,7 +24715,7 @@ class AdmCargosTableSeeder extends Seeder
             399 => 
             array (
                 'id' => 1900,
-                'users_id' => 2868,
+                'user_id' => 2868,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24728,7 +24728,7 @@ class AdmCargosTableSeeder extends Seeder
             400 => 
             array (
                 'id' => 1901,
-                'users_id' => 2869,
+                'user_id' => 2869,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -24741,7 +24741,7 @@ class AdmCargosTableSeeder extends Seeder
             401 => 
             array (
                 'id' => 1902,
-                'users_id' => 2870,
+                'user_id' => 2870,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24754,7 +24754,7 @@ class AdmCargosTableSeeder extends Seeder
             402 => 
             array (
                 'id' => 1903,
-                'users_id' => 2878,
+                'user_id' => 2878,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24767,7 +24767,7 @@ class AdmCargosTableSeeder extends Seeder
             403 => 
             array (
                 'id' => 1904,
-                'users_id' => 2879,
+                'user_id' => 2879,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24780,7 +24780,7 @@ class AdmCargosTableSeeder extends Seeder
             404 => 
             array (
                 'id' => 1905,
-                'users_id' => 2881,
+                'user_id' => 2881,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24793,7 +24793,7 @@ class AdmCargosTableSeeder extends Seeder
             405 => 
             array (
                 'id' => 1906,
-                'users_id' => 2889,
+                'user_id' => 2889,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24806,7 +24806,7 @@ class AdmCargosTableSeeder extends Seeder
             406 => 
             array (
                 'id' => 1907,
-                'users_id' => 2890,
+                'user_id' => 2890,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -24819,7 +24819,7 @@ class AdmCargosTableSeeder extends Seeder
             407 => 
             array (
                 'id' => 1908,
-                'users_id' => 2892,
+                'user_id' => 2892,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24832,7 +24832,7 @@ class AdmCargosTableSeeder extends Seeder
             408 => 
             array (
                 'id' => 1909,
-                'users_id' => 2896,
+                'user_id' => 2896,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24845,7 +24845,7 @@ class AdmCargosTableSeeder extends Seeder
             409 => 
             array (
                 'id' => 1910,
-                'users_id' => 2898,
+                'user_id' => 2898,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24858,7 +24858,7 @@ class AdmCargosTableSeeder extends Seeder
             410 => 
             array (
                 'id' => 1911,
-                'users_id' => 2900,
+                'user_id' => 2900,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24871,7 +24871,7 @@ class AdmCargosTableSeeder extends Seeder
             411 => 
             array (
                 'id' => 1912,
-                'users_id' => 2901,
+                'user_id' => 2901,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24884,7 +24884,7 @@ class AdmCargosTableSeeder extends Seeder
             412 => 
             array (
                 'id' => 1913,
-                'users_id' => 2902,
+                'user_id' => 2902,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24897,7 +24897,7 @@ class AdmCargosTableSeeder extends Seeder
             413 => 
             array (
                 'id' => 1914,
-                'users_id' => 2906,
+                'user_id' => 2906,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24910,7 +24910,7 @@ class AdmCargosTableSeeder extends Seeder
             414 => 
             array (
                 'id' => 1915,
-                'users_id' => 2908,
+                'user_id' => 2908,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24923,7 +24923,7 @@ class AdmCargosTableSeeder extends Seeder
             415 => 
             array (
                 'id' => 1916,
-                'users_id' => 2910,
+                'user_id' => 2910,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24936,7 +24936,7 @@ class AdmCargosTableSeeder extends Seeder
             416 => 
             array (
                 'id' => 1917,
-                'users_id' => 2911,
+                'user_id' => 2911,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24949,7 +24949,7 @@ class AdmCargosTableSeeder extends Seeder
             417 => 
             array (
                 'id' => 1918,
-                'users_id' => 2912,
+                'user_id' => 2912,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24962,7 +24962,7 @@ class AdmCargosTableSeeder extends Seeder
             418 => 
             array (
                 'id' => 1919,
-                'users_id' => 2913,
+                'user_id' => 2913,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24975,7 +24975,7 @@ class AdmCargosTableSeeder extends Seeder
             419 => 
             array (
                 'id' => 1920,
-                'users_id' => 2914,
+                'user_id' => 2914,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -24988,7 +24988,7 @@ class AdmCargosTableSeeder extends Seeder
             420 => 
             array (
                 'id' => 1921,
-                'users_id' => 2915,
+                'user_id' => 2915,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25001,7 +25001,7 @@ class AdmCargosTableSeeder extends Seeder
             421 => 
             array (
                 'id' => 1922,
-                'users_id' => 2916,
+                'user_id' => 2916,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25014,7 +25014,7 @@ class AdmCargosTableSeeder extends Seeder
             422 => 
             array (
                 'id' => 1923,
-                'users_id' => 2918,
+                'user_id' => 2918,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -25027,7 +25027,7 @@ class AdmCargosTableSeeder extends Seeder
             423 => 
             array (
                 'id' => 1924,
-                'users_id' => 2920,
+                'user_id' => 2920,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25040,7 +25040,7 @@ class AdmCargosTableSeeder extends Seeder
             424 => 
             array (
                 'id' => 1925,
-                'users_id' => 2921,
+                'user_id' => 2921,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25053,7 +25053,7 @@ class AdmCargosTableSeeder extends Seeder
             425 => 
             array (
                 'id' => 1926,
-                'users_id' => 2922,
+                'user_id' => 2922,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25066,7 +25066,7 @@ class AdmCargosTableSeeder extends Seeder
             426 => 
             array (
                 'id' => 1927,
-                'users_id' => 2923,
+                'user_id' => 2923,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25079,7 +25079,7 @@ class AdmCargosTableSeeder extends Seeder
             427 => 
             array (
                 'id' => 1928,
-                'users_id' => 2924,
+                'user_id' => 2924,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25092,7 +25092,7 @@ class AdmCargosTableSeeder extends Seeder
             428 => 
             array (
                 'id' => 1929,
-                'users_id' => 2928,
+                'user_id' => 2928,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -25105,7 +25105,7 @@ class AdmCargosTableSeeder extends Seeder
             429 => 
             array (
                 'id' => 1930,
-                'users_id' => 2934,
+                'user_id' => 2934,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25118,7 +25118,7 @@ class AdmCargosTableSeeder extends Seeder
             430 => 
             array (
                 'id' => 1931,
-                'users_id' => 2935,
+                'user_id' => 2935,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25131,7 +25131,7 @@ class AdmCargosTableSeeder extends Seeder
             431 => 
             array (
                 'id' => 1932,
-                'users_id' => 2936,
+                'user_id' => 2936,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25144,7 +25144,7 @@ class AdmCargosTableSeeder extends Seeder
             432 => 
             array (
                 'id' => 1933,
-                'users_id' => 2937,
+                'user_id' => 2937,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25157,7 +25157,7 @@ class AdmCargosTableSeeder extends Seeder
             433 => 
             array (
                 'id' => 1934,
-                'users_id' => 2940,
+                'user_id' => 2940,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -25170,7 +25170,7 @@ class AdmCargosTableSeeder extends Seeder
             434 => 
             array (
                 'id' => 1935,
-                'users_id' => 2948,
+                'user_id' => 2948,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25183,7 +25183,7 @@ class AdmCargosTableSeeder extends Seeder
             435 => 
             array (
                 'id' => 1936,
-                'users_id' => 2949,
+                'user_id' => 2949,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25196,7 +25196,7 @@ class AdmCargosTableSeeder extends Seeder
             436 => 
             array (
                 'id' => 1937,
-                'users_id' => 2958,
+                'user_id' => 2958,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25209,7 +25209,7 @@ class AdmCargosTableSeeder extends Seeder
             437 => 
             array (
                 'id' => 1938,
-                'users_id' => 2968,
+                'user_id' => 2968,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25222,7 +25222,7 @@ class AdmCargosTableSeeder extends Seeder
             438 => 
             array (
                 'id' => 1939,
-                'users_id' => 2969,
+                'user_id' => 2969,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25235,7 +25235,7 @@ class AdmCargosTableSeeder extends Seeder
             439 => 
             array (
                 'id' => 1940,
-                'users_id' => 2979,
+                'user_id' => 2979,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25248,7 +25248,7 @@ class AdmCargosTableSeeder extends Seeder
             440 => 
             array (
                 'id' => 1941,
-                'users_id' => 2981,
+                'user_id' => 2981,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25261,7 +25261,7 @@ class AdmCargosTableSeeder extends Seeder
             441 => 
             array (
                 'id' => 1942,
-                'users_id' => 2983,
+                'user_id' => 2983,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25274,7 +25274,7 @@ class AdmCargosTableSeeder extends Seeder
             442 => 
             array (
                 'id' => 1943,
-                'users_id' => 3003,
+                'user_id' => 3003,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25287,7 +25287,7 @@ class AdmCargosTableSeeder extends Seeder
             443 => 
             array (
                 'id' => 1944,
-                'users_id' => 3010,
+                'user_id' => 3010,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25300,7 +25300,7 @@ class AdmCargosTableSeeder extends Seeder
             444 => 
             array (
                 'id' => 1945,
-                'users_id' => 3014,
+                'user_id' => 3014,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25313,7 +25313,7 @@ class AdmCargosTableSeeder extends Seeder
             445 => 
             array (
                 'id' => 1946,
-                'users_id' => 3016,
+                'user_id' => 3016,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -25326,7 +25326,7 @@ class AdmCargosTableSeeder extends Seeder
             446 => 
             array (
                 'id' => 1947,
-                'users_id' => 3018,
+                'user_id' => 3018,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -25339,7 +25339,7 @@ class AdmCargosTableSeeder extends Seeder
             447 => 
             array (
                 'id' => 1948,
-                'users_id' => 3021,
+                'user_id' => 3021,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25352,7 +25352,7 @@ class AdmCargosTableSeeder extends Seeder
             448 => 
             array (
                 'id' => 1949,
-                'users_id' => 3022,
+                'user_id' => 3022,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25365,7 +25365,7 @@ class AdmCargosTableSeeder extends Seeder
             449 => 
             array (
                 'id' => 1950,
-                'users_id' => 3028,
+                'user_id' => 3028,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25378,7 +25378,7 @@ class AdmCargosTableSeeder extends Seeder
             450 => 
             array (
                 'id' => 1951,
-                'users_id' => 3030,
+                'user_id' => 3030,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25391,7 +25391,7 @@ class AdmCargosTableSeeder extends Seeder
             451 => 
             array (
                 'id' => 1952,
-                'users_id' => 3034,
+                'user_id' => 3034,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25404,7 +25404,7 @@ class AdmCargosTableSeeder extends Seeder
             452 => 
             array (
                 'id' => 1953,
-                'users_id' => 3036,
+                'user_id' => 3036,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25417,7 +25417,7 @@ class AdmCargosTableSeeder extends Seeder
             453 => 
             array (
                 'id' => 1954,
-                'users_id' => 3037,
+                'user_id' => 3037,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -25430,7 +25430,7 @@ class AdmCargosTableSeeder extends Seeder
             454 => 
             array (
                 'id' => 1955,
-                'users_id' => 3038,
+                'user_id' => 3038,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25443,7 +25443,7 @@ class AdmCargosTableSeeder extends Seeder
             455 => 
             array (
                 'id' => 1956,
-                'users_id' => 3039,
+                'user_id' => 3039,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -25456,7 +25456,7 @@ class AdmCargosTableSeeder extends Seeder
             456 => 
             array (
                 'id' => 1957,
-                'users_id' => 3040,
+                'user_id' => 3040,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25469,7 +25469,7 @@ class AdmCargosTableSeeder extends Seeder
             457 => 
             array (
                 'id' => 1958,
-                'users_id' => 3041,
+                'user_id' => 3041,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -25482,7 +25482,7 @@ class AdmCargosTableSeeder extends Seeder
             458 => 
             array (
                 'id' => 1959,
-                'users_id' => 3043,
+                'user_id' => 3043,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25495,7 +25495,7 @@ class AdmCargosTableSeeder extends Seeder
             459 => 
             array (
                 'id' => 1960,
-                'users_id' => 3044,
+                'user_id' => 3044,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25508,7 +25508,7 @@ class AdmCargosTableSeeder extends Seeder
             460 => 
             array (
                 'id' => 1961,
-                'users_id' => 3046,
+                'user_id' => 3046,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -25521,7 +25521,7 @@ class AdmCargosTableSeeder extends Seeder
             461 => 
             array (
                 'id' => 1962,
-                'users_id' => 3047,
+                'user_id' => 3047,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25534,7 +25534,7 @@ class AdmCargosTableSeeder extends Seeder
             462 => 
             array (
                 'id' => 1963,
-                'users_id' => 3049,
+                'user_id' => 3049,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25547,7 +25547,7 @@ class AdmCargosTableSeeder extends Seeder
             463 => 
             array (
                 'id' => 1964,
-                'users_id' => 3050,
+                'user_id' => 3050,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25560,7 +25560,7 @@ class AdmCargosTableSeeder extends Seeder
             464 => 
             array (
                 'id' => 1965,
-                'users_id' => 3055,
+                'user_id' => 3055,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25573,7 +25573,7 @@ class AdmCargosTableSeeder extends Seeder
             465 => 
             array (
                 'id' => 1966,
-                'users_id' => 3056,
+                'user_id' => 3056,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25586,7 +25586,7 @@ class AdmCargosTableSeeder extends Seeder
             466 => 
             array (
                 'id' => 1967,
-                'users_id' => 3058,
+                'user_id' => 3058,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25599,7 +25599,7 @@ class AdmCargosTableSeeder extends Seeder
             467 => 
             array (
                 'id' => 1968,
-                'users_id' => 3061,
+                'user_id' => 3061,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25612,7 +25612,7 @@ class AdmCargosTableSeeder extends Seeder
             468 => 
             array (
                 'id' => 1969,
-                'users_id' => 3064,
+                'user_id' => 3064,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25625,7 +25625,7 @@ class AdmCargosTableSeeder extends Seeder
             469 => 
             array (
                 'id' => 1970,
-                'users_id' => 3066,
+                'user_id' => 3066,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25638,7 +25638,7 @@ class AdmCargosTableSeeder extends Seeder
             470 => 
             array (
                 'id' => 1971,
-                'users_id' => 3073,
+                'user_id' => 3073,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25651,7 +25651,7 @@ class AdmCargosTableSeeder extends Seeder
             471 => 
             array (
                 'id' => 1972,
-                'users_id' => 3075,
+                'user_id' => 3075,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25664,7 +25664,7 @@ class AdmCargosTableSeeder extends Seeder
             472 => 
             array (
                 'id' => 1973,
-                'users_id' => 3082,
+                'user_id' => 3082,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25677,7 +25677,7 @@ class AdmCargosTableSeeder extends Seeder
             473 => 
             array (
                 'id' => 1974,
-                'users_id' => 3086,
+                'user_id' => 3086,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25690,7 +25690,7 @@ class AdmCargosTableSeeder extends Seeder
             474 => 
             array (
                 'id' => 1975,
-                'users_id' => 3093,
+                'user_id' => 3093,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25703,7 +25703,7 @@ class AdmCargosTableSeeder extends Seeder
             475 => 
             array (
                 'id' => 1976,
-                'users_id' => 3107,
+                'user_id' => 3107,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25716,7 +25716,7 @@ class AdmCargosTableSeeder extends Seeder
             476 => 
             array (
                 'id' => 1977,
-                'users_id' => 3112,
+                'user_id' => 3112,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25729,7 +25729,7 @@ class AdmCargosTableSeeder extends Seeder
             477 => 
             array (
                 'id' => 1978,
-                'users_id' => 3114,
+                'user_id' => 3114,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25742,7 +25742,7 @@ class AdmCargosTableSeeder extends Seeder
             478 => 
             array (
                 'id' => 1979,
-                'users_id' => 3115,
+                'user_id' => 3115,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25755,7 +25755,7 @@ class AdmCargosTableSeeder extends Seeder
             479 => 
             array (
                 'id' => 1980,
-                'users_id' => 3120,
+                'user_id' => 3120,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -25768,7 +25768,7 @@ class AdmCargosTableSeeder extends Seeder
             480 => 
             array (
                 'id' => 1981,
-                'users_id' => 3122,
+                'user_id' => 3122,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25781,7 +25781,7 @@ class AdmCargosTableSeeder extends Seeder
             481 => 
             array (
                 'id' => 1982,
-                'users_id' => 3127,
+                'user_id' => 3127,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25794,7 +25794,7 @@ class AdmCargosTableSeeder extends Seeder
             482 => 
             array (
                 'id' => 1983,
-                'users_id' => 3128,
+                'user_id' => 3128,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -25807,7 +25807,7 @@ class AdmCargosTableSeeder extends Seeder
             483 => 
             array (
                 'id' => 1984,
-                'users_id' => 3129,
+                'user_id' => 3129,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -25820,7 +25820,7 @@ class AdmCargosTableSeeder extends Seeder
             484 => 
             array (
                 'id' => 1985,
-                'users_id' => 3130,
+                'user_id' => 3130,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25833,7 +25833,7 @@ class AdmCargosTableSeeder extends Seeder
             485 => 
             array (
                 'id' => 1986,
-                'users_id' => 3131,
+                'user_id' => 3131,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25846,7 +25846,7 @@ class AdmCargosTableSeeder extends Seeder
             486 => 
             array (
                 'id' => 1987,
-                'users_id' => 3132,
+                'user_id' => 3132,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25859,7 +25859,7 @@ class AdmCargosTableSeeder extends Seeder
             487 => 
             array (
                 'id' => 1988,
-                'users_id' => 3133,
+                'user_id' => 3133,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25872,7 +25872,7 @@ class AdmCargosTableSeeder extends Seeder
             488 => 
             array (
                 'id' => 1989,
-                'users_id' => 3147,
+                'user_id' => 3147,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -25885,7 +25885,7 @@ class AdmCargosTableSeeder extends Seeder
             489 => 
             array (
                 'id' => 1990,
-                'users_id' => 3148,
+                'user_id' => 3148,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25898,7 +25898,7 @@ class AdmCargosTableSeeder extends Seeder
             490 => 
             array (
                 'id' => 1991,
-                'users_id' => 3150,
+                'user_id' => 3150,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25911,7 +25911,7 @@ class AdmCargosTableSeeder extends Seeder
             491 => 
             array (
                 'id' => 1992,
-                'users_id' => 3151,
+                'user_id' => 3151,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25924,7 +25924,7 @@ class AdmCargosTableSeeder extends Seeder
             492 => 
             array (
                 'id' => 1993,
-                'users_id' => 3152,
+                'user_id' => 3152,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -25937,7 +25937,7 @@ class AdmCargosTableSeeder extends Seeder
             493 => 
             array (
                 'id' => 1994,
-                'users_id' => 3156,
+                'user_id' => 3156,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25950,7 +25950,7 @@ class AdmCargosTableSeeder extends Seeder
             494 => 
             array (
                 'id' => 1995,
-                'users_id' => 3158,
+                'user_id' => 3158,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25963,7 +25963,7 @@ class AdmCargosTableSeeder extends Seeder
             495 => 
             array (
                 'id' => 1996,
-                'users_id' => 3159,
+                'user_id' => 3159,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25976,7 +25976,7 @@ class AdmCargosTableSeeder extends Seeder
             496 => 
             array (
                 'id' => 1997,
-                'users_id' => 3160,
+                'user_id' => 3160,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -25989,7 +25989,7 @@ class AdmCargosTableSeeder extends Seeder
             497 => 
             array (
                 'id' => 1998,
-                'users_id' => 3161,
+                'user_id' => 3161,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26002,7 +26002,7 @@ class AdmCargosTableSeeder extends Seeder
             498 => 
             array (
                 'id' => 1999,
-                'users_id' => 3162,
+                'user_id' => 3162,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26015,7 +26015,7 @@ class AdmCargosTableSeeder extends Seeder
             499 => 
             array (
                 'id' => 2000,
-                'users_id' => 3165,
+                'user_id' => 3165,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26030,7 +26030,7 @@ class AdmCargosTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 2001,
-                'users_id' => 3168,
+                'user_id' => 3168,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26043,7 +26043,7 @@ class AdmCargosTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 2002,
-                'users_id' => 3170,
+                'user_id' => 3170,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26056,7 +26056,7 @@ class AdmCargosTableSeeder extends Seeder
             2 => 
             array (
                 'id' => 2003,
-                'users_id' => 3171,
+                'user_id' => 3171,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26069,7 +26069,7 @@ class AdmCargosTableSeeder extends Seeder
             3 => 
             array (
                 'id' => 2004,
-                'users_id' => 3172,
+                'user_id' => 3172,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26082,7 +26082,7 @@ class AdmCargosTableSeeder extends Seeder
             4 => 
             array (
                 'id' => 2005,
-                'users_id' => 3173,
+                'user_id' => 3173,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26095,7 +26095,7 @@ class AdmCargosTableSeeder extends Seeder
             5 => 
             array (
                 'id' => 2006,
-                'users_id' => 3174,
+                'user_id' => 3174,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26108,7 +26108,7 @@ class AdmCargosTableSeeder extends Seeder
             6 => 
             array (
                 'id' => 2007,
-                'users_id' => 3175,
+                'user_id' => 3175,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26121,7 +26121,7 @@ class AdmCargosTableSeeder extends Seeder
             7 => 
             array (
                 'id' => 2008,
-                'users_id' => 3178,
+                'user_id' => 3178,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -26134,7 +26134,7 @@ class AdmCargosTableSeeder extends Seeder
             8 => 
             array (
                 'id' => 2009,
-                'users_id' => 3179,
+                'user_id' => 3179,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26147,7 +26147,7 @@ class AdmCargosTableSeeder extends Seeder
             9 => 
             array (
                 'id' => 2010,
-                'users_id' => 3180,
+                'user_id' => 3180,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26160,7 +26160,7 @@ class AdmCargosTableSeeder extends Seeder
             10 => 
             array (
                 'id' => 2011,
-                'users_id' => 3182,
+                'user_id' => 3182,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26173,7 +26173,7 @@ class AdmCargosTableSeeder extends Seeder
             11 => 
             array (
                 'id' => 2012,
-                'users_id' => 3183,
+                'user_id' => 3183,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26186,7 +26186,7 @@ class AdmCargosTableSeeder extends Seeder
             12 => 
             array (
                 'id' => 2013,
-                'users_id' => 3184,
+                'user_id' => 3184,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -26199,7 +26199,7 @@ class AdmCargosTableSeeder extends Seeder
             13 => 
             array (
                 'id' => 2014,
-                'users_id' => 3185,
+                'user_id' => 3185,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26212,7 +26212,7 @@ class AdmCargosTableSeeder extends Seeder
             14 => 
             array (
                 'id' => 2015,
-                'users_id' => 3186,
+                'user_id' => 3186,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26225,7 +26225,7 @@ class AdmCargosTableSeeder extends Seeder
             15 => 
             array (
                 'id' => 2016,
-                'users_id' => 3187,
+                'user_id' => 3187,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26238,7 +26238,7 @@ class AdmCargosTableSeeder extends Seeder
             16 => 
             array (
                 'id' => 2017,
-                'users_id' => 3188,
+                'user_id' => 3188,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -26251,7 +26251,7 @@ class AdmCargosTableSeeder extends Seeder
             17 => 
             array (
                 'id' => 2018,
-                'users_id' => 3189,
+                'user_id' => 3189,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26264,7 +26264,7 @@ class AdmCargosTableSeeder extends Seeder
             18 => 
             array (
                 'id' => 2019,
-                'users_id' => 3195,
+                'user_id' => 3195,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26277,7 +26277,7 @@ class AdmCargosTableSeeder extends Seeder
             19 => 
             array (
                 'id' => 2020,
-                'users_id' => 3198,
+                'user_id' => 3198,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26290,7 +26290,7 @@ class AdmCargosTableSeeder extends Seeder
             20 => 
             array (
                 'id' => 2021,
-                'users_id' => 3200,
+                'user_id' => 3200,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26303,7 +26303,7 @@ class AdmCargosTableSeeder extends Seeder
             21 => 
             array (
                 'id' => 2022,
-                'users_id' => 3201,
+                'user_id' => 3201,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26316,7 +26316,7 @@ class AdmCargosTableSeeder extends Seeder
             22 => 
             array (
                 'id' => 2023,
-                'users_id' => 3203,
+                'user_id' => 3203,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26329,7 +26329,7 @@ class AdmCargosTableSeeder extends Seeder
             23 => 
             array (
                 'id' => 2024,
-                'users_id' => 3205,
+                'user_id' => 3205,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26342,7 +26342,7 @@ class AdmCargosTableSeeder extends Seeder
             24 => 
             array (
                 'id' => 2025,
-                'users_id' => 3206,
+                'user_id' => 3206,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26355,7 +26355,7 @@ class AdmCargosTableSeeder extends Seeder
             25 => 
             array (
                 'id' => 2026,
-                'users_id' => 3208,
+                'user_id' => 3208,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26368,7 +26368,7 @@ class AdmCargosTableSeeder extends Seeder
             26 => 
             array (
                 'id' => 2027,
-                'users_id' => 3209,
+                'user_id' => 3209,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -26381,7 +26381,7 @@ class AdmCargosTableSeeder extends Seeder
             27 => 
             array (
                 'id' => 2028,
-                'users_id' => 3212,
+                'user_id' => 3212,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26394,7 +26394,7 @@ class AdmCargosTableSeeder extends Seeder
             28 => 
             array (
                 'id' => 2029,
-                'users_id' => 3213,
+                'user_id' => 3213,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26407,7 +26407,7 @@ class AdmCargosTableSeeder extends Seeder
             29 => 
             array (
                 'id' => 2030,
-                'users_id' => 3215,
+                'user_id' => 3215,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26420,7 +26420,7 @@ class AdmCargosTableSeeder extends Seeder
             30 => 
             array (
                 'id' => 2031,
-                'users_id' => 3220,
+                'user_id' => 3220,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26433,7 +26433,7 @@ class AdmCargosTableSeeder extends Seeder
             31 => 
             array (
                 'id' => 2032,
-                'users_id' => 3223,
+                'user_id' => 3223,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26446,7 +26446,7 @@ class AdmCargosTableSeeder extends Seeder
             32 => 
             array (
                 'id' => 2033,
-                'users_id' => 3224,
+                'user_id' => 3224,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26459,7 +26459,7 @@ class AdmCargosTableSeeder extends Seeder
             33 => 
             array (
                 'id' => 2034,
-                'users_id' => 3225,
+                'user_id' => 3225,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26472,7 +26472,7 @@ class AdmCargosTableSeeder extends Seeder
             34 => 
             array (
                 'id' => 2035,
-                'users_id' => 3226,
+                'user_id' => 3226,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26485,7 +26485,7 @@ class AdmCargosTableSeeder extends Seeder
             35 => 
             array (
                 'id' => 2036,
-                'users_id' => 3228,
+                'user_id' => 3228,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -26498,7 +26498,7 @@ class AdmCargosTableSeeder extends Seeder
             36 => 
             array (
                 'id' => 2037,
-                'users_id' => 3229,
+                'user_id' => 3229,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -26511,7 +26511,7 @@ class AdmCargosTableSeeder extends Seeder
             37 => 
             array (
                 'id' => 2038,
-                'users_id' => 3230,
+                'user_id' => 3230,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26524,7 +26524,7 @@ class AdmCargosTableSeeder extends Seeder
             38 => 
             array (
                 'id' => 2039,
-                'users_id' => 3231,
+                'user_id' => 3231,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26537,7 +26537,7 @@ class AdmCargosTableSeeder extends Seeder
             39 => 
             array (
                 'id' => 2040,
-                'users_id' => 3232,
+                'user_id' => 3232,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26550,7 +26550,7 @@ class AdmCargosTableSeeder extends Seeder
             40 => 
             array (
                 'id' => 2041,
-                'users_id' => 3234,
+                'user_id' => 3234,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO RESIDENTE',
                 'descripcion' => '',
@@ -26563,7 +26563,7 @@ class AdmCargosTableSeeder extends Seeder
             41 => 
             array (
                 'id' => 2042,
-                'users_id' => 3235,
+                'user_id' => 3235,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26576,7 +26576,7 @@ class AdmCargosTableSeeder extends Seeder
             42 => 
             array (
                 'id' => 2043,
-                'users_id' => 3240,
+                'user_id' => 3240,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26589,7 +26589,7 @@ class AdmCargosTableSeeder extends Seeder
             43 => 
             array (
                 'id' => 2044,
-                'users_id' => 3247,
+                'user_id' => 3247,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26602,7 +26602,7 @@ class AdmCargosTableSeeder extends Seeder
             44 => 
             array (
                 'id' => 2045,
-                'users_id' => 3248,
+                'user_id' => 3248,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26615,7 +26615,7 @@ class AdmCargosTableSeeder extends Seeder
             45 => 
             array (
                 'id' => 2046,
-                'users_id' => 3254,
+                'user_id' => 3254,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26628,7 +26628,7 @@ class AdmCargosTableSeeder extends Seeder
             46 => 
             array (
                 'id' => 2047,
-                'users_id' => 3269,
+                'user_id' => 3269,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26641,7 +26641,7 @@ class AdmCargosTableSeeder extends Seeder
             47 => 
             array (
                 'id' => 2048,
-                'users_id' => 3271,
+                'user_id' => 3271,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26654,7 +26654,7 @@ class AdmCargosTableSeeder extends Seeder
             48 => 
             array (
                 'id' => 2049,
-                'users_id' => 3274,
+                'user_id' => 3274,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -26667,7 +26667,7 @@ class AdmCargosTableSeeder extends Seeder
             49 => 
             array (
                 'id' => 2050,
-                'users_id' => 3276,
+                'user_id' => 3276,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26680,7 +26680,7 @@ class AdmCargosTableSeeder extends Seeder
             50 => 
             array (
                 'id' => 2051,
-                'users_id' => 3277,
+                'user_id' => 3277,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26693,7 +26693,7 @@ class AdmCargosTableSeeder extends Seeder
             51 => 
             array (
                 'id' => 2052,
-                'users_id' => 3278,
+                'user_id' => 3278,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26706,7 +26706,7 @@ class AdmCargosTableSeeder extends Seeder
             52 => 
             array (
                 'id' => 2053,
-                'users_id' => 3281,
+                'user_id' => 3281,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26719,7 +26719,7 @@ class AdmCargosTableSeeder extends Seeder
             53 => 
             array (
                 'id' => 2054,
-                'users_id' => 3282,
+                'user_id' => 3282,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -26732,7 +26732,7 @@ class AdmCargosTableSeeder extends Seeder
             54 => 
             array (
                 'id' => 2055,
-                'users_id' => 3284,
+                'user_id' => 3284,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -26745,7 +26745,7 @@ class AdmCargosTableSeeder extends Seeder
             55 => 
             array (
                 'id' => 2056,
-                'users_id' => 3285,
+                'user_id' => 3285,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26758,7 +26758,7 @@ class AdmCargosTableSeeder extends Seeder
             56 => 
             array (
                 'id' => 2057,
-                'users_id' => 3287,
+                'user_id' => 3287,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26771,7 +26771,7 @@ class AdmCargosTableSeeder extends Seeder
             57 => 
             array (
                 'id' => 2058,
-                'users_id' => 3288,
+                'user_id' => 3288,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26784,7 +26784,7 @@ class AdmCargosTableSeeder extends Seeder
             58 => 
             array (
                 'id' => 2059,
-                'users_id' => 3290,
+                'user_id' => 3290,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26797,7 +26797,7 @@ class AdmCargosTableSeeder extends Seeder
             59 => 
             array (
                 'id' => 2060,
-                'users_id' => 3291,
+                'user_id' => 3291,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26810,7 +26810,7 @@ class AdmCargosTableSeeder extends Seeder
             60 => 
             array (
                 'id' => 2061,
-                'users_id' => 3293,
+                'user_id' => 3293,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26823,7 +26823,7 @@ class AdmCargosTableSeeder extends Seeder
             61 => 
             array (
                 'id' => 2062,
-                'users_id' => 3296,
+                'user_id' => 3296,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26836,7 +26836,7 @@ class AdmCargosTableSeeder extends Seeder
             62 => 
             array (
                 'id' => 2063,
-                'users_id' => 3297,
+                'user_id' => 3297,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26849,7 +26849,7 @@ class AdmCargosTableSeeder extends Seeder
             63 => 
             array (
                 'id' => 2064,
-                'users_id' => 3298,
+                'user_id' => 3298,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26862,7 +26862,7 @@ class AdmCargosTableSeeder extends Seeder
             64 => 
             array (
                 'id' => 2065,
-                'users_id' => 3300,
+                'user_id' => 3300,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26875,7 +26875,7 @@ class AdmCargosTableSeeder extends Seeder
             65 => 
             array (
                 'id' => 2066,
-                'users_id' => 3303,
+                'user_id' => 3303,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26888,7 +26888,7 @@ class AdmCargosTableSeeder extends Seeder
             66 => 
             array (
                 'id' => 2067,
-                'users_id' => 3304,
+                'user_id' => 3304,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26901,7 +26901,7 @@ class AdmCargosTableSeeder extends Seeder
             67 => 
             array (
                 'id' => 2068,
-                'users_id' => 3305,
+                'user_id' => 3305,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -26914,7 +26914,7 @@ class AdmCargosTableSeeder extends Seeder
             68 => 
             array (
                 'id' => 2069,
-                'users_id' => 3307,
+                'user_id' => 3307,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26927,7 +26927,7 @@ class AdmCargosTableSeeder extends Seeder
             69 => 
             array (
                 'id' => 2070,
-                'users_id' => 3308,
+                'user_id' => 3308,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26940,7 +26940,7 @@ class AdmCargosTableSeeder extends Seeder
             70 => 
             array (
                 'id' => 2071,
-                'users_id' => 3312,
+                'user_id' => 3312,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26953,7 +26953,7 @@ class AdmCargosTableSeeder extends Seeder
             71 => 
             array (
                 'id' => 2072,
-                'users_id' => 3316,
+                'user_id' => 3316,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE REGIONAL',
                 'descripcion' => '',
@@ -26966,7 +26966,7 @@ class AdmCargosTableSeeder extends Seeder
             72 => 
             array (
                 'id' => 2073,
-                'users_id' => 3318,
+                'user_id' => 3318,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26979,7 +26979,7 @@ class AdmCargosTableSeeder extends Seeder
             73 => 
             array (
                 'id' => 2074,
-                'users_id' => 3319,
+                'user_id' => 3319,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -26992,7 +26992,7 @@ class AdmCargosTableSeeder extends Seeder
             74 => 
             array (
                 'id' => 2075,
-                'users_id' => 3321,
+                'user_id' => 3321,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27005,7 +27005,7 @@ class AdmCargosTableSeeder extends Seeder
             75 => 
             array (
                 'id' => 2076,
-                'users_id' => 3322,
+                'user_id' => 3322,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27018,7 +27018,7 @@ class AdmCargosTableSeeder extends Seeder
             76 => 
             array (
                 'id' => 2077,
-                'users_id' => 3323,
+                'user_id' => 3323,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27031,7 +27031,7 @@ class AdmCargosTableSeeder extends Seeder
             77 => 
             array (
                 'id' => 2078,
-                'users_id' => 3324,
+                'user_id' => 3324,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27044,7 +27044,7 @@ class AdmCargosTableSeeder extends Seeder
             78 => 
             array (
                 'id' => 2079,
-                'users_id' => 3326,
+                'user_id' => 3326,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27057,7 +27057,7 @@ class AdmCargosTableSeeder extends Seeder
             79 => 
             array (
                 'id' => 2080,
-                'users_id' => 3327,
+                'user_id' => 3327,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27070,7 +27070,7 @@ class AdmCargosTableSeeder extends Seeder
             80 => 
             array (
                 'id' => 2081,
-                'users_id' => 3328,
+                'user_id' => 3328,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27083,7 +27083,7 @@ class AdmCargosTableSeeder extends Seeder
             81 => 
             array (
                 'id' => 2082,
-                'users_id' => 3329,
+                'user_id' => 3329,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27096,7 +27096,7 @@ class AdmCargosTableSeeder extends Seeder
             82 => 
             array (
                 'id' => 2083,
-                'users_id' => 3330,
+                'user_id' => 3330,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -27109,7 +27109,7 @@ class AdmCargosTableSeeder extends Seeder
             83 => 
             array (
                 'id' => 2084,
-                'users_id' => 3332,
+                'user_id' => 3332,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27122,7 +27122,7 @@ class AdmCargosTableSeeder extends Seeder
             84 => 
             array (
                 'id' => 2085,
-                'users_id' => 3333,
+                'user_id' => 3333,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27135,7 +27135,7 @@ class AdmCargosTableSeeder extends Seeder
             85 => 
             array (
                 'id' => 2086,
-                'users_id' => 3336,
+                'user_id' => 3336,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27148,7 +27148,7 @@ class AdmCargosTableSeeder extends Seeder
             86 => 
             array (
                 'id' => 2087,
-                'users_id' => 3337,
+                'user_id' => 3337,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -27161,7 +27161,7 @@ class AdmCargosTableSeeder extends Seeder
             87 => 
             array (
                 'id' => 2088,
-                'users_id' => 3339,
+                'user_id' => 3339,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27174,7 +27174,7 @@ class AdmCargosTableSeeder extends Seeder
             88 => 
             array (
                 'id' => 2089,
-                'users_id' => 3341,
+                'user_id' => 3341,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27187,7 +27187,7 @@ class AdmCargosTableSeeder extends Seeder
             89 => 
             array (
                 'id' => 2090,
-                'users_id' => 3342,
+                'user_id' => 3342,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27200,7 +27200,7 @@ class AdmCargosTableSeeder extends Seeder
             90 => 
             array (
                 'id' => 2091,
-                'users_id' => 3344,
+                'user_id' => 3344,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27213,7 +27213,7 @@ class AdmCargosTableSeeder extends Seeder
             91 => 
             array (
                 'id' => 2092,
-                'users_id' => 3346,
+                'user_id' => 3346,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27226,7 +27226,7 @@ class AdmCargosTableSeeder extends Seeder
             92 => 
             array (
                 'id' => 2093,
-                'users_id' => 3349,
+                'user_id' => 3349,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27239,7 +27239,7 @@ class AdmCargosTableSeeder extends Seeder
             93 => 
             array (
                 'id' => 2094,
-                'users_id' => 3350,
+                'user_id' => 3350,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27252,7 +27252,7 @@ class AdmCargosTableSeeder extends Seeder
             94 => 
             array (
                 'id' => 2095,
-                'users_id' => 3351,
+                'user_id' => 3351,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27265,7 +27265,7 @@ class AdmCargosTableSeeder extends Seeder
             95 => 
             array (
                 'id' => 2096,
-                'users_id' => 3353,
+                'user_id' => 3353,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27278,7 +27278,7 @@ class AdmCargosTableSeeder extends Seeder
             96 => 
             array (
                 'id' => 2097,
-                'users_id' => 3355,
+                'user_id' => 3355,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27291,7 +27291,7 @@ class AdmCargosTableSeeder extends Seeder
             97 => 
             array (
                 'id' => 2098,
-                'users_id' => 3356,
+                'user_id' => 3356,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27304,7 +27304,7 @@ class AdmCargosTableSeeder extends Seeder
             98 => 
             array (
                 'id' => 2099,
-                'users_id' => 3357,
+                'user_id' => 3357,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27317,7 +27317,7 @@ class AdmCargosTableSeeder extends Seeder
             99 => 
             array (
                 'id' => 2100,
-                'users_id' => 3358,
+                'user_id' => 3358,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27330,7 +27330,7 @@ class AdmCargosTableSeeder extends Seeder
             100 => 
             array (
                 'id' => 2101,
-                'users_id' => 3359,
+                'user_id' => 3359,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27343,7 +27343,7 @@ class AdmCargosTableSeeder extends Seeder
             101 => 
             array (
                 'id' => 2102,
-                'users_id' => 3362,
+                'user_id' => 3362,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27356,7 +27356,7 @@ class AdmCargosTableSeeder extends Seeder
             102 => 
             array (
                 'id' => 2103,
-                'users_id' => 3363,
+                'user_id' => 3363,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27369,7 +27369,7 @@ class AdmCargosTableSeeder extends Seeder
             103 => 
             array (
                 'id' => 2104,
-                'users_id' => 3364,
+                'user_id' => 3364,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27382,7 +27382,7 @@ class AdmCargosTableSeeder extends Seeder
             104 => 
             array (
                 'id' => 2105,
-                'users_id' => 3365,
+                'user_id' => 3365,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27395,7 +27395,7 @@ class AdmCargosTableSeeder extends Seeder
             105 => 
             array (
                 'id' => 2106,
-                'users_id' => 3367,
+                'user_id' => 3367,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27408,7 +27408,7 @@ class AdmCargosTableSeeder extends Seeder
             106 => 
             array (
                 'id' => 2107,
-                'users_id' => 3369,
+                'user_id' => 3369,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27421,7 +27421,7 @@ class AdmCargosTableSeeder extends Seeder
             107 => 
             array (
                 'id' => 2108,
-                'users_id' => 3370,
+                'user_id' => 3370,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27434,7 +27434,7 @@ class AdmCargosTableSeeder extends Seeder
             108 => 
             array (
                 'id' => 2109,
-                'users_id' => 3371,
+                'user_id' => 3371,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27447,7 +27447,7 @@ class AdmCargosTableSeeder extends Seeder
             109 => 
             array (
                 'id' => 2110,
-                'users_id' => 3372,
+                'user_id' => 3372,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27460,7 +27460,7 @@ class AdmCargosTableSeeder extends Seeder
             110 => 
             array (
                 'id' => 2111,
-                'users_id' => 3373,
+                'user_id' => 3373,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27473,7 +27473,7 @@ class AdmCargosTableSeeder extends Seeder
             111 => 
             array (
                 'id' => 2112,
-                'users_id' => 3374,
+                'user_id' => 3374,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27486,7 +27486,7 @@ class AdmCargosTableSeeder extends Seeder
             112 => 
             array (
                 'id' => 2113,
-                'users_id' => 3375,
+                'user_id' => 3375,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27499,7 +27499,7 @@ class AdmCargosTableSeeder extends Seeder
             113 => 
             array (
                 'id' => 2114,
-                'users_id' => 3376,
+                'user_id' => 3376,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27512,7 +27512,7 @@ class AdmCargosTableSeeder extends Seeder
             114 => 
             array (
                 'id' => 2115,
-                'users_id' => 3377,
+                'user_id' => 3377,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -27525,7 +27525,7 @@ class AdmCargosTableSeeder extends Seeder
             115 => 
             array (
                 'id' => 2116,
-                'users_id' => 3379,
+                'user_id' => 3379,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27538,7 +27538,7 @@ class AdmCargosTableSeeder extends Seeder
             116 => 
             array (
                 'id' => 2117,
-                'users_id' => 3380,
+                'user_id' => 3380,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27551,7 +27551,7 @@ class AdmCargosTableSeeder extends Seeder
             117 => 
             array (
                 'id' => 2118,
-                'users_id' => 3383,
+                'user_id' => 3383,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27564,7 +27564,7 @@ class AdmCargosTableSeeder extends Seeder
             118 => 
             array (
                 'id' => 2119,
-                'users_id' => 3385,
+                'user_id' => 3385,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27577,7 +27577,7 @@ class AdmCargosTableSeeder extends Seeder
             119 => 
             array (
                 'id' => 2120,
-                'users_id' => 3386,
+                'user_id' => 3386,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27590,7 +27590,7 @@ class AdmCargosTableSeeder extends Seeder
             120 => 
             array (
                 'id' => 2121,
-                'users_id' => 3387,
+                'user_id' => 3387,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27603,7 +27603,7 @@ class AdmCargosTableSeeder extends Seeder
             121 => 
             array (
                 'id' => 2122,
-                'users_id' => 3391,
+                'user_id' => 3391,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27616,7 +27616,7 @@ class AdmCargosTableSeeder extends Seeder
             122 => 
             array (
                 'id' => 2123,
-                'users_id' => 3401,
+                'user_id' => 3401,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27629,7 +27629,7 @@ class AdmCargosTableSeeder extends Seeder
             123 => 
             array (
                 'id' => 2124,
-                'users_id' => 3403,
+                'user_id' => 3403,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27642,7 +27642,7 @@ class AdmCargosTableSeeder extends Seeder
             124 => 
             array (
                 'id' => 2125,
-                'users_id' => 3408,
+                'user_id' => 3408,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27655,7 +27655,7 @@ class AdmCargosTableSeeder extends Seeder
             125 => 
             array (
                 'id' => 2126,
-                'users_id' => 3409,
+                'user_id' => 3409,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27668,7 +27668,7 @@ class AdmCargosTableSeeder extends Seeder
             126 => 
             array (
                 'id' => 2127,
-                'users_id' => 3410,
+                'user_id' => 3410,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27681,7 +27681,7 @@ class AdmCargosTableSeeder extends Seeder
             127 => 
             array (
                 'id' => 2128,
-                'users_id' => 3411,
+                'user_id' => 3411,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27694,7 +27694,7 @@ class AdmCargosTableSeeder extends Seeder
             128 => 
             array (
                 'id' => 2129,
-                'users_id' => 3412,
+                'user_id' => 3412,
                 'estado' => 1,
                 'nom_cargo' => 'ADMIN',
                 'descripcion' => '',
@@ -27707,7 +27707,7 @@ class AdmCargosTableSeeder extends Seeder
             129 => 
             array (
                 'id' => 2130,
-                'users_id' => 3416,
+                'user_id' => 3416,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27720,7 +27720,7 @@ class AdmCargosTableSeeder extends Seeder
             130 => 
             array (
                 'id' => 2131,
-                'users_id' => 3417,
+                'user_id' => 3417,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27733,7 +27733,7 @@ class AdmCargosTableSeeder extends Seeder
             131 => 
             array (
                 'id' => 2132,
-                'users_id' => 3418,
+                'user_id' => 3418,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27746,7 +27746,7 @@ class AdmCargosTableSeeder extends Seeder
             132 => 
             array (
                 'id' => 2133,
-                'users_id' => 3420,
+                'user_id' => 3420,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -27759,7 +27759,7 @@ class AdmCargosTableSeeder extends Seeder
             133 => 
             array (
                 'id' => 2134,
-                'users_id' => 3421,
+                'user_id' => 3421,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27772,7 +27772,7 @@ class AdmCargosTableSeeder extends Seeder
             134 => 
             array (
                 'id' => 2135,
-                'users_id' => 3422,
+                'user_id' => 3422,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -27785,7 +27785,7 @@ class AdmCargosTableSeeder extends Seeder
             135 => 
             array (
                 'id' => 2136,
-                'users_id' => 3423,
+                'user_id' => 3423,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27798,7 +27798,7 @@ class AdmCargosTableSeeder extends Seeder
             136 => 
             array (
                 'id' => 2137,
-                'users_id' => 3425,
+                'user_id' => 3425,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27811,7 +27811,7 @@ class AdmCargosTableSeeder extends Seeder
             137 => 
             array (
                 'id' => 2138,
-                'users_id' => 3426,
+                'user_id' => 3426,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27824,7 +27824,7 @@ class AdmCargosTableSeeder extends Seeder
             138 => 
             array (
                 'id' => 2139,
-                'users_id' => 3427,
+                'user_id' => 3427,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -27837,7 +27837,7 @@ class AdmCargosTableSeeder extends Seeder
             139 => 
             array (
                 'id' => 2140,
-                'users_id' => 3428,
+                'user_id' => 3428,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27850,7 +27850,7 @@ class AdmCargosTableSeeder extends Seeder
             140 => 
             array (
                 'id' => 2141,
-                'users_id' => 3429,
+                'user_id' => 3429,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27863,7 +27863,7 @@ class AdmCargosTableSeeder extends Seeder
             141 => 
             array (
                 'id' => 2142,
-                'users_id' => 3430,
+                'user_id' => 3430,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27876,7 +27876,7 @@ class AdmCargosTableSeeder extends Seeder
             142 => 
             array (
                 'id' => 2143,
-                'users_id' => 3431,
+                'user_id' => 3431,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -27889,7 +27889,7 @@ class AdmCargosTableSeeder extends Seeder
             143 => 
             array (
                 'id' => 2144,
-                'users_id' => 3434,
+                'user_id' => 3434,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27902,7 +27902,7 @@ class AdmCargosTableSeeder extends Seeder
             144 => 
             array (
                 'id' => 2145,
-                'users_id' => 3435,
+                'user_id' => 3435,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -27915,7 +27915,7 @@ class AdmCargosTableSeeder extends Seeder
             145 => 
             array (
                 'id' => 2146,
-                'users_id' => 3436,
+                'user_id' => 3436,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27928,7 +27928,7 @@ class AdmCargosTableSeeder extends Seeder
             146 => 
             array (
                 'id' => 2147,
-                'users_id' => 3437,
+                'user_id' => 3437,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -27941,7 +27941,7 @@ class AdmCargosTableSeeder extends Seeder
             147 => 
             array (
                 'id' => 2148,
-                'users_id' => 3438,
+                'user_id' => 3438,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -27954,7 +27954,7 @@ class AdmCargosTableSeeder extends Seeder
             148 => 
             array (
                 'id' => 2149,
-                'users_id' => 3439,
+                'user_id' => 3439,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27967,7 +27967,7 @@ class AdmCargosTableSeeder extends Seeder
             149 => 
             array (
                 'id' => 2150,
-                'users_id' => 3440,
+                'user_id' => 3440,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -27980,7 +27980,7 @@ class AdmCargosTableSeeder extends Seeder
             150 => 
             array (
                 'id' => 2151,
-                'users_id' => 3442,
+                'user_id' => 3442,
                 'estado' => 1,
                 'nom_cargo' => '',
                 'descripcion' => '',
@@ -27993,7 +27993,7 @@ class AdmCargosTableSeeder extends Seeder
             151 => 
             array (
                 'id' => 2152,
-                'users_id' => 3443,
+                'user_id' => 3443,
                 'estado' => 1,
                 'nom_cargo' => '',
                 'descripcion' => '',
@@ -28006,7 +28006,7 @@ class AdmCargosTableSeeder extends Seeder
             152 => 
             array (
                 'id' => 2153,
-                'users_id' => 3444,
+                'user_id' => 3444,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -28019,7 +28019,7 @@ class AdmCargosTableSeeder extends Seeder
             153 => 
             array (
                 'id' => 2154,
-                'users_id' => 3447,
+                'user_id' => 3447,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28032,7 +28032,7 @@ class AdmCargosTableSeeder extends Seeder
             154 => 
             array (
                 'id' => 2155,
-                'users_id' => 3448,
+                'user_id' => 3448,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -28045,7 +28045,7 @@ class AdmCargosTableSeeder extends Seeder
             155 => 
             array (
                 'id' => 2156,
-                'users_id' => 3449,
+                'user_id' => 3449,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -28058,7 +28058,7 @@ class AdmCargosTableSeeder extends Seeder
             156 => 
             array (
                 'id' => 2157,
-                'users_id' => 3451,
+                'user_id' => 3451,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -28071,7 +28071,7 @@ class AdmCargosTableSeeder extends Seeder
             157 => 
             array (
                 'id' => 2158,
-                'users_id' => 3452,
+                'user_id' => 3452,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -28084,7 +28084,7 @@ class AdmCargosTableSeeder extends Seeder
             158 => 
             array (
                 'id' => 2159,
-                'users_id' => 3453,
+                'user_id' => 3453,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -28097,7 +28097,7 @@ class AdmCargosTableSeeder extends Seeder
             159 => 
             array (
                 'id' => 2160,
-                'users_id' => 3454,
+                'user_id' => 3454,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -28110,7 +28110,7 @@ class AdmCargosTableSeeder extends Seeder
             160 => 
             array (
                 'id' => 2161,
-                'users_id' => 3455,
+                'user_id' => 3455,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -28123,7 +28123,7 @@ class AdmCargosTableSeeder extends Seeder
             161 => 
             array (
                 'id' => 2162,
-                'users_id' => 3456,
+                'user_id' => 3456,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -28136,7 +28136,7 @@ class AdmCargosTableSeeder extends Seeder
             162 => 
             array (
                 'id' => 2163,
-                'users_id' => 3457,
+                'user_id' => 3457,
                 'estado' => 1,
                 'nom_cargo' => '',
                 'descripcion' => '',
@@ -28149,7 +28149,7 @@ class AdmCargosTableSeeder extends Seeder
             163 => 
             array (
                 'id' => 2164,
-                'users_id' => 3458,
+                'user_id' => 3458,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -28162,7 +28162,7 @@ class AdmCargosTableSeeder extends Seeder
             164 => 
             array (
                 'id' => 2165,
-                'users_id' => 3459,
+                'user_id' => 3459,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28175,7 +28175,7 @@ class AdmCargosTableSeeder extends Seeder
             165 => 
             array (
                 'id' => 2166,
-                'users_id' => 3460,
+                'user_id' => 3460,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -28188,7 +28188,7 @@ class AdmCargosTableSeeder extends Seeder
             166 => 
             array (
                 'id' => 2167,
-                'users_id' => 3461,
+                'user_id' => 3461,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28201,7 +28201,7 @@ class AdmCargosTableSeeder extends Seeder
             167 => 
             array (
                 'id' => 2168,
-                'users_id' => 3462,
+                'user_id' => 3462,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28214,7 +28214,7 @@ class AdmCargosTableSeeder extends Seeder
             168 => 
             array (
                 'id' => 2169,
-                'users_id' => 3463,
+                'user_id' => 3463,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28227,7 +28227,7 @@ class AdmCargosTableSeeder extends Seeder
             169 => 
             array (
                 'id' => 2170,
-                'users_id' => 3464,
+                'user_id' => 3464,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28240,7 +28240,7 @@ class AdmCargosTableSeeder extends Seeder
             170 => 
             array (
                 'id' => 2171,
-                'users_id' => 3466,
+                'user_id' => 3466,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28253,7 +28253,7 @@ class AdmCargosTableSeeder extends Seeder
             171 => 
             array (
                 'id' => 2172,
-                'users_id' => 3467,
+                'user_id' => 3467,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28266,7 +28266,7 @@ class AdmCargosTableSeeder extends Seeder
             172 => 
             array (
                 'id' => 2173,
-                'users_id' => 3468,
+                'user_id' => 3468,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28279,7 +28279,7 @@ class AdmCargosTableSeeder extends Seeder
             173 => 
             array (
                 'id' => 2174,
-                'users_id' => 3471,
+                'user_id' => 3471,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -28292,7 +28292,7 @@ class AdmCargosTableSeeder extends Seeder
             174 => 
             array (
                 'id' => 2175,
-                'users_id' => 3472,
+                'user_id' => 3472,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28305,7 +28305,7 @@ class AdmCargosTableSeeder extends Seeder
             175 => 
             array (
                 'id' => 2176,
-                'users_id' => 3473,
+                'user_id' => 3473,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE REGIONAL',
                 'descripcion' => '',
@@ -28318,7 +28318,7 @@ class AdmCargosTableSeeder extends Seeder
             176 => 
             array (
                 'id' => 2177,
-                'users_id' => 3476,
+                'user_id' => 3476,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28331,7 +28331,7 @@ class AdmCargosTableSeeder extends Seeder
             177 => 
             array (
                 'id' => 2178,
-                'users_id' => 3477,
+                'user_id' => 3477,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28344,7 +28344,7 @@ class AdmCargosTableSeeder extends Seeder
             178 => 
             array (
                 'id' => 2179,
-                'users_id' => 3479,
+                'user_id' => 3479,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28357,7 +28357,7 @@ class AdmCargosTableSeeder extends Seeder
             179 => 
             array (
                 'id' => 2180,
-                'users_id' => 3481,
+                'user_id' => 3481,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28370,7 +28370,7 @@ class AdmCargosTableSeeder extends Seeder
             180 => 
             array (
                 'id' => 2181,
-                'users_id' => 3482,
+                'user_id' => 3482,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -28383,7 +28383,7 @@ class AdmCargosTableSeeder extends Seeder
             181 => 
             array (
                 'id' => 2182,
-                'users_id' => 3483,
+                'user_id' => 3483,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28396,7 +28396,7 @@ class AdmCargosTableSeeder extends Seeder
             182 => 
             array (
                 'id' => 2183,
-                'users_id' => 3484,
+                'user_id' => 3484,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -28409,7 +28409,7 @@ class AdmCargosTableSeeder extends Seeder
             183 => 
             array (
                 'id' => 2184,
-                'users_id' => 3485,
+                'user_id' => 3485,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28422,7 +28422,7 @@ class AdmCargosTableSeeder extends Seeder
             184 => 
             array (
                 'id' => 2185,
-                'users_id' => 3487,
+                'user_id' => 3487,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28435,7 +28435,7 @@ class AdmCargosTableSeeder extends Seeder
             185 => 
             array (
                 'id' => 2186,
-                'users_id' => 3488,
+                'user_id' => 3488,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28448,7 +28448,7 @@ class AdmCargosTableSeeder extends Seeder
             186 => 
             array (
                 'id' => 2187,
-                'users_id' => 3489,
+                'user_id' => 3489,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28461,7 +28461,7 @@ class AdmCargosTableSeeder extends Seeder
             187 => 
             array (
                 'id' => 2188,
-                'users_id' => 3490,
+                'user_id' => 3490,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28474,7 +28474,7 @@ class AdmCargosTableSeeder extends Seeder
             188 => 
             array (
                 'id' => 2189,
-                'users_id' => 3491,
+                'user_id' => 3491,
                 'estado' => 1,
                 'nom_cargo' => 'JEFE DE ENSEÑANZA',
                 'descripcion' => '',
@@ -28487,7 +28487,7 @@ class AdmCargosTableSeeder extends Seeder
             189 => 
             array (
                 'id' => 2190,
-                'users_id' => 3492,
+                'user_id' => 3492,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -28500,7 +28500,7 @@ class AdmCargosTableSeeder extends Seeder
             190 => 
             array (
                 'id' => 2191,
-                'users_id' => 3494,
+                'user_id' => 3494,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -28513,7 +28513,7 @@ class AdmCargosTableSeeder extends Seeder
             191 => 
             array (
                 'id' => 2192,
-                'users_id' => 3495,
+                'user_id' => 3495,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -28526,7 +28526,7 @@ class AdmCargosTableSeeder extends Seeder
             192 => 
             array (
                 'id' => 2193,
-                'users_id' => 3498,
+                'user_id' => 3498,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28539,7 +28539,7 @@ class AdmCargosTableSeeder extends Seeder
             193 => 
             array (
                 'id' => 2194,
-                'users_id' => 3500,
+                'user_id' => 3500,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28552,7 +28552,7 @@ class AdmCargosTableSeeder extends Seeder
             194 => 
             array (
                 'id' => 2195,
-                'users_id' => 3501,
+                'user_id' => 3501,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -28565,7 +28565,7 @@ class AdmCargosTableSeeder extends Seeder
             195 => 
             array (
                 'id' => 2196,
-                'users_id' => 3503,
+                'user_id' => 3503,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28578,7 +28578,7 @@ class AdmCargosTableSeeder extends Seeder
             196 => 
             array (
                 'id' => 2197,
-                'users_id' => 3504,
+                'user_id' => 3504,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28591,7 +28591,7 @@ class AdmCargosTableSeeder extends Seeder
             197 => 
             array (
                 'id' => 2198,
-                'users_id' => 3507,
+                'user_id' => 3507,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28604,7 +28604,7 @@ class AdmCargosTableSeeder extends Seeder
             198 => 
             array (
                 'id' => 2199,
-                'users_id' => 3512,
+                'user_id' => 3512,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28617,7 +28617,7 @@ class AdmCargosTableSeeder extends Seeder
             199 => 
             array (
                 'id' => 2200,
-                'users_id' => 3522,
+                'user_id' => 3522,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28630,7 +28630,7 @@ class AdmCargosTableSeeder extends Seeder
             200 => 
             array (
                 'id' => 2201,
-                'users_id' => 3523,
+                'user_id' => 3523,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28643,7 +28643,7 @@ class AdmCargosTableSeeder extends Seeder
             201 => 
             array (
                 'id' => 2202,
-                'users_id' => 3526,
+                'user_id' => 3526,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -28656,7 +28656,7 @@ class AdmCargosTableSeeder extends Seeder
             202 => 
             array (
                 'id' => 2203,
-                'users_id' => 3531,
+                'user_id' => 3531,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28669,7 +28669,7 @@ class AdmCargosTableSeeder extends Seeder
             203 => 
             array (
                 'id' => 2204,
-                'users_id' => 3532,
+                'user_id' => 3532,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28682,7 +28682,7 @@ class AdmCargosTableSeeder extends Seeder
             204 => 
             array (
                 'id' => 2205,
-                'users_id' => 3533,
+                'user_id' => 3533,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28695,7 +28695,7 @@ class AdmCargosTableSeeder extends Seeder
             205 => 
             array (
                 'id' => 2206,
-                'users_id' => 3534,
+                'user_id' => 3534,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28708,7 +28708,7 @@ class AdmCargosTableSeeder extends Seeder
             206 => 
             array (
                 'id' => 2207,
-                'users_id' => 3535,
+                'user_id' => 3535,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28721,7 +28721,7 @@ class AdmCargosTableSeeder extends Seeder
             207 => 
             array (
                 'id' => 2208,
-                'users_id' => 3536,
+                'user_id' => 3536,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28734,7 +28734,7 @@ class AdmCargosTableSeeder extends Seeder
             208 => 
             array (
                 'id' => 2209,
-                'users_id' => 3538,
+                'user_id' => 3538,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -28747,7 +28747,7 @@ class AdmCargosTableSeeder extends Seeder
             209 => 
             array (
                 'id' => 2210,
-                'users_id' => 3539,
+                'user_id' => 3539,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28760,7 +28760,7 @@ class AdmCargosTableSeeder extends Seeder
             210 => 
             array (
                 'id' => 2211,
-                'users_id' => 3541,
+                'user_id' => 3541,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28773,7 +28773,7 @@ class AdmCargosTableSeeder extends Seeder
             211 => 
             array (
                 'id' => 2212,
-                'users_id' => 3542,
+                'user_id' => 3542,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -28786,7 +28786,7 @@ class AdmCargosTableSeeder extends Seeder
             212 => 
             array (
                 'id' => 2213,
-                'users_id' => 3543,
+                'user_id' => 3543,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28799,7 +28799,7 @@ class AdmCargosTableSeeder extends Seeder
             213 => 
             array (
                 'id' => 2214,
-                'users_id' => 3544,
+                'user_id' => 3544,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28812,7 +28812,7 @@ class AdmCargosTableSeeder extends Seeder
             214 => 
             array (
                 'id' => 2215,
-                'users_id' => 3545,
+                'user_id' => 3545,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28825,7 +28825,7 @@ class AdmCargosTableSeeder extends Seeder
             215 => 
             array (
                 'id' => 2216,
-                'users_id' => 3546,
+                'user_id' => 3546,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28838,7 +28838,7 @@ class AdmCargosTableSeeder extends Seeder
             216 => 
             array (
                 'id' => 2217,
-                'users_id' => 3549,
+                'user_id' => 3549,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28851,7 +28851,7 @@ class AdmCargosTableSeeder extends Seeder
             217 => 
             array (
                 'id' => 2218,
-                'users_id' => 3550,
+                'user_id' => 3550,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -28864,7 +28864,7 @@ class AdmCargosTableSeeder extends Seeder
             218 => 
             array (
                 'id' => 2219,
-                'users_id' => 3551,
+                'user_id' => 3551,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28877,7 +28877,7 @@ class AdmCargosTableSeeder extends Seeder
             219 => 
             array (
                 'id' => 2220,
-                'users_id' => 3555,
+                'user_id' => 3555,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28890,7 +28890,7 @@ class AdmCargosTableSeeder extends Seeder
             220 => 
             array (
                 'id' => 2221,
-                'users_id' => 3556,
+                'user_id' => 3556,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28903,7 +28903,7 @@ class AdmCargosTableSeeder extends Seeder
             221 => 
             array (
                 'id' => 2222,
-                'users_id' => 3560,
+                'user_id' => 3560,
                 'estado' => 1,
                 'nom_cargo' => 'ADMIN',
                 'descripcion' => '',
@@ -28916,7 +28916,7 @@ class AdmCargosTableSeeder extends Seeder
             222 => 
             array (
                 'id' => 2223,
-                'users_id' => 3561,
+                'user_id' => 3561,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE REGIONAL',
                 'descripcion' => '',
@@ -28929,7 +28929,7 @@ class AdmCargosTableSeeder extends Seeder
             223 => 
             array (
                 'id' => 2224,
-                'users_id' => 3562,
+                'user_id' => 3562,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28942,7 +28942,7 @@ class AdmCargosTableSeeder extends Seeder
             224 => 
             array (
                 'id' => 2225,
-                'users_id' => 3563,
+                'user_id' => 3563,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -28955,7 +28955,7 @@ class AdmCargosTableSeeder extends Seeder
             225 => 
             array (
                 'id' => 2226,
-                'users_id' => 3564,
+                'user_id' => 3564,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28968,7 +28968,7 @@ class AdmCargosTableSeeder extends Seeder
             226 => 
             array (
                 'id' => 2227,
-                'users_id' => 3565,
+                'user_id' => 3565,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28981,7 +28981,7 @@ class AdmCargosTableSeeder extends Seeder
             227 => 
             array (
                 'id' => 2228,
-                'users_id' => 3566,
+                'user_id' => 3566,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -28994,7 +28994,7 @@ class AdmCargosTableSeeder extends Seeder
             228 => 
             array (
                 'id' => 2229,
-                'users_id' => 3567,
+                'user_id' => 3567,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29007,7 +29007,7 @@ class AdmCargosTableSeeder extends Seeder
             229 => 
             array (
                 'id' => 2230,
-                'users_id' => 3568,
+                'user_id' => 3568,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29020,7 +29020,7 @@ class AdmCargosTableSeeder extends Seeder
             230 => 
             array (
                 'id' => 2231,
-                'users_id' => 3569,
+                'user_id' => 3569,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29033,7 +29033,7 @@ class AdmCargosTableSeeder extends Seeder
             231 => 
             array (
                 'id' => 2232,
-                'users_id' => 3570,
+                'user_id' => 3570,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29046,7 +29046,7 @@ class AdmCargosTableSeeder extends Seeder
             232 => 
             array (
                 'id' => 2233,
-                'users_id' => 3571,
+                'user_id' => 3571,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29059,7 +29059,7 @@ class AdmCargosTableSeeder extends Seeder
             233 => 
             array (
                 'id' => 2234,
-                'users_id' => 3572,
+                'user_id' => 3572,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29072,7 +29072,7 @@ class AdmCargosTableSeeder extends Seeder
             234 => 
             array (
                 'id' => 2235,
-                'users_id' => 3573,
+                'user_id' => 3573,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29085,7 +29085,7 @@ class AdmCargosTableSeeder extends Seeder
             235 => 
             array (
                 'id' => 2236,
-                'users_id' => 3574,
+                'user_id' => 3574,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29098,7 +29098,7 @@ class AdmCargosTableSeeder extends Seeder
             236 => 
             array (
                 'id' => 2237,
-                'users_id' => 3575,
+                'user_id' => 3575,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -29111,7 +29111,7 @@ class AdmCargosTableSeeder extends Seeder
             237 => 
             array (
                 'id' => 2238,
-                'users_id' => 3576,
+                'user_id' => 3576,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29124,7 +29124,7 @@ class AdmCargosTableSeeder extends Seeder
             238 => 
             array (
                 'id' => 2239,
-                'users_id' => 3577,
+                'user_id' => 3577,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29137,7 +29137,7 @@ class AdmCargosTableSeeder extends Seeder
             239 => 
             array (
                 'id' => 2240,
-                'users_id' => 3578,
+                'user_id' => 3578,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29150,7 +29150,7 @@ class AdmCargosTableSeeder extends Seeder
             240 => 
             array (
                 'id' => 2241,
-                'users_id' => 3579,
+                'user_id' => 3579,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -29163,7 +29163,7 @@ class AdmCargosTableSeeder extends Seeder
             241 => 
             array (
                 'id' => 2242,
-                'users_id' => 3580,
+                'user_id' => 3580,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -29176,7 +29176,7 @@ class AdmCargosTableSeeder extends Seeder
             242 => 
             array (
                 'id' => 2243,
-                'users_id' => 3581,
+                'user_id' => 3581,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29189,7 +29189,7 @@ class AdmCargosTableSeeder extends Seeder
             243 => 
             array (
                 'id' => 2244,
-                'users_id' => 3583,
+                'user_id' => 3583,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29202,7 +29202,7 @@ class AdmCargosTableSeeder extends Seeder
             244 => 
             array (
                 'id' => 2245,
-                'users_id' => 3584,
+                'user_id' => 3584,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29215,7 +29215,7 @@ class AdmCargosTableSeeder extends Seeder
             245 => 
             array (
                 'id' => 2246,
-                'users_id' => 3585,
+                'user_id' => 3585,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -29228,7 +29228,7 @@ class AdmCargosTableSeeder extends Seeder
             246 => 
             array (
                 'id' => 2247,
-                'users_id' => 3586,
+                'user_id' => 3586,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29241,7 +29241,7 @@ class AdmCargosTableSeeder extends Seeder
             247 => 
             array (
                 'id' => 2248,
-                'users_id' => 3587,
+                'user_id' => 3587,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29254,7 +29254,7 @@ class AdmCargosTableSeeder extends Seeder
             248 => 
             array (
                 'id' => 2249,
-                'users_id' => 3588,
+                'user_id' => 3588,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29267,7 +29267,7 @@ class AdmCargosTableSeeder extends Seeder
             249 => 
             array (
                 'id' => 2250,
-                'users_id' => 3589,
+                'user_id' => 3589,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29280,7 +29280,7 @@ class AdmCargosTableSeeder extends Seeder
             250 => 
             array (
                 'id' => 2251,
-                'users_id' => 3590,
+                'user_id' => 3590,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29293,7 +29293,7 @@ class AdmCargosTableSeeder extends Seeder
             251 => 
             array (
                 'id' => 2252,
-                'users_id' => 3591,
+                'user_id' => 3591,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29306,7 +29306,7 @@ class AdmCargosTableSeeder extends Seeder
             252 => 
             array (
                 'id' => 2253,
-                'users_id' => 3592,
+                'user_id' => 3592,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29319,7 +29319,7 @@ class AdmCargosTableSeeder extends Seeder
             253 => 
             array (
                 'id' => 2254,
-                'users_id' => 3593,
+                'user_id' => 3593,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29332,7 +29332,7 @@ class AdmCargosTableSeeder extends Seeder
             254 => 
             array (
                 'id' => 2255,
-                'users_id' => 3594,
+                'user_id' => 3594,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -29345,7 +29345,7 @@ class AdmCargosTableSeeder extends Seeder
             255 => 
             array (
                 'id' => 2256,
-                'users_id' => 3595,
+                'user_id' => 3595,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29358,7 +29358,7 @@ class AdmCargosTableSeeder extends Seeder
             256 => 
             array (
                 'id' => 2257,
-                'users_id' => 3596,
+                'user_id' => 3596,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -29371,7 +29371,7 @@ class AdmCargosTableSeeder extends Seeder
             257 => 
             array (
                 'id' => 2258,
-                'users_id' => 3597,
+                'user_id' => 3597,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29384,7 +29384,7 @@ class AdmCargosTableSeeder extends Seeder
             258 => 
             array (
                 'id' => 2259,
-                'users_id' => 3598,
+                'user_id' => 3598,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29397,7 +29397,7 @@ class AdmCargosTableSeeder extends Seeder
             259 => 
             array (
                 'id' => 2260,
-                'users_id' => 3599,
+                'user_id' => 3599,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29410,7 +29410,7 @@ class AdmCargosTableSeeder extends Seeder
             260 => 
             array (
                 'id' => 2261,
-                'users_id' => 3600,
+                'user_id' => 3600,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29423,7 +29423,7 @@ class AdmCargosTableSeeder extends Seeder
             261 => 
             array (
                 'id' => 2262,
-                'users_id' => 3602,
+                'user_id' => 3602,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29436,7 +29436,7 @@ class AdmCargosTableSeeder extends Seeder
             262 => 
             array (
                 'id' => 2263,
-                'users_id' => 3603,
+                'user_id' => 3603,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29449,7 +29449,7 @@ class AdmCargosTableSeeder extends Seeder
             263 => 
             array (
                 'id' => 2264,
-                'users_id' => 3604,
+                'user_id' => 3604,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29462,7 +29462,7 @@ class AdmCargosTableSeeder extends Seeder
             264 => 
             array (
                 'id' => 2265,
-                'users_id' => 3605,
+                'user_id' => 3605,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29475,7 +29475,7 @@ class AdmCargosTableSeeder extends Seeder
             265 => 
             array (
                 'id' => 2266,
-                'users_id' => 3606,
+                'user_id' => 3606,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29488,7 +29488,7 @@ class AdmCargosTableSeeder extends Seeder
             266 => 
             array (
                 'id' => 2267,
-                'users_id' => 3607,
+                'user_id' => 3607,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29501,7 +29501,7 @@ class AdmCargosTableSeeder extends Seeder
             267 => 
             array (
                 'id' => 2268,
-                'users_id' => 3608,
+                'user_id' => 3608,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29514,7 +29514,7 @@ class AdmCargosTableSeeder extends Seeder
             268 => 
             array (
                 'id' => 2269,
-                'users_id' => 3609,
+                'user_id' => 3609,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29527,7 +29527,7 @@ class AdmCargosTableSeeder extends Seeder
             269 => 
             array (
                 'id' => 2270,
-                'users_id' => 3610,
+                'user_id' => 3610,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29540,7 +29540,7 @@ class AdmCargosTableSeeder extends Seeder
             270 => 
             array (
                 'id' => 2271,
-                'users_id' => 3612,
+                'user_id' => 3612,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29553,7 +29553,7 @@ class AdmCargosTableSeeder extends Seeder
             271 => 
             array (
                 'id' => 2272,
-                'users_id' => 3613,
+                'user_id' => 3613,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29566,7 +29566,7 @@ class AdmCargosTableSeeder extends Seeder
             272 => 
             array (
                 'id' => 2273,
-                'users_id' => 3614,
+                'user_id' => 3614,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29579,7 +29579,7 @@ class AdmCargosTableSeeder extends Seeder
             273 => 
             array (
                 'id' => 2274,
-                'users_id' => 3615,
+                'user_id' => 3615,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29592,7 +29592,7 @@ class AdmCargosTableSeeder extends Seeder
             274 => 
             array (
                 'id' => 2275,
-                'users_id' => 3616,
+                'user_id' => 3616,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29605,7 +29605,7 @@ class AdmCargosTableSeeder extends Seeder
             275 => 
             array (
                 'id' => 2276,
-                'users_id' => 3617,
+                'user_id' => 3617,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29618,7 +29618,7 @@ class AdmCargosTableSeeder extends Seeder
             276 => 
             array (
                 'id' => 2277,
-                'users_id' => 3618,
+                'user_id' => 3618,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29631,7 +29631,7 @@ class AdmCargosTableSeeder extends Seeder
             277 => 
             array (
                 'id' => 2278,
-                'users_id' => 3619,
+                'user_id' => 3619,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29644,7 +29644,7 @@ class AdmCargosTableSeeder extends Seeder
             278 => 
             array (
                 'id' => 2279,
-                'users_id' => 3620,
+                'user_id' => 3620,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29657,7 +29657,7 @@ class AdmCargosTableSeeder extends Seeder
             279 => 
             array (
                 'id' => 2280,
-                'users_id' => 3621,
+                'user_id' => 3621,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29670,7 +29670,7 @@ class AdmCargosTableSeeder extends Seeder
             280 => 
             array (
                 'id' => 2281,
-                'users_id' => 3622,
+                'user_id' => 3622,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29683,7 +29683,7 @@ class AdmCargosTableSeeder extends Seeder
             281 => 
             array (
                 'id' => 2282,
-                'users_id' => 3623,
+                'user_id' => 3623,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29696,7 +29696,7 @@ class AdmCargosTableSeeder extends Seeder
             282 => 
             array (
                 'id' => 2283,
-                'users_id' => 3624,
+                'user_id' => 3624,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29709,7 +29709,7 @@ class AdmCargosTableSeeder extends Seeder
             283 => 
             array (
                 'id' => 2284,
-                'users_id' => 3625,
+                'user_id' => 3625,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29722,7 +29722,7 @@ class AdmCargosTableSeeder extends Seeder
             284 => 
             array (
                 'id' => 2285,
-                'users_id' => 3626,
+                'user_id' => 3626,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29735,7 +29735,7 @@ class AdmCargosTableSeeder extends Seeder
             285 => 
             array (
                 'id' => 2286,
-                'users_id' => 3627,
+                'user_id' => 3627,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29748,7 +29748,7 @@ class AdmCargosTableSeeder extends Seeder
             286 => 
             array (
                 'id' => 2287,
-                'users_id' => 3628,
+                'user_id' => 3628,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29761,7 +29761,7 @@ class AdmCargosTableSeeder extends Seeder
             287 => 
             array (
                 'id' => 2288,
-                'users_id' => 3629,
+                'user_id' => 3629,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -29774,7 +29774,7 @@ class AdmCargosTableSeeder extends Seeder
             288 => 
             array (
                 'id' => 2289,
-                'users_id' => 3630,
+                'user_id' => 3630,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29787,7 +29787,7 @@ class AdmCargosTableSeeder extends Seeder
             289 => 
             array (
                 'id' => 2290,
-                'users_id' => 3631,
+                'user_id' => 3631,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29800,7 +29800,7 @@ class AdmCargosTableSeeder extends Seeder
             290 => 
             array (
                 'id' => 2291,
-                'users_id' => 3632,
+                'user_id' => 3632,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29813,7 +29813,7 @@ class AdmCargosTableSeeder extends Seeder
             291 => 
             array (
                 'id' => 2292,
-                'users_id' => 3633,
+                'user_id' => 3633,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29826,7 +29826,7 @@ class AdmCargosTableSeeder extends Seeder
             292 => 
             array (
                 'id' => 2293,
-                'users_id' => 3634,
+                'user_id' => 3634,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29839,7 +29839,7 @@ class AdmCargosTableSeeder extends Seeder
             293 => 
             array (
                 'id' => 2294,
-                'users_id' => 3635,
+                'user_id' => 3635,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29852,7 +29852,7 @@ class AdmCargosTableSeeder extends Seeder
             294 => 
             array (
                 'id' => 2295,
-                'users_id' => 3636,
+                'user_id' => 3636,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29865,7 +29865,7 @@ class AdmCargosTableSeeder extends Seeder
             295 => 
             array (
                 'id' => 2296,
-                'users_id' => 3637,
+                'user_id' => 3637,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE REGIONAL',
                 'descripcion' => '',
@@ -29878,7 +29878,7 @@ class AdmCargosTableSeeder extends Seeder
             296 => 
             array (
                 'id' => 2297,
-                'users_id' => 3638,
+                'user_id' => 3638,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29891,7 +29891,7 @@ class AdmCargosTableSeeder extends Seeder
             297 => 
             array (
                 'id' => 2298,
-                'users_id' => 3639,
+                'user_id' => 3639,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -29904,7 +29904,7 @@ class AdmCargosTableSeeder extends Seeder
             298 => 
             array (
                 'id' => 2299,
-                'users_id' => 3640,
+                'user_id' => 3640,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29917,7 +29917,7 @@ class AdmCargosTableSeeder extends Seeder
             299 => 
             array (
                 'id' => 2300,
-                'users_id' => 3641,
+                'user_id' => 3641,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29930,7 +29930,7 @@ class AdmCargosTableSeeder extends Seeder
             300 => 
             array (
                 'id' => 2301,
-                'users_id' => 3642,
+                'user_id' => 3642,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29943,7 +29943,7 @@ class AdmCargosTableSeeder extends Seeder
             301 => 
             array (
                 'id' => 2302,
-                'users_id' => 3643,
+                'user_id' => 3643,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29956,7 +29956,7 @@ class AdmCargosTableSeeder extends Seeder
             302 => 
             array (
                 'id' => 2303,
-                'users_id' => 3644,
+                'user_id' => 3644,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29969,7 +29969,7 @@ class AdmCargosTableSeeder extends Seeder
             303 => 
             array (
                 'id' => 2304,
-                'users_id' => 3645,
+                'user_id' => 3645,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29982,7 +29982,7 @@ class AdmCargosTableSeeder extends Seeder
             304 => 
             array (
                 'id' => 2305,
-                'users_id' => 3646,
+                'user_id' => 3646,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -29995,7 +29995,7 @@ class AdmCargosTableSeeder extends Seeder
             305 => 
             array (
                 'id' => 2306,
-                'users_id' => 3647,
+                'user_id' => 3647,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30008,7 +30008,7 @@ class AdmCargosTableSeeder extends Seeder
             306 => 
             array (
                 'id' => 2307,
-                'users_id' => 3648,
+                'user_id' => 3648,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30021,7 +30021,7 @@ class AdmCargosTableSeeder extends Seeder
             307 => 
             array (
                 'id' => 2308,
-                'users_id' => 3649,
+                'user_id' => 3649,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30034,7 +30034,7 @@ class AdmCargosTableSeeder extends Seeder
             308 => 
             array (
                 'id' => 2309,
-                'users_id' => 3650,
+                'user_id' => 3650,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -30047,7 +30047,7 @@ class AdmCargosTableSeeder extends Seeder
             309 => 
             array (
                 'id' => 2310,
-                'users_id' => 3651,
+                'user_id' => 3651,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30060,7 +30060,7 @@ class AdmCargosTableSeeder extends Seeder
             310 => 
             array (
                 'id' => 2311,
-                'users_id' => 3652,
+                'user_id' => 3652,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30073,7 +30073,7 @@ class AdmCargosTableSeeder extends Seeder
             311 => 
             array (
                 'id' => 2312,
-                'users_id' => 3653,
+                'user_id' => 3653,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30086,7 +30086,7 @@ class AdmCargosTableSeeder extends Seeder
             312 => 
             array (
                 'id' => 2313,
-                'users_id' => 3654,
+                'user_id' => 3654,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30099,7 +30099,7 @@ class AdmCargosTableSeeder extends Seeder
             313 => 
             array (
                 'id' => 2314,
-                'users_id' => 3655,
+                'user_id' => 3655,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30112,7 +30112,7 @@ class AdmCargosTableSeeder extends Seeder
             314 => 
             array (
                 'id' => 2315,
-                'users_id' => 3656,
+                'user_id' => 3656,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30125,7 +30125,7 @@ class AdmCargosTableSeeder extends Seeder
             315 => 
             array (
                 'id' => 2316,
-                'users_id' => 3657,
+                'user_id' => 3657,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30138,7 +30138,7 @@ class AdmCargosTableSeeder extends Seeder
             316 => 
             array (
                 'id' => 2317,
-                'users_id' => 3658,
+                'user_id' => 3658,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30151,7 +30151,7 @@ class AdmCargosTableSeeder extends Seeder
             317 => 
             array (
                 'id' => 2318,
-                'users_id' => 3659,
+                'user_id' => 3659,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30164,7 +30164,7 @@ class AdmCargosTableSeeder extends Seeder
             318 => 
             array (
                 'id' => 2319,
-                'users_id' => 3660,
+                'user_id' => 3660,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30177,7 +30177,7 @@ class AdmCargosTableSeeder extends Seeder
             319 => 
             array (
                 'id' => 2320,
-                'users_id' => 3661,
+                'user_id' => 3661,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30190,7 +30190,7 @@ class AdmCargosTableSeeder extends Seeder
             320 => 
             array (
                 'id' => 2321,
-                'users_id' => 3662,
+                'user_id' => 3662,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30203,7 +30203,7 @@ class AdmCargosTableSeeder extends Seeder
             321 => 
             array (
                 'id' => 2322,
-                'users_id' => 3663,
+                'user_id' => 3663,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30216,7 +30216,7 @@ class AdmCargosTableSeeder extends Seeder
             322 => 
             array (
                 'id' => 2323,
-                'users_id' => 3664,
+                'user_id' => 3664,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30229,7 +30229,7 @@ class AdmCargosTableSeeder extends Seeder
             323 => 
             array (
                 'id' => 2324,
-                'users_id' => 3665,
+                'user_id' => 3665,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30242,7 +30242,7 @@ class AdmCargosTableSeeder extends Seeder
             324 => 
             array (
                 'id' => 2325,
-                'users_id' => 3666,
+                'user_id' => 3666,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30255,7 +30255,7 @@ class AdmCargosTableSeeder extends Seeder
             325 => 
             array (
                 'id' => 2326,
-                'users_id' => 3667,
+                'user_id' => 3667,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30268,7 +30268,7 @@ class AdmCargosTableSeeder extends Seeder
             326 => 
             array (
                 'id' => 2327,
-                'users_id' => 3668,
+                'user_id' => 3668,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30281,7 +30281,7 @@ class AdmCargosTableSeeder extends Seeder
             327 => 
             array (
                 'id' => 2328,
-                'users_id' => 3669,
+                'user_id' => 3669,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30294,7 +30294,7 @@ class AdmCargosTableSeeder extends Seeder
             328 => 
             array (
                 'id' => 2329,
-                'users_id' => 3670,
+                'user_id' => 3670,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30307,7 +30307,7 @@ class AdmCargosTableSeeder extends Seeder
             329 => 
             array (
                 'id' => 2330,
-                'users_id' => 3671,
+                'user_id' => 3671,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30320,7 +30320,7 @@ class AdmCargosTableSeeder extends Seeder
             330 => 
             array (
                 'id' => 2331,
-                'users_id' => 3672,
+                'user_id' => 3672,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30333,7 +30333,7 @@ class AdmCargosTableSeeder extends Seeder
             331 => 
             array (
                 'id' => 2332,
-                'users_id' => 3673,
+                'user_id' => 3673,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30346,7 +30346,7 @@ class AdmCargosTableSeeder extends Seeder
             332 => 
             array (
                 'id' => 2333,
-                'users_id' => 3674,
+                'user_id' => 3674,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30359,7 +30359,7 @@ class AdmCargosTableSeeder extends Seeder
             333 => 
             array (
                 'id' => 2334,
-                'users_id' => 3675,
+                'user_id' => 3675,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30372,7 +30372,7 @@ class AdmCargosTableSeeder extends Seeder
             334 => 
             array (
                 'id' => 2335,
-                'users_id' => 3676,
+                'user_id' => 3676,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30385,7 +30385,7 @@ class AdmCargosTableSeeder extends Seeder
             335 => 
             array (
                 'id' => 2336,
-                'users_id' => 3677,
+                'user_id' => 3677,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30398,7 +30398,7 @@ class AdmCargosTableSeeder extends Seeder
             336 => 
             array (
                 'id' => 2337,
-                'users_id' => 3678,
+                'user_id' => 3678,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30411,7 +30411,7 @@ class AdmCargosTableSeeder extends Seeder
             337 => 
             array (
                 'id' => 2338,
-                'users_id' => 3679,
+                'user_id' => 3679,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30424,7 +30424,7 @@ class AdmCargosTableSeeder extends Seeder
             338 => 
             array (
                 'id' => 2339,
-                'users_id' => 3680,
+                'user_id' => 3680,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -30437,7 +30437,7 @@ class AdmCargosTableSeeder extends Seeder
             339 => 
             array (
                 'id' => 2340,
-                'users_id' => 3681,
+                'user_id' => 3681,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30450,7 +30450,7 @@ class AdmCargosTableSeeder extends Seeder
             340 => 
             array (
                 'id' => 2341,
-                'users_id' => 3682,
+                'user_id' => 3682,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30463,7 +30463,7 @@ class AdmCargosTableSeeder extends Seeder
             341 => 
             array (
                 'id' => 2342,
-                'users_id' => 3683,
+                'user_id' => 3683,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30476,7 +30476,7 @@ class AdmCargosTableSeeder extends Seeder
             342 => 
             array (
                 'id' => 2343,
-                'users_id' => 3684,
+                'user_id' => 3684,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30489,7 +30489,7 @@ class AdmCargosTableSeeder extends Seeder
             343 => 
             array (
                 'id' => 2344,
-                'users_id' => 3685,
+                'user_id' => 3685,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30502,7 +30502,7 @@ class AdmCargosTableSeeder extends Seeder
             344 => 
             array (
                 'id' => 2345,
-                'users_id' => 3687,
+                'user_id' => 3687,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30515,7 +30515,7 @@ class AdmCargosTableSeeder extends Seeder
             345 => 
             array (
                 'id' => 2346,
-                'users_id' => 3688,
+                'user_id' => 3688,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30528,7 +30528,7 @@ class AdmCargosTableSeeder extends Seeder
             346 => 
             array (
                 'id' => 2347,
-                'users_id' => 3689,
+                'user_id' => 3689,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30541,7 +30541,7 @@ class AdmCargosTableSeeder extends Seeder
             347 => 
             array (
                 'id' => 2348,
-                'users_id' => 3690,
+                'user_id' => 3690,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30554,7 +30554,7 @@ class AdmCargosTableSeeder extends Seeder
             348 => 
             array (
                 'id' => 2349,
-                'users_id' => 3691,
+                'user_id' => 3691,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -30567,7 +30567,7 @@ class AdmCargosTableSeeder extends Seeder
             349 => 
             array (
                 'id' => 2350,
-                'users_id' => 3692,
+                'user_id' => 3692,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -30580,7 +30580,7 @@ class AdmCargosTableSeeder extends Seeder
             350 => 
             array (
                 'id' => 2351,
-                'users_id' => 3693,
+                'user_id' => 3693,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30593,7 +30593,7 @@ class AdmCargosTableSeeder extends Seeder
             351 => 
             array (
                 'id' => 2352,
-                'users_id' => 3694,
+                'user_id' => 3694,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30606,7 +30606,7 @@ class AdmCargosTableSeeder extends Seeder
             352 => 
             array (
                 'id' => 2353,
-                'users_id' => 3695,
+                'user_id' => 3695,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30619,7 +30619,7 @@ class AdmCargosTableSeeder extends Seeder
             353 => 
             array (
                 'id' => 2354,
-                'users_id' => 3697,
+                'user_id' => 3697,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30632,7 +30632,7 @@ class AdmCargosTableSeeder extends Seeder
             354 => 
             array (
                 'id' => 2355,
-                'users_id' => 3698,
+                'user_id' => 3698,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30645,7 +30645,7 @@ class AdmCargosTableSeeder extends Seeder
             355 => 
             array (
                 'id' => 2356,
-                'users_id' => 3699,
+                'user_id' => 3699,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30658,7 +30658,7 @@ class AdmCargosTableSeeder extends Seeder
             356 => 
             array (
                 'id' => 2357,
-                'users_id' => 3700,
+                'user_id' => 3700,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30671,7 +30671,7 @@ class AdmCargosTableSeeder extends Seeder
             357 => 
             array (
                 'id' => 2358,
-                'users_id' => 3701,
+                'user_id' => 3701,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30684,7 +30684,7 @@ class AdmCargosTableSeeder extends Seeder
             358 => 
             array (
                 'id' => 2359,
-                'users_id' => 3702,
+                'user_id' => 3702,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30697,7 +30697,7 @@ class AdmCargosTableSeeder extends Seeder
             359 => 
             array (
                 'id' => 2360,
-                'users_id' => 3703,
+                'user_id' => 3703,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30710,7 +30710,7 @@ class AdmCargosTableSeeder extends Seeder
             360 => 
             array (
                 'id' => 2361,
-                'users_id' => 3704,
+                'user_id' => 3704,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE REGIONAL',
                 'descripcion' => '',
@@ -30723,7 +30723,7 @@ class AdmCargosTableSeeder extends Seeder
             361 => 
             array (
                 'id' => 2362,
-                'users_id' => 3705,
+                'user_id' => 3705,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30736,7 +30736,7 @@ class AdmCargosTableSeeder extends Seeder
             362 => 
             array (
                 'id' => 2363,
-                'users_id' => 3706,
+                'user_id' => 3706,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30749,7 +30749,7 @@ class AdmCargosTableSeeder extends Seeder
             363 => 
             array (
                 'id' => 2364,
-                'users_id' => 3707,
+                'user_id' => 3707,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30762,7 +30762,7 @@ class AdmCargosTableSeeder extends Seeder
             364 => 
             array (
                 'id' => 2365,
-                'users_id' => 3708,
+                'user_id' => 3708,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30775,7 +30775,7 @@ class AdmCargosTableSeeder extends Seeder
             365 => 
             array (
                 'id' => 2366,
-                'users_id' => 3709,
+                'user_id' => 3709,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30788,7 +30788,7 @@ class AdmCargosTableSeeder extends Seeder
             366 => 
             array (
                 'id' => 2367,
-                'users_id' => 3710,
+                'user_id' => 3710,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30801,7 +30801,7 @@ class AdmCargosTableSeeder extends Seeder
             367 => 
             array (
                 'id' => 2368,
-                'users_id' => 3711,
+                'user_id' => 3711,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30814,7 +30814,7 @@ class AdmCargosTableSeeder extends Seeder
             368 => 
             array (
                 'id' => 2369,
-                'users_id' => 3712,
+                'user_id' => 3712,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30827,7 +30827,7 @@ class AdmCargosTableSeeder extends Seeder
             369 => 
             array (
                 'id' => 2370,
-                'users_id' => 3713,
+                'user_id' => 3713,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30840,7 +30840,7 @@ class AdmCargosTableSeeder extends Seeder
             370 => 
             array (
                 'id' => 2371,
-                'users_id' => 3714,
+                'user_id' => 3714,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30853,7 +30853,7 @@ class AdmCargosTableSeeder extends Seeder
             371 => 
             array (
                 'id' => 2372,
-                'users_id' => 3715,
+                'user_id' => 3715,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -30866,7 +30866,7 @@ class AdmCargosTableSeeder extends Seeder
             372 => 
             array (
                 'id' => 2373,
-                'users_id' => 3716,
+                'user_id' => 3716,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30879,7 +30879,7 @@ class AdmCargosTableSeeder extends Seeder
             373 => 
             array (
                 'id' => 2374,
-                'users_id' => 3718,
+                'user_id' => 3718,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -30892,7 +30892,7 @@ class AdmCargosTableSeeder extends Seeder
             374 => 
             array (
                 'id' => 2375,
-                'users_id' => 3719,
+                'user_id' => 3719,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30905,7 +30905,7 @@ class AdmCargosTableSeeder extends Seeder
             375 => 
             array (
                 'id' => 2376,
-                'users_id' => 3720,
+                'user_id' => 3720,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30918,7 +30918,7 @@ class AdmCargosTableSeeder extends Seeder
             376 => 
             array (
                 'id' => 2377,
-                'users_id' => 3721,
+                'user_id' => 3721,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30931,7 +30931,7 @@ class AdmCargosTableSeeder extends Seeder
             377 => 
             array (
                 'id' => 2378,
-                'users_id' => 3722,
+                'user_id' => 3722,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -30944,7 +30944,7 @@ class AdmCargosTableSeeder extends Seeder
             378 => 
             array (
                 'id' => 2379,
-                'users_id' => 3723,
+                'user_id' => 3723,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30957,7 +30957,7 @@ class AdmCargosTableSeeder extends Seeder
             379 => 
             array (
                 'id' => 2380,
-                'users_id' => 3725,
+                'user_id' => 3725,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30970,7 +30970,7 @@ class AdmCargosTableSeeder extends Seeder
             380 => 
             array (
                 'id' => 2381,
-                'users_id' => 3726,
+                'user_id' => 3726,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30983,7 +30983,7 @@ class AdmCargosTableSeeder extends Seeder
             381 => 
             array (
                 'id' => 2382,
-                'users_id' => 3727,
+                'user_id' => 3727,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -30996,7 +30996,7 @@ class AdmCargosTableSeeder extends Seeder
             382 => 
             array (
                 'id' => 2383,
-                'users_id' => 3728,
+                'user_id' => 3728,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31009,7 +31009,7 @@ class AdmCargosTableSeeder extends Seeder
             383 => 
             array (
                 'id' => 2384,
-                'users_id' => 3729,
+                'user_id' => 3729,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31022,7 +31022,7 @@ class AdmCargosTableSeeder extends Seeder
             384 => 
             array (
                 'id' => 2385,
-                'users_id' => 3731,
+                'user_id' => 3731,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31035,7 +31035,7 @@ class AdmCargosTableSeeder extends Seeder
             385 => 
             array (
                 'id' => 2386,
-                'users_id' => 3732,
+                'user_id' => 3732,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31048,7 +31048,7 @@ class AdmCargosTableSeeder extends Seeder
             386 => 
             array (
                 'id' => 2387,
-                'users_id' => 3733,
+                'user_id' => 3733,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31061,7 +31061,7 @@ class AdmCargosTableSeeder extends Seeder
             387 => 
             array (
                 'id' => 2388,
-                'users_id' => 3734,
+                'user_id' => 3734,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -31074,7 +31074,7 @@ class AdmCargosTableSeeder extends Seeder
             388 => 
             array (
                 'id' => 2389,
-                'users_id' => 3735,
+                'user_id' => 3735,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31087,7 +31087,7 @@ class AdmCargosTableSeeder extends Seeder
             389 => 
             array (
                 'id' => 2390,
-                'users_id' => 3736,
+                'user_id' => 3736,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31100,7 +31100,7 @@ class AdmCargosTableSeeder extends Seeder
             390 => 
             array (
                 'id' => 2391,
-                'users_id' => 3737,
+                'user_id' => 3737,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -31113,7 +31113,7 @@ class AdmCargosTableSeeder extends Seeder
             391 => 
             array (
                 'id' => 2392,
-                'users_id' => 3738,
+                'user_id' => 3738,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31126,7 +31126,7 @@ class AdmCargosTableSeeder extends Seeder
             392 => 
             array (
                 'id' => 2393,
-                'users_id' => 3739,
+                'user_id' => 3739,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31139,7 +31139,7 @@ class AdmCargosTableSeeder extends Seeder
             393 => 
             array (
                 'id' => 2394,
-                'users_id' => 3740,
+                'user_id' => 3740,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31152,7 +31152,7 @@ class AdmCargosTableSeeder extends Seeder
             394 => 
             array (
                 'id' => 2395,
-                'users_id' => 3741,
+                'user_id' => 3741,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31165,7 +31165,7 @@ class AdmCargosTableSeeder extends Seeder
             395 => 
             array (
                 'id' => 2396,
-                'users_id' => 3742,
+                'user_id' => 3742,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31178,7 +31178,7 @@ class AdmCargosTableSeeder extends Seeder
             396 => 
             array (
                 'id' => 2397,
-                'users_id' => 3743,
+                'user_id' => 3743,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31191,7 +31191,7 @@ class AdmCargosTableSeeder extends Seeder
             397 => 
             array (
                 'id' => 2398,
-                'users_id' => 3744,
+                'user_id' => 3744,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -31204,7 +31204,7 @@ class AdmCargosTableSeeder extends Seeder
             398 => 
             array (
                 'id' => 2399,
-                'users_id' => 3745,
+                'user_id' => 3745,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31217,7 +31217,7 @@ class AdmCargosTableSeeder extends Seeder
             399 => 
             array (
                 'id' => 2400,
-                'users_id' => 3746,
+                'user_id' => 3746,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31230,7 +31230,7 @@ class AdmCargosTableSeeder extends Seeder
             400 => 
             array (
                 'id' => 2401,
-                'users_id' => 3747,
+                'user_id' => 3747,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31243,7 +31243,7 @@ class AdmCargosTableSeeder extends Seeder
             401 => 
             array (
                 'id' => 2402,
-                'users_id' => 3748,
+                'user_id' => 3748,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31256,7 +31256,7 @@ class AdmCargosTableSeeder extends Seeder
             402 => 
             array (
                 'id' => 2403,
-                'users_id' => 3749,
+                'user_id' => 3749,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31269,7 +31269,7 @@ class AdmCargosTableSeeder extends Seeder
             403 => 
             array (
                 'id' => 2404,
-                'users_id' => 3750,
+                'user_id' => 3750,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31282,7 +31282,7 @@ class AdmCargosTableSeeder extends Seeder
             404 => 
             array (
                 'id' => 2405,
-                'users_id' => 3751,
+                'user_id' => 3751,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31295,7 +31295,7 @@ class AdmCargosTableSeeder extends Seeder
             405 => 
             array (
                 'id' => 2406,
-                'users_id' => 3752,
+                'user_id' => 3752,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31308,7 +31308,7 @@ class AdmCargosTableSeeder extends Seeder
             406 => 
             array (
                 'id' => 2407,
-                'users_id' => 3753,
+                'user_id' => 3753,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31321,7 +31321,7 @@ class AdmCargosTableSeeder extends Seeder
             407 => 
             array (
                 'id' => 2408,
-                'users_id' => 3754,
+                'user_id' => 3754,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31334,7 +31334,7 @@ class AdmCargosTableSeeder extends Seeder
             408 => 
             array (
                 'id' => 2409,
-                'users_id' => 3755,
+                'user_id' => 3755,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31347,7 +31347,7 @@ class AdmCargosTableSeeder extends Seeder
             409 => 
             array (
                 'id' => 2410,
-                'users_id' => 3756,
+                'user_id' => 3756,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31360,7 +31360,7 @@ class AdmCargosTableSeeder extends Seeder
             410 => 
             array (
                 'id' => 2411,
-                'users_id' => 3757,
+                'user_id' => 3757,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31373,7 +31373,7 @@ class AdmCargosTableSeeder extends Seeder
             411 => 
             array (
                 'id' => 2412,
-                'users_id' => 3758,
+                'user_id' => 3758,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31386,7 +31386,7 @@ class AdmCargosTableSeeder extends Seeder
             412 => 
             array (
                 'id' => 2413,
-                'users_id' => 3759,
+                'user_id' => 3759,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31399,7 +31399,7 @@ class AdmCargosTableSeeder extends Seeder
             413 => 
             array (
                 'id' => 2414,
-                'users_id' => 3760,
+                'user_id' => 3760,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31412,7 +31412,7 @@ class AdmCargosTableSeeder extends Seeder
             414 => 
             array (
                 'id' => 2415,
-                'users_id' => 3761,
+                'user_id' => 3761,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31425,7 +31425,7 @@ class AdmCargosTableSeeder extends Seeder
             415 => 
             array (
                 'id' => 2416,
-                'users_id' => 3762,
+                'user_id' => 3762,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31438,7 +31438,7 @@ class AdmCargosTableSeeder extends Seeder
             416 => 
             array (
                 'id' => 2417,
-                'users_id' => 3763,
+                'user_id' => 3763,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31451,7 +31451,7 @@ class AdmCargosTableSeeder extends Seeder
             417 => 
             array (
                 'id' => 2418,
-                'users_id' => 3764,
+                'user_id' => 3764,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31464,7 +31464,7 @@ class AdmCargosTableSeeder extends Seeder
             418 => 
             array (
                 'id' => 2419,
-                'users_id' => 3765,
+                'user_id' => 3765,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31477,7 +31477,7 @@ class AdmCargosTableSeeder extends Seeder
             419 => 
             array (
                 'id' => 2420,
-                'users_id' => 3766,
+                'user_id' => 3766,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31490,7 +31490,7 @@ class AdmCargosTableSeeder extends Seeder
             420 => 
             array (
                 'id' => 2421,
-                'users_id' => 3767,
+                'user_id' => 3767,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31503,7 +31503,7 @@ class AdmCargosTableSeeder extends Seeder
             421 => 
             array (
                 'id' => 2422,
-                'users_id' => 3768,
+                'user_id' => 3768,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31516,7 +31516,7 @@ class AdmCargosTableSeeder extends Seeder
             422 => 
             array (
                 'id' => 2423,
-                'users_id' => 3769,
+                'user_id' => 3769,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31529,7 +31529,7 @@ class AdmCargosTableSeeder extends Seeder
             423 => 
             array (
                 'id' => 2424,
-                'users_id' => 3770,
+                'user_id' => 3770,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31542,7 +31542,7 @@ class AdmCargosTableSeeder extends Seeder
             424 => 
             array (
                 'id' => 2425,
-                'users_id' => 3771,
+                'user_id' => 3771,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31555,7 +31555,7 @@ class AdmCargosTableSeeder extends Seeder
             425 => 
             array (
                 'id' => 2426,
-                'users_id' => 3772,
+                'user_id' => 3772,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31568,7 +31568,7 @@ class AdmCargosTableSeeder extends Seeder
             426 => 
             array (
                 'id' => 2427,
-                'users_id' => 3773,
+                'user_id' => 3773,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -31581,7 +31581,7 @@ class AdmCargosTableSeeder extends Seeder
             427 => 
             array (
                 'id' => 2428,
-                'users_id' => 3774,
+                'user_id' => 3774,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31594,7 +31594,7 @@ class AdmCargosTableSeeder extends Seeder
             428 => 
             array (
                 'id' => 2429,
-                'users_id' => 3775,
+                'user_id' => 3775,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31607,7 +31607,7 @@ class AdmCargosTableSeeder extends Seeder
             429 => 
             array (
                 'id' => 2430,
-                'users_id' => 3777,
+                'user_id' => 3777,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31620,7 +31620,7 @@ class AdmCargosTableSeeder extends Seeder
             430 => 
             array (
                 'id' => 2431,
-                'users_id' => 3778,
+                'user_id' => 3778,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31633,7 +31633,7 @@ class AdmCargosTableSeeder extends Seeder
             431 => 
             array (
                 'id' => 2432,
-                'users_id' => 3779,
+                'user_id' => 3779,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31646,7 +31646,7 @@ class AdmCargosTableSeeder extends Seeder
             432 => 
             array (
                 'id' => 2433,
-                'users_id' => 3780,
+                'user_id' => 3780,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31659,7 +31659,7 @@ class AdmCargosTableSeeder extends Seeder
             433 => 
             array (
                 'id' => 2434,
-                'users_id' => 3781,
+                'user_id' => 3781,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31672,7 +31672,7 @@ class AdmCargosTableSeeder extends Seeder
             434 => 
             array (
                 'id' => 2435,
-                'users_id' => 3782,
+                'user_id' => 3782,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31685,7 +31685,7 @@ class AdmCargosTableSeeder extends Seeder
             435 => 
             array (
                 'id' => 2436,
-                'users_id' => 3783,
+                'user_id' => 3783,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31698,7 +31698,7 @@ class AdmCargosTableSeeder extends Seeder
             436 => 
             array (
                 'id' => 2437,
-                'users_id' => 3784,
+                'user_id' => 3784,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31711,7 +31711,7 @@ class AdmCargosTableSeeder extends Seeder
             437 => 
             array (
                 'id' => 2438,
-                'users_id' => 3785,
+                'user_id' => 3785,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31724,7 +31724,7 @@ class AdmCargosTableSeeder extends Seeder
             438 => 
             array (
                 'id' => 2439,
-                'users_id' => 3786,
+                'user_id' => 3786,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31737,7 +31737,7 @@ class AdmCargosTableSeeder extends Seeder
             439 => 
             array (
                 'id' => 2440,
-                'users_id' => 3787,
+                'user_id' => 3787,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31750,7 +31750,7 @@ class AdmCargosTableSeeder extends Seeder
             440 => 
             array (
                 'id' => 2441,
-                'users_id' => 3788,
+                'user_id' => 3788,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31763,7 +31763,7 @@ class AdmCargosTableSeeder extends Seeder
             441 => 
             array (
                 'id' => 2442,
-                'users_id' => 3789,
+                'user_id' => 3789,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31776,7 +31776,7 @@ class AdmCargosTableSeeder extends Seeder
             442 => 
             array (
                 'id' => 2443,
-                'users_id' => 3790,
+                'user_id' => 3790,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31789,7 +31789,7 @@ class AdmCargosTableSeeder extends Seeder
             443 => 
             array (
                 'id' => 2444,
-                'users_id' => 3792,
+                'user_id' => 3792,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31802,7 +31802,7 @@ class AdmCargosTableSeeder extends Seeder
             444 => 
             array (
                 'id' => 2445,
-                'users_id' => 3793,
+                'user_id' => 3793,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31815,7 +31815,7 @@ class AdmCargosTableSeeder extends Seeder
             445 => 
             array (
                 'id' => 2446,
-                'users_id' => 3794,
+                'user_id' => 3794,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31828,7 +31828,7 @@ class AdmCargosTableSeeder extends Seeder
             446 => 
             array (
                 'id' => 2447,
-                'users_id' => 3795,
+                'user_id' => 3795,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31841,7 +31841,7 @@ class AdmCargosTableSeeder extends Seeder
             447 => 
             array (
                 'id' => 2448,
-                'users_id' => 3796,
+                'user_id' => 3796,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31854,7 +31854,7 @@ class AdmCargosTableSeeder extends Seeder
             448 => 
             array (
                 'id' => 2449,
-                'users_id' => 3797,
+                'user_id' => 3797,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31867,7 +31867,7 @@ class AdmCargosTableSeeder extends Seeder
             449 => 
             array (
                 'id' => 2450,
-                'users_id' => 3798,
+                'user_id' => 3798,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31880,7 +31880,7 @@ class AdmCargosTableSeeder extends Seeder
             450 => 
             array (
                 'id' => 2451,
-                'users_id' => 3800,
+                'user_id' => 3800,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31893,7 +31893,7 @@ class AdmCargosTableSeeder extends Seeder
             451 => 
             array (
                 'id' => 2452,
-                'users_id' => 3801,
+                'user_id' => 3801,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31906,7 +31906,7 @@ class AdmCargosTableSeeder extends Seeder
             452 => 
             array (
                 'id' => 2453,
-                'users_id' => 3802,
+                'user_id' => 3802,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31919,7 +31919,7 @@ class AdmCargosTableSeeder extends Seeder
             453 => 
             array (
                 'id' => 2454,
-                'users_id' => 3803,
+                'user_id' => 3803,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -31932,7 +31932,7 @@ class AdmCargosTableSeeder extends Seeder
             454 => 
             array (
                 'id' => 2455,
-                'users_id' => 3804,
+                'user_id' => 3804,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31945,7 +31945,7 @@ class AdmCargosTableSeeder extends Seeder
             455 => 
             array (
                 'id' => 2456,
-                'users_id' => 3805,
+                'user_id' => 3805,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31958,7 +31958,7 @@ class AdmCargosTableSeeder extends Seeder
             456 => 
             array (
                 'id' => 2457,
-                'users_id' => 3806,
+                'user_id' => 3806,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31971,7 +31971,7 @@ class AdmCargosTableSeeder extends Seeder
             457 => 
             array (
                 'id' => 2458,
-                'users_id' => 3807,
+                'user_id' => 3807,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31984,7 +31984,7 @@ class AdmCargosTableSeeder extends Seeder
             458 => 
             array (
                 'id' => 2459,
-                'users_id' => 3808,
+                'user_id' => 3808,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -31997,7 +31997,7 @@ class AdmCargosTableSeeder extends Seeder
             459 => 
             array (
                 'id' => 2460,
-                'users_id' => 3810,
+                'user_id' => 3810,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32010,7 +32010,7 @@ class AdmCargosTableSeeder extends Seeder
             460 => 
             array (
                 'id' => 2461,
-                'users_id' => 3811,
+                'user_id' => 3811,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32023,7 +32023,7 @@ class AdmCargosTableSeeder extends Seeder
             461 => 
             array (
                 'id' => 2462,
-                'users_id' => 3812,
+                'user_id' => 3812,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32036,7 +32036,7 @@ class AdmCargosTableSeeder extends Seeder
             462 => 
             array (
                 'id' => 2463,
-                'users_id' => 3813,
+                'user_id' => 3813,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32049,7 +32049,7 @@ class AdmCargosTableSeeder extends Seeder
             463 => 
             array (
                 'id' => 2464,
-                'users_id' => 3814,
+                'user_id' => 3814,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -32062,7 +32062,7 @@ class AdmCargosTableSeeder extends Seeder
             464 => 
             array (
                 'id' => 2465,
-                'users_id' => 3815,
+                'user_id' => 3815,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -32075,7 +32075,7 @@ class AdmCargosTableSeeder extends Seeder
             465 => 
             array (
                 'id' => 2466,
-                'users_id' => 3816,
+                'user_id' => 3816,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32088,7 +32088,7 @@ class AdmCargosTableSeeder extends Seeder
             466 => 
             array (
                 'id' => 2467,
-                'users_id' => 3817,
+                'user_id' => 3817,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32101,7 +32101,7 @@ class AdmCargosTableSeeder extends Seeder
             467 => 
             array (
                 'id' => 2468,
-                'users_id' => 3819,
+                'user_id' => 3819,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32114,7 +32114,7 @@ class AdmCargosTableSeeder extends Seeder
             468 => 
             array (
                 'id' => 2469,
-                'users_id' => 3820,
+                'user_id' => 3820,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32127,7 +32127,7 @@ class AdmCargosTableSeeder extends Seeder
             469 => 
             array (
                 'id' => 2470,
-                'users_id' => 3821,
+                'user_id' => 3821,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32140,7 +32140,7 @@ class AdmCargosTableSeeder extends Seeder
             470 => 
             array (
                 'id' => 2471,
-                'users_id' => 3822,
+                'user_id' => 3822,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -32153,7 +32153,7 @@ class AdmCargosTableSeeder extends Seeder
             471 => 
             array (
                 'id' => 2472,
-                'users_id' => 3823,
+                'user_id' => 3823,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32166,7 +32166,7 @@ class AdmCargosTableSeeder extends Seeder
             472 => 
             array (
                 'id' => 2473,
-                'users_id' => 3824,
+                'user_id' => 3824,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32179,7 +32179,7 @@ class AdmCargosTableSeeder extends Seeder
             473 => 
             array (
                 'id' => 2474,
-                'users_id' => 3825,
+                'user_id' => 3825,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32192,7 +32192,7 @@ class AdmCargosTableSeeder extends Seeder
             474 => 
             array (
                 'id' => 2475,
-                'users_id' => 3826,
+                'user_id' => 3826,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32205,7 +32205,7 @@ class AdmCargosTableSeeder extends Seeder
             475 => 
             array (
                 'id' => 2476,
-                'users_id' => 3827,
+                'user_id' => 3827,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32218,7 +32218,7 @@ class AdmCargosTableSeeder extends Seeder
             476 => 
             array (
                 'id' => 2477,
-                'users_id' => 3828,
+                'user_id' => 3828,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32231,7 +32231,7 @@ class AdmCargosTableSeeder extends Seeder
             477 => 
             array (
                 'id' => 2478,
-                'users_id' => 3829,
+                'user_id' => 3829,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32244,7 +32244,7 @@ class AdmCargosTableSeeder extends Seeder
             478 => 
             array (
                 'id' => 2479,
-                'users_id' => 3830,
+                'user_id' => 3830,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32257,7 +32257,7 @@ class AdmCargosTableSeeder extends Seeder
             479 => 
             array (
                 'id' => 2480,
-                'users_id' => 3831,
+                'user_id' => 3831,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32270,7 +32270,7 @@ class AdmCargosTableSeeder extends Seeder
             480 => 
             array (
                 'id' => 2481,
-                'users_id' => 3832,
+                'user_id' => 3832,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32283,7 +32283,7 @@ class AdmCargosTableSeeder extends Seeder
             481 => 
             array (
                 'id' => 2482,
-                'users_id' => 3833,
+                'user_id' => 3833,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32296,7 +32296,7 @@ class AdmCargosTableSeeder extends Seeder
             482 => 
             array (
                 'id' => 2483,
-                'users_id' => 3834,
+                'user_id' => 3834,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32309,7 +32309,7 @@ class AdmCargosTableSeeder extends Seeder
             483 => 
             array (
                 'id' => 2484,
-                'users_id' => 3835,
+                'user_id' => 3835,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -32322,7 +32322,7 @@ class AdmCargosTableSeeder extends Seeder
             484 => 
             array (
                 'id' => 2485,
-                'users_id' => 3836,
+                'user_id' => 3836,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32335,7 +32335,7 @@ class AdmCargosTableSeeder extends Seeder
             485 => 
             array (
                 'id' => 2486,
-                'users_id' => 3837,
+                'user_id' => 3837,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32348,7 +32348,7 @@ class AdmCargosTableSeeder extends Seeder
             486 => 
             array (
                 'id' => 2487,
-                'users_id' => 3838,
+                'user_id' => 3838,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32361,7 +32361,7 @@ class AdmCargosTableSeeder extends Seeder
             487 => 
             array (
                 'id' => 2488,
-                'users_id' => 3839,
+                'user_id' => 3839,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32374,7 +32374,7 @@ class AdmCargosTableSeeder extends Seeder
             488 => 
             array (
                 'id' => 2489,
-                'users_id' => 3840,
+                'user_id' => 3840,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32387,7 +32387,7 @@ class AdmCargosTableSeeder extends Seeder
             489 => 
             array (
                 'id' => 2490,
-                'users_id' => 3841,
+                'user_id' => 3841,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32400,7 +32400,7 @@ class AdmCargosTableSeeder extends Seeder
             490 => 
             array (
                 'id' => 2491,
-                'users_id' => 3842,
+                'user_id' => 3842,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32413,7 +32413,7 @@ class AdmCargosTableSeeder extends Seeder
             491 => 
             array (
                 'id' => 2492,
-                'users_id' => 3843,
+                'user_id' => 3843,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32426,7 +32426,7 @@ class AdmCargosTableSeeder extends Seeder
             492 => 
             array (
                 'id' => 2493,
-                'users_id' => 3844,
+                'user_id' => 3844,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32439,7 +32439,7 @@ class AdmCargosTableSeeder extends Seeder
             493 => 
             array (
                 'id' => 2494,
-                'users_id' => 3845,
+                'user_id' => 3845,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE REGIONAL',
                 'descripcion' => '',
@@ -32452,7 +32452,7 @@ class AdmCargosTableSeeder extends Seeder
             494 => 
             array (
                 'id' => 2495,
-                'users_id' => 3847,
+                'user_id' => 3847,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32465,7 +32465,7 @@ class AdmCargosTableSeeder extends Seeder
             495 => 
             array (
                 'id' => 2496,
-                'users_id' => 3848,
+                'user_id' => 3848,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32478,7 +32478,7 @@ class AdmCargosTableSeeder extends Seeder
             496 => 
             array (
                 'id' => 2497,
-                'users_id' => 3849,
+                'user_id' => 3849,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -32491,7 +32491,7 @@ class AdmCargosTableSeeder extends Seeder
             497 => 
             array (
                 'id' => 2498,
-                'users_id' => 3850,
+                'user_id' => 3850,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32504,7 +32504,7 @@ class AdmCargosTableSeeder extends Seeder
             498 => 
             array (
                 'id' => 2499,
-                'users_id' => 3851,
+                'user_id' => 3851,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -32517,7 +32517,7 @@ class AdmCargosTableSeeder extends Seeder
             499 => 
             array (
                 'id' => 2500,
-                'users_id' => 3852,
+                'user_id' => 3852,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32532,7 +32532,7 @@ class AdmCargosTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 2501,
-                'users_id' => 3853,
+                'user_id' => 3853,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32545,7 +32545,7 @@ class AdmCargosTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 2502,
-                'users_id' => 3854,
+                'user_id' => 3854,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32558,7 +32558,7 @@ class AdmCargosTableSeeder extends Seeder
             2 => 
             array (
                 'id' => 2503,
-                'users_id' => 3855,
+                'user_id' => 3855,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32571,7 +32571,7 @@ class AdmCargosTableSeeder extends Seeder
             3 => 
             array (
                 'id' => 2504,
-                'users_id' => 3856,
+                'user_id' => 3856,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32584,7 +32584,7 @@ class AdmCargosTableSeeder extends Seeder
             4 => 
             array (
                 'id' => 2505,
-                'users_id' => 3858,
+                'user_id' => 3858,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32597,7 +32597,7 @@ class AdmCargosTableSeeder extends Seeder
             5 => 
             array (
                 'id' => 2506,
-                'users_id' => 3859,
+                'user_id' => 3859,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32610,7 +32610,7 @@ class AdmCargosTableSeeder extends Seeder
             6 => 
             array (
                 'id' => 2507,
-                'users_id' => 3860,
+                'user_id' => 3860,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32623,7 +32623,7 @@ class AdmCargosTableSeeder extends Seeder
             7 => 
             array (
                 'id' => 2508,
-                'users_id' => 3862,
+                'user_id' => 3862,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32636,7 +32636,7 @@ class AdmCargosTableSeeder extends Seeder
             8 => 
             array (
                 'id' => 2509,
-                'users_id' => 3863,
+                'user_id' => 3863,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32649,7 +32649,7 @@ class AdmCargosTableSeeder extends Seeder
             9 => 
             array (
                 'id' => 2510,
-                'users_id' => 3864,
+                'user_id' => 3864,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -32662,7 +32662,7 @@ class AdmCargosTableSeeder extends Seeder
             10 => 
             array (
                 'id' => 2511,
-                'users_id' => 3865,
+                'user_id' => 3865,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32675,7 +32675,7 @@ class AdmCargosTableSeeder extends Seeder
             11 => 
             array (
                 'id' => 2512,
-                'users_id' => 3866,
+                'user_id' => 3866,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32688,7 +32688,7 @@ class AdmCargosTableSeeder extends Seeder
             12 => 
             array (
                 'id' => 2513,
-                'users_id' => 3867,
+                'user_id' => 3867,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32701,7 +32701,7 @@ class AdmCargosTableSeeder extends Seeder
             13 => 
             array (
                 'id' => 2514,
-                'users_id' => 3868,
+                'user_id' => 3868,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32714,7 +32714,7 @@ class AdmCargosTableSeeder extends Seeder
             14 => 
             array (
                 'id' => 2515,
-                'users_id' => 3869,
+                'user_id' => 3869,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32727,7 +32727,7 @@ class AdmCargosTableSeeder extends Seeder
             15 => 
             array (
                 'id' => 2516,
-                'users_id' => 3870,
+                'user_id' => 3870,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32740,7 +32740,7 @@ class AdmCargosTableSeeder extends Seeder
             16 => 
             array (
                 'id' => 2517,
-                'users_id' => 3871,
+                'user_id' => 3871,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32753,7 +32753,7 @@ class AdmCargosTableSeeder extends Seeder
             17 => 
             array (
                 'id' => 2518,
-                'users_id' => 3872,
+                'user_id' => 3872,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32766,7 +32766,7 @@ class AdmCargosTableSeeder extends Seeder
             18 => 
             array (
                 'id' => 2519,
-                'users_id' => 3873,
+                'user_id' => 3873,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -32779,7 +32779,7 @@ class AdmCargosTableSeeder extends Seeder
             19 => 
             array (
                 'id' => 2520,
-                'users_id' => 3874,
+                'user_id' => 3874,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32792,7 +32792,7 @@ class AdmCargosTableSeeder extends Seeder
             20 => 
             array (
                 'id' => 2521,
-                'users_id' => 3875,
+                'user_id' => 3875,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32805,7 +32805,7 @@ class AdmCargosTableSeeder extends Seeder
             21 => 
             array (
                 'id' => 2522,
-                'users_id' => 3876,
+                'user_id' => 3876,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32818,7 +32818,7 @@ class AdmCargosTableSeeder extends Seeder
             22 => 
             array (
                 'id' => 2523,
-                'users_id' => 3877,
+                'user_id' => 3877,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32831,7 +32831,7 @@ class AdmCargosTableSeeder extends Seeder
             23 => 
             array (
                 'id' => 2524,
-                'users_id' => 3878,
+                'user_id' => 3878,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32844,7 +32844,7 @@ class AdmCargosTableSeeder extends Seeder
             24 => 
             array (
                 'id' => 2525,
-                'users_id' => 3879,
+                'user_id' => 3879,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32857,7 +32857,7 @@ class AdmCargosTableSeeder extends Seeder
             25 => 
             array (
                 'id' => 2526,
-                'users_id' => 3880,
+                'user_id' => 3880,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32870,7 +32870,7 @@ class AdmCargosTableSeeder extends Seeder
             26 => 
             array (
                 'id' => 2527,
-                'users_id' => 3881,
+                'user_id' => 3881,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32883,7 +32883,7 @@ class AdmCargosTableSeeder extends Seeder
             27 => 
             array (
                 'id' => 2528,
-                'users_id' => 3882,
+                'user_id' => 3882,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32896,7 +32896,7 @@ class AdmCargosTableSeeder extends Seeder
             28 => 
             array (
                 'id' => 2529,
-                'users_id' => 3883,
+                'user_id' => 3883,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32909,7 +32909,7 @@ class AdmCargosTableSeeder extends Seeder
             29 => 
             array (
                 'id' => 2530,
-                'users_id' => 3884,
+                'user_id' => 3884,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32922,7 +32922,7 @@ class AdmCargosTableSeeder extends Seeder
             30 => 
             array (
                 'id' => 2531,
-                'users_id' => 3885,
+                'user_id' => 3885,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32935,7 +32935,7 @@ class AdmCargosTableSeeder extends Seeder
             31 => 
             array (
                 'id' => 2532,
-                'users_id' => 3886,
+                'user_id' => 3886,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32948,7 +32948,7 @@ class AdmCargosTableSeeder extends Seeder
             32 => 
             array (
                 'id' => 2533,
-                'users_id' => 3887,
+                'user_id' => 3887,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -32961,7 +32961,7 @@ class AdmCargosTableSeeder extends Seeder
             33 => 
             array (
                 'id' => 2534,
-                'users_id' => 3888,
+                'user_id' => 3888,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32974,7 +32974,7 @@ class AdmCargosTableSeeder extends Seeder
             34 => 
             array (
                 'id' => 2535,
-                'users_id' => 3889,
+                'user_id' => 3889,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -32987,7 +32987,7 @@ class AdmCargosTableSeeder extends Seeder
             35 => 
             array (
                 'id' => 2536,
-                'users_id' => 3890,
+                'user_id' => 3890,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33000,7 +33000,7 @@ class AdmCargosTableSeeder extends Seeder
             36 => 
             array (
                 'id' => 2537,
-                'users_id' => 3891,
+                'user_id' => 3891,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33013,7 +33013,7 @@ class AdmCargosTableSeeder extends Seeder
             37 => 
             array (
                 'id' => 2538,
-                'users_id' => 3892,
+                'user_id' => 3892,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33026,7 +33026,7 @@ class AdmCargosTableSeeder extends Seeder
             38 => 
             array (
                 'id' => 2539,
-                'users_id' => 3893,
+                'user_id' => 3893,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33039,7 +33039,7 @@ class AdmCargosTableSeeder extends Seeder
             39 => 
             array (
                 'id' => 2540,
-                'users_id' => 3894,
+                'user_id' => 3894,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33052,7 +33052,7 @@ class AdmCargosTableSeeder extends Seeder
             40 => 
             array (
                 'id' => 2541,
-                'users_id' => 3896,
+                'user_id' => 3896,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33065,7 +33065,7 @@ class AdmCargosTableSeeder extends Seeder
             41 => 
             array (
                 'id' => 2542,
-                'users_id' => 3897,
+                'user_id' => 3897,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33078,7 +33078,7 @@ class AdmCargosTableSeeder extends Seeder
             42 => 
             array (
                 'id' => 2543,
-                'users_id' => 3898,
+                'user_id' => 3898,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33091,7 +33091,7 @@ class AdmCargosTableSeeder extends Seeder
             43 => 
             array (
                 'id' => 2544,
-                'users_id' => 3899,
+                'user_id' => 3899,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33104,7 +33104,7 @@ class AdmCargosTableSeeder extends Seeder
             44 => 
             array (
                 'id' => 2545,
-                'users_id' => 3900,
+                'user_id' => 3900,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33117,7 +33117,7 @@ class AdmCargosTableSeeder extends Seeder
             45 => 
             array (
                 'id' => 2546,
-                'users_id' => 3901,
+                'user_id' => 3901,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33130,7 +33130,7 @@ class AdmCargosTableSeeder extends Seeder
             46 => 
             array (
                 'id' => 2547,
-                'users_id' => 3902,
+                'user_id' => 3902,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -33143,7 +33143,7 @@ class AdmCargosTableSeeder extends Seeder
             47 => 
             array (
                 'id' => 2548,
-                'users_id' => 3903,
+                'user_id' => 3903,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33156,7 +33156,7 @@ class AdmCargosTableSeeder extends Seeder
             48 => 
             array (
                 'id' => 2549,
-                'users_id' => 3904,
+                'user_id' => 3904,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33169,7 +33169,7 @@ class AdmCargosTableSeeder extends Seeder
             49 => 
             array (
                 'id' => 2550,
-                'users_id' => 3905,
+                'user_id' => 3905,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33182,7 +33182,7 @@ class AdmCargosTableSeeder extends Seeder
             50 => 
             array (
                 'id' => 2551,
-                'users_id' => 3906,
+                'user_id' => 3906,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33195,7 +33195,7 @@ class AdmCargosTableSeeder extends Seeder
             51 => 
             array (
                 'id' => 2552,
-                'users_id' => 3908,
+                'user_id' => 3908,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33208,7 +33208,7 @@ class AdmCargosTableSeeder extends Seeder
             52 => 
             array (
                 'id' => 2553,
-                'users_id' => 3909,
+                'user_id' => 3909,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33221,7 +33221,7 @@ class AdmCargosTableSeeder extends Seeder
             53 => 
             array (
                 'id' => 2554,
-                'users_id' => 3910,
+                'user_id' => 3910,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33234,7 +33234,7 @@ class AdmCargosTableSeeder extends Seeder
             54 => 
             array (
                 'id' => 2555,
-                'users_id' => 3911,
+                'user_id' => 3911,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33247,7 +33247,7 @@ class AdmCargosTableSeeder extends Seeder
             55 => 
             array (
                 'id' => 2556,
-                'users_id' => 3912,
+                'user_id' => 3912,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33260,7 +33260,7 @@ class AdmCargosTableSeeder extends Seeder
             56 => 
             array (
                 'id' => 2557,
-                'users_id' => 3913,
+                'user_id' => 3913,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33273,7 +33273,7 @@ class AdmCargosTableSeeder extends Seeder
             57 => 
             array (
                 'id' => 2558,
-                'users_id' => 3914,
+                'user_id' => 3914,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33286,7 +33286,7 @@ class AdmCargosTableSeeder extends Seeder
             58 => 
             array (
                 'id' => 2559,
-                'users_id' => 3915,
+                'user_id' => 3915,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33299,7 +33299,7 @@ class AdmCargosTableSeeder extends Seeder
             59 => 
             array (
                 'id' => 2560,
-                'users_id' => 3916,
+                'user_id' => 3916,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -33312,7 +33312,7 @@ class AdmCargosTableSeeder extends Seeder
             60 => 
             array (
                 'id' => 2561,
-                'users_id' => 3917,
+                'user_id' => 3917,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33325,7 +33325,7 @@ class AdmCargosTableSeeder extends Seeder
             61 => 
             array (
                 'id' => 2562,
-                'users_id' => 3918,
+                'user_id' => 3918,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33338,7 +33338,7 @@ class AdmCargosTableSeeder extends Seeder
             62 => 
             array (
                 'id' => 2563,
-                'users_id' => 3919,
+                'user_id' => 3919,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33351,7 +33351,7 @@ class AdmCargosTableSeeder extends Seeder
             63 => 
             array (
                 'id' => 2564,
-                'users_id' => 3920,
+                'user_id' => 3920,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33364,7 +33364,7 @@ class AdmCargosTableSeeder extends Seeder
             64 => 
             array (
                 'id' => 2565,
-                'users_id' => 3921,
+                'user_id' => 3921,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33377,7 +33377,7 @@ class AdmCargosTableSeeder extends Seeder
             65 => 
             array (
                 'id' => 2566,
-                'users_id' => 3922,
+                'user_id' => 3922,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33390,7 +33390,7 @@ class AdmCargosTableSeeder extends Seeder
             66 => 
             array (
                 'id' => 2567,
-                'users_id' => 3923,
+                'user_id' => 3923,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33403,7 +33403,7 @@ class AdmCargosTableSeeder extends Seeder
             67 => 
             array (
                 'id' => 2568,
-                'users_id' => 3925,
+                'user_id' => 3925,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33416,7 +33416,7 @@ class AdmCargosTableSeeder extends Seeder
             68 => 
             array (
                 'id' => 2569,
-                'users_id' => 3926,
+                'user_id' => 3926,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE REGIONAL',
                 'descripcion' => '',
@@ -33429,7 +33429,7 @@ class AdmCargosTableSeeder extends Seeder
             69 => 
             array (
                 'id' => 2570,
-                'users_id' => 3927,
+                'user_id' => 3927,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33442,7 +33442,7 @@ class AdmCargosTableSeeder extends Seeder
             70 => 
             array (
                 'id' => 2571,
-                'users_id' => 3928,
+                'user_id' => 3928,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33455,7 +33455,7 @@ class AdmCargosTableSeeder extends Seeder
             71 => 
             array (
                 'id' => 2572,
-                'users_id' => 3929,
+                'user_id' => 3929,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33468,7 +33468,7 @@ class AdmCargosTableSeeder extends Seeder
             72 => 
             array (
                 'id' => 2573,
-                'users_id' => 3930,
+                'user_id' => 3930,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33481,7 +33481,7 @@ class AdmCargosTableSeeder extends Seeder
             73 => 
             array (
                 'id' => 2574,
-                'users_id' => 3931,
+                'user_id' => 3931,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33494,7 +33494,7 @@ class AdmCargosTableSeeder extends Seeder
             74 => 
             array (
                 'id' => 2575,
-                'users_id' => 3932,
+                'user_id' => 3932,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33507,7 +33507,7 @@ class AdmCargosTableSeeder extends Seeder
             75 => 
             array (
                 'id' => 2576,
-                'users_id' => 3933,
+                'user_id' => 3933,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33520,7 +33520,7 @@ class AdmCargosTableSeeder extends Seeder
             76 => 
             array (
                 'id' => 2577,
-                'users_id' => 3934,
+                'user_id' => 3934,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33533,7 +33533,7 @@ class AdmCargosTableSeeder extends Seeder
             77 => 
             array (
                 'id' => 2578,
-                'users_id' => 3935,
+                'user_id' => 3935,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33546,7 +33546,7 @@ class AdmCargosTableSeeder extends Seeder
             78 => 
             array (
                 'id' => 2579,
-                'users_id' => 3936,
+                'user_id' => 3936,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33559,7 +33559,7 @@ class AdmCargosTableSeeder extends Seeder
             79 => 
             array (
                 'id' => 2580,
-                'users_id' => 3937,
+                'user_id' => 3937,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33572,7 +33572,7 @@ class AdmCargosTableSeeder extends Seeder
             80 => 
             array (
                 'id' => 2581,
-                'users_id' => 3938,
+                'user_id' => 3938,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33585,7 +33585,7 @@ class AdmCargosTableSeeder extends Seeder
             81 => 
             array (
                 'id' => 2582,
-                'users_id' => 3939,
+                'user_id' => 3939,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33598,7 +33598,7 @@ class AdmCargosTableSeeder extends Seeder
             82 => 
             array (
                 'id' => 2583,
-                'users_id' => 3940,
+                'user_id' => 3940,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33611,7 +33611,7 @@ class AdmCargosTableSeeder extends Seeder
             83 => 
             array (
                 'id' => 2584,
-                'users_id' => 3941,
+                'user_id' => 3941,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33624,7 +33624,7 @@ class AdmCargosTableSeeder extends Seeder
             84 => 
             array (
                 'id' => 2585,
-                'users_id' => 3942,
+                'user_id' => 3942,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33637,7 +33637,7 @@ class AdmCargosTableSeeder extends Seeder
             85 => 
             array (
                 'id' => 2586,
-                'users_id' => 3943,
+                'user_id' => 3943,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33650,7 +33650,7 @@ class AdmCargosTableSeeder extends Seeder
             86 => 
             array (
                 'id' => 2587,
-                'users_id' => 3944,
+                'user_id' => 3944,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33663,7 +33663,7 @@ class AdmCargosTableSeeder extends Seeder
             87 => 
             array (
                 'id' => 2588,
-                'users_id' => 3945,
+                'user_id' => 3945,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -33676,7 +33676,7 @@ class AdmCargosTableSeeder extends Seeder
             88 => 
             array (
                 'id' => 2589,
-                'users_id' => 3946,
+                'user_id' => 3946,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33689,7 +33689,7 @@ class AdmCargosTableSeeder extends Seeder
             89 => 
             array (
                 'id' => 2590,
-                'users_id' => 3947,
+                'user_id' => 3947,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33702,7 +33702,7 @@ class AdmCargosTableSeeder extends Seeder
             90 => 
             array (
                 'id' => 2591,
-                'users_id' => 3948,
+                'user_id' => 3948,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33715,7 +33715,7 @@ class AdmCargosTableSeeder extends Seeder
             91 => 
             array (
                 'id' => 2592,
-                'users_id' => 3949,
+                'user_id' => 3949,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33728,7 +33728,7 @@ class AdmCargosTableSeeder extends Seeder
             92 => 
             array (
                 'id' => 2593,
-                'users_id' => 3950,
+                'user_id' => 3950,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33741,7 +33741,7 @@ class AdmCargosTableSeeder extends Seeder
             93 => 
             array (
                 'id' => 2594,
-                'users_id' => 3951,
+                'user_id' => 3951,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -33754,7 +33754,7 @@ class AdmCargosTableSeeder extends Seeder
             94 => 
             array (
                 'id' => 2595,
-                'users_id' => 3952,
+                'user_id' => 3952,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33767,7 +33767,7 @@ class AdmCargosTableSeeder extends Seeder
             95 => 
             array (
                 'id' => 2596,
-                'users_id' => 3953,
+                'user_id' => 3953,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33780,7 +33780,7 @@ class AdmCargosTableSeeder extends Seeder
             96 => 
             array (
                 'id' => 2597,
-                'users_id' => 3954,
+                'user_id' => 3954,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33793,7 +33793,7 @@ class AdmCargosTableSeeder extends Seeder
             97 => 
             array (
                 'id' => 2598,
-                'users_id' => 3955,
+                'user_id' => 3955,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33806,7 +33806,7 @@ class AdmCargosTableSeeder extends Seeder
             98 => 
             array (
                 'id' => 2599,
-                'users_id' => 3956,
+                'user_id' => 3956,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33819,7 +33819,7 @@ class AdmCargosTableSeeder extends Seeder
             99 => 
             array (
                 'id' => 2600,
-                'users_id' => 3957,
+                'user_id' => 3957,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33832,7 +33832,7 @@ class AdmCargosTableSeeder extends Seeder
             100 => 
             array (
                 'id' => 2601,
-                'users_id' => 3958,
+                'user_id' => 3958,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33845,7 +33845,7 @@ class AdmCargosTableSeeder extends Seeder
             101 => 
             array (
                 'id' => 2602,
-                'users_id' => 3959,
+                'user_id' => 3959,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33858,7 +33858,7 @@ class AdmCargosTableSeeder extends Seeder
             102 => 
             array (
                 'id' => 2603,
-                'users_id' => 3960,
+                'user_id' => 3960,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33871,7 +33871,7 @@ class AdmCargosTableSeeder extends Seeder
             103 => 
             array (
                 'id' => 2604,
-                'users_id' => 3961,
+                'user_id' => 3961,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33884,7 +33884,7 @@ class AdmCargosTableSeeder extends Seeder
             104 => 
             array (
                 'id' => 2605,
-                'users_id' => 3962,
+                'user_id' => 3962,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33897,7 +33897,7 @@ class AdmCargosTableSeeder extends Seeder
             105 => 
             array (
                 'id' => 2606,
-                'users_id' => 3963,
+                'user_id' => 3963,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -33910,7 +33910,7 @@ class AdmCargosTableSeeder extends Seeder
             106 => 
             array (
                 'id' => 2607,
-                'users_id' => 3964,
+                'user_id' => 3964,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33923,7 +33923,7 @@ class AdmCargosTableSeeder extends Seeder
             107 => 
             array (
                 'id' => 2608,
-                'users_id' => 3965,
+                'user_id' => 3965,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33936,7 +33936,7 @@ class AdmCargosTableSeeder extends Seeder
             108 => 
             array (
                 'id' => 2609,
-                'users_id' => 3966,
+                'user_id' => 3966,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33949,7 +33949,7 @@ class AdmCargosTableSeeder extends Seeder
             109 => 
             array (
                 'id' => 2610,
-                'users_id' => 3967,
+                'user_id' => 3967,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33962,7 +33962,7 @@ class AdmCargosTableSeeder extends Seeder
             110 => 
             array (
                 'id' => 2611,
-                'users_id' => 3968,
+                'user_id' => 3968,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33975,7 +33975,7 @@ class AdmCargosTableSeeder extends Seeder
             111 => 
             array (
                 'id' => 2612,
-                'users_id' => 3969,
+                'user_id' => 3969,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -33988,7 +33988,7 @@ class AdmCargosTableSeeder extends Seeder
             112 => 
             array (
                 'id' => 2613,
-                'users_id' => 3970,
+                'user_id' => 3970,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34001,7 +34001,7 @@ class AdmCargosTableSeeder extends Seeder
             113 => 
             array (
                 'id' => 2614,
-                'users_id' => 3971,
+                'user_id' => 3971,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34014,7 +34014,7 @@ class AdmCargosTableSeeder extends Seeder
             114 => 
             array (
                 'id' => 2615,
-                'users_id' => 3972,
+                'user_id' => 3972,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34027,7 +34027,7 @@ class AdmCargosTableSeeder extends Seeder
             115 => 
             array (
                 'id' => 2616,
-                'users_id' => 3973,
+                'user_id' => 3973,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -34040,7 +34040,7 @@ class AdmCargosTableSeeder extends Seeder
             116 => 
             array (
                 'id' => 2617,
-                'users_id' => 3974,
+                'user_id' => 3974,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34053,7 +34053,7 @@ class AdmCargosTableSeeder extends Seeder
             117 => 
             array (
                 'id' => 2618,
-                'users_id' => 3975,
+                'user_id' => 3975,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34066,7 +34066,7 @@ class AdmCargosTableSeeder extends Seeder
             118 => 
             array (
                 'id' => 2619,
-                'users_id' => 3976,
+                'user_id' => 3976,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34079,7 +34079,7 @@ class AdmCargosTableSeeder extends Seeder
             119 => 
             array (
                 'id' => 2620,
-                'users_id' => 3977,
+                'user_id' => 3977,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34092,7 +34092,7 @@ class AdmCargosTableSeeder extends Seeder
             120 => 
             array (
                 'id' => 2621,
-                'users_id' => 3978,
+                'user_id' => 3978,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34105,7 +34105,7 @@ class AdmCargosTableSeeder extends Seeder
             121 => 
             array (
                 'id' => 2622,
-                'users_id' => 3979,
+                'user_id' => 3979,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34118,7 +34118,7 @@ class AdmCargosTableSeeder extends Seeder
             122 => 
             array (
                 'id' => 2623,
-                'users_id' => 3980,
+                'user_id' => 3980,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34131,7 +34131,7 @@ class AdmCargosTableSeeder extends Seeder
             123 => 
             array (
                 'id' => 2624,
-                'users_id' => 3981,
+                'user_id' => 3981,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34144,7 +34144,7 @@ class AdmCargosTableSeeder extends Seeder
             124 => 
             array (
                 'id' => 2625,
-                'users_id' => 3982,
+                'user_id' => 3982,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34157,7 +34157,7 @@ class AdmCargosTableSeeder extends Seeder
             125 => 
             array (
                 'id' => 2626,
-                'users_id' => 3983,
+                'user_id' => 3983,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34170,7 +34170,7 @@ class AdmCargosTableSeeder extends Seeder
             126 => 
             array (
                 'id' => 2627,
-                'users_id' => 3984,
+                'user_id' => 3984,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE REGIONAL',
                 'descripcion' => '',
@@ -34183,7 +34183,7 @@ class AdmCargosTableSeeder extends Seeder
             127 => 
             array (
                 'id' => 2628,
-                'users_id' => 3985,
+                'user_id' => 3985,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34196,7 +34196,7 @@ class AdmCargosTableSeeder extends Seeder
             128 => 
             array (
                 'id' => 2629,
-                'users_id' => 3986,
+                'user_id' => 3986,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34209,7 +34209,7 @@ class AdmCargosTableSeeder extends Seeder
             129 => 
             array (
                 'id' => 2630,
-                'users_id' => 3987,
+                'user_id' => 3987,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34222,7 +34222,7 @@ class AdmCargosTableSeeder extends Seeder
             130 => 
             array (
                 'id' => 2631,
-                'users_id' => 3988,
+                'user_id' => 3988,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34235,7 +34235,7 @@ class AdmCargosTableSeeder extends Seeder
             131 => 
             array (
                 'id' => 2632,
-                'users_id' => 3989,
+                'user_id' => 3989,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34248,7 +34248,7 @@ class AdmCargosTableSeeder extends Seeder
             132 => 
             array (
                 'id' => 2633,
-                'users_id' => 3990,
+                'user_id' => 3990,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -34261,7 +34261,7 @@ class AdmCargosTableSeeder extends Seeder
             133 => 
             array (
                 'id' => 2634,
-                'users_id' => 3991,
+                'user_id' => 3991,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34274,7 +34274,7 @@ class AdmCargosTableSeeder extends Seeder
             134 => 
             array (
                 'id' => 2635,
-                'users_id' => 3992,
+                'user_id' => 3992,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34287,7 +34287,7 @@ class AdmCargosTableSeeder extends Seeder
             135 => 
             array (
                 'id' => 2636,
-                'users_id' => 3993,
+                'user_id' => 3993,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34300,7 +34300,7 @@ class AdmCargosTableSeeder extends Seeder
             136 => 
             array (
                 'id' => 2637,
-                'users_id' => 3994,
+                'user_id' => 3994,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34313,7 +34313,7 @@ class AdmCargosTableSeeder extends Seeder
             137 => 
             array (
                 'id' => 2638,
-                'users_id' => 3995,
+                'user_id' => 3995,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34326,7 +34326,7 @@ class AdmCargosTableSeeder extends Seeder
             138 => 
             array (
                 'id' => 2639,
-                'users_id' => 3996,
+                'user_id' => 3996,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34339,7 +34339,7 @@ class AdmCargosTableSeeder extends Seeder
             139 => 
             array (
                 'id' => 2640,
-                'users_id' => 3997,
+                'user_id' => 3997,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34352,7 +34352,7 @@ class AdmCargosTableSeeder extends Seeder
             140 => 
             array (
                 'id' => 2641,
-                'users_id' => 3998,
+                'user_id' => 3998,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34365,7 +34365,7 @@ class AdmCargosTableSeeder extends Seeder
             141 => 
             array (
                 'id' => 2642,
-                'users_id' => 3999,
+                'user_id' => 3999,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34378,7 +34378,7 @@ class AdmCargosTableSeeder extends Seeder
             142 => 
             array (
                 'id' => 2643,
-                'users_id' => 4000,
+                'user_id' => 4000,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34391,7 +34391,7 @@ class AdmCargosTableSeeder extends Seeder
             143 => 
             array (
                 'id' => 2644,
-                'users_id' => 4001,
+                'user_id' => 4001,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34404,7 +34404,7 @@ class AdmCargosTableSeeder extends Seeder
             144 => 
             array (
                 'id' => 2645,
-                'users_id' => 4002,
+                'user_id' => 4002,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34417,7 +34417,7 @@ class AdmCargosTableSeeder extends Seeder
             145 => 
             array (
                 'id' => 2646,
-                'users_id' => 4003,
+                'user_id' => 4003,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -34430,7 +34430,7 @@ class AdmCargosTableSeeder extends Seeder
             146 => 
             array (
                 'id' => 2647,
-                'users_id' => 4004,
+                'user_id' => 4004,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34443,7 +34443,7 @@ class AdmCargosTableSeeder extends Seeder
             147 => 
             array (
                 'id' => 2648,
-                'users_id' => 4005,
+                'user_id' => 4005,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34456,7 +34456,7 @@ class AdmCargosTableSeeder extends Seeder
             148 => 
             array (
                 'id' => 2649,
-                'users_id' => 4006,
+                'user_id' => 4006,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34469,7 +34469,7 @@ class AdmCargosTableSeeder extends Seeder
             149 => 
             array (
                 'id' => 2650,
-                'users_id' => 4009,
+                'user_id' => 4009,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34482,7 +34482,7 @@ class AdmCargosTableSeeder extends Seeder
             150 => 
             array (
                 'id' => 2651,
-                'users_id' => 4010,
+                'user_id' => 4010,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34495,7 +34495,7 @@ class AdmCargosTableSeeder extends Seeder
             151 => 
             array (
                 'id' => 2652,
-                'users_id' => 4011,
+                'user_id' => 4011,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34508,7 +34508,7 @@ class AdmCargosTableSeeder extends Seeder
             152 => 
             array (
                 'id' => 2653,
-                'users_id' => 4012,
+                'user_id' => 4012,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34521,7 +34521,7 @@ class AdmCargosTableSeeder extends Seeder
             153 => 
             array (
                 'id' => 2654,
-                'users_id' => 4013,
+                'user_id' => 4013,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34534,7 +34534,7 @@ class AdmCargosTableSeeder extends Seeder
             154 => 
             array (
                 'id' => 2655,
-                'users_id' => 4014,
+                'user_id' => 4014,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34547,7 +34547,7 @@ class AdmCargosTableSeeder extends Seeder
             155 => 
             array (
                 'id' => 2656,
-                'users_id' => 4015,
+                'user_id' => 4015,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34560,7 +34560,7 @@ class AdmCargosTableSeeder extends Seeder
             156 => 
             array (
                 'id' => 2657,
-                'users_id' => 4016,
+                'user_id' => 4016,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34573,7 +34573,7 @@ class AdmCargosTableSeeder extends Seeder
             157 => 
             array (
                 'id' => 2658,
-                'users_id' => 4017,
+                'user_id' => 4017,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34586,7 +34586,7 @@ class AdmCargosTableSeeder extends Seeder
             158 => 
             array (
                 'id' => 2659,
-                'users_id' => 4018,
+                'user_id' => 4018,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34599,7 +34599,7 @@ class AdmCargosTableSeeder extends Seeder
             159 => 
             array (
                 'id' => 2660,
-                'users_id' => 4019,
+                'user_id' => 4019,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34612,7 +34612,7 @@ class AdmCargosTableSeeder extends Seeder
             160 => 
             array (
                 'id' => 2661,
-                'users_id' => 4020,
+                'user_id' => 4020,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34625,7 +34625,7 @@ class AdmCargosTableSeeder extends Seeder
             161 => 
             array (
                 'id' => 2662,
-                'users_id' => 4021,
+                'user_id' => 4021,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34638,7 +34638,7 @@ class AdmCargosTableSeeder extends Seeder
             162 => 
             array (
                 'id' => 2663,
-                'users_id' => 4022,
+                'user_id' => 4022,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34651,7 +34651,7 @@ class AdmCargosTableSeeder extends Seeder
             163 => 
             array (
                 'id' => 2664,
-                'users_id' => 4023,
+                'user_id' => 4023,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34664,7 +34664,7 @@ class AdmCargosTableSeeder extends Seeder
             164 => 
             array (
                 'id' => 2665,
-                'users_id' => 4024,
+                'user_id' => 4024,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34677,7 +34677,7 @@ class AdmCargosTableSeeder extends Seeder
             165 => 
             array (
                 'id' => 2666,
-                'users_id' => 4025,
+                'user_id' => 4025,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34690,7 +34690,7 @@ class AdmCargosTableSeeder extends Seeder
             166 => 
             array (
                 'id' => 2667,
-                'users_id' => 4026,
+                'user_id' => 4026,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34703,7 +34703,7 @@ class AdmCargosTableSeeder extends Seeder
             167 => 
             array (
                 'id' => 2668,
-                'users_id' => 4028,
+                'user_id' => 4028,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34716,7 +34716,7 @@ class AdmCargosTableSeeder extends Seeder
             168 => 
             array (
                 'id' => 2669,
-                'users_id' => 4029,
+                'user_id' => 4029,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34729,7 +34729,7 @@ class AdmCargosTableSeeder extends Seeder
             169 => 
             array (
                 'id' => 2670,
-                'users_id' => 4031,
+                'user_id' => 4031,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34742,7 +34742,7 @@ class AdmCargosTableSeeder extends Seeder
             170 => 
             array (
                 'id' => 2671,
-                'users_id' => 4032,
+                'user_id' => 4032,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34755,7 +34755,7 @@ class AdmCargosTableSeeder extends Seeder
             171 => 
             array (
                 'id' => 2672,
-                'users_id' => 4033,
+                'user_id' => 4033,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -34768,7 +34768,7 @@ class AdmCargosTableSeeder extends Seeder
             172 => 
             array (
                 'id' => 2673,
-                'users_id' => 4034,
+                'user_id' => 4034,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34781,7 +34781,7 @@ class AdmCargosTableSeeder extends Seeder
             173 => 
             array (
                 'id' => 2674,
-                'users_id' => 4035,
+                'user_id' => 4035,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34794,7 +34794,7 @@ class AdmCargosTableSeeder extends Seeder
             174 => 
             array (
                 'id' => 2675,
-                'users_id' => 4036,
+                'user_id' => 4036,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34807,7 +34807,7 @@ class AdmCargosTableSeeder extends Seeder
             175 => 
             array (
                 'id' => 2676,
-                'users_id' => 4037,
+                'user_id' => 4037,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34820,7 +34820,7 @@ class AdmCargosTableSeeder extends Seeder
             176 => 
             array (
                 'id' => 2677,
-                'users_id' => 4038,
+                'user_id' => 4038,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34833,7 +34833,7 @@ class AdmCargosTableSeeder extends Seeder
             177 => 
             array (
                 'id' => 2678,
-                'users_id' => 4039,
+                'user_id' => 4039,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34846,7 +34846,7 @@ class AdmCargosTableSeeder extends Seeder
             178 => 
             array (
                 'id' => 2679,
-                'users_id' => 4041,
+                'user_id' => 4041,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34859,7 +34859,7 @@ class AdmCargosTableSeeder extends Seeder
             179 => 
             array (
                 'id' => 2680,
-                'users_id' => 4042,
+                'user_id' => 4042,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34872,7 +34872,7 @@ class AdmCargosTableSeeder extends Seeder
             180 => 
             array (
                 'id' => 2681,
-                'users_id' => 4043,
+                'user_id' => 4043,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34885,7 +34885,7 @@ class AdmCargosTableSeeder extends Seeder
             181 => 
             array (
                 'id' => 2682,
-                'users_id' => 4044,
+                'user_id' => 4044,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34898,7 +34898,7 @@ class AdmCargosTableSeeder extends Seeder
             182 => 
             array (
                 'id' => 2683,
-                'users_id' => 4045,
+                'user_id' => 4045,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34911,7 +34911,7 @@ class AdmCargosTableSeeder extends Seeder
             183 => 
             array (
                 'id' => 2684,
-                'users_id' => 4046,
+                'user_id' => 4046,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34924,7 +34924,7 @@ class AdmCargosTableSeeder extends Seeder
             184 => 
             array (
                 'id' => 2685,
-                'users_id' => 4047,
+                'user_id' => 4047,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34937,7 +34937,7 @@ class AdmCargosTableSeeder extends Seeder
             185 => 
             array (
                 'id' => 2686,
-                'users_id' => 4048,
+                'user_id' => 4048,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34950,7 +34950,7 @@ class AdmCargosTableSeeder extends Seeder
             186 => 
             array (
                 'id' => 2687,
-                'users_id' => 4049,
+                'user_id' => 4049,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34963,7 +34963,7 @@ class AdmCargosTableSeeder extends Seeder
             187 => 
             array (
                 'id' => 2688,
-                'users_id' => 4050,
+                'user_id' => 4050,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34976,7 +34976,7 @@ class AdmCargosTableSeeder extends Seeder
             188 => 
             array (
                 'id' => 2689,
-                'users_id' => 4051,
+                'user_id' => 4051,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -34989,7 +34989,7 @@ class AdmCargosTableSeeder extends Seeder
             189 => 
             array (
                 'id' => 2690,
-                'users_id' => 4052,
+                'user_id' => 4052,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35002,7 +35002,7 @@ class AdmCargosTableSeeder extends Seeder
             190 => 
             array (
                 'id' => 2691,
-                'users_id' => 4053,
+                'user_id' => 4053,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35015,7 +35015,7 @@ class AdmCargosTableSeeder extends Seeder
             191 => 
             array (
                 'id' => 2692,
-                'users_id' => 4054,
+                'user_id' => 4054,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -35028,7 +35028,7 @@ class AdmCargosTableSeeder extends Seeder
             192 => 
             array (
                 'id' => 2693,
-                'users_id' => 4055,
+                'user_id' => 4055,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35041,7 +35041,7 @@ class AdmCargosTableSeeder extends Seeder
             193 => 
             array (
                 'id' => 2694,
-                'users_id' => 4056,
+                'user_id' => 4056,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35054,7 +35054,7 @@ class AdmCargosTableSeeder extends Seeder
             194 => 
             array (
                 'id' => 2695,
-                'users_id' => 4057,
+                'user_id' => 4057,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35067,7 +35067,7 @@ class AdmCargosTableSeeder extends Seeder
             195 => 
             array (
                 'id' => 2696,
-                'users_id' => 4058,
+                'user_id' => 4058,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35080,7 +35080,7 @@ class AdmCargosTableSeeder extends Seeder
             196 => 
             array (
                 'id' => 2697,
-                'users_id' => 4059,
+                'user_id' => 4059,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35093,7 +35093,7 @@ class AdmCargosTableSeeder extends Seeder
             197 => 
             array (
                 'id' => 2698,
-                'users_id' => 4060,
+                'user_id' => 4060,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35106,7 +35106,7 @@ class AdmCargosTableSeeder extends Seeder
             198 => 
             array (
                 'id' => 2699,
-                'users_id' => 4061,
+                'user_id' => 4061,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35119,7 +35119,7 @@ class AdmCargosTableSeeder extends Seeder
             199 => 
             array (
                 'id' => 2700,
-                'users_id' => 4062,
+                'user_id' => 4062,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35132,7 +35132,7 @@ class AdmCargosTableSeeder extends Seeder
             200 => 
             array (
                 'id' => 2701,
-                'users_id' => 4063,
+                'user_id' => 4063,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35145,7 +35145,7 @@ class AdmCargosTableSeeder extends Seeder
             201 => 
             array (
                 'id' => 2702,
-                'users_id' => 4064,
+                'user_id' => 4064,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35158,7 +35158,7 @@ class AdmCargosTableSeeder extends Seeder
             202 => 
             array (
                 'id' => 2703,
-                'users_id' => 4065,
+                'user_id' => 4065,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35171,7 +35171,7 @@ class AdmCargosTableSeeder extends Seeder
             203 => 
             array (
                 'id' => 2704,
-                'users_id' => 4066,
+                'user_id' => 4066,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35184,7 +35184,7 @@ class AdmCargosTableSeeder extends Seeder
             204 => 
             array (
                 'id' => 2705,
-                'users_id' => 4068,
+                'user_id' => 4068,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35197,7 +35197,7 @@ class AdmCargosTableSeeder extends Seeder
             205 => 
             array (
                 'id' => 2706,
-                'users_id' => 4069,
+                'user_id' => 4069,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35210,7 +35210,7 @@ class AdmCargosTableSeeder extends Seeder
             206 => 
             array (
                 'id' => 2707,
-                'users_id' => 4070,
+                'user_id' => 4070,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35223,7 +35223,7 @@ class AdmCargosTableSeeder extends Seeder
             207 => 
             array (
                 'id' => 2708,
-                'users_id' => 4071,
+                'user_id' => 4071,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35236,7 +35236,7 @@ class AdmCargosTableSeeder extends Seeder
             208 => 
             array (
                 'id' => 2709,
-                'users_id' => 4072,
+                'user_id' => 4072,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35249,7 +35249,7 @@ class AdmCargosTableSeeder extends Seeder
             209 => 
             array (
                 'id' => 2710,
-                'users_id' => 4073,
+                'user_id' => 4073,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35262,7 +35262,7 @@ class AdmCargosTableSeeder extends Seeder
             210 => 
             array (
                 'id' => 2711,
-                'users_id' => 4074,
+                'user_id' => 4074,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35275,7 +35275,7 @@ class AdmCargosTableSeeder extends Seeder
             211 => 
             array (
                 'id' => 2712,
-                'users_id' => 4076,
+                'user_id' => 4076,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35288,7 +35288,7 @@ class AdmCargosTableSeeder extends Seeder
             212 => 
             array (
                 'id' => 2713,
-                'users_id' => 4078,
+                'user_id' => 4078,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35301,7 +35301,7 @@ class AdmCargosTableSeeder extends Seeder
             213 => 
             array (
                 'id' => 2714,
-                'users_id' => 4079,
+                'user_id' => 4079,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35314,7 +35314,7 @@ class AdmCargosTableSeeder extends Seeder
             214 => 
             array (
                 'id' => 2715,
-                'users_id' => 4080,
+                'user_id' => 4080,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35327,7 +35327,7 @@ class AdmCargosTableSeeder extends Seeder
             215 => 
             array (
                 'id' => 2716,
-                'users_id' => 4081,
+                'user_id' => 4081,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35340,7 +35340,7 @@ class AdmCargosTableSeeder extends Seeder
             216 => 
             array (
                 'id' => 2717,
-                'users_id' => 4082,
+                'user_id' => 4082,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35353,7 +35353,7 @@ class AdmCargosTableSeeder extends Seeder
             217 => 
             array (
                 'id' => 2718,
-                'users_id' => 4083,
+                'user_id' => 4083,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35366,7 +35366,7 @@ class AdmCargosTableSeeder extends Seeder
             218 => 
             array (
                 'id' => 2719,
-                'users_id' => 4084,
+                'user_id' => 4084,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35379,7 +35379,7 @@ class AdmCargosTableSeeder extends Seeder
             219 => 
             array (
                 'id' => 2720,
-                'users_id' => 4085,
+                'user_id' => 4085,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35392,7 +35392,7 @@ class AdmCargosTableSeeder extends Seeder
             220 => 
             array (
                 'id' => 2721,
-                'users_id' => 4086,
+                'user_id' => 4086,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35405,7 +35405,7 @@ class AdmCargosTableSeeder extends Seeder
             221 => 
             array (
                 'id' => 2722,
-                'users_id' => 4087,
+                'user_id' => 4087,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35418,7 +35418,7 @@ class AdmCargosTableSeeder extends Seeder
             222 => 
             array (
                 'id' => 2723,
-                'users_id' => 4088,
+                'user_id' => 4088,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35431,7 +35431,7 @@ class AdmCargosTableSeeder extends Seeder
             223 => 
             array (
                 'id' => 2724,
-                'users_id' => 4089,
+                'user_id' => 4089,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35444,7 +35444,7 @@ class AdmCargosTableSeeder extends Seeder
             224 => 
             array (
                 'id' => 2725,
-                'users_id' => 4090,
+                'user_id' => 4090,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35457,7 +35457,7 @@ class AdmCargosTableSeeder extends Seeder
             225 => 
             array (
                 'id' => 2726,
-                'users_id' => 4091,
+                'user_id' => 4091,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35470,7 +35470,7 @@ class AdmCargosTableSeeder extends Seeder
             226 => 
             array (
                 'id' => 2727,
-                'users_id' => 4092,
+                'user_id' => 4092,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35483,7 +35483,7 @@ class AdmCargosTableSeeder extends Seeder
             227 => 
             array (
                 'id' => 2728,
-                'users_id' => 4093,
+                'user_id' => 4093,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35496,7 +35496,7 @@ class AdmCargosTableSeeder extends Seeder
             228 => 
             array (
                 'id' => 2729,
-                'users_id' => 4094,
+                'user_id' => 4094,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35509,7 +35509,7 @@ class AdmCargosTableSeeder extends Seeder
             229 => 
             array (
                 'id' => 2730,
-                'users_id' => 4095,
+                'user_id' => 4095,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -35522,7 +35522,7 @@ class AdmCargosTableSeeder extends Seeder
             230 => 
             array (
                 'id' => 2731,
-                'users_id' => 4096,
+                'user_id' => 4096,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -35535,7 +35535,7 @@ class AdmCargosTableSeeder extends Seeder
             231 => 
             array (
                 'id' => 2732,
-                'users_id' => 4098,
+                'user_id' => 4098,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35548,7 +35548,7 @@ class AdmCargosTableSeeder extends Seeder
             232 => 
             array (
                 'id' => 2733,
-                'users_id' => 4099,
+                'user_id' => 4099,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -35561,7 +35561,7 @@ class AdmCargosTableSeeder extends Seeder
             233 => 
             array (
                 'id' => 2734,
-                'users_id' => 4100,
+                'user_id' => 4100,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35574,7 +35574,7 @@ class AdmCargosTableSeeder extends Seeder
             234 => 
             array (
                 'id' => 2735,
-                'users_id' => 4101,
+                'user_id' => 4101,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE REGIONAL',
                 'descripcion' => '',
@@ -35587,7 +35587,7 @@ class AdmCargosTableSeeder extends Seeder
             235 => 
             array (
                 'id' => 2736,
-                'users_id' => 4102,
+                'user_id' => 4102,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35600,7 +35600,7 @@ class AdmCargosTableSeeder extends Seeder
             236 => 
             array (
                 'id' => 2737,
-                'users_id' => 4103,
+                'user_id' => 4103,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35613,7 +35613,7 @@ class AdmCargosTableSeeder extends Seeder
             237 => 
             array (
                 'id' => 2738,
-                'users_id' => 4104,
+                'user_id' => 4104,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35626,7 +35626,7 @@ class AdmCargosTableSeeder extends Seeder
             238 => 
             array (
                 'id' => 2739,
-                'users_id' => 4105,
+                'user_id' => 4105,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35639,7 +35639,7 @@ class AdmCargosTableSeeder extends Seeder
             239 => 
             array (
                 'id' => 2740,
-                'users_id' => 4106,
+                'user_id' => 4106,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35652,7 +35652,7 @@ class AdmCargosTableSeeder extends Seeder
             240 => 
             array (
                 'id' => 2741,
-                'users_id' => 4107,
+                'user_id' => 4107,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35665,7 +35665,7 @@ class AdmCargosTableSeeder extends Seeder
             241 => 
             array (
                 'id' => 2742,
-                'users_id' => 4108,
+                'user_id' => 4108,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35678,7 +35678,7 @@ class AdmCargosTableSeeder extends Seeder
             242 => 
             array (
                 'id' => 2743,
-                'users_id' => 4109,
+                'user_id' => 4109,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35691,7 +35691,7 @@ class AdmCargosTableSeeder extends Seeder
             243 => 
             array (
                 'id' => 2744,
-                'users_id' => 4110,
+                'user_id' => 4110,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35704,7 +35704,7 @@ class AdmCargosTableSeeder extends Seeder
             244 => 
             array (
                 'id' => 2745,
-                'users_id' => 4111,
+                'user_id' => 4111,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35717,7 +35717,7 @@ class AdmCargosTableSeeder extends Seeder
             245 => 
             array (
                 'id' => 2746,
-                'users_id' => 4112,
+                'user_id' => 4112,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35730,7 +35730,7 @@ class AdmCargosTableSeeder extends Seeder
             246 => 
             array (
                 'id' => 2747,
-                'users_id' => 4113,
+                'user_id' => 4113,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35743,7 +35743,7 @@ class AdmCargosTableSeeder extends Seeder
             247 => 
             array (
                 'id' => 2748,
-                'users_id' => 4114,
+                'user_id' => 4114,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35756,7 +35756,7 @@ class AdmCargosTableSeeder extends Seeder
             248 => 
             array (
                 'id' => 2749,
-                'users_id' => 4115,
+                'user_id' => 4115,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35769,7 +35769,7 @@ class AdmCargosTableSeeder extends Seeder
             249 => 
             array (
                 'id' => 2750,
-                'users_id' => 4116,
+                'user_id' => 4116,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35782,7 +35782,7 @@ class AdmCargosTableSeeder extends Seeder
             250 => 
             array (
                 'id' => 2751,
-                'users_id' => 4117,
+                'user_id' => 4117,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35795,7 +35795,7 @@ class AdmCargosTableSeeder extends Seeder
             251 => 
             array (
                 'id' => 2752,
-                'users_id' => 4118,
+                'user_id' => 4118,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35808,7 +35808,7 @@ class AdmCargosTableSeeder extends Seeder
             252 => 
             array (
                 'id' => 2753,
-                'users_id' => 4119,
+                'user_id' => 4119,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35821,7 +35821,7 @@ class AdmCargosTableSeeder extends Seeder
             253 => 
             array (
                 'id' => 2754,
-                'users_id' => 4120,
+                'user_id' => 4120,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35834,7 +35834,7 @@ class AdmCargosTableSeeder extends Seeder
             254 => 
             array (
                 'id' => 2755,
-                'users_id' => 4121,
+                'user_id' => 4121,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35847,7 +35847,7 @@ class AdmCargosTableSeeder extends Seeder
             255 => 
             array (
                 'id' => 2756,
-                'users_id' => 4122,
+                'user_id' => 4122,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35860,7 +35860,7 @@ class AdmCargosTableSeeder extends Seeder
             256 => 
             array (
                 'id' => 2757,
-                'users_id' => 4124,
+                'user_id' => 4124,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -35873,7 +35873,7 @@ class AdmCargosTableSeeder extends Seeder
             257 => 
             array (
                 'id' => 2758,
-                'users_id' => 4125,
+                'user_id' => 4125,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35886,7 +35886,7 @@ class AdmCargosTableSeeder extends Seeder
             258 => 
             array (
                 'id' => 2759,
-                'users_id' => 4126,
+                'user_id' => 4126,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35899,7 +35899,7 @@ class AdmCargosTableSeeder extends Seeder
             259 => 
             array (
                 'id' => 2760,
-                'users_id' => 4127,
+                'user_id' => 4127,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35912,7 +35912,7 @@ class AdmCargosTableSeeder extends Seeder
             260 => 
             array (
                 'id' => 2761,
-                'users_id' => 4128,
+                'user_id' => 4128,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35925,7 +35925,7 @@ class AdmCargosTableSeeder extends Seeder
             261 => 
             array (
                 'id' => 2762,
-                'users_id' => 4129,
+                'user_id' => 4129,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35938,7 +35938,7 @@ class AdmCargosTableSeeder extends Seeder
             262 => 
             array (
                 'id' => 2763,
-                'users_id' => 4130,
+                'user_id' => 4130,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35951,7 +35951,7 @@ class AdmCargosTableSeeder extends Seeder
             263 => 
             array (
                 'id' => 2764,
-                'users_id' => 4133,
+                'user_id' => 4133,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -35964,7 +35964,7 @@ class AdmCargosTableSeeder extends Seeder
             264 => 
             array (
                 'id' => 2765,
-                'users_id' => 4134,
+                'user_id' => 4134,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -35977,7 +35977,7 @@ class AdmCargosTableSeeder extends Seeder
             265 => 
             array (
                 'id' => 2766,
-                'users_id' => 4135,
+                'user_id' => 4135,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -35990,7 +35990,7 @@ class AdmCargosTableSeeder extends Seeder
             266 => 
             array (
                 'id' => 2767,
-                'users_id' => 4136,
+                'user_id' => 4136,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -36003,7 +36003,7 @@ class AdmCargosTableSeeder extends Seeder
             267 => 
             array (
                 'id' => 2768,
-                'users_id' => 4137,
+                'user_id' => 4137,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36016,7 +36016,7 @@ class AdmCargosTableSeeder extends Seeder
             268 => 
             array (
                 'id' => 2769,
-                'users_id' => 4138,
+                'user_id' => 4138,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36029,7 +36029,7 @@ class AdmCargosTableSeeder extends Seeder
             269 => 
             array (
                 'id' => 2770,
-                'users_id' => 4139,
+                'user_id' => 4139,
                 'estado' => 1,
                 'nom_cargo' => 'JEFE DE ENSEÑANZA',
                 'descripcion' => '',
@@ -36042,7 +36042,7 @@ class AdmCargosTableSeeder extends Seeder
             270 => 
             array (
                 'id' => 2771,
-                'users_id' => 4140,
+                'user_id' => 4140,
                 'estado' => 1,
                 'nom_cargo' => 'CONDUCTOR',
                 'descripcion' => '',
@@ -36055,7 +36055,7 @@ class AdmCargosTableSeeder extends Seeder
             271 => 
             array (
                 'id' => 2772,
-                'users_id' => 4141,
+                'user_id' => 4141,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -36068,7 +36068,7 @@ class AdmCargosTableSeeder extends Seeder
             272 => 
             array (
                 'id' => 2773,
-                'users_id' => 4142,
+                'user_id' => 4142,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO RESIDENTE',
                 'descripcion' => '',
@@ -36081,7 +36081,7 @@ class AdmCargosTableSeeder extends Seeder
             273 => 
             array (
                 'id' => 2774,
-                'users_id' => 4146,
+                'user_id' => 4146,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36094,7 +36094,7 @@ class AdmCargosTableSeeder extends Seeder
             274 => 
             array (
                 'id' => 2775,
-                'users_id' => 4148,
+                'user_id' => 4148,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36107,7 +36107,7 @@ class AdmCargosTableSeeder extends Seeder
             275 => 
             array (
                 'id' => 2776,
-                'users_id' => 4150,
+                'user_id' => 4150,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36120,7 +36120,7 @@ class AdmCargosTableSeeder extends Seeder
             276 => 
             array (
                 'id' => 2777,
-                'users_id' => 4151,
+                'user_id' => 4151,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36133,7 +36133,7 @@ class AdmCargosTableSeeder extends Seeder
             277 => 
             array (
                 'id' => 2778,
-                'users_id' => 4152,
+                'user_id' => 4152,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36146,7 +36146,7 @@ class AdmCargosTableSeeder extends Seeder
             278 => 
             array (
                 'id' => 2779,
-                'users_id' => 4153,
+                'user_id' => 4153,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36159,7 +36159,7 @@ class AdmCargosTableSeeder extends Seeder
             279 => 
             array (
                 'id' => 2780,
-                'users_id' => 4154,
+                'user_id' => 4154,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36172,7 +36172,7 @@ class AdmCargosTableSeeder extends Seeder
             280 => 
             array (
                 'id' => 2781,
-                'users_id' => 4155,
+                'user_id' => 4155,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36185,7 +36185,7 @@ class AdmCargosTableSeeder extends Seeder
             281 => 
             array (
                 'id' => 2782,
-                'users_id' => 4156,
+                'user_id' => 4156,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36198,7 +36198,7 @@ class AdmCargosTableSeeder extends Seeder
             282 => 
             array (
                 'id' => 2783,
-                'users_id' => 4157,
+                'user_id' => 4157,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36211,7 +36211,7 @@ class AdmCargosTableSeeder extends Seeder
             283 => 
             array (
                 'id' => 2784,
-                'users_id' => 4158,
+                'user_id' => 4158,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36224,7 +36224,7 @@ class AdmCargosTableSeeder extends Seeder
             284 => 
             array (
                 'id' => 2785,
-                'users_id' => 4160,
+                'user_id' => 4160,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36237,7 +36237,7 @@ class AdmCargosTableSeeder extends Seeder
             285 => 
             array (
                 'id' => 2786,
-                'users_id' => 4163,
+                'user_id' => 4163,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36250,7 +36250,7 @@ class AdmCargosTableSeeder extends Seeder
             286 => 
             array (
                 'id' => 2787,
-                'users_id' => 4164,
+                'user_id' => 4164,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36263,7 +36263,7 @@ class AdmCargosTableSeeder extends Seeder
             287 => 
             array (
                 'id' => 2788,
-                'users_id' => 4165,
+                'user_id' => 4165,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36276,7 +36276,7 @@ class AdmCargosTableSeeder extends Seeder
             288 => 
             array (
                 'id' => 2789,
-                'users_id' => 4166,
+                'user_id' => 4166,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36289,7 +36289,7 @@ class AdmCargosTableSeeder extends Seeder
             289 => 
             array (
                 'id' => 2790,
-                'users_id' => 4167,
+                'user_id' => 4167,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36302,7 +36302,7 @@ class AdmCargosTableSeeder extends Seeder
             290 => 
             array (
                 'id' => 2791,
-                'users_id' => 4168,
+                'user_id' => 4168,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36315,7 +36315,7 @@ class AdmCargosTableSeeder extends Seeder
             291 => 
             array (
                 'id' => 2792,
-                'users_id' => 4170,
+                'user_id' => 4170,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36328,7 +36328,7 @@ class AdmCargosTableSeeder extends Seeder
             292 => 
             array (
                 'id' => 2793,
-                'users_id' => 4175,
+                'user_id' => 4175,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36341,7 +36341,7 @@ class AdmCargosTableSeeder extends Seeder
             293 => 
             array (
                 'id' => 2794,
-                'users_id' => 4176,
+                'user_id' => 4176,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO RESIDENTE',
                 'descripcion' => '',
@@ -36354,7 +36354,7 @@ class AdmCargosTableSeeder extends Seeder
             294 => 
             array (
                 'id' => 2795,
-                'users_id' => 4177,
+                'user_id' => 4177,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO RESIDENTE',
                 'descripcion' => '',
@@ -36367,7 +36367,7 @@ class AdmCargosTableSeeder extends Seeder
             295 => 
             array (
                 'id' => 2796,
-                'users_id' => 4178,
+                'user_id' => 4178,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36380,7 +36380,7 @@ class AdmCargosTableSeeder extends Seeder
             296 => 
             array (
                 'id' => 2797,
-                'users_id' => 4179,
+                'user_id' => 4179,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36393,7 +36393,7 @@ class AdmCargosTableSeeder extends Seeder
             297 => 
             array (
                 'id' => 2798,
-                'users_id' => 4192,
+                'user_id' => 4192,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36406,7 +36406,7 @@ class AdmCargosTableSeeder extends Seeder
             298 => 
             array (
                 'id' => 2799,
-                'users_id' => 4194,
+                'user_id' => 4194,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36419,7 +36419,7 @@ class AdmCargosTableSeeder extends Seeder
             299 => 
             array (
                 'id' => 2800,
-                'users_id' => 4197,
+                'user_id' => 4197,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36432,7 +36432,7 @@ class AdmCargosTableSeeder extends Seeder
             300 => 
             array (
                 'id' => 2801,
-                'users_id' => 4199,
+                'user_id' => 4199,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36445,7 +36445,7 @@ class AdmCargosTableSeeder extends Seeder
             301 => 
             array (
                 'id' => 2802,
-                'users_id' => 4200,
+                'user_id' => 4200,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36458,7 +36458,7 @@ class AdmCargosTableSeeder extends Seeder
             302 => 
             array (
                 'id' => 2803,
-                'users_id' => 4201,
+                'user_id' => 4201,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36471,7 +36471,7 @@ class AdmCargosTableSeeder extends Seeder
             303 => 
             array (
                 'id' => 2804,
-                'users_id' => 4202,
+                'user_id' => 4202,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36484,7 +36484,7 @@ class AdmCargosTableSeeder extends Seeder
             304 => 
             array (
                 'id' => 2805,
-                'users_id' => 4203,
+                'user_id' => 4203,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36497,7 +36497,7 @@ class AdmCargosTableSeeder extends Seeder
             305 => 
             array (
                 'id' => 2806,
-                'users_id' => 4204,
+                'user_id' => 4204,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36510,7 +36510,7 @@ class AdmCargosTableSeeder extends Seeder
             306 => 
             array (
                 'id' => 2807,
-                'users_id' => 4205,
+                'user_id' => 4205,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36523,7 +36523,7 @@ class AdmCargosTableSeeder extends Seeder
             307 => 
             array (
                 'id' => 2808,
-                'users_id' => 4206,
+                'user_id' => 4206,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36536,7 +36536,7 @@ class AdmCargosTableSeeder extends Seeder
             308 => 
             array (
                 'id' => 2809,
-                'users_id' => 4207,
+                'user_id' => 4207,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36549,7 +36549,7 @@ class AdmCargosTableSeeder extends Seeder
             309 => 
             array (
                 'id' => 2810,
-                'users_id' => 4208,
+                'user_id' => 4208,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -36562,7 +36562,7 @@ class AdmCargosTableSeeder extends Seeder
             310 => 
             array (
                 'id' => 2811,
-                'users_id' => 4209,
+                'user_id' => 4209,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36575,7 +36575,7 @@ class AdmCargosTableSeeder extends Seeder
             311 => 
             array (
                 'id' => 2812,
-                'users_id' => 4211,
+                'user_id' => 4211,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36588,7 +36588,7 @@ class AdmCargosTableSeeder extends Seeder
             312 => 
             array (
                 'id' => 2813,
-                'users_id' => 4214,
+                'user_id' => 4214,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36601,7 +36601,7 @@ class AdmCargosTableSeeder extends Seeder
             313 => 
             array (
                 'id' => 2814,
-                'users_id' => 4215,
+                'user_id' => 4215,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DE INFORMACION Y BASE DE DATOS',
                 'descripcion' => '',
@@ -36614,7 +36614,7 @@ class AdmCargosTableSeeder extends Seeder
             314 => 
             array (
                 'id' => 2815,
-                'users_id' => 4217,
+                'user_id' => 4217,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -36627,7 +36627,7 @@ class AdmCargosTableSeeder extends Seeder
             315 => 
             array (
                 'id' => 2816,
-                'users_id' => 4228,
+                'user_id' => 4228,
                 'estado' => 1,
                 'nom_cargo' => 'COORDINADOR DEPARTAMENTAL',
                 'descripcion' => '',
@@ -36640,7 +36640,7 @@ class AdmCargosTableSeeder extends Seeder
             316 => 
             array (
                 'id' => 2817,
-                'users_id' => 4235,
+                'user_id' => 4235,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36653,7 +36653,7 @@ class AdmCargosTableSeeder extends Seeder
             317 => 
             array (
                 'id' => 2818,
-                'users_id' => 4242,
+                'user_id' => 4242,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36666,7 +36666,7 @@ class AdmCargosTableSeeder extends Seeder
             318 => 
             array (
                 'id' => 2819,
-                'users_id' => 4246,
+                'user_id' => 4246,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36679,7 +36679,7 @@ class AdmCargosTableSeeder extends Seeder
             319 => 
             array (
                 'id' => 2820,
-                'users_id' => 4247,
+                'user_id' => 4247,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36692,7 +36692,7 @@ class AdmCargosTableSeeder extends Seeder
             320 => 
             array (
                 'id' => 2821,
-                'users_id' => 4248,
+                'user_id' => 4248,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36705,7 +36705,7 @@ class AdmCargosTableSeeder extends Seeder
             321 => 
             array (
                 'id' => 2822,
-                'users_id' => 4249,
+                'user_id' => 4249,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DE INFORMACION Y BASE DE DATOS',
                 'descripcion' => '',
@@ -36718,7 +36718,7 @@ class AdmCargosTableSeeder extends Seeder
             322 => 
             array (
                 'id' => 2823,
-                'users_id' => 4250,
+                'user_id' => 4250,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36731,7 +36731,7 @@ class AdmCargosTableSeeder extends Seeder
             323 => 
             array (
                 'id' => 2824,
-                'users_id' => 4251,
+                'user_id' => 4251,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36744,7 +36744,7 @@ class AdmCargosTableSeeder extends Seeder
             324 => 
             array (
                 'id' => 2825,
-                'users_id' => 4252,
+                'user_id' => 4252,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DE INFORMACION Y BASE DE DATOS',
                 'descripcion' => '',
@@ -36757,7 +36757,7 @@ class AdmCargosTableSeeder extends Seeder
             325 => 
             array (
                 'id' => 2826,
-                'users_id' => 4253,
+                'user_id' => 4253,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36770,7 +36770,7 @@ class AdmCargosTableSeeder extends Seeder
             326 => 
             array (
                 'id' => 2827,
-                'users_id' => 4254,
+                'user_id' => 4254,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO RESIDENTE',
                 'descripcion' => '',
@@ -36783,7 +36783,7 @@ class AdmCargosTableSeeder extends Seeder
             327 => 
             array (
                 'id' => 2828,
-                'users_id' => 4258,
+                'user_id' => 4258,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36796,7 +36796,7 @@ class AdmCargosTableSeeder extends Seeder
             328 => 
             array (
                 'id' => 2829,
-                'users_id' => 4259,
+                'user_id' => 4259,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36809,7 +36809,7 @@ class AdmCargosTableSeeder extends Seeder
             329 => 
             array (
                 'id' => 2830,
-                'users_id' => 4260,
+                'user_id' => 4260,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36822,7 +36822,7 @@ class AdmCargosTableSeeder extends Seeder
             330 => 
             array (
                 'id' => 2831,
-                'users_id' => 4269,
+                'user_id' => 4269,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36835,7 +36835,7 @@ class AdmCargosTableSeeder extends Seeder
             331 => 
             array (
                 'id' => 2832,
-                'users_id' => 4270,
+                'user_id' => 4270,
                 'estado' => 1,
                 'nom_cargo' => 'CONDUCTOR',
                 'descripcion' => '',
@@ -36848,7 +36848,7 @@ class AdmCargosTableSeeder extends Seeder
             332 => 
             array (
                 'id' => 2833,
-                'users_id' => 4274,
+                'user_id' => 4274,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE REGIONAL',
                 'descripcion' => '',
@@ -36861,7 +36861,7 @@ class AdmCargosTableSeeder extends Seeder
             333 => 
             array (
                 'id' => 2834,
-                'users_id' => 4275,
+                'user_id' => 4275,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36874,7 +36874,7 @@ class AdmCargosTableSeeder extends Seeder
             334 => 
             array (
                 'id' => 2835,
-                'users_id' => 4277,
+                'user_id' => 4277,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36887,7 +36887,7 @@ class AdmCargosTableSeeder extends Seeder
             335 => 
             array (
                 'id' => 2836,
-                'users_id' => 4284,
+                'user_id' => 4284,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36900,7 +36900,7 @@ class AdmCargosTableSeeder extends Seeder
             336 => 
             array (
                 'id' => 2837,
-                'users_id' => 4285,
+                'user_id' => 4285,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36913,7 +36913,7 @@ class AdmCargosTableSeeder extends Seeder
             337 => 
             array (
                 'id' => 2838,
-                'users_id' => 4286,
+                'user_id' => 4286,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36926,7 +36926,7 @@ class AdmCargosTableSeeder extends Seeder
             338 => 
             array (
                 'id' => 2839,
-                'users_id' => 4287,
+                'user_id' => 4287,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36939,7 +36939,7 @@ class AdmCargosTableSeeder extends Seeder
             339 => 
             array (
                 'id' => 2840,
-                'users_id' => 4288,
+                'user_id' => 4288,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -36952,7 +36952,7 @@ class AdmCargosTableSeeder extends Seeder
             340 => 
             array (
                 'id' => 2841,
-                'users_id' => 4290,
+                'user_id' => 4290,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DISTRITAL',
                 'descripcion' => '',
@@ -36965,7 +36965,7 @@ class AdmCargosTableSeeder extends Seeder
             341 => 
             array (
                 'id' => 2842,
-                'users_id' => 4291,
+                'user_id' => 4291,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE MUNICIPAL',
                 'descripcion' => '',
@@ -36978,7 +36978,7 @@ class AdmCargosTableSeeder extends Seeder
             342 => 
             array (
                 'id' => 2843,
-                'users_id' => 4293,
+                'user_id' => 4293,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DE INFORMACION Y BASE DE DATOS',
                 'descripcion' => '',
@@ -36991,7 +36991,7 @@ class AdmCargosTableSeeder extends Seeder
             343 => 
             array (
                 'id' => 2844,
-                'users_id' => 4294,
+                'user_id' => 4294,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -37004,7 +37004,7 @@ class AdmCargosTableSeeder extends Seeder
             344 => 
             array (
                 'id' => 2845,
-                'users_id' => 4295,
+                'user_id' => 4295,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',
@@ -37017,7 +37017,7 @@ class AdmCargosTableSeeder extends Seeder
             345 => 
             array (
                 'id' => 2846,
-                'users_id' => 4296,
+                'user_id' => 4296,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DE INFORMACION Y BASE DE DATOS',
                 'descripcion' => '',
@@ -37030,7 +37030,7 @@ class AdmCargosTableSeeder extends Seeder
             346 => 
             array (
                 'id' => 2847,
-                'users_id' => 4297,
+                'user_id' => 4297,
                 'estado' => 1,
                 'nom_cargo' => 'RESPONSABLE DE INFORMACION Y BASE DE DATOS',
                 'descripcion' => '',
@@ -37043,7 +37043,7 @@ class AdmCargosTableSeeder extends Seeder
             347 => 
             array (
                 'id' => 2848,
-                'users_id' => 4298,
+                'user_id' => 4298,
                 'estado' => 1,
                 'nom_cargo' => 'MEDICO DE BASE',
                 'descripcion' => '',

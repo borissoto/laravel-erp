@@ -9,6 +9,9 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Fortify\TwoFactorAuthenticatable;
 use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Sanctum\HasApiTokens;
+use App\Models\AdmCargo;
+use App\Models\AdmDepartamento;
+use App\Models\AdmEstablecimiento;
 
 class User extends Authenticatable
 {
@@ -67,7 +70,12 @@ class User extends Authenticatable
         return $this->hasOne(AdmDepartamento::class,'id','adm_departamento_id');
     }
 
+    //Relacion uno a muchos
     public function cargos(){
         return $this->hasMany(AdmCargo::class);
+    }
+    
+    public function brigadas(){
+        return $this->hasMany('App\Models\RrhhBrigadas');
     }
 }
