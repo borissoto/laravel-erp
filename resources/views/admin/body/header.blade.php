@@ -35,24 +35,27 @@
           </p>
         </li>
         <!-- Menu Body -->
-        {{-- <li class="user-body">
-          <div class="row">
-            <div class="col-4 text-center">
-              <a href="#">Followers</a>
+        <li class="user-body">
+          <ol>
+            <div class="col-12">
+              <a href="{{ route('user.profile') }}" class="btn btn-default btn-flat">Mi Perfil</a>
             </div>
-            <div class="col-4 text-center">
+          </ol>
+            {{-- <div class="col-4 text-center">
               <a href="#">Sales</a>
             </div>
             <div class="col-4 text-center">
               <a href="#">Friends</a>
-            </div>
-          </div>
-          <!-- /.row -->
-        </li> --}}
+            </div> --}}
+         
+        </li>
+
         <!-- Menu Footer-->
-        <li class="user-footer">
-          <a href="{{ route('user.profile') }}" class="btn btn-default btn-flat">Mi Perfil</a>
-          <a href="{{ route('admin.logout') }}" class="btn btn-default btn-flat float-right">Cerrar sesion</a>
+        <li class="user-footer">          
+          <form action="{{ route('logout')}}" method="POST" >
+            @csrf
+            <button class="btn btn-default btn-flat float-right">Cerrar sesion</button>
+          </form>
         </li>
       </ul>
     </li>

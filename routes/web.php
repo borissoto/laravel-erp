@@ -43,7 +43,9 @@ Route::get('/about', function () {
 //     return view('about');
 // })->middleware('check');
 // UserLogout
-Route::get('/logout', [AdmUserController::class, 'AdminLogout'])->name('admin.logout');
+Route::get('/logout', [AdmUserController::class, 'logout'])->name('logout');
+
+
 // User Profile
 Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::get('/user/profile', [AdmUserController::class, 'UserProfile'])->name('user.profile');

@@ -12,12 +12,14 @@ use App\Models\AdmEstablecimiento;
 use App\Models\AdmProvincia;
 use App\Models\AdmMunicipio;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Session;
 
 class AdmUserController extends Controller
 {
-    public function AdminLogout(){
+    public function logout(){
+        Session::flush();
         Auth::logout();
-        return Redirect()->route('login');
+        return Redirect('/');
     }
 
     public function UserProfile(){
@@ -79,6 +81,7 @@ class AdmUserController extends Controller
 
     public function rrhhView($id){
         $user = User::findOrFail($id);
-        return view('backend.rrhh.rrhh_view', compact('user'));
+        $cargo = AdmCargo::where('estado',1)->first();
+        return view('backend.rrhh.rrhh_view', compact('user','cargo'));
     }    
 }

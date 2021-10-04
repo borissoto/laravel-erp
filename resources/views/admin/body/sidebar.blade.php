@@ -91,20 +91,52 @@
             
           </ul>
         </li>
-
+        
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <i class="fas fa-map-signs nav-icon"></i> 
-            <p>Comunidades
+            <i class="fas fa-user-nurse nav-icon"></i> 
+            <p>Rastrillaje
               <i class="right fas fa-angle-left"></i>
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Comunidades(EESS)</a></li>
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Comunidad</a></li>            
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Rastrillaje</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Rastrillaje</a></li>            
             
           </ul>
         </li>
+        
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-syringe nav-icon"></i> 
+            <p>Vacunas
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Vacunas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Vacunas</a></li>            
+            
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-vial nav-icon"></i> 
+            <p>Antigeno
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Antigeno</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Antigeno</a></li>            
+            
+          </ul>
+        </li>
+
+
+        <li class="nav-header">Cronograma</li>
+        
         <li class="nav-item">
           <a href="{{ route('calendario.index') }}" class="nav-link">
             <i class="nav-icon far fa-calendar-alt"></i>
@@ -117,18 +149,40 @@
 
         <li class="nav-header">Modulo Administracion</li>
        
-          
-        
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <i class="fas fa-user-lock nav-icon"></i> 
-            <p>Administracion
+            <i class="fas fa-compass nav-icon"></i> 
+            <p>Locaciones
               <i class="right fas fa-angle-left"></i>
             </p>            
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item"><a href="{{ route('red.list')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Redes</a></li>
-            <li class="nav-item"><a href="{{ route('municipio.list')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Municipios</a></li>            
+            <li class="nav-item"><a href="{{ route('municipio.list')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Municipios</a></li>                       
+          </ul>
+        </li>   
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-map-signs nav-icon"></i> 
+            <p>Comunidades
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Comunidades(EESS)</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Comunidad</a></li>            
+          </ul>
+        </li>
+        
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-user-lock nav-icon"></i> 
+            <p>Roles y Permisos
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">
             <li class="nav-item"><a href="{{ route('roles.index')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Roles y Permisos</a></li>          
           </ul>
         </li>   

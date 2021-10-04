@@ -12,10 +12,13 @@
 - Instalar NodeJs
 - Instalar Xampp 7.4 que tenga php 7
 
+
 En Xampp - phpmyadmin
 - Crear base de datos: safci_web_db
 
 ## Instalacion
+
+Ir a la carpeta C:\xampp\htdocs y abrir la termial
 
 En la terminal(cmd)
 ```bash
@@ -24,6 +27,17 @@ git clone git@github.com:Safci/safci-web-backend.git
 ```bash
 cd safci-web-backend
 ```
+
+Para que funcione la plantilla se debe:
+
+Descargar el template 3.1 de [AdminLte](https://adminlte.io/) 
+La plantilla(Template) version 3.1 de AdminLte se encuentra en https://github.com/ColorlibHQ/AdminLTE/releases
+
+Descomprimir el SourceCode ZIP 
+Copiar las carpetas /dist y /plugins a la carpeta /public del proyecto safci-web-backend 
+
+En la terminal, ingresar a la carpeta C:\xampp\htdocs\safci-web-backend
+
 ```bash
 composer install
 ```
