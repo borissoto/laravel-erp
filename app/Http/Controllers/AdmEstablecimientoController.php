@@ -30,7 +30,7 @@ class AdmEstablecimientoController extends Controller
     }
 
     public function EessList(){
-        $establecimientos = AdmEstablecimiento::latest()->paginate(10);
+        $establecimientos = AdmEstablecimiento::latest()->paginate(5);
         return view('backend.eess.eess_list', compact('establecimientos'));
     }
 }

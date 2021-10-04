@@ -9,10 +9,12 @@ use App\Http\Controllers\AdmMunicipioController;
 use App\Http\Controllers\AdmProvinciaController;
 use App\Http\Controllers\AdmRedController;
 use App\Http\Controllers\AdmEstablecimientoController;
+use App\Http\Controllers\Backend\RoleController;
 use App\Http\Controllers\Backend\UserProfileController;
 use App\Http\Controllers\RrhhCalendarioController;
 use App\Http\Controllers\RrhhEventoController;
 use App\Models\User;
+use GuzzleHttp\Middleware;
 use Illuminate\Support\Facades\DB;
 /*
 |--------------------------------------------------------------------------
@@ -43,7 +45,7 @@ Route::get('/about', function () {
 // UserLogout
 Route::get('/logout', [AdmUserController::class, 'AdminLogout'])->name('admin.logout');
 // User Profile
-Route::prefix('admin')->group(function(){
+Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::get('/user/profile', [AdmUserController::class, 'UserProfile'])->name('user.profile');
     // User Edit Profile
     Route::get('/user/profile/edit', [AdmUserController::class, 'UserProfileEdit'])->name('user.profile.edit');
@@ -79,6 +81,11 @@ Route::prefix('admin')->group(function(){
     Route::get('/calendario/index', [RrhhCalendarioController::class, 'index'])->name('calendario.index');   
     // Route::get('/calendario/index', [RrhhCalendarioController::class, 'eventos'])->name('eventos');   
     Route::post('/calendario/store', [RrhhCalendarioController::class, 'store'])->name('calendario.store');   
+    
+    //Roles
+    // Route::resource('')
+    Route::get('/roles/index', [RoleController::class, 'index'])->name('roles.index');   
+    Route::get('/roles/edit/{user}', [RoleController::class, 'edit'])->name('role.edit');   
 
       
 });
@@ -106,7 +113,7 @@ Route::get('/red/list', [AdmRedController::class, 'RedList'])->name('red.list');
 
 
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-//     // $users = User::all();n
+//     // $users = User::all();
 //     $users = DB::table('users')->get();
 //     return view('dashboard', compact('users'));
 // })->name('dashboard');

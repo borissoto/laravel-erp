@@ -64,8 +64,8 @@
                                     <a class="dropdown-item" href="{{ route('rrhh.edit', $user->id)}}">Editar</a>
                                     <a class="dropdown-item" href="#"></a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Asignar</a>
-                                    <a class="dropdown-item" href="#">Asignar</a>
+                                    <a class="dropdown-item" href="#">Asignar EESS</a>
+                                    <a class="dropdown-item" href="#">Brigada</a>
                                   </div>
                                 </div>
                                 {{-- <a href="{{ route('rrhh.view', $user->id)}}" class="btn btn-secondary btn-light" title="Ver"><i class="fa fa-eye" aria-hidden="true"></i></a>      

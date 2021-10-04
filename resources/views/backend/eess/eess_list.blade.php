@@ -79,9 +79,20 @@
                               {{-- <td>{{ $establecimiento->soaps}}</td>                                                      --}}
                               {{-- <td>{{ $establecimiento->estado}}</td>                                                      --}}
                               <td>
-                              {{-- <a href=" {{ route('user.edit', $user->id)}}" class="btn btn-info" title="Editar"><i class="fa fa-pencil" aria-hidden="true"></i></a>      
-                              <a href="" class="btn btn-success" title="Ver"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>      
-                              <a href="" class="btn btn-danger" title="Eliminar"><i class="fa fa-trash" aria-hidden="true"></i></a>       --}}
+                                <div class="btn-group">
+                                  {{-- <button type="button" class="btn btn-secondary">Action</button> --}}
+                                  <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fas fa-bars"></i>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                  </button>
+                                  <div class="dropdown-menu" role="menu">
+                                    <a class="dropdown-item" href="#">Ver</a>
+                                    <a class="dropdown-item" href="#">Editar</a>
+                                    <a class="dropdown-item" href="#"></a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Asignar EESS</a>
+                                    <a class="dropdown-item" href="#">Brigada</a>
+                                  </div>
+                                </div>                            
                             </td>                              
                           </tr>
                           @endforeach                         

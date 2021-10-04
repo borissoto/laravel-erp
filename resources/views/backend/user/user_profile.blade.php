@@ -259,7 +259,7 @@
                 </div>
                 <!-- /.tab-pane -->
 
-                <div class="tab-pane" id="educacion">
+                <div class="tab-panel" id="educacion">
                   
                 </div>
                 <!-- /.tab-pane -->

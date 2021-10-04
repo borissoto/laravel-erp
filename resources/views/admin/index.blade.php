@@ -7,12 +7,12 @@
 	<div class="container-fluid">
 	<div class="row mb-2">
 		<div class="col-sm-6">
-		<h1 class="m-0">Dashboard</h1>
+		<h1 class="m-0">Tablero</h1>
 		</div><!-- /.col -->
 		<div class="col-sm-6">
 		<ol class="breadcrumb float-sm-right">
-			<li class="breadcrumb-item"><a href="#">Home</a></li>
-			<li class="breadcrumb-item active">Dashboard v1</li>
+			{{-- <li class="breadcrumb-item"><a href="#">Home</a></li>
+			<li class="breadcrumb-item active">Dashboard v1</li> --}}
 		</ol>
 		</div><!-- /.col -->
 	</div><!-- /.row -->
@@ -29,14 +29,14 @@
 				<!-- small box -->
 				<div class="small-box bg-info">
 				<div class="inner">
-					<h3>150</h3>
+					<h3>1560</h3>
 
-					<p>New Orders</p>
+					<p>Ratrillajes</p>
 				</div>
 				<div class="icon">
-					<i class="ion ion-bag"></i>
+					<i class="ion ion-medkit"></i>
 				</div>
-				<a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+				<a href="#" class="small-box-footer">Mas información <i class="fas fa-arrow-circle-right"></i></a>
 				</div>
 			</div>
 			<!-- ./col -->
@@ -44,14 +44,14 @@
 				<!-- small box -->
 				<div class="small-box bg-success">
 				<div class="inner">
-					<h3>53<sup style="font-size: 20px">%</sup></h3>
+					<h3>953<sup style="font-size: 20px"></sup></h3>
 
-					<p>Bounce Rate</p>
+					<p>Brigadas</p>
 				</div>
 				<div class="icon">
-					<i class="ion ion-stats-bars"></i>
+					<i class="ion ion-ios-people"></i>
 				</div>
-				<a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+				<a href="#" class="small-box-footer">Mas información <i class="fas fa-arrow-circle-right"></i></a>
 				</div>
 			</div>
 			<!-- ./col -->
@@ -59,14 +59,14 @@
 				<!-- small box -->
 				<div class="small-box bg-warning">
 				<div class="inner">
-					<h3>44</h3>
+					<h3>4400</h3>
 
-					<p>User Registrations</p>
+					<p>Vacunados</p>
 				</div>
 				<div class="icon">
 					<i class="ion ion-person-add"></i>
 				</div>
-				<a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+				<a href="#" class="small-box-footer">Mas información <i class="fas fa-arrow-circle-right"></i></a>
 				</div>
 			</div>
 			<!-- ./col -->
@@ -76,12 +76,12 @@
 				<div class="inner">
 					<h3>65</h3>
 
-					<p>Unique Visitors</p>
+					<p>Pruebas Antigeno Hoy</p>
 				</div>
 				<div class="icon">
-					<i class="ion ion-pie-graph"></i>
+					<i class="ion ion-thermometer"></i>
 				</div>
-				<a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+				<a href="#" class="small-box-footer">Mas información <i class="fas fa-arrow-circle-right"></i></a>
 				</div>
 			</div>
 			<!-- ./col -->

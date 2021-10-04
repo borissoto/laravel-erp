@@ -45,6 +45,7 @@
           </a>
         </li>
 
+        @can('admin.rrhh')         
         <li class="nav-header">Modulo RRHH</li>  
         <li class="nav-item">
           <a href="#" class="nav-link">
@@ -58,7 +59,9 @@
             <li class="nav-item"><a href="{{ route('rrhh.add') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Nuevo Usuario</a></li>
           </ul>
         </li>
+        @endcan
 
+        @can('admin.eess')         
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="fas fa-hospital-alt nav-icon"></i> 
@@ -72,7 +75,9 @@
             <li class="nav-item"><a href="{{ route('eess.tipo.list') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Tipo EESS</a></li>          
           </ul>
         </li>
+        @endcan
 
+        <li class="nav-header">Modulo Brigadas</li> 
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="fas fa-ambulance nav-icon"></i> 
@@ -111,10 +116,12 @@
         </li>
 
         <li class="nav-header">Modulo Administracion</li>
-
+       
+          
+        
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <i class="fas fa-tasks nav-icon"></i> 
+            <i class="fas fa-user-lock nav-icon"></i> 
             <p>Administracion
               <i class="right fas fa-angle-left"></i>
             </p>            
@@ -122,7 +129,7 @@
           <ul class="nav nav-treeview">
             <li class="nav-item"><a href="{{ route('red.list')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Redes</a></li>
             <li class="nav-item"><a href="{{ route('municipio.list')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Municipios</a></li>            
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Tipo EESS</a></li>          
+            <li class="nav-item"><a href="{{ route('roles.index')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Roles y Permisos</a></li>          
           </ul>
         </li>   
         

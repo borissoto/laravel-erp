@@ -20,6 +20,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="{{asset('plugins/fullcalendar/main.css')}}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
+  @livewireStyles
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -66,6 +67,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="{{asset('plugins/fullcalendar/main.js')}}"></script>
 <script src="{{asset('plugins/fullcalendar/locales/es.js')}}"></script>
   @yield('scripts')
-
+  @livewireScripts
 </body>
 </html>

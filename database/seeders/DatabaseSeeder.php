@@ -22,7 +22,11 @@ class DatabaseSeeder extends Seeder
         $this->call(AdmEstablecimientosTableSeeder::class);
         $this->call(AdmRedesTableSeeder::class);
 
-        $this->call(AdmUnidadesSeeder::class);
+        $this->call(AdmUnidadesSeeder::class);        
         $this->call(AdmCargosTableSeeder::class);
+
+        $this->call(RoleSeeder::class);
+
+        $this->call(ModelHasRolesTableSeeder::class);
     }
 }

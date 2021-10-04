@@ -6,13 +6,13 @@
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h1>Calendar</h1>
+          <h1>Calendario</h1>
         </div>
         <div class="col-sm-6">
-          <ol class="breadcrumb float-sm-right">
+          {{-- <ol class="breadcrumb float-sm-right">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item active">Calendar</li>
-          </ol>
+          </ol> --}}
         </div>
       </div>
     </div><!-- /.container-fluid -->
@@ -26,12 +26,17 @@
             <div class="sticky-top mb-3">
               <div class="card text-sm">
                 <div class="card-header">
-                  <h4 class="card-title">Nuevo Evento</h4>
+                  <h4 class="card-title">Nueva Actividad 
+                    <p>
+                      {{$user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno}}
+                     </p>
+                  </h4>
+                     
                 </div>
                 <div class="card-body">
                   <!-- the events -->
                   <form method="post" action=" {{ route('calendario.store')}} " enctype="multipart/form-data">
-                    @csrf                                                                        
+                    @csrf                                                                                          
                       <div class="form-group">
                         <label>Titulo Evento </label>                        
                         <input class="form-control" type="text" name="title"  value="" >                        
