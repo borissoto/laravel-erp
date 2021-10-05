@@ -15,12 +15,12 @@ class CreateRrhhBrigadasTable extends Migration
     {
         Schema::create('rrhh_brigadas', function (Blueprint $table) {
             $table->id();
-            $table->integer('adm_municipio_id');
+            $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null');
             $table->string('nom_brigada');
-            $table->string('tipo');
-            $table->unsignedBigInteger('user_id')->nullable();
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('set null');
-            $table->integer('integrantes');                    
+            $table->string('tipo')->nullable();
+            $table->unsignedBigInteger('adm_municipio_id')->nullable();
+            $table->foreign('adm_municipio_id')->references('id')->on('adm_municipios')->onDelete('set null');
+            $table->integer('integrantes')->nullable();;                    
             $table->timestamps();
         });
     }

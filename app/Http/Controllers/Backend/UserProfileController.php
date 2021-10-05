@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class UserProfileController extends Controller
 {
     public function AdminProfile(){
-        $admin
+      
     }
 }

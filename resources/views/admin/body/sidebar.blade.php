@@ -86,36 +86,8 @@
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Brigadas</a></li>
+            <li class="nav-item"><a href="{{ route('brigadas.index')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Brigadas</a></li>
             <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Brigada</a></li>            
-            
-          </ul>
-        </li>
-        
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fas fa-user-nurse nav-icon"></i> 
-            <p>Rastrillaje
-              <i class="right fas fa-angle-left"></i>
-            </p>            
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Rastrillaje</a></li>
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Rastrillaje</a></li>            
-            
-          </ul>
-        </li>
-        
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fas fa-syringe nav-icon"></i> 
-            <p>Vacunas
-              <i class="right fas fa-angle-left"></i>
-            </p>            
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Vacunas</a></li>
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Vacunas</a></li>            
             
           </ul>
         </li>
@@ -128,12 +100,39 @@
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Antigeno</a></li>
+            <li class="nav-item"><a href="{{ route('antigenos.index')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Antigeno</a></li>
             <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Antigeno</a></li>            
             
           </ul>
         </li>
-
+        
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-user-nurse nav-icon"></i> 
+            <p>Rastrillaje
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item"><a href="{{ route('rastrillajes.index')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Rastrillaje</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Rastrillaje</a></li>            
+            
+          </ul>
+        </li>      
+        
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-syringe nav-icon"></i> 
+            <p>Vacunas
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item"><a href="{{ route('vacunas.index')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Vacunas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Vacunas</a></li>            
+            
+          </ul>
+        </li>        
 
         <li class="nav-header">Cronograma</li>
         

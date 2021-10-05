@@ -12,6 +12,7 @@ use Laravel\Sanctum\HasApiTokens;
 use App\Models\AdmCargo;
 use App\Models\AdmDepartamento;
 use App\Models\AdmEstablecimiento;
+use App\Models\RrhhBrigada;
 use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
@@ -78,6 +79,6 @@ class User extends Authenticatable
     }
     
     public function brigadas(){
-        return $this->hasMany('App\Models\RrhhBrigadas');
+        return $this->hasMany(RrhhBrigada::class);
     }
 }

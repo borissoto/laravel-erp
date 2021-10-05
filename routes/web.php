@@ -10,6 +10,10 @@ use App\Http\Controllers\AdmProvinciaController;
 use App\Http\Controllers\AdmRedController;
 use App\Http\Controllers\AdmEstablecimientoController;
 use App\Http\Controllers\Backend\RoleController;
+use App\Http\Controllers\Backend\RrhhAntigenoController;
+use App\Http\Controllers\Backend\RrhhBrigadaController;
+use App\Http\Controllers\Backend\RrhhRastrillajeController;
+use App\Http\Controllers\Backend\RrhhVacunaController;
 use App\Http\Controllers\Backend\UserProfileController;
 use App\Http\Controllers\RrhhCalendarioController;
 use App\Http\Controllers\RrhhEventoController;
@@ -87,7 +91,19 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     //Roles
     // Route::resource('')
     Route::get('/roles/index', [RoleController::class, 'index'])->name('roles.index');   
-    Route::get('/roles/edit/{user}', [RoleController::class, 'edit'])->name('role.edit');   
+    Route::get('/roles/edit/{user}', [RoleController::class, 'edit'])->name('role.edit');  
+    
+    //Brigadas
+    Route::resource('/brigadas', RrhhBrigadaController::class)->names('brigadas');
+
+    //Antigeno
+    Route::resource('/antigenos', RrhhAntigenoController::class)->names('antigenos');
+
+    //Rastrillaje
+    Route::resource('/rastrillajes', RrhhRastrillajeController::class)->names('rastrillajes');
+
+    //Vacunas
+    Route::resource('/vacunas', RrhhVacunaController::class)->names('vacunas');
 
       
 });
