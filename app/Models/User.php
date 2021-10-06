@@ -13,6 +13,7 @@ use App\Models\AdmCargo;
 use App\Models\AdmDepartamento;
 use App\Models\AdmEstablecimiento;
 use App\Models\RrhhBrigada;
+use App\Models\WebArticulo;
 use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
@@ -81,4 +82,10 @@ class User extends Authenticatable
     public function brigadas(){
         return $this->hasMany(RrhhBrigada::class);
     }
+
+    public function articulos(){
+        return $this->hasMany(WebArticulo::class);
+    }
+
+    
 }

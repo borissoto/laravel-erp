@@ -2,8 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\WebCategoria;
 use Illuminate\Database\Seeder;
-
+use Illuminate\Support\Facades\Storage;
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,6 +15,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        Storage::makeDirectory('articulos');
+
         // \App\Models\User::factory(10)->create();
         $this->call(AdmDepartamentoSeeder::class);
 
@@ -29,5 +32,8 @@ class DatabaseSeeder extends Seeder
 
         $this->call(ModelHasRolesTableSeeder::class);
         $this->call(RrhhBrigadasTableSeeder::class);
+
+        WebCategoria::factory(4)->create();
+        $this->call(WebArticulosSeeder::class);
     }
 }
