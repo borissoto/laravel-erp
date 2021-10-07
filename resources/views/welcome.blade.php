@@ -4,7 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>SAFCI</title>
+
+         <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
+         <!-- Bootstrap CSS -->
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+         <link rel="stylesheet" href="{{asset('/CSS/mindex.css')}}">
+         <!--datables estilo bootstrap 4 CSS-->  
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+         <script src="{{asset('js/maindex.js')}}"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ 
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -22,21 +34,142 @@
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Ingresar</a>
+           
+<div class="container">
 
-                        {{-- @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Registrar</a>
-                        @endif --}}
-                    @endauth
+    @if (Route::has('login'))
+    <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+        @auth
+            <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Administracion</a>
+        @else
+        <button>
+            <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Ingresar</a>
+        </button>
+
+            {{-- @if (Route::has('register'))
+                <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Registrar</a>
+            @endif --}}
+        @endauth
+    </div>
+@endif
+            <header>
+            
+                <div class="container">
+                    <img src="{{asset('dist/img/topbanner.jpg')}}" id="banner" alt="Ministerio de Salud de Bolivia">
                 </div>
-            @endif
+                <div class="menu_bar">
+                    <a href="#" class="bt-menu"><span <i class="material-icons">menu</i></span>Menú</a>
+                </div>
+                <nav class="navbar" style="background-color: #31487c;">
+                    <a class="navbar-brand" href="index1.html">PROGRAMA SAFCI</a>
+                    <ul>
+                        <li><a href="#"><span <i class="fa fa-home"></i></span>Inicio</a></li>
+                        <li class="submenu">
+                            <a href="#"><span <i class="fa fa-user-nurse"></i></span>¿Quienes Somos?</a>
+                            <ul class="children">
+                                <li><a href="#">Residencia Médica SAFCI (Formacion SAFCI)</a></li>
+                                <li><a href="#">Implementacion SAFCI</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="#"><span <i class="fa fa-syringe"></i></span>INFORMACION COVID</a>
+                            <ul class="children">
+                                <li><a href="/descargas/fcov1.5.xlsx">Descarga formulario COVID-19 V. 1.5 <marquee width="300">ULTIMA VERSION</marquee></a></li>
+                            <li><a href="/php/covdirect.php">PRODUCCION COVID</a></li>
+                            <li><a href="/php/salacovid.php">SALA SITUACIONAL COVID-19 <marquee width="300">Nuevo</marquee></a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="#"><span <i class="fa fa-graduation-cap"></i></span>EDUCACION PERMANENTE</a>
+                            <ul class="children">
+                                <li><a href="/descargas/incorporacion.docx"> DESCARGA MODELO DE CARTA DE SOLICITUD <marquee width="300">ULTIMA VERSION</marquee></a></li>
+                                <li><a href="/descargas/conclusion.docx"> DESCARGA MODELO DE COMPROMISO <marquee width="300">ULTIMA VERSION</marquee></a></li>
+                                <li><a href="/inscripcion/inscripcion.php"> INSCRIPCION<marquee width="300">ULTIMA VERSION</marquee></a></li>
+                            <li><a href="/aula/">AULA <marquee width="300">Nuevo</marquee></a></li>
+                            </ul>
+                        </li>
+                        {{-- <li><a href="login.php"><span <i class="material-icons">account_circle</i></span>Login</a></li>     --}}
+                    </ul>
+                </nav>
+            </header>
 
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+            <div class="tarjetitas">
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{asset('dist/img/visita.jpeg')}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">EDUCACION PERMANENTE</h5>
+                        <p class="card-text">Curso Estrategias de la Promocion de la Salud Modalidad Virtual Sedunda Version </p>
+                        {{-- <a href="/aula/" class="btn btn-primary">ENTRAR AL CURSO</a> --}}
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{asset('dist/img/vacunacion.jpeg')}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Registro</h5>
+                        <p class="card-text">ACTIVIDADES DE VACUNACION COVID-19</p>
+                        {{-- <a href="/vacunas/vacunas.php" class="btn btn-primary">REGISTRAR</a> --}}
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{asset('dist/img/rastrillaje.jpeg')}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Rastrillaje</h5>
+                        <p class="card-text">REGISTRO DE ACTIVIDADES EN RASTRILLAJE COVID-19</p>
+                        {{-- <a href="/vacunas/rastrillaje.php" class="btn btn-primary">REGISTRAR</a> --}}
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{asset('dist/img/antigeno.jpeg')}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Pruebas de Antigeno Nasal</h5>
+                        <p class="card-text">REGISTRO DE PRUEBAS DE ANTIGENO NASAL REALIZADAS</p>
+                        {{-- <a href="/vacunas/antigeno.php" class="btn btn-primary">REGISTRAR</a> --}}
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{asset('dist/img/brigadas.jpeg')}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">BRIGADAS</h5>
+                        <p class="card-text">CREA BRIGADAS DE VACUNACION O RASTRILLAJE</p>
+                        {{-- <a href="/vacunas/brigadas.php" class="btn btn-primary">VAMOS</a> --}}
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{asset('dist/img/responsable.jpeg')}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">RESPONSABLE</h5>
+                        <p class="card-text">NOMBRA RESPONSABLES DE BRIGADAS DE VACUNACION O RASTRILLAJE</p>
+                        {{-- <a href="/vacunas/responsable.php" class="btn btn-primary">VAMOS</a> --}}
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{asset('dist/img/produccion.jpeg')}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">PRODUCCION</h5>
+                        <p class="card-text">SUBIR FORMULARIO SEMANAL DE PRODUCCION COVID-19|</p>
+                        {{-- <a href="/php/FORMCOVID.php" class="btn btn-primary">VAMOS</a> --}}
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{asset('dist/img/sala.jpeg')}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">SALA SITUACIONAL COVID-19</h5>
+                        <p class="card-text">CONSOLIDADO DE RESULTADOS</p>
+                        <a href="/php/salacovid.php" class="btn btn-primary">VAMOS</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{asset('dist/img/vacunaton.jpeg')}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">VACUNATON EL ALTO</h5>
+                        <p class="card-text">MARATON PARA VACUNACION</p>
+                        {{-- <a href="/vacunaton/vacunaton.php" class="btn btn-primary">REGISTRAR</a> --}}
+                    </div>
+                </div>
+            </div>
+
+            {{-- <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     
                 </div>
@@ -126,7 +259,8 @@
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
                     </div>
                 </div>
-            </div>
+            </div> --}}
+        </div>
         </div>
     </body>
 </html>

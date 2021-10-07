@@ -15,6 +15,7 @@ use App\Http\Controllers\Backend\RrhhBrigadaController;
 use App\Http\Controllers\Backend\RrhhRastrillajeController;
 use App\Http\Controllers\Backend\RrhhVacunaController;
 use App\Http\Controllers\Backend\UserProfileController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\RrhhCalendarioController;
 use App\Http\Controllers\RrhhEventoController;
 use App\Models\User;
@@ -73,6 +74,7 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::get('/eess/add', [AdmEstablecimientoController::class, 'EessAdd'])->name('eess.add');   
     // EESS edit
     Route::get('/eess/edit/{id}', [AdmEstablecimientoController::class, 'EessEdit'])->name('eess.edit');   
+    Route::get('/eess/view/{id}', [AdmEstablecimientoController::class, 'EessView'])->name('eess.view');   
     
     // Tipo EESS List All
     Route::get('/eess/tipo/list', [AdmEesstipoController::class, 'EesstipoList'])->name('eess.tipo.list');   
@@ -137,7 +139,5 @@ Route::get('/red/list', [AdmRedController::class, 'RedList'])->name('red.list');
 // })->name('dashboard');
 
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('admin.index');
-})->name('dashboard');
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
 

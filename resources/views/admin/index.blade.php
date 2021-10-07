@@ -7,7 +7,7 @@
 	<div class="container-fluid">
 	<div class="row mb-2">
 		<div class="col-sm-6">
-		<h1 class="m-0">Tablero</h1>
+		<h1 class="m-0">Tablero de: </h1><h5>{{$user->name}}</h5>
 		</div><!-- /.col -->
 		<div class="col-sm-6">
 		<ol class="breadcrumb float-sm-right">
@@ -44,7 +44,7 @@
 				<!-- small box -->
 				<div class="small-box bg-success">
 				<div class="inner">
-					<h3>953<sup style="font-size: 20px"></sup></h3>
+					<h3>{{$brigadas}}<sup style="font-size: 20px"></sup></h3>
 
 					<p>Brigadas</p>
 				</div>
@@ -86,6 +86,7 @@
 			</div>
 			<!-- ./col -->
 			</div>
+
 	</section>
 	<!-- /.content -->
 </div>

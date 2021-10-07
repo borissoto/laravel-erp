@@ -37,7 +37,7 @@
 
               <h3 class="profile-username text-center">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno}}</h3>
 
-              <p class="text-muted text-center"><i class="fa fa-hospital-alt w-20"></i>{{$user->establecimiento->nom_establecimiento}}</p>             
+              {{-- <p class="text-muted text-center"><i class="fa fa-hospital-alt w-20"></i>{{$user->establecimiento->nom_establecimiento}}</p>              --}}
               
             </div>
             <!-- /.card-body -->

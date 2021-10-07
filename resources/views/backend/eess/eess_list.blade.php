@@ -85,7 +85,7 @@
                                     <span class="sr-only">Toggle Dropdown</span>
                                   </button>
                                   <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item" href="#">Ver</a>
+                                    <a class="dropdown-item" href="{{ route('eess.view', $establecimiento->id)}}">Ver</a>
                                     <a class="dropdown-item" href="#">Editar</a>
                                     <a class="dropdown-item" href="#"></a>
                                     <div class="dropdown-divider"></div>

@@ -33,4 +33,9 @@ class AdmEstablecimientoController extends Controller
         $establecimientos = AdmEstablecimiento::latest()->paginate(5);
         return view('backend.eess.eess_list', compact('establecimientos'));
     }
+
+    public function EessView($id){
+        $establecimiento = AdmEstablecimiento::findOrFail($id);       
+        return view('backend.eess.eess_view', compact('establecimiento'));
+    } 
 }

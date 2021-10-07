@@ -62,6 +62,9 @@
 <script src="{{asset('plugins/moment/moment.min.js')}}"></script>
 <script src="{{asset('plugins/fullcalendar/main.js')}}"></script>
 <script src="{{asset('plugins/fullcalendar/locales/es.js')}}"></script>
+
+<!-- ChartJS -->
+<script src="{{asset('plugins/chart.js/Chart.min.js')}}"></script>
   @yield('scripts')
   @livewireScripts
 </body>

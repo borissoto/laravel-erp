@@ -36,11 +36,11 @@
         <!-- Add icons to the links using the .nav-icon class
              with font-awesome or any other icon font library -->
         <li class="nav-item menu-open">
-          <a href="#" class="nav-link active">
-            <i class="nav-icon fas fa-tachometer-alt"></i>
+          <a href="{{ route('dashboard') }}" class="nav-link active">
+            <i class="nav-icon fas fa-chart-pie"></i>
             <p>
               Inicio
-              <i class="right fas fa-angle-left"></i>
+              {{-- <i class="right fas fa-angle-left"></i> --}}
             </p>
           </a>
         </li>
@@ -145,6 +145,20 @@
             </p>
           </a>
         </li>
+
+        <li class="nav-header">Modulo Web</li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-file-alt nav-icon"></i> 
+            <p>Articulos
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item"><a href="" class="nav-link"><i class="far fa-circle nav-icon"></i>Categorias</a></li>
+            <li class="nav-item"><a href="" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Articulos</a></li>                       
+          </ul>
+        </li>  
 
         <li class="nav-header">Modulo Administracion</li>
        

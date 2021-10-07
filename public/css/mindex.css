@@ -1,0 +1,379 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+body {
+    background: #6c50e7;
+    background-size: cover;
+    font-family: url(../CSS/Recoleta-Regular.ttf);
+}
+.menu_bar {
+	display:none;
+}
+
+header {
+    width: 100%; 
+}
+.flyer{
+    width:800px;
+}
+#EP{
+    width: 400px;
+}
+.tarjetitas{
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    margin: 0;
+    background: #22079b;
+    max-width: 1350px;
+    width: 100%;
+    align-content: center;
+    max-width: 1350px;
+	z-index:100;
+    margin:0px auto;
+}
+#banner{
+    margin-left: 0%;
+    padding: 0%;
+}
+.navbar-brand{
+    color: aliceblue;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+.container img{
+    margin-left: 15%;
+    max-width: 1350px;
+    
+}
+#header{
+    display:block;
+    justify-content: start;
+    width:100%;
+
+}
+#banner{
+    justify-content: start;
+
+}
+#imagenbanner{
+    width: 80%;
+    align-content: flex-start;
+}
+.headerban{
+    height: 5px;
+    width:80%;
+    align-content: flex-start;
+}
+.optionsBar{
+    background: #1d1bac;
+    color:whitesmoke;
+	z-index:100;
+	max-width: 1350px;
+	width:100%;
+    margin:0px auto;
+    font-size: 15px;
+}
+.optionsBar .container11 .btn btn-primary {
+    margin-right: 5px;
+}
+nav {
+	background:hsl(251, 90%, 31%);
+	z-index:100;
+	max-width: 1350px;
+	width:100%;
+    margin:0px auto;
+    font-size: 15px;
+}
+header nav ul {
+	list-style:none;
+}
+ 
+header nav ul li {
+	display:inline-block;
+    position: relative;
+    box-shadow: 1px 1px 10px 0px black;
+}
+ 
+header nav ul li:hover {
+    background:#c1cff715;
+    box-shadow: 1px 1px 10px 0px black;
+    
+}
+ 
+header nav ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+}
+ 
+header nav ul li a span {
+	margin-right:10px;
+}
+ 
+header nav ul li:hover .children {
+    display:block;
+    transform: rotateY(0deg) scale(1);
+}
+ 
+header nav ul li .children {
+	display: none;
+	background:#011826;
+	position: absolute;
+	width: 150%;
+	z-index:1000;
+}
+ 
+header nav ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+ 
+header nav ul li .children li a {
+	display: block;
+}
+ 
+header nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+ 
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+.boletin{
+    margin-left: 20%;
+}
+@media screen and (max-width: 800px) {
+	body {
+		padding-top:80px;
+	}
+    .container{
+        display: none;
+    }
+	.menu_bar {
+        display:block;
+        z-index: 1000;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:#140472;
+    }
+    .sectitle{
+        display: none;
+    }
+    .tarjetero {
+     perspective: none;
+     z-index: 100;
+     width: 100%;
+     max-width: 1000px;
+     flex-wrap: wrap;
+     margin-bottom: 50px;
+     margin-top: 0px;
+    }
+    .contenido h4{
+        display: none;
+    }
+    .card {
+     width: 30%;
+     scale: .5;
+    }
+    .card-header .material-icons {
+        font-size: 50px;
+    }
+    .card:hover {
+     transform: translateY(0px) scale(1.08);
+     z-index: 100;
+    }
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+        text-decoration: none;
+	}
+ 
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+ 
+	.navbar {
+		width: 100%;
+        height: calc(100% - 80px);
+        z-index:100;
+        position: fixed;
+		right:100%;
+        margin: 0px auto;
+        font-size: 16px;
+		overflow: scroll;
+    }
+
+ 	.navbar ul li {
+        display: block;
+        width: 100%;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+ 
+	.navbar ul li a {
+		display: block;
+	}
+ 
+	.navbar ul li:hover .children {
+		display: none;
+	}
+ 
+	.navbar ul li .children {
+		width: 100%;
+		position: relative;
+	}
+ 
+    .navbar ul li .children li a {
+		margin-left:20px;
+	}
+ 
+	.navbar ul li .caret {
+		float: right;
+	}
+}
+
+  .galeria{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    position: relative;
+  }
+  
+  .imagenes{
+    width: 20%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+  .imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .imagenes:hover{
+      transform: scale(1.5);
+  }
+
+   .parallax-completo3{
+        width: 100%;
+        height: 200vh;
+        background-image: url("../img/star-trails-2234343_1920.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        }
+  
+    .presentacion{
+        background: 0 0 0 0.5;
+        color: #fff;
+        font-size: 16px;
+        box-shadow: 1px 1px 10px 0px black;
+        background: rgba(0,0,0,.5);
+        align-items: top;
+        position: right;
+    }
+    .sectitle{
+        color: aliceblue;
+        transform: rotate(-90deg);
+        box-shadow: 1px 1px 10px 0px black;
+        background: rgba(0,0,0,.5);
+    }
+    h1{
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .tarjetero{
+width: 100%;
+max-width: 1000px;
+margin: auto;
+margin-top: 100px;
+display: flex;
+flex-wrap: wrap;
+perspective: 900px;
+    }
+    .card{
+width: 45%;
+background: rgba(255,255,255,.5);
+padding-bottom: 10px;
+transform: rotateX(6deg) scale(0.9);
+transition: all 600ms ease;
+box-shadow: 0px 20px 50px -10px #000;
+    }
+
+    .card:hover {
+        cursor: pointer;
+        transform: rotateX(0deg) scale(1);
+    }
+    .card-header {
+        padding: 8px;
+        text-align: center;
+        background: #fff;
+    }
+    .card-header .material-icons{
+        font-size: 100px;
+    }
+    .card .h3 {
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 15px;
+        text-decoration: none;
+        color: #000;
+    }
+    .card .h4 {
+        font-weight: 200;
+        font-size: 8px;
+        text-align: center;
+        padding: 8px;
+        background: #fff;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        color: #011826;
+    }
+    .somos {
+        color: aliceblue;
+        box-shadow: 1px 1px 10px 0px black;
+        background: rgba(0,0,0,.5);
+        text-align: center;
+    }
+ 
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.pie{
+    font-size: 12px;
+    font-weight: 200;
+    background: #280dbe;
+    text-align: center;
+    color: #fff;
+}

@@ -74,7 +74,7 @@
                 <!-- /.card-body -->
               </div>
               <!-- /.card -->
-              <div class="card">
+              {{-- <div class="card">
                 <div class="card-header">
                   <h3 class="card-title">Create Event</h3>
                 </div>
@@ -99,7 +99,7 @@
                   </div>
                   <!-- /input-group -->
                 </div>
-              </div>
+              </div> --}}
             </div>
           </div>
           <!-- /.col -->
