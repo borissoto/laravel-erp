@@ -109,6 +109,6 @@
     
         <!-- Modal -->
     </div>
-    </section>
+</section>
     <!-- /.content -->
 </div>

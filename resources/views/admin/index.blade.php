@@ -29,7 +29,7 @@
 				<!-- small box -->
 				<div class="small-box bg-info">
 				<div class="inner">
-					<h3>1560</h3>
+					<h3>{{$rastrillajes}}</h3>
 
 					<p>Ratrillajes</p>
 				</div>
@@ -59,7 +59,7 @@
 				<!-- small box -->
 				<div class="small-box bg-warning">
 				<div class="inner">
-					<h3>4400</h3>
+					<h3>{{$vacunas}}</h3>
 
 					<p>Vacunados</p>
 				</div>
@@ -74,7 +74,7 @@
 				<!-- small box -->
 				<div class="small-box bg-danger">
 				<div class="inner">
-					<h3>65</h3>
+					<h3>{{$antigenos}}</h3>
 
 					<p>Pruebas Antigeno Hoy</p>
 				</div>
