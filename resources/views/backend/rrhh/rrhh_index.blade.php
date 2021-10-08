@@ -19,5 +19,7 @@
 </section>
          
 @livewire('admin.rrhh-index')
-
+@push('modals')
+  @livewire('live-modal')
+@endpush
 @endsection

@@ -18,6 +18,7 @@ class RrhhIndex extends Component
     public $campo = null;
     public $order = null;
     public $icon = '-sort';
+    public $showModal = 'hidden';
 
     protected $paginationTheme = "bootstrap";
 
@@ -62,5 +63,10 @@ class RrhhIndex extends Component
                 break;
         }
         $this->campo = $campo;
+    }
+
+    public function showModal(User $user)    
+    {
+        dd($user);
     }
 }

@@ -12,11 +12,16 @@
    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
    <!-- overlayScrollbars -->
    {{-- <link rel="stylesheet" href="{{asset('plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}"> --}}
+  {{-- Tailwind --}}
+   {{-- <link rel="stylesheet" href="{{ asset('css/tailwind.css') }}"> --}}
   <!-- fullCalendar -->
   <link rel="stylesheet" href="{{asset('plugins/fullcalendar/main.css')}}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
   @livewireStyles
+
+   <!-- Tailwind Scripts -->
+   {{-- <script src="{{ mix('js/app.js') }}" defer></script> --}} 
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -67,5 +72,7 @@
 <script src="{{asset('plugins/chart.js/Chart.min.js')}}"></script>
   @yield('scripts')
   @livewireScripts
+
+  @stack('modals')
 </body>
 </html>

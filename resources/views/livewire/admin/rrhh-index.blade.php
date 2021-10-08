@@ -81,7 +81,7 @@
                                         <span class="sr-only">Toggle Dropdown</span>
                                       </button>
                                       <div class="dropdown-menu" style="min-width: 1rem;" role="menu">
-                                        <a class="dropdown-item" href="{{ route('rrhh.view', $user->id)}}">Ver</a>
+                                        <a class="dropdown-item" href="#" wire:click="showModal({{$user->id}})">Ver</a>
                                         <a class="dropdown-item" href="{{ route('rrhh.edit', $user->id)}}">Editar</a>
                                         <a class="dropdown-item" href="#"></a>
                                         <div class="dropdown-divider"></div>
