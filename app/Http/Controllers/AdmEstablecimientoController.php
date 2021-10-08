@@ -29,9 +29,8 @@ class AdmEstablecimientoController extends Controller
         return view('backend.eess.eess_edit', compact('eesss'));
     }
 
-    public function EessList(){
-        $establecimientos = AdmEstablecimiento::latest()->paginate(5);
-        return view('backend.eess.eess_list', compact('establecimientos'));
+    public function EessList(){        
+        return view('backend.eess.eess_index');
     }
 
     public function EessView($id){

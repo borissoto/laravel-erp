@@ -74,9 +74,8 @@ class AdmUserController extends Controller
         return view('backend.rrhh.rrhh_edit', compact('user'));
     }
 
-    public function UserList(){
-        $users = User::latest()->paginate(5);
-        return view('backend.rrhh.rrhh_list', compact('users'));
+    public function UserList(){        
+        return view('backend.rrhh.rrhh_index');
     }
 
     public function rrhhView($id){
