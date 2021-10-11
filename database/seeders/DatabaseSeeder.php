@@ -33,7 +33,7 @@ class DatabaseSeeder extends Seeder
         
         $this->call(RrhhBrigadasTableSeeder::class);
 
-        //WebCategoria::factory(4)->create();
-        //$this->call(WebArticulosSeeder::class);
+        // WebCategoria::factory(4)->create();
+        // $this->call(WebArticulosSeeder::class);
     }
 }

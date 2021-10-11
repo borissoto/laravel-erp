@@ -259,8 +259,24 @@
                 </div>
                 <!-- /.tab-pane -->
 
-                <div class="tab-panel" id="educacion">
-                  
+                <div class="tab-panel" id="educacion">                  
+                  <div class="row">
+                    <div class="col-12">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Universidad</label>
+                          <div class="col-sm-9">                            
+                            <input class="form-control" type="text" disabled value="{{ $user->universidad }}" >
+                          </div>
+                        </div>                                                
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Titulacion</label>
+                          <div class="col-sm-9">
+                            <input class="form-control" type="text" disabled value="{{ $cargo->grado}}" >
+                          </div>
+                        </div>                                                                        
+                    </div>
+                    <!-- /.col -->
+                  </div>                                    
                 </div>
                 <!-- /.tab-pane -->
               </div>

@@ -67,6 +67,7 @@ class RrhhIndex extends Component
 
     public function showModal(User $user)    
     {
-        dd($user);
+        $this->emit('showModal', $user);
+        // dd($user);
     }
 }

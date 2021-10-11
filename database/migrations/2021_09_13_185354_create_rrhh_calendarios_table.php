@@ -17,7 +17,8 @@ class CreateRrhhCalendariosTable extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained();
             $table->string('title',100);
-            //$table->string('descripcion',250)->nullable();
+            $table->string('descripcion',250)->nullable();
+            $table->string('tipo')->nullable(); // tipo de actividad
             $table->dateTime('start');
             $table->dateTime('end');
             $table->integer('allDay');

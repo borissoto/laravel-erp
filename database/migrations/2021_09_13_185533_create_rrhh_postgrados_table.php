@@ -15,10 +15,10 @@ class CreateRrhhPostgradosTable extends Migration
     {
         Schema::create('rrhh_postgrados', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id');
-            $table->string('tipo_postgrado');
-            $table->string('nom_postgrado');
-            $table->string('universidad');
+            $table->foreignId('user_id')->nullable()->constrained()->onDelete('cascade');
+            $table->string('tipo_postgrado'); //diplomado maestria
+            $table->string('nom_postgrado'); //titulo del postgrado
+            $table->string('universidad'); 
             $table->timestamp('fecha_ini')->nullable();
             $table->timestamp('fecha_fin')->nullable();
             $table->timestamps();

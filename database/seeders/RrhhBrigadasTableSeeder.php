@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class RrhhBrigadasTableSeeder extends Seeder
 {
@@ -16,9 +17,9 @@ class RrhhBrigadasTableSeeder extends Seeder
     {
         
 
-        \DB::table('rrhh_brigadas')->delete();
+        DB::table('rrhh_brigadas')->delete();
         
-        \DB::table('rrhh_brigadas')->insert(array (
+        DB::table('rrhh_brigadas')->insert(array (
             0 => 
             array (
                 'id' => 2,
@@ -5520,7 +5521,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'updated_at' => NULL,
             ),
         ));
-        \DB::table('rrhh_brigadas')->insert(array (
+        DB::table('rrhh_brigadas')->insert(array (
             0 => 
             array (
                 'id' => 692,
@@ -11022,7 +11023,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'updated_at' => NULL,
             ),
         ));
-        \DB::table('rrhh_brigadas')->insert(array (
+        DB::table('rrhh_brigadas')->insert(array (
             0 => 
             array (
                 'id' => 1219,

@@ -5,11 +5,11 @@
         <div class="row">                 
         <div class="col-12">
             <div class="card">
-                <div class="card-header bg-lightblue">
+                <div class="card-header bg-light">
                     <h3 class="card-title"></h3> 
                     {{-- <input wire:model="search" type="form-control" placeholder="Buscar..." > --}}
                     <div class="d-inline-flex ">
-                        <select wire:model="perPage" class="form-control-sm text-secondary border-light"> 
+                        <select wire:model="perPage" class="form-control-sm text-secondary border-1"> 
                             <option value="5">5 por página</option>
                             <option value="10">10 por página</option>
                             <option value="15">15 por página</option>
@@ -18,6 +18,9 @@
                             <option value="100">100 por página</option>
                         </select>
                     </div>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+                        Nuevo
+                      </button>
     
                     <div class="card-tools">
                         <div class="input-group input-group-sm " style="width: 150px;">
@@ -82,7 +85,7 @@
                                       </button>
                                       <div class="dropdown-menu" style="min-width: 1rem;" role="menu">
                                         {{-- wire:click="showModal({{$user->id}})" --}}
-                                        <a class="dropdown-item" href="{{ route('rrhh.view', $user->id)}}">Ver</a>
+                                        <a class="dropdown-item" wire:click="showModal({{$user->id}})"  href="javascript:void(0">Ver</a>
                                         <a class="dropdown-item" href="{{ route('rrhh.edit', $user->id)}}">Editar</a>
                                         <a class="dropdown-item" href="#"></a>
                                         <div class="dropdown-divider"></div>
