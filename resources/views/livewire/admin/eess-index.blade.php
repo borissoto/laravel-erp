@@ -80,8 +80,8 @@
                                             <span class="sr-only">Toggle Dropdown</span>
                                           </button>
                                           <div class="dropdown-menu" style="min-width: 1rem;" role="menu">
-                                            <a class="dropdown-item" href="{{ route('rrhh.view', $establecimiento->id)}}">Ver</a>
-                                            <a class="dropdown-item" href="{{ route('rrhh.edit', $establecimiento->id)}}">Editar</a>
+                                            <a class="dropdown-item" href="{{ route('eess.view', $establecimiento->id)}}">Ver</a>
+                                            <a class="dropdown-item" href="{{ route('eess.edit', $establecimiento->id)}}">Editar</a>
                                             <a class="dropdown-item" href="#"></a>
                                             <div class="dropdown-divider"></div>
                                             <a class="dropdown-item" data-toggle="modal" data-target="#modal-default" href="#">Asignar establecimientos</a>

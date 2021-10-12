@@ -15,4 +15,12 @@ class AdmDepartamento extends Model
         'departamento',
         'abreviatura',        
     ];
+
+    public function municipios(){
+        return $this->hasMany(AdmMunicipio::class);
+    }
+
+    public function redes(){
+        return $this->hasMany(AdmRedes::class);
+    }
 }

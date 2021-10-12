@@ -21,7 +21,7 @@ class AdmMunicipio extends Model
     ];
 
     public function departamento(){
-        return $this->hasOne(AdmDepartamento::class,'id','adm_departamento_id');
+        return $this->belongsTo(AdmDepartamento::class,'adm_departamento_id');
     }
 
     public function brigadas(){
@@ -31,4 +31,5 @@ class AdmMunicipio extends Model
     public function antigeno(){
         return $this->hasMany(RrhhAntigeno::class);
     }
+   
 }

@@ -11,6 +11,6 @@ class AdmRedes extends Model
     use HasFactory;
 
     public function departamento(){
-        return $this->belongsTo(AdmDepartamento::class);
+        return $this->belongsTo(AdmDepartamento::class, 'adm_departamento_id');
     }
 }

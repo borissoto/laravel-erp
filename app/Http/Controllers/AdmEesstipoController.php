@@ -36,7 +36,7 @@ class AdmEesstipoController extends Controller
 
     public function EessEdit($id){
         $eess = AdmEesstipo::findOrFail($id);
-        return view('backend.eess.eess_tipo_edit', compact('eesss_tipo'));
+        return view('backend.eess.eess_tipo_edit', compact('eess_tipo'));
     }
 
     public function EesstipoList(){

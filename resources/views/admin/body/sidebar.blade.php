@@ -164,30 +164,19 @@
        
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <i class="fas fa-compass nav-icon"></i> 
-            <p>Locaciones
+            <i class="fas fa-globe-americas nav-icon"></i> 
+            <p>Division Territorial
               <i class="right fas fa-angle-left"></i>
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('red.list')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Redes</a></li>
-            <li class="nav-item"><a href="{{ route('municipio.list')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Municipios</a></li>                       
+            <li class="nav-item"><a href="{{ route('departamentos.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Departamentos</a></li>
+            <li class="nav-item"><a href="{{ route('redes.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Redes</a></li>
+            <li class="nav-item"><a href="{{ route('municipios.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Municipios</a></li>                       
+            <li class="nav-item"><a href="{{ route('comunidades.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Comunidades</a></li>
           </ul>
         </li>   
 
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fas fa-map-signs nav-icon"></i> 
-            <p>Comunidades
-              <i class="right fas fa-angle-left"></i>
-            </p>            
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Comunidades(EESS)</a></li>
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Comunidad</a></li>            
-          </ul>
-        </li>
-        
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="fas fa-user-lock nav-icon"></i> 

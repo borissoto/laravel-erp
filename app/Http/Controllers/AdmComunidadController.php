@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\AdmMunicipio;
 use Illuminate\Http\Request;
 
-class AdmMunicipioController extends Controller
+class AdmComunidadController extends Controller
 {
-     /**
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
@@ -15,7 +14,7 @@ class AdmMunicipioController extends Controller
     public function index()
     {
         //
-        return view('admin.municipio.index');
+        return view('admin.comunidad.index');
     }
 
     /**

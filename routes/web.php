@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdmComunidadController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\AdmDepartamentoController;
@@ -95,7 +96,7 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::get('/roles/index', [RoleController::class, 'index'])->name('roles.index');   
     Route::get('/roles/edit/{user}', [RoleController::class, 'edit'])->name('role.edit');  
     
-    //Brigadas
+    /**************Brigadas************/
     Route::resource('/brigadas', RrhhBrigadaController::class)->names('brigadas');
 
     //Antigeno
@@ -107,6 +108,15 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     //Vacunas
     Route::resource('/vacunas', RrhhVacunaController::class)->names('vacunas');
 
+    /*************Territorio*******************/
+    //Departamento
+    Route::resource('/departamentos', AdmDepartamentoController::class)->names('departamentos');
+    //Redes
+    Route::resource('/redes', AdmRedController::class)->names('redes');
+    //Municipio
+    Route::resource('/municipios', AdmMunicipioController::class)->names('municipios');
+    // Comunidades
+    Route::resource('/comunidades', AdmComunidadController::class)->names('comunidades');
       
 });
 
@@ -118,19 +128,6 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
 
 //
 Route::get('/contact-asf', [ContactController::class, 'index'])->name('con');
-
-//AdmDepartamento Controller
-Route::get('/departamento/all', [AdmDepartamentoController::class, 'AllDepartamento'])->name('all.departamento');
-
-//AdmProvincia Controller
-Route::get('/provincia/all', [AdmProvinciaController::class, 'AllProvincia'])->name('all.provincia');
-
-//AdmMunicipio Controller
-Route::get('/municipio/list', [AdmMunicipioController::class, 'MunicipioList'])->name('municipio.list');
-
-//AdmRedes Controller
-Route::get('/red/list', [AdmRedController::class, 'RedList'])->name('red.list');
-
 
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 //     // $users = User::all();

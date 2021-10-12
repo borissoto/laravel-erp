@@ -85,7 +85,8 @@
                                       </button>
                                       <div class="dropdown-menu" style="min-width: 1rem;" role="menu">
                                         {{-- wire:click="showModal({{$user->id}})" --}}
-                                        <a class="dropdown-item" wire:click="showModal({{$user->id}})"  href="javascript:void(0">Ver</a>
+                                      {{-- <a class="dropdown-item" wire:click="showModal({{$user->id}})"  href="javascript:void(0">Ver</a> --}}
+                                        <a class="dropdown-item" href="{{ route('rrhh.view', $user->id)}}">Ver</a>
                                         <a class="dropdown-item" href="{{ route('rrhh.edit', $user->id)}}">Editar</a>
                                         <a class="dropdown-item" href="#"></a>
                                         <div class="dropdown-divider"></div>

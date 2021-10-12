@@ -13,7 +13,7 @@
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
           <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-          <li class="breadcrumb-item active">Usuario</li>
+          <li class="breadcrumb-item active">RRHH</li>
         </ol>
       </div>
     </div>
@@ -37,7 +37,7 @@
 
               <h3 class="profile-username text-center">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno}}</h3>
 
-              <p class="text-muted text-center"><i class="fa fa-hospital-alt w-20"></i>{{$user->establecimiento->nom_establecimiento}}</p>             
+              {{-- <p class="text-muted text-center"><i class="fa fa-hospital-alt w-20"></i>{{$user->establecimiento->nom_establecimiento}}</p>              --}}
               
             </div>
             <!-- /.card-body -->
@@ -60,13 +60,14 @@
             </div><!-- /.card-header -->
             <div class="card-body">
               <div class="tab-content">
+
                 <div class="active tab-pane" id="personal">
                   <div class="row">
                     <div class="col-12">
                         <div class="form-group row">
-                          <label for="nombres" class="col-sm-3 col-form-label">Usuario</label>
+                          <label for="name" class="col-sm-3 col-form-label">Usuario</label>
                           <div class="col-sm-9">
-                            <input class="form-control" type="text" disabled value="{{ $user->name}}" id="nombres">
+                            <input class="form-control" type="text" disabled value="{{ $user->name}}" id="name">
                           </div>
                         </div>                                                
                         <div class="form-group row">
@@ -94,13 +95,13 @@
                           </div>
                           <label for="extension" class="col-sm-1 col-form-label">Exp</label>
                           <div class="col-sm-3" >
-                            <input class="form-control" type="text" disabled value="{{ $user->departamento->abreviatura }}" id="ci">
+                            <input class="form-control" type="text" disabled value="{{ $user->departamento->abreviatura }}" id="extension">
                           </div>                                                  
                         </div>                                                
                         <div class="form-group row">
-                            <label for="example-date-input" class="col-sm-3 col-form-label">Fecha Nacimiento</label>                                                                                                  
+                            <label for="fechanac" class="col-sm-3 col-form-label">Fecha Nacimiento</label>                                                                                                  
                             <div class="col-sm-5"> 
-                                <input class="form-control" type="date" disabled value="{{\Carbon\Carbon::parse($user->fecha_nac)->format('Y-m-d')}}" id="example-date-input">
+                                <input class="form-control" type="date" disabled value="{{\Carbon\Carbon::parse($user->fecha_nac)->format('Y-m-d')}}" id="fechanac">
                             </div>
                             <label for="extension" class="col-sm-1 col-form-label">Sexo</label>
                             <div class="col-sm-3" >
@@ -136,13 +137,13 @@
                             </div>                                                 
                         </div>   
                         <div class="form-group row">
-                            <label for="incorporacion" class="col-sm-3 col-form-label">Observaciones</label>
+                            <label for="obs" class="col-sm-3 col-form-label">Observaciones</label>
                             <div class="col-sm-5">
-                              <input class="form-control" type="textarea" disabled value="{{ $user->obs}}" id="nombres">
+                              <input class="form-control" type="textarea" disabled value="{{ $user->obs}}" id="obs">
                             </div>
-                            <label for="item" class="col-sm-1 col-form-label">Docente</label>
+                            <label for="docente" class="col-sm-1 col-form-label">Docente</label>
                             <div class="col-sm-3">
-                              <input class="form-control" type="text" disabled value="{{ $user->docente}}" id="nombres">
+                              <input class="form-control" type="text" disabled value="{{ $user->docente}}" id="docente">
                             </div>                                                 
                         </div>                                           
                     </div>
@@ -187,6 +188,12 @@
                 <div class="tab-pane" id="establecimiento">
                   <div class="row">
                     <div class="col-12">
+                      @if ($user->establecimiento === null)                         
+                      
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label">El usuario no tiene Establecimiento Registrado </label>                                                                             
+                        </div>
+                      @else
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Nombre </label>
                           <div class="col-sm-9">
@@ -253,30 +260,32 @@
                             <input class="form-control" type="text" disabled value="{{ $user->establecimiento->soaps}}">
                           </div>
                         </div> 
+
+                      @endif
                     </div>
                     <!-- /.col -->
                   </div>                                        
                 </div>
                 <!-- /.tab-pane -->
 
-                <div class="tab-panel" id="educacion">
+                <div class="tab-pane" id="educacion">                  
                   <div class="row">
                     <div class="col-12">
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Universidad</label>
                           <div class="col-sm-9">                            
-                            <input class="form-control" type="text" disabled value="{{ $user->universidad }}" >
+                            <input class="form-control" type="text" disabled value="{{ $user->universidad }}" />
                           </div>
                         </div>                                                
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Titulacion</label>
                           <div class="col-sm-9">
-                            <input class="form-control" type="text" disabled value="{{ $cargo->grado}}" >
+                            <input class="form-control" type="text" disabled value="{{ $user->grado }}" />
                           </div>
                         </div>                                                                        
                     </div>
                     <!-- /.col -->
-                  </div>  
+                  </div>                                    
                 </div>
                 <!-- /.tab-pane -->
               </div>
@@ -291,5 +300,7 @@
     </div><!-- /.container-fluid -->
   </section>
   
-    
-@endsection
+  
+  
+
+  @endsection

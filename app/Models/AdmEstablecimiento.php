@@ -16,4 +16,8 @@ class AdmEstablecimiento extends Model
     public function departamento(){
         return $this->hasOne(AdmDepartamento::class,'id','adm_departamento_id');
     }
+
+    public function comunidades(){
+        return $this->hasMany(AdmComunidades::class);
+    }
 }
