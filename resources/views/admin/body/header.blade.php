@@ -17,7 +17,7 @@
   <ul class="navbar-nav ml-auto">  
   
     @php
-      $user = DB::table('users')->first();
+      $user = Auth::user();
     @endphp	  
     <li class="nav-item dropdown user-menu">
       <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">

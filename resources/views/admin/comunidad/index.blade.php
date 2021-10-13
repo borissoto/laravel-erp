@@ -18,8 +18,12 @@
     </div>
   </div><!-- /.container-fluid -->
 </section>
-
+ 
 
 @livewire('admin.comunidad-index')
+
+@endsection
+@section('scripts')
+@parent
 
 @endsection

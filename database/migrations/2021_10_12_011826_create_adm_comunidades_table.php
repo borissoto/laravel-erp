@@ -17,16 +17,16 @@ class CreateAdmComunidadesTable extends Migration
             $table->id();
             $table->unsignedBigInteger('adm_establecimiento_id')->nullable();
             $table->foreign('adm_establecimiento_id')->references('id')->on('adm_establecimientos')->onDelete('set null');
-            $table->string('nom_comunidad');
-            $table->string('pioc');
-            $table->string('nacion');
-            $table->integer('habitantes');
-            $table->integer('familias');
-            $table->integer('carpetizacion');
-            $table->string('tiempo_viaje');
-            $table->decimal('lat',10,8);
-            $table->decimal('long',11,8);
-            $table->unsignedBigInteger('user_id');            
+            $table->string('nom_comunidad')->nullable();
+            $table->string('pioc')->nullable();
+            $table->string('nacion')->nullable();
+            $table->integer('habitantes')->nullable();
+            $table->integer('familias')->nullable();
+            $table->integer('carpetizacion')->nullable();
+            $table->string('tiempo_viaje')->nullable();
+            $table->decimal('lat',10,8)->nullable();
+            $table->decimal('long',11,8)->nullable();
+            $table->unsignedBigInteger('user_id')->nullable();            
             $table->timestamps();
         });
     }

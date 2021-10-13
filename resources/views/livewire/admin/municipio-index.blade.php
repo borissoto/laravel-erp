@@ -37,7 +37,7 @@
                     <!-- card-header -->
                     <div class="card-body pb-1">
                         {{-- <div class="table-responsive"> --}}
-                            <table id="example1" class="table table-bordered table-striped text-sm">
+                            <table id="example1" class="table table-sm table-bordered table-striped text-sm">
                             <thead>
                                 <tr>                                    
                                     <th>Departamento
@@ -74,14 +74,13 @@
                                     <td>{{ $municipio->cod_municipio}}</td> 
                                                            
                                     <td width="20px">
-                                        <div class="btn-group">
-                                        {{-- <button type="button" class="btn btn-secondary">Action</button> --}}
-                                        <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fas fa-bars"></i>
-                                            <span class="sr-only">Toggle Dropdown</span>
-                                        </button>
-                                        <div class="dropdown-menu" style="min-width: 1rem;"  role="menu">                                        
-                                            <a class="dropdown-item" href="{{route('role.edit', $municipio)}}">Editar</a>
-                                        </div>
+                                        <div class="btn-group">                                        
+                                            <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fas fa-bars "></i>
+                                                {{-- <span class="sr-only">Toggle Dropdown</span> --}}
+                                            </button>
+                                            <div class="dropdown-menu" style="min-width: 1rem;"  role="menu">                                        
+                                                <a class="dropdown-item" href="{{route('role.edit', $municipio)}}">Editar</a>
+                                            </div>
                                         </div>
                                         {{-- <a href="{{ route('rrhh.view', $user->id)}}" class="btn btn-secondary btn-light" title="Ver"><i class="fa fa-eye" aria-hidden="true"></i></a>      
                                         <a href="{{ route('rrhh.edit', $user->id)}}" class="btn btn-secondary btn-light" title="Editar"><i class="fa fa-pencil" aria-hidden="true"></i></a>      

@@ -1,4 +1,11 @@
 <div>
+    @include('livewire.modals.comunidad.create')
+    @include('livewire.modals.comunidad.update')
+    @if (session()->has('message'))
+        <div class="alert alert-success" style="margin-top:30px;">x
+          {{ session('message') }}
+        </div>
+    @endif
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
@@ -18,7 +25,7 @@
                                 <option value="100">100 por página</option>
                             </select>
                         </div>
-                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#comunidadCreate">
                             Nuevo
                           </button>
         
@@ -40,7 +47,7 @@
                     <!-- card-header -->
                     <div class="card-body pb-1">
                         {{-- <div class="table-responsive"> --}}
-                            <table id="example1" class="table table-bordered table-striped text-sm">
+                            <table id="example1" class="table table-sm table-bordered table-striped text-sm">
                             <thead>
                                 <tr>                                    
                                     <th>Establecimiento
@@ -78,7 +85,7 @@
                                             <span class="sr-only">Toggle Dropdown</span>
                                         </button>
                                         <div class="dropdown-menu" style="min-width: 1rem;"  role="menu">                                        
-                                            <a class="dropdown-item" href="{{route('role.edit', $comunidad)}}">Editar</a>
+                                            <button class="dropdown-item" data-toggle="modal" data-target="#comunidadUpdate" wire:click="edit({{ $comunidad->id }})" >Editar</button>
                                         </div>
                                         </div>
                                         {{-- <a href="{{ route('rrhh.view', $user->id)}}" class="btn btn-secondary btn-light" title="Ver"><i class="fa fa-eye" aria-hidden="true"></i></a>      

@@ -3,14 +3,36 @@
 namespace App\Http\Livewire\Admin;
 
 use App\Models\AdmComunidades;
+use App\Models\AdmDepartamento;
 use App\Models\AdmEstablecimiento;
+use App\Models\AdmMunicipio;
 use Livewire\Component;
 use Livewire\WithPagination;
 
 class ComunidadIndex extends Component
 {
 
+    public $departamentos;
+    public $municipios;
+    public $establecimientos;
+
+    public $departamento;
+    public $selectedMunicipio;
+    public $establecimiento;
+
     use WithPagination;
+
+    public $nom_comunidad; 
+    public $pioc; 
+    public $nacion; 
+    public $habitantes;
+    public $familias;
+    public $carpetizacion;
+    public $tiempo_viaje;
+    public $lat;
+    public $long;    
+
+    public $updateMode = false;
 
     protected $queryString = ['search' => ['except' => '']];
 
@@ -22,9 +44,15 @@ class ComunidadIndex extends Component
 
     protected $paginationTheme = "bootstrap";
 
+    public function mount()
+    {
+        $this->municipios = AdmMunicipio::all();
+        $this->establecimientos = collect();
+    }
+
     public function updatingSearch(){
         $this->resetPage();
-    }
+    } 
 
     public function render()
     {
@@ -44,9 +72,15 @@ class ComunidadIndex extends Component
             $this->camp = null;
             $this->order = null;
         }
-        $comunidades = $comunidades->paginate($this->perPage);  
+        $comunidades = $comunidades->latest()->paginate($this->perPage);  
 
         return view('livewire.admin.comunidad-index', compact('comunidades'));
+    }
+
+     public function updatedSelectedMunicipio($value)
+    {
+        $this->establecimientos = AdmEstablecimiento::where('adm_municipio_id', $value)->get();
+        $this->establecimiento = $this->establecimientos->first()->id ?? null;
     }
 
     public function sorteable($campo)
@@ -69,5 +103,73 @@ class ComunidadIndex extends Component
                 break;
         }
         $this->campo = $campo;
+    }
+
+    public function resetInputFields()
+    {
+        $this->nom_comunidad = '';
+        $this->pioc = '';
+        $this->nacion = '';
+        $this->habitantes = '';
+        $this->familias = '';
+        $this->carpetizacion = '';
+        $this->tiempo_viaje = '';
+        $this->lat = '';
+        $this->long = '';
+        
+
+    }
+
+   
+    public function store()
+    {
+        // dd($this->lat.' '.$this->long);
+        
+        
+       $this->validate([
+            'nom_comunidad' =>'required', 
+            'pioc' =>'required', 
+            'nacion' =>'required', 
+            'habitantes' =>'required',
+            'familias' =>'required',
+            'carpetizacion' =>'required',                                 
+        ]);
+
+        AdmComunidades::create([
+            'adm_establecimiento_id' => $this->establecimiento,
+            'nom_comunidad' => $this->nom_comunidad, 
+            'pioc' => $this->pioc, 
+            'nacion' => $this->nacion, 
+            'habitantes' => $this->habitantes,
+            'familias' => $this->familias,
+            'carpetizacion' => $this->carpetizacion,
+            'tiempo_viaje' => $this->tiempo_viaje,
+            'lat' => $this->lat,
+            'long' => $this->long,
+            'user_id' => auth()->user()->id,
+        ]);
+
+        // session()->flash('message', 'Comunidad creada satisfactoriamente');
+        $this->resetInputFields();
+        $this->dispatchBrowserEvent('closeComunidadStore');
+
+    }
+
+    public function edit($id)
+    {
+        $this->updateMode = true;
+        $comunidad = AdmComunidades::where('id',$id)->first();        
+        $this->id = $id;
+        $this->establecimiento = $comunidad->adm_establecimiento_id;
+        $this->nom_comunidad = $comunidad->nom_comunidad;
+        $this->pioc = $comunidad->pioc;
+        $this->nacion = $comunidad->nacion;
+        $this->habitantes = $comunidad->habitantes;
+        $this->familias = $comunidad->familias;
+        $this->carpetizacion = $comunidad->carpetizacion;
+        $this->tiempo_viaje = $comunidad->tiempo_viaje;
+        $this->lat = $comunidad->lat;
+        $this->long = $comunidad->long;
+        
     }
 }
