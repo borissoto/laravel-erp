@@ -16,12 +16,13 @@ class ComunidadIndex extends Component
     public $municipios;
     public $establecimientos;
 
-    public $departamento;
+    public $selectedDepartamento;
     public $selectedMunicipio;
-    public $establecimiento;
+    public $selectedEstablecimiento;
 
     use WithPagination;
-
+    
+    //Datos para el registro
     public $nom_comunidad; 
     public $pioc; 
     public $nacion; 
@@ -44,10 +45,23 @@ class ComunidadIndex extends Component
 
     protected $paginationTheme = "bootstrap";
 
-    public function mount()
+    public function mount($selectedEstablecimiento = null)
     {
-        $this->municipios = AdmMunicipio::all();
+        $this->departamentos = AdmDepartamento::all();
+        $this->municipios = collect();
         $this->establecimientos = collect();
+        $this->selectedEstablecimiento = $selectedEstablecimiento;
+
+        if(!is_null($selectedEstablecimiento)){
+            $establecimiento = AdmEstablecimiento::with('municipio.departamento')->find($selectedEstablecimiento);
+            if($establecimiento){
+                $this->establecimientos = AdmEstablecimiento::where('adm_municipio_id', $establecimiento->adm_municipio_id)->get();
+                $this->municipios = AdmMunicipio::where('adm_departamento_id', $establecimiento->municipio->adm_departamento_id)->get();
+                $this->selectedDepartamento = $establecimiento->municipio->adm_departamento_id;
+                $this->selectedMunicipio = $establecimiento->adm_municipio_id;
+            }
+        }
+
     }
 
     public function updatingSearch(){
@@ -77,10 +91,25 @@ class ComunidadIndex extends Component
         return view('livewire.admin.comunidad-index', compact('comunidades'));
     }
 
-     public function updatedSelectedMunicipio($value)
+
+    public function updatedSelectedDepartamento($departamento)
     {
-        $this->establecimientos = AdmEstablecimiento::where('adm_municipio_id', $value)->get();
-        $this->establecimiento = $this->establecimientos->first()->id ?? null;
+        $this->municipios = AdmMunicipio::where('adm_departamento_id', $departamento)->get();
+        $this->selectedMunicipio = NULL;
+    }
+
+    //  public function updatedSelectedMunicipio($value)
+    // {
+    //     $this->establecimientos = AdmEstablecimiento::where('adm_municipio_id', $value)->get();
+    //     $this->establecimiento = $this->establecimientos->first()->id ?? null;
+    // }
+
+     public function updatedSelectedMunicipio($municipio)
+    {
+        if(!is_null($municipio)){
+            $this->establecimientos = AdmEstablecimiento::where('adm_municipio_id', $municipio)->get();
+        }
+        
     }
 
     public function sorteable($campo)
@@ -161,6 +190,7 @@ class ComunidadIndex extends Component
         $comunidad = AdmComunidades::where('id',$id)->first();        
         $this->id = $id;
         $this->establecimiento = $comunidad->adm_establecimiento_id;
+        // dd($this->establecimiento);
         $this->nom_comunidad = $comunidad->nom_comunidad;
         $this->pioc = $comunidad->pioc;
         $this->nacion = $comunidad->nacion;

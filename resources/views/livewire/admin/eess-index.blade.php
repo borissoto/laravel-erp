@@ -1,14 +1,22 @@
 <div>
+    @include('livewire.modals.eess.create')
+    @include('livewire.modals.eess.update')
+    @if (session()->has('message'))
+        <div class="alert alert-success" style="margin-top:30px;">x
+          {{ session('message') }}
+        </div>
+    @endif
+    <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
             <div class="row">                 
             <div class="col-12">
                 <div class="card">
-                    <div class="card-header bg-lightblue">
+                    <div class="card-header bg-light">
                         <h3 class="card-title"></h3> 
                         {{-- <input wire:model="search" type="form-control" placeholder="Buscar..." > --}}
                         <div class="d-inline-flex ">
-                            <select wire:model="perPage" class="form-control-sm text-secondary border-light"> 
+                            <select wire:model="perPage" class="form-control-sm text-secondary border-1"> 
                                 <option value="5">5 por página</option>
                                 <option value="10">10 por página</option>
                                 <option value="15">15 por página</option>
@@ -17,6 +25,10 @@
                                 <option value="100">100 por página</option>
                             </select>
                         </div>
+
+                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#eessCreate">
+                            Nuevo
+                          </button>
         
                         <div class="card-tools">
                             <div class="input-group input-group-sm " style="width: 150px;">
@@ -36,10 +48,10 @@
                     <!-- card-header -->
                     <div class="card-body pb-1">
                         {{-- <div class="table-responsive"> --}}
-                            <table id="example1" class="table table-bordered table-striped text-sm">
+                            <table id="example1" class="table table-sm table-bordered table-striped text-sm">
                             <thead>
                                 <tr>
-                                    {{-- <th>N°</th> --}}
+                                    <th>Id</th>
                                     <th>Establecimiento 
                                         <button wire:click="sorteable('nom_establecimiento')" class="border-0">
                                             <span class="fa fa{{$campo === 'nom_establecimiento' ? $icon : '-sort'}}"></span>                                         
@@ -65,14 +77,14 @@
                             <tbody>
                                 @foreach ($establecimientos as $establecimiento) 
                                 <tr>
-                                    {{-- <td>{{ $establecimiento->firstItem()+$loop->index}}</td> --}}
+                                    <td>{{ $establecimiento->id}}</td>
                                     <td>{{ $establecimiento->nom_establecimiento}}</td>                                                     
-                              <td>{{ $establecimiento->departamento->abreviatura}}</td>
-                              <td>{{ $establecimiento->municipio->nom_municipio}}</td>                                                     
-                              <td>{{ $establecimiento->cod_red}}</td>                                                     
-                              <td>{{ $establecimiento->tipo}}</td>                             
-                              <td>{{ $establecimiento->nivel}}</td>                                                     
-                              <td>{{ $establecimiento->codsnis}}</td>                                                     
+                                    <td>{{ $establecimiento->departamento->abreviatura}}</td>
+                                    <td>{{ $establecimiento->municipio->nom_municipio}}</td>                                                     
+                                    <td>{{ $establecimiento->cod_red}}</td>                                                     
+                                    <td>{{ $establecimiento->tipo}}</td>                             
+                                    <td>{{ $establecimiento->nivel}}</td>                                                     
+                                    <td>{{ $establecimiento->codsnis}}</td>                                                     
                                     <td width="20px">
                                         <div class="btn-group">
                                           {{-- <button type="button" class="btn btn-secondary">Action</button> --}}

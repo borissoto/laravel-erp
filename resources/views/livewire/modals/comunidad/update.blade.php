@@ -14,32 +14,49 @@
                   </div>
                   
                   <div class="form-group row">
-                      <label for="municipio" class="col-md-4 col-form-label text-md-right">municipio*</label>
-          
-                      <div class="col-md-6">
-                          <select wire:model="selectedMunicipio" name="municipio" class="form-control" required>
-                              <option value="">-- Escoja Municipio --</option>
-                              @foreach ($municipios as $municipio)
-                                  <option value="{{ $municipio->id }}">{{ $municipio->nom_municipio }}</option>
-                              @endforeach
-                          </select>
-                      </div>
-                  </div>
-          
-                  <div class="form-group row">
-                      <label for="establecimiento" class="col-md-4 col-form-label text-md-right">establecimiento*</label>
-          
-                      <div class="col-md-6">                            
-                          <select wire:model="establecimiento" name="establecimiento" class="form-control" required>
-                              @if ($establecimientos->count() == 0)
-                                  <option value="">-- Escoja EESS antes --</option>
-                              @endif
-                              @foreach ($establecimientos as $establecimiento)
-                                  <option value="{{ $establecimiento->id }}">{{ $establecimiento->nom_establecimiento }}</option>
-                              @endforeach
-                          </select>
-                      </div>
-                  </div>
+                    <label for="municipio" class="col-md-2 col-form-label">Departamento*</label>
+
+                    <div class="col-md-4">
+                        <select wire:model="selectedDepartamento" name="departamento" class="form-control" required>
+                            <option value="" class="text-primary">Escoja Departamento*</option>
+                            @foreach ($departamentos as $departamento)
+                                <option value="{{ $departamento->id }}">{{ $departamento->nom_departamento }}</option>
+                            @endforeach
+                        </select>
+                    </div>
+                                 
+                    @if (!is_null($selectedDepartamento))                 
+
+                    <label for="municipio" class="col-md-2 col-form-label">Municipio*</label>
+                    <div class="col-md-4">
+                        <select wire:model="selectedMunicipio" name="municipio" class="form-control" required>
+                            <option value="" class="text-primary">Escoja Municipio*</option>
+                            @foreach ($municipios as $municipio)
+                                <option value="{{ $municipio->id }}">{{ $municipio->nom_municipio }}</option>
+                            @endforeach
+                        </select>
+                    </div>                           
+                    
+                    @endif                       
+                </div>
+                
+                @if (!is_null($selectedMunicipio))
+                <div class="form-group row">
+               
+                    <label for="establecimiento" class="col-md-2 col-form-label text-md-right">Establecimiento*</label>
+        
+                    <div class="col-md-4">                            
+                        <select wire:model="selectedEstablecimiento" name="establecimiento" class="form-control" required>
+                            {{-- @if ($establecimientos->count() == 0)
+                                <option value="">-- Escoja EESS antes --</option>
+                            @endif --}}
+                            @foreach ($establecimientos as $establecimiento)
+                                <option value="{{ $establecimiento->id }}">{{ $establecimiento->nom_establecimiento }}</option>
+                            @endforeach
+                        </select>
+                    </div>
+                </div>
+                @endif
                   
                   <div class="form-group row">
                       <label class="col-md-2 col-form-label">Comunidad</label>
@@ -132,15 +149,15 @@
                   <div class="form-group row">
                       <label class="col-md-2 col-form-label">Latitud</label>
                       <div class="col-md-4">
-                          <input type="text" class="form-control" name="lat" id="lat" wire:model="lat" placeholder=" Arrastre el marcador Rojo" min="-9.662687" max="-22.908152" title="Debe ingresar latitud correspondiente a Bolivia" disabled>
+                          <input type="text" class="form-control" name="latEdit" id="latEdit" wire:model="lat" placeholder=" Arrastre el marcador Rojo" min="-9.662687" max="-22.908152" title="Debe ingresar latitud correspondiente a Bolivia" disabled>
                       </div>
                       <label class="col-md-2 col-form-label">Longitud</label>
                       <div class="col-md-4">
-                          <input type="text" class="form-control" name="long" id="long" wire:model="long"  placeholder="Arrastre el marcador Rojo" min="-57.452675" max="-69.626293" title="Debe ingresar Longitud correspondiente a Bolivia" disabled>
+                          <input type="text" class="form-control" name="longEdit" id="longEdit" wire:model="long"  placeholder="Arrastre el marcador Rojo" min="-57.452675" max="-69.626293" title="Debe ingresar Longitud correspondiente a Bolivia" disabled>
                       </div>
                   </div>
                   <div class="formgroup" wire:ignore>
-                      <div id="gmap" style="width: 100%; height: 250px;"></div>
+                      <div id="gmapEdit" style="width: 100%; height: 250px;"></div>
                       <span class="text-sm text-info">Arrastre el marcador rojo para seleccionar la ubicacion de la comunidad</span>
                   </div>                                                                                                                                                                
                   
@@ -153,3 +170,48 @@
       </div>
   </div>
 </div>
+@section('scripts')
+    <script>
+        document.addEventListener("DOMContentLoaded", ()=>{
+            Livewire.hook('message.processed',(el, component)=>{
+                var getLat = @this.lat;
+                var getLong = @this.long;
+                console.log(getLat+' '+getLong);
+
+                var lati = getLat;
+                var longi = getLong;
+    
+                var latlong = new google.maps.LatLng(lati,longi);
+
+                let options2 = {
+                    zoom: 14,
+                    center: latlong,        
+                }
+
+                var mapEdit = document.getElementById('gmapEdit');
+                const mapaEdit = new google.maps.Map(mapEdit, options2);
+
+                var marker = new google.maps.Marker(
+                { 
+                    position: latlong,
+                    map: mapaEdit,
+                    title: "Editar Ubicacion",
+                    draggable: true,
+                    animation: google.maps.Animation.DROP,
+                });
+
+                google.maps.event.addListener(marker, 'dragend', function (evt) {
+                    $("#latEdit").prop('value',evt.latLng.lat().toFixed(6));
+                    $("#longEdit").prop('value', evt.latLng.lng().toFixed(6));
+                    
+                    // var latitud = document.getElementById('latEdit');
+                    // latitud.dispatchEvent(new Event('input'));
+                    
+                    // var longitud = document.getElementById('longEdit');
+                    // longitud.dispatchEvent(new Event('input'));
+                });
+
+            })
+        });
+    </script>
+@endsection

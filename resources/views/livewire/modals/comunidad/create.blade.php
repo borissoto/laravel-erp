@@ -8,29 +8,42 @@
                 </button>
             </div>
            <div class="modal-body">
-                <form >                  
-                    <div class="form-group row">
-                        
-                    </div>
+                <form >                                    
                     
                     <div class="form-group row">
-                        <label for="municipio" class="col-md-4 col-form-label text-md-right">municipio*</label>
-            
-                        <div class="col-md-6">
+                        <label for="municipio" class="col-md-2 col-form-label">Departamento*</label>
+
+                        <div class="col-md-4">
+                            <select wire:model="selectedDepartamento" name="departamento" class="form-control" required>
+                                <option value="" class="text-primary">Escoja Departamento*</option>
+                                @foreach ($departamentos as $departamento)
+                                    <option value="{{ $departamento->id }}">{{ $departamento->nom_departamento }}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                                     
+                        @if (!is_null($selectedDepartamento))                 
+
+                        <label for="municipio" class="col-md-2 col-form-label">Municipio*</label>
+                        <div class="col-md-4">
                             <select wire:model="selectedMunicipio" name="municipio" class="form-control" required>
-                                <option value="">-- Escoja Municipio --</option>
+                                <option value="" class="text-primary">Escoja Municipio*</option>
                                 @foreach ($municipios as $municipio)
                                     <option value="{{ $municipio->id }}">{{ $municipio->nom_municipio }}</option>
                                 @endforeach
                             </select>
-                        </div>
+                        </div>                           
+                        
+                        @endif                       
                     </div>
-            
+                    
+                    @if (!is_null($selectedMunicipio))
                     <div class="form-group row">
-                        <label for="establecimiento" class="col-md-4 col-form-label text-md-right">establecimiento*</label>
+                   
+                        <label for="establecimiento" class="col-md-2 col-form-label text-md-right">Establecimiento*</label>
             
-                        <div class="col-md-6">                            
-                            <select wire:model="establecimiento" name="establecimiento" class="form-control" required>
+                        <div class="col-md-4">                            
+                            <select wire:model="selectedEstablecimiento" name="establecimiento" class="form-control" required>
                                 @if ($establecimientos->count() == 0)
                                     <option value="">-- Escoja EESS antes --</option>
                                 @endif
@@ -40,6 +53,7 @@
                             </select>
                         </div>
                     </div>
+                    @endif
                     
                     <div class="form-group row">
                         <label class="col-md-2 col-form-label">Comunidad</label>
@@ -56,7 +70,7 @@
                             <option value="NO">NO</option>                           
                         </select>
                         </div>
-                        @error('pioc') <span class="text-danger error">{{ $message }}</span>@enderror
+                        @error('pioc') <span class="text-sm text-danger error">{{ $message }}</span>@enderror
                     </div>                                                
                     <div class="form-group row">
                         <label class="col-md-2 col-form-label">Nacion</label>

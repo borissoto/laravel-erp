@@ -80,6 +80,9 @@
     window.addEventListener('closeComunidadStore', event => {
         $('#comunidadCreate').modal('hide');
     });
+    window.addEventListener('closeRrhhStore', event => {
+        $('#rrhhCreate').modal('hide');
+    });
   </script>
 
 <script type="text/javascript" src="{{asset('js/initMap.js')}}"></script>

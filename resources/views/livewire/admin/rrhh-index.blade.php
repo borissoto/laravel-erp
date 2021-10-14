@@ -1,4 +1,11 @@
 <div>
+    @include('livewire.modals.rrhh.create')
+    @include('livewire.modals.rrhh.update')
+    @if (session()->has('message'))
+        <div class="alert alert-success" style="margin-top:30px;">x
+          {{ session('message') }}
+        </div>
+    @endif
     <!-- Main content -->
 <section class="content">
     <div class="container-fluid">
@@ -18,7 +25,7 @@
                             <option value="100">100 por página</option>
                         </select>
                     </div>
-                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#rrhhCreate">
                         Nuevo
                       </button>
     
@@ -40,10 +47,10 @@
                 <!-- card-header -->
                 <div class="card-body pb-1">
                     {{-- <div class="table-responsive"> --}}
-                        <table id="example1" class="table table-bordered table-striped text-sm">
+                        <table id="example1" class="table table-sm table-bordered table-striped text-sm">
                         <thead>
                             <tr>
-                                {{-- <th>N°</th> --}}
+                                <th>Id</th>
                                 <th>Usuario
                                     <button wire:click="sorteable('name')" class="border-0">
                                         <span class="fa fa{{$campo === 'name' ? $icon : '-sort'}}"></span>                                         
@@ -71,7 +78,7 @@
                         <tbody>
                             @foreach ($users as $user) 
                             <tr>
-                                {{-- <td>{{ $user->firstItem()+$loop->index}}</td> --}}
+                                <td>{{ $user->id}}</td>
                                 <td>{{ $user->name}}</td>
                                 <td>{{ $user->nombres}}</td>
                                 <td>{{ $user->ap_paterno}}</td>
@@ -105,7 +112,7 @@
                             </tbody>                       
                         </table>
                         <div class="d-flex justify-content-start text-muted">
-                            Mostrando {{ $users->firstItem() }} to {{ $users->lastItem() }} de {{$users->total()}} registros.
+                            Mostrando del {{ $users->firstItem() }} al {{ $users->lastItem() }} de {{$users->total()}} registros.
                         </div>                                     
                     {{-- </div> --}}
                 </div>
