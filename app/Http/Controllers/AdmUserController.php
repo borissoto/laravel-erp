@@ -78,9 +78,30 @@ class AdmUserController extends Controller
         return view('backend.rrhh.rrhh_index');
     }
 
-    public function rrhhView($id){
+    public function kardexIndex($id){
         $user = User::findOrFail($id);
         $cargo = AdmCargo::where('estado',1)->first();
-        return view('backend.rrhh.rrhh_view', compact('user','cargo'));
-    }    
+        return view('backend.rrhh.rrhh_kardex_index', compact('user','cargo'));
+    }  
+    
+    public function kardexCargo($id){
+        $user = User::findOrFail($id);
+        $cargo = AdmCargo::where('estado',1)->first();
+        return view('backend.rrhh.rrhh_kardex_cargo', compact('user','cargo'));
+    }   
+
+    public function kardexEducacion($id){
+        $user = User::findOrFail($id);        
+        return view('backend.rrhh.rrhh_kardex_educacion', compact('user'));
+    }   
+
+    public function kardexSupervision($id){
+        $user = User::findOrFail($id);        
+        return view('backend.rrhh.rrhh_kardex_supervision', compact('user'));
+    }   
+
+    public function kardexBaja($id){
+        $user = User::findOrFail($id);        
+        return view('backend.rrhh.rrhh_kardex_baja', compact('user'));
+    }   
 }

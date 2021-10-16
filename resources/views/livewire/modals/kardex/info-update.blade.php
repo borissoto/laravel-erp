@@ -1,8 +1,8 @@
-<div wire:ignore.self class="modal fade" id="rrhhCreate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div wire:ignore.self class="modal fade" id="kardexInfoUpdate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content" style="min-height: 560px">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Nuevo Recurso Humano</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Editar Informacion Personal</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                      <span aria-hidden="true close-btn">×</span>
                 </button>
@@ -10,19 +10,23 @@
            <div class="modal-body">
             <div class="col-md-12">
                 <div class="card card-primary card-outline card-outline-tabs">
-                  <div class="card-header p-0 border-bottom-0">
-                    <ul class="nav nav-tabs" role="tablist" aria-orientation="vertical">
-                      <li class="nav-item"><a class="nav-link active" href="#personal" data-toggle="tab">Inf. Personal</a></li>                      
-                    </ul>
-                  </div><!-- /.card-header -->
-                  <div class="card-body">
-                    <div class="tab-content">
-
-      
-                      <div class="active tab-pane" id="personal">
+                    <div class="card-header p-0 border-bottom-0">
+                    
+                    </div><!-- /.card-header -->
+                    <div class="card-body">                   
                         <div class="row">
                             <div class="col-12">
+                                <div class="form-group row">                                   
+                                    <label for="extension" class="col-sm-2 col-form-label">Estado</label>
+                                    <div class="col-sm-4" >
+                                        <select wire:model="estado" name="med" id="estado" class="form-control">
+                                            <option value="0">INACTIVO</option>
+                                            <option class="is-valid" value="1">ACTIVO</option>                                            
+                                    </select>
+                                    </div>                                                  
+                                </div>   
                                 <div class="form-group row">
+                                    <input type="hidden" wire:model="user_id">
                                     <label for="name" class="col-sm-2 col-form-label">Usuario</label>
                                     <div class="col-sm-4">
                                         <input wire:model="name" class="form-control" type="text" value="" id="name">
@@ -38,12 +42,10 @@
                                     <label for="ap-paterno" class="col-sm-2 col-form-label">Apellido Paterno</label>
                                     <div class="col-sm-4">
                                     <input wire:model="ap_paterno" class="form-control" type="text" value="" id="ap-paterno">
-                                    @error('ap_paterno') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>                              
                                     <label for="ap-materno" class="col-sm-2 col-form-label">Apellido Materno</label>
                                     <div class="col-sm-4">
                                     <input wire:model="ap_materno" class="form-control" type="text" value="" id="ap-materno">
-                                    @error('ap_materno') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>
                                 </div>                                                
                                 <div class="form-group row">
@@ -53,9 +55,8 @@
                                         @error('ci') <span class="text-sm text-danger error">{{ $message }}</span>@enderror
                                     </div>
                                     <label for="extension" class="col-sm-2 col-form-label">Extension</label>
-                                    <div class="col-sm-4" >
-                                        <select wire:model="adm_departamento_id" id="extension" class="form-control" required>
-                                            <option value="0">-Escoja Extension-</option>
+                                    <div class="col-sm-4" >                                    
+                                        <select wire:model="adm_departamento_id" id="extension" class="form-control" required>                                        
                                             <option value="1">LA PAZ</option>
                                             <option value="2">ORURO</option>
                                             <option value="3">POTOSI</option>
@@ -66,7 +67,6 @@
                                             <option value="8">BENI</option>
                                             <option value="9">SANTA CRUZ</option>
                                         </select>
-                                        @error('adm_departamento_id') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>                                                  
                                 </div>                                                
                                 <div class="form-group row">
@@ -76,59 +76,51 @@
                                     </div>
                                     <label for="extension" class="col-sm-2 col-form-label">Sexo</label>
                                     <div class="col-sm-4" >
-                                        <select wire:model="sexo" name="med" id="sexo" class="form-control">
-                                            <option value="0">-Genero-</option>
+                                        <select wire:model="sexo" name="med" id="SEXO" class="form-control">
+                                            <option value="0">GENERO</option>
                                             <option value="MASCULINO">MASCULINO</option>
                                             <option value="FEMENINO">FEMENINO</option>
                                         </select>
-                                        @error('sexo') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>                                                  
                                 </div>                                                
                                 <div class="form-group row">
                                     <label for="email" class="col-sm-2 col-form-label">Email</label>
                                     <div class="col-sm-4">
                                         <input wire:model="email" class="form-control" type="email" value="" id="email">
-                                        @error('email') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>                             
                                         <label for="telefono" class="col-sm-2 col-form-label">Telefono</label>
                                         <div class="col-sm-4">
                                             <input wire:model="telefono" class="form-control" type="number" value="" id="telefono">
-                                            @error('telefono') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                         </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="domicilio" class="col-sm-2 col-form-label">Domicilio</label>
                                     <div class="col-sm-4">
                                         <input wire:model="domicilio" class="form-control" type="text" value="" id="domicilio">
-                                        @error('domicilio') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>                              
                                     <label for="incorporacion" class="col-sm-2 col-form-label">Incorporacion</label>
                                     <div class="col-sm-4">
                                         <input wire:model="incorporacion" class="form-control" type="date" value="" id="incorporacion">
-                                        @error('incorporacion') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="item" class="col-sm-2 col-form-label">Item</label>
                                     <div class="col-sm-4">
                                         <input wire:model="item" class="form-control" type="number" value="" id="item">
-                                        @error('item') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>
                                     <label for="docente" class="col-sm-2 col-form-label">Docente</label>
-                                    <div class="col-sm-4">
-                                        <select wire:model="docente" name="med" id="docente" class="form-control">
-                                            <option value="">-No Aplica-</option>
+                                    <div class="col-sm-4">                                        
+                                        <select wire:model="docente" name="med" id="SEXO" class="form-control">
+                                            <option value="NA">NO APLICA</option>
                                             <option value="EDPERM">EDPERM</option>                                            
                                         </select>
-                                        @error('docente') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>                                                   
-                                </div>   
-                               
+                                </div>  
                                 <div class="form-group row">
                                     <label class="col-sm-2 col-form-label">Universidad</label>
                                     <div class="col-sm-4">                            
                                         <select wire:model="universidad"  id="UNIVERSIDAD" class="form-control">
-                                            <option value="0">-Universidad de Egreso-</option>
+                                            <option value="0">UNIVERSIDAD DE EGRESO</option>
                                             <option value="ELAM-CUBA">ESCUELA LATINO AMERICANA DE MEDICINA (CUBA)</option>
                                             <option value="ELAM-VENEZUELA">ESCUELA LATINO AMERICANA DE MEDICINA (VENEZUELA)</option>
                                             <option value="U.G.R.M.">UNIVERSIDAD AUTONOMA GABRIEL RENE MORENO</option>
@@ -150,55 +142,36 @@
                                             <option value="UTEPC">UNIVERSIDAD TECNICA PRIVADA COSMOS </option>
                                             <option value="OTRAS UNIVERSIDADES">OTRA UNIVERSIDAD</option>
                                         </select>
-                                        @error('universidad') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>                                 
                                     <label class="col-sm-2 col-form-label">Grado Academico</label>
                                     <div class="col-sm-4">
-                                        <select wire:model="grado" id="grado" class="form-control">
-                                            <option value="0">-Escoja Grado-</option>
+                                        <select wire:model="grado" id="GRADO" class="form-control">
+                                            <option value="0">GRADO ACADEMICO</option>
                                             <option value="ESPECIALISTA SAFCI">ESPECIALISTA SAFCI</option>
                                             <option value="MEDICO MGI">MEDICO GENERAL INTEGRAL</option>
                                             <option value="MEDICO GENERAL">MEDICO GENERAL</option>
-                                            <option value="NO CORRESPONDE">NO CORRESPONDE</option>                                            
+                                            <option value="NO CORRESPONDE">NO CORRESPONDE</option>
                                     </select>
-                                    @error('grado') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="obs" class="col-sm-2 col-form-label">Observaciones</label>
                                     <div class="col-sm-10">
                                         <input wire:model="obs" class="form-control" type="textarea" value="" id="obs">
-                                        @error('obs') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
-                                    </div>                                                                                   
-                                </div>
-                                <div class="form-group row">
-                                    <label for="password" class="col-sm-2 col-form-label" > Contraseña </label>
-                                    <div class="col-sm-4">  
-                                        <input wire:model="password" class="form-control" id="password" type="password" name="password" required autocomplete="new-password" />
-                                        @error('password') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>
-                                </div>                                          
+                                                                                   
+                                </div>                                                                    
                             </div>
                           <!-- /.col -->
-                        </div>  
-                      </div>
-                      <!-- /.tab-pane -->                                          
-                          
-                    </div>
-                    <!-- /.tab-content -->
-                  </div><!-- /.card-body -->
+                        </div>                      
+                    </div><!-- /.card-body -->
                 </div>
                 <!-- /.card -->
               </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary close-btn" data-dismiss="modal">Cerrar</button>
-                <button type="button" wire:click.prevent="store()" class="btn btn-primary close-modal">Guardar </button>
-
-                <div wire:loading wire:target="store()">
-                    <x-loading />
-
-                </div>
+                <button type="button" wire:click.prevent="update()" class="btn btn-primary close-modal">Actualizar</button>
             </div>
         </div>
     </div>

@@ -13,6 +13,8 @@ use App\Models\AdmCargo;
 use App\Models\AdmDepartamento;
 use App\Models\AdmEstablecimiento;
 use App\Models\RrhhBrigada;
+use App\Models\RrhhPostgrado;
+use App\Models\RrhhSupervisiones;
 use App\Models\WebArticulo;
 use Spatie\Permission\Traits\HasRoles;
 
@@ -37,15 +39,21 @@ class User extends Authenticatable
         'nombres',
         'ap_paterno',
         'ap_materno',
-        'ci',           
-        'sexo',       
+        'ci',
+        'adm_departamento_id',
+        'sexo',
+        'fecha_nac',
+        'telefono',
         'domicilio',
         'item',
         'incorporacion',
         'universidad',
-        'grado',            
+        'grado',
+        'docente',
+        'obs',
         'estado',            
     ];
+    
 
     /**
      * The attributes that should be hidden for serialization.
@@ -66,6 +74,9 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'fecha_nac' => 'date:Y-m-d',
+        'incorporacion' => 'date:Y-m-d'
+
     ];
 
     /**
@@ -88,6 +99,14 @@ class User extends Authenticatable
     //Relacion uno a muchos
     public function cargos(){
         return $this->hasMany(AdmCargo::class);
+    }
+
+    public function postgrados(){
+        return $this->hasMany(RrhhPostgrado::class);
+    }
+    
+    public function supervisiones(){
+        return $this->hasMany(RrhhSupervisiones::class);
     }
     
     public function brigadas(){

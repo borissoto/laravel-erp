@@ -61,12 +61,19 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::post('/user/profile/store', [AdmUserController::class, 'UserProfileStore'])->name('user.profile.store');
     // RRHH List All
     Route::get('/rrhh/list', [AdmUserController::class, 'UserList'])->name('rrhh.list');   
-    // RRHH view
-    Route::get('/rrhh/view/{id}', [AdmUserController::class, 'rrhhView'])->name('rrhh.view');   
+    
     // RRHH add
     Route::get('/rrhh/add', [AdmUserController::class, 'UserAdd'])->name('rrhh.add');   
     // RRHH edit
     Route::get('/user/edit/{id}', [AdmUserController::class, 'rrhhEdit'])->name('rrhh.edit');   
+    
+    /************ Kardex *******/
+    // RRHH kardex info
+    Route::get('/rrhh/kardex/index/{id}', [AdmUserController::class, 'kardexIndex'])->name('rrhh.kardex.index');   
+    Route::get('/rrhh/kardex/cargo/{id}', [AdmUserController::class, 'kardexCargo'])->name('rrhh.kardex.cargo'); 
+    Route::get('/rrhh/kardex/educacion/{id}', [AdmUserController::class, 'kardexEducacion'])->name('rrhh.kardex.educacion'); 
+    Route::get('/rrhh/kardex/supervision/{id}', [AdmUserController::class, 'kardexSupervision'])->name('rrhh.kardex.supervision'); 
+    Route::get('/rrhh/kardex/baja/{id}', [AdmUserController::class, 'kardexBaja'])->name('rrhh.kardex.baja'); 
     
     /*EESS*/
     // EESS List All

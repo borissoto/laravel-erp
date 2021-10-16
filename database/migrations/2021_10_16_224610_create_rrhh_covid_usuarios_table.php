@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRrhhBajaTiposTable extends Migration
+class CreateRrhhCovidUsuariosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,12 @@ class CreateRrhhBajaTiposTable extends Migration
      */
     public function up()
     {
-        Schema::create('rrhh_baja_tipos', function (Blueprint $table) {
+        Schema::create('rrhh_covid_usuarios', function (Blueprint $table) {
             $table->id();
-            $table->string('nom_baja');
+            $table->foreignId('user_id')->nullable()->constrained()->onDelete('cascade');
+            $table->string('dosis')->nullable();
+            $table->string('nom_vacuna')->nullable();
+            $table->datetime('fecha')->nullable();
             $table->timestamps();
         });
     }
@@ -27,6 +30,6 @@ class CreateRrhhBajaTiposTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('rrhh_baja_tipos');
+        Schema::dropIfExists('rrhh_covid_usuarios');
     }
 }

@@ -21,6 +21,7 @@
 
   
    @livewireStyles
+   @stack('styles')
 
    <!-- Tailwind Scripts -->
    {{-- <script src="{{ mix('js/app.js') }}" defer></script> --}} 
@@ -38,6 +39,10 @@
    <div class="content-wrapper"> 
 
     @yield('admin')
+
+    {{-- <div>
+    @yield('kardex')
+    </div> --}}
 
   </div>
 
@@ -82,6 +87,27 @@
     });
     window.addEventListener('closeRrhhStore', event => {
         $('#rrhhCreate').modal('hide');
+    });
+    window.livewire.on('closeKardexInfoUpdate', () => {
+        $('#kardexInfoUpdate').modal('hide');
+    });
+    window.livewire.on('closeKardexCargoCreate', () => {
+        $('#kardexCargoCreate').modal('hide');
+    });
+    window.livewire.on('closeKardexCargoUpdate', () => {
+        $('#kardexCargoUpdate').modal('hide');
+    });
+    window.livewire.on('closeKardexEducacionCreate', () => {
+        $('#kardexEducacionCreate').modal('hide');
+    });
+    window.livewire.on('closeKardexEducacionUpdate', () => {
+        $('#kardexEducacionUpdate').modal('hide');
+    });
+    window.livewire.on('closeKardexSupervisionCreate', () => {
+        $('#kardexSupervisionCreate').modal('hide');
+    });
+    window.livewire.on('closeKardexSupervisionUpdate', () => {
+        $('#kardexSupervisionUpdate').modal('hide');
     });
   </script>
 

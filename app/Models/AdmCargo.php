@@ -11,6 +11,15 @@ class AdmCargo extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'user_id',
+        'estado',
+        'nom_cargo', 
+        'descripcion', 
+        'adm_unidades_id', 
+        'incorporacion',         
+    ];
+
     public function usuario()
     {
         return $this->belongsTo(User::class);

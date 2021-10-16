@@ -55,8 +55,8 @@
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('rrhh.list') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Usuarios</a></li>
-            <li class="nav-item"><a href="{{ route('rrhh.add') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Nuevo Usuario</a></li>
+            <li class="nav-item"><a href="{{ route('rrhh.list') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Lista Usuarios</a></li>
+            {{-- <li class="nav-item"><a href="{{ route('rrhh.add') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Nuevo Usuario</a></li> --}}
           </ul>
         </li>
         @endcan

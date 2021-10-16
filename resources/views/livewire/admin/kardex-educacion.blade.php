@@ -1,7 +1,7 @@
-<div>
-    
-    @include('livewire.modals.rrhh.create')
-    @include('livewire.modals.rrhh.update')
+<div>    
+    @include('livewire.modals.kardex.educacion-create')
+    @include('livewire.modals.kardex.educacion-update')
+    @include('livewire.modals.kardex.educacion-delete')
     @if (session()->has('message'))
         <div class="alert alert-success" style="margin-top:30px;">x
           {{ session('message') }}
@@ -26,7 +26,7 @@
                             <option value="100">100 por página</option>
                         </select>
                     </div>
-                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#rrhhCreate">
+                    <button type="button" wire:click="newEducacion()" data-toggle="modal" data-target="#kardexEducacionCreate" class="btn btn-success btn-sm">
                         Nuevo
                       </button>
     
@@ -38,13 +38,11 @@
                               <i class="fas fa-search"></i>
                             </button>
                           </div>
-                        </div>
-    
-                       
-                      </div>
+                        </div>   
+                    </div>
                     
                 </div>
-                @if($users->count())
+                @if($postgrados->count())
                 <!-- card-header -->
                 <div class="card-body pb-1">
                     {{-- <div class="table-responsive"> --}}
@@ -52,41 +50,26 @@
                         <thead>
                             <tr>
                                 <th>Id</th>
-                                <th>Estado</th>
-                                <th>Usuario
-                                    <button wire:click="sorteable('name')" class="border-0">
-                                        <span class="fa fa{{$campo === 'name' ? $icon : '-sort'}}"></span>                                         
-                                    </button>
-                                </th>
-                                <th>Nombres
-                                    <button wire:click="sorteable('nombres')" class="border-0">
-                                        <span class="fa fa{{$campo === 'nombres' ? $icon : '-sort'}}"></span>                                         
-                                    </button>
-                                </th>
-                                <th>Ap Paterno
-                                    <button wire:click="sorteable('ap_paterno')" class="border-0">
-                                        <span class="fa fa{{$campo === 'ap_paterno' ? $icon : '-sort'}}"></span>                                         
-                                    </button>
-                                </th>
-                                <th>Ap Materno
-                                    <button wire:click="sorteable('ap_materno')" class="border-0">
-                                        <span class="fa fa{{$campo === 'ap_materno' ? $icon : '-sort'}}"></span>                                         
-                                    </button>
-                                </th>
-                                <th>CI</th>
+                                <th>Usuario Id</th>
+                                <th>Tipo</th>
+                                <th>Titulo</th>
+                                <th>Universidad</th>
+                                <th>Fecha Inicio</th>
+                                <th>Fecha Fin</th>
+                                
                                 <th>Acciones</th>
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach ($users as $user) 
+                            @foreach ($postgrados as $postgrado) 
                             <tr>
-                                <td class="align-middle">{{ $user->id}}</td>
-                                <td class="align-middle">{!! $user->estado === 1 ? '<span class="badge bg-success">Activo</span>' : '<span class="badge bg-danger">Inactivo</span>' !!}</td>
-                                <td class="align-middle">{{ $user->name}}</td>
-                                <td class="align-middle">{{ $user->nombres}}</td>
-                                <td class="align-middle">{{ $user->ap_paterno}}</td>
-                                <td class="align-middle">{{ $user->ap_materno}}</td>
-                                <td class="align-middle">{{ $user->ci}}</td>                               
+                                <td class="align-middle">{{ $postgrado->id}}</td>
+                                <td class="align-middle">{{ $postgrado->user_id}}</td> 
+                                <td class="align-middle">{{ $postgrado->tipo_postgrado}}</td>                                                              
+                                <td class="align-middle">{{ $postgrado->nom_postgrado}}</td>
+                                <td class="align-middle">{{ $postgrado->universidad}}</td>
+                                <td class="align-middle">{{$postgrado->fecha_ini? \Carbon\Carbon::parse($postgrado->fecha_ini)->format('Y-m-d') : 'No Reg' }}</td>
+                                <td class="align-middle">{{\Carbon\Carbon::parse($postgrado->fecha_fin)->format('Y-m-d')}}</td>
                                 <td width="20px">
                                     <div class="btn-group">
                                       {{-- <button type="button" class="btn btn-secondary">Action</button> --}}
@@ -96,12 +79,10 @@
                                       <div class="dropdown-menu dropdown-menu-right" style="min-width: 1rem;" role="menu">
                                         {{-- wire:click="showModal({{$user->id}})" --}}
                                       {{-- <a class="dropdown-item" wire:click="showModal({{$user->id}})"  href="javascript:void(0">Ver</a> --}}
-                                        <a class="dropdown-item" href="{{ route('rrhh.kardex.index', $user->id)}}">Ver</a>
-                                        <a class="dropdown-item" href="{{ route('rrhh.edit', $user->id)}}">Editar</a>
-                                        <a class="dropdown-item" href="#"></a>
+                                        <a class="dropdown-item" wire:click="editEducacion({{ $postgrado->id }})"  data-toggle="modal" data-target="#kardexEducacionUpdate" href="">Editar</a>                                       
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" data-toggle="modal" data-target="#modal-default" href="#">Asignar EESS</a>
-                                        <a class="dropdown-item" href="#">Brigada</a>
+                                        <a class="dropdown-item" wire:click="deleteEducacion({{ $postgrado->id }})"  data-toggle="modal" data-target="#kardexEducacionDelete" href="#">Eliminar</a>
+                                        
                                       </div>
                                     </div>
                                     {{-- <a href="{{ route('rrhh.view', $user->id)}}" class="btn btn-secondary btn-light" title="Ver"><i class="fa fa-eye" aria-hidden="true"></i></a>      
@@ -115,7 +96,7 @@
                             </tbody>                       
                         </table>
                         <div class="d-flex justify-content-start text-muted">
-                            Mostrando del {{ $users->firstItem() }} al {{ $users->lastItem() }} de {{$users->total()}} registros.
+                            Mostrando del {{ $postgrados->firstItem() }} al {{ $postgrados->lastItem() }} de {{$postgrados->total()}} registros.
                         </div>                                     
                     {{-- </div> --}}
                 </div>
@@ -123,15 +104,15 @@
                 <div class="card-footer">
                    
                     <div class="d-flex justify-content-end">
-                        {{$users->links()}}                   
+                        {{$postgrados->links()}}                   
                     </div>
                 </div>
                 <!-- card-body -->
-                @else
+            @else
                     <div class="card-body">
                         <h5>No hay registros</h5>
                     </div>
-                @endif
+            @endif
     
             </div>
             <!-- card -->          

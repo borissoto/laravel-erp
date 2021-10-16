@@ -16,12 +16,13 @@ class CreateRrhhSupervisionesTable extends Migration
         Schema::create('rrhh_supervisiones', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null'); // id supervisor
-            $table->unsignedBigInteger('supervisado_id'); //user_id
+            $table->unsignedBigInteger('supervisor_id'); //user_id
             $table->timestamp('fecha')->nullable();
-            $table->integer('puntaje');
-            $table->string('accion');  
-            $table->string('poa');            
-            $table->string('justificacion');            
+            $table->integer('puntaje')->nullable();
+            $table->string('recomendacion')->nullable();  
+            $table->string('financiamiento')->nullable();            
+            $table->string('justificacion')->nullable();            
+            $table->string('obs')->nullable();            
             $table->timestamps();
         });
     }

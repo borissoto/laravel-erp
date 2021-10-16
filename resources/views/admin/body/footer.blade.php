@@ -19,5 +19,5 @@
       
     </div>
     <!-- Default to the left -->
-    <strong class="text-sm">Programa <a href="#" class="text-sm">SAFCI</a>.</strong class="text-sm"> Todos los derechos reservados. &copy;
+    <strong class="text-sm">Programa <a href="#" class="text-sm">SAFCI</a>.</strong class="text-sm"> Auspiciado por la Organizacion Panamericana de la Salud. &copy;
   </footer>
