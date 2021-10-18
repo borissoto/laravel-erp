@@ -23,7 +23,7 @@
     
   </div><!-- /.container-fluid -->
 </section>
-<nav class="navbar navbar-expand-md navbar-dark mb-4" style="background-color: #0f3e5f;">
+<nav class="navbar navbar-expand-md mb-4 shadow" style="background-color: #daf0ff;">
   <span class="navbar-brand mb-0 h1"><i class="far fa-id-card w-20"></i></span>  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -37,16 +37,16 @@
         <a class="nav-link" href="{{route('rrhh.kardex.cargo', $user->id)}}">Cargo</a>
       </li>
       <li class="nav-item " style="background-color: rgb(73, 131, 185); border-radius: 4px;">
-        <a class="nav-link active" href="{{route('rrhh.kardex.educacion', $user->id)}}">Educacion <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-light" href="{{route('rrhh.kardex.educacion', $user->id)}}">Educacion <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Establecimiento</a>
+        <a class="nav-link" href="{{route('rrhh.kardex.establecimiento', $user->id)}}">Establecimiento</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{route('rrhh.kardex.supervision', $user->id)}}">Supervision</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Comision</a>
+        <a class="nav-link" href="{{route('rrhh.kardex.vacuna', $user->id)}}">Vacunacion</a>
       </li>
       <li class="nav-item">
         <a class="nav-link"  href="{{route('rrhh.kardex.baja', $user->id)}}" >Baja</a>

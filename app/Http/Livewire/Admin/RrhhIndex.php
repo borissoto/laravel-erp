@@ -204,6 +204,7 @@ class RrhhIndex extends Component
             'name' => $this->name,
             'email' => $this->email,            
             'password' => $this->password,                                    
+            'adm_establecimiento_id' => 0,                                    
             'nombres' => Str::upper($this->nombres),
             'ap_paterno' => Str::upper($this->ap_paterno),
             'ap_materno' => Str::upper($this->ap_materno),

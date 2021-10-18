@@ -45,7 +45,7 @@
           </a>
         </li>
 
-        @can('admin.rrhh')         
+              
         <li class="nav-header">Modulo RRHH</li>  
         <li class="nav-item">
           <a href="#" class="nav-link">
@@ -55,25 +55,23 @@
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('rrhh.list') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Lista Usuarios</a></li>
-            {{-- <li class="nav-item"><a href="{{ route('rrhh.add') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Nuevo Usuario</a></li> --}}
+            @can('admin.rrhh')   
+            <li class="nav-item"><a href="{{ route('rrhh.list') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Kardex</a></li>
+            @endcan
+            <li class="nav-item"><a href="{{ route('comisiones.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Comisiones</a></li>
           </ul>
         </li>
-        @endcan
-
-        @can('admin.eess')         
+        
+        @can('admin.eess')                               
+        
         <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fas fa-hospital-alt nav-icon"></i> 
-            <p>Establecimientos de Salud
-              <i class="right fas fa-angle-left"></i>
-            </p>            
+          <a href="{{ route('eess.list') }}" class="nav-link">
+            <i class="nav-icon fas fa-hospital-alt"></i>
+            <p>
+              Establecimiento de Salud
+              {{-- <span class="badge badge-info right">2</span> --}}
+            </p>
           </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('eess.list') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista EESS</a></li>
-            <li class="nav-item"><a href="{{ route('eess.add') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Nuevo EESS</a></li>            
-            <li class="nav-item"><a href="{{ route('eess.tipo.list') }}" class="nav-link"><i class="far fa-circle nav-icon"></i>Tipo EESS</a></li>          
-          </ul>
         </li>
         @endcan
 
@@ -86,53 +84,16 @@
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('brigadas.index')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Brigadas</a></li>
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Brigada</a></li>            
+            <li class="nav-item"><a href="{{ route('brigadas.index')}}" class="nav-link"><i class="fas fa-briefcase-medical nav-icon"></i>Lista Brigadas</a></li>
+            <li class="nav-item"><a href="{{ route('antigenos.index')}}" class="nav-link"><i class="fas fa-vial nav-icon"></i>Lista Antigeno</a></li>
+            <li class="nav-item"><a href="{{ route('rastrillajes.index')}}" class="nav-link"><i class="fas fa-user-nurse nav-icon"></i>Lista Rastrillaje</a></li>
+            <li class="nav-item"><a href="{{ route('vacunas.index')}}" class="nav-link"><i class="fas fa-syringe nav-icon"></i>Lista Vacunas</a></li>
+                     
             
           </ul>
         </li>
 
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fas fa-vial nav-icon"></i> 
-            <p>Antigeno
-              <i class="right fas fa-angle-left"></i>
-            </p>            
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('antigenos.index')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Antigeno</a></li>
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Antigeno</a></li>            
-            
-          </ul>
-        </li>
-        
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fas fa-user-nurse nav-icon"></i> 
-            <p>Rastrillaje
-              <i class="right fas fa-angle-left"></i>
-            </p>            
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('rastrillajes.index')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Rastrillaje</a></li>
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Rastrillaje</a></li>            
-            
-          </ul>
-        </li>      
-        
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fas fa-syringe nav-icon"></i> 
-            <p>Vacunas
-              <i class="right fas fa-angle-left"></i>
-            </p>            
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('vacunas.index')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Vacunas</a></li>
-            <li class="nav-item"><a href="#" class="nav-link"><i class="far fa-circle nav-icon"></i>Nueva Vacunas</a></li>            
-            
-          </ul>
-        </li>        
+             
 
         <li class="nav-header">Cronograma</li>
         
@@ -146,7 +107,8 @@
           </a>
         </li>
 
-        <li class="nav-header">Modulo Web</li>
+        @can('admin.eess')  
+        <li class="nav-header">Modulo Inicio (Web)</li>
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="fas fa-file-alt nav-icon"></i> 
@@ -158,9 +120,10 @@
             <li class="nav-item"><a href="" class="nav-link"><i class="far fa-circle nav-icon"></i>Categorias</a></li>
             <li class="nav-item"><a href="" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Articulos</a></li>                       
           </ul>
-        </li>  
+        </li>
+        @endcan  
 
-        <li class="nav-header">Modulo Administracion</li>
+        <li class="nav-header">Modulo Configuracion</li>
        
         <li class="nav-item">
           <a href="#" class="nav-link">
@@ -177,6 +140,7 @@
           </ul>
         </li>   
 
+        @can('admin.eess')    
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="fas fa-user-lock nav-icon"></i> 
@@ -187,7 +151,8 @@
           <ul class="nav nav-treeview">
             <li class="nav-item"><a href="{{ route('roles.index')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Roles y Permisos</a></li>          
           </ul>
-        </li>   
+        </li>
+        @endcan
         
       </ul>
     </nav>

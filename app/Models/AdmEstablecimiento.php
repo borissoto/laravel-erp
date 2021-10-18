@@ -20,4 +20,8 @@ class AdmEstablecimiento extends Model
     public function comunidades(){
         return $this->hasMany(AdmComunidades::class);
     }
+
+    public function establecimientos(){
+        return $this->hasMany(RrhhEstablecimientoUser::class);
+    }
 }

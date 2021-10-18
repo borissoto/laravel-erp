@@ -47,7 +47,7 @@
                     <!-- card-header -->
                     <div class="card-body pb-1">
                         {{-- <div class="table-responsive"> --}}
-                            <table id="example1" class="table table-sm table-bordered table-striped text-sm">
+                            <table id="example1" class="table table-sm table-bordered table-striped text-sm shadow">
                             <thead>
                                 <tr>                                    
                                     <th>Establecimiento
@@ -62,29 +62,30 @@
                                     <th>Familias</th>
                                     <th>Carpetizacion</th>
                                     <th>Tiempo Viaje</th>
-                                    <th>Medico</th>
+                                    <th>Usuario</th>
+                                    <th>Acciones</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @foreach ($comunidades as $comunidad) 
                                 <tr>
-                                    <td>{{ $comunidad->establecimiento->nom_establecimiento}}</td>
-                                    <td>{{ $comunidad->nom_comunidad}}</td>                                                     
-                                    <td>{{ $comunidad->pioc}}</td>                                                     
-                                    <td>{{ $comunidad->nacion}}</td>                                                     
-                                    <td>{{ $comunidad->habitantes}}</td> 
-                                    <td>{{ $comunidad->familias}}</td> 
-                                    <td>{{ $comunidad->carpetizacion}}</td> 
-                                    <td>{{ $comunidad->tiempo_viaje}}</td> 
-                                    <td>{{ $comunidad->user_id}}</td> 
+                                    <td class="align-middle">{{ $comunidad->establecimiento->nom_establecimiento}}</td>
+                                    <td class="align-middle">{{ $comunidad->nom_comunidad}}</td>                                                     
+                                    <td class="align-middle">{{ $comunidad->pioc}}</td>                                                     
+                                    <td class="align-middle">{{ $comunidad->nacion}}</td>                                                     
+                                    <td class="align-middle">{{ $comunidad->habitantes}}</td> 
+                                    <td class="align-middle">{{ $comunidad->familias}}</td> 
+                                    <td class="align-middle">{{ $comunidad->carpetizacion}}</td> 
+                                    <td class="align-middle">{{ $comunidad->tiempo_viaje}}</td> 
+                                    <td class="align-middle">{{ $comunidad->usuario->name}}</td> 
                                                            
                                     <td width="20px">
                                         <div class="btn-group">
                                         {{-- <button type="button" class="btn btn-secondary">Action</button> --}}
-                                        <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fas fa-bars"></i>
+                                        <button type="button" class="btn btn-sm btn-primary dropdown-toggle " data-toggle="dropdown">Acciones
                                             <span class="sr-only">Toggle Dropdown</span>
                                         </button>
-                                        <div class="dropdown-menu" style="min-width: 1rem;"  role="menu">                                        
+                                        <div class="dropdown-menu dropdown-menu-right" style="min-width: 1rem;"  role="menu">                                        
                                             <button class="dropdown-item" data-toggle="modal" data-target="#comunidadUpdate" wire:click="edit({{ $comunidad->id }})" >Editar</button>
                                         </div>
                                         </div>
@@ -98,7 +99,7 @@
                                 @endforeach                         
                                 </tbody>                       
                             </table>
-                            <div class="d-flex justify-content-start text-muted">
+                            <div class="d-flex justify-content-start text-muted text-sm">
                                 Mostrando del {{ $comunidades->firstItem() }} al {{ $comunidades->lastItem() }} de {{$comunidades->total()}} registros.
                             </div>                                     
                         {{-- </div> --}}

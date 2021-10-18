@@ -17,46 +17,51 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="form-group row">                                   
-                                    <label for="extension" class="col-sm-2 col-form-label">Estado</label>
+                                    <label for="extension" class="col-sm-2 col-form-label col-form-label-sm">Estado</label>
                                     <div class="col-sm-4" >
-                                        <select wire:model="estado" name="med" id="estado" class="form-control">
+                                        @if($user->estado === 2)
+                                        <select wire:model="estado" name="med" id="estado" class="form-control form-control-sm" disabled>
+                                        @else    
+                                        <select wire:model="estado" name="med" id="estado" class="form-control form-control-sm">
+                                        @endif    
                                             <option value="0">INACTIVO</option>
-                                            <option class="is-valid" value="1">ACTIVO</option>                                            
-                                    </select>
+                                            <option value="1">ACTIVO</option>                                            
+                                            <option value="2" disabled style="background-color: rgb(104, 104, 104); color: rgb(194, 194, 194);">BAJA (No elegible)</option>
+                                        </select>
                                     </div>                                                  
                                 </div>   
                                 <div class="form-group row">
                                     <input type="hidden" wire:model="user_id">
-                                    <label for="name" class="col-sm-2 col-form-label">Usuario</label>
+                                    <label for="name" class="col-sm-2 col-form-label col-form-label-sm">Usuario</label>
                                     <div class="col-sm-4">
-                                        <input wire:model="name" class="form-control" type="text" value="" id="name">
+                                        <input wire:model="name" class="form-control form-control-sm" type="text" value="" id="name">
                                         @error('name') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>
-                                    <label for="nombres" class="col-sm-2 col-form-label">Nombres</label>
+                                    <label for="nombres" class="col-sm-2 col-form-label col-form-label-sm">Nombres</label>
                                     <div class="col-sm-4">
-                                        <input wire:model="nombres" class="form-control" type="text" value="" id="nombres">
+                                        <input wire:model="nombres" class="form-control form-control-sm" type="text" value="" id="nombres">
                                         @error('nombres') <span class="text-sm text-danger error">{{ $message }}</span>@enderror
                                     </div>
                                 </div>                                                
                                 <div class="form-group row">
-                                    <label for="ap-paterno" class="col-sm-2 col-form-label">Apellido Paterno</label>
+                                    <label for="ap-paterno" class="col-sm-2 col-form-label col-form-label-sm">Apellido Paterno</label>
                                     <div class="col-sm-4">
-                                    <input wire:model="ap_paterno" class="form-control" type="text" value="" id="ap-paterno">
+                                    <input wire:model="ap_paterno" class="form-control form-control-sm" type="text" value="" id="ap-paterno">
                                     </div>                              
-                                    <label for="ap-materno" class="col-sm-2 col-form-label">Apellido Materno</label>
+                                    <label for="ap-materno" class="col-sm-2 col-form-label col-form-label-sm">Apellido Materno</label>
                                     <div class="col-sm-4">
-                                    <input wire:model="ap_materno" class="form-control" type="text" value="" id="ap-materno">
+                                    <input wire:model="ap_materno" class="form-control form-control-sm" type="text" value="" id="ap-materno">
                                     </div>
                                 </div>                                                
                                 <div class="form-group row">
-                                    <label for="ci" class="col-sm-2 col-form-label">Carnet Identidad</label>
+                                    <label for="ci" class="col-sm-2 col-form-label col-form-label-sm">Carnet Identidad</label>
                                     <div class="col-sm-4">
-                                        <input wire:model="ci" class="form-control" type="number" value="" id="ci">
+                                        <input wire:model="ci" class="form-control form-control-sm" type="number" value="" id="ci">
                                         @error('ci') <span class="text-sm text-danger error">{{ $message }}</span>@enderror
                                     </div>
-                                    <label for="extension" class="col-sm-2 col-form-label">Extension</label>
+                                    <label for="extension" class="col-sm-2 col-form-label col-form-label-sm">Extension</label>
                                     <div class="col-sm-4" >                                    
-                                        <select wire:model="adm_departamento_id" id="extension" class="form-control" required>                                        
+                                        <select wire:model="adm_departamento_id" id="extension" class="form-control form-control-sm" required>                                        
                                             <option value="1">LA PAZ</option>
                                             <option value="2">ORURO</option>
                                             <option value="3">POTOSI</option>
@@ -70,13 +75,13 @@
                                     </div>                                                  
                                 </div>                                                
                                 <div class="form-group row">
-                                    <label for="fechanac" class="col-sm-2 col-form-label">Fecha Nacimiento</label>                                                                                                  
+                                    <label for="fechanac" class="col-sm-2 col-form-label col-form-label-sm">Fecha Nacimiento</label>                                                                                                  
                                     <div class="col-sm-4"> 
-                                        <input wire:model="fecha_nac" class="form-control" type="date" value="" id="fechanac">
+                                        <input wire:model="fecha_nac" class="form-control form-control-sm" type="date" value="" id="fechanac">
                                     </div>
-                                    <label for="extension" class="col-sm-2 col-form-label">Sexo</label>
+                                    <label for="extension" class="col-sm-2 col-form-label col-form-label-sm">Sexo</label>
                                     <div class="col-sm-4" >
-                                        <select wire:model="sexo" name="med" id="SEXO" class="form-control">
+                                        <select wire:model="sexo" name="med" id="SEXO" class="form-control form-control-sm">
                                             <option value="0">GENERO</option>
                                             <option value="MASCULINO">MASCULINO</option>
                                             <option value="FEMENINO">FEMENINO</option>
@@ -84,42 +89,42 @@
                                     </div>                                                  
                                 </div>                                                
                                 <div class="form-group row">
-                                    <label for="email" class="col-sm-2 col-form-label">Email</label>
+                                    <label for="email" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
                                     <div class="col-sm-4">
-                                        <input wire:model="email" class="form-control" type="email" value="" id="email">
+                                        <input wire:model="email" class="form-control form-control-sm" type="email" value="" id="email">
                                     </div>                             
-                                        <label for="telefono" class="col-sm-2 col-form-label">Telefono</label>
+                                        <label for="telefono" class="col-sm-2 col-form-label col-form-label-sm">Telefono</label>
                                         <div class="col-sm-4">
-                                            <input wire:model="telefono" class="form-control" type="number" value="" id="telefono">
+                                            <input wire:model="telefono" class="form-control form-control-sm" type="number" value="" id="telefono">
                                         </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="domicilio" class="col-sm-2 col-form-label">Domicilio</label>
+                                    <label for="domicilio" class="col-sm-2 col-form-label col-form-label-sm">Domicilio</label>
                                     <div class="col-sm-4">
-                                        <input wire:model="domicilio" class="form-control" type="text" value="" id="domicilio">
+                                        <input wire:model="domicilio" class="form-control form-control-sm" type="text" value="" id="domicilio">
                                     </div>                              
-                                    <label for="incorporacion" class="col-sm-2 col-form-label">Incorporacion</label>
+                                    <label for="incorporacion" class="col-sm-2 col-form-label col-form-label-sm">Incorporacion</label>
                                     <div class="col-sm-4">
-                                        <input wire:model="incorporacion" class="form-control" type="date" value="" id="incorporacion">
+                                        <input wire:model="incorporacion" class="form-control form-control-sm" type="date" value="" id="incorporacion">
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="item" class="col-sm-2 col-form-label">Item</label>
+                                    <label for="item" class="col-sm-2 col-form-label col-form-label-sm">Item</label>
                                     <div class="col-sm-4">
-                                        <input wire:model="item" class="form-control" type="number" value="" id="item">
+                                        <input wire:model="item" class="form-control form-control-sm" type="number" value="" id="item">
                                     </div>
-                                    <label for="docente" class="col-sm-2 col-form-label">Docente</label>
+                                    <label for="docente" class="col-sm-2 col-form-label col-form-label-sm">Docente</label>
                                     <div class="col-sm-4">                                        
-                                        <select wire:model="docente" name="med" id="SEXO" class="form-control">
+                                        <select wire:model="docente" name="med" id="SEXO" class="form-control form-control-sm">
                                             <option value="NA">NO APLICA</option>
                                             <option value="EDPERM">EDPERM</option>                                            
                                         </select>
                                     </div>                                                   
                                 </div>  
                                 <div class="form-group row">
-                                    <label class="col-sm-2 col-form-label">Universidad</label>
+                                    <label class="col-sm-2 col-form-label col-form-label-sm">Universidad</label>
                                     <div class="col-sm-4">                            
-                                        <select wire:model="universidad"  id="UNIVERSIDAD" class="form-control">
+                                        <select wire:model="universidad"  id="UNIVERSIDAD" class="form-control form-control-sm">
                                             <option value="0">UNIVERSIDAD DE EGRESO</option>
                                             <option value="ELAM-CUBA">ESCUELA LATINO AMERICANA DE MEDICINA (CUBA)</option>
                                             <option value="ELAM-VENEZUELA">ESCUELA LATINO AMERICANA DE MEDICINA (VENEZUELA)</option>
@@ -143,9 +148,9 @@
                                             <option value="OTRAS UNIVERSIDADES">OTRA UNIVERSIDAD</option>
                                         </select>
                                     </div>                                 
-                                    <label class="col-sm-2 col-form-label">Grado Academico</label>
+                                    <label class="col-sm-2 col-form-label col-form-label-sm">Grado Academico</label>
                                     <div class="col-sm-4">
-                                        <select wire:model="grado" id="GRADO" class="form-control">
+                                        <select wire:model="grado" id="GRADO" class="form-control form-control-sm">
                                             <option value="0">GRADO ACADEMICO</option>
                                             <option value="ESPECIALISTA SAFCI">ESPECIALISTA SAFCI</option>
                                             <option value="MEDICO MGI">MEDICO GENERAL INTEGRAL</option>
@@ -155,9 +160,9 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="obs" class="col-sm-2 col-form-label">Observaciones</label>
+                                    <label for="obs" class="col-sm-2 col-form-label col-form-label-sm">Observaciones</label>
                                     <div class="col-sm-10">
-                                        <input wire:model="obs" class="form-control" type="textarea" value="" id="obs">
+                                        <input wire:model="obs" class="form-control form-control-sm" type="textarea" value="" id="obs">
                                     </div>
                                                                                    
                                 </div>                                                                    

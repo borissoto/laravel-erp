@@ -15,6 +15,13 @@ class CreateRrhhComisionesTable extends Migration
     {
         Schema::create('rrhh_comisiones', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null');
+            $table->string('tipo_comision');
+            $table->string('descripcion');
+            $table->string('viaticos');
+            $table->string('lugar');
+            $table->timestamp('fecha_ini')->nullable(); // fecha de la baja
+            $table->timestamp('fecha_fin')->nullable(); // fecha de la baja
             $table->timestamps();
         });
     }

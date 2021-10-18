@@ -23,6 +23,11 @@ class AdmComunidades extends Model
         'user_id',
     ];
 
+    public function usuario()
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
+
     public function establecimiento(){
         return $this->belongsTo(AdmEstablecimiento::class,'adm_establecimiento_id');
     }

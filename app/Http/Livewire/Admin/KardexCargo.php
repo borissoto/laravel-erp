@@ -67,7 +67,7 @@ class KardexCargo extends Component
                 
         'estado' => 'required',
         'nom_cargo' => 'required',
-        'descripcion' => 'required|max:120',
+        // 'descripcion' => 'required|max:120',
         'adm_unidades_id' => 'required',
         'incorporacion' => 'required',           
         

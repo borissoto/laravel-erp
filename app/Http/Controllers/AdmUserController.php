@@ -95,9 +95,19 @@ class AdmUserController extends Controller
         return view('backend.rrhh.rrhh_kardex_educacion', compact('user'));
     }   
 
+    public function kardexEstablecimiento($id){
+        $user = User::findOrFail($id);        
+        return view('backend.rrhh.rrhh_kardex_establecimiento', compact('user'));
+    }   
+
     public function kardexSupervision($id){
         $user = User::findOrFail($id);        
         return view('backend.rrhh.rrhh_kardex_supervision', compact('user'));
+    }   
+
+    public function kardexVacuna($id){
+        $user = User::findOrFail($id);        
+        return view('backend.rrhh.rrhh_kardex_vacuna', compact('user'));
     }   
 
     public function kardexBaja($id){

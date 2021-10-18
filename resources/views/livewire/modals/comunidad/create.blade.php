@@ -11,10 +11,10 @@
                 <form >                                    
                     
                     <div class="form-group row">
-                        <label for="municipio" class="col-md-2 col-form-label">Departamento*</label>
+                        <label for="municipio" class="col-md-2 col-form-label col-form-label-sm">Departamento*</label>
 
                         <div class="col-md-4">
-                            <select wire:model="selectedDepartamento" name="departamento" class="form-control" required>
+                            <select wire:model="selectedDepartamento" name="departamento" class="form-control form-control-sm" required>
                                 <option value="" class="text-primary">Escoja Departamento*</option>
                                 @foreach ($departamentos as $departamento)
                                     <option value="{{ $departamento->id }}">{{ $departamento->nom_departamento }}</option>
@@ -24,9 +24,9 @@
                                      
                         @if (!is_null($selectedDepartamento))                 
 
-                        <label for="municipio" class="col-md-2 col-form-label">Municipio*</label>
+                        <label for="municipio" class="col-md-2 col-form-label col-form-label-sm">Municipio*</label>
                         <div class="col-md-4">
-                            <select wire:model="selectedMunicipio" name="municipio" class="form-control" required>
+                            <select wire:model="selectedMunicipio" name="municipio" class="form-control form-control-sm" required>
                                 <option value="" class="text-primary">Escoja Municipio*</option>
                                 @foreach ($municipios as $municipio)
                                     <option value="{{ $municipio->id }}">{{ $municipio->nom_municipio }}</option>
@@ -40,10 +40,10 @@
                     @if (!is_null($selectedMunicipio))
                     <div class="form-group row">
                    
-                        <label for="establecimiento" class="col-md-2 col-form-label text-md-right">Establecimiento*</label>
+                        <label for="establecimiento" class="col-md-2 col-form-label col-form-label-sm text-md-right">Establecimiento*</label>
             
                         <div class="col-md-4">                            
-                            <select wire:model="selectedEstablecimiento" name="establecimiento" class="form-control" required>
+                            <select wire:model="selectedEstablecimiento" name="establecimiento" class="form-control form-control-sm" required>
                                 @if ($establecimientos->count() == 0)
                                     <option value="">-- Escoja EESS antes --</option>
                                 @endif
@@ -56,26 +56,26 @@
                     @endif
                     
                     <div class="form-group row">
-                        <label class="col-md-2 col-form-label">Comunidad</label>
+                        <label class="col-md-2 col-form-label col-form-label-sm">Comunidad</label>
                         <div class="col-md-4">                            
-                        <input class="form-control" type="text" id="nombre" wire:model="nom_comunidad" placeholder="Nombre de la comunidad" >
+                        <input class="form-control form-control-sm" type="text" id="nombre" wire:model="nom_comunidad" placeholder="Nombre de la comunidad" >
+                        @error('nom_comunidad') <span class="text-danger text-sm error">{{ $message }}</span>@enderror
                         </div>
-                        @error('nom_comunidad') <span class="text-danger error">{{ $message }}</span>@enderror
 
-                        <label class="col-md-2 col-form-label">Piocs</label>
+                        <label class="col-md-2 col-form-label col-form-label-sm">Piocs</label>
                         <div class="col-md-4">                        
-                        <select wire:model="pioc" class="form-control"> 
+                        <select wire:model="pioc" class="form-control form-control-sm"> 
                             <option value="">¿Es un Pueblo IOC?</option>
                             <option value="PIOC">SI</option>                           
                             <option value="NO">NO</option>                           
                         </select>
-                        </div>
                         @error('pioc') <span class="text-sm text-danger error">{{ $message }}</span>@enderror
+                        </div>
                     </div>                                                
                     <div class="form-group row">
-                        <label class="col-md-2 col-form-label">Nacion</label>
+                        <label class="col-md-2 col-form-label col-form-label-sm">Nacion</label>
                         <div class="col-md-4">
-                        <select wire:model="nacion" id="PUEBLOS" class="form-control">                            
+                        <select wire:model="nacion" id="PUEBLOS" class="form-control form-control-sm">                            
                             <option value="Yuracaré">Yuracaré</option>
                             <option value="Mojeño trinitario">Mojeño trinitario</option>
                             <option value="Yuracaré">Yuracaré</option>
@@ -114,43 +114,43 @@
                             <option value="Afrobolivianos">Afrobolivianos</option>
                             <option value="OTROS">OTROS</option>
                         </select>
+                        @error('nacion') <span class="text-danger text-sm error">{{ $message }}</span>@enderror
                         </div>
-                        @error('nacion') <span class="text-danger error">{{ $message }}</span>@enderror
 
-                        <label class="col-md-2 col-form-label">Poblacion</label>
+                        <label class="col-md-2 col-form-label col-form-label-sm">Poblacion</label>
                         <div class="col-md-4">
-                        <input class="form-control" type="number" id="habitantes" wire:model="habitantes" placeholder="Nro de habitantes">
+                        <input class="form-control form-control-sm" type="number" id="habitantes" wire:model="habitantes" placeholder="Nro de habitantes">
+                        @error('habitantes') <span class="text-danger text-sm error">{{ $message }}</span>@enderror
                         </div>
-                        @error('habitantes') <span class="text-danger error">{{ $message }}</span>@enderror
                     </div>                                                                                                               
                     <div class="form-group row">
-                        <label class="col-md-2 col-form-label">Familias</label>
+                        <label class="col-md-2 col-form-label col-form-label-sm">Familias</label>
                         <div class="col-md-4">
-                        <input class="form-control" type="number" id="familias" wire:model="familias" placeholder="Nro de Familias">
+                        <input class="form-control form-control-sm" type="number" id="familias" wire:model="familias" placeholder="Nro de Familias">
+                        @error('familias') <span class="text-danger text-sm error">{{ $message }}</span>@enderror
                         </div>
-                        @error('familias') <span class="text-danger error">{{ $message }}</span>@enderror
 
-                        <label class="col-md-2 col-form-label">Carpetizacion</label>
+                        <label class="col-md-2 col-form-label col-form-label-sm">Carpetizacion</label>
                         <div class="col-md-4">
-                        <input class="form-control" type="number" id="carpetizacion" wire:model="carpetizacion" placeholder="Porcentaje de Carpetizacion">
+                        <input class="form-control form-control-sm" type="number" id="carpetizacion" wire:model="carpetizacion" placeholder="Porcentaje de Carpetizacion">
+                        @error('carpetizacion') <span class="text-danger text-sm error">{{ $message }}</span>@enderror
                         </div>
-                        @error('carpetizacion') <span class="text-danger error">{{ $message }}</span>@enderror
                     </div>                                                                                                             
                     <div class="form-group row">
-                        <label class="col-md-2 col-form-label">Tiempo Viaje</label>
+                        <label class="col-md-2 col-form-label col-form-label-sm">Tiempo Viaje</label>
                         <div class="col-md-4">
-                        <input class="form-control" type="text" id="tiempo" wire:model="tiempo_viaje" placeholder="Tiempo viaje desde EESS">
+                        <input class="form-control form-control-sm" type="text" id="tiempo" wire:model="tiempo_viaje" placeholder="Tiempo viaje desde EESS">
+                        @error('tiempo_viaje') <span class="text-danger text-sm error">{{ $message }}</span>@enderror
                         </div>
-                        @error('tiempo_viaje') <span class="text-danger error">{{ $message }}</span>@enderror
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2 col-form-label">Latitud</label>
+                        <label class="col-md-2 col-form-label col-form-label-sm">Latitud</label>
                         <div class="col-md-4">
-                            <input type="text" class="form-control" name="lat" id="lat" wire:model="lat" placeholder=" Arrastre el marcador Rojo" min="-9.662687" max="-22.908152" title="Debe ingresar latitud correspondiente a Bolivia" disabled>
+                            <input type="text" class="form-control form-control-sm" name="lat" id="lat" wire:model="lat" placeholder=" Arrastre el marcador Rojo" min="-9.662687" max="-22.908152" title="Debe ingresar latitud correspondiente a Bolivia" disabled>
                         </div>
-                        <label class="col-md-2 col-form-label">Longitud</label>
+                        <label class="col-md-2 col-form-label col-form-label-sm">Longitud</label>
                         <div class="col-md-4">
-                            <input type="text" class="form-control" name="long" id="long" wire:model="long"  placeholder="Arrastre el marcador Rojo" min="-57.452675" max="-69.626293" title="Debe ingresar Longitud correspondiente a Bolivia" disabled>
+                            <input type="text" class="form-control form-control-sm" name="long" id="long" wire:model="long"  placeholder="Arrastre el marcador Rojo" min="-57.452675" max="-69.626293" title="Debe ingresar Longitud correspondiente a Bolivia" disabled>
                         </div>
                     </div>
                     <div class="formgroup" wire:ignore>

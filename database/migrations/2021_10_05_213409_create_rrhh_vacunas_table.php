@@ -15,10 +15,9 @@ class CreateRrhhVacunasTable extends Migration
     {
         Schema::create('rrhh_vacunas', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('adm_municipio_id')->nullable();            
             $table->unsignedBigInteger('rrhh_brigada_id')->nullable();
-            $table->foreign('rrhh_brigada_id')->references('id')->on('rrhh_brigadas')->onDelete('set null');
-            $table->unsignedBigInteger('adm_municipio_id')->nullable();
-            $table->foreign('adm_municipio_id')->references('id')->on('adm_municipios')->onDelete('set null');
+            $table->foreign('rrhh_brigada_id')->references('id')->on('rrhh_brigadas')->onDelete('set null');            
             $table->string('marca')->nullable();            
             $table->integer('dosis1')->nullable();
             $table->integer('dosis2')->nullable();

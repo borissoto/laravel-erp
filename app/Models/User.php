@@ -15,6 +15,7 @@ use App\Models\AdmEstablecimiento;
 use App\Models\RrhhBrigada;
 use App\Models\RrhhPostgrado;
 use App\Models\RrhhSupervisiones;
+use App\Models\RrhhBaja;
 use App\Models\WebArticulo;
 use Spatie\Permission\Traits\HasRoles;
 
@@ -36,6 +37,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',                                            
+        'adm_establecimiento_id',
         'nombres',
         'ap_paterno',
         'ap_materno',
@@ -107,6 +109,14 @@ class User extends Authenticatable
     
     public function supervisiones(){
         return $this->hasMany(RrhhSupervisiones::class);
+    }
+    
+    public function vacunas(){
+        return $this->hasMany(RrhhCovidUsuario::class);
+    }
+
+    public function bajas(){
+        return $this->hasMany(RrhhBaja::class);
     }
     
     public function brigadas(){

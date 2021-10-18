@@ -5,11 +5,11 @@
         <div class="row">                 
         <div class="col-12">
             <div class="card">
-                <div class="card-header bg-lightblue">
+                <div class="card-header bg-light">
                     <h3 class="card-title"></h3> 
                     {{-- <input wire:model="search" type="form-control" placeholder="Buscar..." > --}}
                     <div class="d-inline-flex ">
-                        <select wire:model="perPage" class="form-control-sm text-secondary border-light"> 
+                        <select wire:model="perPage" class="form-control-sm text-secondary border-1"> 
                             <option value="5">5 por página</option>
                             <option value="10">10 por página</option>
                             <option value="15">15 por página</option>
@@ -37,10 +37,11 @@
                 <!-- card-header -->
                 <div class="card-body pb-1">
                     {{-- <div class="table-responsive"> --}}
-                        <table id="example1" class="table table-bordered table-striped text-sm">
+                        <table id="example1" class="table table-sm table-bordered table-striped text-sm shadow">
                         <thead>
                             <tr>
                                 {{-- <th>N°</th> --}}
+                                <th>Id</th>
                                 <th>Depto</th>
                                 <th>Municipio</th>
                                 <th>Brigada</th>
@@ -54,16 +55,17 @@
                             @foreach ($brigadas as $brigada) 
                             <tr>
                                 {{-- <td>{{ $user->firstItem()+$loop->index}}</td> --}}
-                                <td>{{ $brigada->municipio->departamento->nom_departamento}}</td>
-                                <td>{{ $brigada->municipio->nom_municipio}}</td>
-                                <td>{{ $brigada->nom_brigada}}</td>
-                                <td>{{ $brigada->tipo}}</td>
-                                <td>{{ $brigada->usuario->name}}</td>
-                                <td>{{ $brigada->integrantes}}</td>                              
+                                <td class="align-middle">{{ $brigada->id}}</td>
+                                <td class="align-middle">{{ $brigada->municipio->departamento->nom_departamento}}</td>
+                                <td class="align-middle">{{ $brigada->municipio->nom_municipio}}</td>
+                                <td class="align-middle">{{ $brigada->nom_brigada}}</td>
+                                <td class="align-middle">{{ $brigada->tipo}}</td>
+                                <td class="align-middle">{{ $brigada->usuario->name}}</td>
+                                <td class="align-middle">{{ $brigada->integrantes}}</td>                              
                                 <td width="20px">
                                     <div class="btn-group">
                                     {{-- <button type="button" class="btn btn-secondary">Action</button> --}}
-                                    <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fas fa-bars"></i>
+                                    <button type="button" class="btn btn-sm btn-primary dropdown-toggle " data-toggle="dropdown">Acciones
                                         <span class="sr-only">Toggle Dropdown</span>
                                     </button>
                                     <div class="dropdown-menu" style="min-width: 1rem;"  role="menu">                                        
@@ -80,7 +82,7 @@
                             @endforeach                         
                             </tbody>                       
                         </table>
-                        <div class="d-flex justify-content-start text-muted">
+                        <div class="d-flex justify-content-start text-muted text-sm">
                             Mostrando {{ $brigadas->firstItem() }} to {{ $brigadas->lastItem() }} de {{$brigadas->total()}} registros.
                         </div>                                     
                     {{-- </div> --}}

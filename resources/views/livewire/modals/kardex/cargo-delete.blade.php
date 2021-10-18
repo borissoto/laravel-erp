@@ -9,8 +9,7 @@
             </div>
            <div class="modal-body">
                 <p>Esta seguro que desea eliminar?</p>
-                <input type="hidden" wire:model="cargo_del_id">
-                ID: <input class="border-0" type="text" wire:model="cargo_del_id">
+              
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary close-btn" data-dismiss="modal">Cerrar</button>

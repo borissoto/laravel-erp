@@ -44,7 +44,8 @@
           </div>
           <!-- /.card -->
 
-          <a href="{{ route('user.profile.edit')}}" style="float: right;" class="btn btn-rounded btn-success">Editar</a>
+          <a href="{{ route('user.profile.edit')}}" style="float: left;" class="btn btn-rounded btn-primary">Editar Foto</a>
+          <a href="{{ route('user.profile.edit')}}" style="float: right;" class="btn btn-rounded btn-primary">Cambiar Constraseña</a>
 
         </div>
         <!-- /.col -->
@@ -188,7 +189,7 @@
                 <div class="tab-pane" id="establecimiento">
                   <div class="row">
                     <div class="col-12">
-                      @if ($user->establecimiento === null)                         
+                      @if ($user->establecimiento === 0)                         
                       
                         <div class="form-group row">
                           <label class="col-sm-12 col-form-label">El usuario no tiene Establecimiento Registrado </label>                                                                             

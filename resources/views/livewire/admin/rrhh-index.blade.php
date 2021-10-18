@@ -48,7 +48,7 @@
                 <!-- card-header -->
                 <div class="card-body pb-1">
                     {{-- <div class="table-responsive"> --}}
-                        <table id="example1" class="table table-sm table-bordered table-striped text-sm">
+                        <table id="example1" class="table table-sm table-bordered table-striped text-sm shadow">
                         <thead>
                             <tr>
                                 <th>Id</th>
@@ -74,6 +74,7 @@
                                     </button>
                                 </th>
                                 <th>CI</th>
+                                <th>Telefono</th>
                                 <th>Acciones</th>
                             </tr>
                         </thead>
@@ -81,12 +82,13 @@
                             @foreach ($users as $user) 
                             <tr>
                                 <td class="align-middle">{{ $user->id}}</td>
-                                <td class="align-middle">{!! $user->estado === 1 ? '<span class="badge bg-success">Activo</span>' : '<span class="badge bg-danger">Inactivo</span>' !!}</td>
+                                <td class="align-middle">{!! $user->estado === 1 ? '<span class="badge bg-success">ACTIVO</span>' : ($user->estado === 2 ?  '<span class="badge bg-warning">BAJA</span>' : '<span class="badge bg-danger">INACTIVO</span>') !!}</td>
                                 <td class="align-middle">{{ $user->name}}</td>
                                 <td class="align-middle">{{ $user->nombres}}</td>
                                 <td class="align-middle">{{ $user->ap_paterno}}</td>
                                 <td class="align-middle">{{ $user->ap_materno}}</td>
                                 <td class="align-middle">{{ $user->ci}}</td>                               
+                                <td class="align-middle">{{ $user->telefono}}</td>                               
                                 <td width="20px">
                                     <div class="btn-group">
                                       {{-- <button type="button" class="btn btn-secondary">Action</button> --}}
@@ -96,12 +98,12 @@
                                       <div class="dropdown-menu dropdown-menu-right" style="min-width: 1rem;" role="menu">
                                         {{-- wire:click="showModal({{$user->id}})" --}}
                                       {{-- <a class="dropdown-item" wire:click="showModal({{$user->id}})"  href="javascript:void(0">Ver</a> --}}
-                                        <a class="dropdown-item" href="{{ route('rrhh.kardex.index', $user->id)}}">Ver</a>
-                                        <a class="dropdown-item" href="{{ route('rrhh.edit', $user->id)}}">Editar</a>
+                                        <a class="dropdown-item" href="{{ route('rrhh.kardex.index', $user->id)}}">Ver Kardex</a>
+                                        {{-- <a class="dropdown-item" href="{{ route('rrhh.edit', $user->id)}}">Editar</a>
                                         <a class="dropdown-item" href="#"></a>
                                         <div class="dropdown-divider"></div>
                                         <a class="dropdown-item" data-toggle="modal" data-target="#modal-default" href="#">Asignar EESS</a>
-                                        <a class="dropdown-item" href="#">Brigada</a>
+                                        <a class="dropdown-item" href="#">Brigada</a> --}}
                                       </div>
                                     </div>
                                     {{-- <a href="{{ route('rrhh.view', $user->id)}}" class="btn btn-secondary btn-light" title="Ver"><i class="fa fa-eye" aria-hidden="true"></i></a>      
@@ -114,7 +116,7 @@
                             @endforeach                         
                             </tbody>                       
                         </table>
-                        <div class="d-flex justify-content-start text-muted">
+                        <div class="d-flex justify-content-start text-muted text-sm">
                             Mostrando del {{ $users->firstItem() }} al {{ $users->lastItem() }} de {{$users->total()}} registros.
                         </div>                                     
                     {{-- </div> --}}

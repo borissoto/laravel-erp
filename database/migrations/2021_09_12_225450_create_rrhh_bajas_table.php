@@ -19,6 +19,7 @@ class CreateRrhhBajasTable extends Migration
             $table->string('tipo'); //Ej Accidente, covid, embarazo, enfermedad, etc
             $table->string('causa_probable'); // causa probable de la baja, diabetes hipertension
             $table->string('factor_riesgo'); // factor o  que complica su situacion ej gestacion niño adulto
+            $table->string('obs'); 
             $table->timestamp('fecha_ini')->nullable(); // fecha de la baja
             $table->timestamp('fecha_fin')->nullable(); // fecha de la baja
             $table->timestamps();

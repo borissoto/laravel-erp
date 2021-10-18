@@ -109,6 +109,30 @@
     window.livewire.on('closeKardexSupervisionUpdate', () => {
         $('#kardexSupervisionUpdate').modal('hide');
     });
+    window.livewire.on('closeKardexBajaCreate', () => {
+      $('#kardexBajaCreate').modal('hide');
+    });
+    window.livewire.on('closeKardexBajaUpdate', () => {
+      $('#kardexBajaUpdate').modal('hide');
+    });
+    window.livewire.on('closeKardexBajaEstadoUpdate', () => {
+      $('#kardexBajaStatus').modal('hide');
+    });
+    window.livewire.on('closeKardexEstablecimientoCreate', () => {
+      $('#kardexEstablecimientoCreate').modal('hide');
+    });
+    window.livewire.on('closeKardexCovidUCreate', () => {
+      $('#kardexCovidUCreate').modal('hide');
+    });
+    window.livewire.on('closeKardexCovidUUpdate', () => {
+      $('#kardexCovidUUpdate').modal('hide');
+    });
+    window.livewire.on('closeComisionCreate', () => {
+      $('#comisionCreate').modal('hide');
+    });
+    window.livewire.on('closeComisionUpdate', () => {
+      $('#comisionUpdate').modal('hide');
+    });
   </script>
 
 <script type="text/javascript" src="{{asset('js/initMap.js')}}"></script>

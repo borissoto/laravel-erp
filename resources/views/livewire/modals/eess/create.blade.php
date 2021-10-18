@@ -12,9 +12,9 @@
                     
                                                                   
                     <div class="form-group row">
-                    <label class="col-sm-2 col-form-label">Tipo</label>
+                    <label class="col-sm-2 col-form-label col-form-label-sm">Tipo</label>
                     <div class="col-sm-4">
-                        <select id="TIPO" class="form-control">
+                        <select id="TIPO" class="form-control form-control-sm">
                             <option value="0">Tipo de establecimiento</option>
                             <option value="CENTRO DE SALUD AMBULATORIO">CENTRO DE SALUD AMBULATORIO</option>
                             <option value="CENTRO DE SALUD CON INTERNACION">CENTRO DE SALUD CON INTERNACION</option>
@@ -28,9 +28,9 @@
                             <option value="OFICINA DE COORDINACION">OFICINA DE COORDINACION</option>
                           </select>
                     </div>                   
-                        <label  class="col-sm-2 col-form-label">Subsector</label>
+                        <label  class="col-sm-2 col-form-label col-form-label-sm">Subsector</label>
                         <div class="col-sm-4">
-                            <select id="subsector" class="form-control">
+                            <select id="subsector" class="form-control form-control-sm">
                                 <option value="0">Sub-sector</option>
                                 <option value="PUBLICO">PUBLICO</option>
                                 <option value="SEGURIDAD SOCIAL(CAJAS)">SEGURIDAD SOCIAL(CAJAS)</option>
@@ -44,13 +44,13 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">Nombre </label>
+                        <label class="col-sm-2 col-form-label col-form-label-sm">Nombre </label>
                         <div class="col-sm-4">
-                            <input class="form-control" type="text" value="" >
+                            <input class="form-control form-control-sm" type="text" value="" >
                         </div>                   
-                        <label  class="col-sm-2 col-form-label">Ambito</label>
+                        <label  class="col-sm-2 col-form-label col-form-label-sm">Ambito</label>
                         <div class="col-sm-4">
-                            <select id="AMBITO" class="form-control" required>
+                            <select id="AMBITO" class="form-control form-control-sm" required>
                                 <option value="0">Ambito</option>
                                 <option value="R">RURAL</option>
                                 <option value="U">URBANO</option>
@@ -58,9 +58,9 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label  class="col-sm-2 col-form-label">Dependencia</label>
+                        <label  class="col-sm-2 col-form-label col-form-label-sm">Dependencia</label>
                         <div class="col-sm-4">
-                            <select id="DEPENDENCIA" class="form-control">
+                            <select id="DEPENDENCIA" class="form-control form-control-sm">
                                 <option value="0">Financiamiento del establecimiento</option>
                                 <option value="MINISTERIO DE SALUD">MINISTERIO DE SALUD</option>
                                 <option value="GOBERNACION">GOBERNACION</option>
@@ -77,9 +77,9 @@
                                 <option value="CABILDO INDIGENAL">CABILDO INDIGENAL</option>
                             </select>
                         </div>                
-                        <label  class="col-sm-2 col-form-label">Nivel</label>
+                        <label  class="col-sm-2 col-form-label col-form-label-sm">Nivel</label>
                         <div class="col-sm-4">
-                            <select id="NIVEL" class="form-control">
+                            <select id="NIVEL" class="form-control form-control-sm">
                                 <option value=0>Nivel de atencion</option>
                                 <option value="1er NIVEL">1er NIVEL</option>
                                 <option value="2do NIVEL">2do NIVEL</option>
@@ -89,13 +89,13 @@
                         </div>
                     </div>  
                     <div class="form-group row">
-                        <label  class="col-sm-2 col-form-label">Codigo SNIS</label>
+                        <label  class="col-sm-2 col-form-label col-form-label-sm">Codigo SNIS</label>
                         <div class="col-sm-4">
-                            <input class="form-control" type="text" value="">
+                            <input class="form-control form-control-sm" type="text" value="">
                         </div>                   
-                        <label  class="col-sm-2 col-form-label">Soaps</label>
+                        <label  class="col-sm-2 col-form-label col-form-label-sm">Soaps</label>
                         <div class="col-sm-4">
-                            <select id="SOAPS" class="form-control">
+                            <select id="SOAPS" class="form-control form-control-sm">
                                 <option value="0">Seleccione version SOAPS</option>
                                 <option value="NO CUENTA CON SOAPS">NO CUENTA CON SOAPS</option>
                                 <option value="NO CORRESPONDE">NO CORRESPONDE</option>
@@ -106,13 +106,13 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2 col-form-label">Latitud</label>
+                        <label class="col-md-2 col-form-label col-form-label-sm">Latitud</label>
                         <div class="col-md-4">
-                            <input type="text" class="form-control" name="lat" id="lat" wire:model="lat" placeholder=" Arrastre el marcador Rojo" min="-9.662687" max="-22.908152" title="Debe ingresar latitud correspondiente a Bolivia" disabled>
+                            <input type="text" class="form-control form-control-sm" name="lat" id="lat" wire:model="lat" placeholder=" Arrastre el marcador Rojo" min="-9.662687" max="-22.908152" title="Debe ingresar latitud correspondiente a Bolivia" disabled>
                         </div>
-                        <label class="col-md-2 col-form-label">Longitud</label>
+                        <label class="col-md-2 col-form-label col-form-label-sm">Longitud</label>
                         <div class="col-md-4">
-                            <input type="text" class="form-control" name="long" id="long" wire:model="long"  placeholder="Arrastre el marcador Rojo" min="-57.452675" max="-69.626293" title="Debe ingresar Longitud correspondiente a Bolivia" disabled>
+                            <input type="text" class="form-control form-control-sm" name="long" id="long" wire:model="long"  placeholder="Arrastre el marcador Rojo" min="-57.452675" max="-69.626293" title="Debe ingresar Longitud correspondiente a Bolivia" disabled>
                         </div>
                     </div>
                     <div class="formgroup" wire:ignore>

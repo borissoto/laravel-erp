@@ -11,7 +11,7 @@
         <div class="container-fluid">
             <div class="row">                 
             <div class="col-12">
-                <div class="card">
+                <div class="card ">
                     <div class="card-header bg-light">
                         <h3 class="card-title"></h3> 
                         {{-- <input wire:model="search" type="form-control" placeholder="Buscar..." > --}}
@@ -48,7 +48,7 @@
                     <!-- card-header -->
                     <div class="card-body pb-1">
                         {{-- <div class="table-responsive"> --}}
-                            <table id="example1" class="table table-sm table-bordered table-striped text-sm">
+                            <table id="example1" class="table table-sm table-bordered table-striped text-sm shadow">
                             <thead>
                                 <tr>
                                     <th>Id</th>
@@ -77,27 +77,25 @@
                             <tbody>
                                 @foreach ($establecimientos as $establecimiento) 
                                 <tr>
-                                    <td>{{ $establecimiento->id}}</td>
-                                    <td>{{ $establecimiento->nom_establecimiento}}</td>                                                     
-                                    <td>{{ $establecimiento->departamento->abreviatura}}</td>
-                                    <td>{{ $establecimiento->municipio->nom_municipio}}</td>                                                     
-                                    <td>{{ $establecimiento->cod_red}}</td>                                                     
-                                    <td>{{ $establecimiento->tipo}}</td>                             
-                                    <td>{{ $establecimiento->nivel}}</td>                                                     
-                                    <td>{{ $establecimiento->codsnis}}</td>                                                     
+                                    <td class="align-middle">{{ $establecimiento->id}}</td>
+                                    <td class="align-middle">{{ $establecimiento->nom_establecimiento}}</td>                                                     
+                                    <td class="align-middle">{{ $establecimiento->departamento->abreviatura}}</td>
+                                    <td class="align-middle">{{ $establecimiento->municipio->nom_municipio}}</td>                                                     
+                                    <td class="align-middle">{{ $establecimiento->cod_red}}</td>                                                     
+                                    <td class="align-middle">{{ $establecimiento->tipo}}</td>                             
+                                    <td class="align-middle">{{ $establecimiento->nivel}}</td>                                                     
+                                    <td class="align-middle">{{ $establecimiento->codsnis}}</td>                                                     
                                     <td width="20px">
                                         <div class="btn-group">
                                           {{-- <button type="button" class="btn btn-secondary">Action</button> --}}
-                                          <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fas fa-bars"></i>
+                                          <button type="button" class="btn btn-sm btn-primary dropdown-toggle " data-toggle="dropdown">Acciones
                                             <span class="sr-only">Toggle Dropdown</span>
                                           </button>
-                                          <div class="dropdown-menu" style="min-width: 1rem;" role="menu">
-                                            <a class="dropdown-item" href="{{ route('eess.view', $establecimiento->id)}}">Ver</a>
-                                            <a class="dropdown-item" href="{{ route('eess.edit', $establecimiento->id)}}">Editar</a>
-                                            <a class="dropdown-item" href="#"></a>
+                                          <div class="dropdown-menu dropdown-menu-right" style="min-width: 1rem;" role="menu">
+                                            <a class="dropdown-item" wire:click="editComision({{ $establecimiento->id }})"  data-toggle="modal" data-target="#comisionUpdate" href="">Editar</a>                                       
                                             <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" data-toggle="modal" data-target="#modal-default" href="#">Asignar establecimientos</a>
-                                            <a class="dropdown-item" href="#">Brigada</a>
+                                            <a class="dropdown-item" wire:click="deleteComision({{ $establecimiento->id }})"  data-toggle="modal" data-target="#comisionDelete" href="#">Eliminar</a>
+                                         
                                           </div>
                                         </div>
                                         {{-- <a href="{{ route('rrhh.view', $establecimiento->id)}}" class="btn btn-secondary btn-light" title="Ver"><i class="fa fa-eye" aria-hidden="true"></i></a>      
@@ -110,8 +108,8 @@
                                 @endforeach                         
                                 </tbody>                       
                             </table>
-                            <div class="d-flex justify-content-start text-muted">
-                                Mostrando {{ $establecimientos->firstItem() }} to {{ $establecimientos->lastItem() }} de {{$establecimientos->total()}} registros.
+                            <div class="d-flex justify-content-start text-muted text-sm">
+                                Mostrando del {{ $establecimientos->firstItem() }} al {{ $establecimientos->lastItem() }} de {{$establecimientos->total()}} registros.
                             </div>                                     
                         {{-- </div> --}}
                     </div>

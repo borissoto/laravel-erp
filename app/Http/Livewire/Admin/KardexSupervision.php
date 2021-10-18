@@ -65,8 +65,8 @@ class KardexSupervision extends Component
 
     public function resetInputFields()
     {     
-        $this->fecha = '';
-        $this->puntaje = '';
+        // $this->fecha = '';
+        // $this->puntaje = '';
         $this->recomendacion = '';
         $this->financiamiento = '';
         $this->justificacion = '';
@@ -88,7 +88,7 @@ class KardexSupervision extends Component
        $this->validate([      
            
         'fecha' => 'required',
-        'puntaje' => 'max:3',
+        // 'puntaje' => 'max:3',
         // 'recomendacion' => 'required',
         // 'financiamiento' => 'required',
         // 'justificacion' => 'required',
@@ -142,14 +142,14 @@ class KardexSupervision extends Component
     {
         $this->validate([
                       
-            'user_id' => 'required',
-            'supervisor_id' => 'required',
+            // 'user_id' => 'required',
+            // 'supervisor_id' => 'required',
             'fecha' => 'required',
-            'puntaje' => 'required',
-            'recomendacion' => 'required',
-            'financiamiento' => 'required',
-            'justificacion' => 'required',
-            'obs' => 'required',          
+            // 'puntaje' => 'required',
+            // 'recomendacion' => 'required',
+            // 'financiamiento' => 'required',
+            // 'justificacion' => 'required',
+            // 'obs' => 'required',          
                        
         ]);
 

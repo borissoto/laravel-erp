@@ -13,12 +13,14 @@ use App\Http\Controllers\AdmEstablecimientoController;
 use App\Http\Controllers\Backend\RoleController;
 use App\Http\Controllers\Backend\RrhhAntigenoController;
 use App\Http\Controllers\Backend\RrhhBrigadaController;
+use App\Http\Controllers\Backend\RrhhComisionController;
 use App\Http\Controllers\Backend\RrhhRastrillajeController;
 use App\Http\Controllers\Backend\RrhhVacunaController;
 use App\Http\Controllers\Backend\UserProfileController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\RrhhCalendarioController;
 use App\Http\Controllers\RrhhEventoController;
+use App\Models\RrhhComisiones;
 use App\Models\User;
 use GuzzleHttp\Middleware;
 use Illuminate\Support\Facades\DB;
@@ -72,9 +74,15 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::get('/rrhh/kardex/index/{id}', [AdmUserController::class, 'kardexIndex'])->name('rrhh.kardex.index');   
     Route::get('/rrhh/kardex/cargo/{id}', [AdmUserController::class, 'kardexCargo'])->name('rrhh.kardex.cargo'); 
     Route::get('/rrhh/kardex/educacion/{id}', [AdmUserController::class, 'kardexEducacion'])->name('rrhh.kardex.educacion'); 
+    Route::get('/rrhh/kardex/establecimiento/{id}', [AdmUserController::class, 'kardexEstablecimiento'])->name('rrhh.kardex.establecimiento'); 
     Route::get('/rrhh/kardex/supervision/{id}', [AdmUserController::class, 'kardexSupervision'])->name('rrhh.kardex.supervision'); 
+    Route::get('/rrhh/kardex/vacuna/{id}', [AdmUserController::class, 'kardexVacuna'])->name('rrhh.kardex.vacuna'); 
     Route::get('/rrhh/kardex/baja/{id}', [AdmUserController::class, 'kardexBaja'])->name('rrhh.kardex.baja'); 
     
+
+    /**************Comisiones************/
+    Route::resource('/comisiones', RrhhComisionController::class)->names('comisiones');
+
     /*EESS*/
     // EESS List All
     Route::get('/eess/list', [AdmEstablecimientoController::class, 'EessList'])->name('eess.list');   
