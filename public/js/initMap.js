@@ -12,6 +12,7 @@ function initMap(){
        
         var map = document.getElementById('gmap');       
                
+               
         const mapa = new google.maps.Map(map, options);
 
         var pin = new google.maps.Marker(
@@ -37,5 +38,7 @@ function initMap(){
         });
         
     });    
+
+    
 }
 

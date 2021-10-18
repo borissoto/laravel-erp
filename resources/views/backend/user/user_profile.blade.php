@@ -43,10 +43,17 @@
             <!-- /.card-body -->
           </div>
           <!-- /.card -->
+          <div class="d-flex">
+            <div class="mr-auto p-2">
+              <a href="{{ route('user.profile.edit')}}" style="float: left;" class="btn btn-rounded btn-primary btn-sm">Editar Foto</a>
 
-          <a href="{{ route('user.profile.edit')}}" style="float: left;" class="btn btn-rounded btn-primary">Editar Foto</a>
-          <a href="{{ route('user.profile.edit')}}" style="float: right;" class="btn btn-rounded btn-primary">Cambiar Constraseña</a>
+            </div>
+            <div class="ml-auto p-2">
+              <a href="{{ route('user.profile.edit')}}" style="float: right;" class="btn btn-rounded btn-primary btn-sm">Cambiar Constraseña</a>
 
+            </div>
+
+          </div>
         </div>
         <!-- /.col -->
         <div class="col-md-9">
@@ -189,7 +196,7 @@
                 <div class="tab-pane" id="establecimiento">
                   <div class="row">
                     <div class="col-12">
-                      @if ($user->establecimiento === 0)                         
+                      @if ($user->establecimiento === 0 || $user->establecimiento === null)                         
                       
                         <div class="form-group row">
                           <label class="col-sm-12 col-form-label">El usuario no tiene Establecimiento Registrado </label>                                                                             

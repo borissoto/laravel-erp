@@ -101,7 +101,7 @@
           <a href="{{ route('calendario.index') }}" class="nav-link">
             <i class="nav-icon far fa-calendar-alt"></i>
             <p>
-              Calendario
+              Cronograma
               {{-- <span class="badge badge-info right">2</span> --}}
             </p>
           </a>

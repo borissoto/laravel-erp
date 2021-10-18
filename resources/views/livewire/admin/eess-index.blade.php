@@ -1,6 +1,7 @@
 <div>
     @include('livewire.modals.eess.create')
     @include('livewire.modals.eess.update')
+    @include('livewire.modals.eess.delete')
     @if (session()->has('message'))
         <div class="alert alert-success" style="margin-top:30px;">x
           {{ session('message') }}
@@ -26,7 +27,7 @@
                             </select>
                         </div>
 
-                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#eessCreate">
+                        <button type="button" wire:click="newEstablecimiento()" class="btn btn-success btn-sm" data-toggle="modal" data-target="#eessCreate">
                             Nuevo
                           </button>
         
@@ -92,9 +93,9 @@
                                             <span class="sr-only">Toggle Dropdown</span>
                                           </button>
                                           <div class="dropdown-menu dropdown-menu-right" style="min-width: 1rem;" role="menu">
-                                            <a class="dropdown-item" wire:click="editComision({{ $establecimiento->id }})"  data-toggle="modal" data-target="#comisionUpdate" href="">Editar</a>                                       
+                                            <a class="dropdown-item" wire:click="editEstablecimiento({{ $establecimiento->id }})"  data-toggle="modal" data-target="#eessUpdate" href="">Editar</a>                                       
                                             <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" wire:click="deleteComision({{ $establecimiento->id }})"  data-toggle="modal" data-target="#comisionDelete" href="#">Eliminar</a>
+                                            <a class="dropdown-item" wire:click="deleteEstablecimiento({{ $establecimiento->id }})"  data-toggle="modal" data-target="#eessDelete" href="#">Eliminar</a>
                                          
                                           </div>
                                         </div>

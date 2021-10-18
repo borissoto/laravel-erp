@@ -77,7 +77,7 @@
 
 <!-- ChartJS -->
 <script src="{{asset('plugins/chart.js/Chart.min.js')}}"></script>
-  @yield('scripts')
+
   @livewireScripts
 
   @stack('modals')
@@ -133,11 +133,19 @@
     window.livewire.on('closeComisionUpdate', () => {
       $('#comisionUpdate').modal('hide');
     });
+    window.livewire.on('closeEstablecimientoCreate', () => {
+      $('#eessCreate').modal('hide');
+    });
+    window.livewire.on('closeEstablecimientoUpdate', () => {
+      $('#eessUpdate').modal('hide');
+    });
   </script>
 
-<script type="text/javascript" src="{{asset('js/initMap.js')}}"></script>
-<script type="text/javascript" src="{{asset('/js/localizacion.js')}}"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwC0dKzZNKNbnzsslPYLNSExYd8uLqRIk&callback=initMap"></script>
+{{-- <script type="text/javascript" src="{{asset('js/initMap.js')}}"></script> --}}
+{{-- <script type="text/javascript" src="{{asset('/js/localizacion.js')}}"></script> --}}
+{{-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwC0dKzZNKNbnzsslPYLNSExYd8uLqRIk&callback=initMap"></script> --}}
+
+@stack('scripts')
 
 </body>
 </html>

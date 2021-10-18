@@ -1,4 +1,4 @@
-<div wire:ignore.self class="modal fade" id="kardexEstablecimientoDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div wire:ignore.self class="modal fade" id="eessDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header bg-danger">
@@ -13,7 +13,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary close-btn" data-dismiss="modal">Cerrar</button>
-                <button type="button" wire:click.prevent="deleteConfirmKardexEstablecimiento()" class="btn btn-danger close-modal" data-dismiss="modal">Eliminar</button>
+                <button type="button" wire:click.prevent="deleteConfirmEstablecimiento()" class="btn btn-danger close-modal" data-dismiss="modal">Eliminar</button>
             </div>
         </div>
     </div>

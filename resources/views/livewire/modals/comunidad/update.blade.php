@@ -146,15 +146,15 @@
                 <div class="form-group row">
                     <label class="col-md-2 col-form-label col-form-label-sm">Latitud</label>
                     <div class="col-md-4">
-                        <input type="text" class="form-control form-control-sm" name="lat" id="lat" wire:model="lat" placeholder=" Arrastre el marcador Rojo" min="-9.662687" max="-22.908152" title="Debe ingresar latitud correspondiente a Bolivia" disabled>
+                        <input type="text" class="form-control form-control-sm" name="lat" id="latEdit" wire:model="lat" placeholder=" Arrastre el marcador Rojo" min="-9.662687" max="-22.908152" title="Debe ingresar latitud correspondiente a Bolivia" disabled>
                     </div>
                     <label class="col-md-2 col-form-label col-form-label-sm">Longitud</label>
                     <div class="col-md-4">
-                        <input type="text" class="form-control form-control-sm" name="long" id="long" wire:model="long"  placeholder="Arrastre el marcador Rojo" min="-57.452675" max="-69.626293" title="Debe ingresar Longitud correspondiente a Bolivia" disabled>
+                        <input type="text" class="form-control form-control-sm" name="long" id="longEdit" wire:model="long"  placeholder="Arrastre el marcador Rojo" min="-57.452675" max="-69.626293" title="Debe ingresar Longitud correspondiente a Bolivia" disabled>
                     </div>
                 </div>
                 <div class="formgroup" wire:ignore>
-                    <div id="gmap" style="width: 100%; height: 250px;"></div>
+                    <div id="gmapEdit" style="width: 100%; height: 250px;"></div>
                     <span class="text-sm text-info">Arrastre el marcador rojo para seleccionar la ubicacion de la comunidad</span>
                 </div>                                                                                                                                                                
                 
@@ -167,7 +167,7 @@
       </div>
   </div>
 </div>
-@section('scripts')
+@push('scripts')
     <script>
         document.addEventListener("DOMContentLoaded", ()=>{
             Livewire.hook('message.processed',(el, component)=>{
@@ -211,4 +211,4 @@
             })
         });
     </script>
-@endsection
+@endpush
