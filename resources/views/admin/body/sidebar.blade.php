@@ -108,6 +108,24 @@
         </li>
 
         @can('admin.eess')  
+        <li class="nav-header">Modulo Almacenes</li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-shopping-cart nav-icon"></i> 
+            <p>Almacenes
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item"><a href="{{ route('almacen.adm.partidas')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Administracion Almacenes</a></li>
+            <li class="nav-item"><a href="{{ route('almacen.ingresos')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Registro Ingresos</a></li>                       
+            <li class="nav-item"><a href="{{ route('almacen.sal.solicitudes')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Registro Salidas</a></li>                       
+            <li class="nav-item"><a href="" class="nav-link"><i class="far fa-circle nav-icon"></i>Solicitud Material</a></li>                       
+          </ul>
+        </li>
+        @endcan  
+
+        {{-- @can('admin.eess')  
         <li class="nav-header">Modulo Inicio (Web)</li>
         <li class="nav-item">
           <a href="#" class="nav-link">
@@ -121,7 +139,7 @@
             <li class="nav-item"><a href="" class="nav-link"><i class="far fa-circle nav-icon"></i>Lista Articulos</a></li>                       
           </ul>
         </li>
-        @endcan  
+        @endcan   --}}
 
         <li class="nav-header">Modulo Configuracion</li>
        

@@ -141,6 +141,22 @@
     });
   </script>
 
+<script type="text/javascript">
+  window.livewire.on('showConfirmDelete', () => {
+      $('#deleteModal').modal('show');
+  });
+  window.livewire.on('hideConfirmDelete', () => {
+      $('#deleteModal').modal('hide');
+  });
+  window.livewire.on('showForm', () => {
+              $('#showForm').modal('show');
+          });
+  window.livewire.on('hideForm', () => {
+      $('#showForm').modal('hide');
+  });
+</script>
+
+
 {{-- <script type="text/javascript" src="{{asset('js/initMap.js')}}"></script> --}}
 {{-- <script type="text/javascript" src="{{asset('/js/localizacion.js')}}"></script> --}}
 {{-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwC0dKzZNKNbnzsslPYLNSExYd8uLqRIk&callback=initMap"></script> --}}

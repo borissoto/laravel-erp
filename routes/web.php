@@ -10,6 +10,7 @@ use App\Http\Controllers\AdmMunicipioController;
 use App\Http\Controllers\AdmProvinciaController;
 use App\Http\Controllers\AdmRedController;
 use App\Http\Controllers\AdmEstablecimientoController;
+use App\Http\Controllers\Backend\AlmacenController;
 use App\Http\Controllers\Backend\RoleController;
 use App\Http\Controllers\Backend\RrhhAntigenoController;
 use App\Http\Controllers\Backend\RrhhBrigadaController;
@@ -79,6 +80,19 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::get('/rrhh/kardex/vacuna/{id}', [AdmUserController::class, 'kardexVacuna'])->name('rrhh.kardex.vacuna'); 
     Route::get('/rrhh/kardex/baja/{id}', [AdmUserController::class, 'kardexBaja'])->name('rrhh.kardex.baja'); 
     
+
+       /************ Almacenes *******/
+    // Alm admi
+    Route::get('/almacen/adm/partidas', [AlmacenController::class, 'partidas'])->name('almacen.adm.partidas');   
+    Route::get('/almacen/adm/subgrupo', [AlmacenController::class, 'subgrupos'])->name('almacen.adm.subgrupos'); 
+    Route::get('/almacen/adm/articulos', [AlmacenController::class, 'articulos'])->name('almacen.adm.articulos'); 
+    Route::get('/almacen/adm/medida', [AlmacenController::class, 'medidas'])->name('almacen.adm.medidas'); 
+    // Alm ingresos
+    Route::get('/almacen/adm/ingresos', [AlmacenController::class, 'ingresos'])->name('almacen.ingresos');   
+    // Alm salidas
+    Route::get('/almacen/adm/solicitudes', [AlmacenController::class, 'solicitudes'])->name('almacen.sal.solicitudes');   
+    Route::get('/almacen/adm/entregados', [AlmacenController::class, 'entregados'])->name('almacen.sal.entregados');   
+    Route::get('/almacen/adm/saldos', [AlmacenController::class, 'saldos'])->name('almacen.sal.saldos');   
 
     /**************Comisiones************/
     Route::resource('/comisiones', RrhhComisionController::class)->names('comisiones');
