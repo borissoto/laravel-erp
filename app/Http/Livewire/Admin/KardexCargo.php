@@ -11,7 +11,7 @@ use Livewire\WithPagination;
 class KardexCargo extends Component
 {
 
-    public User $user;
+    public $user;
     public $cargo_id;
     public $cargo_del_id = '';
     
@@ -42,7 +42,9 @@ class KardexCargo extends Component
 
     public function mount($user)
     {
-            $this->user=$user;
+        // $this->user=$user;
+        // Ya no se usa typed properties como User $user
+        $this->user = User::find($user->id);
     }
 
     protected $listeners = ['storeCargo' => 'render'];

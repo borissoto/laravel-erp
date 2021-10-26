@@ -20,7 +20,7 @@ class KardexEstablecimiento extends Component
     public $selectedMunicipio;
     public $adm_establecimiento_id;
 
-    public User $user;
+    public $user;
 
     public $establecimiento_id;
     public $establecimiento_del_id;
@@ -52,7 +52,9 @@ class KardexEstablecimiento extends Component
  
     public function mount($user, $adm_establecimiento_id = null)
     {
-            $this->user=$user;
+        // $this->user=$user;
+        // Ya no se usa typed properties como User $user
+        $this->user = User::find($user->id);
 
         $this->departamentos = AdmDepartamento::all();
         $this->municipios = collect();

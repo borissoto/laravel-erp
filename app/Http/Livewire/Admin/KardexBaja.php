@@ -12,7 +12,7 @@ use Livewire\WithPagination;
 class KardexBaja extends Component
 {
 
-    public User $user;
+    public $user;
 
     public $baja_id;
     public $baja_del_id;
@@ -48,7 +48,9 @@ class KardexBaja extends Component
  
     public function mount($user)
     {
-            $this->user=$user;
+        // $this->user=$user;
+        // Ya no se usa typed properties como User $user
+        $this->user = User::find($user->id);
     }
 
     protected $listeners = ['updateEstado' => 'render'];

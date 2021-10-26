@@ -10,7 +10,7 @@ use Livewire\WithPagination;
 
 class KardexEducacion extends Component
 {
-    public User $user;
+    public $user;
 
     public $postgrado_id;
     public $postgrado_del_id;
@@ -42,8 +42,10 @@ class KardexEducacion extends Component
     } 
  
     public function mount($user)
-    {
-            $this->user=$user;
+    {        
+        // $this->user=$user;
+        // Ya no se usa typed properties como User $user
+        $this->user = User::find($user->id);
     }
 
     public function render()
