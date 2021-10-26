@@ -10,7 +10,7 @@ use Illuminate\Support\Str;
 class KardexIndex extends Component
 {
 
-    public User $user;
+    public $user;
 
     public $passid;
     public $user_id;
@@ -42,7 +42,7 @@ class KardexIndex extends Component
     {
         // dd($user);
         // $usuario = User::find($user);
-        $this->user = $user;
+        $this->user = User::find($user->id);
         // $this->passid = User::find($serid);
     }
 
