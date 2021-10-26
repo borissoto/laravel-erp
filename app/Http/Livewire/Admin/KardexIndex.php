@@ -42,6 +42,7 @@ class KardexIndex extends Component
     {
         // dd($user);
         // $usuario = User::find($user);
+        // Ya no se usa typed properties como User $user
         $this->user = User::find($user->id);
         // $this->passid = User::find($serid);
     }
