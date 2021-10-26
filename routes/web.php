@@ -88,7 +88,8 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::get('/almacen/adm/articulos', [AlmacenController::class, 'articulos'])->name('almacen.adm.articulos'); 
     Route::get('/almacen/adm/medida', [AlmacenController::class, 'medidas'])->name('almacen.adm.medidas'); 
     // Alm ingresos
-    Route::get('/almacen/adm/ingresos', [AlmacenController::class, 'ingresos'])->name('almacen.ingresos');   
+    Route::get('/almacen/adm/ingresos', [AlmacenController::class, 'ingresos'])->name('almacen.ingresos');
+    Route::get('/almacen/adm/ingresos/add', [AlmacenController::class, 'ingresosAdd'])->name('almacen.ingresos.add');      
     // Alm salidas
     Route::get('/almacen/adm/solicitudes', [AlmacenController::class, 'solicitudes'])->name('almacen.sal.solicitudes');   
     Route::get('/almacen/adm/entregados', [AlmacenController::class, 'entregados'])->name('almacen.sal.entregados');   

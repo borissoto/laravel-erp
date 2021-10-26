@@ -33,6 +33,11 @@ class DatabaseSeeder extends Seeder
         
         $this->call(RrhhBrigadasTableSeeder::class);
 
+        //Almacenes
+        $this->call(AlmPartidasSeeder::class);
+        $this->call(AlmSubgruposSeeder::class);
+        $this->call(AlmMedidasSeeder::class);
+
         // WebCategoria::factory(4)->create();
         // $this->call(WebArticulosSeeder::class);
     }

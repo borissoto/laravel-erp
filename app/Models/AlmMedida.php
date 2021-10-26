@@ -14,4 +14,9 @@ class AlmMedida extends Model
        'abrev',
        
     ];
+
+    public function articulos(){
+        return $this->hasMany(AlmArticulo::class);
+    }
+
 }

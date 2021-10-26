@@ -5,21 +5,29 @@ namespace App\Http\Livewire\Almacen;
 use Livewire\Component;
 use Livewire\WithPagination;
 use App\Models\AlmArticulo as Model;
-
+use App\Models\AlmMedida;
+use App\Models\AlmSubgrupo;
+use Illuminate\Support\Str;
 
 class ArticuloIndex extends Component
 {
     use WithPagination;
 
-    public $paginate = 10;
-
-    public $alm_clase_id;
-   public $descrip;
-   public $existencia_min;
-   public $alm_subgrupo_id;
-   public $ubicacion;
-   public $unidad;
-   public $user_id;
+    public $paginate = 5;
+    
+    public $subgrupos;    
+    public $alm_subgrupo_id;
+    
+    public $alm_unidad_id;
+    public $unidades;
+       
+    
+    public $marca;
+    public $codigo;
+    public $clase;
+    public $descrip;
+    public $existencia_min;
+    public $user_id;
 
 
     public $mode = 'create';
@@ -33,15 +41,14 @@ class ArticuloIndex extends Component
     public $showConfirmDeletePopup = false;
 
     protected $rules = [
-'alm_clase_id' => 'required',
-'descrip' => 'required',
-'existencia_min' => 'required',
-'alm_subgrupo_id' => 'required',
-'ubicacion' => 'required',
-'unidad' => 'required',
-'user_id' => 'required',
-
-];
+        'clase' => 'required',
+        'descrip' => 'required',
+        // 'existencia_min' => 'required',
+        'alm_subgrupo_id' => 'required',
+        // 'codigo' => 'required',
+        'alm_unidad_id' => 'required',
+        // 'user_id' => 'required',
+    ];
 
 
 
@@ -50,27 +57,40 @@ class ArticuloIndex extends Component
         $this->validateOnly($propertyName);
     }
 
+    protected $paginationTheme = "bootstrap";
+
     public function updatingSearch()
     {
         $this->resetPage();
     }
 
+    public function mount()
+    {
+        $this->unidades = AlmMedida::all();
+        $this->subgrupos = AlmSubgrupo::all();
+    }
+
     public function render()
     {
-        $model = Model::where('alm_clase_id', 'like', '%'.$this->search.'%')->orWhere('descrip', 'like', '%'.$this->search.'%')->orWhere('existencia_min', 'like', '%'.$this->search.'%')->orWhere('alm_subgrupo_id', 'like', '%'.$this->search.'%')->orWhere('ubicacion', 'like', '%'.$this->search.'%')->orWhere('unidad', 'like', '%'.$this->search.'%')->orWhere('user_id', 'like', '%'.$this->search.'%')->latest()->paginate($this->paginate);
+        $model = Model::where('clase', 'like', '%'.$this->search.'%')->
+        orWhere('descrip', 'like', '%'.$this->search.'%')->
+        orWhere('existencia_min', 'like', '%'.$this->search.'%')->
+        orWhere('alm_subgrupo_id', 'like', '%'.$this->search.'%')->
+        orWhere('codigo', 'like', '%'.$this->search.'%')->        
+        orWhere('user_id', 'like', '%'.$this->search.'%')->latest()->paginate($this->paginate);
         return view('livewire.almacen.articulo-index', [
             'rows'=> $model
         ]);
     }
 
 
-    public function create ()
+    public function create()
     {
         $this->mode = 'create';
         $this->resetForm();
-        $this->showForm = true;
+        // $this->showForm = true;
 
-        $this->emit("showForm");
+        // $this->emit("showForm");
     }
 
 
@@ -80,13 +100,14 @@ class ArticuloIndex extends Component
         $this->primaryId = $primaryId;
         $model = Model::find($primaryId);
 
-        $this->alm_clase_id= $model->alm_clase_id;
-$this->descrip= $model->descrip;
-$this->existencia_min= $model->existencia_min;
-$this->alm_subgrupo_id= $model->alm_subgrupo_id;
-$this->ubicacion= $model->ubicacion;
-$this->unidad= $model->unidad;
-$this->user_id= $model->user_id;
+        $this->codigo= $model->codigo;
+        $this->descrip= $model->descrip;
+        $this->alm_unidad_id= $model->alm_unidad_id;
+        $this->marca= $model->marca;
+        $this->existencia_min= $model->existencia_min;
+        $this->clase= $model->clase;
+        $this->alm_subgrupo_id= $model->alm_subgrupo_id;
+        $this->user_id= $model->user_id;
 
 
         $this->emit("showForm");
@@ -95,42 +116,45 @@ $this->user_id= $model->user_id;
 
     public function closeForm()
     {
-        $this->showForm = false;
+        // $this->showForm = false;
 
-        $this->emit("hideForm");
+         $this->emit("articuloAdd");
     }
 
     public function store()
     {
-          $this->validate();
+        $this->validate();
 
-          $model = new Model();
+        $model = new Model();
 
-             $model->alm_clase_id= $this->alm_clase_id;
-$model->descrip= $this->descrip;
-$model->existencia_min= $this->existencia_min;
-$model->alm_subgrupo_id= $this->alm_subgrupo_id;
-$model->ubicacion= $this->ubicacion;
-$model->unidad= $this->unidad;
-$model->user_id= $this->user_id;
- $model->save();
+        $model->codigo= $this->codigo;
+        $model->descrip= Str::upper($this->descrip);
+        $model->alm_unidad_id= $this->alm_unidad_id;
+        $model->marca= $this->marca;
+        $model->existencia_min= $this->existencia_min;
+        $model->clase= $this->clase;
+        $model->alm_subgrupo_id= $this->alm_subgrupo_id;
+        $model->user_id= auth()->user()->id;
+        $model->save();
 
           $this->resetForm();
-          $this->emit("hideForm");
+          $this->emit("articuloAdd");
           session()->flash('message', 'Record Saved Successfully');
-          $this->showForm = false;
+        //   $this->showForm = false;
 
     }
 
     public function resetForm()
     {
-        $this->alm_clase_id= "";
-$this->descrip= "";
-$this->existencia_min= "";
-$this->alm_subgrupo_id= "";
-$this->ubicacion= "";
-$this->unidad= "";
-$this->user_id= "";
+        $this->codigo= "";
+        $this->descrip= "";
+        $this->alm_unidad_id= "";
+        $this->marca= "";
+        $this->existencia_min= "";
+        $this->alm_subgrupo_id= "";
+        $this->clase= "";
+        
+
 
     }
 
@@ -141,14 +165,14 @@ $this->user_id= "";
 
           $model = Model::find($this->primaryId);
 
-             $model->alm_clase_id= $this->alm_clase_id;
-$model->descrip= $this->descrip;
-$model->existencia_min= $this->existencia_min;
-$model->alm_subgrupo_id= $this->alm_subgrupo_id;
-$model->ubicacion= $this->ubicacion;
-$model->unidad= $this->unidad;
-$model->user_id= $this->user_id;
- $model->save();
+            $model->codigo= $this->codigo;
+            $model->descrip= $this->descrip;
+            $model->alm_unidad_id= $this->alm_unidad_id;
+            $model->marca= $this->marca;
+            $model->existencia_min= $this->existencia_min;
+            $model->clase= $this->clase;
+            $model->alm_subgrupo_id= $this->alm_subgrupo_id;            
+            $model->save();
 
           $this->resetForm();
          $this->emit("hideForm");
@@ -178,6 +202,12 @@ $model->user_id= $this->user_id;
     public function clearFlash()
     {
         session()->forget('message');
+    }
+
+    public function selectedArticulo($primaryId)
+    {
+        $this->primaryId = $primaryId;       
+        $this->emit('ingreso', $this->primaryId);
     }
 
 }

@@ -65,15 +65,35 @@
         @can('admin.eess')                               
         
         <li class="nav-item">
-          <a href="{{ route('eess.list') }}" class="nav-link">
+          <a href="#" class="nav-link">
             <i class="nav-icon fas fa-hospital-alt"></i>
             <p>
               Establecimiento de Salud
+              <i class="right fas fa-angle-left"></i>
               {{-- <span class="badge badge-info right">2</span> --}}
             </p>
           </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item"><a href="{{ route('eess.list')}}" class="nav-link"><i class="fas fa-hospital-alt nav-icon"></i>Establecimientos</a></li>
+            <li class="nav-item"><a href="{{ route('comunidades.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Comunidades</a></li>
+            <li class="nav-item"><a href="{{ route('municipios.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Municipios</a></li>                       
+            <li class="nav-item"><a href="{{ route('redes.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Redes</a></li>
+            <li class="nav-item"><a href="{{ route('departamentos.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Departamentos</a></li>
+          </ul>
         </li>
         @endcan
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-user-friends nav-icon"></i>
+            <p>Comisiones
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">            
+            <li class="nav-item"><a href="{{ route('comisiones.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Comisiones</a></li>
+          </ul>
+        </li>
 
         <li class="nav-header">Modulo Brigadas</li> 
         <li class="nav-item">
@@ -108,7 +128,7 @@
         </li>
 
         @can('admin.eess')  
-        <li class="nav-header">Modulo Almacenes</li>
+        <li class="nav-header">Modulo Administracion</li>
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="fas fa-shopping-cart nav-icon"></i> 
@@ -118,11 +138,27 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item"><a href="{{ route('almacen.adm.partidas')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Administracion Almacenes</a></li>
-            <li class="nav-item"><a href="{{ route('almacen.ingresos')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Registro Ingresos</a></li>                       
+            <li class="nav-item"><a href="{{ route('almacen.ingresos')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Comprobantes Ingreso</a></li>                       
             <li class="nav-item"><a href="{{ route('almacen.sal.solicitudes')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Registro Salidas</a></li>                       
             <li class="nav-item"><a href="" class="nav-link"><i class="far fa-circle nav-icon"></i>Solicitud Material</a></li>                       
           </ul>
         </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-plane nav-icon"></i> 
+            <p>Viajes
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item"><a href="{{ route('almacen.adm.partidas')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Administracion Almacenes</a></li>
+            <li class="nav-item"><a href="{{ route('almacen.ingresos')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Comprobantes Ingreso</a></li>                       
+            <li class="nav-item"><a href="{{ route('almacen.sal.solicitudes')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Registro Salidas</a></li>                       
+            <li class="nav-item"><a href="" class="nav-link"><i class="far fa-circle nav-icon"></i>Solicitud Material</a></li>                       
+          </ul>
+        </li>
+
+
         @endcan  
 
         {{-- @can('admin.eess')  
@@ -143,7 +179,7 @@
 
         <li class="nav-header">Modulo Configuracion</li>
        
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="fas fa-globe-americas nav-icon"></i> 
             <p>Division Territorial
@@ -156,7 +192,7 @@
             <li class="nav-item"><a href="{{ route('municipios.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Municipios</a></li>                       
             <li class="nav-item"><a href="{{ route('comunidades.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Comunidades</a></li>
           </ul>
-        </li>   
+        </li>    --}}
 
         @can('admin.eess')    
         <li class="nav-item">

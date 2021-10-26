@@ -4,6 +4,7 @@ namespace App\Http\Livewire\Almacen;
 
 use Livewire\Component;
 use Livewire\WithPagination;
+use Illuminate\Support\Str;
 use App\Models\AlmPartida as Model;
 
 
@@ -103,13 +104,13 @@ $this->vigente= $model->vigente;
 
           $model = new Model();
 
-             $model->descrip= $this->descrip;
-$model->detalle= $this->detalle;
-$model->numero= $this->numero;
-$model->partida= $this->partida;
-$model->tipo= $this->tipo;
-$model->vigente= $this->vigente;
- $model->save();
+        $model->descrip= Str::upper($this->descrip);
+        $model->detalle= Str::upper($this->detalle);
+        $model->numero= $this->numero;
+        $model->partida= $this->partida;
+        $model->tipo= $this->tipo;
+        $model->vigente= $this->vigente;
+        $model->save();
 
           $this->resetForm();
           $this->emit("hideForm");

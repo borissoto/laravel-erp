@@ -23,8 +23,8 @@ class CreateAlmSalidasTable extends Migration
             $table->timestamp('fecha_dev')->nullable();
             $table->boolean('impreso');
             $table->string('obs');
-            $table->unsignedBigInteger('alm_solcitud_materiales_id')->nullable();
-            $table->foreign('alm_solcitud_materiales_id')->references('id')->on('alm_solicitud_materiales')->onDelete('set null');
+            $table->unsignedBigInteger('alm_pedido_id')->nullable();
+            $table->foreign('alm_pedido_id')->references('id')->on('alm_pedidos')->onDelete('set null');
             $table->timestamp('rango_ini')->nullable();
             $table->timestamp('rango_fin')->nullable();
             $table->decimal('cantidad_ent');

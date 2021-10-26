@@ -2,8 +2,10 @@
 
 namespace App\Http\Livewire\Almacen;
 
+use App\Models\AlmPartida;
 use Livewire\Component;
 use Livewire\WithPagination;
+use Illuminate\Support\Str;
 use App\Models\AlmSubgrupo as Model;
 
 
@@ -14,24 +16,20 @@ class SubgrupoIndex extends Component
     public $paginate = 10;
 
     public $descrip;
-   public $alm_partida_id;
-
+    public $alm_partida_id;
+    public $partidas;
+    public $selectedPartidas;
 
     public $mode = 'create';
-
     public $showForm = false;
-
     public $primaryId = null;
-
     public $search;
-
     public $showConfirmDeletePopup = false;
 
     protected $rules = [
-'descrip' => 'required',
-'alm_partida_id' => 'required',
-
-];
+        'descrip' => 'required',
+        'alm_partida_id' => 'required',
+    ];
 
 
 
@@ -43,6 +41,11 @@ class SubgrupoIndex extends Component
     public function updatingSearch()
     {
         $this->resetPage();
+    }
+ 
+    public function mount()
+    {
+        $this->partidas = AlmPartida::all();
     }
 
     public function render()
@@ -91,9 +94,9 @@ $this->alm_partida_id= $model->alm_partida_id;
 
           $model = new Model();
 
-             $model->descrip= $this->descrip;
-$model->alm_partida_id= $this->alm_partida_id;
- $model->save();
+            $model->descrip= Str::upper($this->descrip);
+            $model->alm_partida_id= $this->alm_partida_id;
+            $model->save();
 
           $this->resetForm();
           $this->emit("hideForm");

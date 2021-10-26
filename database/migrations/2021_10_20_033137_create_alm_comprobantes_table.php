@@ -23,8 +23,8 @@ class CreateAlmComprobantesTable extends Migration
             $table->string('proveedor')->nullable();
             $table->string('seccion')->nullable();
             $table->string('modalidad_ingreso')->nullable();
-            $table->unsignedBigInteger('alm_doc_almacenes_id')->nullable();
-            $table->foreign('alm_doc_almacenes_id')->references('id')->on('alm_doc_almacenes')->onDelete('set null');
+            // $table->unsignedBigInteger('alm_doc_almacenes_id')->nullable();
+            // $table->foreign('alm_doc_almacenes_id')->references('id')->on('alm_doc_almacenes')->onDelete('set null');
             $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null');
             $table->timestamps();
         });

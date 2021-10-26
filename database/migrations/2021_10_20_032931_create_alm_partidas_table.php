@@ -20,7 +20,7 @@ class CreateAlmPartidasTable extends Migration
             $table->integer('numero')->nullable();
             $table->integer('partida')->nullable();
             $table->integer('tipo')->nullable();
-            $table->boolean('vigente')->nullable();
+            $table->integer('vigente')->nullable();
             $table->timestamps();
             
         });

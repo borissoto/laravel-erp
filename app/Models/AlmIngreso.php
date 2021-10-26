@@ -18,4 +18,14 @@ class AlmIngreso extends Model
         'valor_total',
         'precio_unitario',
      ];
+
+     public function comprobante()
+     {
+         return $this->belongsTo(AlmComprobante::class, 'alm_comprobante_id');
+     }
+
+     public function articulo()
+     {
+         return $this->belongsTo(AlmArticulo::class, 'alm_articulo_id');
+     }
 }

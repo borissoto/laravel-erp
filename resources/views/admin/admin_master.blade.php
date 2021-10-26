@@ -25,6 +25,25 @@
 
    <!-- Tailwind Scripts -->
    {{-- <script src="{{ mix('js/app.js') }}" defer></script> --}} 
+
+   <style>
+
+    .modal { 
+    /*simple fix for multiple bootstrap modal backdrop issue: 
+    don't need to recalculate backdrop z-index;
+    https://stackoverflow.com/questions/19305821/multiple-modals-overlay/21816777 */
+      background: rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    /* this fix is not enough, without javascript to count/track the opened modal, the background body is scrollable.
+    not good for mobile browser. 
+    .modal { overflow: auto !important;}
+    */
+    
+    </style>
+    
+   
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -74,6 +93,8 @@
 <script src="{{asset('plugins/moment/moment.min.js')}}"></script>
 <script src="{{asset('plugins/fullcalendar/main.js')}}"></script>
 <script src="{{asset('plugins/fullcalendar/locales/es.js')}}"></script>
+
+
 
 <!-- ChartJS -->
 <script src="{{asset('plugins/chart.js/Chart.min.js')}}"></script>
@@ -138,7 +159,7 @@
     });
     window.livewire.on('closeEstablecimientoUpdate', () => {
       $('#eessUpdate').modal('hide');
-    });
+    });    
   </script>
 
 <script type="text/javascript">
@@ -149,13 +170,40 @@
       $('#deleteModal').modal('hide');
   });
   window.livewire.on('showForm', () => {
-              $('#showForm').modal('show');
-          });
+      $('#showForm').modal('show');
+  });
   window.livewire.on('hideForm', () => {
       $('#showForm').modal('hide');
   });
+  window.livewire.on('articuloAdd', () => {
+      $('#articuloAdd').modal('hide');
+  });
+  window.livewire.on('showIngresoAdd', () => {
+      $('#showFormIngreso').modal('show');
+  });
+  window.livewire.on('hideIngresoAdd', () => {
+      $('#showFormIngreso').modal('hide');
+  });
 </script>
 
+
+<script type="text/javascript">
+  var bootstrapModalCounter = 0; //counter is better then using visible selector
+  
+  $(document).ready(function () {  
+    $('.modal').on("hidden.bs.modal", function (e) {
+      --bootstrapModalCounter;
+      if (bootstrapModalCounter > 0) {
+        //don't need to recalculate backdrop z-index; already handled by css
+        //$('.modal-backdrop').first().css('z-index', parseInt($('.modal:visible').last().css('z-index')) - 10);
+        $('body').addClass('modal-open');
+      }
+    }).on("show.bs.modal", function (e) {
+      ++bootstrapModalCounter;
+      //don't need to recalculate backdrop z-index; already handled by css
+    });
+  });
+  </script>
 
 {{-- <script type="text/javascript" src="{{asset('js/initMap.js')}}"></script> --}}
 {{-- <script type="text/javascript" src="{{asset('/js/localizacion.js')}}"></script> --}}

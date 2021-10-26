@@ -17,4 +17,8 @@ class AlmPartida extends Model
         'tipo',
         'vigente',
     ];
+ 
+    public function subgrupos(){
+        return $this->hasMany(AlmSubgrupo::class);
+    }
 }

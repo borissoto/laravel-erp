@@ -74,7 +74,7 @@ class EessIndex extends Component
         
         $establecimientos = $establecimientos->latest()->paginate($this->perPage);
 
-        return view('livewire.admin.eess-index', compact('establecimientos',));
+        return view('livewire.admin.eess-index', compact('establecimientos'));
     }
 
     public function sorteable($campo)

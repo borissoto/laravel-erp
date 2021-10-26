@@ -13,4 +13,13 @@ class AlmSubgrupo extends Model
         'descrip',
         'alm_partida_id',
     ];
+
+    public function partida()
+    {
+        return $this->belongsTo(AlmPartida::class, 'alm_partida_id');
+    }
+
+    public function articulos(){
+        return $this->hasMany(AlmArticulo::class);
+    }
 }

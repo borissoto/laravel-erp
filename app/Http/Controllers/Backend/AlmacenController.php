@@ -20,9 +20,14 @@ class AlmacenController extends Controller
     public function medidas(){
         return view('backend.almacen.alm_adm_medida');
     }   
+    //Ingresos
     public function ingresos(){
         return view('backend.almacen.alm_ingresos');
     }   
+    public function ingresosAdd(){
+        return view('backend.almacen.alm_ingresos_add');
+    }   
+    // salidas
     public function solicitudes(){
         return view('backend.almacen.alm_sal_solicitudes');
     }   

@@ -117,7 +117,7 @@ class KardexCargo extends Component
         $this->nom_cargo = $cargo->nom_cargo;
         $this->descripcion = $cargo->descripcion;
         $this->adm_unidades_id = $cargo->adm_unidades_id;
-        $this->incorporacion = Carbon::parse($cargo->incorporacion)->format('Y-m-d');;   
+        $this->incorporacion = Carbon::parse($cargo->incorporacion)->format('Y-m-d');   
 
                  
     }

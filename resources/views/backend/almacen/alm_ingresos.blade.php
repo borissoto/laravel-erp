@@ -10,7 +10,7 @@
               Almacenes
               <small>
               </small>
-              <span class=" text-lg"> - Salidas</span>
+              <span class=" text-lg"> - Ingresos</span>
               
             </h1>
           </div>
@@ -54,7 +54,7 @@
       @yield('kardex') 
     </div> --}}
     
-    @livewire('almacen.ingreso-index' )
+    @livewire('almacen.comprobante-index' )
     {{-- @livewire('admin.kardex-index', ['user'=>$user->id]) --}}
     {{-- <livewire:admin.kardex-index :user="$user->id">  --}}
   

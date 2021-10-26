@@ -15,14 +15,15 @@ class CreateAlmArticulosTable extends Migration
     {
         Schema::create('alm_articulos', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('alm_clase_id')->nullable();
-            $table->foreign('alm_clase_id')->references('id')->on('alm_clases')->onDelete('set null');
+            $table->string('codigo')->nullable();
             $table->string('descrip')->nullable();
+            $table->unsignedBigInteger('alm_unidad_id')->nullable();
+            $table->foreign('alm_unidad_id')->references('id')->on('alm_medidas')->onDelete('set null');
+            $table->string('marca')->nullable();
             $table->integer('existencia_min');
+            $table->string('clase')->nullable();            
             $table->unsignedBigInteger('alm_subgrupo_id')->nullable();
             $table->foreign('alm_subgrupo_id')->references('id')->on('alm_subgrupos')->onDelete('set null');
-            $table->string('ubicacion')->nullable();
-            $table->string('unidad')->nullable();
             $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null');
 
             $table->timestamps();

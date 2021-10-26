@@ -10,12 +10,28 @@ class AlmArticulo extends Model
     use HasFactory;
 
     protected $fillable = [        
-        'alm_clase_id',
+        'codigo',        
         'descrip',
+        'alm_unidad_id',
+        'marca',
         'existencia_min',
-        'alm_subgrupo_id',        
-        'ubicacion',
-        'unidad',
+        'clase',
+        'alm_subgrupo_id',                
         'user_id',
     ];
+
+    public function ingresos(){
+        return $this->hasMany(AlmIngreso::class);
+    }
+
+    public function subgrupo()
+    {
+        return $this->belongsTo(AlmSubgrupo::class, 'alm_subgrupo_id');
+    }
+
+    public function unidad()
+    {
+        return $this->belongsTo(AlmMedida::class, 'alm_unidad_id');
+    }
+
 }
