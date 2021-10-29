@@ -9,7 +9,7 @@ use App\Models\AlmMedida;
 use App\Models\AlmSubgrupo;
 use Illuminate\Support\Str;
 
-class ArticuloIndex extends Component
+class ArticulosolIndex extends Component
 {
     use WithPagination;
 
@@ -78,7 +78,7 @@ class ArticuloIndex extends Component
         orWhere('alm_subgrupo_id', 'like', '%'.$this->search.'%')->
         orWhere('codigo', 'like', '%'.$this->search.'%')->        
         orWhere('user_id', 'like', '%'.$this->search.'%')->latest()->paginate($this->paginate);
-        return view('livewire.almacen.articulo-index', [
+        return view('livewire.almacen.articulosol-index', [
             'rows'=> $model
         ]);
     }
@@ -118,7 +118,7 @@ class ArticuloIndex extends Component
     {
         // $this->showForm = false;
 
-         $this->emit("articuloAdd");
+         $this->emit("solarticuloAdd");
     }
 
     public function store()
@@ -138,7 +138,7 @@ class ArticuloIndex extends Component
         $model->save();
 
           $this->resetForm();
-          $this->emit("articuloAdd");
+          $this->emit("solarticuloAdd");
           session()->flash('message', 'Record Saved Successfully');
         //   $this->showForm = false;
 
@@ -179,25 +179,25 @@ class ArticuloIndex extends Component
          session()->flash('message', 'Record Updated Successfully');
     }
 
-    // public function confirmDelete($primaryId)
-    // {
-    //     $this->primaryId = $primaryId;
-    //     $this->showConfirmDeletePopup = true;
-    //     $this->emit('showConfirmDelete');
-    // }
+    public function confirmDelete($primaryId)
+    {
+        $this->primaryId = $primaryId;
+        $this->showConfirmDeletePopup = true;
+        $this->emit('showConfirmDelete');
+    }
 
     public function hideConfirmationModal()
     {
         $this->emit('hideConfirmDelete');
     }
 
-    // public function destroy()
-    // {
-    //     Model::find($this->primaryId)->delete();
-    //     $this->showConfirmDeletePopup = false;
-    //     $this->emit('hideConfirmDelete');
-    //     session()->flash('message', 'Record Deleted Successfully');
-    // }
+    public function destroy()
+    {
+        Model::find($this->primaryId)->delete();
+        $this->showConfirmDeletePopup = false;
+        $this->emit('hideConfirmDelete');
+        session()->flash('message', 'Record Deleted Successfully');
+    }
 
     public function clearFlash()
     {
@@ -207,7 +207,7 @@ class ArticuloIndex extends Component
     public function selectedArticulo($primaryId)
     {
         $this->primaryId = $primaryId;       
-        $this->emit('ingreso', $this->primaryId);
+        $this->emit('solicitudMat', $this->primaryId);
     }
 
 }

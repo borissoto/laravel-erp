@@ -22,4 +22,13 @@ class AlmSolicitudes extends Model
         'justificativo',
         'user_id',
      ];
+
+     public function pedidos(){
+        return $this->hasMany(AlmPedido::class);
+    }
+
+    public function usuario()
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
 }

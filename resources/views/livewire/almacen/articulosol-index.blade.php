@@ -29,9 +29,9 @@
                                     <option value="100">100 por página</option> --}}
                                 </select>
                             </div>
-                            <button type="button" wire:click="create" class="btn btn-success btn-sm " data-toggle="modal" data-target="#articuloAdd" >
+                            {{-- <button type="button" wire:click="create" class="btn btn-success btn-sm " data-toggle="modal" data-target="#articuloAdd" >
                                 {{ __('Nuevo Articulo') }}
-                            </button>
+                            </button> --}}
                            
                             <div class="card-tools">
                                 <div class="input-group input-group-sm" style="width: 150px;">
@@ -56,10 +56,8 @@
                                         <th>Codigo</th>
                                         <th>Descripcion</th>
                                         <th>Unidad</th>
-                                        <th>Marca</th>
-                                        <th>Existencia minima</th>
-                                        <th>Subgrupo</th>                                    
-                                        <th>Usuario</th>
+                                        <th>Marca</th>                                        
+                                        <th>Subgrupo</th>                                                                            
                                         <th scope="col">
                                             <span class="sr-only">Acciones</span>
                                         </th>
@@ -74,16 +72,14 @@
                                     <td>{{ $row->descrip}}</td>
                                     <td>{{ $row->unidad->unidad}}</td>
                                     <td>{{ $row->marca}}</td>
-                                    <td>{{ $row->existencia_min}}</td>
                                     <td>{{ $row->subgrupo->descrip}}</td>                                
-                                    <td>{{ $row->user_id}}</td>
                                     <td>
-                                        <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
+                                        {{-- <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
                                             <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
                                                 <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z" />
                                                 <path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd" />
                                             </svg>
-                                        </a>
+                                        </a> --}}
                                         {{-- <a href="#" class="text-danger" wire:click.prevent="confirmDelete({{ $row->id }})"> 
                                             <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
                                                 <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
@@ -139,7 +135,7 @@
 
     {{--    create / edit form --}}
 
-       <div class="modal fade" wire:ignore.self id="articuloAdd" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="showFormLabel" aria-hidden="true">
+       <div class="modal fade" wire:ignore.self id="solarticuloAdd" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="showFormLabel" aria-hidden="true">
            <div class="modal-dialog modal-lg" role="document">
                <div class="modal-content">
                    <div class="modal-header">

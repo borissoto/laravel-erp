@@ -55,8 +55,8 @@
                                     <th>Articulo</th>
                                     <th>Unidad</th>
                                     <th>Cantidad</th>                               
-                                    <th>Valor total</th>
                                     <th>Precio unitario</th>
+                                    <th>Valor total</th>
                                     <th scope="col">
                                         <span class="sr-only">Acciones</span>
                                     </th>
@@ -68,8 +68,8 @@
                                 <td>{{ $row->articulo->descrip}}</td>
                                 <td>{{ $row->articulo->unidad->unidad}}</td>
                                 <td>{{ $row->cantidad}}</td>                                
-                                <td>{{ $row->valor_total}}</td>
                                 <td>{{ $row->precio_unitario}}</td>
+                                <td>{{ $row->valor_total}}</td>
                                 <td>
                                     <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
                                         <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
@@ -89,7 +89,7 @@
                         <div class="p-2">
                             {{ $rows->links() }}
                         </div>
-                </div>       
+                    </div>       
             </div>
 
         </div>
@@ -114,7 +114,7 @@
                         <div class='form-group row'>
                             <label for='cantidad'class="col-sm-4 col-form-label col-form-label-sm" >Cantidad</label>
                             <div class="col-sm-6">
-                                <input type='text' class='form-control form-control-sm @error('cantidad')  is-invalid @enderror' wire:model='cantidad'>                                
+                                <input type='number' class='form-control form-control-sm @error('cantidad')  is-invalid @enderror' wire:model='cantidad'>                                
                                 @error('cantidad')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         </div>                     
@@ -122,7 +122,7 @@
                         <div class='form-group row' >
                             <label for='valor_total' class="col-sm-4 col-form-label col-form-label-sm">Valor total</label>
                             <div class="col-sm-6">
-                                <input type='text' class='form-control form-control-sm @error('valor_total')  is-invalid @enderror' wire:model='valor_total'>
+                                <input type='number' class='form-control form-control-sm @error('valor_total')  is-invalid @enderror' wire:model='valor_total'>
                                 @error('valor_total')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         </div>
@@ -140,23 +140,22 @@
        </div>
     {{--    /create /edit form--}}
 
-
     {{--    delete popup--}}
     <div wire:ignore>
-            <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModal" aria-hidden="true">
+            <div class="modal fade" id="deleteModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="deleteModal" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Are You Sure?</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <h5 class="modal-title" id="exampleModalLabel">Eliminar Articulo de Ingreso?</h5>
+                            <button type="button" class="close"  aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                           This Action Can not be Undone.
+                           Se borrar el ingreso, esta seguro?
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" wire:click="closeForm()"> Close</button>
                             <button type="button" wire:click="destroy()" class="btn btn-danger">Delete</button>
                         </div>
                     </div>

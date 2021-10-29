@@ -184,6 +184,16 @@
   window.livewire.on('hideIngresoAdd', () => {
       $('#showFormIngreso').modal('hide');
   });
+
+  window.livewire.on('solarticuloAdd', () => {
+      $('#solarticuloAdd').modal('hide');
+  });
+  window.livewire.on('showSolMatAdd', () => {
+      $('#showFormSolMat').modal('show');
+  });
+  window.livewire.on('hideSolMatAdd', () => {
+      $('#showFormSolMat').modal('hide');
+  });
 </script>
 
 

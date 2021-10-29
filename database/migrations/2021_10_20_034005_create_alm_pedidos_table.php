@@ -17,8 +17,8 @@ class CreateAlmPedidosTable extends Migration
             $table->id();
             $table->unsignedBigInteger('alm_articulo_id')->nullable();
             $table->foreign('alm_articulo_id')->references('id')->on('alm_articulos')->onDelete('set null');
-            $table->decimal('cantidad');
-            $table->boolean('devuelto');
+            $table->decimal('cantidad')->nullable();
+            $table->boolean('devuelto')->nullable();
             $table->timestamp('fecha_devol')->nullable();
             $table->unsignedBigInteger('alm_solicitudes_id')->nullable();
             $table->foreign('alm_solicitudes_id')->references('id')->on('alm_solicitudes')->onDelete('set null');

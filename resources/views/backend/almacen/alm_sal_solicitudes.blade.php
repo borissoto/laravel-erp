@@ -51,7 +51,7 @@
       @yield('kardex') 
     </div> --}}
     
-    @livewire('almacen.solicitud-index' )
+    @livewire('almacen.salidasol-index' )
     {{-- @livewire('admin.kardex-index', ['user'=>$user->id]) --}}
     {{-- <livewire:admin.kardex-index :user="$user->id">  --}}
   

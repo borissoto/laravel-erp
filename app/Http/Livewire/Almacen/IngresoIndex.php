@@ -111,16 +111,16 @@ class IngresoIndex extends Component
         $this->primaryId = $primaryId;
         $model = Model::find($primaryId);
 
-        $this->alm_articulo_id= $model->alm_articulo_id;
+        // $this->alm_articulo_id= $model->alm_articulo_id;
         $this->cantidad= $model->cantidad;
-        $this->alm_comprobante_id= $model->alm_comprobante_id;
-        $this->fecha_venc= $model->fecha_venc;
-        $this->user_id= $model->user_id;
+        // $this->alm_comprobante_id= $model->alm_comprobante_id;
+        // $this->fecha_venc= $model->fecha_venc;
+        // $this->user_id= $model->user_id;
         $this->valor_total= $model->valor_total;
-        $this->precio_unitario= $model->precio_unitario;
+        $this->precio_unitario= bcdiv($this->valor_total ,$this->cantidad, 2);
 
 
-        $this->emit("showForm");
+        $this->emit("showIngresoAdd");
         $this->showForm = true;
     }
 
@@ -172,11 +172,11 @@ class IngresoIndex extends Component
 
           $model = Model::find($this->primaryId);
 
-            $model->alm_articulo_id= $this->articuloId;
+            // $model->alm_articulo_id= $this->articuloId;
             $model->cantidad= $this->cantidad;
-            $model->alm_comprobante_id= $this->comprobanteId;
-            $model->fecha_venc= Carbon::now();
-            $model->user_id= auth()->user()->id;
+            // $model->alm_comprobante_id= $this->comprobanteId;
+            // $model->fecha_venc= Carbon::now();
+            // $model->user_id= auth()->user()->id;
             $model->precio_unitario= bcdiv($this->valor_total ,$this->cantidad, 2);
             $model->valor_total= $this->valor_total;
             $model->save();

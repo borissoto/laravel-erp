@@ -57,8 +57,7 @@
           <ul class="nav nav-treeview">
             @can('admin.rrhh')   
             <li class="nav-item"><a href="{{ route('rrhh.list') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Kardex</a></li>
-            @endcan
-            <li class="nav-item"><a href="{{ route('comisiones.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Comisiones</a></li>
+            @endcan            
           </ul>
         </li>
         
@@ -91,7 +90,23 @@
             </p>            
           </a>
           <ul class="nav nav-treeview">            
-            <li class="nav-item"><a href="{{ route('comisiones.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Comisiones</a></li>
+            <li class="nav-item"><a href="{{ route('comisiones.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Solictud Comision</a></li>
+            <li class="nav-item"><a href="{{ route('comisiones.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Comisiones Recibidas</a></li>            
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="{{ route('calendario.index') }}" class="nav-link">
+            <i class="nav-icon far fa-calendar-alt"></i>
+            <p>
+              Cronograma
+              <i class="right fas fa-angle-left"></i>
+              {{-- <span class="badge badge-info right">2</span> --}}
+            </p>
+          </a>
+          <ul class="nav nav-treeview">            
+            <li class="nav-item"><a href="{{ route('calendario.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Solicitud cronograma</a></li>
+            <li class="nav-item"><a href="{{ route('calendario.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Cronogramas Recibidos</a></li>
           </ul>
         </li>
 
@@ -113,21 +128,7 @@
           </ul>
         </li>
 
-             
-
-        <li class="nav-header">Cronograma</li>
-        
-        <li class="nav-item">
-          <a href="{{ route('calendario.index') }}" class="nav-link">
-            <i class="nav-icon far fa-calendar-alt"></i>
-            <p>
-              Cronograma
-              {{-- <span class="badge badge-info right">2</span> --}}
-            </p>
-          </a>
-        </li>
-
-        @can('admin.eess')  
+        {{-- @can('admin.eess')   --}}
         <li class="nav-header">Modulo Administracion</li>
         <li class="nav-item">
           <a href="#" class="nav-link">
@@ -137,10 +138,10 @@
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('almacen.adm.partidas')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Administracion Almacenes</a></li>
-            <li class="nav-item"><a href="{{ route('almacen.ingresos')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Comprobantes Ingreso</a></li>                       
-            <li class="nav-item"><a href="{{ route('almacen.sal.solicitudes')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Registro Salidas</a></li>                       
-            <li class="nav-item"><a href="" class="nav-link"><i class="far fa-circle nav-icon"></i>Solicitud Material</a></li>                       
+            <li class="nav-item"><a href="{{ route('almacen.adm.partidas')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Administracion Almacenes</a></li>
+            <li class="nav-item"><a href="{{ route('almacen.ingresos')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Comprobantes Ingreso</a></li>                       
+            <li class="nav-item"><a href="{{ route('almacen.sal.solicitudes')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Registro Salidas</a></li>                       
+            <li class="nav-item"><a href="{{ route('almacen.solicitud')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Solicitud Material</a></li>                       
           </ul>
         </li>
         <li class="nav-item">
@@ -151,15 +152,14 @@
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('almacen.adm.partidas')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Administracion Almacenes</a></li>
-            <li class="nav-item"><a href="{{ route('almacen.ingresos')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Comprobantes Ingreso</a></li>                       
-            <li class="nav-item"><a href="{{ route('almacen.sal.solicitudes')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Registro Salidas</a></li>                       
-            <li class="nav-item"><a href="" class="nav-link"><i class="far fa-circle nav-icon"></i>Solicitud Material</a></li>                       
+            <li class="nav-item"><a href="{{ route('almacen.adm.partidas')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Solicitud Viajes</a></li>
+            <li class="nav-item"><a href="{{ route('almacen.ingresos')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Viajes Recibidos</a></li>                       
+                                
           </ul>
         </li>
 
 
-        @endcan  
+        {{-- @endcan   --}}
 
         {{-- @can('admin.eess')  
         <li class="nav-header">Modulo Inicio (Web)</li>

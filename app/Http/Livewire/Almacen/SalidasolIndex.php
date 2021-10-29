@@ -8,7 +8,7 @@ use App\Models\AlmSolicitudes as Model;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 
-class SolicitudIndex extends Component
+class SalidasolIndex extends Component
 {
 
     public $showComponents = false;
@@ -90,7 +90,7 @@ class SolicitudIndex extends Component
         orWhere('justificativo', 'like', '%'.$this->search.'%');
 
         $model = Model::where('user_id', '=', auth()->user()->id)->latest()->paginate($this->paginate);
-        return view('livewire.almacen.solicitud-index', [
+        return view('livewire.almacen.salidasol-index', [
             'rows'=> $model
         ]);
     }

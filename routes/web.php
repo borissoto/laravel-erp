@@ -89,11 +89,13 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::get('/almacen/adm/medida', [AlmacenController::class, 'medidas'])->name('almacen.adm.medidas'); 
     // Alm ingresos
     Route::get('/almacen/adm/ingresos', [AlmacenController::class, 'ingresos'])->name('almacen.ingresos');
-    Route::get('/almacen/adm/ingresos/add', [AlmacenController::class, 'ingresosAdd'])->name('almacen.ingresos.add');      
+    // Route::get('/almacen/adm/ingresos/add', [AlmacenController::class, 'ingresosAdd'])->name('almacen.ingresos.add');      
     // Alm salidas
-    Route::get('/almacen/adm/solicitudes', [AlmacenController::class, 'solicitudes'])->name('almacen.sal.solicitudes');   
-    Route::get('/almacen/adm/entregados', [AlmacenController::class, 'entregados'])->name('almacen.sal.entregados');   
-    Route::get('/almacen/adm/saldos', [AlmacenController::class, 'saldos'])->name('almacen.sal.saldos');   
+    Route::get('/almacen/sal/solicitudes', [AlmacenController::class, 'solicitudes'])->name('almacen.sal.solicitudes');   
+    Route::get('/almacen/sal/entregados', [AlmacenController::class, 'entregados'])->name('almacen.sal.entregados');   
+    Route::get('/almacen/sal/saldos', [AlmacenController::class, 'saldos'])->name('almacen.sal.saldos');  
+    // Alm solicitudes
+    Route::get('/almacen/sol/solicitud', [AlmacenController::class, 'solicitud'])->name('almacen.solicitud'); 
 
     /**************Comisiones************/
     Route::resource('/comisiones', RrhhComisionController::class)->names('comisiones');

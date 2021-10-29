@@ -100,7 +100,7 @@ class User extends Authenticatable
 
     //Relacion uno a muchos
     public function cargos(){
-        return $this->hasMany(AdmCargo::class);
+        return $this->hasOne(AdmCargo::class);
     }
 
     public function postgrados(){
@@ -127,5 +127,11 @@ class User extends Authenticatable
         return $this->hasMany(WebArticulo::class);
     }
 
-    
+    public function solicitudes(){
+        return $this->hasMany(AlmSolicitudes::class);
+    }
+
+    public function comprobantes(){
+        return $this->hasMany(AlmComprobante::class);
+    }    
 }

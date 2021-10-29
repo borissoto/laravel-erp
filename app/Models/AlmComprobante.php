@@ -27,5 +27,9 @@ class AlmComprobante extends Model
         return $this->hasMany(AlmIngreso::class);
     }
 
+    public function usuario()
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
 
 }

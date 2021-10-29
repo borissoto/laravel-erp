@@ -36,6 +36,10 @@ class AlmacenController extends Controller
     }   
     public function saldos(){
         return view('backend.almacen.alm_sal_saldos');
-    }   
+    } 
       
+    //Solicitudes
+    public function solicitud(){
+        return view('backend.almacen.alm_solic_material');
+    }  
 }
