@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRrhhActividadesTable extends Migration
+class CreateGestionesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,10 @@ class CreateRrhhActividadesTable extends Migration
      */
     public function up()
     {
-        Schema::create('rrhh_actividades', function (Blueprint $table) {
+        Schema::create('gestiones', function (Blueprint $table) {
             $table->id();
-            $table->string('nom_actividad');
+            $table->integer('gestion')->nullable();
+            $table->integer('is_active')->default('0');
             $table->timestamps();
         });
     }
@@ -27,6 +28,6 @@ class CreateRrhhActividadesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('rrhh_actividades');
+        Schema::dropIfExists('gestiones');
     }
 }

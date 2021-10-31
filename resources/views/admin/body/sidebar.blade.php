@@ -73,7 +73,7 @@
             </p>
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('eess.list')}}" class="nav-link"><i class="fas fa-hospital-alt nav-icon"></i>Establecimientos</a></li>
+            <li class="nav-item"><a href="{{ route('eess.list')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Establecimientos</a></li>
             <li class="nav-item"><a href="{{ route('comunidades.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Comunidades</a></li>
             <li class="nav-item"><a href="{{ route('municipios.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Municipios</a></li>                       
             <li class="nav-item"><a href="{{ route('redes.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Redes</a></li>
@@ -85,13 +85,13 @@
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="fas fa-user-friends nav-icon"></i>
-            <p>Comisiones
+            <p>Anuencias
               <i class="right fas fa-angle-left"></i>
             </p>            
           </a>
           <ul class="nav nav-treeview">            
-            <li class="nav-item"><a href="{{ route('comisiones.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Solictud Comision</a></li>
-            <li class="nav-item"><a href="{{ route('comisiones.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Comisiones Recibidas</a></li>            
+            <li class="nav-item"><a href="{{ route('comisiones.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Solictud Anuencia</a></li>
+            <li class="nav-item"><a href="{{ route('comisiones.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Anuencia Recibidas</a></li>            
           </ul>
         </li>
 
@@ -152,8 +152,8 @@
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('almacen.adm.partidas')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Solicitud Viajes</a></li>
-            <li class="nav-item"><a href="{{ route('almacen.ingresos')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Viajes Recibidos</a></li>                       
+            <li class="nav-item"><a href="{{ route('viajes.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Solicitud Viajes</a></li>
+            {{-- <li class="nav-item"><a href="{{ route('almacen.ingresos')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Viajes Recibidos</a></li>                        --}}
                                 
           </ul>
         </li>
@@ -203,7 +203,10 @@
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('roles.index')}}" class="nav-link"><i class="far fa-circle nav-icon"></i>Roles y Permisos</a></li>          
+            <li class="nav-item"><a href="{{ route('roles.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Roles y Permisos</a></li>          
+            <li class="nav-item"><a href="{{ route('configuracion.gestiones')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Gestiones</a></li>          
+            <li class="nav-item"><a href="{{ route('configuracion.poa')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Poa</a></li>          
+            <li class="nav-item"><a href="{{ route('configuracion.unidades')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Unidades</a></li>          
           </ul>
         </li>
         @endcan

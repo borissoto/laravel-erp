@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Http\Controllers\Viaje\AdmViajeController;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -133,5 +134,9 @@ class User extends Authenticatable
 
     public function comprobantes(){
         return $this->hasMany(AlmComprobante::class);
+    }    
+
+    public function viajes(){
+        return $this->hasMany(AdmViaje::class);
     }    
 }

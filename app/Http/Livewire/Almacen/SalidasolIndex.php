@@ -89,7 +89,9 @@ class SalidasolIndex extends Component
         // orWhere('imprimido', 'like', '%'.$this->search.'%')->
         orWhere('justificativo', 'like', '%'.$this->search.'%');
 
-        $model = Model::where('user_id', '=', auth()->user()->id)->latest()->paginate($this->paginate);
+        $model = Model::where('user_id', '=', auth()->user()->id)->
+        where('imprimido', '=', true)->
+        where('estado', '=', 'SOLICITADO')->latest()->paginate($this->paginate);
         return view('livewire.almacen.salidasol-index', [
             'rows'=> $model
         ]);

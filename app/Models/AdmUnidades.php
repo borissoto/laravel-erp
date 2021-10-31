@@ -10,6 +10,11 @@ class AdmUnidades extends Model
 {
     use HasFactory;
 
+    protected $fillable = [        
+        'nom_unidad',
+        'sigla',
+     ];
+
     public function cargos(){
         return $this->hasMany(AdmCargo::class);
     }

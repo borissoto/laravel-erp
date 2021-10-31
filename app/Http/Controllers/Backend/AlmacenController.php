@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Barryvdh\DomPDF\Facade as PDF;
 
 class AlmacenController extends Controller
 {
@@ -42,4 +43,16 @@ class AlmacenController extends Controller
     public function solicitud(){
         return view('backend.almacen.alm_solic_material');
     }  
+
+    public function sendPrint()       
+    {
+        $var = [ 
+            'Amigos' => 'Amigos',
+        ];
+        $pdf = PDF::loadView('reportes.almacen_solicitud', $var);
+        return $pdf->stream('solicitud.pdf', array('Attachment'=>false));
+        
+    }
+
+
 }

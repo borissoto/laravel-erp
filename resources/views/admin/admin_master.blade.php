@@ -194,6 +194,14 @@
   window.livewire.on('hideSolMatAdd', () => {
       $('#showFormSolMat').modal('hide');
   });
+
+  window.livewire.on('showConfirmPrint', () => {
+      $('#confirmPrint').modal('show');
+  });
+
+  window.livewire.on('hideConfirmPrint', () => {
+      $('#confirmPrint').modal('hide');
+  });
 </script>
 
 

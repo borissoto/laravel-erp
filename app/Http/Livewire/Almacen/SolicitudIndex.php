@@ -2,17 +2,20 @@
 
 namespace App\Http\Livewire\Almacen;
 
+use App\Models\AlmPedido;
 use Livewire\Component;
 use Livewire\WithPagination;
 use App\Models\AlmSolicitudes as Model;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
+use Barryvdh\DomPDF\Facade as PDF;
 
 class SolicitudIndex extends Component
 {
 
     public $showComponents = false;
     public $flag = 0;
+    public $flagPrint = false;
 
     use WithPagination;
 
@@ -34,6 +37,7 @@ class SolicitudIndex extends Component
    public $cargoNombre='';
    
 
+   public $listeners = ['imprimir' => 'imprimirSol'];
 
     public $mode = 'create';
 
@@ -64,6 +68,8 @@ class SolicitudIndex extends Component
        $nombre = Auth::user();
        $this->usuarioNombre = $nombre->nombres.' '.$nombre->ap_paterno.' '.$nombre->ap_materno;
        $this->cargoNombre = $nombre->cargos->nom_cargo;
+
+      
     }
 
 
@@ -166,8 +172,8 @@ class SolicitudIndex extends Component
             $model->estado= 'SOLICITADO';
             // $model->fecha_entrega= $this->fecha_entrega;
             $model->fecha_solicitud= Carbon::now();
-            // $model->impresion= $this->impresion;
-            // $model->imprimido= $this->imprimido;
+            $model->impresion= 0;
+            $model->imprimido= false;
             $model->justificativo= $this->justificativo;
             $model->user_id= auth()->user()->id;
             $model->save();
@@ -252,12 +258,65 @@ class SolicitudIndex extends Component
         Model::find($this->primaryId)->delete();
         $this->showConfirmDeletePopup = false;
         $this->emit('hideConfirmDelete');
-        session()->flash('message', 'Record Deleted Successfully');
+        // session()->flash('message', 'Record Deleted Successfully');
     }
 
     public function clearFlash()
     {
         session()->forget('message');
+    }
+
+    public function sendPrint($primaryId)       
+    {
+
+        $this->showComponents = false;
+        $this->flag = 0;
+        $this->mode = 'update';
+        $this->primaryId = $primaryId;
+       
+        $this->emit("showConfirmPrint");
+        $this->showForm = true;    
+    
+    }
+
+    public function confirmPrint()
+    {
+        $model = Model::find($this->primaryId);
+        $model->estado= 'SOLICITADO';
+        $model->imprimido = true;
+        $model->impresion = $model->impresion+1;
+        $model->save();
+
+    
+
+        $this->emit('hideConfirmPrint');
+
+       $this->emit('imprimir');
+
+    }
+
+    public function hideConfirmationPrint()
+    {
+        $this->emit('hideConfirmPrint');
+    }
+    
+    public function imprimirSol()
+    {
+
+        $model = Model::find($this->primaryId);
+        $art = AlmPedido::where('alm_solicitudes_id', '=',$this->primaryId )->get();
+        
+        $var = [             
+            'sol' => $model,
+            'peds' => $art,
+        ];
+
+        $pdf = PDF::loadView('livewire.reportes.almacen_solicitud', $var)->output();
+        // return $pdf->download('solicitud.pdf');
+        return response()->streamDownload(
+            fn() => print($pdf),
+            "solicitudalmacen.pdf" 
+        );
     }
 
 }

@@ -41,9 +41,9 @@
                         <th>Cargo</th>
                         <th>Estado</th>
                         <th>Fecha Solicitud</th>                        
-                        <th scope="col">
-                            <span class="sr-only">Acciones</span>
-                        </th>
+                        <th>Detalle</th>
+                        <th>Editar</th>
+                        <th>Enviar</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -55,18 +55,43 @@
                         <td>{{ $row->usuario->cargos->nom_cargo}}</td>
                         <td>{{ $row->estado}}</td>
                         <td>{{ $row->fecha_solicitud}}</td>
-                        <td>
+                        <td width="20px" class="text-center">
+                           
                             <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" fill="currentColor" class="bi bi-file-text-fill" viewBox="0 0 16 16">
+                                    <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
+                                </svg>
+                            </a>
+                        </td>
+                        <td width="20px" class="text-center">  
+                            @if ($row->imprimido == false)                              
+                                                    
+                            <a href="#" class="text-danger" wire:click.prevent="confirmDelete({{ $row->id }})">                                
                                 <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
                                     <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z" />
                                     <path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd" />
                                 </svg>
                             </a>
-                            <a href="#" class="text-danger" wire:click.prevent="confirmDelete({{ $row->id }})"> 
-                                <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
-                                </svg>
+                            @else
+                            <span class="badge bg-warning"> EN ALMACENES </span>
+                            @endif
+                           
+                        </td>    
+                            {{-- <a href="{{route('almacen.solicitud.pdf')}}" class="text-success" target="_blank">  --}}
+                        <td width="20px" class="text-center">
+                            @if ($row->imprimido == false)
+                            <a href="#" class="text-success" wire:click.prevent="sendPrint({{ $row->id }})" target="_blank">                                
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-printer-fill" viewBox="0 0 16 16 ">
+                                <path d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2H5zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1z"/>
+                                <path d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2V7zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                              </svg>
                             </a>
+                            @else
+                            <span class="badge bg-warning"> EN ALMACENES </span>
+                            @endif 
+                            
+                        </td>
+
                         </td></tr>@empty  <tr><td>No existen Registros</td></tr>   @endforelse
                     </tbody>
                 </table>
@@ -164,4 +189,34 @@
             </div>
         </div>
     {{--    /delete popup--}}
+
+      {{--    print popup--}}
+      <div wire:ignore>
+        <div class="modal fade" id="confirmPrint" tabindex="-1" role="dialog" aria-labelledby="deleteModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Esta seguro?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                       Verifique los datos antes de Imprimir, se emitira la solicitud a la Unidad de Almacenes.
+                       <p>
+                           <span class="text-danger">
+                            La opcion Imprimir ya no estara disponible, por favor <b> guarde el PDF </b> generado.
+                            </span> 
+
+                       </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" wire:click="confirmPrint()" class="btn btn-danger">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{--    /print popup--}}
 </div>

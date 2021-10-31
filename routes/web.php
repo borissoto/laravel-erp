@@ -18,9 +18,10 @@ use App\Http\Controllers\Backend\RrhhComisionController;
 use App\Http\Controllers\Backend\RrhhRastrillajeController;
 use App\Http\Controllers\Backend\RrhhVacunaController;
 use App\Http\Controllers\Backend\UserProfileController;
+use App\Http\Controllers\Configuracion\ConfiguracionController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\RrhhCalendarioController;
-use App\Http\Controllers\RrhhEventoController;
+use App\Http\Controllers\Viaje\AdmViajeController;
 use App\Models\RrhhComisiones;
 use App\Models\User;
 use GuzzleHttp\Middleware;
@@ -96,9 +97,19 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::get('/almacen/sal/saldos', [AlmacenController::class, 'saldos'])->name('almacen.sal.saldos');  
     // Alm solicitudes
     Route::get('/almacen/sol/solicitud', [AlmacenController::class, 'solicitud'])->name('almacen.solicitud'); 
+    Route::get('/almacen/sol/solicitud/pdf', [AlmacenController::class, 'sendPrint'])->name('almacen.solicitud.pdf'); 
+
 
     /**************Comisiones************/
     Route::resource('/comisiones', RrhhComisionController::class)->names('comisiones');
+
+    /**************Viajes************/
+    Route::resource('/viajes', AdmViajeController::class)->names('viajes');
+
+     /**************Configuracion************/
+     Route::get('/configuracion/gestiones', [ConfiguracionController::class,'gestiones'])->name('configuracion.gestiones');
+     Route::get('/configuracion/poa', [ConfiguracionController::class,'poa'])->name('configuracion.poa');
+     Route::get('/configuracion/unidades', [ConfiguracionController::class,'unidades'])->name('configuracion.unidades');
 
     /*EESS*/
     // EESS List All

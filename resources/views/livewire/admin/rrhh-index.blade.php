@@ -74,6 +74,7 @@
                                     </button>
                                 </th>
                                 <th>CI</th>
+                                <th>Cargo</th>
                                 <th>Telefono</th>
                                 <th>Acciones</th>
                             </tr>
@@ -88,6 +89,7 @@
                                 <td class="align-middle">{{ $user->ap_paterno}}</td>
                                 <td class="align-middle">{{ $user->ap_materno}}</td>
                                 <td class="align-middle">{{ $user->ci}}</td>                               
+                                <td class="align-middle">{{ $user->cargos->nom_cargo}}</td>                               
                                 <td class="align-middle">{{ $user->telefono}}</td>                               
                                 <td width="20px">
                                     <div class="btn-group">

@@ -50,13 +50,12 @@
                         <thead>
                             <tr>
                                 <th>Id</th>
-                                <th>Tipo Comision</th>
+                                <th>Cite</th>
                                 <th>Descripcion
                                     {{-- <button wire:click="sorteable('name')" class="border-0">
                                         <span class="fa fa{{$campo === 'name' ? $icon : '-sort'}}"></span>                                         
                                     </button> --}}
-                                </th>
-                                <th>Viaticos</th>
+                                </th>                                
                                 <th>Lugar</th>
                                 <th>Fecha Inicio</th>
                                 <th>Fecha Fin</th>

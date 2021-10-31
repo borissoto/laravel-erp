@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use App\Models\WebCategoria;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Storage;
 
@@ -33,10 +32,17 @@ class DatabaseSeeder extends Seeder
         
         $this->call(RrhhBrigadasTableSeeder::class);
 
+
+        //gestione
+        $this->call(GestionSeeder::class);
+        
         //Almacenes
         $this->call(AlmPartidasSeeder::class);
         $this->call(AlmSubgruposSeeder::class);
         $this->call(AlmMedidasSeeder::class);
+        
+        // Poas
+        $this->call(AdmPoasSeeder::class);
 
         // WebCategoria::factory(4)->create();
         // $this->call(WebArticulosSeeder::class);
