@@ -202,6 +202,15 @@
   window.livewire.on('hideConfirmPrint', () => {
       $('#confirmPrint').modal('hide');
   });
+
+//comision
+window.livewire.on('showComisionUser', () => {
+      $('#showFormComisionUser').modal('show');
+  });
+  window.livewire.on('hideComisionUser', () => {
+      $('#showFormComisionUser').modal('hide');
+  });
+
 </script>
 
 

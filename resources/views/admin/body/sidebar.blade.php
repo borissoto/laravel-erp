@@ -91,7 +91,7 @@
           </a>
           <ul class="nav nav-treeview">            
             <li class="nav-item"><a href="{{ route('comisiones.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Solictud Anuencia</a></li>
-            <li class="nav-item"><a href="{{ route('comisiones.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Anuencia Recibidas</a></li>            
+            {{-- <li class="nav-item"><a href="{{ route('comisiones.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Anuencia Recibidas</a></li>             --}}
           </ul>
         </li>
 

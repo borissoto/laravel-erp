@@ -11,15 +11,18 @@ class RrhhComisiones extends Model
 
     protected $fillable = [             
 
-        'user_id',                        
-        'tipo_comision',
-        'descripcion',
-        'viaticos',
-        'lugar',
-        'fecha_ini',
-        'fecha_fin',    
+       
+    'user_id',
+    'adm_departamento_id',
+    'cite',
+    'descripcion',
+    'nota_interna',
+    'lugar',
+    'fecha_ini',
+    'fecha_fin', 
      
     ];
+
                
     protected $casts = [
         'email_verified_at' => 'datetime',
@@ -29,5 +32,14 @@ class RrhhComisiones extends Model
     public function usuario()
     {
         return $this->belongsTo(User::class, 'user_id');
+    }
+
+    public function comisionuser(){
+        return $this->hasMany(RrhhComisionUser::class);
+    }  
+
+    public function departamento()
+    {
+        return $this->belongsTo(AdmDepartamento::class, 'adm_departamento_id');
     }
 }

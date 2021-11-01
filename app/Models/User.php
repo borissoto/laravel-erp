@@ -36,25 +36,25 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
-        'email',
-        'password',                                            
+        // 'email',
+        // 'password',                                            
         'adm_establecimiento_id',
         'nombres',
         'ap_paterno',
         'ap_materno',
         'ci',
         'adm_departamento_id',
-        'sexo',
-        'fecha_nac',
-        'telefono',
-        'domicilio',
+        // 'sexo',
+        // 'fecha_nac',
+        // 'telefono',
+        // 'domicilio',
         'item',
-        'incorporacion',
-        'universidad',
+        // 'incorporacion',
+        // 'universidad',
         'grado',
-        'docente',
-        'obs',
-        'estado',            
+        // 'docente',
+        // 'obs',
+        // 'estado',            
     ];
     
 
@@ -138,5 +138,9 @@ class User extends Authenticatable
 
     public function viajes(){
         return $this->hasMany(AdmViaje::class);
+    }    
+
+    public function comisiones(){
+        return $this->hasMany(RrhhComisionUser::class);
     }    
 }

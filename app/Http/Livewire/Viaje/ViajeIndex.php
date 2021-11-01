@@ -24,6 +24,7 @@ class ViajeIndex extends Component
     public $paginate = 10;
 
     public $cite;
+    public $objeto;
     public $lugar;
     public $adm_departamento_id;
     public $adm_poa_id;
@@ -48,6 +49,7 @@ class ViajeIndex extends Component
 
     protected $rules = [
             'cite' => 'required',
+            'objeto' => 'required',
             'lugar' => 'required',
             'adm_departamento_id' => 'required',
             'adm_poa_id' => 'required',
@@ -115,15 +117,16 @@ class ViajeIndex extends Component
         $model = Model::find($primaryId);
 
         $this->cite= $model->cite;
+        $this->objeto= $model->objeto;
         $this->lugar= $model->lugar;
         $this->adm_departamento_id= $model->adm_departamento_id;
         $this->adm_poa_id= $model->adm_poa_id;
         $this->fecha_salida= $model->fecha_salida;
         $this->fecha_retorno= $model->fecha_retorno;
-        $this->duracion= $model->duracion;
+        // $this->duracion= $model->duracion;
         $this->transporte= $model->transporte;
-        $this->estado= $model->estado;
-        $this->user_id= $model->user_id;
+        // $this->estado= $model->estado;
+        // $this->user_id= $model->user_id;
         $this->coordinador_id= $model->coordinador_id;
 
 
@@ -145,6 +148,7 @@ class ViajeIndex extends Component
         $model = new Model();
 
         $model->cite= $this->cite;
+        $model->objeto= $this->objeto;
         $model->lugar= $this->lugar;
         $model->adm_departamento_id= $this->adm_departamento_id;
         $model->adm_poa_id= $this->adm_poa_id;
@@ -171,15 +175,16 @@ class ViajeIndex extends Component
     public function resetForm()
     {
         $this->cite= "";
+        $this->objeto= "";
         $this->lugar= "";
         $this->adm_departamento_id= "";
         $this->adm_poa_id= "";
-        $this->fecha_salida= "";
-        $this->fecha_retorno= "";
+        // $this->fecha_salida= "";
+        // $this->fecha_retorno= "";
         $this->duracion= "";
         $this->transporte= "";
-        $this->estado= "";
-        $this->user_id= "";
+        // $this->estado= "";
+        // $this->user_id= "";
         $this->coordinador_id= "";
 
     }
@@ -192,6 +197,7 @@ class ViajeIndex extends Component
         $model = Model::find($this->primaryId);
 
         $model->cite= $this->cite;
+        $model->objeto= $this->objeto;
         $model->lugar= $this->lugar;
         $model->adm_departamento_id= $this->adm_departamento_id;
         $model->adm_poa_id= $this->adm_poa_id;

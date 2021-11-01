@@ -11,6 +11,7 @@ class AdmViaje extends Model
 
     protected $fillable = [   
         'cite',
+        'objeto',
         'lugar',
         'adm_departamento_id',
         'adm_poa_id',

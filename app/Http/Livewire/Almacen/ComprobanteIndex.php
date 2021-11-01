@@ -13,6 +13,7 @@ class ComprobanteIndex extends Component
     public $flag = 0;
 
     use WithPagination;
+    protected $paginationTheme = "bootstrap";
 
     public $paginate = 10;
 

@@ -2,24 +2,40 @@
 
 namespace App\Http\Livewire\Admin;
 
-use App\Models\RrhhComisiones;
+use App\Models\RrhhComisiones as Model;
+use App\Models\RrhhComisionUser;
+use App\Models\User;
 use Carbon\Carbon;
 use Livewire\Component;
 use Livewire\WithPagination;
+use Barryvdh\DomPDF\Facade as PDF;
 
 class ComisionIndex extends Component
 {
 
+    public $showComponents = false;
+    public $flag = 0;
+
     public $comision_id;
     public $comision_del_id;
 
-    public $tipo_comision;
+    public $cite;
+    public $adm_departamento_id;
+    public $nota_interna;
     public $descripcion;
-    public $viaticos;
     public $lugar;
     public $fecha_ini;
     public $fecha_fin;
+    public $user_id;
+    
+    public $tipo_comision;
+    public $viaticos;
+    public $mode = 'create';
 
+    public $showForm = false;
+
+    public $primaryId = null;
+    
     public $updateMode = false;
 
     use WithPagination;
@@ -31,6 +47,25 @@ class ComisionIndex extends Component
 
     protected $paginationTheme = "bootstrap";
 
+    public $showConfirmDeletePopup = false;
+
+    protected $rules = [
+     
+        'cite' => 'required',
+        'adm_departamento_id' => 'required',
+        'nota_interna' => 'required',
+        'descripcion' => 'required',
+        'lugar' => 'required',
+        'fecha_ini' => 'required',
+        'fecha_fin' => 'required',
+
+    ];
+
+    public function updated($propertyName)
+    {
+        $this->validateOnly($propertyName);
+    }
+
     public function updatingSearch(){
         $this->resetPage();
     }
@@ -38,7 +73,7 @@ class ComisionIndex extends Component
     public function render()
     {
         
-        $comisiones = RrhhComisiones::where('descripcion','LIKE', '%' . $this->search . '%')        
+        $comisiones = Model::where('descripcion','LIKE', '%' . $this->search . '%')        
         ->latest()->paginate($this->perPage);
 
         return view('livewire.admin.comision-index', compact('comisiones'));
@@ -56,96 +91,169 @@ class ComisionIndex extends Component
                 
     }
 
+    public function resetForm()
+    {
+        $this->tipo_comision = '';
+        $this->descripcion = '';
+        $this->viaticos = '';
+        $this->lugar = '';
+
+    }
+
     public function newComision()
     {
         $this->resetInputFields();
     }
 
-    public function storeComision()
+    
+    public function create ()
+    {
+        $this->mode = 'create';
+        $this->resetForm();
+        $this->showForm = true;
+        $this->showComponents = false;
+        $this->flag = 0;
+
+        $this->emit("showForm");
+    }
+
+    public function store()
     {
         
        // $this->supervisor_id = Auth::user()->id;
 
        $this->validate([      
 
-        'tipo_comision' => 'required',
+        // 'tipo_comision' => 'required',
         'descripcion' => 'required',
-        'viaticos' => 'required',
+        // 'viaticos' => 'required',
         'lugar' => 'required',
         'fecha_ini' => 'required',
         'fecha_fin' => 'required',
                 
         ]);   
+        $model = new Model();
 
-        RrhhComisiones::create([   
+        // RrhhComisiones::create([   
 
-            'user_id' => auth()->user()->id,
+        //     'user_id' => auth()->user()->id,
             
-            'tipo_comision' => $this->tipo_comision,
-            'descripcion' => $this->descripcion,
-            'viaticos' => $this->viaticos,
-            'lugar' => $this->lugar,
-            'fecha_ini' => $this->fecha_ini,
-            'fecha_fin' => $this->fecha_fin,                    
+        //     'cite' => $this->cite,
+        //     'adm_departamento_id' => $this->adm_departamento_id,
+        //     'nota_interna' => $this->nota_interna,
+        //     'descripcion' => $this->descripcion,
+        //     'lugar' => $this->lugar,
+        //     'fecha_ini' => $this->fecha_ini,
+        //     'fecha_fin' => $this->fecha_fin,                    
             
-        ]);
+        // ]);
+
+        $model->cite= $this->cite;
+        $model->adm_departamento_id= $this->adm_departamento_id;
+        $model->nota_interna= $this->nota_interna;
+        $model->descripcion= $this->descripcion;
+        $model->lugar= $this->lugar;
+        $model->fecha_ini= $this->fecha_ini;
+        $model->fecha_fin= $this->fecha_fin;
+      
+        
+        $model->user_id= auth()->user()->id;
+        $model->save();
+        $comisionId = $model->id;
 
         // session()->flash('message', 'Usuario creado satisfactoriamente');
         $this->resetInputFields();
         // $this->emit('storeCargo');
-        $this->emit('closeComisionCreate');
+        // $this->emit('closeComisionCreate');
+        $this->emit('comisionId', $comisionId);
+        $this->showComponents = true;
+        $this->flag = 1;
 
     }
 
     
-    public function editComision($id)
+    public function edit($primaryId)
     {
-        $this->updateMode = true;
-        $comision = RrhhComisiones::where('id',$id)->first();   
+        // $this->updateMode = true;
+        // $comision = RrhhComisiones::where('id',$id)->first();   
         
-        $this->comision_id = $comision->id;
+        $this->showComponents = false;
+        $this->flag = 0;
+        $this->mode = 'update';
+        $this->primaryId = $primaryId;
 
-        $this->tipo_comision = $comision->tipo_comision;
-        $this->descripcion = $comision->descripcion;
-        $this->viaticos = $comision->viaticos;
-        $this->lugar = $comision->lugar;
-        $this->fecha_ini = Carbon::parse($comision->fecha_ini)->format('Y-m-d');
-        $this->fecha_fin = Carbon::parse($comision->fecha_fin)->format('Y-m-d');            
+        $model = Model::find($primaryId);
+        $this->cite = $model->cite;
+        $this->adm_departamento_id = $model->adm_departamento_id;
+        $this->nota_interna = $model->nota_interna;
+        $this->descripcion = $model->descripcion;
+        $this->lugar = $model->lugar;
+        $this->fecha_ini = Carbon::parse($model->fecha_ini)->format('Y-m-d');
+        $this->fecha_fin = Carbon::parse($model->fecha_fin)->format('Y-m-d');            
         
+        
+        $this->emit("showForm");
+        $this->showForm = true;    
     }
 
-    public function updateComision()
+    public function closeForm()
+    {
+        $this->showForm = false;
+
+        $this->emit("hideForm");
+    }
+
+    public function update()
     {
         $this->validate([
 
-            'tipo_comision' => 'required',
-            'descripcion' => 'required',
-            'viaticos' => 'required',
+            
+            'descripcion' => 'required',            
             'lugar' => 'required',
             'fecha_ini' => 'required',
             'fecha_fin' => 'required',
             
         ]);
 
-        if ($this->comision_id) {
-            $comision = RrhhComisiones::find($this->comision_id);
-            $comision->update([                                             
+        // if ($this->comision_id) {
+        //     $comision = RrhhComisiones::find($this->comision_id);
+        //     $comision->update([                                             
 
-                'tipo_comision' => $this->tipo_comision,
-                'descripcion' => $this->descripcion,
-                'viaticos' => $this->viaticos,
-                'lugar' => $this->lugar,
-                'fecha_ini' => $this->fecha_ini,
-                'fecha_fin' => $this->fecha_fin,    
+        //         'tipo_comision' => $this->tipo_comision,
+        //         'descripcion' => $this->descripcion,
+        //         'viaticos' => $this->viaticos,
+        //         'lugar' => $this->lugar,
+        //         'fecha_ini' => $this->fecha_ini,
+        //         'fecha_fin' => $this->fecha_fin,    
                 
-            ]);
-            $this->updateMode = false;
-            // session()->flash('message', 'Users Updated Successfully.');
-            $this->resetInputFields();
-            // $this->emit('update');
-            $this->emit('closeComisionUpdate');
+        //     ]);
+        //     $this->updateMode = false;
+        //     // session()->flash('message', 'Users Updated Successfully.');
+        //     $this->resetInputFields();
+        //     // $this->emit('update');
+        //     $this->emit('closeComisionUpdate');
 
-        }
+        // }
+        $model = Model::find($this->primaryId);
+
+        $model->cite= $this->cite;
+        $model->adm_departamento_id= $this->adm_departamento_id;
+        $model->nota_interna= $this->nota_interna;
+        $model->descripcion= $this->descripcion;
+        $model->lugar= $this->lugar;
+        $model->fecha_ini= $this->fecha_ini;
+        $model->fecha_fin= $this->fecha_fin;      
+               
+        $model->save();
+        $comisionId = $model->id;
+
+        // session()->flash('message', 'Usuario creado satisfactoriamente');
+        // $this->resetInputFields();
+        // $this->emit('storeCargo');
+        // $this->emit('closeComisionCreate');
+        $this->emit('comisionId', $comisionId);
+        $this->showComponents = true;
+        $this->flag = 1;
     }
 
     public function deleteComision($id)
@@ -158,10 +266,28 @@ class ComisionIndex extends Component
 
     public function deleteConfirmComision()
     {
-        RrhhComisiones::find($this->comision_del_id)->delete();
+        Model::find($this->comision_del_id)->delete();
     }
 
 
 
+    public function sendPrint($primaryId)
+    {
+
+        $model = Model::find($primaryId);
+        $users = RrhhComisionUser::where('rrhh_comisiones_id', '=', $primaryId )->get();
+        
+        $var = [             
+            'com' => $model,
+            'users' => $users,
+        ];
+
+        $pdf = PDF::loadView('livewire.reportes.anuencia', $var)->output();
+        // return $pdf->download('solicitud.pdf');
+        return response()->streamDownload(
+            fn() => print($pdf),
+            "anuencia.pdf" 
+        );
+    }
 
 }

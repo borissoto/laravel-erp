@@ -16,6 +16,7 @@ class CreateAdmViajesTable extends Migration
         Schema::create('adm_viajes', function (Blueprint $table) {
             $table->id();
             $table->string('cite')->nullable();
+            $table->string('objeto')->nullable();
             $table->string('lugar')->nullable();
             $table->unsignedBigInteger('adm_departamento_id')->nullable();
             $table->string('adm_poa_id')->nullable();

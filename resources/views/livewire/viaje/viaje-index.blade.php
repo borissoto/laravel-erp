@@ -104,37 +104,58 @@
                        <div class='form-group row'>
                            <label for='cite' class="col-sm-4 col-form-label">Cite</label>
                            <div class="col-sm-8" >
-                           <input type='text' class='form-control form-control-sm @error('cite')  is-invalid @enderror' wire:model='cite'>                           
+                           <input type='number' class='form-control form-control-sm @error('cite')  is-invalid @enderror' wire:model='cite'>                           
                            @error('cite')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                            </div>
                         </div>
-
+                        
                         <div class='form-group row'>
-                            <label for='coordinador_id' class="col-sm-4 col-form-label">Coordinador</label>
+                            <label for='coordinador_id' class="col-sm-4 col-form-label">Coordinador(a)</label>
                             <div class="col-sm-8" >
                                 <select wire:model="coordinador_id" name="coordinador_id" class="form-control form-control-sm" >
                                     <option value="" class="text-primary">-Escoja Coordinador Dptal-</option>
                                     @foreach ($coordinadores as $coordinador)
-                                        <option value="{{ $coordinador->id }}">{{ $coordinador->nombres.' '.$coordinador->ap_paterno.' '.$coordinador->ap_materno }}</option>
+                                    <option value="{{ $coordinador->id }}">{{ $coordinador->nombres.' '.$coordinador->ap_paterno.' '.$coordinador->ap_materno }}</option>
                                     @endforeach
                                 </select>
-                            @error('coordinador_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                                @error('coordinador_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         </div>
+
                         <div class='form-group row'>
-                            <label for='lugar' class="col-sm-4 col-form-label">Lugar</label>
+                            <label for='adm_departamento_id' class="col-sm-4 col-form-label">Coordinador(a) de</label>
                             <div class="col-sm-8" >
-                            <input type='text' class='form-control form-control-sm @error('lugar')  is-invalid @enderror' wire:model='lugar'>
-                            @error('lugar')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </div>
-                        </div>
-                        <div class='form-group row'>
-                            <label for='adm_departamento_id' class="col-sm-4 col-form-label">Departamento</label>
-                            <div class="col-sm-8" >
-                            <input type='text' class='form-control form-control-sm @error('adm_departamento_id')  is-invalid @enderror' wire:model='adm_departamento_id'>
+                                <select wire:model="adm_departamento_id" id="adm_departamento_id" class="form-control form-control-sm" required>                                        
+                                    <option value="">-Elija Departamento-</option>
+                                    <option value="1">LA PAZ</option>
+                                    <option value="2">ORURO</option>
+                                    <option value="3">POTOSI</option>
+                                    <option value="4">COCHABAMBA</option>
+                                    <option value="5">CHUQUISACA</option>
+                                    <option value="6">TARIJA</option>
+                                    <option value="7">PANDO</option>
+                                    <option value="8">BENI</option>
+                                    <option value="9">SANTA CRUZ</option>
+                                </select>                           
                             @error('adm_departamento_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         </div>
+
+                        <div class='form-group row'>
+                            <label for='objeto' class="col-sm-4 col-form-label">Objeto</label>
+                            <div class="col-sm-8" >
+                            <textarea type='text' class='form-control form-control-sm @error('objeto')  is-invalid @enderror' wire:model='objeto'></textarea>                           
+                            @error('objeto')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                            </div>
+                         </div>
+                        <div class='form-group row'>
+                            <label for='lugar' class="col-sm-4 col-form-label">Lugar</label>
+                            <div class="col-sm-8" >
+                                <input type='text' class='form-control form-control-sm @error('lugar')  is-invalid @enderror' wire:model='lugar'>                           
+                            @error('lugar')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                            </div>
+                        </div>
+                     
                         <div class='form-group row'>
                             <label for='adm_poa_id' class="col-sm-4 col-form-label">POA Operacion</label>
                             <div class="col-sm-8 text-truncate" >

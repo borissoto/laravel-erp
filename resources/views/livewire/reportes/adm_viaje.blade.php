@@ -61,8 +61,8 @@ div.a{
     
 
     Doctor(a):  {{$viaje->coordinador->ap_paterno}} <br/> <br/>
-    Mediante el presente memorandum tengo a bien comunicarle a usted, con el item Nro y CI que fue 
-    designado en comision de viaje a fin de realizar la 
+    Mediante el presente memorandum tengo a bien comunicarle a usted, con el item Nro <b> {{$viaje->coordinador->item}} </b> y 
+    CI <b> {{$viaje->coordinador->ci}} </b> que fue designado en comision de viaje a fin de realizar <b> {{$viaje->objeto}} </b>
     en el marco de la <strong> {{$viaje->poa->operacion}} </strong>, para el cumplimiento del mismo,
     se le designa a cumplir con el siguiente cronograma:
     <br/>
