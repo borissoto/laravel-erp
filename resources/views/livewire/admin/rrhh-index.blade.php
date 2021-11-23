@@ -48,7 +48,7 @@
                 <!-- card-header -->
                 <div class="card-body pb-1">
                     {{-- <div class="table-responsive"> --}}
-                        <table id="example1" class="table table-sm table-bordered table-striped text-sm shadow">
+                        <table id="example1" class="table table-sm table-responsive-sm table-bordered table-striped text-sm shadow ">
                         <thead>
                             <tr>
                                 <th>Id</th>

@@ -24,7 +24,7 @@
                 <button type="button"
                         class="btn btn-primary float-right"
                         wire:click="create">
-                   {{ __('Add New Record') }}
+                   {{ __('Nueva Gestion') }}
                 </button>
             </div>
         </div>

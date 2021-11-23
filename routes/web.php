@@ -11,6 +11,7 @@ use App\Http\Controllers\AdmProvinciaController;
 use App\Http\Controllers\AdmRedController;
 use App\Http\Controllers\AdmEstablecimientoController;
 use App\Http\Controllers\Backend\AlmacenController;
+use App\Http\Controllers\Backend\PlanEstudiosController;
 use App\Http\Controllers\Backend\RoleController;
 use App\Http\Controllers\Backend\RrhhAntigenoController;
 use App\Http\Controllers\Backend\RrhhBrigadaController;
@@ -98,6 +99,12 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     // Alm solicitudes
     Route::get('/almacen/sol/solicitud', [AlmacenController::class, 'solicitud'])->name('almacen.solicitud'); 
     Route::get('/almacen/sol/solicitud/pdf', [AlmacenController::class, 'sendPrint'])->name('almacen.solicitud.pdf'); 
+
+    // Plan Estudios
+    Route::get('/planestudios/residencias', [PlanEstudiosController::class, 'residencias'])->name('planestudios.residencias');   
+    Route::get('/planestudios/modulos', [PlanEstudiosController::class, 'modulos'])->name('planestudios.modulos');   
+    Route::get('/planestudios/cursos', [PlanEstudiosController::class, 'cursos'])->name('planestudios.cursos'); 
+
 
 
     /**************Comisiones************/

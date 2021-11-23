@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="{{asset('plugins/fullcalendar/main.css')}}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
+  <!-- Organigrama style -->
+  <link rel="stylesheet" href="{{asset('/css/organigrama.css')}}">
 
   
    @livewireStyles
@@ -202,6 +204,14 @@
   window.livewire.on('hideConfirmPrint', () => {
       $('#confirmPrint').modal('hide');
   });
+
+// plan estudios
+  // window.livewire.on('showDiagram', () => {
+  //     $('#diagramModal').modal('show');
+  // });
+  window.addEventListener('showDiagram', event => {
+        $('#diagramModal').modal('show');
+    });
 
 //comision
 window.livewire.on('showComisionUser', () => {

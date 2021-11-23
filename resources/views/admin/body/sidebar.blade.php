@@ -110,7 +110,7 @@
           </ul>
         </li>
 
-        <li class="nav-header">Modulo Brigadas</li> 
+        <li class="nav-header">Modulo Sala Situacional</li> 
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="fas fa-ambulance nav-icon"></i> 
@@ -123,6 +123,23 @@
             <li class="nav-item"><a href="{{ route('antigenos.index')}}" class="nav-link"><i class="fas fa-vial nav-icon"></i>Lista Antigeno</a></li>
             <li class="nav-item"><a href="{{ route('rastrillajes.index')}}" class="nav-link"><i class="fas fa-user-nurse nav-icon"></i>Lista Rastrillaje</a></li>
             <li class="nav-item"><a href="{{ route('vacunas.index')}}" class="nav-link"><i class="fas fa-syringe nav-icon"></i>Lista Vacunas</a></li>
+                     
+            
+          </ul>
+        </li>
+
+        <li class="nav-header">Modulo Seguimiento Plan Estudios</li> 
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-graduation-cap nav-icon"></i> 
+            <p>Plan de Estudios
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item"><a href="{{ route('planestudios.residencias')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Residencias Modulos Temas</a></li>            
+            <li class="nav-item"><a href="{{ route('rastrillajes.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Cursos</a></li>
+            <li class="nav-item"><a href="{{ route('vacunas.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Estudiantes</a></li>
                      
             
           </ul>

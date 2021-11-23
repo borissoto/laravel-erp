@@ -24,7 +24,7 @@
                 <button type="button"
                         class="btn btn-primary float-right"
                         wire:click="create">
-                   {{ __('Nuevo Poa') }}
+                   {{ __('Nuevo Modulo') }}
                 </button>
             </div>
         </div>
@@ -35,22 +35,19 @@
                     <thead>
                     <tr>
 
-                        <th>GESTIONES ID</th>
-                        <th>CODIGO</th>
-                        <th>OPERACION</th>
-                        <th>PRODUCTO</th>
+                        <th>Residencia</th>
+                        <th>Modulo</th>
+                        <th>Pocentaje</th>
                         <th scope="col">
-                            <span class="sr-only">Acciones</span>
+                            <span>Acciones</span>
                         </th>
                     </tr>
                     </thead>
                     <tbody>
-                    @forelse($rows as $row)
-                    <tr> 
-                        <td>{{ $row->gestiones_id}}</td>
-                        <td>{{ $row->codigo}}</td>
-                        <td>{{ $row->operacion}}</td>
-                        <td>{{ $row->producto}}</td>
+                    @forelse($rows as $row)<tr> 
+                        <td>{!! $row->residencia->nom_residencia.': <b>'.$row->residencia->gestion_ini.'</b> '.$row->residencia->mes_ini.' - <b>'.$row->residencia->gestion_fin.' </b>'.$row->residencia->mes_fin !!}</td>
+                        <td>{{ $row->nom_modulo}}</td>
+                        <td>{{ $row->porcentaje}}</td>
                         <td>
                             <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
                                 <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
@@ -58,12 +55,12 @@
                                     <path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd" />
                                 </svg>
                             </a>
-                            <a href="#" class="text-danger" wire:click.prevent="confirmDelete({{ $row->id }})"> 
+                            <a href="#" class="text-danger" wire:click.prevent="confirmDelete({{ $row->id }})">
                                 <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
                                     <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
                                 </svg>
                             </a>
-                            </td></tr>@empty  <tr><td>No existen registros</td></tr>   @endforelse
+                            </td></tr>@empty  <tr><td>No Records Found</td></tr>   @endforelse
 
                     </tbody>
                 </table>
@@ -82,22 +79,38 @@
            <div class="modal-dialog" role="document">
                <div class="modal-content">
                    <div class="modal-header">
-                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Add New Record' : 'Update Record ' }}</h5>
+                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Nuevo Modulo' : 'Actualizar Modulo ' }}</h5>
                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                        </button>
                    </div>
                    <div class="modal-body">
-                        <div class='form-group'><label for='gestiones_id'>Gestiones id</label><input type='text' class='form-control @error('gestiones_id')  is-invalid @enderror' wire:model='gestiones_id'>@error('gestiones_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='codigo'>Codigo</label><input type='text' class='form-control @error('codigo')  is-invalid @enderror' wire:model='codigo'>@error('codigo')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='operacion'>Operacion</label><input type='text' class='form-control @error('operacion')  is-invalid @enderror' wire:model='operacion'>@error('operacion')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='producto'>Producto</label><input type='text' class='form-control @error('producto')  is-invalid @enderror' wire:model='producto'>@error('producto')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-
+                       <div class='form-group'>
+                           <label for='pe_residencia_id'>Residencia</label>
+                               <select wire:model="pe_residencia_id"  name="pe_residencia_id" class="form-control form-control-sm" required>
+                                    <option value="" class="text-primary">Escoja Residencia*</option>
+                                    @foreach ($residencias as $residencia)
+                                        <option value="{{ $residencia->id }}">{{ $residencia->nom_residencia.' '.$residencia->gestion_ini.' '.$residencia->mes_ini.' - '.$residencia->gestion_fin.' '.$residencia->mes_fin }}</option>
+                                    @endforeach
+                                </select>
+                           @error('pe_residencia_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'>
+                            <label for='nom_modulo'>Nombre Modulo</label>
+                            <input type='text' class='form-control @error('nom_modulo')  is-invalid @enderror' wire:model='nom_modulo'>
+                            @error('nom_modulo')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'>
+                            <label for='porcentaje'>Porcentaje</label>
+                            <input type='number' class='form-control @error('porcentaje')  is-invalid @enderror' wire:model='porcentaje'>
+                            @error('porcentaje')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                            {{$msg_porcentaje}}
+                        </div>
                    </div>
                    <div class="modal-footer">
-                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                        <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary">
-                         {{ $mode == 'create' ? 'Save Record' : 'Update Record' }}
+                         {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
                        </button>
                    </div>
                </div>
@@ -112,17 +125,17 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Are You Sure?</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Eliminar registro</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                           This Action Can not be Undone.
+                           Esta Seguro?.
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" wire:click="destroy()" class="btn btn-danger">Delete</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" wire:click="destroy()" class="btn btn-danger">Eliminar</button>
                         </div>
                     </div>
                 </div>

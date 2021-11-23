@@ -16,12 +16,12 @@
             @csrf
 
             <div>
-                <x-jet-label for="email" value="{{ __('Usuario') }}" />
+                <x-jet-label style="color:white" for="email" value="{{ __('Usuario') }}" />
                 <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('email')" required autofocus />
             </div>
 
             <div class="mt-4">
-                <x-jet-label for="password" value="{{ __('Contraseña') }}" />
+                <x-jet-label style="color: white" for="password" value="{{ __('Contraseña') }}" />
                 <x-jet-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
             </div>
 

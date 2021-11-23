@@ -142,5 +142,10 @@ class User extends Authenticatable
 
     public function comisiones(){
         return $this->hasMany(RrhhComisionUser::class);
-    }    
+    }   
+    
+    //plan estudios
+    public function cursos(){
+        return $this->hasMany(PeCurso::class);
+    }   
 }
