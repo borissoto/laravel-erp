@@ -132,7 +132,7 @@
            <div class="modal-dialog" role="document">
                <div class="modal-content">
                    <div class="modal-header">
-                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Add New Record' : 'Update Record ' }}</h5>
+                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Nuevo Pedido' : 'Actualizar Pedido ' }}</h5>
                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                        </button>
@@ -148,7 +148,7 @@
                    <div class="modal-footer">
                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                        <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary">
-                         {{ $mode == 'create' ? 'Save Record' : 'Update Record' }}
+                         {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
                        </button>
                    </div>
                </div>

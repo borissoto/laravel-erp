@@ -68,7 +68,7 @@
                                     <div class="col-sm-4"> 
                                         <input wire:model="fecha_nac" class="form-control form-control-sm" type="date" value="" id="fechanac">
                                     </div>
-                                    <label for="extension" class="col-sm-2 col-form-label col-form-label-sm">Sexo</label>
+                                    <label for="sexo" class="col-sm-2 col-form-label col-form-label-sm">Sexo</label>
                                     <div class="col-sm-4" >
                                         <select wire:model="sexo" name="med" id="sexo" class="form-control form-control-sm">
                                             <option value="">-Genero-</option>

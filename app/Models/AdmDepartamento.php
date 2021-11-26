@@ -27,4 +27,8 @@ class AdmDepartamento extends Model
     public function comisiones(){
         return $this->hasMany(RrhhComisiones::class);
     }
+
+    public function residentes(){
+        return $this->hasMany(PeResidente::class);
+    }
 }

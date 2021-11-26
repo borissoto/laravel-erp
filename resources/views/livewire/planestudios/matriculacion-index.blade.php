@@ -24,29 +24,28 @@
                 <button type="button"
                         class="btn btn-primary float-right"
                         wire:click="create">
-                   {{ __('Nueva Unidad') }}
+                   {{ __('Add New Record') }}
                 </button>
             </div>
         </div>
     </div>
     <div class="flex row card">
             <div class="card-body">
-                <table width="100%" class="table table-bordered">
+                <table class="table table-bordered">
                     <thead>
                     <tr>
-
-                        <th>NOM UNIDAD</th>
-                        <th>SIGLA</th>
-                        <th scope="col">
-                            <span class="sr-only">Acciones</span>
+                        <th>Residencia</th>
+                        <th>Residente </th>
+                        <th>
+                            <span>Actions</span>
                         </th>
                     </tr>
                     </thead>
                     <tbody>
                     @forelse($rows as $row)
-                    <tr> 
-                        <td>{{ $row->nom_unidad}}</td>
-                        <td>{{ $row->sigla}}</td>
+                    <tr>
+                        <td>{{ $row->residencia->nom_residencia}}</td>
+                        <td>{{ $row->residente->nombres.' '.$row->residente->ap_paterno.' '.$row->residente->ap_materno}}</td>
                         <td>
                             <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
                                 <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
@@ -59,7 +58,7 @@
                                     <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
                                 </svg>
                             </a>
-                        </td></tr>@empty  <tr><td>No Existen Registros</td></tr>   @endforelse
+                            </td></tr>@empty  <tr><td>No existen Residentes Registrados</td></tr>   @endforelse
 
                     </tbody>
                 </table>
@@ -78,27 +77,20 @@
            <div class="modal-dialog" role="document">
                <div class="modal-content">
                    <div class="modal-header">
-                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Nuevo Unidad/Area' : 'Actualizar Unidad/Area' }}</h5>
+                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Add New Record' : 'Update Record ' }}</h5>
                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                        </button>
                    </div>
                    <div class="modal-body">
-                       <div class='form-group'>
-                           <label for='nom_unidad'>Nom unidad</label>
-                           <input type='text' class='form-control @error('nom_unidad')  is-invalid @enderror' wire:model='nom_unidad'>
-                           @error('nom_unidad')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                        </div>
-                        <div class='form-group'>
-                            <label for='sigla'>Sigla</label>
-                            <input type='text' class='form-control @error('sigla')  is-invalid @enderror' wire:model='sigla'>
-                            @error('sigla')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary">
-                         {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
+                        <div class='form-group'><label for='pe_residente_id'>Pe residente id</label><input type='text' class='form-control @error('pe_residente_id')  is-invalid @enderror' wire:model='pe_residente_id'>@error('pe_residente_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
+<div class='form-group'><label for='pe_residencia_id'>Pe residencia id</label><input type='text' class='form-control @error('pe_residencia_id')  is-invalid @enderror' wire:model='pe_residencia_id'>@error('pe_residencia_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
+
+                   </div>
+                   <div class="modal-footer">
+                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                       <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary">
+                         {{ $mode == 'create' ? 'Save Record' : 'Update Record' }}
                        </button>
                    </div>
                </div>

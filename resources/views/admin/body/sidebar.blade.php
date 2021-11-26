@@ -138,8 +138,8 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item"><a href="{{ route('planestudios.residencias')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Residencias Modulos Temas</a></li>            
-            <li class="nav-item"><a href="{{ route('rastrillajes.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Cursos</a></li>
-            <li class="nav-item"><a href="{{ route('vacunas.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Estudiantes</a></li>
+            <li class="nav-item"><a href="{{ route('rastrillajes.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Evaluaciones por Curso</a></li>
+            <li class="nav-item"><a href="{{ route('planestudios.residentes')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Estudiantes</a></li>
                      
             
           </ul>

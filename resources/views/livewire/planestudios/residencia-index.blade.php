@@ -31,7 +31,7 @@
     </div>
     <div class="flex row card">
             <div class="card-body">
-                <table width="100%" class="table table-bordered">
+                <table class="table table-sm table-bordered table-striped text-sm">
                     <thead>
                     <tr>
 
@@ -41,7 +41,7 @@
                         <th>Gestion Fin</th>
                         <th>Mes Fin</th>
                         {{-- <th>Estado</th> --}}
-                        <th scope="col">
+                        <th>
                             <span>Acciones</span>
                         </th>
                     </tr>

@@ -28,4 +28,8 @@ class PeResidente extends Model
     public function matriculaciones(){
         return $this->hasMany(PeMatriculaciones::class);
     }  
+
+    public function departamento(){
+        return $this->belongsTo(AdmDepartamento::class,'adm_departamento_id');
+    }
 }

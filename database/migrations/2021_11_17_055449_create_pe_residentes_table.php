@@ -27,7 +27,7 @@ class CreatePeResidentesTable extends Migration
             $table->string('universidad')->nullable();              
             $table->string('grado')->nullable();                          
             $table->string('obs')->nullable();
-            $table->integer('estado');            
+            $table->integer('estado')->nullable();            
             $table->timestamps();
         });
     }

@@ -105,27 +105,62 @@
            <div class="modal-dialog" role="document">
                <div class="modal-content">
                    <div class="modal-header">
-                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Add New Record' : 'Update Record ' }}</h5>
+                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Nuevo' : 'Actualizar ' }}</h5>
                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                        </button>
                    </div>
                    <div class="modal-body">
-                       <div class='form-group'><label for='name'>Name</label><input type='text' class='form-control @error('name')  is-invalid @enderror' wire:model='name'>@error('name')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='adm_establecimiento_id'>Adm establecimiento id</label><input type='text' class='form-control @error('adm_establecimiento_id')  is-invalid @enderror' wire:model='adm_establecimiento_id'>@error('adm_establecimiento_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='nombres'>Nombres</label><input type='text' class='form-control @error('nombres')  is-invalid @enderror' wire:model='nombres'>@error('nombres')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='ap_paterno'>Ap paterno</label><input type='text' class='form-control @error('ap_paterno')  is-invalid @enderror' wire:model='ap_paterno'>@error('ap_paterno')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='ap_materno'>Ap materno</label><input type='text' class='form-control @error('ap_materno')  is-invalid @enderror' wire:model='ap_materno'>@error('ap_materno')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='ci'>Ci</label><input type='text' class='form-control @error('ci')  is-invalid @enderror' wire:model='ci'>@error('ci')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='adm_departamento_id'>Adm departamento id</label><input type='text' class='form-control @error('adm_departamento_id')  is-invalid @enderror' wire:model='adm_departamento_id'>@error('adm_departamento_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='item'>Item</label><input type='text' class='form-control @error('item')  is-invalid @enderror' wire:model='item'>@error('item')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='grado'>Grado</label><input type='text' class='form-control @error('grado')  is-invalid @enderror' wire:model='grado'>@error('grado')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
+                       <div class='form-group'>
+                           <label for='name'>Name</label>
+                           <input type='text' class='form-control @error('name')  is-invalid @enderror' wire:model='name'>
+                           @error('name')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'>
+                            <label for='adm_establecimiento_id'>Adm establecimiento id</label>
+                            <input type='text' class='form-control @error('adm_establecimiento_id')  is-invalid @enderror' wire:model='adm_establecimiento_id'>
+                            @error('adm_establecimiento_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'>
+                            <label for='nombres'>Nombres</label>
+                            <input type='text' class='form-control @error('nombres')  is-invalid @enderror' wire:model='nombres'>
+                            @error('nombres')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'>
+                            <label for='ap_paterno'>Ap paterno</label>
+                            <input type='text' class='form-control @error('ap_paterno')  is-invalid @enderror' wire:model='ap_paterno'>
+                            @error('ap_paterno')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'>
+                            <label for='ap_materno'>Ap materno</label>
+                            <input type='text' class='form-control @error('ap_materno')  is-invalid @enderror' wire:model='ap_materno'>
+                            @error('ap_materno')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'>
+                            <label for='ci'>Ci</label>
+                            <input type='text' class='form-control @error('ci')  is-invalid @enderror' wire:model='ci'>
+                            @error('ci')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'>
+                            <label for='adm_departamento_id'>Adm departamento id</label>
+                            <input type='text' class='form-control @error('adm_departamento_id')  is-invalid @enderror' wire:model='adm_departamento_id'>
+                            @error('adm_departamento_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'>
+                            <label for='item'>Item</label><input type='text' class='form-control @error('item')  is-invalid @enderror' wire:model='item'>
+                            @error('item')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'>
+                            <label for='grado'>Grado</label>
+                            <input type='text' class='form-control @error('grado')  is-invalid @enderror' wire:model='grado'>
+                            @error('grado')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
 
                    </div>
                    <div class="modal-footer">
                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                        <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary">
-                         {{ $mode == 'create' ? 'Save Record' : 'Update Record' }}
+                         {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
                        </button>
                    </div>
                </div>
@@ -140,17 +175,17 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Are You Sure?</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Eliminar Registro</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                           This Action Can not be Undone.
+                           Esta seguro de eliminar el registro?
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" wire:click="destroy()" class="btn btn-danger">Delete</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" wire:click="destroy()" class="btn btn-danger">Eliminar</button>
                         </div>
                     </div>
                 </div>

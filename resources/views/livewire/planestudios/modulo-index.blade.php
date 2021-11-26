@@ -31,12 +31,12 @@
     </div>
     <div class="flex row card">
             <div class="card-body">
-                <table width="100%" class="table table-bordered">
+                <table width="100%" class="table table-sm table-bordered table-striped text-sm">
                     <thead>
                     <tr>
 
                         <th>Residencia</th>
-                        <th>Modulo</th>
+                        <th>Nombre Modulo</th>
                         <th>Pocentaje</th>
                         <th scope="col">
                             <span>Acciones</span>

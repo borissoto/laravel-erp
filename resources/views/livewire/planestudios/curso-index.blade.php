@@ -31,16 +31,16 @@
     </div>
     <div class="flex row card">
             <div class="card-body">
-                <table width="100%" class="table table-bordered">
+                <table width="100%" class="table table-sm table-bordered table-striped text-sm">
                     <thead>
                     <tr>
 
                         <th>Residencia</th>
                         <th>Modulo</th>
+                        <th>Nombre Tema (Curso)</th>
                         <th>Jefe de Enseñanza</th>
                         <th>Instructor</th>
-                        <th>Tema (Curso)</th>
-                        <th scope="col">
+                        <th>
                             <span>Acciones</span>
                         </th>
                     </tr>
@@ -49,9 +49,9 @@
                     @forelse($rows as $row)<tr> 
                         <td>{{ $row->modulo->residencia->nom_residencia.' ('.$row->modulo->residencia->gestion_ini.' '.$row->modulo->residencia->mes_ini.' - '.$row->modulo->residencia->gestion_fin.' '.$row->modulo->residencia->mes_fin.')' }}</td>
                         <td>{{ $row->modulo->nom_modulo}}</td>
+                        <td>{{ $row->nom_curso}}</td>
                         <td>{{ $row->usuario->nombres.' '.$row->usuario->ap_paterno.' '.$row->usuario->ap_materno}}</td>
                         <td>{{ $row->instructor ? $row->docinstructor->nombres.' '.$row->docinstructor->ap_paterno.' '.$row->docinstructor->ap_materno : 'N/A'}}</td>
-                        <td>{{ $row->nom_curso}}</td>
                         <td>
                             <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
                                 <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
@@ -83,7 +83,7 @@
            <div class="modal-dialog" role="document">
                <div class="modal-content">
                    <div class="modal-header">
-                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Add New Record' : 'Update Record ' }}</h5>
+                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Nuevo Tema' : 'Actualizar Tema' }}</h5>
                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                        </button>

@@ -23,6 +23,10 @@ class PeResidencia extends Model
          return $this->hasMany(PeModulo::class);
      }
 
+     public function matriculaciones(){
+         return $this->hasMany(PeMatriculaciones::class);
+     }
+
      public function tree()
      {
          $residencias = PeResidencia::get();

@@ -92,13 +92,14 @@
            <div class="modal-dialog" role="document">
                <div class="modal-content">
                    <div class="modal-header">
-                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Add New Record' : 'Update Record ' }}</h5>
+                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Nuevo Registro' : 'Actualizar Registro' }}</h5>
                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                        </button>
                    </div>
                    <div class="modal-body">
-                        <div class='form-group'><label for='area'>Area</label><input type='text' class='form-control @error('area')  is-invalid @enderror' wire:model='area'>@error('area')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
+                       <div class='form-group'>
+                           <label for='area'>Area</label><input type='text' class='form-control @error('area')  is-invalid @enderror' wire:model='area'>@error('area')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
 <div class='form-group'><label for='boleta'>Boleta</label><input type='text' class='form-control @error('boleta')  is-invalid @enderror' wire:model='boleta'>@error('boleta')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
 <div class='form-group'><label for='cargo'>Cargo</label><input type='text' class='form-control @error('cargo')  is-invalid @enderror' wire:model='cargo'>@error('cargo')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
 <div class='form-group'><label for='estado'>Estado</label><input type='text' class='form-control @error('estado')  is-invalid @enderror' wire:model='estado'>@error('estado')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
@@ -113,7 +114,7 @@
                    <div class="modal-footer">
                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                        <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary">
-                         {{ $mode == 'create' ? 'Save Record' : 'Update Record' }}
+                         {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
                        </button>
                    </div>
                </div>
