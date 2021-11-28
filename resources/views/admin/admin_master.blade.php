@@ -17,7 +17,8 @@
   <!-- fullCalendar -->
   <link rel="stylesheet" href="{{asset('plugins/fullcalendar/main.css')}}">
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
+  {{-- <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}"> --}}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.1/dist/css/adminlte.min.css">
   <!-- Organigrama style -->
   <link rel="stylesheet" href="{{asset('/css/organigrama.css')}}">
 
@@ -90,7 +91,8 @@
 <!-- overlayScrollbars -->
 {{-- <script src="{{asset('plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script> --}}
 <!-- AdminLTE App -->
-<script src="{{asset('dist/js/adminlte.min.js')}}"></script>
+{{-- <script src="{{asset('dist/js/adminlte.min.js')}}"></script> --}}
+<script src="https://cdn.jsdelivr.net/npm/admin-lte@3.1/dist/js/adminlte.min.js"></script>
 <!-- fullCalendar 2.2.5 -->
 <script src="{{asset('plugins/moment/moment.min.js')}}"></script>
 <script src="{{asset('plugins/fullcalendar/main.js')}}"></script>
