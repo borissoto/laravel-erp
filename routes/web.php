@@ -26,7 +26,10 @@ use App\Http\Controllers\Viaje\AdmViajeController;
 use App\Models\RrhhComisiones;
 use App\Models\User;
 use GuzzleHttp\Middleware;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\URL;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,7 +41,16 @@ use Illuminate\Support\Facades\DB;
 |
 */
 
+if (App::environment('production')) {
+    URL::forceScheme('https');
+}
+
 Route::get('/', function () {
+    
+    if (App::environment('production')) {
+        URL::forceScheme('https');
+    }
+    
     return view('welcome');
 });
 
