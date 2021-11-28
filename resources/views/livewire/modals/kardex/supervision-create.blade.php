@@ -33,7 +33,7 @@
                                     </div>                                                                                   
                                 </div>
                                 <div class="form-group row">
-                                    <label for="recomendacion" class="col-sm-4 col-form-label">Recomendacion</label>
+                                    <label for="recomendacion" class="col-sm-4 col-form-label">Resultado</label>
                                     <div class="col-sm-8">
                                         <input wire:model="recomendacion" class="form-control" type="text" value="" id="recomendacion">
                                         @error('recomendacion') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
@@ -52,7 +52,7 @@
                                     </div>                                                                                   
                                 </div>
                                 <div class="form-group row">
-                                    <label for="justificacion" class="col-sm-4 col-form-label">Justificacion</label>
+                                    <label for="justificacion" class="col-sm-4 col-form-label">Recomendacion</label>
                                     <div class="col-sm-8">
                                         <textarea wire:model="justificacion" class="form-control" type="text" value="" id="justificacion"></textarea>
                                         @error('justificacion') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 

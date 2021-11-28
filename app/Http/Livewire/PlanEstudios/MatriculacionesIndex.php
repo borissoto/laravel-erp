@@ -5,6 +5,7 @@ namespace App\Http\Livewire\PlanEstudios;
 use Livewire\Component;
 use Livewire\WithPagination;
 use App\Models\PeMatriculaciones as Model;
+use App\Models\PeResidente;
 use Illuminate\Support\Str;
 
 
@@ -13,13 +14,14 @@ class MatriculacionesIndex extends Component
     use WithPagination;
 
     protected $listeners = [ 'selectedResidencia' => 'createMatriculacion' ];
+    public $residentes;
 
     public $paginate = 10;
 
     public $pe_residente_id;
-   public $pe_residencia_id;
+    public $pe_residencia_id;
 
-   public $residenciaId;
+    public $residenciaId;
 
     public $mode = 'create';
 
@@ -33,12 +35,17 @@ class MatriculacionesIndex extends Component
 
     protected $rules = [
         'pe_residente_id' => 'required',
-        'pe_residencia_id' => 'required',
+        // 'pe_residencia_id' => 'required',
     ];
 
     public function createMatriculacion($residenciaId)
     {
         $this->residenciaId = $residenciaId; 
+    }
+
+    public function mount()
+    {
+        $this->residentes = PeResidente::all();
     }
 
 
@@ -56,7 +63,8 @@ class MatriculacionesIndex extends Component
     {
         $model = Model::where('pe_residente_id', 'like', '%'.$this->search.'%')->
         orWhere('pe_residencia_id', 'like', '%'.$this->search.'%');
-        $model = Model::where('pe_residencia_id', $this->residenciaId)->latest()->paginate($this->paginate);
+        $model = Model::where('pe_residencia_id', $this->residenciaId)->
+        latest()->paginate($this->paginate);
         return view('livewire.planestudios.matriculacion-index', [
             'rows'=> $model
         ]);
@@ -65,6 +73,15 @@ class MatriculacionesIndex extends Component
 
     public function create ()
     {
+
+        $nomatriculados = Model::where('pe_residencia_id','<>', $this->residenciaId)->get();
+        foreach($nomatriculados as $nomatriculado){
+            $residente = PeResidente::find($nomatriculado->pe_residente_id);
+
+            $this->residentes->push($residente);
+        }
+        // dd($this->residentes);
+
         $this->mode = 'create';
         $this->resetForm();
         $this->showForm = true;
@@ -80,7 +97,7 @@ class MatriculacionesIndex extends Component
         $model = Model::find($primaryId);
 
         $this->pe_residente_id= $model->pe_residente_id;
-$this->pe_residencia_id= $model->pe_residencia_id;
+        $this->pe_residencia_id= $model->pe_residencia_id;
 
 
         $this->emit("showForm");
@@ -96,18 +113,18 @@ $this->pe_residencia_id= $model->pe_residencia_id;
 
     public function store()
     {
-          $this->validate();
+        $this->validate();
 
-          $model = new Model();
+        $model = new Model();
 
-             $model->pe_residente_id= $this->pe_residente_id;
-$model->pe_residencia_id= $this->pe_residencia_id;
- $model->save();
+        $model->pe_residente_id= $this->pe_residente_id;
+        $model->pe_residencia_id= $this->residenciaId;
+        $model->save();
 
-          $this->resetForm();
-          $this->emit("hideForm");
-          session()->flash('message', 'Record Saved Successfully');
-          $this->showForm = false;
+        $this->resetForm();
+        $this->emit("hideForm");
+        // session()->flash('message', 'Record Saved Successfully');
+        $this->showForm = false;
 
     }
 
@@ -121,17 +138,17 @@ $this->pe_residencia_id= "";
 
     public function update()
     {
-          $this->validate();
+        $this->validate();
 
-          $model = Model::find($this->primaryId);
+        $model = Model::find($this->primaryId);
 
-             $model->pe_residente_id= $this->pe_residente_id;
-$model->pe_residencia_id= $this->pe_residencia_id;
- $model->save();
+        $model->pe_residente_id= $this->pe_residente_id;
+        $model->pe_residencia_id= $this->pe_residencia_id;
+        $model->save();
 
-          $this->resetForm();
-         $this->emit("hideForm");
-         session()->flash('message', 'Record Updated Successfully');
+        $this->resetForm();
+        $this->emit("hideForm");
+        // session()->flash('message', 'Record Updated Successfully');
     }
 
     public function confirmDelete($primaryId)

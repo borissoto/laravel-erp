@@ -46,14 +46,24 @@
     {{-- <div>
       @yield('kardex') 
     </div> --}}
-    <div class="row">
-        <div class="col-md-6" >
-            @livewire('plan-estudios.residencia-select' )    
+    <div class="content">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-5" >
+                    @livewire('plan-estudios.residencia-select' )    
+                </div>
+                <div class="col-md-1">
+                    
+                </div>
+        
+                <div class="col-md-6">
+                    @livewire('plan-estudios.matriculaciones-index' )
+                </div>
+            </div>
+            
         </div>
 
-        <div class="col-md-6">
-            @livewire('plan-estudios.matriculaciones-index' )
-        </div>
     </div>
 
   

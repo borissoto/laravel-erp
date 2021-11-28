@@ -10,7 +10,7 @@ use Livewire\Component;
 use Livewire\WithPagination;
 use Illuminate\Support\Str;
 use App\Models\PeResidencia as Model;
-
+use App\Models\PeResidente;
 
 class ResidenciaSelect extends Component
 {
@@ -53,6 +53,8 @@ class ResidenciaSelect extends Component
     {
         $this->resetPage();
     }  
+
+  
 
     public function render()
     {

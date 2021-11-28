@@ -31,7 +31,7 @@
     </div>
     <div class="flex row card">
             <div class="card-body">
-                <table class="table table-sm table-bordered table-striped text-sm">
+                <table width="100%" class="table table-sm table-bordered table-striped text-sm">
                     <thead>
                     <tr>
                         

@@ -90,7 +90,7 @@ class KardexSupervision extends Component
        $this->validate([      
            
         'fecha' => 'required',
-        // 'puntaje' => 'max:3',
+        'puntaje' => 'required|numeric|between:1,100',
         // 'recomendacion' => 'required',
         // 'financiamiento' => 'required',
         // 'justificacion' => 'required',
