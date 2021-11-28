@@ -16,11 +16,11 @@ use Illuminate\Support\Facades\Session;
 
 class AdmUserController extends Controller
 {
-    public function logout(){
-        Session::flush();
-        Auth::logout();
-        return Redirect('/');
-    }
+    // public function logout(){
+    //     Session::flush();
+    //     Auth::logout();
+    //     return Redirect('/');
+    // }
 
     public function UserProfile(){
         $id = Auth::user()->id;

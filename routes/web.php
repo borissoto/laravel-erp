@@ -54,7 +54,7 @@ Route::get('/about', function () {
 //     return view('about');
 // })->middleware('check');
 // UserLogout
-Route::get('/logout', [AdmUserController::class, 'logout'])->name('logout');
+// Route::post('/logout', [AdmUserController::class, 'logout'])->name('logout');
 
 
 // User Profile
