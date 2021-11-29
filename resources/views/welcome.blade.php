@@ -11,7 +11,7 @@
         <title>SAFCI</title>
 
          <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
+        <link rel="stylesheet" href="{{asset('freeplugins/fontawesome-free/css/all.min.css')}}">
          <!-- Bootstrap CSS -->
          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
          <link rel="stylesheet" href="/css/mindex.css">
@@ -72,7 +72,7 @@
             <header>
             
                {{-- <div class="container">  --}}
-                    <img src="{{asset('dist/img/topbanner.jpg')}}"  id="banner" alt="Ministerio de Salud de Bolivia">
+                    <img src="{{asset('img/topbanner.jpg')}}"  id="banner" alt="Ministerio de Salud de Bolivia">
                 {{-- </div> --}}
                 <div class="menu_bar">
                     <a href="#" class="bt-menu"><span> <i class="material-icons">menu</i></span>Menú</a>
@@ -306,19 +306,19 @@
                 <div class="Galeria">
                     <div class="row">
                     <div class="imagenes">
-                        <img src="{{asset('dist/img/familia.jpeg')}}" loading="lazy" alt="">
+                        <img src="{{asset('img/familia.jpeg')}}" loading="lazy" alt="">
                     </div>
                     <div class="imagenes">
-                        <img src="{{asset('dist/img/salud.jpeg')}}" loading="lazy" alt="">
+                        <img src="{{asset('img/salud.jpeg')}}" loading="lazy" alt="">
                     </div>
                     <div class="imagenes">
-                        <img src="{{asset('dist/img/familia3.jpeg')}}" loading="lazy" alt="">
+                        <img src="{{asset('img/familia3.jpeg')}}" loading="lazy" alt="">
                     </div>
                     <div class="imagenes">
-                        <img src="{{asset('dist/img/salud1.jpeg')}}" loading="lazy" alt="">
+                        <img src="{{asset('img/salud1.jpeg')}}" loading="lazy" alt="">
                     </div>
                     <div class="imagenes">
-                        <img src="{{asset('dist/img/disc.jpeg')}}" loading="lazy" alt="">
+                        <img src="{{asset('img/disc.jpeg')}}" loading="lazy" alt="">
                     </div>
                 </div>
             </div>
