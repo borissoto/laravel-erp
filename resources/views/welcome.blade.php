@@ -125,7 +125,7 @@
             <div class="tarjetitas">
 
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('dist/img/visita.jpeg')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/visita.jpeg')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">EDUCACION PERMANENTE</h5>
                         <p class="card-text">Curso Estrategias de la Promocion de la Salud Modalidad Virtual Sedunda Version </p>
@@ -133,7 +133,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('dist/img/vacunacion.jpeg')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/vacunacion.jpeg')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Registro</h5>
                         <p class="card-text">ACTIVIDADES DE VACUNACION COVID-19</p>
@@ -141,7 +141,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('dist/img/rastrillaje.jpeg')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/rastrillaje.jpeg')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Rastrillaje</h5>
                         <p class="card-text">REGISTRO DE ACTIVIDADES EN RASTRILLAJE COVID-19</p>
@@ -149,7 +149,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('dist/img/antigeno.jpeg')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/antigeno.jpeg')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Pruebas de Antigeno Nasal</h5>
                         <p class="card-text">REGISTRO DE PRUEBAS DE ANTIGENO NASAL REALIZADAS</p>
@@ -157,7 +157,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('dist/img/brigadas.jpeg')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/brigadas.jpeg')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">BRIGADAS</h5>
                         <p class="card-text">CREA BRIGADAS DE VACUNACION O RASTRILLAJE</p>
@@ -165,7 +165,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('dist/img/responsable.jpeg')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/responsable.jpeg')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">RESPONSABLE</h5>
                         <p class="card-text">NOMBRA RESPONSABLES DE BRIGADAS DE VACUNACION O RASTRILLAJE</p>
@@ -173,7 +173,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('dist/img/produccion.jpeg')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/produccion.jpeg')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">PRODUCCION</h5>
                         <p class="card-text">SUBIR FORMULARIO SEMANAL DE PRODUCCION COVID-19|</p>
@@ -181,7 +181,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('dist/img/sala.jpeg')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/sala.jpeg')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">SALA SITUACIONAL COVID-19</h5>
                         <p class="card-text">CONSOLIDADO DE RESULTADOS</p>
@@ -189,7 +189,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('dist/img/vacunaton.jpeg')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/vacunaton.jpeg')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">VACUNATON EL ALTO</h5>
                         <p class="card-text">MARATON PARA VACUNACION</p>
