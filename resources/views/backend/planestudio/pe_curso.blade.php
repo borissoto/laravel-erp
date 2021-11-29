@@ -10,7 +10,7 @@
               Plan de Estudios
               <small>
               </small>
-              <span class=" text-lg"> - Residencias</span>
+              <span class=" text-lg"> - Temas</span>
               
             </h1>
           </div>
@@ -39,6 +39,9 @@
           </li>
           <li class="nav-item" style="background-color: rgb(73, 131, 185); border-radius: 4px;">
             <a class="nav-link text-light" href="{{route('planestudios.cursos')}}">Temas</a>
+          </li>   
+          <li class="nav-item">
+            <a class="nav-link" href="{{route('planestudios.evaluaciones')}}">Evaluaciones</a>
           </li>   
           
         </ul>

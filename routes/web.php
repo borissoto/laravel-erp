@@ -116,6 +116,7 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::get('/planestudios/residencias', [PlanEstudiosController::class, 'residencias'])->name('planestudios.residencias');   
     Route::get('/planestudios/modulos', [PlanEstudiosController::class, 'modulos'])->name('planestudios.modulos');   
     Route::get('/planestudios/cursos', [PlanEstudiosController::class, 'cursos'])->name('planestudios.cursos'); 
+    Route::get('/planestudios/evaluaciones', [PlanEstudiosController::class, 'evaluaciones'])->name('planestudios.evaluaciones'); 
     //Plan de Estudios
     Route::get('/planestudios/residentes', [PlanEstudiosController::class, 'residentes'])->name('planestudios.residentes');   
     Route::get('/planestudios/matriculaciones', [PlanEstudiosController::class, 'matriculaciones'])->name('planestudios.matriculaciones'); 

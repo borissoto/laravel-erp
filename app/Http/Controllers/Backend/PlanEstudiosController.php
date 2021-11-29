@@ -17,6 +17,9 @@ class PlanEstudiosController extends Controller
     public function cursos(){
         return view('backend.planestudio.pe_curso');
     } 
+    public function evaluaciones(){
+        return view('backend.planestudio.pe_parcial');
+    } 
     
     public function residentes(){
         return view('backend.planestudio.pe_residente');
