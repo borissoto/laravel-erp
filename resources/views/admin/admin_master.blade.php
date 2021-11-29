@@ -7,7 +7,7 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
+  <link rel="stylesheet" href="{{asset('freeplugins/fontawesome-free/css/all.min.css')}}">
    <!-- Ionicons -->
    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
    <!-- overlayScrollbars -->
@@ -15,7 +15,7 @@
   {{-- Tailwind --}}
    {{-- <link rel="stylesheet" href="{{ asset('css/tailwind.css') }}"> --}}
   <!-- fullCalendar -->
-  <link rel="stylesheet" href="{{asset('plugins/fullcalendar/main.css')}}">
+  <link rel="stylesheet" href="{{asset('freeplugins/fullcalendar/main.css')}}">
   <!-- Theme style -->
   {{-- <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}"> --}}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.1/dist/css/adminlte.min.css">
@@ -83,25 +83,25 @@
 <!-- REQUIRED SCRIPTS -->
 
 <!-- jQuery -->
-<script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
+<script src="{{asset('freeplugins/jquery/jquery.min.js')}}"></script>
 <!-- Bootstrap 4 -->
-<script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('freeplugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- jQuery UI -->
-<script src="{{asset('plugins/jquery-ui/jquery-ui.min.js')}}"></script>
+<script src="{{asset('freeplugins/jquery-ui/jquery-ui.min.js')}}"></script>
 <!-- overlayScrollbars -->
 {{-- <script src="{{asset('plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script> --}}
 <!-- AdminLTE App -->
 {{-- <script src="{{asset('dist/js/adminlte.min.js')}}"></script> --}}
 <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.1/dist/js/adminlte.min.js"></script>
 <!-- fullCalendar 2.2.5 -->
-<script src="{{asset('plugins/moment/moment.min.js')}}"></script>
-<script src="{{asset('plugins/fullcalendar/main.js')}}"></script>
-<script src="{{asset('plugins/fullcalendar/locales/es.js')}}"></script>
+<script src="{{asset('freeplugins/moment/moment.min.js')}}"></script>
+<script src="{{asset('freeplugins/fullcalendar/main.js')}}"></script>
+<script src="{{asset('freeplugins/fullcalendar/locales/es.js')}}"></script>
 
 
 
 <!-- ChartJS -->
-<script src="{{asset('plugins/chart.js/Chart.min.js')}}"></script>
+<script src="{{asset('freeplugins/chart.js/Chart.min.js')}}"></script>
 
   @livewireScripts
 
