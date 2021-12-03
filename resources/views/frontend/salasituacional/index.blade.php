@@ -224,12 +224,12 @@
                         </div>
                         <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#mvacunas">Mon. Vacunas</button><br/>
                         <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#nutri">Mon. Micronutrientes</button><br/>
-                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#ce">Comp. Epidemiológico</button><br/>
-                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Prog. Nutrición</button><br/>
-                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Prog E No Transmisibles</button><br/>
-                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Prog. Tuberculosis</button><br/>
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#ce">Comp. Epidemiológico</button><br/>                        
+                        <!-- <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Prog. Nutrición</button><br/> -->
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#enotrans">Prog E No Transmisibles</button><br/>
+                        <!-- <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Prog. Tuberculosis</button><br/>
                         <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Mortalidad</button><br/>
-                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Nacimientos</button><br/>
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Nacimientos</button><br/> -->
                     </div>
 
                         <div class="col-sm-8">    
@@ -627,6 +627,26 @@
               <img src="{{asset('img/sala/ce-1.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
               <img src="{{asset('img/sala/ce-2.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
               <img src="{{asset('img/sala/ce-3.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+
+{{-- --------------------------- ------------------   ENFERMEDADES NO TRANSMISIBLES ------------------------ ------------------ --}}
+<div class="modal fade demografia" id="enotrans"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Canal Epidemiológico</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+                <label for="">IRAS</label>
+              <img src="{{asset('img/sala/iras.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+                <label for="">EDAS</label>
+              <img src="{{asset('img/sala/edas.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">              
           </div>
       </div>
     </div>
