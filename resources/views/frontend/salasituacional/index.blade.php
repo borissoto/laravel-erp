@@ -18,8 +18,8 @@
          <!--datables estilo bootstrap 4 CSS-->  
          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
          <script src="/js/maindex.js"></script>
-         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
  
 
         <!-- Fonts -->
@@ -124,7 +124,7 @@
             </header>
         </div>
 
-        <div class="bg-light pl-5 pr-5 pb-5 pt-4">
+        <div class="bg-light pl-5 pr-5 pb-5 pt-4" >
            
                 <h1 class="text-center">SALA SITUACIONAL</h1>
 
@@ -166,18 +166,88 @@
 
                  <!-- Large modal -->
                  <div class="row">
-                     <div class="col-sm-2">
-                         
-                         <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#mision">Misión</button><br/><br/>
-                         <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#demografia">Demografía</button>
-                     </div>
-                     <div class="col-sm-8">                    
-                         <img src="{{asset('img/sala/mapaparlante.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; width:80%; ">
-                     </div>
-                     <div class="col-sm-2">
-                         <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#vision">Visión</button><br/><br/>
-                         <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#isocrona">Isocronas</button>
-                     </div>
+                    <div class="col-sm-2 bg-white">
+                        <button type="button" class="btn btn-outline-primary btn-sm mt-2 mb-1" style="width: 100%" data-toggle="modal" data-target="#mision">Misión</button><br/>
+                        <button type="button" class="btn btn-outline-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Demografía</button>
+                        <label class="bg-secondary text-light text-center" style="width: 100%">COMP. DE ATENCIÓN</label>
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Prog Nutrición</button><br/>
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Prog E No Transmisibles</button><br/>
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Prog Tuberculosis</button><br/>
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Perfil Epidemiológico</button><br/>
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Mortalidad</button><br/>
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Nacimientos</button><br/>
+                    </div>
+                        <div class="col-sm-8">                    
+                            <img src="{{asset('img/sala/mapaparlante.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; width:80%; ">
+                        </div>
+                    <div class="col-sm-2 bg-white">
+                        <button type="button" class="btn btn-outline-primary btn-sm mt-2 mb-1" style="width: 100%" data-toggle="modal" data-target="#vision">Visión</button><br/>
+                        <button type="button" class="btn btn-outline-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#isocrona">Isocronas</button>
+                        <label class="bg-secondary text-light text-center" style="width: 100%">COMP. DE GESTIÓN</label>
+                        <div class="btn-group" style="width: 100%" >
+                            <button type="button" class="btn btn-primary btn-sm mb-2 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Datos Generales
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#idioma">Idioma Hablado</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#idioma-materno">Idioma Materno</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#km">Distancia Vivienda</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#pie">Tiempo a Pie</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#movil">Tiempo Movilidad</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#responsables">Responsables Llenado</button>                              
+                            </div>
+                        </div>
+                        <div class="btn-group" style="width: 100%" >
+                            <button type="button" class="btn btn-primary btn-sm mb-2 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Determinates Salud
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#tipo">Tipo Vivienda</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#tenencia">Tenencia Vivienda</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#personas">N° Personas</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#agua">Abastecim. Agua</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#excretas">Elim. Excretas</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#basura">Manejo Basura</button>                              
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#ingreso">Ingreso Familiar</button>                              
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#alimentos">Consumo Alimentos</button>                              
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#instruccion">Nivel Instruccion</button>                              
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#riesgo">Rango Riesgo</button>                              
+                            </div>
+                        </div>
+                        <div class="btn-group" style="width: 100%" >
+                            <button type="button" class="btn btn-primary btn-sm mb-2 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Salud Integrantes
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#integrantes">N° Integrantes</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#factores">Factores Riesgo</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#trans">E. Transmisibles</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#notrans">E. No Transmisibles</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#discapacidad">Discapacidad</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#grupo1">Grupo Riesgo I</button>                              
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#grupo2">Grupo Riesgo II</button>                              
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#grupo3">Grupo Riesgo III</button>                              
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#grupo4">Grupo Riesgo IV</button>                              
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#cf">N° Carpetas Fam.</button>                              
+                            </div>
+                        </div>
+
+                        
+                        <div class="btn-group" style="width: 100%" >
+                            <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              A. Socioculturales
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#">Residencia Temporal</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#">Alfabetización Lee</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#">Alfabetización Escribe</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#">Nivel Instrucción</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#">Ocupación</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#">Ocupación Resultados</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#">Contribuye Economia</button>
+                                <button type="button" class="dropdown-item" data-toggle="modal" data-target="#">Medicina Tradicional</button>                              
+                            </div>
+                        </div>
                  </div>
             
 
@@ -252,6 +322,406 @@
 
         
 
+
+
+
+
+{{-- --------------------------- ------------------   DATOS GENERALES ------------------------ ------------------ --}}
+<div class="modal fade demografia" id="idioma"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Idioma</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/dg-idioma.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="idioma-materno"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Idioma Materno</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/dg-idioma-materno.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="km"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Distancia de Vivienda al Establecimiento</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/dg-km.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="pie"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Tiempo a Pie </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/dg-pie.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="movil"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Tiempo en Movilidad</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/dg-movilidad.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="responsables"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Responsables del Llenado</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/dg-responsables.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+
+
+{{-- --------------------------- ------------------   DETERMINATES DE SALUD  ------------------------ ------------------ --}}
+<div class="modal fade demografia" id="tipo"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Tipo de Vivienda</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/ds-tipo.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="tenencia"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Tenencia de Vivienda</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/ds-tenencia.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="personas"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Numero de Personas/Cuarto</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/ds-personas.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="agua"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Abastecimiento de Agua</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/ds-agua.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="excretas"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Eliminacion de Excretas</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/ds-excretas.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="basura"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Manejo de Basura</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/ds-basuras.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="ingreso"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ingreso Familiar</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/ds-ingreso.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="alimentos"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Consumo Diario de Alimentos</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/ds-alimentos.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="instruccion"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Nivel de Instruccion de la Madre</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/ds-instruccion.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="riesgo"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Rangos de Riesgo</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/ds-riesgos.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+
+{{-- --------------------------- ------------------  SALUD INTEGRANTES FAMILIA   ------------------------ ------------------ --}}
+<div class="modal fade demografia" id="integrantes"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Integrantes de la Familia</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/si-integrantes.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="factores"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Factores de Riesgo<h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/si-factores.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="trans"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Enfermedades Transmisibles</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/si-transmisibles.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="notrans"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Enfermedades No Transmisibles</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/si-notrans.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="discapacidad"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Discapacidad</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/si-discapacidad.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="grupo1"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Grupo de Riesgo I </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/si-grupo1.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="grupo2"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Grupo de Riesgo II</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/si-grupo2.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="grupo3"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Grupo de Riesgo III</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/si-grupo3.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="grupo4"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Grupo de Riesgo IV</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/si-grupo4.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade demografia" id="cf"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Carpetas Familiares</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/si-cf.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
 
 
     
