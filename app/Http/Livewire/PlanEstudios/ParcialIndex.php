@@ -25,7 +25,7 @@ class ParcialIndex extends Component
     public $is_children;
     public $gestion;
     public $nom_parcial;
-    public $nota;
+    public $nota_final;
     public $rango_max;
     public $fecha;
     public $docente_calificador=[];
@@ -47,7 +47,7 @@ class ParcialIndex extends Component
         // 'is_children' => 'required',
         // 'gestion' => 'required',
         'nom_parcial' => 'required',
-        // 'nota' => 'required',
+        // 'nota_final' => 'required',
         'rango_max' => 'required',
         // 'fecha' => 'required',
         'docente_calificador' => 'required',
@@ -87,7 +87,7 @@ class ParcialIndex extends Component
         orWhere('is_children', 'like', '%'.$this->search.'%')->
         orWhere('gestion', 'like', '%'.$this->search.'%')->
         orWhere('nom_parcial', 'like', '%'.$this->search.'%')->
-        orWhere('nota', 'like', '%'.$this->search.'%')->
+        orWhere('nota_final', 'like', '%'.$this->search.'%')->
         orWhere('rango_max', 'like', '%'.$this->search.'%')->
         orWhere('docente_calificador', 'like', '%'.$this->search.'%');
         $model = Model::where('pe_curso_id', $this->cursoId)->
@@ -119,7 +119,7 @@ class ParcialIndex extends Component
         $this->is_children= $model->is_children;
         $this->gestion= $model->gestion;
         $this->nom_parcial= $model->nom_parcial;
-        $this->nota= $model->nota;
+        $this->nota_final= $model->nota_final;
         $this->rango_max= $model->rango_max;
         $this->fecha= $model->fecha;
         $this->docente_calificador= $model->docente_calificador;
@@ -146,7 +146,7 @@ class ParcialIndex extends Component
         $model->is_children= $this->is_children;
         $model->gestion= $this->gestion;
         $model->nom_parcial= $this->nom_parcial;
-        $model->nota= $this->nota;
+        $model->nota_final= $this->nota_final;
         $model->rango_max= $this->rango_max;
         $model->fecha= $this->fecha;
         $model->docente_calificador= $this->docente_calificador;
@@ -167,7 +167,7 @@ class ParcialIndex extends Component
         $this->is_children= "";
         $this->gestion= "";
         $this->nom_parcial= "";
-        $this->nota= "";
+        $this->nota_final= "";
         $this->rango_max= "";
         $this->docente_calificador= "";
 
@@ -184,7 +184,7 @@ class ParcialIndex extends Component
         $model->is_children= $this->is_children;
         $model->gestion= $this->gestion;
         $model->nom_parcial= $this->nom_parcial;
-        $model->nota= $this->nota;
+        $model->nota_final= $this->nota_final;
         $model->rango_max= $this->rango_max;
         $model->fecha= $this->fecha;
         $model->docente_calificador= $this->docente_calificador;

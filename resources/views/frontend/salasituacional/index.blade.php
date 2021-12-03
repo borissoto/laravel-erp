@@ -44,7 +44,7 @@
     <body>
         <div id="particles-js"></div>
         
-        {{-- <div class="container"> --}}
+            {{-- <div class="container"> --}}
             
             @if (Route::has('login'))
             <div class="relative flex items-top justify-center h-10 bg-gray-800 sm:items-center py-2 sm:block text-white text-sm">
@@ -68,11 +68,11 @@
                     @endauth
                 {{-- </div> --}}
             </div>
-        @endif
+            @endif
             <header>
             
                {{-- <div class="container">  --}}
-                    <img src="{{asset('img/topbanner.jpg')}}"  id="banner" alt="Ministerio de Salud de Bolivia" style="display: block; margin-left:auto; margin-right:auto; width: 80%;">
+                    {{-- <img src="{{asset('img/topbanner.jpg')}}"  id="banner" alt="Ministerio de Salud de Bolivia" style="display: block; margin-left:auto; margin-right:auto; width: 80%;"> --}}
                 {{-- </div> --}}
                 <div class="menu_bar">
                     <a href="#" class="bt-menu"><span> <i class="material-icons">menu</i></span>Menú</a>
@@ -80,7 +80,7 @@
                 <nav class="navbar" style="background-color: #31487c;">
                     <a class="navbar-brand" href="index1.html">PROGRAMA SAFCI</a>
                     <ul>
-                        <li><a href="#"><span> <i class="fa fa-home"></i></span>Inicio</a></li>
+                        <li><a href="{{ url('/') }}"><span> <i class="fa fa-home"></i></span>Inicio</a></li>
                         <li class="submenu">
                             <a href="#"><span> <i class="fa fa-user-nurse"></i></span>¿Quienes Somos?</a>
                             <ul class="children">
@@ -88,9 +88,9 @@
                                 <li><a href="#">Implementacion SAFCI</a></li>
                             </ul>
                         </li>
-                        <li><a href="{{ route('sala.index')}}"><span> <i class="fa fa-chart-bar"></i></span>Sala Situacional</a></li>
+                        <li><a href=""><span> <i class="fa fa-chart-bar"></i></span>Sala Situacional</a></li>
                         <li class="submenu">
-                            <a href="#"><span> <i class="fa fa-syringe"></i></span>Informacion Covid</a>
+                            <a href="{{ route('sala.index')}}"><span> <i class="fa fa-syringe"></i></span>Informacion Covid</a>
                             <ul class="children">
                                 <li><a href="/descargas/fcov1.5.xlsx">Descarga formulario COVID-19 V. 1.5 <marquee width="300">ULTIMA VERSION</marquee></a></li>
                             <li><a href="/php/covdirect.php">PRODUCCION COVID</a></li>
@@ -122,210 +122,142 @@
                     </ul>
                 </nav>
             </header>
-
-            <div class="tarjetitas">
-
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/visita.jpeg')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">EDUCACION PERMANENTE</h5>
-                        <p class="card-text">Curso Estrategias de la Promocion de la Salud Modalidad Virtual Sedunda Version </p>
-                        
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/vacunacion.jpeg')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Registro</h5>
-                        <p class="card-text">ACTIVIDADES DE VACUNACION COVID-19</p>
-                        
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/rastrillaje.jpeg')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Rastrillaje</h5>
-                        <p class="card-text">REGISTRO DE ACTIVIDADES EN RASTRILLAJE COVID-19</p>
-                        
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/antigeno.jpeg')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Pruebas de Antigeno Nasal</h5>
-                        <p class="card-text">REGISTRO DE PRUEBAS DE ANTIGENO NASAL REALIZADAS</p>
-                        
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/brigadas.jpeg')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">BRIGADAS</h5>
-                        <p class="card-text">CREA BRIGADAS DE VACUNACION O RASTRILLAJE</p>
-                       
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/responsable.jpeg')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">RESPONSABLE</h5>
-                        <p class="card-text">NOMBRA RESPONSABLES DE BRIGADAS DE VACUNACION O RASTRILLAJE</p>
-                       
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/produccion.jpeg')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">PRODUCCION</h5>
-                        <p class="card-text">SUBIR FORMULARIO SEMANAL DE PRODUCCION COVID-19|</p>
-                       
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/sala.jpeg')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">SALA SITUACIONAL COVID-19</h5>
-                        <p class="card-text">CONSOLIDADO DE RESULTADOS</p>
-                       
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/vacunaton.jpeg')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">VACUNATON EL ALTO</h5>
-                        <p class="card-text">MARATON PARA VACUNACION</p>
-                       
-                    </div>
-                </div>
-            </div>
-
-          
         </div>
 
-        <div class="container-lg">
-            <div class="parallax-completo1">
-                
-                <div class="tarjetero">
-                    <div class="card">
-                        <a href="#">
-                            <div class="card-header">
-                                <span><i class="material-icons">map</i></span>
-                                <br>
-                            </div>
-                            <div class="contenido">
-                            <h3>SALA SITUACIONAL</h3>
-                        </a>    
-                            <h4>Comparacion de indicadores de salud segun produccion de servicios del programa SAFCI</h4>
-                        </div>
-                        </div>
-                        <div class="card">
-                            <a href="/php/registrorrhh.php">
-                            <div class="card-header">
-                            <span><i class="material-icons">person_pin</i></span>
-                            </div>
-                            <div class="contenido">
-                            <h3>REGISTRO DE RECURSOS HUMANOS</h3>
-                        </a>
-                            <h4>Registro o modificacion de datos del recurso humano dependiente del programa SAFCI</h4>
-                        </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a href="/aula/">
-                            <span><i class="material-icons">history_edu</i></span>
-                            <br>
-                        </div>
-                        <div class="contenido">
-                                <H3>Aula virtual</H3>
-                            </a>
-                                <h4>Curso de Educacion Permanente</h4>
-                        </div>
-                        </div>
-                        <div class="card">
-                            {{-- <a href="/php/registrorrhh.php"> --}}
-                            <div class="card-header">
-                            <span><i class="material-icons">add_business</i></span>
-                            <br>
-                        </div>
-                        <div class="contenido">
-                            <H3>REGISTRO DE ESTABLECIMIENTOS</H3>
-                        </a>
-                            <h4>Registro o modificacion de Establecimiento de intervencion del Programa SAFCI</h4>
-                        </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                {{-- <a href="/inscripcion/inscripcion.php"> --}}
-                            <span><i class="material-icons">school</i></span>
-                            <br>
-                        </div>
-                        <div class="contenido">
-                                <H3>REGISTRO EDUCACION PERMANENTE</H3>
-                            </a>
-                                <h4>Registro de Cursasntes de Educacion Permanente en SAFCI</h4>
-                            </div>
-                        </div>
-                        
-                        <div class="card">
-                            <div class="card-header">
-                                <a href="/php/301.php">
-                            <span><i class="material-icons">medical_services</i></span>
-                            <br>
-                        </div>
-                        <div class="contenido">
-                            <H3>PRODUCCION DE SERVICIOS</H3>
-                            </a>
-                                <h4>Introduccion a la base de datos de los formularios correspondientes a los cuadernos SNIS</h4>
-                        </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a href="/php/FORMCOVID.php">
-                            <span><i class="material-icons">coronavirus</i></span>
-                            <br>
-                        </div>
-                        <div class="contenido">
-                                <H3>PRODUCCION COVID</H3>
-                            </a>
-                                <h4>Introduccion de informacion proveniente de la produccion de servicios en la contingencia COVID-19</h4>
-                        </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a href="/php/rrhhycovid.php">
-                            <span><i class="material-icons">masks</i></span>
-                            <br>
-                        </div>
-                        <div class="contenido">
-                                <H3>SITUACION RRHH COVID</H3>
-                            </a>
-                            <H4>Registro de la situacion de salud del personal de salud del Programa SAFCI en la Contingencia COVID-19</H4>
-                        </div>
-                        </div>
-                        </div>
-                </div>
-                <div class="Galeria">
-                    <div class="row">
-                    <div class="imagenes">
-                        <img src="{{asset('img/familia.jpeg')}}" loading="lazy" alt="">
+        <div class="bg-light pl-5 pr-5 pb-5 pt-4">
+           
+                <h1 class="text-center">SALA SITUACIONAL</h1>
+
+                <div class='form-group row'>
+                    <label for='adm_departamento_id' class="col-sm-1 col-form-label col-form-label-sm">Departamento</label>
+                    <div class="col-sm-2" >
+                        <select wire:model="adm_departamento_id" id="adm_departamento_id" class="form-control form-control-sm" required>                                        
+                            <option value="">-Elija Departamento-</option>
+                            <option value="1">LA PAZ</option>
+                            <option value="2">ORURO</option>
+                            <option value="3">POTOSI</option>
+                            <option value="4">COCHABAMBA</option>
+                            <option value="5">CHUQUISACA</option>
+                            <option value="6">TARIJA</option>
+                            <option value="7">PANDO</option>
+                            <option value="8">BENI</option>
+                            <option value="9">SANTA CRUZ</option>
+                        </select>                                       
                     </div>
-                    <div class="imagenes">
-                        <img src="{{asset('img/salud.jpeg')}}" loading="lazy" alt="">
+               
+                    <label for='adm_departamento_id' class="col-sm-1 col-form-label col-form-label-sm">Municipio</label>
+                    <div class="col-sm-2" >
+                        <select wire:model="adm_departamento_id" id="adm_departamento_id" class="form-control form-control-sm" required>                                        
+                            <option value="">-Elija Municipio-</option>
+                            <option value="1">LA PAZ</option>
+                            <option value="2">ORURO</option>
+                        </select>                                       
                     </div>
-                    <div class="imagenes">
-                        <img src="{{asset('img/familia3.jpeg')}}" loading="lazy" alt="">
-                    </div>
-                    <div class="imagenes">
-                        <img src="{{asset('img/salud1.jpeg')}}" loading="lazy" alt="">
-                    </div>
-                    <div class="imagenes">
-                        <img src="{{asset('img/disc.jpeg')}}" loading="lazy" alt="">
+        
+                    <label for='adm_departamento_id' class="col-sm-1 col-form-label col-form-label-sm">Establecimiento</label>
+                    <div class="col-sm-2" >
+                        <select wire:model="adm_departamento_id" id="adm_departamento_id" class="form-control form-control-sm" required>                                        
+                            <option value="">-Elija Establecimiento-</option>
+                            <option value="1">LA PAZ</option>
+                            <option value="2">ORURO</option>
+                        </select>                                       
                     </div>
                 </div>
-            </div>
+
+                 <!-- Large modal -->
+                 <div class="row">
+                     <div class="col-sm-2">
+                         
+                         <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#mision">Misión</button><br/><br/>
+                         <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#demografia">Demografía</button>
+                     </div>
+                     <div class="col-sm-8">                    
+                         <img src="{{asset('img/sala/mapaparlante.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; width:80%; ">
+                     </div>
+                     <div class="col-sm-2">
+                         <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#vision">Visión</button><br/><br/>
+                         <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#isocrona">Isocronas</button>
+                     </div>
+                 </div>
+            
+
         </div>
 
-        {{-- </div> --}}
+       
+{{-- mision --}}
+<div class="modal fade demografia" id="mision"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Misión</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="{{asset('img/sala/mision.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+        </div>
+    </div>
+  </div>
+</div>
+{{-- vision --}}
+<div class="modal fade demografia" id="vision"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Visión</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="{{asset('img/sala/vision.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+        </div>
+    </div>
+  </div>
+</div>
+{{-- demografia --}}
+<div class="modal fade demografia" id="demografia"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Demografía</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="{{asset('img/sala/demografia.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+        </div>
+    </div>
+  </div>
+</div>
+
+{{-- Isocrona --}}
+<div class="modal fade" id="isocrona" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Isocronas</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="{{asset('img/sala/isocronas.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; width:80%; margin:20px; ">
+        </div>
+    </div>
+  </div>
+</div>
+
+        
+
+
+
+    
+
+
+
         
             <script src="/js/particles.js"></script>
             <script src="/js/particles-app.js"></script>

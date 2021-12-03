@@ -22,6 +22,7 @@ use App\Http\Controllers\Backend\UserProfileController;
 use App\Http\Controllers\Configuracion\ConfiguracionController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\RrhhCalendarioController;
+use App\Http\Controllers\SalaSituacionalController;
 use App\Http\Controllers\Viaje\AdmViajeController;
 use App\Models\RrhhComisiones;
 use App\Models\User;
@@ -62,6 +63,8 @@ Route::get('/about', function () {
     return view('about');
 });
 
+
+Route::get('/salasituacional', [SalaSituacionalController::class, 'index'])->name('sala.index');   
 // Route::get('/about', function () {
 //     return view('about');
 // })->middleware('check');

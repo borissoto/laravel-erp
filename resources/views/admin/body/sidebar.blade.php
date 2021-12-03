@@ -95,7 +95,7 @@
           </ul>
         </li>
 
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a href="{{ route('calendario.index') }}" class="nav-link">
             <i class="nav-icon far fa-calendar-alt"></i>
             <p>
@@ -108,7 +108,7 @@
             <li class="nav-item"><a href="{{ route('calendario.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Solicitud cronograma</a></li>
             <li class="nav-item"><a href="{{ route('calendario.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Cronogramas Recibidos</a></li>
           </ul>
-        </li>
+        </li> --}}
 
         <li class="nav-header">Modulo Sala Situacional</li> 
         <li class="nav-item">

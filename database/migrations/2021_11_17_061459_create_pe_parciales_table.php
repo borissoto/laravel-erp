@@ -17,13 +17,13 @@ class CreatePeParcialesTable extends Migration
             $table->id();
             $table->unsignedBigInteger('pe_curso_id')->nullable();
             $table->foreign('pe_curso_id')->references('id')->on('pe_cursos')->onDelete('set null');
-            $table->unsignedBigInteger('pe_residente_id')->nullable();
-            $table->foreign('pe_residente_id')->references('id')->on('pe_residentes')->onDelete('set null');
+            // $table->unsignedBigInteger('pe_residente_id')->nullable();
+            // $table->foreign('pe_residente_id')->references('id')->on('pe_residentes')->onDelete('set null');
             $table->unsignedBigInteger('parent_id')->nullable();
             $table->integer('is_children')->nullable();
             $table->string('gestion')->nullable();
             $table->string('nom_parcial')->nullable();
-            $table->decimal('nota')->nullable();           
+            $table->decimal('nota_final')->nullable();           
             $table->decimal('rango_max')->nullable();           
             $table->timestamp('fecha')->nullable();
             $table->unsignedBigInteger('docente_calificador')->nullable();
