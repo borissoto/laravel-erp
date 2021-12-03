@@ -126,7 +126,7 @@
 
         <div class="bg-light pl-5 pr-5 pb-5 pt-4" >
            
-                <h1 class="text-center">SALA SITUACIONAL</h1>
+                <h1 class="text-center" style="font-size: 20px"><b> SALA SITUACIONAL </b> </h1>
 
                 <div class='form-group row'>
                     <label for='adm_departamento_id' class="col-sm-1 col-form-label col-form-label-sm">Departamento</label>
@@ -150,7 +150,7 @@
                         <select wire:model="adm_departamento_id" id="adm_departamento_id" class="form-control form-control-sm" required>                                        
                             <option value="">-Elija Municipio-</option>
                             <option value="1">PATACAMAYA</option>
-                            <option value="2"></option>
+                            
                         </select>                                       
                     </div>
         
@@ -162,6 +162,40 @@
                             <option value="2">ESTABLECIMIENTO DOS</option>
                         </select>                                       
                     </div>
+                </div>
+
+                <div class='form-group row'>
+                    <label for='adm_departamento_id' class="col-sm-1 col-form-label col-form-label-sm">Gestion</label>
+                    <div class="col-sm-2" >
+                        <select wire:model="adm_departamento_id" id="adm_departamento_id" class="form-control form-control-sm" required>                                        
+                            <option value="">-Elija Año-</option>
+                            <option value="1">2020</option>
+                            <option value="2">2021</option>
+                            <option value="3">2022</option>
+                            <option value="4">2023</option>
+                            <option value="5">2024</option>      
+                        </select>                           
+                    </div>
+
+                    <label for='adm_departamento_id' class="col-sm-1 col-form-label col-form-label-sm">Mes</label>
+                    <div class="col-sm-2" >
+                        <select wire:model="adm_departamento_id" id="adm_departamento_id" class="form-control form-control-sm" required>  
+                            <option value="">-Elija Mes-</option>
+                            <option value="2">ENERO</option> 
+                            <option value="3">FEBRERO</option>
+                            <option value="4">MARZO</option>
+                            <option value="5">ABRIL</option>
+                            <option value="6">MAYO</option>
+                            <option value="7">JUNIO</option>
+                            <option value="8">JULIO</option>
+                            <option value="9">AGOSTO</option>
+                            <option value="1">SEPTIEMBRE</option>
+                            <option value="10">OCTUBRE</option>
+                            <option value="11">NOVIEMBRE</option>
+                            <option value="12">DICIEMBRE</option>
+                            </select>                                       
+                    </div>
+                    
                 </div>
 
                  <!-- Large modal -->
@@ -188,17 +222,23 @@
                                 <button type="button" class="dropdown-item" data-toggle="modal" data-target="#pe-60">De 60 a + años</button>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#mvacunas">Monitoreo Vacunas</button><br/>
-                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#nutri">Monitoreo Micronutrientes</button><br/>
-                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Progama Nutrición</button><br/>
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#mvacunas">Mon. Vacunas</button><br/>
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#nutri">Mon. Micronutrientes</button><br/>
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#ce">Comp. Epidemiológico</button><br/>
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Prog. Nutrición</button><br/>
                         <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Prog E No Transmisibles</button><br/>
-                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Progama Tuberculosis</button><br/>
+                        <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Prog. Tuberculosis</button><br/>
                         <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Mortalidad</button><br/>
                         <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Nacimientos</button><br/>
                     </div>
-                        <div class="col-sm-8">                    
+
+                        <div class="col-sm-8">    
+                            <div class="text-center">MAPA PARLANTE</div><br/>
                             <img src="{{asset('img/sala/mapaparlante.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; width:80%; ">
                         </div>
+
+
+
                     <div class="col-sm-2 bg-white">
                         <button type="button" class="btn btn-outline-primary btn-sm mt-2 mb-1" style="width: 100%" data-toggle="modal" data-target="#vision">Visión</button><br/>
                         <button type="button" class="btn btn-outline-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#isocrona">Isocronas</button>
@@ -341,6 +381,7 @@
         </div>
         <div class="modal-body">
             <img src="{{asset('img/sala/demografia.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+            <img src="{{asset('img/sala/demografia1.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
         </div>
     </div>
   </div>
@@ -572,7 +613,24 @@
     </div>
 </div>
 
-
+{{-- --------------------------- ------------------   COMPORTAMIENTO EPIDEMIOLOGICO ------------------------ ------------------ --}}
+<div class="modal fade demografia" id="ce"   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Comportamiento Epidemiológico</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="{{asset('img/sala/ce-1.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+              <img src="{{asset('img/sala/ce-2.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+              <img src="{{asset('img/sala/ce-3.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; ">
+          </div>
+      </div>
+    </div>
+</div>
 
 
 
@@ -1226,6 +1284,8 @@
 </div>
 
 
+<br/>
+<br/>
 
 
         
