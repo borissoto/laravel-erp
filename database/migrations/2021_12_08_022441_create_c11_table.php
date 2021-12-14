@@ -15,9 +15,9 @@ class CreateC11Table extends Migration
     {
         Schema::create('c11', function (Blueprint $table) {
             $table->id();
-            $table->string('establecimiento', 10)->nullable();
-            $table->string('medico', 30)->nullable();
-            $table->string('fconsulta', 10)->nullable();
+            $table->unsignedBigInteger('establecimiento')->nullable();
+            $table->unsignedBigInteger('medico')->nullable();
+            $table->dateTime('fconsulta')->nullable();
             $table->string('hclin', 10)->nullable();
             $table->string('asegurado', 10)->nullable();
             $table->string('apellidosynombres', 60)->nullable();

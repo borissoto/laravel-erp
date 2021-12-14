@@ -15,8 +15,8 @@ class CreateC3Table extends Migration
     {
         Schema::create('c3', function (Blueprint $table) {
             $table->id();            
-            $table->string('establecimiento', 60)->nullable();
-            $table->string('medico', 20)->nullable();
+            $table->unsignedBigInteger('establecimiento')->nullable();
+            $table->unsignedBigInteger('medico')->nullable();
             $table->dateTime('fecha')->nullable();
             $table->string('hclin', 8)->nullable();
             $table->string('noasegurado', 10)->nullable();

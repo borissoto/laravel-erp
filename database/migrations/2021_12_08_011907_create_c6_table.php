@@ -15,12 +15,12 @@ class CreateC6Table extends Migration
     {
         Schema::create('c6', function (Blueprint $table) {
             $table->id();
-            $table->string('establecimiento', 60)->nullable();
-            $table->string('medico', 60)->nullable();
-            $table->string('fecha', 10)->nullable();
+            $table->unsignedBigInteger('establecimiento')->nullable();
+            $table->unsignedBigInteger('medico')->nullable();
+            $table->dateTime('fecha')->nullable();
             $table->string('hclin', 10)->nullable();
             $table->string('asegurado', 10)->nullable();
-            $table->string('apellidosynombres', 60)->nullable();
+            $table->string('apellidosynombres', 250)->nullable();
             $table->string('sexo', 10)->nullable();
             $table->string('fechanac', 10)->nullable();
             $table->string('años', 10)->nullable();
@@ -34,7 +34,7 @@ class CreateC6Table extends Migration
             $table->string('inyectables', 10)->nullable();
             $table->string('sueros', 10)->nullable();
             $table->string('curacionessuturas', 10)->nullable();
-            $table->string('referidoa', 50)->nullable();
+            $table->string('referidoa', 250)->nullable();
             $table->timestamps();
         });
     }

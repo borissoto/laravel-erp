@@ -15,12 +15,12 @@ class CreateC9Table extends Migration
     {
         Schema::create('c9', function (Blueprint $table) {
             $table->id();
-            $table->string('establecimiento', 80)->nullable();
-            $table->string('medico', 80)->nullable();
-            $table->string('fecha', 10)->nullable();
-            $table->string('hclin', 10)->nullable();
-            $table->string('asegurado', 10)->nullable();
-            $table->string('apellidosynombre', 60)->nullable();
+            $table->unsignedBigInteger('establecimiento')->nullable();
+            $table->unsignedBigInteger('medico')->nullable();
+            $table->dateTime('fecha')->nullable();
+            $table->string('hclin', 20)->nullable();
+            $table->string('asegurado', 20)->nullable();
+            $table->string('apellidosynombre', 250)->nullable();
             $table->string('visitasfamiliares', 10)->nullable();
             $table->string('otros', 10)->nullable();
             $table->string('promotores', 10)->nullable();
@@ -28,8 +28,8 @@ class CreateC9Table extends Migration
             $table->string('adultos', 10)->nullable();
             $table->string('jovenes', 10)->nullable();
             $table->string('escolares', 10)->nullable();
-            $table->string('reunioneslugar', 10)->nullable();
-            $table->string('temaactividad', 10)->nullable();
+            $table->string('reunioneslugar')->nullable();
+            $table->string('temaactividad')->nullable();
             $table->string('actividadeducativa', 10)->nullable();
             $table->string('feria', 10)->nullable();
             $table->string('rals', 10)->nullable();
@@ -41,7 +41,7 @@ class CreateC9Table extends Migration
             $table->string('enfermeras', 10)->nullable();
             $table->string('medicos', 10)->nullable();
             $table->string('duracionsupervision', 10)->nullable();
-            $table->string('lugar', 10)->nullable();
+            $table->string('lugar')->nullable();
             $table->string('capacitacion', 10)->nullable();
             $table->string('supervision1', 10)->nullable();
             $table->string('acomunidad', 10)->nullable();

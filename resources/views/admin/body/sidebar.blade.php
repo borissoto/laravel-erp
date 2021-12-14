@@ -129,13 +129,14 @@
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <i class="fas fa-book-medical nav-icon"></i> 
+            <i class="fas fa-book nav-icon"></i> 
             <p>Cuadernos
               <i class="right fas fa-angle-left"></i>
             </p>            
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item"><a href="{{ route('cuadernos.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Importar</a></li>
+            <li class="nav-item"><a href="{{ route('cuadernos.c1')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Cuadernos</a></li>
           </ul>
         </li>
 

@@ -15,9 +15,9 @@ class CreateC10dTable extends Migration
     {
         Schema::create('c10d', function (Blueprint $table) {
             $table->id();
-            $table->string('establecimiento', 10)->nullable();
-            $table->string('medico', 60)->nullable();
-            $table->string('fconsulta', 10)->nullable();
+            $table->unsignedBigInteger('establecimiento')->nullable();
+            $table->unsignedBigInteger('medico')->nullable();
+            $table->dateTime('fconsulta')->nullable();
             $table->string('hclin', 10)->nullable();
             $table->string('asegurado', 10)->nullable();
             $table->string('apellidosynombres', 60)->nullable();

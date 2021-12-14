@@ -20,6 +20,7 @@ use App\Http\Controllers\Backend\RrhhRastrillajeController;
 use App\Http\Controllers\Backend\RrhhVacunaController;
 use App\Http\Controllers\Backend\UserProfileController;
 use App\Http\Controllers\Configuracion\ConfiguracionController;
+use App\Http\Controllers\Helpers\CuadernosController;
 use App\Http\Controllers\Helpers\CuadernosImportController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\RrhhCalendarioController;
@@ -196,7 +197,18 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     
     Route::post('/cuadernos/import', [CuadernosImportController::class, 'store']);
 
-      
+    Route::get('/cuadernos/c1', [CuadernosController::class, 'c1'])->name('cuadernos.c1');   
+    Route::get('/cuadernos/c2', [CuadernosController::class, 'c2'])->name('cuadernos.c2');   
+    Route::get('/cuadernos/c3', [CuadernosController::class, 'c3'])->name('cuadernos.c3');   
+    Route::get('/cuadernos/c4', [CuadernosController::class, 'c4'])->name('cuadernos.c4');   
+    Route::get('/cuadernos/c5', [CuadernosController::class, 'c5'])->name('cuadernos.c5');   
+    Route::get('/cuadernos/c6', [CuadernosController::class, 'c6'])->name('cuadernos.c6');   
+    Route::get('/cuadernos/c9', [CuadernosController::class, 'c9'])->name('cuadernos.c9');   
+    Route::get('/cuadernos/c10d', [CuadernosController::class, 'c10d'])->name('cuadernos.c10d');   
+    Route::get('/cuadernos/c10f', [CuadernosController::class, 'c10f'])->name('cuadernos.c10f');   
+    Route::get('/cuadernos/c11', [CuadernosController::class, 'c11'])->name('cuadernos.c11');   
+    Route::get('/cuadernos/c12', [CuadernosController::class, 'c12'])->name('cuadernos.c12');   
+     
 });
 
 

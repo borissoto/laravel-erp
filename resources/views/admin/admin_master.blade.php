@@ -43,6 +43,10 @@
     not good for mobile browser. 
     .modal { overflow: auto !important;}
     */
+
+    .xsmall{
+      font-size: 10px;
+    }
     
     </style>
     

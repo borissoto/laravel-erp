@@ -29,6 +29,12 @@ class CuadernosImport implements WithMultipleSheets
             'C3' => new C3Sheet($this->data),
             'C4' => new C4Sheet($this->data),
             'C5' => new C5Sheet($this->data),
+            'C6' => new C6Sheet($this->data),
+            'C9' => new C9Sheet($this->data),
+            'C10D' => new C10dSheet($this->data),
+            'C10F' => new C10fSheet($this->data),
+            'C11' => new C11Sheet($this->data),
+            'C12' => new C12Sheet($this->data),
         ];
     }
 

@@ -15,8 +15,8 @@ class CreateC5Table extends Migration
     {
         Schema::create('c5', function (Blueprint $table) {
             $table->id();
-            $table->string('establecimiento', 60)->nullable();
-            $table->string('medico', 20)->nullable();
+            $table->unsignedBigInteger('establecimiento')->nullable();
+            $table->unsignedBigInteger('medico')->nullable();
             $table->dateTime('fecha')->nullable();
             $table->string('hclin', 10)->nullable();
             $table->string('asegurado', 10)->nullable();

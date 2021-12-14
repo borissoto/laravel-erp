@@ -15,8 +15,8 @@ class CreateC1Table extends Migration
     {
         Schema::create('c1', function (Blueprint $table) {
             $table->id();
-            $table->string('establecimiento', 60)->nullable(); 
-            $table->string('medico', 60)->nullable(); 
+            $table->unsignedBigInteger('establecimiento')->nullable(); 
+            $table->unsignedBigInteger('medico')->nullable(); 
             $table->dateTime('fecha')->nullable(); 
             $table->string('hclin', 10)->nullable(); 
             $table->string('noasegurado', 15)->nullable(); 

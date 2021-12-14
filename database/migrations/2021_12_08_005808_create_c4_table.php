@@ -15,8 +15,8 @@ class CreateC4Table extends Migration
     {
         Schema::create('c4', function (Blueprint $table) {
             $table->id();
-            $table->string('establecimiento', 60)->nullable();
-            $table->string('medico', 60)->nullable();
+            $table->unsignedBigInteger('establecimiento')->nullable();
+            $table->unsignedBigInteger('medico')->nullable();
             $table->datetime('fecha')->nullable();
             $table->string('hclin', 10)->nullable();
             $table->string('noasegurado', 10)->nullable();
