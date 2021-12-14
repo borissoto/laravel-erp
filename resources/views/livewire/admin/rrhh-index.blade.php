@@ -75,6 +75,22 @@
                                 </th>
                                 <th>CI</th>
                                 <th>Cargo</th>
+                                <th>Docente</th>
+                                <th>Establecimiento
+                                    <button wire:click="sorteable('adm_establecimiento_id')" class="border-0">
+                                        <span class="fa fa{{$campo === 'adm_establecimiento_id' ? $icon : '-sort'}}"></span>                                         
+                                    </button>
+                                </th>
+                                <th>Mun EESS
+                                    <button wire:click="sorteable('ap_materno')" class="border-0">
+                                        <span class="fa fa{{$campo === 'ap_materno' ? $icon : '-sort'}}"></span>                                         
+                                    </button>
+                                </th>
+                                <th>Depto EESS
+                                    <button wire:click="sorteable('ap_materno')" class="border-0">
+                                        <span class="fa fa{{$campo === 'ap_materno' ? $icon : '-sort'}}"></span>                                         
+                                    </button>
+                                </th>
                                 <th>Telefono</th>
                                 <th>Acciones</th>
                             </tr>
@@ -89,7 +105,23 @@
                                 <td class="align-middle">{{ $user->ap_paterno}}</td>
                                 <td class="align-middle">{{ $user->ap_materno}}</td>
                                 <td class="align-middle">{{ $user->ci}}</td>                               
-                                <td class="align-middle">{{ $user->cargos->nom_cargo}}</td>                               
+                                <td class="align-middle">{{ $user->cargos->nom_cargo}}</td>  
+                                <td class="align-middle">{{ $user->docente}}</td>  
+                                @if ($user->establecimiento === 0 || $user->establecimiento === null)                             
+                                    <td class="align-middle"><span class="badge bg-secondary">No EESS</span></td>
+                                @else
+                                    <td class="align-middle">{{ $user->establecimiento->nom_establecimiento}}</td>
+                                @endif
+                                @if ($user->establecimiento === 0 || $user->establecimiento === null)                             
+                                    <td class="align-middle"><span class="badge bg-secondary">No Mun</span></td>
+                                @else
+                                    <td class="align-middle">{{ $user->establecimiento->municipio->nom_municipio}}</td>
+                                @endif
+                                @if ($user->establecimiento === 0 || $user->establecimiento === null)                             
+                                <td class="align-middle"><span class="badge bg-secondary">No Depto</span></td>
+                                @else
+                                    <td class="align-middle">{{ $user->establecimiento->departamento->nom_departamento}}</td>
+                                @endif                                   
                                 <td class="align-middle">{{ $user->telefono}}</td>                               
                                 <td width="20px">
                                     <div class="btn-group">

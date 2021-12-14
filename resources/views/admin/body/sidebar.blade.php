@@ -105,7 +105,7 @@
             </p>
           </a>
           <ul class="nav nav-treeview">            
-            <li class="nav-item"><a href="{{ route('calendario.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Solicitud cronograma</a></li>
+            <li class="nav-item"><a href="{{ route('calendario.index') }}" class="nav-link"><i class="fas  nav-icon"></i>Solicitud cronograma</a></li>
             <li class="nav-item"><a href="{{ route('calendario.index') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Cronogramas Recibidos</a></li>
           </ul>
         </li> --}}
@@ -125,6 +125,17 @@
             <li class="nav-item"><a href="{{ route('vacunas.index')}}" class="nav-link"><i class="fas fa-syringe nav-icon"></i>Lista Vacunas</a></li>
                      
             
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-book-medical nav-icon"></i> 
+            <p>Cuadernos
+              <i class="right fas fa-angle-left"></i>
+            </p>            
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item"><a href="{{ route('cuadernos.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Importar</a></li>
           </ul>
         </li>
 

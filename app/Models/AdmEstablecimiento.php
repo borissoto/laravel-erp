@@ -45,7 +45,9 @@ class AdmEstablecimiento extends Model
         return $this->hasMany(AdmComunidades::class);
     }
 
-    public function establecimientos(){
-        return $this->hasMany(RrhhEstablecimientoUser::class);
+    public function user(){
+        return $this->belongsTo(User::class);
     }
+
+    
 }

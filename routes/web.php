@@ -20,6 +20,7 @@ use App\Http\Controllers\Backend\RrhhRastrillajeController;
 use App\Http\Controllers\Backend\RrhhVacunaController;
 use App\Http\Controllers\Backend\UserProfileController;
 use App\Http\Controllers\Configuracion\ConfiguracionController;
+use App\Http\Controllers\Helpers\CuadernosImportController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\RrhhCalendarioController;
 use App\Http\Controllers\SalaSituacionalController;
@@ -184,6 +185,17 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::resource('/municipios', AdmMunicipioController::class)->names('municipios');
     // Comunidades
     Route::resource('/comunidades', AdmComunidadController::class)->names('comunidades');
+
+
+    /*************Cuadernos*******************/
+
+    Route::get('/cuadernos/import', [CuadernosImportController::class, 'show'])->name('cuadernos.index');
+    Route::get('/getMunicipio/{id}', [CuadernosImportController::class, 'getMunicipio']);
+    Route::get('/getEstablecimiento/{id}', [CuadernosImportController::class, 'getEstablecimiento']);
+    Route::get('/getMedico/{id}', [CuadernosImportController::class, 'getMedico']);
+    
+    Route::post('/cuadernos/import', [CuadernosImportController::class, 'store']);
+
       
 });
 
