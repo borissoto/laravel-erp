@@ -2,6 +2,7 @@
 
 namespace App\Http\Livewire\Admin;
 
+use App\Exports\UsersExport;
 use App\Models\AdmDepartamento;
 use App\Models\AdmEstablecimiento;
 use App\Models\AdmMunicipio;
@@ -10,6 +11,8 @@ use Illuminate\Support\Facades\Hash;
 use Livewire\Component;
 use Livewire\WithPagination;
 use Illuminate\Support\Str;
+use Maatwebsite\Excel\Facades\Excel;
+use Symfony\Component\HttpFoundation\Response;
 
 class RrhhIndex extends Component
 {
@@ -176,13 +179,13 @@ class RrhhIndex extends Component
        $this->validate([           
             
             'name' => 'required|unique:users',
-            'email' => 'required',            
+            'email' => 'required|unique:users,email',            
             'password' => 'required|min:6',                                    
             'nombres' => 'required',
             'ap_paterno' => 'required',
-            'ap_materno' => 'required',
+            // 'ap_materno' => 'required',
             'adm_departamento_id'=> 'required',
-            'ci' => 'required|min:5|max:9',                        
+            'ci' => 'required|numeric|min:5|max:9|unique:users',                        
             'sexo' => 'required',
             // 'fecha_nac' => 'required',
             'telefono' => 'required',
@@ -227,5 +230,12 @@ class RrhhIndex extends Component
         $this->resetInputFields();
         $this->dispatchBrowserEvent('closeRrhhStore');
 
+    }
+
+    public function export($ext)
+    {
+        abort_if(!in_array($ext, ['csv', 'xlsx', 'pdf']), Response::HTTP_NOT_FOUND);
+        
+        return Excel::download(new UsersExport, 'usuarios_exportados.' . $ext);
     }
 }

@@ -162,7 +162,7 @@
                                 <div class="form-group row">
                                     <label for="obs" class="col-sm-2 col-form-label col-form-label-sm">Observaciones</label>
                                     <div class="col-sm-10">
-                                        <input wire:model="obs" class="form-control form-control-sm" type="textarea" value="" id="obs">
+                                        <input wire:model="obs" class="form-control form-control-sm" type="textarea">
                                     </div>
                                                                                    
                                 </div>                                                                    

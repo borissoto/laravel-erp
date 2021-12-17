@@ -88,13 +88,13 @@ class KardexIndex extends Component
     public function update()
     {
         $this->validate([
-            'name' => 'required',
-            'email' => 'required',            
-            'password' => 'required',                                    
+            'name' => 'required|unique:users,name,'.$this->user_id,
+            'email' => 'required|unique:users,email,'.$this->user_id,            
+            'password' => 'required|min:6',                                    
             'nombres' => 'required',
             'ap_paterno' => 'required',
-            'ap_materno' => 'required',
-            'ci' => 'required|min:5|max:9',                        
+            // 'ap_materno' => 'required',
+            'ci' => 'required|digits_between:5,9|unique:users,ci,'.$this->user_id,                        
             'sexo' => 'required',
             // 'fecha_nac' => 'required',
             'telefono' => 'required',
@@ -159,5 +159,12 @@ class KardexIndex extends Component
         $this->obs = '';
         
 
+    }
+
+    public function closeForm()
+    {
+        $this->resetInputFields();
+
+        $this->emit('closeKardexInfoUpdate');        
     }
 }

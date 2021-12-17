@@ -1,5 +1,5 @@
 <div>
-    
+    <x-loading />
     @include('livewire.modals.rrhh.create')
     @include('livewire.modals.rrhh.update')
     @if (session()->has('message'))
@@ -16,6 +16,7 @@
                 <div class="card-header bg-light">
                     <h3 class="card-title"></h3> 
                     {{-- <input wire:model="search" type="form-control" placeholder="Buscar..." > --}}
+                    
                     <div class="d-inline-flex ">
                         <select wire:model="perPage" class="form-control-sm text-secondary border-1"> 
                             <option value="5">5 por página</option>
@@ -28,9 +29,29 @@
                     </div>
                     <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#rrhhCreate">
                         Nuevo
-                      </button>
-    
-                    <div class="card-tools">
+                    </button>
+                    <button class="btn btn-secondary uppercase mr-1"
+                            type="button"
+                            wire:click="export('csv')"
+                            wire:loading.attr="disabled">
+                            CSV
+                        </button>
+                        <button
+                            class="btn btn-secondary uppercase mr-1"
+                            type="button"
+                            wire:click="export('xlsx')"
+                            wire:loading.attr="disabled">
+                            XLS
+                        </button>
+                        <button
+                            class="btn btn-secondary uppercase mr-1"
+                            type="button"
+                            wire:click="export('pdf')"
+                            wire:loading.attr="disabled">
+                            PDF
+                        </button>
+                    
+                    <div class="card-tools">                    
                         <div class="input-group input-group-sm " style="width: 150px;">
                           <input wire:model="search" class="form-control float-right" placeholder="Buscar...">  
                           <div class="input-group-append">
@@ -38,10 +59,7 @@
                               <i class="fas fa-search"></i>
                             </button>
                           </div>
-                        </div>
-    
-                       
-                      </div>
+                    </div>
                     
                 </div>
                 @if($users->count())
