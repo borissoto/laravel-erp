@@ -1328,17 +1328,187 @@
             function initMap(){
                 var options = {
                     zoom:6,
-                    center:{lat:-17.413977, lng:-66.165321}
+                    center:{lat:-17.413977, lng:-66.165321},
+                    zoomControl: true,
+                    zoomControlOptions: {
+                        style: google.maps.ZoomControlStyle.DEFAULT,
+                    },
+                    disableDoubleClickZoom: true,
+                    mapTypeControl: false,
+                    scaleControl: true,
+                    scrollwheel: true,
+                    panControl: true,
+                    streetViewControl: true,
+                    draggable: true,
+                    overviewMapControl: true,
+                    overviewMapControlOptions: {
+                        opened: false,
+                    },
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    styles: [
+                {
+                    "featureType": "administrative",
+                    "elementType": "labels",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "administrative.country",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "administrative.province",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "visibility": "on"
+                        },
+                        {
+                            "color": "#e3e3e3"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape.natural",
+                    "elementType": "labels",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "color": "#cccccc"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "labels",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit",
+                    "elementType": "labels.icon",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit.line",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit.line",
+                    "elementType": "labels.text",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit.station.airport",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit.station.airport",
+                    "elementType": "labels",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "labels",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
                 }
+            ],
+                }
+
+       
 
                 const map = new google.maps.Map(document.getElementById('map'), options);
 
-                const ctaLayer = new google.maps.KmlLayer({
-                    url: "https://borissoto.com/img/kmz/cocapata.kml",                    
-                    //  url: "https://drive.google.com/file/d/1F3s2aQStR4TPLmIe59-vBBeQXlp8N86m",                    
-                    // url: "https://googlearchive.github.io/js-v2-samples/ggeoxml/cta.kml",                  
-                    map: map,
+                         	//setting overlay color, etc.
+                map.data.setStyle({
+                    // fillColor: 'white',
+                    strokeWeight: 2,
+                    strokeColor: '#448CCB',
+                    fillOpacity: 0.4
                 });
+                map.data.loadGeoJson('/img/kmz/Morochata.geojson');
+                map.data.loadGeoJson('/img/kmz/Cocapata.geojson');
+                map.data.loadGeoJson('/img/kmz/Quillacollo.geojson');
+
+                // const ctaLayer = new google.maps.KmlLayer({
+                //     url: "http://drive.google.com/uc?export=download&id=1MCeDfcIvcMAcdl9YJnYSYn3a2_LhsqT0",
+                //     // url: "http://drive.google.com/file/d/1MCeDfcIvcMAcdl9YJnYSYn3a2_LhsqT0/view?usp=sharing",
+                //     //  url: "https://drive.google.com/file/d/1F3s2aQStR4TPLmIe59-vBBeQXlp8N86m",                    
+                //     // url: "https://googlearchive.github.io/js-v2-samples/ggeoxml/cta.kml",                  
+                //     map: map,
+                // });
 
             }
         </script>
