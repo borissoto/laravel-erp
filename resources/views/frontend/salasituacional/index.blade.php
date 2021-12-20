@@ -234,7 +234,8 @@
 
                         <div class="col-sm-8">    
                             <div class="text-center">MAPA PARLANTE</div><br/>
-                            <img src="{{asset('img/sala/mapaparlante.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; width:80%; ">
+                            {{-- <img src="{{asset('img/sala/mapaparlante.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; width:80%; "> --}}
+                            <div id="map"  style="display: block; margin-left:auto; margin-right:auto; height:600px; width:80%; "></div>
                         </div>
 
 
@@ -1322,6 +1323,27 @@
         
           gtag('config', 'G-QEZ5LT90RD');
         </script>
+
+        <script>
+            function initMap(){
+                var options = {
+                    zoom:6,
+                    center:{lat:-17.413977, lng:-66.165321}
+                }
+
+                const map = new google.maps.Map(document.getElementById('map'), options);
+
+                const ctaLayer = new google.maps.KmlLayer({
+                    url: "https://borissoto.com/img/kmz/cocapata.kml",                    
+                    //  url: "https://drive.google.com/file/d/1F3s2aQStR4TPLmIe59-vBBeQXlp8N86m",                    
+                    // url: "https://googlearchive.github.io/js-v2-samples/ggeoxml/cta.kml",                  
+                    map: map,
+                });
+
+            }
+        </script>
+
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwC0dKzZNKNbnzsslPYLNSExYd8uLqRIk&callback=initMap"></script>
     </body>
 
     <footer>

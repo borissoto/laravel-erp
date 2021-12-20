@@ -57,6 +57,8 @@ class RrhhIndex extends Component
     public $campo = null;
     public $order = null;
     public $icon = '-sort';
+
+    public $cargocampo = null;
     // public $showModal = 'hidden';
 
     protected $paginationTheme = "bootstrap";
@@ -88,7 +90,10 @@ class RrhhIndex extends Component
     public function render()
     {
 
-        $users = User::where('name', 'LIKE', '%' . $this->search . '%')
+        $users = User::whereRelation('establecimiento', 'nom_establecimiento', 'LIKE', '%' . $this->search . '%')
+        ->orWhereRelation('establecimiento.municipio', 'nom_municipio', 'LIKE', '%' . $this->search . '%')
+        ->orWhereRelation('establecimiento.municipio.departamento', 'nom_departamento', 'LIKE', '%' . $this->search . '%')
+        ->orWhere('name', 'LIKE', '%' . $this->search . '%')
         ->orWhere('nombres','LIKE', '%' . $this->search . '%')
         ->orWhere('ap_paterno','LIKE', '%' . $this->search . '%')
         ->orWhere('ap_materno','LIKE', '%' . $this->search . '%')
@@ -97,6 +102,11 @@ class RrhhIndex extends Component
         if ($this->campo && $this->order) {
             $users = $users->orderBy($this->campo, $this->order);
         }
+
+        if ($this->cargocampo && $this->order) {
+            $users = $users->whereRelation('cargos', 'nom_cargo')->orderBy('nom_cargo', $this->order);
+        }
+
         $users = $users->latest()->paginate($this->perPage);
 
         return view('livewire.admin.rrhh-index', compact('users'));
@@ -122,6 +132,29 @@ class RrhhIndex extends Component
                 break;
         }
         $this->campo = $campo;
+    }
+
+    public function cargo($cargo)
+    {      
+        if($cargo !== $this->cargocampo){
+            $this->order = null;
+        }
+
+        switch($this->order){
+            case null:
+                $this->order ='asc';
+                $this->icon = '-sort-up';
+                break;
+            case 'asc':
+                $this->order = 'desc';
+                $this->icon = '-sort-down';
+                break;
+            case 'desc':
+                $this->order = null;
+                $this->icon = '-sort';
+                break;
+        }
+        $this->cargocampo = $cargo;
     }
 
 
