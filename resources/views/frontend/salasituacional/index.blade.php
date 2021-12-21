@@ -1503,15 +1503,18 @@
                 // map.data.loadGeoJson('/img/kmz/Cocapata.geojson');
                 // map.data.loadGeoJson('/img/kmz/Quillacollo.geojson');
                 // map.data.loadGeoJson('/img/kmz/Colcapirhua.geojson');
-                map.data.loadGeoJson('/img/kmz/bn.geojson');
-                map.data.loadGeoJson('/img/kmz/cbba.geojson');
-                map.data.loadGeoJson('/img/kmz/ch.geojson');
-                map.data.loadGeoJson('/img/kmz/lp.geojson');
-                map.data.loadGeoJson('/img/kmz/or.geojson');
-                map.data.loadGeoJson('/img/kmz/pn.geojson');
-                map.data.loadGeoJson('/img/kmz/pt.geojson');
-                map.data.loadGeoJson('/img/kmz/sc.geojson');
-                map.data.loadGeoJson('/img/kmz/tj.geojson');
+                map.data.loadGeoJson('/img/kmz/bn-sm.geojson');
+           
+                map.data.loadGeoJson('/img/kmz/cbba-sm.geojson');
+                map.data.loadGeoJson('/img/kmz/ch-sm.geojson');
+                map.data.loadGeoJson('/img/kmz/lp-sm.geojson');
+                map.data.loadGeoJson('/img/kmz/or-sm.geojson');
+                map.data.loadGeoJson('/img/kmz/pn-sm.geojson');
+                map.data.loadGeoJson('/img/kmz/pt-sm.geojson');
+                map.data.loadGeoJson('/img/kmz/sc-sm.geojson');
+                map.data.loadGeoJson('/img/kmz/tj-sm.geojson');
+
+                
                 
 
                 // const ctaLayer = new google.maps.KmlLayer({
