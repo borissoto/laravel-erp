@@ -1498,9 +1498,21 @@
                     strokeColor: '#448CCB',
                     fillOpacity: 0.4
                 });
-                map.data.loadGeoJson('/img/kmz/Morochata.geojson');
-                map.data.loadGeoJson('/img/kmz/Cocapata.geojson');
-                map.data.loadGeoJson('/img/kmz/Quillacollo.geojson');
+                // Cochabamba
+                // map.data.loadGeoJson('/img/kmz/Morochata.geojson');
+                // map.data.loadGeoJson('/img/kmz/Cocapata.geojson');
+                // map.data.loadGeoJson('/img/kmz/Quillacollo.geojson');
+                // map.data.loadGeoJson('/img/kmz/Colcapirhua.geojson');
+                map.data.loadGeoJson('/img/kmz/bn.geojson');
+                map.data.loadGeoJson('/img/kmz/cbba.geojson');
+                map.data.loadGeoJson('/img/kmz/ch.geojson');
+                map.data.loadGeoJson('/img/kmz/lp.geojson');
+                map.data.loadGeoJson('/img/kmz/or.geojson');
+                map.data.loadGeoJson('/img/kmz/pn.geojson');
+                map.data.loadGeoJson('/img/kmz/pt.geojson');
+                map.data.loadGeoJson('/img/kmz/sc.geojson');
+                map.data.loadGeoJson('/img/kmz/tj.geojson');
+                
 
                 // const ctaLayer = new google.maps.KmlLayer({
                 //     url: "http://drive.google.com/uc?export=download&id=1MCeDfcIvcMAcdl9YJnYSYn3a2_LhsqT0",
