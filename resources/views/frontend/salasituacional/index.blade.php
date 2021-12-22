@@ -198,9 +198,9 @@
                     
                 </div>
 
-                 <!-- Large modal -->
+                 
                  <div class="row">
-                    <div class="col-sm-2 bg-white">
+                    <div class="col-sm-3 bg-white">
                         <button type="button" class="btn btn-outline-primary btn-sm mt-2 mb-1" style="width: 100%" data-toggle="modal" data-target="#mision">Misión</button><br/>
                         <button type="button" class="btn btn-outline-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Demografía</button>
                         <label class="bg-secondary text-light text-center" style="width: 100%">COMP. DE ATENCIÓN</label>
@@ -232,15 +232,15 @@
                         <button type="button" class="btn btn-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#demografia">Nacimientos</button><br/> -->
                     </div>
 
-                        <div class="col-sm-8">    
-                            <div class="text-center">MAPA PARLANTE</div><br/>
+                        <div class="col-sm-6">    
+                            <div class="text-center">MAPA PARLANTE <span id="info-mun" style="font-weight: bolder; text-transform:uppercase;"></span> </div><br/>
                             {{-- <img src="{{asset('img/sala/mapaparlante.jpg')}}"  style="display: block; margin-left:auto; margin-right:auto; width:80%; "> --}}
-                            <div id="map"  style="display: block; margin-left:auto; margin-right:auto; height:600px; width:80%; "></div>
+                            <div id="map"  style="display: block; margin-left:auto; margin-right:auto; height:680px; width:100%; "></div>
                         </div>
 
 
 
-                    <div class="col-sm-2 bg-white">
+                    <div class="col-sm-3 bg-white">
                         <button type="button" class="btn btn-outline-primary btn-sm mt-2 mb-1" style="width: 100%" data-toggle="modal" data-target="#vision">Visión</button><br/>
                         <button type="button" class="btn btn-outline-primary btn-sm mb-2" style="width: 100%" data-toggle="modal" data-target="#isocrona">Isocronas</button>
                         <label class="bg-secondary text-light text-center" style="width: 100%">COMP. DE GESTIÓN</label>
@@ -1309,6 +1309,9 @@
 <br/>
 
 
+
+
+
         
             <script src="/js/particles.js"></script>
             <script src="/js/particles-app.js"></script>
@@ -1328,7 +1331,8 @@
             function initMap(){
                 var options = {
                     zoom:6,
-                    center:{lat:-17.413977, lng:-66.165321},
+                    // center:{lat:-17.413977, lng:-66.165321},
+                    center:{lat:-16.290154, lng:-63.588653},
                     zoomControl: true,
                     zoomControlOptions: {
                         style: google.maps.ZoomControlStyle.DEFAULT,
@@ -1494,7 +1498,7 @@
                          	//setting overlay color, etc.
                 map.data.setStyle({
                     // fillColor: 'white',
-                    strokeWeight: 2,
+                    strokeWeight: 1,
                     strokeColor: '#448CCB',
                     fillOpacity: 0.4
                 });
@@ -1514,7 +1518,42 @@
                 map.data.loadGeoJson('/img/kmz/sc-sm.geojson');
                 map.data.loadGeoJson('/img/kmz/tj-sm.geojson');
 
+                map.data.addListener('mouseover', function(event) {
+                    map.data.revertStyle();
+                    map.data.overrideStyle(event.feature, {strokeWeight: 3, fillColor: 'white'});                    
+                });
                 
+                map.data.addListener('mouseout', function(event) {
+                    map.data.revertStyle();
+                });
+
+                let infowindow = new google.maps.InfoWindow({
+                    content: "municipio"
+                });
+
+                map.data.addListener('click', function(event) {
+                    console.log(event);
+                    document.getElementById('info-mun').textContent = event.feature.getProperty('name');
+                    zoomLevel = map.getZoom();
+                    if(zoomLevel <= 6){
+                        var center = new google.maps.LatLng(event.latLng);
+                        map.setCenter(center);
+                        map.setZoom(8);                       
+
+                    }else{
+                        var center = new google.maps.LatLng(-16.290154, -63.588653);
+                        map.setCenter(center);
+                        map.setZoom(6);
+                    }
+
+                    let nameMunicipio = event.feature.getProperty('description');
+                    infowindow.setContent(nameMunicipio);
+                    infowindow.setPosition(event.latLng);
+                    infowindow.setOptions({
+                        pixelOffset: new google.maps.Size(1, 1)
+                    }); // move the infowindow up slightly to the top of the marker icon
+                    infowindow.open(map);
+                });
                 
 
                 // const ctaLayer = new google.maps.KmlLayer({
