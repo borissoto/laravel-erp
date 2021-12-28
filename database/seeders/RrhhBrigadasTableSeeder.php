@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 
 class RrhhBrigadasTableSeeder extends Seeder
 {
@@ -17,9 +16,9 @@ class RrhhBrigadasTableSeeder extends Seeder
     {
         
 
-        DB::table('rrhh_brigadas')->delete();
+        \DB::table('rrhh_brigadas')->delete();
         
-        DB::table('rrhh_brigadas')->insert(array (
+        \DB::table('rrhh_brigadas')->insert(array (
             0 => 
             array (
                 'id' => 2,
@@ -27,7 +26,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'nom_brigada' => 'EMI',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 30,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -38,7 +37,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'nom_brigada' => 'MONOBLOCK',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 30,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -49,7 +48,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'nom_brigada' => 'FACULTAD DE MEDICINA',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 30,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -60,7 +59,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'nom_brigada' => 'JUAN XXIII',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 30,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -71,7 +70,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'nom_brigada' => 'METODISTA',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 30,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -82,7 +81,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'nom_brigada' => 'UDABOL',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 251,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -93,7 +92,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'nom_brigada' => 'METODISTA',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 30,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -104,7 +103,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'nom_brigada' => 'FEICOBOL',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 117,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -115,7 +114,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'nom_brigada' => 'ESCUELA TECNICA',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 117,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -126,7 +125,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'nom_brigada' => 'PAI SEDES BENI',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 307,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -302,7 +301,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'nom_brigada' => 'BRIGADA CERCADO',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 307,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -313,7 +312,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'nom_brigada' => 'BRIGIDA TRINIDAD',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 307,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -836,17 +835,6 @@ class RrhhBrigadasTableSeeder extends Seeder
             ),
             74 => 
             array (
-                'id' => 154,
-                'user_id' => 1517,
-                'nom_brigada' => 'SAN PEDRO TM',
-                'tipo' => 'TOMA DE MUESTRA',
-                'adm_municipio_id' => 215,
-                'integrantes' => 4,
-                'created_at' => NULL,
-                'updated_at' => NULL,
-            ),
-            75 => 
-            array (
                 'id' => 155,
                 'user_id' => 1447,
                 'nom_brigada' => 'TAHUA TM',
@@ -856,7 +844,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            76 => 
+            75 => 
             array (
                 'id' => 156,
                 'user_id' => 1315,
@@ -867,7 +855,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            77 => 
+            76 => 
             array (
                 'id' => 157,
                 'user_id' => 1434,
@@ -878,7 +866,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            78 => 
+            77 => 
             array (
                 'id' => 158,
                 'user_id' => 1375,
@@ -889,7 +877,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            79 => 
+            78 => 
             array (
                 'id' => 159,
                 'user_id' => 3412,
@@ -900,7 +888,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            80 => 
+            79 => 
             array (
                 'id' => 160,
                 'user_id' => 3412,
@@ -911,7 +899,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            81 => 
+            80 => 
             array (
                 'id' => 161,
                 'user_id' => 3412,
@@ -922,7 +910,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            82 => 
+            81 => 
             array (
                 'id' => 162,
                 'user_id' => 3412,
@@ -933,7 +921,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            83 => 
+            82 => 
             array (
                 'id' => 163,
                 'user_id' => 3438,
@@ -944,7 +932,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            84 => 
+            83 => 
             array (
                 'id' => 164,
                 'user_id' => 3888,
@@ -955,7 +943,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            85 => 
+            84 => 
             array (
                 'id' => 167,
                 'user_id' => 3649,
@@ -966,7 +954,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            86 => 
+            85 => 
             array (
                 'id' => 168,
                 'user_id' => 3412,
@@ -977,7 +965,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            87 => 
+            86 => 
             array (
                 'id' => 170,
                 'user_id' => 3412,
@@ -988,7 +976,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            88 => 
+            87 => 
             array (
                 'id' => 173,
                 'user_id' => 3412,
@@ -999,7 +987,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            89 => 
+            88 => 
             array (
                 'id' => 174,
                 'user_id' => 3412,
@@ -1010,7 +998,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            90 => 
+            89 => 
             array (
                 'id' => 178,
                 'user_id' => 3884,
@@ -1021,7 +1009,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            91 => 
+            90 => 
             array (
                 'id' => 179,
                 'user_id' => 3412,
@@ -1032,7 +1020,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            92 => 
+            91 => 
             array (
                 'id' => 180,
                 'user_id' => 3412,
@@ -1043,7 +1031,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            93 => 
+            92 => 
             array (
                 'id' => 181,
                 'user_id' => 3403,
@@ -1054,7 +1042,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            94 => 
+            93 => 
             array (
                 'id' => 182,
                 'user_id' => 343,
@@ -1065,7 +1053,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            95 => 
+            94 => 
             array (
                 'id' => 183,
                 'user_id' => 3412,
@@ -1076,7 +1064,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            96 => 
+            95 => 
             array (
                 'id' => 184,
                 'user_id' => 445,
@@ -1087,7 +1075,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            97 => 
+            96 => 
             array (
                 'id' => 185,
                 'user_id' => 3412,
@@ -1098,7 +1086,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            98 => 
+            97 => 
             array (
                 'id' => 186,
                 'user_id' => 3180,
@@ -1109,7 +1097,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            99 => 
+            98 => 
             array (
                 'id' => 187,
                 'user_id' => 3412,
@@ -1120,7 +1108,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            100 => 
+            99 => 
             array (
                 'id' => 188,
                 'user_id' => 3180,
@@ -1131,7 +1119,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            101 => 
+            100 => 
             array (
                 'id' => 189,
                 'user_id' => 3412,
@@ -1142,7 +1130,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            102 => 
+            101 => 
             array (
                 'id' => 190,
                 'user_id' => 3412,
@@ -1153,7 +1141,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            103 => 
+            102 => 
             array (
                 'id' => 191,
                 'user_id' => 445,
@@ -1164,7 +1152,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            104 => 
+            103 => 
             array (
                 'id' => 192,
                 'user_id' => 3412,
@@ -1175,7 +1163,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            105 => 
+            104 => 
             array (
                 'id' => 193,
                 'user_id' => 343,
@@ -1186,7 +1174,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            106 => 
+            105 => 
             array (
                 'id' => 194,
                 'user_id' => 4211,
@@ -1197,7 +1185,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            107 => 
+            106 => 
             array (
                 'id' => 195,
                 'user_id' => 3120,
@@ -1208,7 +1196,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            108 => 
+            107 => 
             array (
                 'id' => 196,
                 'user_id' => 4165,
@@ -1219,7 +1207,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            109 => 
+            108 => 
             array (
                 'id' => 197,
                 'user_id' => 361,
@@ -1230,7 +1218,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            110 => 
+            109 => 
             array (
                 'id' => 198,
                 'user_id' => 229,
@@ -1241,7 +1229,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            111 => 
+            110 => 
             array (
                 'id' => 199,
                 'user_id' => 3412,
@@ -1252,7 +1240,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            112 => 
+            111 => 
             array (
                 'id' => 202,
                 'user_id' => 2439,
@@ -1263,7 +1251,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            113 => 
+            112 => 
             array (
                 'id' => 203,
                 'user_id' => 3412,
@@ -1274,7 +1262,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            114 => 
+            113 => 
             array (
                 'id' => 204,
                 'user_id' => 3037,
@@ -1285,7 +1273,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            115 => 
+            114 => 
             array (
                 'id' => 205,
                 'user_id' => 1359,
@@ -1296,7 +1284,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            116 => 
+            115 => 
             array (
                 'id' => 206,
                 'user_id' => 3034,
@@ -1307,7 +1295,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            117 => 
+            116 => 
             array (
                 'id' => 207,
                 'user_id' => 3147,
@@ -1318,7 +1306,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            118 => 
+            117 => 
             array (
                 'id' => 208,
                 'user_id' => 3437,
@@ -1329,7 +1317,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            119 => 
+            118 => 
             array (
                 'id' => 209,
                 'user_id' => 3412,
@@ -1340,7 +1328,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            120 => 
+            119 => 
             array (
                 'id' => 210,
                 'user_id' => 4165,
@@ -1351,7 +1339,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            121 => 
+            120 => 
             array (
                 'id' => 211,
                 'user_id' => 3412,
@@ -1362,29 +1350,29 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            122 => 
+            121 => 
             array (
                 'id' => 212,
                 'user_id' => 3412,
                 'nom_brigada' => 'INSTITUTO AMERICANO',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 30,
-                'integrantes' => NULL,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            123 => 
+            122 => 
             array (
                 'id' => 213,
                 'user_id' => 3412,
                 'nom_brigada' => 'COTA COTA',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 30,
-                'integrantes' => NULL,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            124 => 
+            123 => 
             array (
                 'id' => 214,
                 'user_id' => 2707,
@@ -1395,18 +1383,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            125 => 
+            124 => 
             array (
                 'id' => 227,
                 'user_id' => 3412,
                 'nom_brigada' => 'DISTRITO CINCO',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 34,
-                'integrantes' => NULL,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            126 => 
+            125 => 
             array (
                 'id' => 233,
                 'user_id' => 2277,
@@ -1417,7 +1405,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            127 => 
+            126 => 
             array (
                 'id' => 238,
                 'user_id' => 2282,
@@ -1428,7 +1416,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            128 => 
+            127 => 
             array (
                 'id' => 240,
                 'user_id' => 2322,
@@ -1439,7 +1427,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            129 => 
+            128 => 
             array (
                 'id' => 246,
                 'user_id' => 1534,
@@ -1450,7 +1438,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            130 => 
+            129 => 
             array (
                 'id' => 247,
                 'user_id' => 1735,
@@ -1461,7 +1449,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            131 => 
+            130 => 
             array (
                 'id' => 248,
                 'user_id' => 2729,
@@ -1472,7 +1460,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            132 => 
+            131 => 
             array (
                 'id' => 249,
                 'user_id' => 1547,
@@ -1483,7 +1471,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            133 => 
+            132 => 
             array (
                 'id' => 250,
                 'user_id' => 1538,
@@ -1494,7 +1482,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            134 => 
+            133 => 
             array (
                 'id' => 251,
                 'user_id' => 1570,
@@ -1505,7 +1493,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            135 => 
+            134 => 
             array (
                 'id' => 252,
                 'user_id' => 1638,
@@ -1516,7 +1504,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            136 => 
+            135 => 
             array (
                 'id' => 253,
                 'user_id' => 1706,
@@ -1527,7 +1515,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            137 => 
+            136 => 
             array (
                 'id' => 254,
                 'user_id' => 1595,
@@ -1538,7 +1526,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            138 => 
+            137 => 
             array (
                 'id' => 255,
                 'user_id' => 3473,
@@ -1549,7 +1537,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            139 => 
+            138 => 
             array (
                 'id' => 256,
                 'user_id' => 1707,
@@ -1560,7 +1548,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            140 => 
+            139 => 
             array (
                 'id' => 257,
                 'user_id' => 1697,
@@ -1571,7 +1559,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            141 => 
+            140 => 
             array (
                 'id' => 258,
                 'user_id' => 1725,
@@ -1582,7 +1570,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            142 => 
+            141 => 
             array (
                 'id' => 259,
                 'user_id' => 1751,
@@ -1593,7 +1581,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            143 => 
+            142 => 
             array (
                 'id' => 261,
                 'user_id' => 1633,
@@ -1604,7 +1592,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            144 => 
+            143 => 
             array (
                 'id' => 262,
                 'user_id' => 1637,
@@ -1615,7 +1603,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            145 => 
+            144 => 
             array (
                 'id' => 263,
                 'user_id' => 3342,
@@ -1626,7 +1614,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            146 => 
+            145 => 
             array (
                 'id' => 264,
                 'user_id' => 2472,
@@ -1637,7 +1625,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            147 => 
+            146 => 
             array (
                 'id' => 267,
                 'user_id' => 3782,
@@ -1648,7 +1636,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            148 => 
+            147 => 
             array (
                 'id' => 268,
                 'user_id' => 3770,
@@ -1659,7 +1647,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            149 => 
+            148 => 
             array (
                 'id' => 270,
                 'user_id' => 3901,
@@ -1670,7 +1658,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            150 => 
+            149 => 
             array (
                 'id' => 272,
                 'user_id' => 3773,
@@ -1681,7 +1669,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            151 => 
+            150 => 
             array (
                 'id' => 273,
                 'user_id' => 4099,
@@ -1692,7 +1680,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            152 => 
+            151 => 
             array (
                 'id' => 274,
                 'user_id' => 3906,
@@ -1703,7 +1691,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            153 => 
+            152 => 
             array (
                 'id' => 276,
                 'user_id' => 435,
@@ -1714,7 +1702,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            154 => 
+            153 => 
             array (
                 'id' => 278,
                 'user_id' => 3037,
@@ -1725,7 +1713,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            155 => 
+            154 => 
             array (
                 'id' => 279,
                 'user_id' => 1359,
@@ -1736,7 +1724,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            156 => 
+            155 => 
             array (
                 'id' => 280,
                 'user_id' => 4128,
@@ -1747,7 +1735,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            157 => 
+            156 => 
             array (
                 'id' => 281,
                 'user_id' => 2468,
@@ -1758,304 +1746,304 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            158 => 
+            157 => 
             array (
                 'id' => 285,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA DIECIOCHO',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 247,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            159 => 
+            158 => 
             array (
                 'id' => 286,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA DIECIOCHO',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 247,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            160 => 
+            159 => 
             array (
                 'id' => 289,
                 'user_id' => 3412,
                 'nom_brigada' => 'DIECISIETE',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 242,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            161 => 
+            160 => 
             array (
                 'id' => 290,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA DIEZ',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 244,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            162 => 
+            161 => 
             array (
                 'id' => 291,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA DIECISEIS',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 249,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            163 => 
+            162 => 
             array (
                 'id' => 292,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA SIETE',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 248,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            164 => 
+            163 => 
             array (
                 'id' => 293,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA VEINTE',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 246,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            165 => 
+            164 => 
             array (
                 'id' => 294,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA VEINTIDOS',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 245,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            166 => 
+            165 => 
             array (
                 'id' => 295,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA SEIS',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 241,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            167 => 
+            166 => 
             array (
                 'id' => 296,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA UNO',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 240,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            168 => 
+            167 => 
             array (
                 'id' => 297,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA DOS',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 240,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            169 => 
+            168 => 
             array (
                 'id' => 298,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA TRES',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 240,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            170 => 
+            169 => 
             array (
                 'id' => 299,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA CUATRO',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 240,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            171 => 
+            170 => 
             array (
                 'id' => 300,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA ONCE',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 243,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            172 => 
+            171 => 
             array (
                 'id' => 301,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA DOCE',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 243,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            173 => 
+            172 => 
             array (
                 'id' => 302,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA TRECE',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 243,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            174 => 
+            173 => 
             array (
                 'id' => 303,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA CATORCE',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 243,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            175 => 
+            174 => 
             array (
                 'id' => 304,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA QUINCE',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 243,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            176 => 
+            175 => 
             array (
                 'id' => 305,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA DIECISEIS',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 249,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            177 => 
+            176 => 
             array (
                 'id' => 306,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA UNO',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 240,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            178 => 
+            177 => 
             array (
                 'id' => 307,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA DOS',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 240,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            179 => 
+            178 => 
             array (
                 'id' => 308,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA TRES',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 240,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            180 => 
+            179 => 
             array (
                 'id' => 309,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA CUATRO',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 240,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            181 => 
+            180 => 
             array (
                 'id' => 310,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA CINCO',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 240,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            182 => 
+            181 => 
             array (
                 'id' => 311,
                 'user_id' => 3412,
                 'nom_brigada' => 'POTOSI D',
                 'tipo' => 'RASTRILLAJE',
                 'adm_municipio_id' => 200,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            183 => 
+            182 => 
             array (
                 'id' => 312,
                 'user_id' => 3412,
                 'nom_brigada' => 'POTOSI E',
                 'tipo' => 'RASTRILLAJE',
                 'adm_municipio_id' => 200,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            184 => 
+            183 => 
             array (
                 'id' => 313,
                 'user_id' => 3412,
                 'nom_brigada' => 'POTOSI F',
                 'tipo' => 'RASTRILLAJE',
                 'adm_municipio_id' => 200,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            185 => 
+            184 => 
             array (
                 'id' => 314,
                 'user_id' => 2441,
@@ -2066,7 +2054,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            186 => 
+            185 => 
             array (
                 'id' => 315,
                 'user_id' => 229,
@@ -2077,7 +2065,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            187 => 
+            186 => 
             array (
                 'id' => 316,
                 'user_id' => 2541,
@@ -2088,40 +2076,40 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            188 => 
+            187 => 
             array (
                 'id' => 325,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA NUEVE',
                 'tipo' => 'RASTRILLAJE',
                 'adm_municipio_id' => 250,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            189 => 
+            188 => 
             array (
                 'id' => 327,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA OCHO',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 250,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            190 => 
+            189 => 
             array (
                 'id' => 329,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA NUEVE',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 250,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            191 => 
+            190 => 
             array (
                 'id' => 330,
                 'user_id' => 4214,
@@ -2132,7 +2120,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            192 => 
+            191 => 
             array (
                 'id' => 331,
                 'user_id' => 1633,
@@ -2143,7 +2131,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            193 => 
+            192 => 
             array (
                 'id' => 341,
                 'user_id' => 236,
@@ -2154,18 +2142,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            194 => 
+            193 => 
             array (
                 'id' => 344,
                 'user_id' => 3412,
                 'nom_brigada' => 'CAINCO',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 1,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            195 => 
+            194 => 
             array (
                 'id' => 345,
                 'user_id' => 4235,
@@ -2176,7 +2164,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            196 => 
+            195 => 
             array (
                 'id' => 349,
                 'user_id' => 203,
@@ -2187,7 +2175,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            197 => 
+            196 => 
             array (
                 'id' => 350,
                 'user_id' => 221,
@@ -2198,7 +2186,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            198 => 
+            197 => 
             array (
                 'id' => 351,
                 'user_id' => 1262,
@@ -2209,7 +2197,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            199 => 
+            198 => 
             array (
                 'id' => 352,
                 'user_id' => 1118,
@@ -2220,7 +2208,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            200 => 
+            199 => 
             array (
                 'id' => 355,
                 'user_id' => 1252,
@@ -2231,7 +2219,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            201 => 
+            200 => 
             array (
                 'id' => 356,
                 'user_id' => 1217,
@@ -2242,7 +2230,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            202 => 
+            201 => 
             array (
                 'id' => 358,
                 'user_id' => 1144,
@@ -2253,7 +2241,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            203 => 
+            202 => 
             array (
                 'id' => 359,
                 'user_id' => 3814,
@@ -2264,7 +2252,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            204 => 
+            203 => 
             array (
                 'id' => 360,
                 'user_id' => 3412,
@@ -2275,7 +2263,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            205 => 
+            204 => 
             array (
                 'id' => 362,
                 'user_id' => 3412,
@@ -2286,7 +2274,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            206 => 
+            205 => 
             array (
                 'id' => 365,
                 'user_id' => 3412,
@@ -2297,7 +2285,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            207 => 
+            206 => 
             array (
                 'id' => 366,
                 'user_id' => 3412,
@@ -2308,40 +2296,40 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            208 => 
+            207 => 
             array (
                 'id' => 367,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA DIECISIETE',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 242,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            209 => 
+            208 => 
             array (
                 'id' => 368,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA DIECISIETE',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 242,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            210 => 
+            209 => 
             array (
                 'id' => 369,
                 'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA DIECISIETE',
                 'tipo' => 'RASTRILLAJE',
                 'adm_municipio_id' => 242,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            211 => 
+            210 => 
             array (
                 'id' => 370,
                 'user_id' => 1189,
@@ -2352,7 +2340,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            212 => 
+            211 => 
             array (
                 'id' => 371,
                 'user_id' => 2600,
@@ -2363,18 +2351,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            213 => 
+            212 => 
             array (
                 'id' => 372,
                 'user_id' => 3412,
                 'nom_brigada' => 'POTOSI A',
                 'tipo' => 'RASTRILLAJE',
                 'adm_municipio_id' => 200,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            214 => 
+            213 => 
             array (
                 'id' => 373,
                 'user_id' => 2240,
@@ -2385,7 +2373,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            215 => 
+            214 => 
             array (
                 'id' => 374,
                 'user_id' => 2299,
@@ -2396,7 +2384,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            216 => 
+            215 => 
             array (
                 'id' => 376,
                 'user_id' => 2299,
@@ -2407,7 +2395,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            217 => 
+            216 => 
             array (
                 'id' => 378,
                 'user_id' => 2255,
@@ -2418,7 +2406,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            218 => 
+            217 => 
             array (
                 'id' => 379,
                 'user_id' => 2266,
@@ -2429,7 +2417,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            219 => 
+            218 => 
             array (
                 'id' => 380,
                 'user_id' => 2341,
@@ -2440,7 +2428,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            220 => 
+            219 => 
             array (
                 'id' => 381,
                 'user_id' => 2288,
@@ -2451,7 +2439,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            221 => 
+            220 => 
             array (
                 'id' => 382,
                 'user_id' => 2282,
@@ -2462,7 +2450,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            222 => 
+            221 => 
             array (
                 'id' => 383,
                 'user_id' => 217,
@@ -2473,7 +2461,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            223 => 
+            222 => 
             array (
                 'id' => 384,
                 'user_id' => 4248,
@@ -2484,7 +2472,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            224 => 
+            223 => 
             array (
                 'id' => 386,
                 'user_id' => 4248,
@@ -2495,7 +2483,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            225 => 
+            224 => 
             array (
                 'id' => 388,
                 'user_id' => 161,
@@ -2506,7 +2494,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            226 => 
+            225 => 
             array (
                 'id' => 389,
                 'user_id' => 57,
@@ -2517,7 +2505,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            227 => 
+            226 => 
             array (
                 'id' => 390,
                 'user_id' => 2341,
@@ -2528,7 +2516,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            228 => 
+            227 => 
             array (
                 'id' => 391,
                 'user_id' => 2341,
@@ -2539,10 +2527,10 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            229 => 
+            228 => 
             array (
                 'id' => 394,
-                'user_id' => 1256,
+                'user_id' => 3412,
                 'nom_brigada' => 'BRIGADA SIETE',
                 'tipo' => 'RASTRILLAJE',
                 'adm_municipio_id' => 169,
@@ -2550,7 +2538,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            230 => 
+            229 => 
             array (
                 'id' => 395,
                 'user_id' => 2309,
@@ -2561,7 +2549,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            231 => 
+            230 => 
             array (
                 'id' => 396,
                 'user_id' => 2360,
@@ -2572,7 +2560,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            232 => 
+            231 => 
             array (
                 'id' => 397,
                 'user_id' => 2360,
@@ -2583,7 +2571,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            233 => 
+            232 => 
             array (
                 'id' => 398,
                 'user_id' => 2360,
@@ -2594,7 +2582,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            234 => 
+            233 => 
             array (
                 'id' => 399,
                 'user_id' => 2360,
@@ -2605,7 +2593,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            235 => 
+            234 => 
             array (
                 'id' => 400,
                 'user_id' => 2360,
@@ -2616,7 +2604,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            236 => 
+            235 => 
             array (
                 'id' => 401,
                 'user_id' => 2360,
@@ -2627,7 +2615,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            237 => 
+            236 => 
             array (
                 'id' => 404,
                 'user_id' => 4246,
@@ -2638,7 +2626,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            238 => 
+            237 => 
             array (
                 'id' => 405,
                 'user_id' => 2395,
@@ -2649,7 +2637,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            239 => 
+            238 => 
             array (
                 'id' => 406,
                 'user_id' => 2395,
@@ -2660,7 +2648,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            240 => 
+            239 => 
             array (
                 'id' => 408,
                 'user_id' => 2413,
@@ -2671,7 +2659,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            241 => 
+            240 => 
             array (
                 'id' => 409,
                 'user_id' => 2413,
@@ -2682,7 +2670,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            242 => 
+            241 => 
             array (
                 'id' => 410,
                 'user_id' => 4246,
@@ -2693,7 +2681,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            243 => 
+            242 => 
             array (
                 'id' => 411,
                 'user_id' => 2413,
@@ -2704,7 +2692,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            244 => 
+            243 => 
             array (
                 'id' => 412,
                 'user_id' => 2413,
@@ -2715,7 +2703,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            245 => 
+            244 => 
             array (
                 'id' => 413,
                 'user_id' => 2413,
@@ -2726,7 +2714,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            246 => 
+            245 => 
             array (
                 'id' => 414,
                 'user_id' => 4246,
@@ -2737,7 +2725,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            247 => 
+            246 => 
             array (
                 'id' => 415,
                 'user_id' => 4246,
@@ -2748,7 +2736,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            248 => 
+            247 => 
             array (
                 'id' => 416,
                 'user_id' => 2413,
@@ -2759,7 +2747,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            249 => 
+            248 => 
             array (
                 'id' => 417,
                 'user_id' => 2413,
@@ -2770,7 +2758,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            250 => 
+            249 => 
             array (
                 'id' => 418,
                 'user_id' => 4246,
@@ -2781,7 +2769,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            251 => 
+            250 => 
             array (
                 'id' => 419,
                 'user_id' => 2414,
@@ -2792,7 +2780,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            252 => 
+            251 => 
             array (
                 'id' => 420,
                 'user_id' => 2414,
@@ -2803,7 +2791,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            253 => 
+            252 => 
             array (
                 'id' => 421,
                 'user_id' => 2413,
@@ -2814,7 +2802,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            254 => 
+            253 => 
             array (
                 'id' => 422,
                 'user_id' => 2282,
@@ -2825,7 +2813,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            255 => 
+            254 => 
             array (
                 'id' => 423,
                 'user_id' => 2414,
@@ -2836,18 +2824,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            256 => 
+            255 => 
             array (
                 'id' => 425,
                 'user_id' => 3412,
                 'nom_brigada' => 'COR EL ALTO',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 34,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            257 => 
+            256 => 
             array (
                 'id' => 427,
                 'user_id' => 2441,
@@ -2858,7 +2846,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            258 => 
+            257 => 
             array (
                 'id' => 428,
                 'user_id' => 3428,
@@ -2869,7 +2857,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            259 => 
+            258 => 
             array (
                 'id' => 429,
                 'user_id' => 3456,
@@ -2880,7 +2868,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            260 => 
+            259 => 
             array (
                 'id' => 430,
                 'user_id' => 2446,
@@ -2891,7 +2879,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            261 => 
+            260 => 
             array (
                 'id' => 431,
                 'user_id' => 2778,
@@ -2902,18 +2890,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            262 => 
+            261 => 
             array (
                 'id' => 435,
                 'user_id' => 3412,
                 'nom_brigada' => 'SAMAIPATA',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 283,
-                'integrantes' => 0,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            263 => 
+            262 => 
             array (
                 'id' => 436,
                 'user_id' => 3944,
@@ -2924,7 +2912,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            264 => 
+            263 => 
             array (
                 'id' => 437,
                 'user_id' => 1540,
@@ -2935,7 +2923,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            265 => 
+            264 => 
             array (
                 'id' => 445,
                 'user_id' => 3580,
@@ -2946,7 +2934,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            266 => 
+            265 => 
             array (
                 'id' => 446,
                 'user_id' => 3598,
@@ -2957,7 +2945,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            267 => 
+            266 => 
             array (
                 'id' => 447,
                 'user_id' => 3657,
@@ -2968,7 +2956,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            268 => 
+            267 => 
             array (
                 'id' => 448,
                 'user_id' => 3914,
@@ -2979,7 +2967,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            269 => 
+            268 => 
             array (
                 'id' => 449,
                 'user_id' => 3914,
@@ -2990,7 +2978,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            270 => 
+            269 => 
             array (
                 'id' => 450,
                 'user_id' => 3916,
@@ -3001,7 +2989,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            271 => 
+            270 => 
             array (
                 'id' => 451,
                 'user_id' => 3916,
@@ -3012,7 +3000,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            272 => 
+            271 => 
             array (
                 'id' => 452,
                 'user_id' => 3916,
@@ -3023,7 +3011,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            273 => 
+            272 => 
             array (
                 'id' => 453,
                 'user_id' => 4217,
@@ -3034,7 +3022,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            274 => 
+            273 => 
             array (
                 'id' => 454,
                 'user_id' => 3016,
@@ -3045,7 +3033,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            275 => 
+            274 => 
             array (
                 'id' => 455,
                 'user_id' => 2410,
@@ -3056,7 +3044,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            276 => 
+            275 => 
             array (
                 'id' => 456,
                 'user_id' => 3296,
@@ -3067,7 +3055,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            277 => 
+            276 => 
             array (
                 'id' => 457,
                 'user_id' => 3016,
@@ -3078,7 +3066,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            278 => 
+            277 => 
             array (
                 'id' => 458,
                 'user_id' => 3523,
@@ -3089,7 +3077,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            279 => 
+            278 => 
             array (
                 'id' => 459,
                 'user_id' => 2404,
@@ -3100,7 +3088,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            280 => 
+            279 => 
             array (
                 'id' => 460,
                 'user_id' => 3297,
@@ -3111,7 +3099,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            281 => 
+            280 => 
             array (
                 'id' => 461,
                 'user_id' => 4253,
@@ -3122,7 +3110,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            282 => 
+            281 => 
             array (
                 'id' => 462,
                 'user_id' => 4253,
@@ -3133,7 +3121,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            283 => 
+            282 => 
             array (
                 'id' => 463,
                 'user_id' => 3298,
@@ -3144,7 +3132,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            284 => 
+            283 => 
             array (
                 'id' => 464,
                 'user_id' => 4253,
@@ -3155,7 +3143,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            285 => 
+            284 => 
             array (
                 'id' => 466,
                 'user_id' => 3298,
@@ -3166,7 +3154,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            286 => 
+            285 => 
             array (
                 'id' => 467,
                 'user_id' => 2410,
@@ -3177,7 +3165,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            287 => 
+            286 => 
             array (
                 'id' => 468,
                 'user_id' => 3435,
@@ -3188,7 +3176,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            288 => 
+            287 => 
             array (
                 'id' => 469,
                 'user_id' => 3435,
@@ -3199,7 +3187,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            289 => 
+            288 => 
             array (
                 'id' => 470,
                 'user_id' => 3435,
@@ -3210,7 +3198,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            290 => 
+            289 => 
             array (
                 'id' => 471,
                 'user_id' => 3297,
@@ -3221,7 +3209,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            291 => 
+            290 => 
             array (
                 'id' => 472,
                 'user_id' => 4247,
@@ -3232,18 +3220,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            292 => 
+            291 => 
             array (
                 'id' => 473,
                 'user_id' => 4247,
                 'nom_brigada' => 'RAS TRES LAS PIEDRAS DOS',
-                'tipo' => '0',
+                'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 333,
                 'integrantes' => 3,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            293 => 
+            292 => 
             array (
                 'id' => 474,
                 'user_id' => 3504,
@@ -3254,7 +3242,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            294 => 
+            293 => 
             array (
                 'id' => 475,
                 'user_id' => 2404,
@@ -3265,7 +3253,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            295 => 
+            294 => 
             array (
                 'id' => 476,
                 'user_id' => 4217,
@@ -3276,7 +3264,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            296 => 
+            295 => 
             array (
                 'id' => 477,
                 'user_id' => 3504,
@@ -3287,7 +3275,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            297 => 
+            296 => 
             array (
                 'id' => 478,
                 'user_id' => 2410,
@@ -3298,7 +3286,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            298 => 
+            297 => 
             array (
                 'id' => 479,
                 'user_id' => 3296,
@@ -3309,7 +3297,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            299 => 
+            298 => 
             array (
                 'id' => 480,
                 'user_id' => 3523,
@@ -3320,7 +3308,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            300 => 
+            299 => 
             array (
                 'id' => 481,
                 'user_id' => 3775,
@@ -3331,7 +3319,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            301 => 
+            300 => 
             array (
                 'id' => 482,
                 'user_id' => 1444,
@@ -3342,7 +3330,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            302 => 
+            301 => 
             array (
                 'id' => 483,
                 'user_id' => 1444,
@@ -3353,7 +3341,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            303 => 
+            302 => 
             array (
                 'id' => 484,
                 'user_id' => 1444,
@@ -3364,7 +3352,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            304 => 
+            303 => 
             array (
                 'id' => 485,
                 'user_id' => 4247,
@@ -3375,7 +3363,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            305 => 
+            304 => 
             array (
                 'id' => 486,
                 'user_id' => 2410,
@@ -3386,7 +3374,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            306 => 
+            305 => 
             array (
                 'id' => 487,
                 'user_id' => 3504,
@@ -3397,7 +3385,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            307 => 
+            306 => 
             array (
                 'id' => 488,
                 'user_id' => 2404,
@@ -3408,7 +3396,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            308 => 
+            307 => 
             array (
                 'id' => 489,
                 'user_id' => 3297,
@@ -3419,7 +3407,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            309 => 
+            308 => 
             array (
                 'id' => 490,
                 'user_id' => 3298,
@@ -3430,7 +3418,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            310 => 
+            309 => 
             array (
                 'id' => 491,
                 'user_id' => 3504,
@@ -3441,7 +3429,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            311 => 
+            310 => 
             array (
                 'id' => 492,
                 'user_id' => 3504,
@@ -3452,7 +3440,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            312 => 
+            311 => 
             array (
                 'id' => 493,
                 'user_id' => 4247,
@@ -3463,7 +3451,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            313 => 
+            312 => 
             array (
                 'id' => 494,
                 'user_id' => 4247,
@@ -3474,7 +3462,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            314 => 
+            313 => 
             array (
                 'id' => 495,
                 'user_id' => 4247,
@@ -3485,7 +3473,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            315 => 
+            314 => 
             array (
                 'id' => 496,
                 'user_id' => 4247,
@@ -3496,7 +3484,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            316 => 
+            315 => 
             array (
                 'id' => 497,
                 'user_id' => 4247,
@@ -3507,7 +3495,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            317 => 
+            316 => 
             array (
                 'id' => 498,
                 'user_id' => 4247,
@@ -3518,7 +3506,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            318 => 
+            317 => 
             array (
                 'id' => 499,
                 'user_id' => 2410,
@@ -3529,7 +3517,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            319 => 
+            318 => 
             array (
                 'id' => 500,
                 'user_id' => 3296,
@@ -3540,7 +3528,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            320 => 
+            319 => 
             array (
                 'id' => 501,
                 'user_id' => 3523,
@@ -3551,7 +3539,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            321 => 
+            320 => 
             array (
                 'id' => 502,
                 'user_id' => 3297,
@@ -3562,7 +3550,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            322 => 
+            321 => 
             array (
                 'id' => 503,
                 'user_id' => 3298,
@@ -3573,7 +3561,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            323 => 
+            322 => 
             array (
                 'id' => 504,
                 'user_id' => 4247,
@@ -3584,7 +3572,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            324 => 
+            323 => 
             array (
                 'id' => 505,
                 'user_id' => 2404,
@@ -3595,7 +3583,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            325 => 
+            324 => 
             array (
                 'id' => 506,
                 'user_id' => 3504,
@@ -3606,7 +3594,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            326 => 
+            325 => 
             array (
                 'id' => 507,
                 'user_id' => 4247,
@@ -3617,18 +3605,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            327 => 
+            326 => 
             array (
                 'id' => 508,
                 'user_id' => 2410,
                 'nom_brigada' => 'VAC AGUA DULCE DOS',
-                'tipo' => '0',
+                'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 333,
                 'integrantes' => 3,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            328 => 
+            327 => 
             array (
                 'id' => 509,
                 'user_id' => 3296,
@@ -3639,7 +3627,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            329 => 
+            328 => 
             array (
                 'id' => 510,
                 'user_id' => 3297,
@@ -3650,7 +3638,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            330 => 
+            329 => 
             array (
                 'id' => 511,
                 'user_id' => 2404,
@@ -3661,7 +3649,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            331 => 
+            330 => 
             array (
                 'id' => 512,
                 'user_id' => 3504,
@@ -3672,7 +3660,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            332 => 
+            331 => 
             array (
                 'id' => 513,
                 'user_id' => 2410,
@@ -3683,7 +3671,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            333 => 
+            332 => 
             array (
                 'id' => 514,
                 'user_id' => 3523,
@@ -3694,7 +3682,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            334 => 
+            333 => 
             array (
                 'id' => 515,
                 'user_id' => 3297,
@@ -3705,7 +3693,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            335 => 
+            334 => 
             array (
                 'id' => 516,
                 'user_id' => 3298,
@@ -3716,7 +3704,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            336 => 
+            335 => 
             array (
                 'id' => 517,
                 'user_id' => 3504,
@@ -3727,7 +3715,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            337 => 
+            336 => 
             array (
                 'id' => 518,
                 'user_id' => 3296,
@@ -3738,7 +3726,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            338 => 
+            337 => 
             array (
                 'id' => 519,
                 'user_id' => 3523,
@@ -3749,7 +3737,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            339 => 
+            338 => 
             array (
                 'id' => 520,
                 'user_id' => 3298,
@@ -3760,7 +3748,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            340 => 
+            339 => 
             array (
                 'id' => 521,
                 'user_id' => 2404,
@@ -3771,7 +3759,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            341 => 
+            340 => 
             array (
                 'id' => 522,
                 'user_id' => 2410,
@@ -3782,7 +3770,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            342 => 
+            341 => 
             array (
                 'id' => 526,
                 'user_id' => 3296,
@@ -3793,7 +3781,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            343 => 
+            342 => 
             array (
                 'id' => 527,
                 'user_id' => 3523,
@@ -3804,7 +3792,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            344 => 
+            343 => 
             array (
                 'id' => 528,
                 'user_id' => 3504,
@@ -3815,7 +3803,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            345 => 
+            344 => 
             array (
                 'id' => 529,
                 'user_id' => 2404,
@@ -3826,7 +3814,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            346 => 
+            345 => 
             array (
                 'id' => 530,
                 'user_id' => 3297,
@@ -3837,7 +3825,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            347 => 
+            346 => 
             array (
                 'id' => 531,
                 'user_id' => 3298,
@@ -3848,7 +3836,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            348 => 
+            347 => 
             array (
                 'id' => 532,
                 'user_id' => 4247,
@@ -3859,7 +3847,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            349 => 
+            348 => 
             array (
                 'id' => 533,
                 'user_id' => 4247,
@@ -3870,7 +3858,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            350 => 
+            349 => 
             array (
                 'id' => 534,
                 'user_id' => 2410,
@@ -3881,7 +3869,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            351 => 
+            350 => 
             array (
                 'id' => 535,
                 'user_id' => 3504,
@@ -3892,7 +3880,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            352 => 
+            351 => 
             array (
                 'id' => 536,
                 'user_id' => 4247,
@@ -3903,7 +3891,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            353 => 
+            352 => 
             array (
                 'id' => 537,
                 'user_id' => 2410,
@@ -3914,18 +3902,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            354 => 
+            353 => 
             array (
                 'id' => 538,
                 'user_id' => 3412,
                 'nom_brigada' => 'ANTIGENOS ALCALA',
                 'tipo' => 'TOMA DE MUESTRA',
-                'adm_municipio_id' => 333,
+                'adm_municipio_id' => 13,
                 'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            355 => 
+            354 => 
             array (
                 'id' => 540,
                 'user_id' => 3621,
@@ -3936,7 +3924,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            356 => 
+            355 => 
             array (
                 'id' => 541,
                 'user_id' => 3593,
@@ -3947,7 +3935,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            357 => 
+            356 => 
             array (
                 'id' => 542,
                 'user_id' => 3586,
@@ -3958,7 +3946,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            358 => 
+            357 => 
             array (
                 'id' => 543,
                 'user_id' => 3887,
@@ -3969,7 +3957,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            359 => 
+            358 => 
             array (
                 'id' => 544,
                 'user_id' => 3897,
@@ -3980,7 +3968,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            360 => 
+            359 => 
             array (
                 'id' => 545,
                 'user_id' => 4247,
@@ -3991,7 +3979,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            361 => 
+            360 => 
             array (
                 'id' => 546,
                 'user_id' => 2383,
@@ -4002,7 +3990,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            362 => 
+            361 => 
             array (
                 'id' => 547,
                 'user_id' => 2383,
@@ -4013,7 +4001,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            363 => 
+            362 => 
             array (
                 'id' => 548,
                 'user_id' => 2387,
@@ -4024,7 +4012,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            364 => 
+            363 => 
             array (
                 'id' => 549,
                 'user_id' => 2386,
@@ -4035,7 +4023,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            365 => 
+            364 => 
             array (
                 'id' => 550,
                 'user_id' => 2383,
@@ -4046,7 +4034,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            366 => 
+            365 => 
             array (
                 'id' => 551,
                 'user_id' => 2384,
@@ -4057,7 +4045,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            367 => 
+            366 => 
             array (
                 'id' => 552,
                 'user_id' => 2384,
@@ -4068,7 +4056,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            368 => 
+            367 => 
             array (
                 'id' => 553,
                 'user_id' => 2384,
@@ -4079,7 +4067,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            369 => 
+            368 => 
             array (
                 'id' => 554,
                 'user_id' => 2387,
@@ -4090,7 +4078,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            370 => 
+            369 => 
             array (
                 'id' => 555,
                 'user_id' => 2384,
@@ -4101,7 +4089,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            371 => 
+            370 => 
             array (
                 'id' => 556,
                 'user_id' => 2384,
@@ -4112,7 +4100,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            372 => 
+            371 => 
             array (
                 'id' => 557,
                 'user_id' => 2384,
@@ -4123,7 +4111,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            373 => 
+            372 => 
             array (
                 'id' => 558,
                 'user_id' => 2387,
@@ -4134,7 +4122,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            374 => 
+            373 => 
             array (
                 'id' => 559,
                 'user_id' => 2408,
@@ -4145,7 +4133,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            375 => 
+            374 => 
             array (
                 'id' => 560,
                 'user_id' => 2386,
@@ -4156,7 +4144,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            376 => 
+            375 => 
             array (
                 'id' => 561,
                 'user_id' => 2384,
@@ -4167,7 +4155,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            377 => 
+            376 => 
             array (
                 'id' => 562,
                 'user_id' => 2408,
@@ -4178,7 +4166,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            378 => 
+            377 => 
             array (
                 'id' => 563,
                 'user_id' => 2386,
@@ -4189,7 +4177,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            379 => 
+            378 => 
             array (
                 'id' => 564,
                 'user_id' => 2387,
@@ -4200,7 +4188,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            380 => 
+            379 => 
             array (
                 'id' => 565,
                 'user_id' => 1328,
@@ -4211,7 +4199,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            381 => 
+            380 => 
             array (
                 'id' => 566,
                 'user_id' => 2737,
@@ -4222,7 +4210,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            382 => 
+            381 => 
             array (
                 'id' => 567,
                 'user_id' => 2737,
@@ -4233,7 +4221,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            383 => 
+            382 => 
             array (
                 'id' => 568,
                 'user_id' => 1434,
@@ -4244,7 +4232,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            384 => 
+            383 => 
             array (
                 'id' => 569,
                 'user_id' => 1434,
@@ -4255,7 +4243,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            385 => 
+            384 => 
             array (
                 'id' => 570,
                 'user_id' => 1484,
@@ -4266,7 +4254,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            386 => 
+            385 => 
             array (
                 'id' => 571,
                 'user_id' => 1484,
@@ -4277,7 +4265,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            387 => 
+            386 => 
             array (
                 'id' => 572,
                 'user_id' => 1328,
@@ -4288,7 +4276,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            388 => 
+            387 => 
             array (
                 'id' => 573,
                 'user_id' => 3178,
@@ -4299,7 +4287,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            389 => 
+            388 => 
             array (
                 'id' => 574,
                 'user_id' => 3178,
@@ -4310,7 +4298,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            390 => 
+            389 => 
             array (
                 'id' => 575,
                 'user_id' => 3016,
@@ -4321,7 +4309,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            391 => 
+            390 => 
             array (
                 'id' => 576,
                 'user_id' => 3016,
@@ -4332,7 +4320,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            392 => 
+            391 => 
             array (
                 'id' => 578,
                 'user_id' => 3016,
@@ -4343,7 +4331,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            393 => 
+            392 => 
             array (
                 'id' => 579,
                 'user_id' => 1315,
@@ -4354,7 +4342,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            394 => 
+            393 => 
             array (
                 'id' => 580,
                 'user_id' => 1315,
@@ -4365,7 +4353,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            395 => 
+            394 => 
             array (
                 'id' => 582,
                 'user_id' => 1361,
@@ -4376,7 +4364,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            396 => 
+            395 => 
             array (
                 'id' => 583,
                 'user_id' => 1361,
@@ -4387,7 +4375,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            397 => 
+            396 => 
             array (
                 'id' => 584,
                 'user_id' => 3420,
@@ -4398,7 +4386,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            398 => 
+            397 => 
             array (
                 'id' => 585,
                 'user_id' => 4258,
@@ -4409,7 +4397,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            399 => 
+            398 => 
             array (
                 'id' => 586,
                 'user_id' => 4258,
@@ -4420,7 +4408,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            400 => 
+            399 => 
             array (
                 'id' => 587,
                 'user_id' => 4258,
@@ -4431,7 +4419,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            401 => 
+            400 => 
             array (
                 'id' => 588,
                 'user_id' => 4259,
@@ -4442,7 +4430,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            402 => 
+            401 => 
             array (
                 'id' => 589,
                 'user_id' => 4259,
@@ -4453,7 +4441,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            403 => 
+            402 => 
             array (
                 'id' => 590,
                 'user_id' => 4259,
@@ -4464,7 +4452,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            404 => 
+            403 => 
             array (
                 'id' => 591,
                 'user_id' => 2369,
@@ -4475,7 +4463,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            405 => 
+            404 => 
             array (
                 'id' => 592,
                 'user_id' => 2370,
@@ -4486,7 +4474,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            406 => 
+            405 => 
             array (
                 'id' => 593,
                 'user_id' => 2370,
@@ -4497,7 +4485,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            407 => 
+            406 => 
             array (
                 'id' => 594,
                 'user_id' => 2370,
@@ -4508,7 +4496,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            408 => 
+            407 => 
             array (
                 'id' => 595,
                 'user_id' => 2369,
@@ -4519,7 +4507,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            409 => 
+            408 => 
             array (
                 'id' => 596,
                 'user_id' => 2370,
@@ -4530,7 +4518,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            410 => 
+            409 => 
             array (
                 'id' => 597,
                 'user_id' => 2370,
@@ -4541,7 +4529,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            411 => 
+            410 => 
             array (
                 'id' => 598,
                 'user_id' => 2369,
@@ -4552,7 +4540,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            412 => 
+            411 => 
             array (
                 'id' => 599,
                 'user_id' => 2369,
@@ -4563,7 +4551,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            413 => 
+            412 => 
             array (
                 'id' => 600,
                 'user_id' => 2369,
@@ -4574,7 +4562,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            414 => 
+            413 => 
             array (
                 'id' => 601,
                 'user_id' => 2369,
@@ -4585,7 +4573,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            415 => 
+            414 => 
             array (
                 'id' => 602,
                 'user_id' => 2370,
@@ -4596,7 +4584,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            416 => 
+            415 => 
             array (
                 'id' => 603,
                 'user_id' => 2369,
@@ -4607,7 +4595,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            417 => 
+            416 => 
             array (
                 'id' => 604,
                 'user_id' => 2370,
@@ -4618,7 +4606,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            418 => 
+            417 => 
             array (
                 'id' => 605,
                 'user_id' => 2370,
@@ -4629,7 +4617,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            419 => 
+            418 => 
             array (
                 'id' => 606,
                 'user_id' => 4260,
@@ -4640,7 +4628,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            420 => 
+            419 => 
             array (
                 'id' => 607,
                 'user_id' => 4260,
@@ -4651,7 +4639,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            421 => 
+            420 => 
             array (
                 'id' => 608,
                 'user_id' => 4260,
@@ -4662,7 +4650,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            422 => 
+            421 => 
             array (
                 'id' => 609,
                 'user_id' => 195,
@@ -4673,7 +4661,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            423 => 
+            422 => 
             array (
                 'id' => 610,
                 'user_id' => 57,
@@ -4684,7 +4672,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            424 => 
+            423 => 
             array (
                 'id' => 611,
                 'user_id' => 221,
@@ -4695,7 +4683,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            425 => 
+            424 => 
             array (
                 'id' => 612,
                 'user_id' => 203,
@@ -4706,7 +4694,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            426 => 
+            425 => 
             array (
                 'id' => 613,
                 'user_id' => 229,
@@ -4717,7 +4705,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            427 => 
+            426 => 
             array (
                 'id' => 614,
                 'user_id' => 2940,
@@ -4728,7 +4716,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            428 => 
+            427 => 
             array (
                 'id' => 615,
                 'user_id' => 2940,
@@ -4739,7 +4727,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            429 => 
+            428 => 
             array (
                 'id' => 616,
                 'user_id' => 4275,
@@ -4750,7 +4738,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            430 => 
+            429 => 
             array (
                 'id' => 617,
                 'user_id' => 4275,
@@ -4761,7 +4749,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            431 => 
+            430 => 
             array (
                 'id' => 618,
                 'user_id' => 4275,
@@ -4772,7 +4760,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            432 => 
+            431 => 
             array (
                 'id' => 619,
                 'user_id' => 3963,
@@ -4783,7 +4771,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            433 => 
+            432 => 
             array (
                 'id' => 620,
                 'user_id' => 3962,
@@ -4794,7 +4782,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            434 => 
+            433 => 
             array (
                 'id' => 621,
                 'user_id' => 4003,
@@ -4805,7 +4793,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            435 => 
+            434 => 
             array (
                 'id' => 622,
                 'user_id' => 3680,
@@ -4816,7 +4804,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            436 => 
+            435 => 
             array (
                 'id' => 623,
                 'user_id' => 3803,
@@ -4827,7 +4815,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            437 => 
+            436 => 
             array (
                 'id' => 624,
                 'user_id' => 3566,
@@ -4838,7 +4826,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            438 => 
+            437 => 
             array (
                 'id' => 625,
                 'user_id' => 3874,
@@ -4849,7 +4837,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            439 => 
+            438 => 
             array (
                 'id' => 626,
                 'user_id' => 3900,
@@ -4860,7 +4848,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            440 => 
+            439 => 
             array (
                 'id' => 627,
                 'user_id' => 4035,
@@ -4871,7 +4859,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            441 => 
+            440 => 
             array (
                 'id' => 628,
                 'user_id' => 4158,
@@ -4882,7 +4870,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            442 => 
+            441 => 
             array (
                 'id' => 629,
                 'user_id' => 3902,
@@ -4893,7 +4881,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            443 => 
+            442 => 
             array (
                 'id' => 630,
                 'user_id' => 3822,
@@ -4904,7 +4892,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            444 => 
+            443 => 
             array (
                 'id' => 632,
                 'user_id' => 744,
@@ -4915,7 +4903,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            445 => 
+            444 => 
             array (
                 'id' => 634,
                 'user_id' => 960,
@@ -4926,7 +4914,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            446 => 
+            445 => 
             array (
                 'id' => 636,
                 'user_id' => 3456,
@@ -4937,7 +4925,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            447 => 
+            446 => 
             array (
                 'id' => 637,
                 'user_id' => 1146,
@@ -4948,7 +4936,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            448 => 
+            447 => 
             array (
                 'id' => 638,
                 'user_id' => 3849,
@@ -4959,7 +4947,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            449 => 
+            448 => 
             array (
                 'id' => 639,
                 'user_id' => 3703,
@@ -4970,18 +4958,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            450 => 
-            array (
-                'id' => 640,
-                'user_id' => 3438,
-                'nom_brigada' => 'VILLAZON VAC',
-                'tipo' => 'VACUNACION',
-                'adm_municipio_id' => 218,
-                'integrantes' => 5,
-                'created_at' => NULL,
-                'updated_at' => NULL,
-            ),
-            451 => 
+            449 => 
             array (
                 'id' => 641,
                 'user_id' => 3438,
@@ -4992,7 +4969,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            452 => 
+            450 => 
             array (
                 'id' => 642,
                 'user_id' => 4277,
@@ -5003,7 +4980,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            453 => 
+            451 => 
             array (
                 'id' => 643,
                 'user_id' => 96,
@@ -5014,7 +4991,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            454 => 
+            452 => 
             array (
                 'id' => 644,
                 'user_id' => 96,
@@ -5025,7 +5002,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            455 => 
+            453 => 
             array (
                 'id' => 645,
                 'user_id' => 96,
@@ -5036,7 +5013,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            456 => 
+            454 => 
             array (
                 'id' => 646,
                 'user_id' => 96,
@@ -5047,7 +5024,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            457 => 
+            455 => 
             array (
                 'id' => 647,
                 'user_id' => 96,
@@ -5058,7 +5035,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            458 => 
+            456 => 
             array (
                 'id' => 648,
                 'user_id' => 96,
@@ -5069,7 +5046,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            459 => 
+            457 => 
             array (
                 'id' => 649,
                 'user_id' => 96,
@@ -5080,7 +5057,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            460 => 
+            458 => 
             array (
                 'id' => 650,
                 'user_id' => 2430,
@@ -5091,7 +5068,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            461 => 
+            459 => 
             array (
                 'id' => 651,
                 'user_id' => 1386,
@@ -5102,7 +5079,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            462 => 
+            460 => 
             array (
                 'id' => 652,
                 'user_id' => 1386,
@@ -5113,7 +5090,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            463 => 
+            461 => 
             array (
                 'id' => 653,
                 'user_id' => 1386,
@@ -5124,7 +5101,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            464 => 
+            462 => 
             array (
                 'id' => 654,
                 'user_id' => 3039,
@@ -5135,7 +5112,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            465 => 
+            463 => 
             array (
                 'id' => 655,
                 'user_id' => 3039,
@@ -5146,7 +5123,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            466 => 
+            464 => 
             array (
                 'id' => 656,
                 'user_id' => 1466,
@@ -5157,7 +5134,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            467 => 
+            465 => 
             array (
                 'id' => 657,
                 'user_id' => 1466,
@@ -5168,7 +5145,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            468 => 
+            466 => 
             array (
                 'id' => 658,
                 'user_id' => 1466,
@@ -5179,7 +5156,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            469 => 
+            467 => 
             array (
                 'id' => 659,
                 'user_id' => 1447,
@@ -5190,7 +5167,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            470 => 
+            468 => 
             array (
                 'id' => 660,
                 'user_id' => 1447,
@@ -5201,7 +5178,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            471 => 
+            469 => 
             array (
                 'id' => 661,
                 'user_id' => 3471,
@@ -5212,7 +5189,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            472 => 
+            470 => 
             array (
                 'id' => 662,
                 'user_id' => 3471,
@@ -5223,7 +5200,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            473 => 
+            471 => 
             array (
                 'id' => 664,
                 'user_id' => 4152,
@@ -5234,7 +5211,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            474 => 
+            472 => 
             array (
                 'id' => 665,
                 'user_id' => 1349,
@@ -5245,7 +5222,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            475 => 
+            473 => 
             array (
                 'id' => 667,
                 'user_id' => 1349,
@@ -5256,7 +5233,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            476 => 
+            474 => 
             array (
                 'id' => 668,
                 'user_id' => 3599,
@@ -5267,7 +5244,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            477 => 
+            475 => 
             array (
                 'id' => 669,
                 'user_id' => 3641,
@@ -5278,7 +5255,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            478 => 
+            476 => 
             array (
                 'id' => 670,
                 'user_id' => 3622,
@@ -5289,7 +5266,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            479 => 
+            477 => 
             array (
                 'id' => 671,
                 'user_id' => 1139,
@@ -5300,7 +5277,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            480 => 
+            478 => 
             array (
                 'id' => 672,
                 'user_id' => 2473,
@@ -5311,7 +5288,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            481 => 
+            479 => 
             array (
                 'id' => 673,
                 'user_id' => 1540,
@@ -5322,7 +5299,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            482 => 
+            480 => 
             array (
                 'id' => 674,
                 'user_id' => 2466,
@@ -5333,7 +5310,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            483 => 
+            481 => 
             array (
                 'id' => 675,
                 'user_id' => 1567,
@@ -5344,7 +5321,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            484 => 
+            482 => 
             array (
                 'id' => 676,
                 'user_id' => 1632,
@@ -5355,7 +5332,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            485 => 
+            483 => 
             array (
                 'id' => 677,
                 'user_id' => 3184,
@@ -5366,7 +5343,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            486 => 
+            484 => 
             array (
                 'id' => 678,
                 'user_id' => 3473,
@@ -5377,7 +5354,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            487 => 
+            485 => 
             array (
                 'id' => 679,
                 'user_id' => 2476,
@@ -5388,7 +5365,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            488 => 
+            486 => 
             array (
                 'id' => 680,
                 'user_id' => 3473,
@@ -5399,7 +5376,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            489 => 
+            487 => 
             array (
                 'id' => 681,
                 'user_id' => 2476,
@@ -5410,7 +5387,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            490 => 
+            488 => 
             array (
                 'id' => 682,
                 'user_id' => 4214,
@@ -5421,7 +5398,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            491 => 
+            489 => 
             array (
                 'id' => 683,
                 'user_id' => 99,
@@ -5432,7 +5409,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            492 => 
+            490 => 
             array (
                 'id' => 684,
                 'user_id' => 99,
@@ -5443,7 +5420,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            493 => 
+            491 => 
             array (
                 'id' => 685,
                 'user_id' => 99,
@@ -5454,7 +5431,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            494 => 
+            492 => 
             array (
                 'id' => 686,
                 'user_id' => 141,
@@ -5465,7 +5442,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            495 => 
+            493 => 
             array (
                 'id' => 687,
                 'user_id' => 141,
@@ -5476,7 +5453,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            496 => 
+            494 => 
             array (
                 'id' => 688,
                 'user_id' => 141,
@@ -5487,7 +5464,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            497 => 
+            495 => 
             array (
                 'id' => 689,
                 'user_id' => 141,
@@ -5498,7 +5475,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            498 => 
+            496 => 
             array (
                 'id' => 690,
                 'user_id' => 137,
@@ -5509,7 +5486,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            499 => 
+            497 => 
             array (
                 'id' => 691,
                 'user_id' => 137,
@@ -5520,9 +5497,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-        ));
-        DB::table('rrhh_brigadas')->insert(array (
-            0 => 
+            498 => 
             array (
                 'id' => 692,
                 'user_id' => 137,
@@ -5533,7 +5508,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            1 => 
+            499 => 
             array (
                 'id' => 695,
                 'user_id' => 137,
@@ -5544,7 +5519,9 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            2 => 
+        ));
+        \DB::table('rrhh_brigadas')->insert(array (
+            0 => 
             array (
                 'id' => 697,
                 'user_id' => 141,
@@ -5555,7 +5532,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            3 => 
+            1 => 
             array (
                 'id' => 698,
                 'user_id' => 162,
@@ -5566,7 +5543,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            4 => 
+            2 => 
             array (
                 'id' => 699,
                 'user_id' => 162,
@@ -5577,7 +5554,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            5 => 
+            3 => 
             array (
                 'id' => 700,
                 'user_id' => 110,
@@ -5588,7 +5565,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            6 => 
+            4 => 
             array (
                 'id' => 701,
                 'user_id' => 110,
@@ -5599,7 +5576,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            7 => 
+            5 => 
             array (
                 'id' => 702,
                 'user_id' => 174,
@@ -5610,7 +5587,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            8 => 
+            6 => 
             array (
                 'id' => 703,
                 'user_id' => 174,
@@ -5621,7 +5598,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            9 => 
+            7 => 
             array (
                 'id' => 704,
                 'user_id' => 141,
@@ -5632,7 +5609,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            10 => 
+            8 => 
             array (
                 'id' => 705,
                 'user_id' => 141,
@@ -5643,7 +5620,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            11 => 
+            9 => 
             array (
                 'id' => 706,
                 'user_id' => 181,
@@ -5654,7 +5631,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            12 => 
+            10 => 
             array (
                 'id' => 707,
                 'user_id' => 181,
@@ -5665,7 +5642,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            13 => 
+            11 => 
             array (
                 'id' => 708,
                 'user_id' => 91,
@@ -5676,7 +5653,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            14 => 
+            12 => 
             array (
                 'id' => 709,
                 'user_id' => 91,
@@ -5687,7 +5664,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            15 => 
+            13 => 
             array (
                 'id' => 710,
                 'user_id' => 124,
@@ -5698,7 +5675,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            16 => 
+            14 => 
             array (
                 'id' => 711,
                 'user_id' => 124,
@@ -5709,7 +5686,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            17 => 
+            15 => 
             array (
                 'id' => 712,
                 'user_id' => 2466,
@@ -5720,7 +5697,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            18 => 
+            16 => 
             array (
                 'id' => 713,
                 'user_id' => 3444,
@@ -5731,7 +5708,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            19 => 
+            17 => 
             array (
                 'id' => 714,
                 'user_id' => 2465,
@@ -5742,7 +5719,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            20 => 
+            18 => 
             array (
                 'id' => 715,
                 'user_id' => 1638,
@@ -5753,7 +5730,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            21 => 
+            19 => 
             array (
                 'id' => 716,
                 'user_id' => 1643,
@@ -5764,7 +5741,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            22 => 
+            20 => 
             array (
                 'id' => 717,
                 'user_id' => 3156,
@@ -5775,7 +5752,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            23 => 
+            21 => 
             array (
                 'id' => 718,
                 'user_id' => 1703,
@@ -5786,7 +5763,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            24 => 
+            22 => 
             array (
                 'id' => 719,
                 'user_id' => 1640,
@@ -5797,7 +5774,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            25 => 
+            23 => 
             array (
                 'id' => 720,
                 'user_id' => 1642,
@@ -5808,7 +5785,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            26 => 
+            24 => 
             array (
                 'id' => 721,
                 'user_id' => 1653,
@@ -5819,7 +5796,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            27 => 
+            25 => 
             array (
                 'id' => 722,
                 'user_id' => 1739,
@@ -5830,7 +5807,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            28 => 
+            26 => 
             array (
                 'id' => 723,
                 'user_id' => 1650,
@@ -5841,7 +5818,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            29 => 
+            27 => 
             array (
                 'id' => 724,
                 'user_id' => 1645,
@@ -5852,7 +5829,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            30 => 
+            28 => 
             array (
                 'id' => 725,
                 'user_id' => 3434,
@@ -5863,7 +5840,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            31 => 
+            29 => 
             array (
                 'id' => 726,
                 'user_id' => 1646,
@@ -5874,7 +5851,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            32 => 
+            30 => 
             array (
                 'id' => 727,
                 'user_id' => 1756,
@@ -5885,7 +5862,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            33 => 
+            31 => 
             array (
                 'id' => 728,
                 'user_id' => 1654,
@@ -5896,18 +5873,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            34 => 
+            32 => 
             array (
                 'id' => 729,
                 'user_id' => 1648,
                 'nom_brigada' => 'SAN LORENZO',
-                'tipo' => '0',
+                'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 248,
                 'integrantes' => 3,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            35 => 
+            33 => 
             array (
                 'id' => 730,
                 'user_id' => 1651,
@@ -5918,7 +5895,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            36 => 
+            34 => 
             array (
                 'id' => 731,
                 'user_id' => 1702,
@@ -5929,7 +5906,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            37 => 
+            35 => 
             array (
                 'id' => 732,
                 'user_id' => 1647,
@@ -5940,7 +5917,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            38 => 
+            36 => 
             array (
                 'id' => 733,
                 'user_id' => 1652,
@@ -5951,7 +5928,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            39 => 
+            37 => 
             array (
                 'id' => 734,
                 'user_id' => 1639,
@@ -5962,7 +5939,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            40 => 
+            38 => 
             array (
                 'id' => 735,
                 'user_id' => 3168,
@@ -5973,7 +5950,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            41 => 
+            39 => 
             array (
                 'id' => 736,
                 'user_id' => 63,
@@ -5984,7 +5961,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            42 => 
+            40 => 
             array (
                 'id' => 737,
                 'user_id' => 4285,
@@ -5995,7 +5972,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            43 => 
+            41 => 
             array (
                 'id' => 738,
                 'user_id' => 4286,
@@ -6006,7 +5983,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            44 => 
+            42 => 
             array (
                 'id' => 739,
                 'user_id' => 4284,
@@ -6017,7 +5994,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            45 => 
+            43 => 
             array (
                 'id' => 740,
                 'user_id' => 1715,
@@ -6028,7 +6005,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            46 => 
+            44 => 
             array (
                 'id' => 741,
                 'user_id' => 1719,
@@ -6039,7 +6016,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            47 => 
+            45 => 
             array (
                 'id' => 742,
                 'user_id' => 1679,
@@ -6050,7 +6027,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            48 => 
+            46 => 
             array (
                 'id' => 743,
                 'user_id' => 1696,
@@ -6061,7 +6038,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            49 => 
+            47 => 
             array (
                 'id' => 744,
                 'user_id' => 1700,
@@ -6072,7 +6049,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            50 => 
+            48 => 
             array (
                 'id' => 745,
                 'user_id' => 1589,
@@ -6083,7 +6060,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            51 => 
+            49 => 
             array (
                 'id' => 746,
                 'user_id' => 1582,
@@ -6094,7 +6071,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            52 => 
+            50 => 
             array (
                 'id' => 747,
                 'user_id' => 1725,
@@ -6105,7 +6082,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            53 => 
+            51 => 
             array (
                 'id' => 748,
                 'user_id' => 1585,
@@ -6116,7 +6093,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            54 => 
+            52 => 
             array (
                 'id' => 749,
                 'user_id' => 1727,
@@ -6127,7 +6104,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            55 => 
+            53 => 
             array (
                 'id' => 750,
                 'user_id' => 1678,
@@ -6138,7 +6115,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            56 => 
+            54 => 
             array (
                 'id' => 751,
                 'user_id' => 3182,
@@ -6149,7 +6126,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            57 => 
+            55 => 
             array (
                 'id' => 752,
                 'user_id' => 2469,
@@ -6160,7 +6137,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            58 => 
+            56 => 
             array (
                 'id' => 753,
                 'user_id' => 4287,
@@ -6171,7 +6148,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            59 => 
+            57 => 
             array (
                 'id' => 754,
                 'user_id' => 1146,
@@ -6182,7 +6159,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            60 => 
+            58 => 
             array (
                 'id' => 755,
                 'user_id' => 1193,
@@ -6193,7 +6170,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            61 => 
+            59 => 
             array (
                 'id' => 756,
                 'user_id' => 1567,
@@ -6204,7 +6181,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            62 => 
+            60 => 
             array (
                 'id' => 757,
                 'user_id' => 1568,
@@ -6215,7 +6192,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            63 => 
+            61 => 
             array (
                 'id' => 758,
                 'user_id' => 1565,
@@ -6226,7 +6203,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            64 => 
+            62 => 
             array (
                 'id' => 759,
                 'user_id' => 1564,
@@ -6237,7 +6214,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            65 => 
+            63 => 
             array (
                 'id' => 760,
                 'user_id' => 1563,
@@ -6248,7 +6225,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            66 => 
+            64 => 
             array (
                 'id' => 761,
                 'user_id' => 1556,
@@ -6259,7 +6236,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            67 => 
+            65 => 
             array (
                 'id' => 762,
                 'user_id' => 1571,
@@ -6270,7 +6247,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            68 => 
+            66 => 
             array (
                 'id' => 763,
                 'user_id' => 1570,
@@ -6281,7 +6258,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            69 => 
+            67 => 
             array (
                 'id' => 764,
                 'user_id' => 1559,
@@ -6292,7 +6269,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            70 => 
+            68 => 
             array (
                 'id' => 765,
                 'user_id' => 1569,
@@ -6303,7 +6280,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            71 => 
+            69 => 
             array (
                 'id' => 766,
                 'user_id' => 3223,
@@ -6314,7 +6291,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            72 => 
+            70 => 
             array (
                 'id' => 767,
                 'user_id' => 1552,
@@ -6325,7 +6302,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            73 => 
+            71 => 
             array (
                 'id' => 768,
                 'user_id' => 1553,
@@ -6336,7 +6313,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            74 => 
+            72 => 
             array (
                 'id' => 769,
                 'user_id' => 1550,
@@ -6347,7 +6324,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            75 => 
+            73 => 
             array (
                 'id' => 770,
                 'user_id' => 3308,
@@ -6358,7 +6335,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            76 => 
+            74 => 
             array (
                 'id' => 771,
                 'user_id' => 1576,
@@ -6369,7 +6346,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            77 => 
+            75 => 
             array (
                 'id' => 772,
                 'user_id' => 1561,
@@ -6380,7 +6357,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            78 => 
+            76 => 
             array (
                 'id' => 773,
                 'user_id' => 1554,
@@ -6391,7 +6368,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            79 => 
+            77 => 
             array (
                 'id' => 774,
                 'user_id' => 1557,
@@ -6402,7 +6379,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            80 => 
+            78 => 
             array (
                 'id' => 775,
                 'user_id' => 1555,
@@ -6413,7 +6390,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            81 => 
+            79 => 
             array (
                 'id' => 776,
                 'user_id' => 1558,
@@ -6424,7 +6401,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            82 => 
+            80 => 
             array (
                 'id' => 777,
                 'user_id' => 1572,
@@ -6435,7 +6412,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            83 => 
+            81 => 
             array (
                 'id' => 778,
                 'user_id' => 1738,
@@ -6446,7 +6423,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            84 => 
+            82 => 
             array (
                 'id' => 779,
                 'user_id' => 1708,
@@ -6457,7 +6434,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            85 => 
+            83 => 
             array (
                 'id' => 780,
                 'user_id' => 1709,
@@ -6468,7 +6445,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            86 => 
+            84 => 
             array (
                 'id' => 781,
                 'user_id' => 4197,
@@ -6479,7 +6456,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            87 => 
+            85 => 
             array (
                 'id' => 782,
                 'user_id' => 4288,
@@ -6490,7 +6467,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            88 => 
+            86 => 
             array (
                 'id' => 783,
                 'user_id' => 2470,
@@ -6501,7 +6478,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            89 => 
+            87 => 
             array (
                 'id' => 784,
                 'user_id' => 1624,
@@ -6512,7 +6489,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            90 => 
+            88 => 
             array (
                 'id' => 785,
                 'user_id' => 1623,
@@ -6523,7 +6500,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            91 => 
+            89 => 
             array (
                 'id' => 786,
                 'user_id' => 1612,
@@ -6534,7 +6511,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            92 => 
+            90 => 
             array (
                 'id' => 787,
                 'user_id' => 1614,
@@ -6545,7 +6522,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            93 => 
+            91 => 
             array (
                 'id' => 788,
                 'user_id' => 3467,
@@ -6556,7 +6533,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            94 => 
+            92 => 
             array (
                 'id' => 789,
                 'user_id' => 1616,
@@ -6567,7 +6544,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            95 => 
+            93 => 
             array (
                 'id' => 790,
                 'user_id' => 1617,
@@ -6578,7 +6555,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            96 => 
+            94 => 
             array (
                 'id' => 791,
                 'user_id' => 1615,
@@ -6589,7 +6566,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            97 => 
+            95 => 
             array (
                 'id' => 792,
                 'user_id' => 1626,
@@ -6600,7 +6577,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            98 => 
+            96 => 
             array (
                 'id' => 793,
                 'user_id' => 2479,
@@ -6611,7 +6588,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            99 => 
+            97 => 
             array (
                 'id' => 794,
                 'user_id' => 1622,
@@ -6622,7 +6599,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            100 => 
+            98 => 
             array (
                 'id' => 795,
                 'user_id' => 1736,
@@ -6633,7 +6610,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            101 => 
+            99 => 
             array (
                 'id' => 796,
                 'user_id' => 3342,
@@ -6644,7 +6621,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            102 => 
+            100 => 
             array (
                 'id' => 798,
                 'user_id' => 2471,
@@ -6655,7 +6632,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            103 => 
+            101 => 
             array (
                 'id' => 799,
                 'user_id' => 2472,
@@ -6666,7 +6643,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            104 => 
+            102 => 
             array (
                 'id' => 800,
                 'user_id' => 1604,
@@ -6677,7 +6654,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            105 => 
+            103 => 
             array (
                 'id' => 801,
                 'user_id' => 1691,
@@ -6688,7 +6665,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            106 => 
+            104 => 
             array (
                 'id' => 802,
                 'user_id' => 1677,
@@ -6699,7 +6676,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            107 => 
+            105 => 
             array (
                 'id' => 803,
                 'user_id' => 1605,
@@ -6710,7 +6687,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            108 => 
+            106 => 
             array (
                 'id' => 804,
                 'user_id' => 1606,
@@ -6721,7 +6698,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            109 => 
+            107 => 
             array (
                 'id' => 805,
                 'user_id' => 1607,
@@ -6732,7 +6709,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            110 => 
+            108 => 
             array (
                 'id' => 806,
                 'user_id' => 1609,
@@ -6743,7 +6720,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            111 => 
+            109 => 
             array (
                 'id' => 807,
                 'user_id' => 1710,
@@ -6754,7 +6731,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            112 => 
+            110 => 
             array (
                 'id' => 808,
                 'user_id' => 1610,
@@ -6765,7 +6742,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            113 => 
+            111 => 
             array (
                 'id' => 809,
                 'user_id' => 1600,
@@ -6776,7 +6753,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            114 => 
+            112 => 
             array (
                 'id' => 810,
                 'user_id' => 1601,
@@ -6787,7 +6764,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            115 => 
+            113 => 
             array (
                 'id' => 811,
                 'user_id' => 1602,
@@ -6798,7 +6775,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            116 => 
+            114 => 
             array (
                 'id' => 812,
                 'user_id' => 1603,
@@ -6809,7 +6786,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            117 => 
+            115 => 
             array (
                 'id' => 813,
                 'user_id' => 1611,
@@ -6820,7 +6797,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            118 => 
+            116 => 
             array (
                 'id' => 814,
                 'user_id' => 1721,
@@ -6831,7 +6808,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            119 => 
+            117 => 
             array (
                 'id' => 815,
                 'user_id' => 1753,
@@ -6842,7 +6819,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            120 => 
+            118 => 
             array (
                 'id' => 816,
                 'user_id' => 1754,
@@ -6853,7 +6830,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            121 => 
+            119 => 
             array (
                 'id' => 817,
                 'user_id' => 2719,
@@ -6864,7 +6841,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            122 => 
+            120 => 
             array (
                 'id' => 818,
                 'user_id' => 1723,
@@ -6875,7 +6852,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            123 => 
+            121 => 
             array (
                 'id' => 819,
                 'user_id' => 1592,
@@ -6886,7 +6863,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            124 => 
+            122 => 
             array (
                 'id' => 820,
                 'user_id' => 1595,
@@ -6897,7 +6874,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            125 => 
+            123 => 
             array (
                 'id' => 821,
                 'user_id' => 1596,
@@ -6908,7 +6885,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            126 => 
+            124 => 
             array (
                 'id' => 822,
                 'user_id' => 1599,
@@ -6919,7 +6896,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            127 => 
+            125 => 
             array (
                 'id' => 823,
                 'user_id' => 1597,
@@ -6930,7 +6907,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            128 => 
+            126 => 
             array (
                 'id' => 824,
                 'user_id' => 1690,
@@ -6941,7 +6918,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            129 => 
+            127 => 
             array (
                 'id' => 825,
                 'user_id' => 2720,
@@ -6952,7 +6929,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            130 => 
+            128 => 
             array (
                 'id' => 826,
                 'user_id' => 1593,
@@ -6963,7 +6940,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            131 => 
+            129 => 
             array (
                 'id' => 827,
                 'user_id' => 1594,
@@ -6974,7 +6951,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            132 => 
+            130 => 
             array (
                 'id' => 828,
                 'user_id' => 1722,
@@ -6985,7 +6962,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            133 => 
+            131 => 
             array (
                 'id' => 829,
                 'user_id' => 1598,
@@ -6996,7 +6973,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            134 => 
+            132 => 
             array (
                 'id' => 830,
                 'user_id' => 3619,
@@ -7007,7 +6984,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            135 => 
+            133 => 
             array (
                 'id' => 831,
                 'user_id' => 3609,
@@ -7018,7 +6995,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            136 => 
+            134 => 
             array (
                 'id' => 832,
                 'user_id' => 4133,
@@ -7029,7 +7006,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            137 => 
+            135 => 
             array (
                 'id' => 833,
                 'user_id' => 3812,
@@ -7040,7 +7017,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            138 => 
+            136 => 
             array (
                 'id' => 834,
                 'user_id' => 3886,
@@ -7051,7 +7028,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            139 => 
+            137 => 
             array (
                 'id' => 835,
                 'user_id' => 3834,
@@ -7062,7 +7039,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            140 => 
+            138 => 
             array (
                 'id' => 836,
                 'user_id' => 4148,
@@ -7073,7 +7050,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            141 => 
+            139 => 
             array (
                 'id' => 837,
                 'user_id' => 3986,
@@ -7084,7 +7061,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            142 => 
+            140 => 
             array (
                 'id' => 838,
                 'user_id' => 3931,
@@ -7095,7 +7072,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            143 => 
+            141 => 
             array (
                 'id' => 839,
                 'user_id' => 3835,
@@ -7106,7 +7083,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            144 => 
+            142 => 
             array (
                 'id' => 840,
                 'user_id' => 3823,
@@ -7117,7 +7094,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            145 => 
+            143 => 
             array (
                 'id' => 841,
                 'user_id' => 3832,
@@ -7128,7 +7105,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            146 => 
+            144 => 
             array (
                 'id' => 842,
                 'user_id' => 3847,
@@ -7139,7 +7116,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            147 => 
+            145 => 
             array (
                 'id' => 843,
                 'user_id' => 3826,
@@ -7150,7 +7127,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            148 => 
+            146 => 
             array (
                 'id' => 844,
                 'user_id' => 3448,
@@ -7161,7 +7138,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            149 => 
+            147 => 
             array (
                 'id' => 845,
                 'user_id' => 4013,
@@ -7172,7 +7149,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            150 => 
+            148 => 
             array (
                 'id' => 846,
                 'user_id' => 4015,
@@ -7183,7 +7160,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            151 => 
+            149 => 
             array (
                 'id' => 847,
                 'user_id' => 4217,
@@ -7194,7 +7171,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            152 => 
+            150 => 
             array (
                 'id' => 848,
                 'user_id' => 1681,
@@ -7205,7 +7182,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            153 => 
+            151 => 
             array (
                 'id' => 849,
                 'user_id' => 1628,
@@ -7216,7 +7193,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            154 => 
+            152 => 
             array (
                 'id' => 850,
                 'user_id' => 99,
@@ -7227,7 +7204,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            155 => 
+            153 => 
             array (
                 'id' => 851,
                 'user_id' => 99,
@@ -7238,7 +7215,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            156 => 
+            154 => 
             array (
                 'id' => 852,
                 'user_id' => 70,
@@ -7249,7 +7226,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            157 => 
+            155 => 
             array (
                 'id' => 853,
                 'user_id' => 70,
@@ -7260,7 +7237,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            158 => 
+            156 => 
             array (
                 'id' => 855,
                 'user_id' => 89,
@@ -7271,7 +7248,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            159 => 
+            157 => 
             array (
                 'id' => 856,
                 'user_id' => 89,
@@ -7282,7 +7259,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            160 => 
+            158 => 
             array (
                 'id' => 858,
                 'user_id' => 144,
@@ -7293,7 +7270,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            161 => 
+            159 => 
             array (
                 'id' => 859,
                 'user_id' => 4277,
@@ -7304,7 +7281,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            162 => 
+            160 => 
             array (
                 'id' => 860,
                 'user_id' => 4277,
@@ -7315,7 +7292,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            163 => 
+            161 => 
             array (
                 'id' => 861,
                 'user_id' => 68,
@@ -7326,7 +7303,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            164 => 
+            162 => 
             array (
                 'id' => 862,
                 'user_id' => 68,
@@ -7337,7 +7314,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            165 => 
+            163 => 
             array (
                 'id' => 863,
                 'user_id' => 82,
@@ -7348,7 +7325,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            166 => 
+            164 => 
             array (
                 'id' => 864,
                 'user_id' => 82,
@@ -7359,7 +7336,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            167 => 
+            165 => 
             array (
                 'id' => 865,
                 'user_id' => 3337,
@@ -7370,7 +7347,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            168 => 
+            166 => 
             array (
                 'id' => 866,
                 'user_id' => 3337,
@@ -7381,7 +7358,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            169 => 
+            167 => 
             array (
                 'id' => 867,
                 'user_id' => 153,
@@ -7392,7 +7369,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            170 => 
+            168 => 
             array (
                 'id' => 868,
                 'user_id' => 153,
@@ -7403,7 +7380,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            171 => 
+            169 => 
             array (
                 'id' => 869,
                 'user_id' => 160,
@@ -7414,7 +7391,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            172 => 
+            170 => 
             array (
                 'id' => 870,
                 'user_id' => 160,
@@ -7425,7 +7402,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            173 => 
+            171 => 
             array (
                 'id' => 871,
                 'user_id' => 174,
@@ -7436,7 +7413,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            174 => 
+            172 => 
             array (
                 'id' => 872,
                 'user_id' => 174,
@@ -7447,7 +7424,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            175 => 
+            173 => 
             array (
                 'id' => 873,
                 'user_id' => 152,
@@ -7458,7 +7435,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            176 => 
+            174 => 
             array (
                 'id' => 874,
                 'user_id' => 152,
@@ -7469,7 +7446,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            177 => 
+            175 => 
             array (
                 'id' => 875,
                 'user_id' => 4269,
@@ -7480,7 +7457,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            178 => 
+            176 => 
             array (
                 'id' => 876,
                 'user_id' => 4269,
@@ -7491,7 +7468,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            179 => 
+            177 => 
             array (
                 'id' => 877,
                 'user_id' => 1536,
@@ -7502,7 +7479,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            180 => 
+            178 => 
             array (
                 'id' => 878,
                 'user_id' => 3034,
@@ -7513,7 +7490,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            181 => 
+            179 => 
             array (
                 'id' => 879,
                 'user_id' => 3034,
@@ -7524,7 +7501,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            182 => 
+            180 => 
             array (
                 'id' => 880,
                 'user_id' => 3034,
@@ -7535,10 +7512,10 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            183 => 
+            181 => 
             array (
                 'id' => 881,
-                'user_id' => 2478,
+                'user_id' => 3412,
                 'nom_brigada' => 'MUNICIPIO ENTRE RIOS',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 250,
@@ -7546,7 +7523,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            184 => 
+            182 => 
             array (
                 'id' => 882,
                 'user_id' => 4095,
@@ -7557,7 +7534,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            185 => 
+            183 => 
             array (
                 'id' => 883,
                 'user_id' => 4096,
@@ -7568,7 +7545,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            186 => 
+            184 => 
             array (
                 'id' => 884,
                 'user_id' => 3668,
@@ -7579,7 +7556,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            187 => 
+            185 => 
             array (
                 'id' => 885,
                 'user_id' => 3665,
@@ -7590,7 +7567,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            188 => 
+            186 => 
             array (
                 'id' => 886,
                 'user_id' => 1215,
@@ -7601,7 +7578,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            189 => 
+            187 => 
             array (
                 'id' => 887,
                 'user_id' => 1215,
@@ -7612,7 +7589,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            190 => 
+            188 => 
             array (
                 'id' => 888,
                 'user_id' => 1275,
@@ -7623,7 +7600,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            191 => 
+            189 => 
             array (
                 'id' => 889,
                 'user_id' => 1275,
@@ -7634,7 +7611,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            192 => 
+            190 => 
             array (
                 'id' => 890,
                 'user_id' => 1275,
@@ -7645,7 +7622,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            193 => 
+            191 => 
             array (
                 'id' => 891,
                 'user_id' => 3158,
@@ -7656,7 +7633,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            194 => 
+            192 => 
             array (
                 'id' => 892,
                 'user_id' => 1705,
@@ -7667,7 +7644,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            195 => 
+            193 => 
             array (
                 'id' => 894,
                 'user_id' => 1704,
@@ -7678,7 +7655,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            196 => 
+            194 => 
             array (
                 'id' => 895,
                 'user_id' => 1695,
@@ -7689,7 +7666,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            197 => 
+            195 => 
             array (
                 'id' => 896,
                 'user_id' => 1694,
@@ -7700,7 +7677,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            198 => 
+            196 => 
             array (
                 'id' => 897,
                 'user_id' => 1693,
@@ -7711,7 +7688,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            199 => 
+            197 => 
             array (
                 'id' => 898,
                 'user_id' => 1675,
@@ -7722,7 +7699,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            200 => 
+            198 => 
             array (
                 'id' => 899,
                 'user_id' => 1674,
@@ -7733,7 +7710,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            201 => 
+            199 => 
             array (
                 'id' => 900,
                 'user_id' => 1672,
@@ -7744,7 +7721,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            202 => 
+            200 => 
             array (
                 'id' => 902,
                 'user_id' => 1671,
@@ -7755,7 +7732,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            203 => 
+            201 => 
             array (
                 'id' => 903,
                 'user_id' => 1670,
@@ -7766,7 +7743,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            204 => 
+            202 => 
             array (
                 'id' => 904,
                 'user_id' => 1669,
@@ -7777,7 +7754,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            205 => 
+            203 => 
             array (
                 'id' => 905,
                 'user_id' => 1667,
@@ -7788,7 +7765,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            206 => 
+            204 => 
             array (
                 'id' => 906,
                 'user_id' => 1668,
@@ -7799,7 +7776,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            207 => 
+            205 => 
             array (
                 'id' => 907,
                 'user_id' => 1666,
@@ -7810,7 +7787,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            208 => 
+            206 => 
             array (
                 'id' => 908,
                 'user_id' => 1665,
@@ -7821,7 +7798,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            209 => 
+            207 => 
             array (
                 'id' => 909,
                 'user_id' => 1664,
@@ -7832,7 +7809,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            210 => 
+            208 => 
             array (
                 'id' => 910,
                 'user_id' => 1663,
@@ -7843,7 +7820,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            211 => 
+            209 => 
             array (
                 'id' => 912,
                 'user_id' => 3184,
@@ -7854,7 +7831,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            212 => 
+            210 => 
             array (
                 'id' => 913,
                 'user_id' => 3184,
@@ -7865,7 +7842,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            213 => 
+            211 => 
             array (
                 'id' => 914,
                 'user_id' => 1613,
@@ -7876,7 +7853,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            214 => 
+            212 => 
             array (
                 'id' => 916,
                 'user_id' => 1628,
@@ -7887,7 +7864,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            215 => 
+            213 => 
             array (
                 'id' => 917,
                 'user_id' => 1628,
@@ -7898,7 +7875,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            216 => 
+            214 => 
             array (
                 'id' => 918,
                 'user_id' => 2721,
@@ -7909,7 +7886,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            217 => 
+            215 => 
             array (
                 'id' => 919,
                 'user_id' => 2721,
@@ -7920,7 +7897,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            218 => 
+            216 => 
             array (
                 'id' => 920,
                 'user_id' => 2721,
@@ -7931,7 +7908,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            219 => 
+            217 => 
             array (
                 'id' => 921,
                 'user_id' => 3840,
@@ -7942,7 +7919,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            220 => 
+            218 => 
             array (
                 'id' => 922,
                 'user_id' => 1359,
@@ -7953,7 +7930,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            221 => 
+            219 => 
             array (
                 'id' => 923,
                 'user_id' => 3037,
@@ -7964,7 +7941,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            222 => 
+            220 => 
             array (
                 'id' => 925,
                 'user_id' => 4290,
@@ -7975,7 +7952,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            223 => 
+            221 => 
             array (
                 'id' => 926,
                 'user_id' => 4290,
@@ -7986,7 +7963,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            224 => 
+            222 => 
             array (
                 'id' => 927,
                 'user_id' => 4290,
@@ -7997,7 +7974,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            225 => 
+            223 => 
             array (
                 'id' => 928,
                 'user_id' => 1024,
@@ -8008,7 +7985,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            226 => 
+            224 => 
             array (
                 'id' => 929,
                 'user_id' => 608,
@@ -8019,7 +7996,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            227 => 
+            225 => 
             array (
                 'id' => 930,
                 'user_id' => 871,
@@ -8030,7 +8007,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            228 => 
+            226 => 
             array (
                 'id' => 931,
                 'user_id' => 340,
@@ -8041,7 +8018,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            229 => 
+            227 => 
             array (
                 'id' => 932,
                 'user_id' => 419,
@@ -8052,7 +8029,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            230 => 
+            228 => 
             array (
                 'id' => 933,
                 'user_id' => 632,
@@ -8063,7 +8040,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            231 => 
+            229 => 
             array (
                 'id' => 934,
                 'user_id' => 649,
@@ -8074,7 +8051,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            232 => 
+            230 => 
             array (
                 'id' => 935,
                 'user_id' => 639,
@@ -8085,7 +8062,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            233 => 
+            231 => 
             array (
                 'id' => 936,
                 'user_id' => 3385,
@@ -8096,7 +8073,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            234 => 
+            232 => 
             array (
                 'id' => 937,
                 'user_id' => 622,
@@ -8107,7 +8084,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            235 => 
+            233 => 
             array (
                 'id' => 938,
                 'user_id' => 3342,
@@ -8118,7 +8095,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            236 => 
+            234 => 
             array (
                 'id' => 939,
                 'user_id' => 730,
@@ -8129,7 +8106,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            237 => 
+            235 => 
             array (
                 'id' => 940,
                 'user_id' => 915,
@@ -8140,7 +8117,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            238 => 
+            236 => 
             array (
                 'id' => 941,
                 'user_id' => 3973,
@@ -8151,18 +8128,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            239 => 
+            237 => 
             array (
                 'id' => 942,
                 'user_id' => 665,
                 'nom_brigada' => 'CAPINOTA',
-                'tipo' => '0',
+                'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 132,
                 'integrantes' => 4,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            240 => 
+            238 => 
             array (
                 'id' => 943,
                 'user_id' => 815,
@@ -8173,7 +8150,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            241 => 
+            239 => 
             array (
                 'id' => 944,
                 'user_id' => 677,
@@ -8184,7 +8161,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            242 => 
+            240 => 
             array (
                 'id' => 945,
                 'user_id' => 999,
@@ -8195,7 +8172,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            243 => 
+            241 => 
             array (
                 'id' => 946,
                 'user_id' => 745,
@@ -8206,7 +8183,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            244 => 
+            242 => 
             array (
                 'id' => 947,
                 'user_id' => 3129,
@@ -8217,7 +8194,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            245 => 
+            243 => 
             array (
                 'id' => 948,
                 'user_id' => 858,
@@ -8228,7 +8205,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            246 => 
+            244 => 
             array (
                 'id' => 949,
                 'user_id' => 624,
@@ -8239,7 +8216,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            247 => 
+            245 => 
             array (
                 'id' => 950,
                 'user_id' => 619,
@@ -8250,7 +8227,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            248 => 
+            246 => 
             array (
                 'id' => 951,
                 'user_id' => 617,
@@ -8261,7 +8238,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            249 => 
+            247 => 
             array (
                 'id' => 952,
                 'user_id' => 3274,
@@ -8272,7 +8249,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            250 => 
+            248 => 
             array (
                 'id' => 953,
                 'user_id' => 696,
@@ -8283,7 +8260,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            251 => 
+            249 => 
             array (
                 'id' => 954,
                 'user_id' => 3187,
@@ -8294,7 +8271,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            252 => 
+            250 => 
             array (
                 'id' => 955,
                 'user_id' => 610,
@@ -8305,18 +8282,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            253 => 
+            251 => 
             array (
                 'id' => 956,
                 'user_id' => 3482,
                 'nom_brigada' => 'SACABAMBA',
-                'tipo' => '0',
+                'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 127,
                 'integrantes' => 5,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            254 => 
+            252 => 
             array (
                 'id' => 957,
                 'user_id' => 904,
@@ -8327,7 +8304,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            255 => 
+            253 => 
             array (
                 'id' => 958,
                 'user_id' => 811,
@@ -8338,7 +8315,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            256 => 
+            254 => 
             array (
                 'id' => 959,
                 'user_id' => 931,
@@ -8349,7 +8326,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            257 => 
+            255 => 
             array (
                 'id' => 960,
                 'user_id' => 671,
@@ -8360,7 +8337,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            258 => 
+            256 => 
             array (
                 'id' => 961,
                 'user_id' => 706,
@@ -8371,7 +8348,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            259 => 
+            257 => 
             array (
                 'id' => 962,
                 'user_id' => 3550,
@@ -8382,7 +8359,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            260 => 
+            258 => 
             array (
                 'id' => 963,
                 'user_id' => 664,
@@ -8393,7 +8370,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            261 => 
+            259 => 
             array (
                 'id' => 964,
                 'user_id' => 782,
@@ -8404,7 +8381,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            262 => 
+            260 => 
             array (
                 'id' => 965,
                 'user_id' => 2840,
@@ -8415,7 +8392,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            263 => 
+            261 => 
             array (
                 'id' => 966,
                 'user_id' => 715,
@@ -8426,7 +8403,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            264 => 
+            262 => 
             array (
                 'id' => 967,
                 'user_id' => 935,
@@ -8437,7 +8414,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            265 => 
+            263 => 
             array (
                 'id' => 968,
                 'user_id' => 687,
@@ -8448,7 +8425,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            266 => 
+            264 => 
             array (
                 'id' => 969,
                 'user_id' => 690,
@@ -8459,7 +8436,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            267 => 
+            265 => 
             array (
                 'id' => 970,
                 'user_id' => 3198,
@@ -8470,7 +8447,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            268 => 
+            266 => 
             array (
                 'id' => 971,
                 'user_id' => 3422,
@@ -8481,7 +8458,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            269 => 
+            267 => 
             array (
                 'id' => 972,
                 'user_id' => 3188,
@@ -8492,7 +8469,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            270 => 
+            268 => 
             array (
                 'id' => 973,
                 'user_id' => 897,
@@ -8503,7 +8480,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            271 => 
+            269 => 
             array (
                 'id' => 974,
                 'user_id' => 780,
@@ -8514,7 +8491,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            272 => 
+            270 => 
             array (
                 'id' => 975,
                 'user_id' => 1093,
@@ -8525,7 +8502,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            273 => 
+            271 => 
             array (
                 'id' => 976,
                 'user_id' => 3427,
@@ -8536,7 +8513,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            274 => 
+            272 => 
             array (
                 'id' => 977,
                 'user_id' => 1620,
@@ -8547,7 +8524,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            275 => 
+            273 => 
             array (
                 'id' => 978,
                 'user_id' => 1618,
@@ -8558,7 +8535,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            276 => 
+            274 => 
             array (
                 'id' => 979,
                 'user_id' => 1618,
@@ -8569,7 +8546,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            277 => 
+            275 => 
             array (
                 'id' => 980,
                 'user_id' => 3223,
@@ -8580,7 +8557,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            278 => 
+            276 => 
             array (
                 'id' => 981,
                 'user_id' => 3223,
@@ -8591,7 +8568,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            279 => 
+            277 => 
             array (
                 'id' => 982,
                 'user_id' => 1525,
@@ -8602,7 +8579,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            280 => 
+            278 => 
             array (
                 'id' => 983,
                 'user_id' => 1525,
@@ -8613,7 +8590,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            281 => 
+            279 => 
             array (
                 'id' => 984,
                 'user_id' => 191,
@@ -8624,7 +8601,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            282 => 
+            280 => 
             array (
                 'id' => 985,
                 'user_id' => 1460,
@@ -8635,7 +8612,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            283 => 
+            281 => 
             array (
                 'id' => 986,
                 'user_id' => 1460,
@@ -8646,7 +8623,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            284 => 
+            282 => 
             array (
                 'id' => 987,
                 'user_id' => 2484,
@@ -8657,7 +8634,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            285 => 
+            283 => 
             array (
                 'id' => 988,
                 'user_id' => 608,
@@ -8668,7 +8645,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            286 => 
+            284 => 
             array (
                 'id' => 989,
                 'user_id' => 871,
@@ -8679,7 +8656,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            287 => 
+            285 => 
             array (
                 'id' => 990,
                 'user_id' => 632,
@@ -8690,7 +8667,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            288 => 
+            286 => 
             array (
                 'id' => 991,
                 'user_id' => 649,
@@ -8701,7 +8678,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            289 => 
+            287 => 
             array (
                 'id' => 992,
                 'user_id' => 639,
@@ -8712,7 +8689,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            290 => 
+            288 => 
             array (
                 'id' => 993,
                 'user_id' => 3385,
@@ -8723,7 +8700,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            291 => 
+            289 => 
             array (
                 'id' => 994,
                 'user_id' => 3437,
@@ -8734,7 +8711,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            292 => 
+            290 => 
             array (
                 'id' => 995,
                 'user_id' => 3437,
@@ -8745,7 +8722,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            293 => 
+            291 => 
             array (
                 'id' => 996,
                 'user_id' => 622,
@@ -8756,7 +8733,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            294 => 
+            292 => 
             array (
                 'id' => 997,
                 'user_id' => 915,
@@ -8767,18 +8744,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            295 => 
+            293 => 
             array (
                 'id' => 998,
                 'user_id' => 665,
                 'nom_brigada' => 'CAPINOTA',
-                'tipo' => '0',
+                'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 132,
                 'integrantes' => 4,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            296 => 
+            294 => 
             array (
                 'id' => 999,
                 'user_id' => 815,
@@ -8789,7 +8766,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            297 => 
+            295 => 
             array (
                 'id' => 1000,
                 'user_id' => 677,
@@ -8800,7 +8777,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            298 => 
+            296 => 
             array (
                 'id' => 1001,
                 'user_id' => 999,
@@ -8811,7 +8788,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            299 => 
+            297 => 
             array (
                 'id' => 1002,
                 'user_id' => 1024,
@@ -8822,7 +8799,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            300 => 
+            298 => 
             array (
                 'id' => 1003,
                 'user_id' => 730,
@@ -8833,7 +8810,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            301 => 
+            299 => 
             array (
                 'id' => 1004,
                 'user_id' => 745,
@@ -8844,7 +8821,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            302 => 
+            300 => 
             array (
                 'id' => 1005,
                 'user_id' => 3129,
@@ -8855,7 +8832,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            303 => 
+            301 => 
             array (
                 'id' => 1006,
                 'user_id' => 858,
@@ -8866,7 +8843,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            304 => 
+            302 => 
             array (
                 'id' => 1007,
                 'user_id' => 624,
@@ -8877,7 +8854,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            305 => 
+            303 => 
             array (
                 'id' => 1008,
                 'user_id' => 619,
@@ -8888,7 +8865,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            306 => 
+            304 => 
             array (
                 'id' => 1009,
                 'user_id' => 617,
@@ -8899,7 +8876,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            307 => 
+            305 => 
             array (
                 'id' => 1010,
                 'user_id' => 3274,
@@ -8910,7 +8887,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            308 => 
+            306 => 
             array (
                 'id' => 1011,
                 'user_id' => 696,
@@ -8921,7 +8898,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            309 => 
+            307 => 
             array (
                 'id' => 1012,
                 'user_id' => 3187,
@@ -8932,7 +8909,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            310 => 
+            308 => 
             array (
                 'id' => 1013,
                 'user_id' => 610,
@@ -8943,7 +8920,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            311 => 
+            309 => 
             array (
                 'id' => 1014,
                 'user_id' => 3482,
@@ -8954,7 +8931,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            312 => 
+            310 => 
             array (
                 'id' => 1015,
                 'user_id' => 904,
@@ -8965,7 +8942,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            313 => 
+            311 => 
             array (
                 'id' => 1016,
                 'user_id' => 811,
@@ -8976,7 +8953,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            314 => 
+            312 => 
             array (
                 'id' => 1017,
                 'user_id' => 931,
@@ -8987,7 +8964,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            315 => 
+            313 => 
             array (
                 'id' => 1018,
                 'user_id' => 671,
@@ -8998,7 +8975,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            316 => 
+            314 => 
             array (
                 'id' => 1019,
                 'user_id' => 706,
@@ -9009,7 +8986,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            317 => 
+            315 => 
             array (
                 'id' => 1020,
                 'user_id' => 3550,
@@ -9020,7 +8997,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            318 => 
+            316 => 
             array (
                 'id' => 1021,
                 'user_id' => 977,
@@ -9031,7 +9008,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            319 => 
+            317 => 
             array (
                 'id' => 1022,
                 'user_id' => 782,
@@ -9042,7 +9019,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            320 => 
+            318 => 
             array (
                 'id' => 1023,
                 'user_id' => 2840,
@@ -9053,7 +9030,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            321 => 
+            319 => 
             array (
                 'id' => 1024,
                 'user_id' => 715,
@@ -9064,7 +9041,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            322 => 
+            320 => 
             array (
                 'id' => 1025,
                 'user_id' => 935,
@@ -9075,7 +9052,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            323 => 
+            321 => 
             array (
                 'id' => 1027,
                 'user_id' => 687,
@@ -9086,7 +9063,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            324 => 
+            322 => 
             array (
                 'id' => 1029,
                 'user_id' => 1263,
@@ -9097,7 +9074,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            325 => 
+            323 => 
             array (
                 'id' => 1030,
                 'user_id' => 1619,
@@ -9108,7 +9085,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            326 => 
+            324 => 
             array (
                 'id' => 1031,
                 'user_id' => 3198,
@@ -9119,7 +9096,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            327 => 
+            325 => 
             array (
                 'id' => 1032,
                 'user_id' => 3422,
@@ -9130,7 +9107,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            328 => 
+            326 => 
             array (
                 'id' => 1033,
                 'user_id' => 3188,
@@ -9141,7 +9118,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            329 => 
+            327 => 
             array (
                 'id' => 1034,
                 'user_id' => 3492,
@@ -9152,7 +9129,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            330 => 
+            328 => 
             array (
                 'id' => 1035,
                 'user_id' => 780,
@@ -9163,7 +9140,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            331 => 
+            329 => 
             array (
                 'id' => 1036,
                 'user_id' => 1093,
@@ -9174,7 +9151,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            332 => 
+            330 => 
             array (
                 'id' => 1037,
                 'user_id' => 690,
@@ -9185,7 +9162,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            333 => 
+            331 => 
             array (
                 'id' => 1038,
                 'user_id' => 1634,
@@ -9196,7 +9173,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            334 => 
+            332 => 
             array (
                 'id' => 1039,
                 'user_id' => 3115,
@@ -9207,7 +9184,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            335 => 
+            333 => 
             array (
                 'id' => 1040,
                 'user_id' => 3115,
@@ -9218,7 +9195,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            336 => 
+            334 => 
             array (
                 'id' => 1041,
                 'user_id' => 3115,
@@ -9229,7 +9206,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            337 => 
+            335 => 
             array (
                 'id' => 1042,
                 'user_id' => 608,
@@ -9240,7 +9217,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            338 => 
+            336 => 
             array (
                 'id' => 1043,
                 'user_id' => 871,
@@ -9251,7 +9228,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            339 => 
+            337 => 
             array (
                 'id' => 1044,
                 'user_id' => 632,
@@ -9262,7 +9239,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            340 => 
+            338 => 
             array (
                 'id' => 1045,
                 'user_id' => 649,
@@ -9273,7 +9250,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            341 => 
+            339 => 
             array (
                 'id' => 1046,
                 'user_id' => 639,
@@ -9284,7 +9261,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            342 => 
+            340 => 
             array (
                 'id' => 1047,
                 'user_id' => 3385,
@@ -9295,7 +9272,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            343 => 
+            341 => 
             array (
                 'id' => 1048,
                 'user_id' => 622,
@@ -9306,7 +9283,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            344 => 
+            342 => 
             array (
                 'id' => 1049,
                 'user_id' => 915,
@@ -9317,7 +9294,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            345 => 
+            343 => 
             array (
                 'id' => 1050,
                 'user_id' => 665,
@@ -9328,7 +9305,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            346 => 
+            344 => 
             array (
                 'id' => 1051,
                 'user_id' => 815,
@@ -9339,7 +9316,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            347 => 
+            345 => 
             array (
                 'id' => 1052,
                 'user_id' => 677,
@@ -9350,7 +9327,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            348 => 
+            346 => 
             array (
                 'id' => 1053,
                 'user_id' => 999,
@@ -9361,7 +9338,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            349 => 
+            347 => 
             array (
                 'id' => 1054,
                 'user_id' => 1024,
@@ -9372,7 +9349,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            350 => 
+            348 => 
             array (
                 'id' => 1056,
                 'user_id' => 730,
@@ -9383,7 +9360,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            351 => 
+            349 => 
             array (
                 'id' => 1057,
                 'user_id' => 745,
@@ -9394,7 +9371,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            352 => 
+            350 => 
             array (
                 'id' => 1058,
                 'user_id' => 3129,
@@ -9405,7 +9382,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            353 => 
+            351 => 
             array (
                 'id' => 1059,
                 'user_id' => 858,
@@ -9416,7 +9393,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            354 => 
+            352 => 
             array (
                 'id' => 1060,
                 'user_id' => 624,
@@ -9427,7 +9404,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            355 => 
+            353 => 
             array (
                 'id' => 1061,
                 'user_id' => 619,
@@ -9438,7 +9415,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            356 => 
+            354 => 
             array (
                 'id' => 1062,
                 'user_id' => 617,
@@ -9449,7 +9426,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            357 => 
+            355 => 
             array (
                 'id' => 1063,
                 'user_id' => 3274,
@@ -9460,7 +9437,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            358 => 
+            356 => 
             array (
                 'id' => 1064,
                 'user_id' => 696,
@@ -9471,7 +9448,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            359 => 
+            357 => 
             array (
                 'id' => 1065,
                 'user_id' => 3187,
@@ -9482,7 +9459,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            360 => 
+            358 => 
             array (
                 'id' => 1066,
                 'user_id' => 610,
@@ -9493,7 +9470,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            361 => 
+            359 => 
             array (
                 'id' => 1067,
                 'user_id' => 3482,
@@ -9504,7 +9481,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            362 => 
+            360 => 
             array (
                 'id' => 1068,
                 'user_id' => 904,
@@ -9515,7 +9492,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            363 => 
+            361 => 
             array (
                 'id' => 1069,
                 'user_id' => 811,
@@ -9526,7 +9503,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            364 => 
+            362 => 
             array (
                 'id' => 1070,
                 'user_id' => 706,
@@ -9537,7 +9514,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            365 => 
+            363 => 
             array (
                 'id' => 1071,
                 'user_id' => 931,
@@ -9548,7 +9525,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            366 => 
+            364 => 
             array (
                 'id' => 1072,
                 'user_id' => 3550,
@@ -9559,7 +9536,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            367 => 
+            365 => 
             array (
                 'id' => 1073,
                 'user_id' => 1629,
@@ -9570,7 +9547,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            368 => 
+            366 => 
             array (
                 'id' => 1074,
                 'user_id' => 1630,
@@ -9581,10 +9558,10 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            369 => 
+            367 => 
             array (
                 'id' => 1076,
-                'user_id' => 1256,
+                'user_id' => 3412,
                 'nom_brigada' => 'CHALLAPATA',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 169,
@@ -9592,7 +9569,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            370 => 
+            368 => 
             array (
                 'id' => 1077,
                 'user_id' => 4269,
@@ -9603,7 +9580,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            371 => 
+            369 => 
             array (
                 'id' => 1078,
                 'user_id' => 144,
@@ -9614,7 +9591,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            372 => 
+            370 => 
             array (
                 'id' => 1079,
                 'user_id' => 144,
@@ -9625,7 +9602,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            373 => 
+            371 => 
             array (
                 'id' => 1080,
                 'user_id' => 1547,
@@ -9636,7 +9613,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            374 => 
+            372 => 
             array (
                 'id' => 1081,
                 'user_id' => 1527,
@@ -9647,7 +9624,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            375 => 
+            373 => 
             array (
                 'id' => 1082,
                 'user_id' => 1527,
@@ -9658,7 +9635,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            376 => 
+            374 => 
             array (
                 'id' => 1086,
                 'user_id' => 4294,
@@ -9669,7 +9646,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            377 => 
+            375 => 
             array (
                 'id' => 1087,
                 'user_id' => 68,
@@ -9680,7 +9657,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            378 => 
+            376 => 
             array (
                 'id' => 1088,
                 'user_id' => 1225,
@@ -9691,7 +9668,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            379 => 
+            377 => 
             array (
                 'id' => 1089,
                 'user_id' => 1225,
@@ -9702,7 +9679,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            380 => 
+            378 => 
             array (
                 'id' => 1090,
                 'user_id' => 152,
@@ -9713,7 +9690,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            381 => 
+            379 => 
             array (
                 'id' => 1091,
                 'user_id' => 141,
@@ -9724,7 +9701,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            382 => 
+            380 => 
             array (
                 'id' => 1092,
                 'user_id' => 162,
@@ -9735,7 +9712,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            383 => 
+            381 => 
             array (
                 'id' => 1093,
                 'user_id' => 110,
@@ -9746,7 +9723,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            384 => 
+            382 => 
             array (
                 'id' => 1094,
                 'user_id' => 4293,
@@ -9757,7 +9734,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            385 => 
+            383 => 
             array (
                 'id' => 1095,
                 'user_id' => 4293,
@@ -9768,7 +9745,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            386 => 
+            384 => 
             array (
                 'id' => 1096,
                 'user_id' => 4293,
@@ -9779,7 +9756,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            387 => 
+            385 => 
             array (
                 'id' => 1097,
                 'user_id' => 176,
@@ -9790,7 +9767,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            388 => 
+            386 => 
             array (
                 'id' => 1098,
                 'user_id' => 4291,
@@ -9801,7 +9778,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            389 => 
+            387 => 
             array (
                 'id' => 1099,
                 'user_id' => 4291,
@@ -9812,7 +9789,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            390 => 
+            388 => 
             array (
                 'id' => 1100,
                 'user_id' => 4291,
@@ -9823,7 +9800,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            391 => 
+            389 => 
             array (
                 'id' => 1101,
                 'user_id' => 168,
@@ -9834,7 +9811,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            392 => 
+            390 => 
             array (
                 'id' => 1102,
                 'user_id' => 181,
@@ -9845,7 +9822,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            393 => 
+            391 => 
             array (
                 'id' => 1103,
                 'user_id' => 91,
@@ -9856,7 +9833,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            394 => 
+            392 => 
             array (
                 'id' => 1104,
                 'user_id' => 124,
@@ -9867,7 +9844,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            395 => 
+            393 => 
             array (
                 'id' => 1105,
                 'user_id' => 120,
@@ -9878,7 +9855,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            396 => 
+            394 => 
             array (
                 'id' => 1106,
                 'user_id' => 226,
@@ -9889,7 +9866,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            397 => 
+            395 => 
             array (
                 'id' => 1107,
                 'user_id' => 119,
@@ -9900,7 +9877,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            398 => 
+            396 => 
             array (
                 'id' => 1108,
                 'user_id' => 121,
@@ -9911,7 +9888,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            399 => 
+            397 => 
             array (
                 'id' => 1109,
                 'user_id' => 118,
@@ -9922,7 +9899,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            400 => 
+            398 => 
             array (
                 'id' => 1110,
                 'user_id' => 112,
@@ -9933,7 +9910,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            401 => 
+            399 => 
             array (
                 'id' => 1111,
                 'user_id' => 122,
@@ -9944,7 +9921,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            402 => 
+            400 => 
             array (
                 'id' => 1112,
                 'user_id' => 115,
@@ -9955,7 +9932,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            403 => 
+            401 => 
             array (
                 'id' => 1113,
                 'user_id' => 114,
@@ -9966,7 +9943,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            404 => 
+            402 => 
             array (
                 'id' => 1115,
                 'user_id' => 70,
@@ -9977,7 +9954,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            405 => 
+            403 => 
             array (
                 'id' => 1116,
                 'user_id' => 89,
@@ -9988,7 +9965,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            406 => 
+            404 => 
             array (
                 'id' => 1117,
                 'user_id' => 4277,
@@ -9999,7 +9976,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            407 => 
+            405 => 
             array (
                 'id' => 1120,
                 'user_id' => 160,
@@ -10010,7 +9987,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            408 => 
+            406 => 
             array (
                 'id' => 1121,
                 'user_id' => 174,
@@ -10021,7 +9998,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            409 => 
+            407 => 
             array (
                 'id' => 1122,
                 'user_id' => 451,
@@ -10032,7 +10009,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            410 => 
+            408 => 
             array (
                 'id' => 1123,
                 'user_id' => 451,
@@ -10043,7 +10020,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            411 => 
+            409 => 
             array (
                 'id' => 1124,
                 'user_id' => 451,
@@ -10054,7 +10031,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            412 => 
+            410 => 
             array (
                 'id' => 1125,
                 'user_id' => 343,
@@ -10065,7 +10042,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            413 => 
+            411 => 
             array (
                 'id' => 1126,
                 'user_id' => 2673,
@@ -10076,7 +10053,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            414 => 
+            412 => 
             array (
                 'id' => 1127,
                 'user_id' => 3380,
@@ -10087,18 +10064,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            415 => 
+            413 => 
             array (
                 'id' => 1128,
                 'user_id' => 3370,
                 'nom_brigada' => 'EL ALTO',
-                'tipo' => '0',
+                'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 34,
                 'integrantes' => 10,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            416 => 
+            414 => 
             array (
                 'id' => 1129,
                 'user_id' => 4295,
@@ -10109,7 +10086,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            417 => 
+            415 => 
             array (
                 'id' => 1130,
                 'user_id' => 4295,
@@ -10120,7 +10097,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            418 => 
+            416 => 
             array (
                 'id' => 1131,
                 'user_id' => 3595,
@@ -10131,7 +10108,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            419 => 
+            417 => 
             array (
                 'id' => 1132,
                 'user_id' => 3512,
@@ -10142,7 +10119,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            420 => 
+            418 => 
             array (
                 'id' => 1133,
                 'user_id' => 1375,
@@ -10153,7 +10130,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            421 => 
+            419 => 
             array (
                 'id' => 1134,
                 'user_id' => 1375,
@@ -10164,7 +10141,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            422 => 
+            420 => 
             array (
                 'id' => 1135,
                 'user_id' => 1192,
@@ -10175,7 +10152,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            423 => 
+            421 => 
             array (
                 'id' => 1136,
                 'user_id' => 1439,
@@ -10186,7 +10163,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            424 => 
+            422 => 
             array (
                 'id' => 1137,
                 'user_id' => 1439,
@@ -10197,7 +10174,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            425 => 
+            423 => 
             array (
                 'id' => 1138,
                 'user_id' => 2890,
@@ -10208,7 +10185,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            426 => 
+            424 => 
             array (
                 'id' => 1139,
                 'user_id' => 2890,
@@ -10219,7 +10196,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            427 => 
+            425 => 
             array (
                 'id' => 1140,
                 'user_id' => 1181,
@@ -10230,7 +10207,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            428 => 
+            426 => 
             array (
                 'id' => 1141,
                 'user_id' => 82,
@@ -10241,7 +10218,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            429 => 
+            427 => 
             array (
                 'id' => 1142,
                 'user_id' => 1567,
@@ -10252,7 +10229,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            430 => 
+            428 => 
             array (
                 'id' => 1143,
                 'user_id' => 1563,
@@ -10263,7 +10240,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            431 => 
+            429 => 
             array (
                 'id' => 1146,
                 'user_id' => 1151,
@@ -10274,7 +10251,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            432 => 
+            430 => 
             array (
                 'id' => 1147,
                 'user_id' => 4206,
@@ -10285,7 +10262,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            433 => 
+            431 => 
             array (
                 'id' => 1148,
                 'user_id' => 82,
@@ -10296,7 +10273,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            434 => 
+            432 => 
             array (
                 'id' => 1149,
                 'user_id' => 82,
@@ -10307,7 +10284,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            435 => 
+            433 => 
             array (
                 'id' => 1150,
                 'user_id' => 82,
@@ -10318,7 +10295,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            436 => 
+            434 => 
             array (
                 'id' => 1151,
                 'user_id' => 153,
@@ -10329,7 +10306,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            437 => 
+            435 => 
             array (
                 'id' => 1152,
                 'user_id' => 1173,
@@ -10340,7 +10317,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            438 => 
+            436 => 
             array (
                 'id' => 1153,
                 'user_id' => 1151,
@@ -10351,7 +10328,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            439 => 
+            437 => 
             array (
                 'id' => 1155,
                 'user_id' => 108,
@@ -10362,7 +10339,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            440 => 
+            438 => 
             array (
                 'id' => 1156,
                 'user_id' => 108,
@@ -10373,7 +10350,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            441 => 
+            439 => 
             array (
                 'id' => 1157,
                 'user_id' => 108,
@@ -10384,7 +10361,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            442 => 
+            440 => 
             array (
                 'id' => 1158,
                 'user_id' => 2766,
@@ -10395,7 +10372,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            443 => 
+            441 => 
             array (
                 'id' => 1159,
                 'user_id' => 2766,
@@ -10406,7 +10383,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            444 => 
+            442 => 
             array (
                 'id' => 1160,
                 'user_id' => 2766,
@@ -10417,7 +10394,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            445 => 
+            443 => 
             array (
                 'id' => 1161,
                 'user_id' => 228,
@@ -10428,7 +10405,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            446 => 
+            444 => 
             array (
                 'id' => 1162,
                 'user_id' => 228,
@@ -10439,7 +10416,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            447 => 
+            445 => 
             array (
                 'id' => 1163,
                 'user_id' => 228,
@@ -10450,7 +10427,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            448 => 
+            446 => 
             array (
                 'id' => 1164,
                 'user_id' => 2752,
@@ -10461,7 +10438,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            449 => 
+            447 => 
             array (
                 'id' => 1165,
                 'user_id' => 2752,
@@ -10472,7 +10449,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            450 => 
+            448 => 
             array (
                 'id' => 1166,
                 'user_id' => 2752,
@@ -10483,7 +10460,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            451 => 
+            449 => 
             array (
                 'id' => 1167,
                 'user_id' => 111,
@@ -10494,7 +10471,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            452 => 
+            450 => 
             array (
                 'id' => 1168,
                 'user_id' => 111,
@@ -10505,7 +10482,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            453 => 
+            451 => 
             array (
                 'id' => 1169,
                 'user_id' => 111,
@@ -10516,7 +10493,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            454 => 
+            452 => 
             array (
                 'id' => 1170,
                 'user_id' => 176,
@@ -10527,7 +10504,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            455 => 
+            453 => 
             array (
                 'id' => 1171,
                 'user_id' => 176,
@@ -10538,7 +10515,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            456 => 
+            454 => 
             array (
                 'id' => 1172,
                 'user_id' => 154,
@@ -10549,7 +10526,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            457 => 
+            455 => 
             array (
                 'id' => 1173,
                 'user_id' => 154,
@@ -10560,7 +10537,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            458 => 
+            456 => 
             array (
                 'id' => 1174,
                 'user_id' => 154,
@@ -10571,7 +10548,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            459 => 
+            457 => 
             array (
                 'id' => 1176,
                 'user_id' => 150,
@@ -10582,7 +10559,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            460 => 
+            458 => 
             array (
                 'id' => 1177,
                 'user_id' => 150,
@@ -10593,7 +10570,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            461 => 
+            459 => 
             array (
                 'id' => 1178,
                 'user_id' => 150,
@@ -10604,7 +10581,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            462 => 
+            460 => 
             array (
                 'id' => 1179,
                 'user_id' => 149,
@@ -10615,7 +10592,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            463 => 
+            461 => 
             array (
                 'id' => 1180,
                 'user_id' => 149,
@@ -10626,7 +10603,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            464 => 
+            462 => 
             array (
                 'id' => 1181,
                 'user_id' => 149,
@@ -10637,7 +10614,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            465 => 
+            463 => 
             array (
                 'id' => 1183,
                 'user_id' => 168,
@@ -10648,7 +10625,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            466 => 
+            464 => 
             array (
                 'id' => 1184,
                 'user_id' => 168,
@@ -10659,7 +10636,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            467 => 
+            465 => 
             array (
                 'id' => 1185,
                 'user_id' => 93,
@@ -10670,7 +10647,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            468 => 
+            466 => 
             array (
                 'id' => 1186,
                 'user_id' => 93,
@@ -10681,7 +10658,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            469 => 
+            467 => 
             array (
                 'id' => 1187,
                 'user_id' => 93,
@@ -10692,7 +10669,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            470 => 
+            468 => 
             array (
                 'id' => 1188,
                 'user_id' => 62,
@@ -10703,7 +10680,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            471 => 
+            469 => 
             array (
                 'id' => 1189,
                 'user_id' => 62,
@@ -10714,7 +10691,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            472 => 
+            470 => 
             array (
                 'id' => 1190,
                 'user_id' => 62,
@@ -10725,7 +10702,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            473 => 
+            471 => 
             array (
                 'id' => 1191,
                 'user_id' => 155,
@@ -10736,7 +10713,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            474 => 
+            472 => 
             array (
                 'id' => 1193,
                 'user_id' => 155,
@@ -10747,7 +10724,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            475 => 
+            473 => 
             array (
                 'id' => 1194,
                 'user_id' => 155,
@@ -10758,7 +10735,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            476 => 
+            474 => 
             array (
                 'id' => 1195,
                 'user_id' => 99,
@@ -10769,7 +10746,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            477 => 
+            475 => 
             array (
                 'id' => 1196,
                 'user_id' => 98,
@@ -10780,7 +10757,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            478 => 
+            476 => 
             array (
                 'id' => 1197,
                 'user_id' => 98,
@@ -10791,7 +10768,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            479 => 
+            477 => 
             array (
                 'id' => 1198,
                 'user_id' => 98,
@@ -10802,7 +10779,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            480 => 
+            478 => 
             array (
                 'id' => 1199,
                 'user_id' => 218,
@@ -10813,7 +10790,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            481 => 
+            479 => 
             array (
                 'id' => 1200,
                 'user_id' => 218,
@@ -10824,7 +10801,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            482 => 
+            480 => 
             array (
                 'id' => 1201,
                 'user_id' => 218,
@@ -10835,7 +10812,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            483 => 
+            481 => 
             array (
                 'id' => 1202,
                 'user_id' => 217,
@@ -10846,7 +10823,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            484 => 
+            482 => 
             array (
                 'id' => 1203,
                 'user_id' => 217,
@@ -10857,7 +10834,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            485 => 
+            483 => 
             array (
                 'id' => 1204,
                 'user_id' => 217,
@@ -10868,7 +10845,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            486 => 
+            484 => 
             array (
                 'id' => 1205,
                 'user_id' => 88,
@@ -10879,7 +10856,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            487 => 
+            485 => 
             array (
                 'id' => 1206,
                 'user_id' => 88,
@@ -10890,7 +10867,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            488 => 
+            486 => 
             array (
                 'id' => 1207,
                 'user_id' => 88,
@@ -10901,7 +10878,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            489 => 
+            487 => 
             array (
                 'id' => 1208,
                 'user_id' => 232,
@@ -10912,7 +10889,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            490 => 
+            488 => 
             array (
                 'id' => 1209,
                 'user_id' => 232,
@@ -10923,7 +10900,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            491 => 
+            489 => 
             array (
                 'id' => 1210,
                 'user_id' => 232,
@@ -10934,7 +10911,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            492 => 
+            490 => 
             array (
                 'id' => 1211,
                 'user_id' => 223,
@@ -10945,7 +10922,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            493 => 
+            491 => 
             array (
                 'id' => 1212,
                 'user_id' => 223,
@@ -10956,7 +10933,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            494 => 
+            492 => 
             array (
                 'id' => 1213,
                 'user_id' => 223,
@@ -10967,7 +10944,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            495 => 
+            493 => 
             array (
                 'id' => 1214,
                 'user_id' => 3130,
@@ -10978,7 +10955,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            496 => 
+            494 => 
             array (
                 'id' => 1215,
                 'user_id' => 3130,
@@ -10989,7 +10966,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            497 => 
+            495 => 
             array (
                 'id' => 1216,
                 'user_id' => 3130,
@@ -11000,7 +10977,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            498 => 
+            496 => 
             array (
                 'id' => 1217,
                 'user_id' => 143,
@@ -11011,7 +10988,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            499 => 
+            497 => 
             array (
                 'id' => 1218,
                 'user_id' => 143,
@@ -11022,9 +10999,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-        ));
-        DB::table('rrhh_brigadas')->insert(array (
-            0 => 
+            498 => 
             array (
                 'id' => 1219,
                 'user_id' => 143,
@@ -11035,7 +11010,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            1 => 
+            499 => 
             array (
                 'id' => 1220,
                 'user_id' => 213,
@@ -11046,7 +11021,9 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            2 => 
+        ));
+        \DB::table('rrhh_brigadas')->insert(array (
+            0 => 
             array (
                 'id' => 1221,
                 'user_id' => 213,
@@ -11057,7 +11034,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            3 => 
+            1 => 
             array (
                 'id' => 1222,
                 'user_id' => 213,
@@ -11068,7 +11045,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            4 => 
+            2 => 
             array (
                 'id' => 1223,
                 'user_id' => 146,
@@ -11079,7 +11056,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            5 => 
+            3 => 
             array (
                 'id' => 1224,
                 'user_id' => 146,
@@ -11090,7 +11067,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            6 => 
+            4 => 
             array (
                 'id' => 1225,
                 'user_id' => 146,
@@ -11101,7 +11078,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            7 => 
+            5 => 
             array (
                 'id' => 1226,
                 'user_id' => 145,
@@ -11112,7 +11089,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            8 => 
+            6 => 
             array (
                 'id' => 1227,
                 'user_id' => 145,
@@ -11123,7 +11100,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            9 => 
+            7 => 
             array (
                 'id' => 1228,
                 'user_id' => 145,
@@ -11134,7 +11111,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            10 => 
+            8 => 
             array (
                 'id' => 1229,
                 'user_id' => 142,
@@ -11145,7 +11122,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            11 => 
+            9 => 
             array (
                 'id' => 1230,
                 'user_id' => 142,
@@ -11156,7 +11133,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            12 => 
+            10 => 
             array (
                 'id' => 1231,
                 'user_id' => 142,
@@ -11167,7 +11144,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            13 => 
+            11 => 
             array (
                 'id' => 1232,
                 'user_id' => 3150,
@@ -11178,7 +11155,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            14 => 
+            12 => 
             array (
                 'id' => 1233,
                 'user_id' => 3150,
@@ -11189,7 +11166,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            15 => 
+            13 => 
             array (
                 'id' => 1234,
                 'user_id' => 3150,
@@ -11200,7 +11177,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            16 => 
+            14 => 
             array (
                 'id' => 1235,
                 'user_id' => 186,
@@ -11211,7 +11188,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            17 => 
+            15 => 
             array (
                 'id' => 1236,
                 'user_id' => 186,
@@ -11222,7 +11199,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            18 => 
+            16 => 
             array (
                 'id' => 1237,
                 'user_id' => 186,
@@ -11233,7 +11210,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            19 => 
+            17 => 
             array (
                 'id' => 1238,
                 'user_id' => 130,
@@ -11244,7 +11221,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            20 => 
+            18 => 
             array (
                 'id' => 1239,
                 'user_id' => 130,
@@ -11255,7 +11232,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            21 => 
+            19 => 
             array (
                 'id' => 1240,
                 'user_id' => 130,
@@ -11266,7 +11243,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            22 => 
+            20 => 
             array (
                 'id' => 1241,
                 'user_id' => 128,
@@ -11277,7 +11254,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            23 => 
+            21 => 
             array (
                 'id' => 1242,
                 'user_id' => 128,
@@ -11288,7 +11265,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            24 => 
+            22 => 
             array (
                 'id' => 1243,
                 'user_id' => 128,
@@ -11299,7 +11276,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            25 => 
+            23 => 
             array (
                 'id' => 1244,
                 'user_id' => 81,
@@ -11310,7 +11287,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            26 => 
+            24 => 
             array (
                 'id' => 1245,
                 'user_id' => 81,
@@ -11321,7 +11298,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            27 => 
+            25 => 
             array (
                 'id' => 1246,
                 'user_id' => 81,
@@ -11332,7 +11309,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            28 => 
+            26 => 
             array (
                 'id' => 1247,
                 'user_id' => 3159,
@@ -11343,7 +11320,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            29 => 
+            27 => 
             array (
                 'id' => 1248,
                 'user_id' => 3159,
@@ -11354,7 +11331,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            30 => 
+            28 => 
             array (
                 'id' => 1249,
                 'user_id' => 3159,
@@ -11365,7 +11342,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            31 => 
+            29 => 
             array (
                 'id' => 1250,
                 'user_id' => 2764,
@@ -11376,7 +11353,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            32 => 
+            30 => 
             array (
                 'id' => 1251,
                 'user_id' => 2764,
@@ -11387,7 +11364,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            33 => 
+            31 => 
             array (
                 'id' => 1252,
                 'user_id' => 2764,
@@ -11398,7 +11375,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            34 => 
+            32 => 
             array (
                 'id' => 1253,
                 'user_id' => 3195,
@@ -11409,7 +11386,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            35 => 
+            33 => 
             array (
                 'id' => 1254,
                 'user_id' => 3195,
@@ -11420,7 +11397,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            36 => 
+            34 => 
             array (
                 'id' => 1255,
                 'user_id' => 3195,
@@ -11431,7 +11408,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            37 => 
+            35 => 
             array (
                 'id' => 1256,
                 'user_id' => 3337,
@@ -11442,7 +11419,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            38 => 
+            36 => 
             array (
                 'id' => 1257,
                 'user_id' => 3112,
@@ -11453,7 +11430,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            39 => 
+            37 => 
             array (
                 'id' => 1258,
                 'user_id' => 3112,
@@ -11464,7 +11441,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            40 => 
+            38 => 
             array (
                 'id' => 1259,
                 'user_id' => 3112,
@@ -11475,7 +11452,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            41 => 
+            39 => 
             array (
                 'id' => 1260,
                 'user_id' => 3122,
@@ -11486,7 +11463,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            42 => 
+            40 => 
             array (
                 'id' => 1261,
                 'user_id' => 3122,
@@ -11497,7 +11474,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            43 => 
+            41 => 
             array (
                 'id' => 1263,
                 'user_id' => 3122,
@@ -11508,7 +11485,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            44 => 
+            42 => 
             array (
                 'id' => 1264,
                 'user_id' => 3158,
@@ -11519,7 +11496,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            45 => 
+            43 => 
             array (
                 'id' => 1265,
                 'user_id' => 3158,
@@ -11530,7 +11507,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            46 => 
+            44 => 
             array (
                 'id' => 1266,
                 'user_id' => 3461,
@@ -11541,7 +11518,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            47 => 
+            45 => 
             array (
                 'id' => 1267,
                 'user_id' => 3461,
@@ -11552,7 +11529,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            48 => 
+            46 => 
             array (
                 'id' => 1268,
                 'user_id' => 3461,
@@ -11563,7 +11540,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            49 => 
+            47 => 
             array (
                 'id' => 1270,
                 'user_id' => 3161,
@@ -11574,7 +11551,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            50 => 
+            48 => 
             array (
                 'id' => 1271,
                 'user_id' => 3161,
@@ -11585,7 +11562,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            51 => 
+            49 => 
             array (
                 'id' => 1272,
                 'user_id' => 3161,
@@ -11596,7 +11573,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            52 => 
+            50 => 
             array (
                 'id' => 1273,
                 'user_id' => 137,
@@ -11607,7 +11584,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            53 => 
+            51 => 
             array (
                 'id' => 1274,
                 'user_id' => 135,
@@ -11618,7 +11595,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            54 => 
+            52 => 
             array (
                 'id' => 1275,
                 'user_id' => 135,
@@ -11629,7 +11606,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            55 => 
+            53 => 
             array (
                 'id' => 1277,
                 'user_id' => 135,
@@ -11640,7 +11617,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            56 => 
+            54 => 
             array (
                 'id' => 1278,
                 'user_id' => 3162,
@@ -11651,7 +11628,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            57 => 
+            55 => 
             array (
                 'id' => 1279,
                 'user_id' => 3162,
@@ -11662,7 +11639,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            58 => 
+            56 => 
             array (
                 'id' => 1280,
                 'user_id' => 3162,
@@ -11673,7 +11650,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            59 => 
+            57 => 
             array (
                 'id' => 1281,
                 'user_id' => 134,
@@ -11684,7 +11661,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            60 => 
+            58 => 
             array (
                 'id' => 1282,
                 'user_id' => 134,
@@ -11695,7 +11672,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            61 => 
+            59 => 
             array (
                 'id' => 1283,
                 'user_id' => 134,
@@ -11706,7 +11683,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            62 => 
+            60 => 
             array (
                 'id' => 1284,
                 'user_id' => 133,
@@ -11717,7 +11694,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            63 => 
+            61 => 
             array (
                 'id' => 1285,
                 'user_id' => 133,
@@ -11728,7 +11705,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            64 => 
+            62 => 
             array (
                 'id' => 1286,
                 'user_id' => 133,
@@ -11739,7 +11716,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            65 => 
+            63 => 
             array (
                 'id' => 1287,
                 'user_id' => 4298,
@@ -11750,7 +11727,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            66 => 
+            64 => 
             array (
                 'id' => 1288,
                 'user_id' => 4298,
@@ -11761,7 +11738,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            67 => 
+            65 => 
             array (
                 'id' => 1289,
                 'user_id' => 4298,
@@ -11772,7 +11749,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            68 => 
+            66 => 
             array (
                 'id' => 1290,
                 'user_id' => 1146,
@@ -11783,7 +11760,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            69 => 
+            67 => 
             array (
                 'id' => 1291,
                 'user_id' => 1725,
@@ -11794,7 +11771,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            70 => 
+            68 => 
             array (
                 'id' => 1292,
                 'user_id' => 3773,
@@ -11805,7 +11782,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            71 => 
+            69 => 
             array (
                 'id' => 1293,
                 'user_id' => 624,
@@ -11816,7 +11793,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            72 => 
+            70 => 
             array (
                 'id' => 1294,
                 'user_id' => 3330,
@@ -11827,7 +11804,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            73 => 
+            71 => 
             array (
                 'id' => 1295,
                 'user_id' => 1716,
@@ -11838,7 +11815,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            74 => 
+            72 => 
             array (
                 'id' => 1296,
                 'user_id' => 3716,
@@ -11849,7 +11826,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            75 => 
+            73 => 
             array (
                 'id' => 1297,
                 'user_id' => 2378,
@@ -11860,7 +11837,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            76 => 
+            74 => 
             array (
                 'id' => 1298,
                 'user_id' => 2378,
@@ -11871,7 +11848,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            77 => 
+            75 => 
             array (
                 'id' => 1299,
                 'user_id' => 2378,
@@ -11882,7 +11859,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            78 => 
+            76 => 
             array (
                 'id' => 1300,
                 'user_id' => 2378,
@@ -11893,7 +11870,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            79 => 
+            77 => 
             array (
                 'id' => 1301,
                 'user_id' => 2378,
@@ -11904,7 +11881,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            80 => 
+            78 => 
             array (
                 'id' => 1302,
                 'user_id' => 2378,
@@ -11915,7 +11892,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            81 => 
+            79 => 
             array (
                 'id' => 1303,
                 'user_id' => 2378,
@@ -11926,7 +11903,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            82 => 
+            80 => 
             array (
                 'id' => 1304,
                 'user_id' => 2378,
@@ -11937,7 +11914,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            83 => 
+            81 => 
             array (
                 'id' => 1305,
                 'user_id' => 2230,
@@ -11948,7 +11925,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            84 => 
+            82 => 
             array (
                 'id' => 1306,
                 'user_id' => 3813,
@@ -11959,18 +11936,18 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            85 => 
+            83 => 
             array (
                 'id' => 1307,
                 'user_id' => 3412,
                 'nom_brigada' => 'VACUNACION BAURES',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 324,
-                'integrantes' => NULL,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            86 => 
+            84 => 
             array (
                 'id' => 1308,
                 'user_id' => 1079,
@@ -11981,7 +11958,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            87 => 
+            85 => 
             array (
                 'id' => 1309,
                 'user_id' => 3523,
@@ -11992,7 +11969,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            88 => 
+            86 => 
             array (
                 'id' => 1310,
                 'user_id' => 2404,
@@ -12003,7 +11980,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            89 => 
+            87 => 
             array (
                 'id' => 1311,
                 'user_id' => 3298,
@@ -12014,7 +11991,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            90 => 
+            88 => 
             array (
                 'id' => 1312,
                 'user_id' => 3298,
@@ -12025,7 +12002,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            91 => 
+            89 => 
             array (
                 'id' => 1313,
                 'user_id' => 3298,
@@ -12036,7 +12013,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            92 => 
+            90 => 
             array (
                 'id' => 1314,
                 'user_id' => 3298,
@@ -12047,7 +12024,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            93 => 
+            91 => 
             array (
                 'id' => 1315,
                 'user_id' => 3523,
@@ -12058,7 +12035,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            94 => 
+            92 => 
             array (
                 'id' => 1316,
                 'user_id' => 3298,
@@ -12069,7 +12046,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            95 => 
+            93 => 
             array (
                 'id' => 1317,
                 'user_id' => 3298,
@@ -12080,7 +12057,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            96 => 
+            94 => 
             array (
                 'id' => 1318,
                 'user_id' => 3298,
@@ -12091,7 +12068,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            97 => 
+            95 => 
             array (
                 'id' => 1319,
                 'user_id' => 3298,
@@ -12102,7 +12079,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            98 => 
+            96 => 
             array (
                 'id' => 1320,
                 'user_id' => 3298,
@@ -12113,7 +12090,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            99 => 
+            97 => 
             array (
                 'id' => 1321,
                 'user_id' => 4247,
@@ -12124,7 +12101,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            100 => 
+            98 => 
             array (
                 'id' => 1322,
                 'user_id' => 2388,
@@ -12135,7 +12112,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            101 => 
+            99 => 
             array (
                 'id' => 1323,
                 'user_id' => 4247,
@@ -12146,7 +12123,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            102 => 
+            100 => 
             array (
                 'id' => 1324,
                 'user_id' => 2410,
@@ -12157,7 +12134,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            103 => 
+            101 => 
             array (
                 'id' => 1325,
                 'user_id' => 2407,
@@ -12168,7 +12145,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            104 => 
+            102 => 
             array (
                 'id' => 1326,
                 'user_id' => 3851,
@@ -12179,7 +12156,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            105 => 
+            103 => 
             array (
                 'id' => 1327,
                 'user_id' => 3563,
@@ -12190,7 +12167,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            106 => 
+            104 => 
             array (
                 'id' => 1328,
                 'user_id' => 4166,
@@ -12201,7 +12178,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            107 => 
+            105 => 
             array (
                 'id' => 1329,
                 'user_id' => 3596,
@@ -12212,10 +12189,10 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            108 => 
+            106 => 
             array (
                 'id' => 1330,
-                'user_id' => 3412,
+                'user_id' => 4303,
                 'nom_brigada' => 'FERIA HUAYNA FEX',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 34,
@@ -12223,10 +12200,10 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            109 => 
+            107 => 
             array (
                 'id' => 1331,
-                'user_id' => 3412,
+                'user_id' => 4303,
                 'nom_brigada' => 'FERIA HUAYNA FEX',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 34,
@@ -12234,7 +12211,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            110 => 
+            108 => 
             array (
                 'id' => 1332,
                 'user_id' => 605,
@@ -12245,7 +12222,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            111 => 
+            109 => 
             array (
                 'id' => 1333,
                 'user_id' => 587,
@@ -12256,7 +12233,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            112 => 
+            110 => 
             array (
                 'id' => 1334,
                 'user_id' => 1118,
@@ -12267,7 +12244,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            113 => 
+            111 => 
             array (
                 'id' => 1335,
                 'user_id' => 2520,
@@ -12278,7 +12255,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            114 => 
+            112 => 
             array (
                 'id' => 1336,
                 'user_id' => 1119,
@@ -12289,7 +12266,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            115 => 
+            113 => 
             array (
                 'id' => 1337,
                 'user_id' => 674,
@@ -12300,7 +12277,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            116 => 
+            114 => 
             array (
                 'id' => 1338,
                 'user_id' => 2761,
@@ -12311,7 +12288,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            117 => 
+            115 => 
             array (
                 'id' => 1339,
                 'user_id' => 1217,
@@ -12322,7 +12299,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            118 => 
+            116 => 
             array (
                 'id' => 1340,
                 'user_id' => 1252,
@@ -12333,7 +12310,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            119 => 
+            117 => 
             array (
                 'id' => 1341,
                 'user_id' => 1196,
@@ -12344,7 +12321,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            120 => 
+            118 => 
             array (
                 'id' => 1342,
                 'user_id' => 1193,
@@ -12355,10 +12332,10 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            121 => 
+            119 => 
             array (
                 'id' => 1343,
-                'user_id' => 3412,
+                'user_id' => 4304,
                 'nom_brigada' => 'BRIGADAS DE CONTENCION',
                 'tipo' => 'RASTRILLAJE',
                 'adm_municipio_id' => 138,
@@ -12366,7 +12343,7 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            122 => 
+            120 => 
             array (
                 'id' => 1344,
                 'user_id' => 3456,
@@ -12377,10 +12354,10 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            123 => 
+            121 => 
             array (
                 'id' => 1345,
-                'user_id' => 3412,
+                'user_id' => 4305,
                 'nom_brigada' => 'BRIGADA FALSURI',
                 'tipo' => 'RASTRILLAJE',
                 'adm_municipio_id' => 19,
@@ -12388,10 +12365,10 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            124 => 
+            122 => 
             array (
                 'id' => 1346,
-                'user_id' => 3412,
+                'user_id' => 4305,
                 'nom_brigada' => 'BRIGADA FALSURI',
                 'tipo' => 'VACUNACION',
                 'adm_municipio_id' => 19,
@@ -12399,14 +12376,6198 @@ class RrhhBrigadasTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            125 => 
+            123 => 
             array (
                 'id' => 1347,
-                'user_id' => 3412,
+                'user_id' => 4305,
                 'nom_brigada' => 'BRIGADA FALSURI',
                 'tipo' => 'TOMA DE MUESTRA',
                 'adm_municipio_id' => 19,
                 'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            124 => 
+            array (
+                'id' => 1348,
+                'user_id' => 687,
+                'nom_brigada' => 'TOCO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 136,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            125 => 
+            array (
+                'id' => 1349,
+                'user_id' => 3637,
+                'nom_brigada' => 'UNIVERSIDAD UAGRM',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 251,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            126 => 
+            array (
+                'id' => 1350,
+                'user_id' => 3637,
+                'nom_brigada' => 'INSTITUTO TECNICO ENSEC',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 251,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            127 => 
+            array (
+                'id' => 1351,
+                'user_id' => 197,
+                'nom_brigada' => 'BRIGADA SUCRE RURAL',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 1,
+                'integrantes' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            128 => 
+            array (
+                'id' => 1352,
+                'user_id' => 3596,
+                'nom_brigada' => 'FERNANDEZ ALONSO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 290,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            129 => 
+            array (
+                'id' => 1353,
+                'user_id' => 2451,
+                'nom_brigada' => 'BRIGADA UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 168,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            130 => 
+            array (
+                'id' => 1354,
+                'user_id' => 1199,
+                'nom_brigada' => 'BRIGADA RATRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 195,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            131 => 
+            array (
+                'id' => 1355,
+                'user_id' => 1188,
+                'nom_brigada' => 'BRIGADA RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 191,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            132 => 
+            array (
+                'id' => 1356,
+                'user_id' => 1177,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 190,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            133 => 
+            array (
+                'id' => 1357,
+                'user_id' => 1164,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 180,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            134 => 
+            array (
+                'id' => 1358,
+                'user_id' => 1173,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 184,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            135 => 
+            array (
+                'id' => 1359,
+                'user_id' => 1151,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 170,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            136 => 
+            array (
+                'id' => 1360,
+                'user_id' => 1207,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 189,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            137 => 
+            array (
+                'id' => 1361,
+                'user_id' => 1139,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 166,
+                'integrantes' => 17,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            138 => 
+            array (
+                'id' => 1362,
+                'user_id' => 1168,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 181,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            139 => 
+            array (
+                'id' => 1363,
+                'user_id' => 1192,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 192,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            140 => 
+            array (
+                'id' => 1364,
+                'user_id' => 3454,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 186,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            141 => 
+            array (
+                'id' => 1365,
+                'user_id' => 1250,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 199,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            142 => 
+            array (
+                'id' => 1366,
+                'user_id' => 1181,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 183,
+                'integrantes' => 20,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            143 => 
+            array (
+                'id' => 1367,
+                'user_id' => 3412,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 169,
+                'integrantes' => 20,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            144 => 
+            array (
+                'id' => 1368,
+                'user_id' => 1155,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 171,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            145 => 
+            array (
+                'id' => 1369,
+                'user_id' => 1180,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 187,
+                'integrantes' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            146 => 
+            array (
+                'id' => 1370,
+                'user_id' => 1144,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 167,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            147 => 
+            array (
+                'id' => 1371,
+                'user_id' => 4307,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 182,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            148 => 
+            array (
+                'id' => 1372,
+                'user_id' => 4306,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 173,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            149 => 
+            array (
+                'id' => 1373,
+                'user_id' => 1176,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 185,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            150 => 
+            array (
+                'id' => 1374,
+                'user_id' => 1155,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 175,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            151 => 
+            array (
+                'id' => 1375,
+                'user_id' => 1188,
+                'nom_brigada' => 'EUCALIPTUS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 191,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            152 => 
+            array (
+                'id' => 1376,
+                'user_id' => 3639,
+                'nom_brigada' => 'MAIRANA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 285,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            153 => 
+            array (
+                'id' => 1377,
+                'user_id' => 3864,
+                'nom_brigada' => 'PAMPA GRANDE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 284,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            154 => 
+            array (
+                'id' => 1378,
+                'user_id' => 3864,
+                'nom_brigada' => 'PAMPA GRANDE',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 284,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            155 => 
+            array (
+                'id' => 1379,
+                'user_id' => 4095,
+                'nom_brigada' => 'WARNES',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 256,
+                'integrantes' => 36,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            156 => 
+            array (
+                'id' => 1380,
+                'user_id' => 3563,
+                'nom_brigada' => 'BUENA VISTA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 261,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            157 => 
+            array (
+                'id' => 1381,
+                'user_id' => 3563,
+                'nom_brigada' => 'BUENA VISTA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 261,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            158 => 
+            array (
+                'id' => 1382,
+                'user_id' => 3945,
+                'nom_brigada' => 'GENERAL SAAVEDRA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 288,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            159 => 
+            array (
+                'id' => 1383,
+                'user_id' => 3945,
+                'nom_brigada' => 'GENERAL SAAVEDRA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 288,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            160 => 
+            array (
+                'id' => 1384,
+                'user_id' => 3945,
+                'nom_brigada' => 'GENERAL SAAVEDRA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 288,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            161 => 
+            array (
+                'id' => 1386,
+                'user_id' => 3594,
+                'nom_brigada' => 'SAN IGNACIO DE VALASCO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 258,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            162 => 
+            array (
+                'id' => 1387,
+                'user_id' => 3594,
+                'nom_brigada' => 'SAN IGNACIO DE VALASCO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 258,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            163 => 
+            array (
+                'id' => 1388,
+                'user_id' => 3594,
+                'nom_brigada' => 'SAN IGNACIO DE VALASCO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 258,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            164 => 
+            array (
+                'id' => 1389,
+                'user_id' => 3744,
+                'nom_brigada' => 'SAN RAFAEL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 260,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            165 => 
+            array (
+                'id' => 1390,
+                'user_id' => 3744,
+                'nom_brigada' => 'SAN RAFAEL',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 260,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            166 => 
+            array (
+                'id' => 1391,
+                'user_id' => 3744,
+                'nom_brigada' => 'SAN RAFAEL',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 260,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            167 => 
+            array (
+                'id' => 1392,
+                'user_id' => 3734,
+                'nom_brigada' => 'SAN CARLOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 262,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            168 => 
+            array (
+                'id' => 1393,
+                'user_id' => 3734,
+                'nom_brigada' => 'SAN CARLOS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 262,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            169 => 
+            array (
+                'id' => 1394,
+                'user_id' => 3734,
+                'nom_brigada' => 'SAN CARLOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 262,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            170 => 
+            array (
+                'id' => 1395,
+                'user_id' => 1266,
+                'nom_brigada' => 'EQUIPO UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 169,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            171 => 
+            array (
+                'id' => 1396,
+                'user_id' => 3490,
+                'nom_brigada' => 'EQUIPO DOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 169,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            172 => 
+            array (
+                'id' => 1398,
+                'user_id' => 1164,
+                'nom_brigada' => 'EQUIPO DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 180,
+                'integrantes' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            173 => 
+            array (
+                'id' => 1399,
+                'user_id' => 2451,
+                'nom_brigada' => 'EQUIPO DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 168,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            174 => 
+            array (
+                'id' => 1400,
+                'user_id' => 1171,
+                'nom_brigada' => 'EQUIPO UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 183,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            175 => 
+            array (
+                'id' => 1401,
+                'user_id' => 1181,
+                'nom_brigada' => 'EQUIPO DOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 183,
+                'integrantes' => 11,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            176 => 
+            array (
+                'id' => 1402,
+                'user_id' => 3990,
+                'nom_brigada' => 'SAN JUAN DE YAPACANI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 264,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            177 => 
+            array (
+                'id' => 1403,
+                'user_id' => 3990,
+                'nom_brigada' => 'SAN JUAN DE YAPACANI',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 264,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            178 => 
+            array (
+                'id' => 1404,
+                'user_id' => 3990,
+                'nom_brigada' => 'SAN JUAN DE YAPACANI',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 264,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            179 => 
+            array (
+                'id' => 1405,
+                'user_id' => 3657,
+                'nom_brigada' => 'SAN PEDRO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 291,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            180 => 
+            array (
+                'id' => 1406,
+                'user_id' => 3657,
+                'nom_brigada' => 'SAN PEDRO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 291,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            181 => 
+            array (
+                'id' => 1407,
+                'user_id' => 3596,
+                'nom_brigada' => 'FERNANDEZ ALONSO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 290,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            182 => 
+            array (
+                'id' => 1408,
+                'user_id' => 3973,
+                'nom_brigada' => 'MINERO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 289,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            183 => 
+            array (
+                'id' => 1409,
+                'user_id' => 3973,
+                'nom_brigada' => 'MINERO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 289,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            184 => 
+            array (
+                'id' => 1410,
+                'user_id' => 1139,
+                'nom_brigada' => 'EQUIPO UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 166,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            185 => 
+            array (
+                'id' => 1411,
+                'user_id' => 1139,
+                'nom_brigada' => 'BRIGADA UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 166,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            186 => 
+            array (
+                'id' => 1415,
+                'user_id' => 4095,
+                'nom_brigada' => 'WARNES',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 256,
+                'integrantes' => 20,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            187 => 
+            array (
+                'id' => 1416,
+                'user_id' => 3427,
+                'nom_brigada' => 'TOTORA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 194,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            188 => 
+            array (
+                'id' => 1417,
+                'user_id' => 3951,
+                'nom_brigada' => 'YAPACANI',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 263,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            189 => 
+            array (
+                'id' => 1418,
+                'user_id' => 3951,
+                'nom_brigada' => 'YAPACANI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 263,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            190 => 
+            array (
+                'id' => 1419,
+                'user_id' => 3951,
+                'nom_brigada' => 'YAPACANI',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 263,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            191 => 
+            array (
+                'id' => 1420,
+                'user_id' => 3704,
+                'nom_brigada' => 'WARNES',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 256,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            192 => 
+            array (
+                'id' => 1421,
+                'user_id' => 3585,
+                'nom_brigada' => 'MONTERO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 287,
+                'integrantes' => 30,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            193 => 
+            array (
+                'id' => 1422,
+                'user_id' => 3585,
+                'nom_brigada' => 'MONTERO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 287,
+                'integrantes' => 20,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            194 => 
+            array (
+                'id' => 1423,
+                'user_id' => 3585,
+                'nom_brigada' => 'MONTERO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 287,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            195 => 
+            array (
+                'id' => 1424,
+                'user_id' => 3691,
+                'nom_brigada' => 'OKINAWA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 257,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            196 => 
+            array (
+                'id' => 1425,
+                'user_id' => 3691,
+                'nom_brigada' => 'OKINAWA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 257,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            197 => 
+            array (
+                'id' => 1426,
+                'user_id' => 3691,
+                'nom_brigada' => 'OKINAWA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 257,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            198 => 
+            array (
+                'id' => 1427,
+                'user_id' => 3873,
+                'nom_brigada' => 'COMARAPA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 299,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            199 => 
+            array (
+                'id' => 1428,
+                'user_id' => 3873,
+                'nom_brigada' => 'COMARAPA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 299,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            200 => 
+            array (
+                'id' => 1429,
+                'user_id' => 3873,
+                'nom_brigada' => 'COMARAPA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 299,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            201 => 
+            array (
+                'id' => 1430,
+                'user_id' => 3427,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 194,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            202 => 
+            array (
+                'id' => 1431,
+                'user_id' => 3427,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 194,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            203 => 
+            array (
+                'id' => 1432,
+                'user_id' => 4308,
+                'nom_brigada' => 'SUMAJ CAUSAYPAJ',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 169,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            204 => 
+            array (
+                'id' => 1433,
+                'user_id' => 4308,
+                'nom_brigada' => 'PRIMERO  DE MAYO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 169,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            205 => 
+            array (
+                'id' => 1434,
+                'user_id' => 3698,
+                'nom_brigada' => 'EL TORNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 255,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            206 => 
+            array (
+                'id' => 1435,
+                'user_id' => 3944,
+                'nom_brigada' => 'SAMAIPATA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 283,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            207 => 
+            array (
+                'id' => 1436,
+                'user_id' => 3629,
+                'nom_brigada' => 'CONCEPCION',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 292,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            208 => 
+            array (
+                'id' => 1437,
+                'user_id' => 2358,
+                'nom_brigada' => 'OCT SANDY TOMA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            209 => 
+            array (
+                'id' => 1439,
+                'user_id' => 2356,
+                'nom_brigada' => 'OCT SAMIA RAST',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            210 => 
+            array (
+                'id' => 1440,
+                'user_id' => 2398,
+                'nom_brigada' => 'OCT SENA TOMA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 335,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            211 => 
+            array (
+                'id' => 1441,
+                'user_id' => 2398,
+                'nom_brigada' => 'OCT SENA VAC',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 335,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            212 => 
+            array (
+                'id' => 1442,
+                'user_id' => 2398,
+                'nom_brigada' => 'OCT SENA RAST',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 335,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            213 => 
+            array (
+                'id' => 1443,
+                'user_id' => 2353,
+                'nom_brigada' => 'OCT CYNDI TOMA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            214 => 
+            array (
+                'id' => 1444,
+                'user_id' => 2353,
+                'nom_brigada' => 'OCT CYNDI VAC',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            215 => 
+            array (
+                'id' => 1445,
+                'user_id' => 2357,
+                'nom_brigada' => 'OCT YARMILA VAC',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            216 => 
+            array (
+                'id' => 1446,
+                'user_id' => 2357,
+                'nom_brigada' => 'OCT YARMILA RAST',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            217 => 
+            array (
+                'id' => 1447,
+                'user_id' => 2365,
+                'nom_brigada' => 'OCT VERA TOMA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            218 => 
+            array (
+                'id' => 1448,
+                'user_id' => 2983,
+                'nom_brigada' => 'OCT MARIBEL RAST',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            219 => 
+            array (
+                'id' => 1449,
+                'user_id' => 2384,
+                'nom_brigada' => 'OCT FILADELFIA VAC',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 332,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            220 => 
+            array (
+                'id' => 1450,
+                'user_id' => 2353,
+                'nom_brigada' => 'OCT CYNDI RAST',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            221 => 
+            array (
+                'id' => 1451,
+                'user_id' => 3944,
+                'nom_brigada' => 'SAMAIPATA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 283,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            222 => 
+            array (
+                'id' => 1452,
+                'user_id' => 1236,
+                'nom_brigada' => 'BRIGADA PUMAS ANDINOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 165,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            223 => 
+            array (
+                'id' => 1453,
+                'user_id' => 3412,
+                'nom_brigada' => 'RASTRILLAJE RURRENABAQUE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 314,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            224 => 
+            array (
+                'id' => 1454,
+                'user_id' => 4318,
+                'nom_brigada' => 'CERCADO TARIJA PALMARCITO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 240,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            225 => 
+            array (
+                'id' => 1455,
+                'user_id' => 4312,
+                'nom_brigada' => 'CERCADOCBBA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 117,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            226 => 
+            array (
+                'id' => 1456,
+                'user_id' => 4111,
+                'nom_brigada' => 'TRIGAL',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 279,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            227 => 
+            array (
+                'id' => 1457,
+                'user_id' => 4111,
+                'nom_brigada' => 'TRIGAL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 279,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            228 => 
+            array (
+                'id' => 1458,
+                'user_id' => 4111,
+                'nom_brigada' => 'TRIGAL',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 279,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            229 => 
+            array (
+                'id' => 1459,
+                'user_id' => 3972,
+                'nom_brigada' => 'URUBICHA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 305,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            230 => 
+            array (
+                'id' => 1460,
+                'user_id' => 3972,
+                'nom_brigada' => 'URUBICHA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 305,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            231 => 
+            array (
+                'id' => 1461,
+                'user_id' => 3972,
+                'nom_brigada' => 'URUBICHA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 305,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            232 => 
+            array (
+                'id' => 1462,
+                'user_id' => 4122,
+                'nom_brigada' => 'PUCARA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 282,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            233 => 
+            array (
+                'id' => 1463,
+                'user_id' => 4122,
+                'nom_brigada' => 'PUCARA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 282,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            234 => 
+            array (
+                'id' => 1464,
+                'user_id' => 4122,
+                'nom_brigada' => 'PUCARA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 282,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            235 => 
+            array (
+                'id' => 1465,
+                'user_id' => 181,
+                'nom_brigada' => 'BRIGADA VACUN MACHARETI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 29,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            236 => 
+            array (
+                'id' => 1466,
+                'user_id' => 894,
+                'nom_brigada' => 'PUNATA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 157,
+                'integrantes' => 27,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            237 => 
+            array (
+                'id' => 1467,
+                'user_id' => 894,
+                'nom_brigada' => 'PUNATA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 157,
+                'integrantes' => 27,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            238 => 
+            array (
+                'id' => 1468,
+                'user_id' => 3187,
+                'nom_brigada' => 'RAQYPAMPA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 156,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            239 => 
+            array (
+                'id' => 1469,
+                'user_id' => 3864,
+                'nom_brigada' => 'PAMPA GRANDE',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 284,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            240 => 
+            array (
+                'id' => 1470,
+                'user_id' => 717,
+                'nom_brigada' => 'TIQUIPAYA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 140,
+                'integrantes' => 17,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            241 => 
+            array (
+                'id' => 1471,
+                'user_id' => 717,
+                'nom_brigada' => 'TIQUIPAYA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 140,
+                'integrantes' => 17,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            242 => 
+            array (
+                'id' => 1472,
+                'user_id' => 717,
+                'nom_brigada' => 'TIQUIPAYA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 140,
+                'integrantes' => 17,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            243 => 
+            array (
+                'id' => 1473,
+                'user_id' => 3716,
+                'nom_brigada' => 'BRIGADA UNO RED SUR',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 251,
+                'integrantes' => 11,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            244 => 
+            array (
+                'id' => 1474,
+                'user_id' => 875,
+                'nom_brigada' => 'RASTRILLAJE',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 157,
+                'integrantes' => 20,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            245 => 
+            array (
+                'id' => 1475,
+                'user_id' => 203,
+                'nom_brigada' => 'COLISEO UNIVERSITARIO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 1,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            246 => 
+            array (
+                'id' => 1476,
+                'user_id' => 2372,
+                'nom_brigada' => 'BOLPEBRA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 328,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            247 => 
+            array (
+                'id' => 1477,
+                'user_id' => 2372,
+                'nom_brigada' => 'BOLPEBRA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 328,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            248 => 
+            array (
+                'id' => 1478,
+                'user_id' => 2365,
+                'nom_brigada' => 'COBIJA PRIMERA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            249 => 
+            array (
+                'id' => 1479,
+                'user_id' => 300,
+                'nom_brigada' => 'ESCUELA NACIONAL DE SALUD',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            250 => 
+            array (
+                'id' => 1480,
+                'user_id' => 3680,
+                'nom_brigada' => 'SAN ANTONIO DE LOMERIO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 296,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            251 => 
+            array (
+                'id' => 1481,
+                'user_id' => 3680,
+                'nom_brigada' => 'SAN ANTONIO DE LOMERIO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 296,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            252 => 
+            array (
+                'id' => 1482,
+                'user_id' => 3834,
+                'nom_brigada' => 'CHARAGUA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 272,
+                'integrantes' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            253 => 
+            array (
+                'id' => 1483,
+                'user_id' => 3834,
+                'nom_brigada' => 'CHARAGUA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 272,
+                'integrantes' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            254 => 
+            array (
+                'id' => 1484,
+                'user_id' => 610,
+                'nom_brigada' => 'SACABA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 143,
+                'integrantes' => 49,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            255 => 
+            array (
+                'id' => 1485,
+                'user_id' => 610,
+                'nom_brigada' => 'SACABA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 143,
+                'integrantes' => 49,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            256 => 
+            array (
+                'id' => 1486,
+                'user_id' => 610,
+                'nom_brigada' => 'SACABA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 143,
+                'integrantes' => 49,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            257 => 
+            array (
+                'id' => 1487,
+                'user_id' => 203,
+                'nom_brigada' => 'FACULTAD DE MEDICINA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 1,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            258 => 
+            array (
+                'id' => 1488,
+                'user_id' => 4269,
+                'nom_brigada' => 'BRIGADA VAC ZUDAÑEZ',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 6,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            259 => 
+            array (
+                'id' => 1489,
+                'user_id' => 3229,
+                'nom_brigada' => 'HOSPITAL METODISTA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 15,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            260 => 
+            array (
+                'id' => 1490,
+                'user_id' => 2609,
+                'nom_brigada' => 'SAN ROQUE',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            261 => 
+            array (
+                'id' => 1491,
+                'user_id' => 2601,
+                'nom_brigada' => 'UNIFRAZ',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            262 => 
+            array (
+                'id' => 1493,
+                'user_id' => 4307,
+                'nom_brigada' => 'APOYO  ANTEQUERA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 182,
+                'integrantes' => 46,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            263 => 
+            array (
+                'id' => 1495,
+                'user_id' => 2375,
+                'nom_brigada' => 'BELLA FLOR UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            264 => 
+            array (
+                'id' => 1496,
+                'user_id' => 4287,
+                'nom_brigada' => 'ESCUELA NACIONAL DE SALUD',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            265 => 
+            array (
+                'id' => 1497,
+                'user_id' => 4209,
+                'nom_brigada' => 'ESCUELA NACIONAL DE SALUD',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            266 => 
+            array (
+                'id' => 1498,
+                'user_id' => 2708,
+                'nom_brigada' => 'HOSPITAL EL ALTO SUR',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            267 => 
+            array (
+                'id' => 1499,
+                'user_id' => 297,
+                'nom_brigada' => 'INFOCAL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            268 => 
+            array (
+                'id' => 1500,
+                'user_id' => 3120,
+                'nom_brigada' => 'UPEA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            269 => 
+            array (
+                'id' => 1501,
+                'user_id' => 2574,
+                'nom_brigada' => 'SENKATA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            270 => 
+            array (
+                'id' => 1502,
+                'user_id' => 3379,
+                'nom_brigada' => 'AEROPUERTO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            271 => 
+            array (
+                'id' => 1503,
+                'user_id' => 4331,
+                'nom_brigada' => 'ESMORUCO VAC',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 227,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            272 => 
+            array (
+                'id' => 1504,
+                'user_id' => 4331,
+                'nom_brigada' => 'ESMORUCO TM',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 227,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            273 => 
+            array (
+                'id' => 1505,
+                'user_id' => 4331,
+                'nom_brigada' => 'ESMORUCO RAS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 227,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            274 => 
+            array (
+                'id' => 1506,
+                'user_id' => 3363,
+                'nom_brigada' => 'AEROPUERTO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            275 => 
+            array (
+                'id' => 1509,
+                'user_id' => 1236,
+                'nom_brigada' => 'PUMAS ANDINOS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            276 => 
+            array (
+                'id' => 1510,
+                'user_id' => 3579,
+                'nom_brigada' => 'MONTERO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 287,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            277 => 
+            array (
+                'id' => 1511,
+                'user_id' => 3579,
+                'nom_brigada' => 'MONTERO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 287,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            278 => 
+            array (
+                'id' => 1512,
+                'user_id' => 3579,
+                'nom_brigada' => 'MONTERO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 287,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            279 => 
+            array (
+                'id' => 1513,
+                'user_id' => 2375,
+                'nom_brigada' => 'BELLA FLOR UNO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            280 => 
+            array (
+                'id' => 1514,
+                'user_id' => 2412,
+                'nom_brigada' => 'BELLA FLOR DOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            281 => 
+            array (
+                'id' => 1515,
+                'user_id' => 2403,
+                'nom_brigada' => 'BELLA FLOR TRES',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            282 => 
+            array (
+                'id' => 1517,
+                'user_id' => 2386,
+                'nom_brigada' => 'FILADELFIA DOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            283 => 
+            array (
+                'id' => 1518,
+                'user_id' => 2384,
+                'nom_brigada' => 'FILADELFIA TRES',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            284 => 
+            array (
+                'id' => 1520,
+                'user_id' => 2369,
+                'nom_brigada' => 'PORVENIR UNO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 327,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            285 => 
+            array (
+                'id' => 1521,
+                'user_id' => 2370,
+                'nom_brigada' => 'PORVENIR DOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 327,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            286 => 
+            array (
+                'id' => 1522,
+                'user_id' => 2401,
+                'nom_brigada' => 'PUERTO RICO UNO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 330,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            287 => 
+            array (
+                'id' => 1523,
+                'user_id' => 2378,
+                'nom_brigada' => 'PUERTO RICO DOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 330,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            288 => 
+            array (
+                'id' => 1524,
+                'user_id' => 2381,
+                'nom_brigada' => 'PUERTO RICO TRES',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 330,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            289 => 
+            array (
+                'id' => 1525,
+                'user_id' => 4246,
+                'nom_brigada' => 'SAN LORENZO UNO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 334,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            290 => 
+            array (
+                'id' => 1526,
+                'user_id' => 2395,
+                'nom_brigada' => 'SAN LORENZO DOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 334,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            291 => 
+            array (
+                'id' => 1527,
+                'user_id' => 2396,
+                'nom_brigada' => 'SENA UNO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 335,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            292 => 
+            array (
+                'id' => 1528,
+                'user_id' => 2398,
+                'nom_brigada' => 'SENA DOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 335,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            293 => 
+            array (
+                'id' => 1530,
+                'user_id' => 2410,
+                'nom_brigada' => 'GONZALO MORENO DOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            294 => 
+            array (
+                'id' => 1531,
+                'user_id' => 3298,
+                'nom_brigada' => 'GONZALO MORENO TRES',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            295 => 
+            array (
+                'id' => 1532,
+                'user_id' => 3297,
+                'nom_brigada' => 'GONZALO MORENO CUATRO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            296 => 
+            array (
+                'id' => 1533,
+                'user_id' => 4242,
+                'nom_brigada' => 'CHULUMANI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 85,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            297 => 
+            array (
+                'id' => 1534,
+                'user_id' => 4242,
+                'nom_brigada' => 'CHULUMANI',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 85,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            298 => 
+            array (
+                'id' => 1535,
+                'user_id' => 2352,
+                'nom_brigada' => 'COBIJA UNO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            299 => 
+            array (
+                'id' => 1536,
+                'user_id' => 2354,
+                'nom_brigada' => 'COBIJA DOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            300 => 
+            array (
+                'id' => 1538,
+                'user_id' => 2373,
+                'nom_brigada' => 'COBIJA CUATRO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            301 => 
+            array (
+                'id' => 1539,
+                'user_id' => 2405,
+                'nom_brigada' => 'COBIJA CINCO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            302 => 
+            array (
+                'id' => 1540,
+                'user_id' => 2358,
+                'nom_brigada' => 'COBIJA SEIS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            303 => 
+            array (
+                'id' => 1541,
+                'user_id' => 2362,
+                'nom_brigada' => 'COBIJA SIETE',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            304 => 
+            array (
+                'id' => 1542,
+                'user_id' => 2372,
+                'nom_brigada' => 'BOLPEBRA UNO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 328,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            305 => 
+            array (
+                'id' => 1543,
+                'user_id' => 2360,
+                'nom_brigada' => 'COBIJA OCHO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            306 => 
+            array (
+                'id' => 1544,
+                'user_id' => 2363,
+                'nom_brigada' => 'COBIJA NUEVE',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            307 => 
+            array (
+                'id' => 1545,
+                'user_id' => 2365,
+                'nom_brigada' => 'COBIJA DIEZ',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            308 => 
+            array (
+                'id' => 1546,
+                'user_id' => 2357,
+                'nom_brigada' => 'COBIJA ONCE',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            309 => 
+            array (
+                'id' => 1547,
+                'user_id' => 2375,
+                'nom_brigada' => 'BELLA FLOR UNO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            310 => 
+            array (
+                'id' => 1549,
+                'user_id' => 2403,
+                'nom_brigada' => 'BELLA FLOR TRES',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            311 => 
+            array (
+                'id' => 1550,
+                'user_id' => 2408,
+                'nom_brigada' => 'FILADELFIA UNO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            312 => 
+            array (
+                'id' => 1551,
+                'user_id' => 2386,
+                'nom_brigada' => 'FILADELFIA DOS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            313 => 
+            array (
+                'id' => 1552,
+                'user_id' => 2384,
+                'nom_brigada' => 'FILADELFIA TRES',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            314 => 
+            array (
+                'id' => 1553,
+                'user_id' => 2383,
+                'nom_brigada' => 'FILADELFIA CUATRO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            315 => 
+            array (
+                'id' => 1554,
+                'user_id' => 2369,
+                'nom_brigada' => 'PORVENIR UNO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 327,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            316 => 
+            array (
+                'id' => 1555,
+                'user_id' => 2370,
+                'nom_brigada' => 'PORVENIR DOS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 327,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            317 => 
+            array (
+                'id' => 1556,
+                'user_id' => 2401,
+                'nom_brigada' => 'PUERTO RICO UNO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 330,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            318 => 
+            array (
+                'id' => 1557,
+                'user_id' => 2378,
+                'nom_brigada' => 'PUERTO RICO DOS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 330,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            319 => 
+            array (
+                'id' => 1558,
+                'user_id' => 2381,
+                'nom_brigada' => 'PUERTO RICO TRES',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 330,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            320 => 
+            array (
+                'id' => 1559,
+                'user_id' => 4246,
+                'nom_brigada' => 'SAN LORENZO UNO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 334,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            321 => 
+            array (
+                'id' => 1560,
+                'user_id' => 2395,
+                'nom_brigada' => 'SAN LORENZO DOS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 334,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            322 => 
+            array (
+                'id' => 1561,
+                'user_id' => 2396,
+                'nom_brigada' => 'SENA UNO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 335,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            323 => 
+            array (
+                'id' => 1562,
+                'user_id' => 2398,
+                'nom_brigada' => 'SENA DOS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 335,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            324 => 
+            array (
+                'id' => 1563,
+                'user_id' => 4247,
+                'nom_brigada' => 'GONZALO MORENO UNO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            325 => 
+            array (
+                'id' => 1564,
+                'user_id' => 2410,
+                'nom_brigada' => 'GONZALO MORENO DOS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            326 => 
+            array (
+                'id' => 1565,
+                'user_id' => 3298,
+                'nom_brigada' => 'GONZALO MORENO TRES',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            327 => 
+            array (
+                'id' => 1566,
+                'user_id' => 3297,
+                'nom_brigada' => 'GONZALO MORENO CUATRO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            328 => 
+            array (
+                'id' => 1567,
+                'user_id' => 2372,
+                'nom_brigada' => 'BOLPEBRA UNO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 328,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            329 => 
+            array (
+                'id' => 1568,
+                'user_id' => 2352,
+                'nom_brigada' => 'COBIJA UNO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            330 => 
+            array (
+                'id' => 1569,
+                'user_id' => 2354,
+                'nom_brigada' => 'COBIJA DOS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            331 => 
+            array (
+                'id' => 1570,
+                'user_id' => 2356,
+                'nom_brigada' => 'COBIJA TRES',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            332 => 
+            array (
+                'id' => 1571,
+                'user_id' => 2373,
+                'nom_brigada' => 'COBIJA CUATRO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            333 => 
+            array (
+                'id' => 1572,
+                'user_id' => 2405,
+                'nom_brigada' => 'COBIJA CINCO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            334 => 
+            array (
+                'id' => 1573,
+                'user_id' => 2358,
+                'nom_brigada' => 'COBIJA SEIS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            335 => 
+            array (
+                'id' => 1574,
+                'user_id' => 2362,
+                'nom_brigada' => 'COBIJA SIETE',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            336 => 
+            array (
+                'id' => 1575,
+                'user_id' => 2360,
+                'nom_brigada' => 'COBIJA OCHO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            337 => 
+            array (
+                'id' => 1576,
+                'user_id' => 2363,
+                'nom_brigada' => 'COBIJA NUEVE',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            338 => 
+            array (
+                'id' => 1579,
+                'user_id' => 2375,
+                'nom_brigada' => 'BELLA FLOR UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            339 => 
+            array (
+                'id' => 1580,
+                'user_id' => 2412,
+                'nom_brigada' => 'BELLA FLOR DOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            340 => 
+            array (
+                'id' => 1581,
+                'user_id' => 2403,
+                'nom_brigada' => 'BELLA FLOR TRES',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            341 => 
+            array (
+                'id' => 1582,
+                'user_id' => 2408,
+                'nom_brigada' => 'FILADELFIA UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            342 => 
+            array (
+                'id' => 1583,
+                'user_id' => 2386,
+                'nom_brigada' => 'FILADELFIA DOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            343 => 
+            array (
+                'id' => 1584,
+                'user_id' => 2384,
+                'nom_brigada' => 'FILADELFIA TRES',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            344 => 
+            array (
+                'id' => 1585,
+                'user_id' => 2383,
+                'nom_brigada' => 'FILADELFIA CUATRO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            345 => 
+            array (
+                'id' => 1586,
+                'user_id' => 2369,
+                'nom_brigada' => 'PORVENIR UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 327,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            346 => 
+            array (
+                'id' => 1587,
+                'user_id' => 2370,
+                'nom_brigada' => 'PORVENIR DOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 327,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            347 => 
+            array (
+                'id' => 1588,
+                'user_id' => 2401,
+                'nom_brigada' => 'PUERTO RICO UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 330,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            348 => 
+            array (
+                'id' => 1589,
+                'user_id' => 2378,
+                'nom_brigada' => 'PUERTO RICO DOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 330,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            349 => 
+            array (
+                'id' => 1590,
+                'user_id' => 2381,
+                'nom_brigada' => 'PUERTO RICO TRES',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 330,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            350 => 
+            array (
+                'id' => 1591,
+                'user_id' => 4246,
+                'nom_brigada' => 'SAN LORENZO UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 334,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            351 => 
+            array (
+                'id' => 1592,
+                'user_id' => 2395,
+                'nom_brigada' => 'SAN LORENZO DOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 334,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            352 => 
+            array (
+                'id' => 1593,
+                'user_id' => 2396,
+                'nom_brigada' => 'SENA UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 335,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            353 => 
+            array (
+                'id' => 1594,
+                'user_id' => 4247,
+                'nom_brigada' => 'GONZALO MORENO UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            354 => 
+            array (
+                'id' => 1595,
+                'user_id' => 2410,
+                'nom_brigada' => 'GONZALO MORENO DOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            355 => 
+            array (
+                'id' => 1596,
+                'user_id' => 3298,
+                'nom_brigada' => 'GONZALO MORENO TRES',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            356 => 
+            array (
+                'id' => 1597,
+                'user_id' => 3297,
+                'nom_brigada' => 'GONZALO MORENO CUATRO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            357 => 
+            array (
+                'id' => 1598,
+                'user_id' => 2352,
+                'nom_brigada' => 'COBIJA UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            358 => 
+            array (
+                'id' => 1599,
+                'user_id' => 2354,
+                'nom_brigada' => 'COBIJA DOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            359 => 
+            array (
+                'id' => 1600,
+                'user_id' => 2356,
+                'nom_brigada' => 'COBIJA TRES',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            360 => 
+            array (
+                'id' => 1601,
+                'user_id' => 2373,
+                'nom_brigada' => 'COBIJA CUATRO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            361 => 
+            array (
+                'id' => 1602,
+                'user_id' => 2405,
+                'nom_brigada' => 'COBIJA CINCO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            362 => 
+            array (
+                'id' => 1603,
+                'user_id' => 2358,
+                'nom_brigada' => 'COBIJA SEIS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            363 => 
+            array (
+                'id' => 1604,
+                'user_id' => 2362,
+                'nom_brigada' => 'COBIJA SIETE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            364 => 
+            array (
+                'id' => 1605,
+                'user_id' => 2360,
+                'nom_brigada' => 'COBIJA OCHO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            365 => 
+            array (
+                'id' => 1607,
+                'user_id' => 2363,
+                'nom_brigada' => 'COBIJA NUEVE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            366 => 
+            array (
+                'id' => 1608,
+                'user_id' => 2365,
+                'nom_brigada' => 'COBIJA DIEZ',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            367 => 
+            array (
+                'id' => 1609,
+                'user_id' => 2357,
+                'nom_brigada' => 'COBIJA ONCE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            368 => 
+            array (
+                'id' => 1610,
+                'user_id' => 2375,
+                'nom_brigada' => 'BELLA FLOR UNO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            369 => 
+            array (
+                'id' => 1611,
+                'user_id' => 2412,
+                'nom_brigada' => 'BELLA FLOR DOS',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            370 => 
+            array (
+                'id' => 1612,
+                'user_id' => 2403,
+                'nom_brigada' => 'BELLA FLOR TRES',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            371 => 
+            array (
+                'id' => 1613,
+                'user_id' => 2408,
+                'nom_brigada' => 'FILADELFIA UNO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            372 => 
+            array (
+                'id' => 1614,
+                'user_id' => 2386,
+                'nom_brigada' => 'FILADELFIA DOS',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            373 => 
+            array (
+                'id' => 1615,
+                'user_id' => 2384,
+                'nom_brigada' => 'FILADELFIA TRES',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            374 => 
+            array (
+                'id' => 1616,
+                'user_id' => 2383,
+                'nom_brigada' => 'FILADELFIA CUATRO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            375 => 
+            array (
+                'id' => 1617,
+                'user_id' => 2369,
+                'nom_brigada' => 'PORVENIR UNO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 327,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            376 => 
+            array (
+                'id' => 1618,
+                'user_id' => 2370,
+                'nom_brigada' => 'PORVENIR DOS',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 327,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            377 => 
+            array (
+                'id' => 1619,
+                'user_id' => 2401,
+                'nom_brigada' => 'PUERTO RICO UNO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 330,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            378 => 
+            array (
+                'id' => 1620,
+                'user_id' => 2378,
+                'nom_brigada' => 'PUERTO RICO DOS',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 330,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            379 => 
+            array (
+                'id' => 1621,
+                'user_id' => 2381,
+                'nom_brigada' => 'PUERTO RICO TRES',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 330,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            380 => 
+            array (
+                'id' => 1622,
+                'user_id' => 4246,
+                'nom_brigada' => 'SAN LORENZO UNO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 334,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            381 => 
+            array (
+                'id' => 1623,
+                'user_id' => 2395,
+                'nom_brigada' => 'SAN LORENZO DOS',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 334,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            382 => 
+            array (
+                'id' => 1624,
+                'user_id' => 2396,
+                'nom_brigada' => 'SENA UNO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 335,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            383 => 
+            array (
+                'id' => 1625,
+                'user_id' => 2398,
+                'nom_brigada' => 'SENA DOS',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 335,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            384 => 
+            array (
+                'id' => 1626,
+                'user_id' => 4247,
+                'nom_brigada' => 'GONZALO MORENO UNO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            385 => 
+            array (
+                'id' => 1627,
+                'user_id' => 2410,
+                'nom_brigada' => 'GONZALO MORENO DOS',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            386 => 
+            array (
+                'id' => 1628,
+                'user_id' => 3298,
+                'nom_brigada' => 'GONZALO MORENO TRES',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            387 => 
+            array (
+                'id' => 1629,
+                'user_id' => 3297,
+                'nom_brigada' => 'GONZALO MORENO CUATRO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            388 => 
+            array (
+                'id' => 1630,
+                'user_id' => 2372,
+                'nom_brigada' => 'BOLPEBRA UNO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            389 => 
+            array (
+                'id' => 1631,
+                'user_id' => 2352,
+                'nom_brigada' => 'COBIJA UNO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            390 => 
+            array (
+                'id' => 1632,
+                'user_id' => 2354,
+                'nom_brigada' => 'COBIJA DOS',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            391 => 
+            array (
+                'id' => 1633,
+                'user_id' => 2356,
+                'nom_brigada' => 'COBIJA TRES',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            392 => 
+            array (
+                'id' => 1634,
+                'user_id' => 2373,
+                'nom_brigada' => 'COBIJA CUATRO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            393 => 
+            array (
+                'id' => 1635,
+                'user_id' => 2405,
+                'nom_brigada' => 'COBIJA CINCO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            394 => 
+            array (
+                'id' => 1636,
+                'user_id' => 2358,
+                'nom_brigada' => 'COBIJA SEIS',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            395 => 
+            array (
+                'id' => 1637,
+                'user_id' => 2362,
+                'nom_brigada' => 'COBIJA SIETE',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            396 => 
+            array (
+                'id' => 1638,
+                'user_id' => 2360,
+                'nom_brigada' => 'COBIJA OCHO',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            397 => 
+            array (
+                'id' => 1639,
+                'user_id' => 2363,
+                'nom_brigada' => 'COBIJA NUEVE',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            398 => 
+            array (
+                'id' => 1640,
+                'user_id' => 2365,
+                'nom_brigada' => 'COBIJA DIEZ',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            399 => 
+            array (
+                'id' => 1642,
+                'user_id' => 2322,
+                'nom_brigada' => 'PUNTO DE VACUNACION UAB',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 307,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            400 => 
+            array (
+                'id' => 1643,
+                'user_id' => 2375,
+                'nom_brigada' => 'BELLA FLOR UNO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            401 => 
+            array (
+                'id' => 1644,
+                'user_id' => 2408,
+                'nom_brigada' => 'FILADELFIA UNO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            402 => 
+            array (
+                'id' => 1645,
+                'user_id' => 2383,
+                'nom_brigada' => 'FILADELFIA CUATRO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 332,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            403 => 
+            array (
+                'id' => 1646,
+                'user_id' => 4247,
+                'nom_brigada' => 'GONZALO MORENO UNO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 333,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            404 => 
+            array (
+                'id' => 1647,
+                'user_id' => 2356,
+                'nom_brigada' => 'COBIJA TRES',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            405 => 
+            array (
+                'id' => 1648,
+                'user_id' => 2398,
+                'nom_brigada' => 'SENA DOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 335,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            406 => 
+            array (
+                'id' => 1649,
+                'user_id' => 2372,
+                'nom_brigada' => 'BOLPEBRA UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 328,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            407 => 
+            array (
+                'id' => 1650,
+                'user_id' => 2412,
+                'nom_brigada' => 'BELLA FLOR DOS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 329,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            408 => 
+            array (
+                'id' => 1651,
+                'user_id' => 2365,
+                'nom_brigada' => 'COBIJA DIEZ',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            409 => 
+            array (
+                'id' => 1652,
+                'user_id' => 2357,
+                'nom_brigada' => 'COBIJA ONCE',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            410 => 
+            array (
+                'id' => 1653,
+                'user_id' => 2357,
+                'nom_brigada' => 'COBIJA ONCE',
+                'tipo' => 'ENTREGA DE CANASTAS',
+                'adm_municipio_id' => 326,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            411 => 
+            array (
+                'id' => 1655,
+                'user_id' => 4308,
+                'nom_brigada' => 'VACUNATON CHALLAPATA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 169,
+                'integrantes' => 17,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            412 => 
+            array (
+                'id' => 1656,
+                'user_id' => 1177,
+                'nom_brigada' => 'VACUNATON TOLEDO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 190,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            413 => 
+            array (
+                'id' => 1657,
+                'user_id' => 1139,
+                'nom_brigada' => 'VACUNATON CARACOLLO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 166,
+                'integrantes' => 11,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            414 => 
+            array (
+                'id' => 1658,
+                'user_id' => 1181,
+                'nom_brigada' => 'VACUNATON HUANUNI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 183,
+                'integrantes' => 19,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            415 => 
+            array (
+                'id' => 1659,
+                'user_id' => 1155,
+                'nom_brigada' => 'VACUNATON CORQUE',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 171,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            416 => 
+            array (
+                'id' => 1660,
+                'user_id' => 1202,
+                'nom_brigada' => 'VACUNACION URMIRI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 195,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            417 => 
+            array (
+                'id' => 1661,
+                'user_id' => 1189,
+                'nom_brigada' => 'VACUNATON',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 165,
+                'integrantes' => 24,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            418 => 
+            array (
+                'id' => 1662,
+                'user_id' => 1189,
+                'nom_brigada' => 'VACUNATON P ZOOLOGICO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 165,
+                'integrantes' => 24,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            419 => 
+            array (
+                'id' => 1663,
+                'user_id' => 2291,
+                'nom_brigada' => 'VACUNACION SAN JOAQUIN',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 320,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            420 => 
+            array (
+                'id' => 1664,
+                'user_id' => 2292,
+                'nom_brigada' => 'VACUNACION SAN RAMON',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 321,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            421 => 
+            array (
+                'id' => 1665,
+                'user_id' => 4252,
+                'nom_brigada' => 'VACUNACION MAGDALENA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 323,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            422 => 
+            array (
+                'id' => 1668,
+                'user_id' => 2704,
+                'nom_brigada' => 'SAN MARTIN',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 67,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            423 => 
+            array (
+                'id' => 1669,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA PRINCIPAL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 91,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            424 => 
+            array (
+                'id' => 1670,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA CALAMA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 98,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            425 => 
+            array (
+                'id' => 1671,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA AVAROA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 98,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            426 => 
+            array (
+                'id' => 1672,
+                'user_id' => 2704,
+                'nom_brigada' => 'COLISEO MUNICIPAL GUANAY',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 58,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            427 => 
+            array (
+                'id' => 1673,
+                'user_id' => 2704,
+                'nom_brigada' => 'CUARTEL CARANAVI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 115,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            428 => 
+            array (
+                'id' => 1674,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA PRINCIPAL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 49,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            429 => 
+            array (
+                'id' => 1675,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA SULLCATITI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 72,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            430 => 
+            array (
+                'id' => 1676,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA DE CARANAVI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 115,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            431 => 
+            array (
+                'id' => 1677,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA TRES DE MAYO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 51,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            432 => 
+            array (
+                'id' => 1678,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA DOS DE FEBRERO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 107,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            433 => 
+            array (
+                'id' => 1679,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA DE COROICO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 101,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            434 => 
+            array (
+                'id' => 1680,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA DOS DE FEBRERO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 107,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            435 => 
+            array (
+                'id' => 1681,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA DE CHICALOMA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 86,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            436 => 
+            array (
+                'id' => 1682,
+                'user_id' => 2704,
+                'nom_brigada' => 'PRIVADA COSMO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            437 => 
+            array (
+                'id' => 1683,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA DE CHACALA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 87,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            438 => 
+            array (
+                'id' => 1684,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA CONCHACOLLO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 71,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            439 => 
+            array (
+                'id' => 1685,
+                'user_id' => 2704,
+                'nom_brigada' => 'GERMAN BUSCH',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            440 => 
+            array (
+                'id' => 1686,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA PRINCIPAL SORATA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 57,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            441 => 
+            array (
+                'id' => 1687,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA  PALOS BLANCOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 88,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            442 => 
+            array (
+                'id' => 1688,
+                'user_id' => 2704,
+                'nom_brigada' => 'SANTA ROSA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            443 => 
+            array (
+                'id' => 1689,
+                'user_id' => 2704,
+                'nom_brigada' => 'CHULUMANI AREA RURAL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 85,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            444 => 
+            array (
+                'id' => 1690,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA YAURICORAWA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 68,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            445 => 
+            array (
+                'id' => 1691,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA HUANCOLLO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 70,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            446 => 
+            array (
+                'id' => 1692,
+                'user_id' => 2704,
+                'nom_brigada' => 'TERMINAL DE BUSES',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            447 => 
+            array (
+                'id' => 1693,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA DE TACACOMA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 59,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            448 => 
+            array (
+                'id' => 1694,
+                'user_id' => 2704,
+                'nom_brigada' => 'MERCADO EXTRANCA SENKATA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 14,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            449 => 
+            array (
+                'id' => 1695,
+                'user_id' => 2704,
+                'nom_brigada' => 'HOSPITAL EL ALTO SUR',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            450 => 
+            array (
+                'id' => 1697,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA PRINCIPAL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 36,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            451 => 
+            array (
+                'id' => 1698,
+                'user_id' => 2704,
+                'nom_brigada' => 'UPEA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            452 => 
+            array (
+                'id' => 1699,
+                'user_id' => 2704,
+                'nom_brigada' => 'EXTRANCA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            453 => 
+            array (
+                'id' => 1700,
+                'user_id' => 2704,
+                'nom_brigada' => 'CUARTEL AYACUCHO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 35,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            454 => 
+            array (
+                'id' => 1702,
+                'user_id' => 2704,
+                'nom_brigada' => 'INFOCAL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 14,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            455 => 
+            array (
+                'id' => 1703,
+                'user_id' => 2704,
+                'nom_brigada' => 'BATALLON DE LA  ARMADA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            456 => 
+            array (
+                'id' => 1704,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA PUERTO PEREZ',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 93,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            457 => 
+            array (
+                'id' => 1705,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA BARRIENTOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 92,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            458 => 
+            array (
+                'id' => 1706,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA SAN MIGUEL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            459 => 
+            array (
+                'id' => 1707,
+                'user_id' => 2704,
+                'nom_brigada' => 'MERCADO EXTRANCA SENKATA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            460 => 
+            array (
+                'id' => 1708,
+                'user_id' => 2704,
+                'nom_brigada' => 'MERCADO SAN LUIS PAMPA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            461 => 
+            array (
+                'id' => 1709,
+                'user_id' => 2704,
+                'nom_brigada' => 'MERCADO SAN LUIS PAMPA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            462 => 
+            array (
+                'id' => 1710,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA SAN MIGUEL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            463 => 
+            array (
+                'id' => 1711,
+                'user_id' => 2704,
+                'nom_brigada' => 'ESTADIUM',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 91,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            464 => 
+            array (
+                'id' => 1712,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA AVAROA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            465 => 
+            array (
+                'id' => 1713,
+                'user_id' => 2704,
+                'nom_brigada' => 'ESTADIUM',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            466 => 
+            array (
+                'id' => 1714,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA AVAROA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            467 => 
+            array (
+                'id' => 1715,
+                'user_id' => 2437,
+                'nom_brigada' => 'BRIGADAS DE CONTENCION',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 117,
+                'integrantes' => 25,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            468 => 
+            array (
+                'id' => 1716,
+                'user_id' => 610,
+                'nom_brigada' => 'BRIGADAS DE CONTENCION',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 143,
+                'integrantes' => 25,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            469 => 
+            array (
+                'id' => 1717,
+                'user_id' => 696,
+                'nom_brigada' => 'BRIGADAS DE CONTENCION',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 138,
+                'integrantes' => 25,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            470 => 
+            array (
+                'id' => 1718,
+                'user_id' => 4335,
+                'nom_brigada' => 'CEMENTERIO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            471 => 
+            array (
+                'id' => 1719,
+                'user_id' => 246,
+                'nom_brigada' => 'PLAZA MURILLO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            472 => 
+            array (
+                'id' => 1720,
+                'user_id' => 1093,
+                'nom_brigada' => 'VINTO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 141,
+                'integrantes' => 18,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            473 => 
+            array (
+                'id' => 1721,
+                'user_id' => 2704,
+                'nom_brigada' => 'CIUDAD MERCADO SATELITE',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            474 => 
+            array (
+                'id' => 1722,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA BATALLON COLORADOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 113,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            475 => 
+            array (
+                'id' => 1724,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA QUINCE DE AGOSTO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 98,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            476 => 
+            array (
+                'id' => 1725,
+                'user_id' => 2704,
+                'nom_brigada' => 'TILATA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 67,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            477 => 
+            array (
+                'id' => 1726,
+                'user_id' => 2704,
+                'nom_brigada' => 'VILLA ADELA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 15,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            478 => 
+            array (
+                'id' => 1727,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA PRINCIPAL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 69,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            479 => 
+            array (
+                'id' => 1728,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA PRINCIPAL LAJA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 91,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            480 => 
+            array (
+                'id' => 1729,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA  PUERTO ACOSTA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 49,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            481 => 
+            array (
+                'id' => 1730,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA PUCARANI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 90,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            482 => 
+            array (
+                'id' => 1731,
+                'user_id' => 2704,
+                'nom_brigada' => 'CS HUIRI NOGALANI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 86,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            483 => 
+            array (
+                'id' => 1732,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA DE CHOJLLA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 87,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            484 => 
+            array (
+                'id' => 1733,
+                'user_id' => 2704,
+                'nom_brigada' => 'PLAZA LIBERTAD',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            485 => 
+            array (
+                'id' => 1734,
+                'user_id' => 3438,
+                'nom_brigada' => 'VITICHI VAC',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 218,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            486 => 
+            array (
+                'id' => 1735,
+                'user_id' => 2704,
+                'nom_brigada' => 'FERIA PACAJES CALUYO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 34,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            487 => 
+            array (
+                'id' => 1736,
+                'user_id' => 1265,
+                'nom_brigada' => 'VACUNATON FUERZA AEREA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 165,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            488 => 
+            array (
+                'id' => 1737,
+                'user_id' => 3431,
+                'nom_brigada' => 'VACUNACION SAN RAMON',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 321,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            489 => 
+            array (
+                'id' => 1738,
+                'user_id' => 2508,
+                'nom_brigada' => 'BRIGADAS DE CONTENCION',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 143,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            490 => 
+            array (
+                'id' => 1739,
+                'user_id' => 1622,
+                'nom_brigada' => 'BRIGADA URIONDO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 246,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            491 => 
+            array (
+                'id' => 1740,
+                'user_id' => 1613,
+                'nom_brigada' => 'BRIGADA URIONDO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 246,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            492 => 
+            array (
+                'id' => 1741,
+                'user_id' => 934,
+                'nom_brigada' => 'FEICOBOL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 117,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            493 => 
+            array (
+                'id' => 1742,
+                'user_id' => 4308,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 169,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            494 => 
+            array (
+                'id' => 1743,
+                'user_id' => 1207,
+                'nom_brigada' => 'CHIPAYA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 189,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            495 => 
+            array (
+                'id' => 1745,
+                'user_id' => 4202,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJES',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 185,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            496 => 
+            array (
+                'id' => 1746,
+                'user_id' => 1489,
+                'nom_brigada' => 'SAN PEDRO VAC',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 215,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            497 => 
+            array (
+                'id' => 1747,
+                'user_id' => 1489,
+                'nom_brigada' => 'SAN PEDRO TM',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 215,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            498 => 
+            array (
+                'id' => 1748,
+                'user_id' => 1489,
+                'nom_brigada' => 'SAN PEDRO RAS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 215,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            499 => 
+            array (
+                'id' => 1749,
+                'user_id' => 4202,
+                'nom_brigada' => 'SALINAS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 185,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+        ));
+        \DB::table('rrhh_brigadas')->insert(array (
+            0 => 
+            array (
+                'id' => 1750,
+                'user_id' => 4306,
+                'nom_brigada' => 'CURAHUARA DE CARANGAS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 173,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            1 => 
+            array (
+                'id' => 1751,
+                'user_id' => 2918,
+                'nom_brigada' => 'PORCO VAC',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 233,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            2 => 
+            array (
+                'id' => 1752,
+                'user_id' => 2918,
+                'nom_brigada' => 'PORCO RAS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 233,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            3 => 
+            array (
+                'id' => 1753,
+                'user_id' => 3036,
+                'nom_brigada' => 'MOJINETE VAC',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 226,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            4 => 
+            array (
+                'id' => 1754,
+                'user_id' => 3036,
+                'nom_brigada' => 'MOJINETE RAS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 226,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            5 => 
+            array (
+                'id' => 1755,
+                'user_id' => 1405,
+                'nom_brigada' => 'ATOCHA VAC',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 222,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            6 => 
+            array (
+                'id' => 1756,
+                'user_id' => 1405,
+                'nom_brigada' => 'ATOCHA TM',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 222,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            7 => 
+            array (
+                'id' => 1757,
+                'user_id' => 1405,
+                'nom_brigada' => 'ATOCHA RAS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 222,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            8 => 
+            array (
+                'id' => 1758,
+                'user_id' => 1139,
+                'nom_brigada' => 'EQUIPO DE VACUNACION',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 166,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            9 => 
+            array (
+                'id' => 1759,
+                'user_id' => 1157,
+                'nom_brigada' => 'TOMA DE ANTIGENO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            10 => 
+            array (
+                'id' => 1760,
+                'user_id' => 1153,
+                'nom_brigada' => 'BRIGADA DE RASTRILLAJES',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 170,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            11 => 
+            array (
+                'id' => 1761,
+                'user_id' => 4318,
+                'nom_brigada' => 'C S PALMARCITO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 240,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            12 => 
+            array (
+                'id' => 1762,
+                'user_id' => 1628,
+                'nom_brigada' => 'MUNICIPIO CERCADO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 240,
+                'integrantes' => 50,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            13 => 
+            array (
+                'id' => 1763,
+                'user_id' => 3803,
+                'nom_brigada' => 'SAN RAMON',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 294,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            14 => 
+            array (
+                'id' => 1764,
+                'user_id' => 4116,
+                'nom_brigada' => 'SAIPINA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 300,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            15 => 
+            array (
+                'id' => 1765,
+                'user_id' => 4304,
+                'nom_brigada' => 'BRIGADAS DE CONTENCION',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 142,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            16 => 
+            array (
+                'id' => 1767,
+                'user_id' => 3737,
+                'nom_brigada' => 'VALLEGRANDE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 278,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            17 => 
+            array (
+                'id' => 1768,
+                'user_id' => 2436,
+                'nom_brigada' => 'COLCAPIRUHA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 142,
+                'integrantes' => 17,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            18 => 
+            array (
+                'id' => 1769,
+                'user_id' => 2436,
+                'nom_brigada' => 'COLCAPIRUHA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 142,
+                'integrantes' => 17,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            19 => 
+            array (
+                'id' => 1770,
+                'user_id' => 2436,
+                'nom_brigada' => 'COLCAPIRUHA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 117,
+                'integrantes' => 17,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            20 => 
+            array (
+                'id' => 1771,
+                'user_id' => 641,
+                'nom_brigada' => 'AEROPUERTO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 117,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            21 => 
+            array (
+                'id' => 1772,
+                'user_id' => 744,
+                'nom_brigada' => 'COLOMI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 144,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            22 => 
+            array (
+                'id' => 1773,
+                'user_id' => 744,
+                'nom_brigada' => 'COLOMI',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 144,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            23 => 
+            array (
+                'id' => 1774,
+                'user_id' => 744,
+                'nom_brigada' => 'COLOMI',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 117,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            24 => 
+            array (
+                'id' => 1775,
+                'user_id' => 3512,
+                'nom_brigada' => 'TACOPAYA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 131,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            25 => 
+            array (
+                'id' => 1776,
+                'user_id' => 3512,
+                'nom_brigada' => 'TACOPAYA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 131,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            26 => 
+            array (
+                'id' => 1777,
+                'user_id' => 1740,
+                'nom_brigada' => 'MUNICIPIO BERMEJO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 242,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            27 => 
+            array (
+                'id' => 1778,
+                'user_id' => 1735,
+                'nom_brigada' => 'BERMEJO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 242,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            28 => 
+            array (
+                'id' => 1779,
+                'user_id' => 1740,
+                'nom_brigada' => 'CS PORCELANA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 242,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            29 => 
+            array (
+                'id' => 1780,
+                'user_id' => 1740,
+                'nom_brigada' => 'MUNICIPIO BERMEJO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 242,
+                'integrantes' => 19,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            30 => 
+            array (
+                'id' => 1781,
+                'user_id' => 1177,
+                'nom_brigada' => 'TOLEDO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 190,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            31 => 
+            array (
+                'id' => 1782,
+                'user_id' => 2704,
+                'nom_brigada' => 'MUNICIPIO CHARAÑA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 45,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            32 => 
+            array (
+                'id' => 1783,
+                'user_id' => 3412,
+                'nom_brigada' => 'MUNICIPIO DESAGUADERO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 70,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            33 => 
+            array (
+                'id' => 1784,
+                'user_id' => 3412,
+                'nom_brigada' => 'MUNICIPIO GUAQUI',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 68,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            34 => 
+            array (
+                'id' => 1785,
+                'user_id' => 1231,
+                'nom_brigada' => 'BRIGADA PLAN QUINIENTOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 165,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            35 => 
+            array (
+                'id' => 1786,
+                'user_id' => 2787,
+                'nom_brigada' => 'BRIGADA VERDE UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 165,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            36 => 
+            array (
+                'id' => 1787,
+                'user_id' => 2787,
+                'nom_brigada' => 'BRIGADA SANTA LUCIA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 165,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            37 => 
+            array (
+                'id' => 1788,
+                'user_id' => 1131,
+                'nom_brigada' => 'BRIGADA VINTO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 165,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            38 => 
+            array (
+                'id' => 1789,
+                'user_id' => 1131,
+                'nom_brigada' => 'BRIGADA VICHOLOMA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 165,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            39 => 
+            array (
+                'id' => 1790,
+                'user_id' => 1223,
+                'nom_brigada' => 'MARIA AUXILIADORA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            40 => 
+            array (
+                'id' => 1791,
+                'user_id' => 1121,
+                'nom_brigada' => 'CANDELARIA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            41 => 
+            array (
+                'id' => 1792,
+                'user_id' => 3495,
+                'nom_brigada' => 'RAFEL PABON',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            42 => 
+            array (
+                'id' => 1793,
+                'user_id' => 3428,
+                'nom_brigada' => 'AURORA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            43 => 
+            array (
+                'id' => 1794,
+                'user_id' => 1231,
+                'nom_brigada' => 'PLAN QUINIENTOS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            44 => 
+            array (
+                'id' => 1795,
+                'user_id' => 1251,
+                'nom_brigada' => 'SANTA ROSA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            45 => 
+            array (
+                'id' => 1796,
+                'user_id' => 1187,
+                'nom_brigada' => 'SOCAMANI',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            46 => 
+            array (
+                'id' => 1797,
+                'user_id' => 2450,
+                'nom_brigada' => 'SIETE DE MARZO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            47 => 
+            array (
+                'id' => 1798,
+                'user_id' => 2787,
+                'nom_brigada' => 'VERDE UNO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            48 => 
+            array (
+                'id' => 1799,
+                'user_id' => 3454,
+                'nom_brigada' => 'PAMPA AULLAGAS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 186,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            49 => 
+            array (
+                'id' => 1800,
+                'user_id' => 1131,
+                'nom_brigada' => 'VINTO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            50 => 
+            array (
+                'id' => 1801,
+                'user_id' => 3454,
+                'nom_brigada' => 'PAMPA AULLAGAS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 186,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            51 => 
+            array (
+                'id' => 1802,
+                'user_id' => 1196,
+                'nom_brigada' => 'RUMY CAMPANA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            52 => 
+            array (
+                'id' => 1803,
+                'user_id' => 1105,
+                'nom_brigada' => 'CHIRIPUJIO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            53 => 
+            array (
+                'id' => 1804,
+                'user_id' => 2787,
+                'nom_brigada' => 'SANTA LUCIA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            54 => 
+            array (
+                'id' => 1805,
+                'user_id' => 1105,
+                'nom_brigada' => 'CHIRIPUJIO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 165,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            55 => 
+            array (
+                'id' => 1806,
+                'user_id' => 1177,
+                'nom_brigada' => 'BRIGADA TOLEDO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 190,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            56 => 
+            array (
+                'id' => 1807,
+                'user_id' => 3456,
+                'nom_brigada' => 'BRIGADA TURCO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 174,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            57 => 
+            array (
+                'id' => 1808,
+                'user_id' => 3456,
+                'nom_brigada' => 'BRIGADA TURCO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 174,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            58 => 
+            array (
+                'id' => 1809,
+                'user_id' => 1131,
+                'nom_brigada' => 'BRIGADA CHALLAPATA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 169,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            59 => 
+            array (
+                'id' => 1810,
+                'user_id' => 1250,
+                'nom_brigada' => 'BRIGADA HUAYLLAMARCA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 199,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            60 => 
+            array (
+                'id' => 1811,
+                'user_id' => 1168,
+                'nom_brigada' => 'BRIGADA PAZÑA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 181,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            61 => 
+            array (
+                'id' => 1812,
+                'user_id' => 1168,
+                'nom_brigada' => 'BRIGADA PAZÑA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 181,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            62 => 
+            array (
+                'id' => 1813,
+                'user_id' => 1153,
+                'nom_brigada' => 'BRIGADA QUILLACAS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 170,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            63 => 
+            array (
+                'id' => 1814,
+                'user_id' => 1199,
+                'nom_brigada' => 'BRIGADA HUARI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 195,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            64 => 
+            array (
+                'id' => 1815,
+                'user_id' => 1199,
+                'nom_brigada' => 'BRIGADA HUARI',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 195,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            65 => 
+            array (
+                'id' => 1816,
+                'user_id' => 1180,
+                'nom_brigada' => 'BRIGADA SABAYA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 187,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            66 => 
+            array (
+                'id' => 1817,
+                'user_id' => 1192,
+                'nom_brigada' => 'TOMA DE ANTIGENO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 192,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            67 => 
+            array (
+                'id' => 1818,
+                'user_id' => 1188,
+                'nom_brigada' => 'TOMA DE MUESTRAS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 191,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            68 => 
+            array (
+                'id' => 1819,
+                'user_id' => 1207,
+                'nom_brigada' => 'VACUNACION CHIPAYA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 189,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            69 => 
+            array (
+                'id' => 1820,
+                'user_id' => 3427,
+                'nom_brigada' => 'BRIGADA DE VACUNACION',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 194,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            70 => 
+            array (
+                'id' => 1821,
+                'user_id' => 3707,
+                'nom_brigada' => 'PALMASOLA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 251,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            71 => 
+            array (
+                'id' => 1822,
+                'user_id' => 3707,
+                'nom_brigada' => 'PALMASOLA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 251,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            72 => 
+            array (
+                'id' => 1823,
+                'user_id' => 3412,
+                'nom_brigada' => 'PENAL DE SAN PEDRO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 30,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            73 => 
+            array (
+                'id' => 1824,
+                'user_id' => 3431,
+                'nom_brigada' => 'ANTIGENO HUACARAJE',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 325,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            74 => 
+            array (
+                'id' => 1825,
+                'user_id' => 3412,
+                'nom_brigada' => 'GRUPO UNO EL ALTO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 30,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            75 => 
+            array (
+                'id' => 1826,
+                'user_id' => 3412,
+                'nom_brigada' => 'GRUPO DOS EL ALTO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 30,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            76 => 
+            array (
+                'id' => 1827,
+                'user_id' => 3412,
+                'nom_brigada' => 'GRUPO TRES EL ALTO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 30,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            77 => 
+            array (
+                'id' => 1828,
+                'user_id' => 3412,
+                'nom_brigada' => 'GRUPO UNO LA PAZ',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 30,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            78 => 
+            array (
+                'id' => 1829,
+                'user_id' => 3412,
+                'nom_brigada' => 'PENAL DE SAN PEDRO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 30,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            79 => 
+            array (
+                'id' => 1830,
+                'user_id' => 3692,
+                'nom_brigada' => 'SANTA ROSA DEL SARA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 269,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            80 => 
+            array (
+                'id' => 1831,
+                'user_id' => 4146,
+                'nom_brigada' => 'ROBORE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 267,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            81 => 
+            array (
+                'id' => 1832,
+                'user_id' => 3887,
+                'nom_brigada' => 'PORONGO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 253,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            82 => 
+            array (
+                'id' => 1833,
+                'user_id' => 3902,
+                'nom_brigada' => 'SAN JULIAN',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 295,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            83 => 
+            array (
+                'id' => 1834,
+                'user_id' => 2451,
+                'nom_brigada' => 'BRIGADA DE VACUNACION',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 168,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            84 => 
+            array (
+                'id' => 1835,
+                'user_id' => 1155,
+                'nom_brigada' => 'VACUNACION CORQUE',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 171,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            85 => 
+            array (
+                'id' => 1836,
+                'user_id' => 596,
+                'nom_brigada' => 'AEROPUERTO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 117,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            86 => 
+            array (
+                'id' => 1837,
+                'user_id' => 4340,
+                'nom_brigada' => 'BRIGADAS DE CONTENCION',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 138,
+                'integrantes' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            87 => 
+            array (
+                'id' => 1838,
+                'user_id' => 1711,
+                'nom_brigada' => 'BERMEJO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 242,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            88 => 
+            array (
+                'id' => 1839,
+                'user_id' => 115,
+                'nom_brigada' => 'BRIGADA VAC ESCANA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 18,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            89 => 
+            array (
+                'id' => 1840,
+                'user_id' => 115,
+                'nom_brigada' => 'BRIGADA ANTIG ESCANA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 18,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            90 => 
+            array (
+                'id' => 1841,
+                'user_id' => 3412,
+                'nom_brigada' => 'PENAL DE SAN PEDRO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 30,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            91 => 
+            array (
+                'id' => 1842,
+                'user_id' => 3412,
+                'nom_brigada' => 'PENAL DE SAN PEDRO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 30,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            92 => 
+            array (
+                'id' => 1843,
+                'user_id' => 1181,
+                'nom_brigada' => 'EQUIPO DE RASTRILLAJE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 183,
+                'integrantes' => 11,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            93 => 
+            array (
+                'id' => 1844,
+                'user_id' => 1265,
+                'nom_brigada' => 'PLAN QUINIENTOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 165,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            94 => 
+            array (
+                'id' => 1845,
+                'user_id' => 1104,
+                'nom_brigada' => 'SIETE DE MARZO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 165,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            95 => 
+            array (
+                'id' => 1846,
+                'user_id' => 228,
+                'nom_brigada' => 'BRIGADA RAST LAS CARRERAS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 26,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            96 => 
+            array (
+                'id' => 1847,
+                'user_id' => 228,
+                'nom_brigada' => 'BRIGADA VAC LAS CARRERAS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 26,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            97 => 
+            array (
+                'id' => 1848,
+                'user_id' => 228,
+                'nom_brigada' => 'BRIGADA ANTIG LASCARRERAS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 26,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            98 => 
+            array (
+                'id' => 1849,
+                'user_id' => 1516,
+                'nom_brigada' => 'SACACA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 219,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            99 => 
+            array (
+                'id' => 1850,
+                'user_id' => 1516,
+                'nom_brigada' => 'SACACA RAS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 219,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            100 => 
+            array (
+                'id' => 1851,
+                'user_id' => 935,
+                'nom_brigada' => 'TIRAQUE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 163,
+                'integrantes' => 14,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            101 => 
+            array (
+                'id' => 1852,
+                'user_id' => 3767,
+                'nom_brigada' => 'EMI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 251,
+                'integrantes' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            102 => 
+            array (
+                'id' => 1853,
+                'user_id' => 3182,
+                'nom_brigada' => 'BRIGADA YAGUACUA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            103 => 
+            array (
+                'id' => 1854,
+                'user_id' => 1715,
+                'nom_brigada' => 'BRIGADA SAN JERONIMO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            104 => 
+            array (
+                'id' => 1855,
+                'user_id' => 1580,
+                'nom_brigada' => 'BRIGADA CAIZA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            105 => 
+            array (
+                'id' => 1856,
+                'user_id' => 1719,
+                'nom_brigada' => 'BRIGADA CAMPO GRANDE',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            106 => 
+            array (
+                'id' => 1857,
+                'user_id' => 1679,
+                'nom_brigada' => 'BRIGADA TIMBOY',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            107 => 
+            array (
+                'id' => 1858,
+                'user_id' => 1749,
+                'nom_brigada' => 'BRIGADA TIERRAS NUEVAS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            108 => 
+            array (
+                'id' => 1859,
+                'user_id' => 1755,
+                'nom_brigada' => 'BRIGADA SAN ISIDRO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 245,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            109 => 
+            array (
+                'id' => 1860,
+                'user_id' => 1696,
+                'nom_brigada' => 'BRIGADA EL JARDIN',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            110 => 
+            array (
+                'id' => 1861,
+                'user_id' => 1697,
+                'nom_brigada' => 'BRIGADA EL PORVENIR',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            111 => 
+            array (
+                'id' => 1862,
+                'user_id' => 1700,
+                'nom_brigada' => 'BRIGADA LAS DELICIAS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            112 => 
+            array (
+                'id' => 1863,
+                'user_id' => 1589,
+                'nom_brigada' => 'BRIGADA SACHAPERA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            113 => 
+            array (
+                'id' => 1864,
+                'user_id' => 1707,
+                'nom_brigada' => 'BRIGADA BARRIO NUEVO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            114 => 
+            array (
+                'id' => 1865,
+                'user_id' => 1728,
+                'nom_brigada' => 'BRIGADA SAN PEDRO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            115 => 
+            array (
+                'id' => 1866,
+                'user_id' => 1582,
+                'nom_brigada' => 'BRIGADA CREVAUX',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            116 => 
+            array (
+                'id' => 1867,
+                'user_id' => 1586,
+                'nom_brigada' => 'BRIGADA POCITOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            117 => 
+            array (
+                'id' => 1868,
+                'user_id' => 1725,
+                'nom_brigada' => 'BRIGADA SUNCHAL',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            118 => 
+            array (
+                'id' => 1869,
+                'user_id' => 1585,
+                'nom_brigada' => 'BRIGADA EL PALMAR',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            119 => 
+            array (
+                'id' => 1870,
+                'user_id' => 1681,
+                'nom_brigada' => 'BRIGADA CAMPO PAJOSO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            120 => 
+            array (
+                'id' => 1871,
+                'user_id' => 1678,
+                'nom_brigada' => 'BRIGADA SANANDITA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            121 => 
+            array (
+                'id' => 1872,
+                'user_id' => 1726,
+                'nom_brigada' => 'BRIGADA EL BAGUAL',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            122 => 
+            array (
+                'id' => 1873,
+                'user_id' => 2469,
+                'nom_brigada' => 'BRIGADA LA GRAMPA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            123 => 
+            array (
+                'id' => 1874,
+                'user_id' => 3716,
+                'nom_brigada' => 'FERIA DE SALUD',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 251,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            124 => 
+            array (
+                'id' => 1875,
+                'user_id' => 235,
+                'nom_brigada' => 'BRIGADA VAC YOTALA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 2,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            125 => 
+            array (
+                'id' => 1876,
+                'user_id' => 235,
+                'nom_brigada' => 'BRIGADA ANTIG YOTALA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 2,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            126 => 
+            array (
+                'id' => 1877,
+                'user_id' => 2752,
+                'nom_brigada' => 'BRIGADA VAC LIME',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 26,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            127 => 
+            array (
+                'id' => 1878,
+                'user_id' => 2752,
+                'nom_brigada' => 'BRIGADA ANTIG LIME',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 26,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            128 => 
+            array (
+                'id' => 1879,
+                'user_id' => 191,
+                'nom_brigada' => 'BRIGADA RAST HUACARETA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 16,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            129 => 
+            array (
+                'id' => 1880,
+                'user_id' => 191,
+                'nom_brigada' => 'BRIGADA VAC HUACARETA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 16,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            130 => 
+            array (
+                'id' => 1881,
+                'user_id' => 191,
+                'nom_brigada' => 'BRIGADA ANTG HUACARETA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 16,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            131 => 
+            array (
+                'id' => 1882,
+                'user_id' => 2815,
+                'nom_brigada' => 'BRIGADA RAST VCHARCAS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 22,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            132 => 
+            array (
+                'id' => 1883,
+                'user_id' => 2815,
+                'nom_brigada' => 'BRIGADA VAC VILLA CHARCAS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 11,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            133 => 
+            array (
+                'id' => 1884,
+                'user_id' => 2815,
+                'nom_brigada' => 'BRIGADA ANTIG V CHARCAS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 22,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            134 => 
+            array (
+                'id' => 1885,
+                'user_id' => 1215,
+                'nom_brigada' => 'FERIA DE SALUD Y LA VIDA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 194,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            135 => 
+            array (
+                'id' => 1886,
+                'user_id' => 4341,
+                'nom_brigada' => 'BRIGADA VAC MOLLINI',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 19,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            136 => 
+            array (
+                'id' => 1887,
+                'user_id' => 4341,
+                'nom_brigada' => 'BRIGADA ANTIG MOLLINI',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 19,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            137 => 
+            array (
+                'id' => 1888,
+                'user_id' => 2450,
+                'nom_brigada' => 'SIETE DE MARZO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            138 => 
+            array (
+                'id' => 1889,
+                'user_id' => 3182,
+                'nom_brigada' => 'BRIGADA YAGUACUA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            139 => 
+            array (
+                'id' => 1890,
+                'user_id' => 1715,
+                'nom_brigada' => 'BRIGADA SAN JERONIMO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            140 => 
+            array (
+                'id' => 1891,
+                'user_id' => 1580,
+                'nom_brigada' => 'BRIGADA CAIZA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            141 => 
+            array (
+                'id' => 1892,
+                'user_id' => 1719,
+                'nom_brigada' => 'BRIGADA CAMPO GRANDE',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            142 => 
+            array (
+                'id' => 1893,
+                'user_id' => 1679,
+                'nom_brigada' => 'BRIGADA TIMBOY',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            143 => 
+            array (
+                'id' => 1894,
+                'user_id' => 1749,
+                'nom_brigada' => 'BRIGADA TIERRAS NUEVAS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            144 => 
+            array (
+                'id' => 1895,
+                'user_id' => 1755,
+                'nom_brigada' => 'BRIGADA SAN ISIDRO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            145 => 
+            array (
+                'id' => 1896,
+                'user_id' => 1696,
+                'nom_brigada' => 'BRIGADA EL JARDIN',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            146 => 
+            array (
+                'id' => 1897,
+                'user_id' => 1697,
+                'nom_brigada' => 'BRIGADA EL PORVENIR',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            147 => 
+            array (
+                'id' => 1898,
+                'user_id' => 1700,
+                'nom_brigada' => 'BRIGADA LAS DELICIAS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            148 => 
+            array (
+                'id' => 1899,
+                'user_id' => 1589,
+                'nom_brigada' => 'BRIGADA SACHAPERA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            149 => 
+            array (
+                'id' => 1900,
+                'user_id' => 1707,
+                'nom_brigada' => 'BRIGADA BARRIO NUEVO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 245,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            150 => 
+            array (
+                'id' => 1901,
+                'user_id' => 1728,
+                'nom_brigada' => 'BRIGADA SAN PEDRO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            151 => 
+            array (
+                'id' => 1902,
+                'user_id' => 1582,
+                'nom_brigada' => 'BRIGADA CREVAUX',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            152 => 
+            array (
+                'id' => 1903,
+                'user_id' => 1586,
+                'nom_brigada' => 'BRIGADA POCITOS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            153 => 
+            array (
+                'id' => 1904,
+                'user_id' => 1725,
+                'nom_brigada' => 'BRIGADA SUNCHAL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            154 => 
+            array (
+                'id' => 1905,
+                'user_id' => 1585,
+                'nom_brigada' => 'BRIGADA EL PALMAR',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            155 => 
+            array (
+                'id' => 1906,
+                'user_id' => 1681,
+                'nom_brigada' => 'BRIGADA CAMPO PAJOSO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            156 => 
+            array (
+                'id' => 1907,
+                'user_id' => 1678,
+                'nom_brigada' => 'BRIGADA SANANDITA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            157 => 
+            array (
+                'id' => 1908,
+                'user_id' => 1726,
+                'nom_brigada' => 'BRIGADA EL BAGUAL',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            158 => 
+            array (
+                'id' => 1909,
+                'user_id' => 2469,
+                'nom_brigada' => 'BRIGADA LA GRAMPA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 243,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            159 => 
+            array (
+                'id' => 1910,
+                'user_id' => 4342,
+                'nom_brigada' => 'BRIGADA VAC PUCARA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 11,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            160 => 
+            array (
+                'id' => 1911,
+                'user_id' => 4342,
+                'nom_brigada' => 'BRIGADA ANTIG PUCARA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 11,
+                'integrantes' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            161 => 
+            array (
+                'id' => 1912,
+                'user_id' => 1265,
+                'nom_brigada' => 'COLEGIO SARACHO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            162 => 
+            array (
+                'id' => 1913,
+                'user_id' => 152,
+                'nom_brigada' => 'BRIGADA RAST TARABUCO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 17,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            163 => 
+            array (
+                'id' => 1914,
+                'user_id' => 152,
+                'nom_brigada' => 'BRIGADA VAC TARABUCO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 17,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            164 => 
+            array (
+                'id' => 1915,
+                'user_id' => 152,
+                'nom_brigada' => 'BRIGADA ANTIG TARABUCO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 17,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            165 => 
+            array (
+                'id' => 1916,
+                'user_id' => 160,
+                'nom_brigada' => 'BRIGADA RAST SAN LUCAS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 20,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            166 => 
+            array (
+                'id' => 1917,
+                'user_id' => 160,
+                'nom_brigada' => 'BRIGADA VAC SAN LUCAS',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 20,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            167 => 
+            array (
+                'id' => 1918,
+                'user_id' => 160,
+                'nom_brigada' => 'BRIGADA ANTIG SAN LUCAS',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 20,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            168 => 
+            array (
+                'id' => 1919,
+                'user_id' => 144,
+                'nom_brigada' => 'BRIGADA RAST V SERRANO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 23,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            169 => 
+            array (
+                'id' => 1920,
+                'user_id' => 144,
+                'nom_brigada' => 'BRIGADA VAC VILLA SERRANO',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 23,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            170 => 
+            array (
+                'id' => 1921,
+                'user_id' => 144,
+                'nom_brigada' => 'BRIGADA ANTIG V SERRANO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 23,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            171 => 
+            array (
+                'id' => 1922,
+                'user_id' => 1244,
+                'nom_brigada' => 'EQUIPO DE RASTRILLAJE UNO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 165,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            172 => 
+            array (
+                'id' => 1923,
+                'user_id' => 1224,
+                'nom_brigada' => 'EQUIPO DE RASTRILLAJE DOS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 165,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            173 => 
+            array (
+                'id' => 1924,
+                'user_id' => 1264,
+                'nom_brigada' => 'EQUIPO DE RASTRILLAJE  T',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 165,
+                'integrantes' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            174 => 
+            array (
+                'id' => 1925,
+                'user_id' => 153,
+                'nom_brigada' => 'BRIGADA RAST HUACAYA',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 28,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            175 => 
+            array (
+                'id' => 1926,
+                'user_id' => 153,
+                'nom_brigada' => 'BRIGADA VAC HUACAYA',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 28,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            176 => 
+            array (
+                'id' => 1927,
+                'user_id' => 153,
+                'nom_brigada' => 'BRIGADA ANTIG HUACAYA',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 28,
+                'integrantes' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            177 => 
+            array (
+                'id' => 1928,
+                'user_id' => 2450,
+                'nom_brigada' => 'BRIGADA SIETE  DE MARZO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 165,
+                'integrantes' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            178 => 
+            array (
+                'id' => 1929,
+                'user_id' => 1104,
+                'nom_brigada' => 'TELETON DEL TEATRO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 165,
+                'integrantes' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            179 => 
+            array (
+                'id' => 1930,
+                'user_id' => 897,
+                'nom_brigada' => 'VILLA RIVERO',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 158,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            180 => 
+            array (
+                'id' => 1931,
+                'user_id' => 897,
+                'nom_brigada' => 'VILLA RIVERO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 158,
+                'integrantes' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            181 => 
+            array (
+                'id' => 1932,
+                'user_id' => 3422,
+                'nom_brigada' => 'VACAS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 129,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            182 => 
+            array (
+                'id' => 1933,
+                'user_id' => 1217,
+                'nom_brigada' => 'TAMBO QUEMADO',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 174,
+                'integrantes' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            183 => 
+            array (
+                'id' => 1934,
+                'user_id' => 4343,
+                'nom_brigada' => 'OCURI VAC',
+                'tipo' => 'VACUNACION',
+                'adm_municipio_id' => 214,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            184 => 
+            array (
+                'id' => 1935,
+                'user_id' => 4343,
+                'nom_brigada' => 'OCURI TM',
+                'tipo' => 'TOMA DE MUESTRA',
+                'adm_municipio_id' => 214,
+                'integrantes' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            185 => 
+            array (
+                'id' => 1936,
+                'user_id' => 4343,
+                'nom_brigada' => 'OCURI RAS',
+                'tipo' => 'RASTRILLAJE',
+                'adm_municipio_id' => 214,
+                'integrantes' => 1,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),

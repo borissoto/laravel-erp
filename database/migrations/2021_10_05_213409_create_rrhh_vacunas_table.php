@@ -19,8 +19,9 @@ class CreateRrhhVacunasTable extends Migration
             $table->unsignedBigInteger('rrhh_brigada_id')->nullable();
             $table->foreign('rrhh_brigada_id')->references('id')->on('rrhh_brigadas')->onDelete('set null');            
             $table->string('marca')->nullable();            
-            $table->integer('dosis1')->nullable();
-            $table->integer('dosis2')->nullable();
+            $table->integer('dosis1')->nullable()->default('0');
+            $table->integer('dosis2')->nullable()->default('0');
+            $table->integer('dosis3')->nullable()->default('0');            
             $table->integer('esavis')->nullable();            
             $table->dateTime('fecha')->nullable();
             $table->integer('user_id')->nullable();

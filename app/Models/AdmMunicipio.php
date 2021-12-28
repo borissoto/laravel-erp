@@ -32,4 +32,12 @@ class AdmMunicipio extends Model
         return $this->hasMany(RrhhAntigeno::class);
     }
    
+    public function ratrillajes(){
+        return $this->hasMany(RrhhRastrillaje::class);
+    }
+
+    public function vacunas(){
+        return $this->hasMany(RrhhVacuna::class);
+    }
+   
 }

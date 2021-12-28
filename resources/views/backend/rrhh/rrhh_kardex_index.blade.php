@@ -12,6 +12,8 @@
             </small>
             <span class=" text-lg"> - </span>
             <span class="text-primary text-lead "> {{$user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno}} </span>
+            <span class="text-primary text-secondary "> {{$user->nivel }} </span>
+
           </h1>
         </div>
         <div class="col-sm-4">

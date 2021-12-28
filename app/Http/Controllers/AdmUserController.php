@@ -78,6 +78,14 @@ class AdmUserController extends Controller
         return view('backend.rrhh.rrhh_index');
     }
 
+    public function ListaDepartamental(){        
+        return view('backend.rrhh.rrhh_departamental');
+    }
+
+    public function ListaMunicipal(){        
+        return view('backend.rrhh.rrhh_municipal');
+    }
+
     public function kardexIndex($id){
         $user = User::findOrFail($id);
         $cargo = AdmCargo::where('estado',1)->first();

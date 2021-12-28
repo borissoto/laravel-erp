@@ -104,7 +104,11 @@
                                         <span class="fa fa{{$cargocampo === 'cargo' ? $icon : '-sort'}}"></span>                                         
                                     </button>
                                 </th>                                
-                                <th>Nivel</th>
+                                <th>Nivel
+                                    <button wire:click="sorteable('nivel')" class="border-0">
+                                        <span class="fa fa{{$campo === 'nivel' ? $icon : '-sort'}}"></span>                                         
+                                    </button>
+                                </th>
                                 <th>Depto EESS
                                     <button wire:click="sorteable('ap_materno')" class="border-0">
                                         <span class="fa fa{{$campo === 'ap_materno' ? $icon : '-sort'}}"></span>                                         

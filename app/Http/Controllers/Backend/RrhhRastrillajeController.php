@@ -15,7 +15,7 @@ class RrhhRastrillajeController extends Controller
     public function index()
     {
         //
-        return view('backend.rastrillaje.index');
+        return view('backend.brigada.rastrillaje_index');
     }
 
     /**

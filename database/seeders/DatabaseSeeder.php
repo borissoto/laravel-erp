@@ -46,5 +46,10 @@ class DatabaseSeeder extends Seeder
 
         // WebCategoria::factory(4)->create();
         // $this->call(WebArticulosSeeder::class);
+        
+        
+        $this->call(RrhhAntigenosTableSeeder::class);
+        $this->call(RrhhRastrillajesTableSeeder::class);
+        $this->call(RrhhVacunasTableSeeder::class);
     }
 }

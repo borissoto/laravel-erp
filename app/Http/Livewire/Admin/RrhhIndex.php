@@ -89,15 +89,19 @@ class RrhhIndex extends Component
 
     public function render()
     {
+        $nivel = auth()->user()->establecimiento->municipio->departamento->id;        
 
         $users = User::whereRelation('establecimiento', 'nom_establecimiento', 'LIKE', '%' . $this->search . '%')
         ->orWhereRelation('establecimiento.municipio', 'nom_municipio', 'LIKE', '%' . $this->search . '%')
-        ->orWhereRelation('establecimiento.municipio.departamento', 'nom_departamento', 'LIKE', '%' . $this->search . '%')
+        // ->orWhereRelation('establecimiento.municipio.departamento', 'nom_departamento', 'LIKE', '%' . $this->search . '%')
+        // ->orWhereRelation('establecimiento.municipio.departamento', 'id', '=', $nivel)
         ->orWhere('name', 'LIKE', '%' . $this->search . '%')
         ->orWhere('nombres','LIKE', '%' . $this->search . '%')
         ->orWhere('ap_paterno','LIKE', '%' . $this->search . '%')
         ->orWhere('ap_materno','LIKE', '%' . $this->search . '%')
         ->orWhere('ci','LIKE', '%' . $this->search . '%');
+
+        $users = User::whereRelation('establecimiento.municipio.departamento', 'id', '=', $nivel);
 
         if ($this->campo && $this->order) {
             $users = $users->orderBy($this->campo, $this->order);

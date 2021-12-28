@@ -15,7 +15,7 @@ class RrhhAntigenoController extends Controller
     public function index()
     {
         //
-        return view('backend.antigeno.index');
+        return view('backend.brigada.antigeno_index');
     }
 
     /**

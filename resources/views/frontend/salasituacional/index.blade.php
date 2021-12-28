@@ -1498,7 +1498,7 @@
                          	//setting overlay color, etc.
                 map.data.setStyle({
                     // fillColor: 'white',
-                    strokeWeight: 1,
+                    strokeWeight: 0.5,
                     strokeColor: '#448CCB',
                     fillOpacity: 0.4
                 });

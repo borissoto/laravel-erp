@@ -15,7 +15,7 @@ class RrhhBrigadaController extends Controller
     public function index()
     {
         //
-        return view('backend.brigada.index');
+        return view('backend.brigada.brigada_index');
     }
 
     /**

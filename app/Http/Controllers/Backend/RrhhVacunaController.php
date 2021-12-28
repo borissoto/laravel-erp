@@ -15,7 +15,7 @@ class RrhhVacunaController extends Controller
     public function index()
     {
         //
-        return view('backend.vacuna.index');
+        return view('backend.brigada.vacuna_index');
     }
 
     /**

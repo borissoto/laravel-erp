@@ -10,6 +10,14 @@ class RrhhBrigada extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'adm_municipio_id',
+        'nom_brigada',
+        'tipo',
+        'user_id',        
+        'integrantes',
+    ];
+
     //Relacion uno a muchos (inversa)
     public function usuario()
     {
@@ -23,5 +31,13 @@ class RrhhBrigada extends Model
 
     public function antigenos(){
         return $this->hasMany(RrhhAntigeno::class);
+    }
+
+    public function rastrillajes(){
+        return $this->hasMany(RrhhRastrillaje::class);
+    }
+
+    public function vacunas(){
+        return $this->hasMany(RrhhVacuna::class);
     }
 }

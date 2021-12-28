@@ -83,6 +83,8 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::post('/user/profile/store', [AdmUserController::class, 'UserProfileStore'])->name('user.profile.store');
     // RRHH List All
     Route::get('/rrhh/list', [AdmUserController::class, 'UserList'])->name('rrhh.list');   
+    Route::get('/rrhh/departamental', [AdmUserController::class, 'ListaDepartamental'])->name('rrhh.departamental');   
+    Route::get('/rrhh/municipal', [AdmUserController::class, 'ListaMunicipal'])->name('rrhh.municipal');   
     
     // RRHH add
     Route::get('/rrhh/add', [AdmUserController::class, 'UserAdd'])->name('rrhh.add');   
@@ -166,16 +168,10 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::get('/roles/edit/{user}', [RoleController::class, 'edit'])->name('role.edit');  
     
     /**************Brigadas************/
-    Route::resource('/brigadas', RrhhBrigadaController::class)->names('brigadas');
-
-    //Antigeno
-    Route::resource('/antigenos', RrhhAntigenoController::class)->names('antigenos');
-
-    //Rastrillaje
-    Route::resource('/rastrillajes', RrhhRastrillajeController::class)->names('rastrillajes');
-
-    //Vacunas
-    Route::resource('/vacunas', RrhhVacunaController::class)->names('vacunas');
+    Route::get('/brigadas', [RrhhBrigadaController::class, 'index'])->name('brigadas.index');
+    Route::get('/antigenos', [RrhhAntigenoController::class, 'index'])->name('antigenos.index');
+    Route::get('/rastrillajes', [RrhhRastrillajeController::class, 'index'])->name('rastrillajes.index');
+    Route::get('/vacunas', [RrhhVacunaController::class, 'index'])->name('vacunas.index');
 
     /*************Territorio*******************/
     //Departamento

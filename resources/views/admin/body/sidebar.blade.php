@@ -55,8 +55,10 @@
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            @can('admin.rrhh')   
-            <li class="nav-item"><a href="{{ route('rrhh.list') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Kardex</a></li>
+            @can('admin.rrhh.list')   
+            <li class="nav-item"><a href="{{ route('rrhh.list') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Kardex General</a></li>
+            <li class="nav-item"><a href="{{ route('rrhh.departamental') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Kardex Departamental</a></li>
+            <li class="nav-item"><a href="{{ route('rrhh.municipal') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Kardex Municipal</a></li>
             @endcan            
           </ul>
         </li>
@@ -119,10 +121,10 @@
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('brigadas.index')}}" class="nav-link"><i class="fas fa-briefcase-medical nav-icon"></i>Lista Brigadas</a></li>
-            <li class="nav-item"><a href="{{ route('antigenos.index')}}" class="nav-link"><i class="fas fa-vial nav-icon"></i>Lista Antigeno</a></li>
-            <li class="nav-item"><a href="{{ route('rastrillajes.index')}}" class="nav-link"><i class="fas fa-user-nurse nav-icon"></i>Lista Rastrillaje</a></li>
-            <li class="nav-item"><a href="{{ route('vacunas.index')}}" class="nav-link"><i class="fas fa-syringe nav-icon"></i>Lista Vacunas</a></li>
+            <li class="nav-item"><a href="{{ route('brigadas.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Lista Brigadas</a></li>
+            <li class="nav-item"><a href="{{ route('antigenos.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Lista Antigeno</a></li>
+            <li class="nav-item"><a href="{{ route('rastrillajes.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Lista Rastrillaje</a></li>
+            <li class="nav-item"><a href="{{ route('vacunas.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Lista Vacunas</a></li>
                      
             
           </ul>
