@@ -11,4 +11,6 @@ class SalaSituacionalController extends Controller
     {
         return view('frontend.salasituacional.index');
     }
+
+  
 }

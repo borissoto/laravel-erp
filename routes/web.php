@@ -24,6 +24,7 @@ use App\Http\Controllers\Helpers\CuadernosController;
 use App\Http\Controllers\Helpers\CuadernosImportController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\RrhhCalendarioController;
+use App\Http\Controllers\SalaCovidController;
 use App\Http\Controllers\SalaSituacionalController;
 use App\Http\Controllers\Viaje\AdmViajeController;
 use App\Models\RrhhComisiones;
@@ -67,6 +68,10 @@ Route::get('/about', function () {
 
 
 Route::get('/salasituacional', [SalaSituacionalController::class, 'index'])->name('sala.index');   
+Route::get('/salacovid', [SalaCovidController::class, 'covid'])->name('sala.covid');
+Route::get('/salacovid/positivos', [SalaCovidController::class, 'positivos']);   
+Route::get('/salacovid/vacunas', [SalaCovidController::class, 'vacunas']);   
+Route::get('/salacovid/antigenos', [SalaCovidController::class, 'antigenos']);   
 // Route::get('/about', function () {
 //     return view('about');
 // })->middleware('check');

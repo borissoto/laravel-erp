@@ -93,8 +93,8 @@
                             <a href="#"><span> <i class="fa fa-syringe"></i></span>Informacion Covid</a>
                             <ul class="children">
                                 <li><a href="/descargas/fcov1.5.xlsx">Descarga formulario COVID-19 V. 1.5 <marquee width="300">ULTIMA VERSION</marquee></a></li>
-                            <li><a href="/php/covdirect.php">PRODUCCION COVID</a></li>
-                            <li><a href="/php/salacovid.php">SALA SITUACIONAL COVID-19 <marquee width="300">Nuevo</marquee></a></li>
+                            {{-- <li><a href="/php/covdirect.php">PRODUCCION COVID</a></li> --}}
+                            <li><a href="{{ route('sala.covid')}}">SALA SITUACIONAL COVID-19 <marquee width="300">Nuevo</marquee></a></li>
                             </ul>
                         </li>
                         <li class="submenu">
