@@ -452,12 +452,12 @@
                     method: 'GET',
                     headers: {"Accept": "application/json"}}).then(function(response){                    
                     return response.json()
-                }).then(function(data){
-                    console.log(data);
+                }).then(function(data1){
+                    console.log(data1);
                     var positivos = [];
                     var negativos = [];
                     var catAnt= [];
-                    data.forEach(function(item){               
+                    data1.forEach(function(item){               
                         switch (item.name) {  
                             case 1: item.name = 'Enero'; break;
                             case 2: item.name = 'Febreo'; break;
@@ -477,12 +477,12 @@
                         catAnt.push(item.name);
                     });
 
-                    data.forEach(function(item){
+                    data1.forEach(function(item){
                         positivos.push(parseInt(item.posi)); 
                     });
-                    data.forEach(function(item){
-                        negativos.push(parseInt(item.neg)); 
-                    });
+                    // data.forEach(function(item){
+                    //     negativos.push(parseInt(item.neg)); 
+                    // });
                     // console.log(positivos);
                     chartAnt.xAxis[0].categories = catAnt;
                     chartAnt.addSeries({
@@ -490,11 +490,11 @@
                             data: positivos,
                             color: '#e3390f',
                     }) ;
-                    chartAnt.addSeries({
-                            name: "Negativos",
-                            data: negativos,
-                            color: '#64b4f4',
-                    }) ;
+                    // chartAnt.addSeries({
+                    //         name: "Negativos",
+                    //         data: negativos,
+                    //         color: '#64b4f4',
+                    // }) ;
                 })
                 .catch(function(error) {
                     console.log(error);

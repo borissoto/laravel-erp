@@ -48,8 +48,9 @@ class SalaCovidController extends Controller
     public function positivos()
     {
         $positivos = DB::table('rrhh_rastrillajes')
-        ->select(DB::raw("DATE(fecha) as name"), DB::raw('count(*) as data')) 
+        ->select(DB::raw('DATE(fecha) AS name'), DB::raw('COUNT(*) AS data')) 
         ->groupBy('name')
+        ->orderBy('name', 'ASC')
         ->get();   
         echo json_encode($positivos);
     }
@@ -68,10 +69,20 @@ class SalaCovidController extends Controller
         
     }
 
+    // public function antigenos()
+    // {
+    //     $antigenos = DB::table('rrhh_antigenos')
+    //     ->select(DB::raw("MONTH(fecha) as name"), DB::raw('sum(positivos) as posi'), DB::raw('sum(negativos) as neg')) 
+    //     ->groupBy('name')
+    //     ->get();
+
+    //     echo json_encode($antigenos);
+    // }
+
     public function antigenos()
     {
         $antigenos = DB::table('rrhh_antigenos')
-        ->select(DB::raw("MONTH(fecha) as name"), DB::raw('sum(positivos) as posi'), DB::raw('sum(negativos) as neg')) 
+        ->select(DB::raw("MONTH(fecha) as name"), DB::raw('COUNT(positivos) as posi') ) 
         ->groupBy('name')
         ->get();
 
