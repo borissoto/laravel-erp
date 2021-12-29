@@ -228,7 +228,10 @@
             var chartCon = Highcharts.chart('confirmados', optionsCon)
 
             function requestDataCon(){               
-                fetch('/salacovid/positivos').then(function(response){                    
+                fetch('/salacovid/positivos',{
+                    method: 'GET',
+                    headers: {"Accept": "application/json"}
+                }).then(function(response){                    
                     return response.json()
                 }).then(function(data){
                     var valuesV = [];
@@ -318,10 +321,12 @@
                 //     },
                 //     // cache: false
                 // });
-                fetch('/salacovid/vacunas').then(function(response){                    
+                fetch('/salacovid/vacunas',{
+                    method: 'GET',
+                    headers: {"Content-Type": "application/json"}}).then(function(response){                    
                     return response.json()
                 }).then(function(data){
-                    console.log(data);
+                    // console.log(data);
                     var catVac= [];
                     var dosis1 = [];
                     var dosis2 = [];
@@ -434,7 +439,9 @@
             var chartAnt = Highcharts.chart('antigenos', optionsAnt)
 
             function requestDataAnt(){               
-                fetch('/salacovid/antigenos').then(function(response){                    
+                fetch('/salacovid/antigenos',{
+                    method: 'GET',
+                    headers: {"Accept": "application/json"}}).then(function(response){                    
                     return response.json()
                 }).then(function(data){
                     var positivos = [];
