@@ -44,7 +44,7 @@
     <body>
         
 <!-- jQuery -->
-{{-- <script src="{{asset('freeplugins/jquery/jquery.min.js')}}"></script> --}}
+<script src="{{asset('freeplugins/jquery/jquery.min.js')}}"></script>
         <div id="particles-js"></div>
         
             {{-- <div class="container"> --}}
@@ -234,6 +234,7 @@
                 }).then(function(response){                    
                     return response.json()
                 }).then(function(data){
+                    console.log(data);
                     var valuesV = [];
                     var catCon= [];
 
@@ -249,6 +250,9 @@
                             name: "Confirmados",
                             data: valuesV,
                     }) ;
+                })
+                .catch(function(error) {
+                    console.log(error);
                 })
             }
 
@@ -304,73 +308,78 @@
         
 
             function requestDataPos(){
-                // $.ajax({
-                //     url: '/salacovid/vacunas',
-                //     type: "GET",
-                //     dataType: "json",                    
-                //     success: function(response){
-                //         var valuesVac = [];
-                //         response.forEach(function(item2){
-                //             valuesVac.push(item2.data);
-                //         });
-                //         console.log(valuesVac);
-                //         chart.addSeries({
-                //             name: "Vacunas",
-                //             data: valuesVac
-                //         }) 
-                //     },
-                //     // cache: false
-                // });
-                fetch('/salacovid/vacunas',{
-                    method: 'GET',
-                    headers: {"Content-Type": "application/json"}}).then(function(response){                    
-                    return response.json()
-                }).then(function(data){
-                    // console.log(data);
-                    var catVac= [];
-                    var dosis1 = [];
-                    var dosis2 = [];
+                $.ajax({
+                    url: '/salacovid/vacunas',
+                    type: "GET",
+                    dataType: "json",                    
+                    success: function(response){
+                        var valuesVac = [];
+                        response.forEach(function(item2){
+                            valuesVac.push(parseInt(item2.dosis1));
+                        });
+                        console.log(valuesVac);
+                        chart.addSeries({
+                            name: "Vacunas",
+                            data: valuesVac
+                        }) 
+                    },
+                    // cache: false
+                });
+                // fetch('/salacovid/vacunas',{
+                //     method: 'GET',
+                //     headers: {"Content-Type": "application/json"}})
+                //     .then(function(response){                    
+                //         return response.json()
+                //         })
+                //     .then(function(data){
+                //         console.log(data);
+                //         var catVac= [];
+                //         var dosis1 = [];
+                //         var dosis2 = [];
 
-                    data.forEach(function(item){               
-                        switch (item.name) {  
-                            case 1: item.name = 'Enero'; break;
-                            case 2: item.name = 'Febreo'; break;
-                            case 3: item.name = 'Marzo'; break;
-                            case 4: item.name = 'April'; break;
-                            case 5: item.name = 'Mayo'; break;
-                            case 6: item.name = 'Junio'; break;
-                            case 7: item.name = 'Julio'; break;
-                            case 8: item.name = 'Agosto'; break;
-                            case 9: item.name = 'Septiembre'; break;
-                            case 10: item.name = 'Octubre'; break;
-                            case 11: item.name = 'Noviembre'; break;
-                            case 12: item.name = 'Diciembre'; break;
-                            default: break;
-                            }
+                //     data.forEach(function(item){               
+                //         switch (item.name) {  
+                //             case 1: item.name = 'Enero'; break;
+                //             case 2: item.name = 'Febreo'; break;
+                //             case 3: item.name = 'Marzo'; break;
+                //             case 4: item.name = 'April'; break;
+                //             case 5: item.name = 'Mayo'; break;
+                //             case 6: item.name = 'Junio'; break;
+                //             case 7: item.name = 'Julio'; break;
+                //             case 8: item.name = 'Agosto'; break;
+                //             case 9: item.name = 'Septiembre'; break;
+                //             case 10: item.name = 'Octubre'; break;
+                //             case 11: item.name = 'Noviembre'; break;
+                //             case 12: item.name = 'Diciembre'; break;
+                //             default: break;
+                //             }
                         
-                        catVac.push(item.name);
-                    });
+                //         catVac.push(item.name);
+                //     });
 
-                    data.forEach(function(item){
-                        dosis1.push(parseInt(item.dosis1)); // importante!!!
-                    })
-                    data.forEach(function(item){
-                        dosis2.push(parseInt(item.dosis2)); // importante!!!
-                    })
-                    // console.log(valuesV); //ver si devuelve array de strings o numeros
-                    // console.log(catVac);
-                    chart.xAxis[0].categories = catVac,
-                    chart.addSeries({
-                            name: "1era Dosis",
-                            data: dosis1,
-                    }) ;
-                    chart.addSeries({
-                            name: "2da Dosis",
-                            data: dosis2,
-                            color: '#10be2f',
-                    }) ;
-                })
-            }
+                //     data.forEach(function(item){
+                //         dosis1.push(parseInt(item.dosis1)); // importante!!!
+                //     })
+                //     data.forEach(function(item){
+                //         dosis2.push(parseInt(item.dosis2)); // importante!!!
+                //     })
+                //     // console.log(valuesV); //ver si devuelve array de strings o numeros
+                //     // console.log(catVac);
+                //     chart.xAxis[0].categories = catVac,
+                //     chart.addSeries({
+                //             name: "1era Dosis",
+                //             data: dosis1,
+                //     });
+                //     chart.addSeries({
+                //             name: "2da Dosis",
+                //             data: dosis2,
+                //             color: '#10be2f',
+                //     }) ;
+                //     })
+                //     .catch(function(error) {
+                //     console.log(error);
+                //     })
+                }
 
             /***********************************Antigeno por mes************************************************/
             var optionsAnt = {
@@ -444,10 +453,10 @@
                     headers: {"Accept": "application/json"}}).then(function(response){                    
                     return response.json()
                 }).then(function(data){
+                    console.log(data);
                     var positivos = [];
                     var negativos = [];
                     var catAnt= [];
-
                     data.forEach(function(item){               
                         switch (item.name) {  
                             case 1: item.name = 'Enero'; break;
@@ -486,6 +495,9 @@
                             data: negativos,
                             color: '#64b4f4',
                     }) ;
+                })
+                .catch(function(error) {
+                    console.log(error);
                 })
             }
 
