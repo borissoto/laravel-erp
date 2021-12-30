@@ -73,7 +73,7 @@ class SalaCovidController extends Controller
     public function vacunas()
     {
         $vacunas = DB::table('rrhh_vacunas')
-        ->select(DB::raw("MONTH(fecha) as name"), DB::raw('sum(dosis1) as dosisuno'), DB::raw('sum(dosis2) as dosisdos'))
+        ->select(DB::raw("DATE(fecha) as name"), DB::raw('sum(dosis1) as dosisuno'))
         ->groupBy('name')
         ->orderBy('name', 'ASC')
         ->get();
