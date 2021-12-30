@@ -48,7 +48,7 @@ class SalaCovidController extends Controller
     public function positivos()
     {
         $positivos = DB::table('rrhh_rastrillajes')
-        ->select(DB::raw('DATE(fecha) AS name'), DB::raw('COUNT(*) AS data')) 
+        ->select(DB::raw('DATE(fecha) AS name'), DB::raw('sum(sospechosos) AS data')) 
         ->groupBy('name')
         ->orderBy('name', 'ASC')
         ->get();   

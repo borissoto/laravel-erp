@@ -188,14 +188,14 @@
                    }
                },
                 title: {
-                    text: 'Confirmados'
+                    text: 'Rastrillaje'
                     },
                 subtitle: {
                     text: 'Fuente: Safci'
                     },
                 yAxis: {
                     title:{
-                            text: 'Numero de Confirmados'
+                            text: 'Numero de Sospechosos'
                             },                   
                     },
                 // xAxis: {                    
@@ -243,11 +243,11 @@
                     });
 
                     data.forEach(function(item){
-                        valuesV.push(item.data); 
+                        valuesV.push(parseInt(item.data)); 
                     });
                     chartCon.xAxis[0].categories = catCon;
                     chartCon.addSeries({
-                            name: "Confirmados",
+                            name: "Sospechosos",
                             data: valuesV,
                     }) ;
                 })
