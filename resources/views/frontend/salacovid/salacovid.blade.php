@@ -382,16 +382,41 @@
                 }
 
             /***********************************Antigeno por mes************************************************/
-            var optionsAnt = {
-               chart: {
-                   type: 'column',
-                   events: {
-                       load:requestDataAnt
-                   }
-               },
+
+            var antigeno = <?php echo json_encode($antigenos)?>;
+            var positivos = [];
+            var negativos = [];
+            var catAnt= [];
+            antigeno.forEach(function(item){               
+                switch (item.name) {  
+                    case 1: item.name = 'Enero'; break;
+                    case 2: item.name = 'Febreo'; break;
+                    case 3: item.name = 'Marzo'; break;
+                    case 4: item.name = 'April'; break;
+                    case 5: item.name = 'Mayo'; break;
+                    case 6: item.name = 'Junio'; break;
+                    case 7: item.name = 'Julio'; break;
+                    case 8: item.name = 'Agosto'; break;
+                    case 9: item.name = 'Septiembre'; break;
+                    case 10: item.name = 'Octubre'; break;
+                    case 11: item.name = 'Noviembre'; break;
+                    case 12: item.name = 'Diciembre'; break;
+                    default: break;
+                    }
+                // 
+                catAnt.push(item.name);
+            });
+            antigeno.forEach(function(item){
+                positivos.push(parseInt(item.posi)); 
+            });
+
+
+            Highcharts.chart('antigenos',{
+                chart: {
+                    type: 'column'
+                },
                 title: {
-                    text: 'Pruebas Antigeno Nasal'
-                    
+                    text: 'Pruebas Antigeno Nasal'                    
                 },
                 subtitle: {
                     text: 'Fuente: Safci'
@@ -400,26 +425,26 @@
                     title:{
                             text: 'Numero de Positivos y Negativos'
                             },
-                    stackLabels: {
-                        enabled: true,
-                        style: {
-                            fontWeight: 'bold',
-                            color: ( // theme
-                                Highcharts.defaultOptions.title.style &&
-                                Highcharts.defaultOptions.title.style.color
-                            ) || 'gray'
-                        }
-                    }
+                    // stackLabels: {
+                    //     enabled: true,
+                    //     style: {
+                    //         fontWeight: 'bold',
+                    //         color: ( // theme
+                    //             Highcharts.defaultOptions.title.style &&
+                    //             Highcharts.defaultOptions.title.style.color
+                    //         ) || 'gray'
+                    //     }
+                    // }
                 },
-                // xAxis: {                    
-                //     categories: catCon,          
-                //     },
+                xAxis: {                    
+                    categories: catAnt,          
+                    },
                 legend: {
                     layout: 'vertical',
                     align: 'right',
                     verticalAlign: 'middle'
                 },
-                // series: [{name: "Vacunados", data: []} ],
+                series: [{name: "Positivos", data: positivos} ],
                 plotOptions: {
                     column: {
                         stacking: 'normal',
@@ -443,63 +468,125 @@
                     }]
                 }
 
-            };
+            })
 
-            var chartAnt = Highcharts.chart('antigenos', optionsAnt)
+            // var optionsAnt = {
+            //    chart: {
+            //        type: 'column',
+            //        events: {
+            //            load:requestDataAnt
+            //        }
+            //    },
+            //     title: {
+            //         text: 'Pruebas Antigeno Nasal'                    
+            //     },
+            //     subtitle: {
+            //         text: 'Fuente: Safci'
+            //         },
+            //     yAxis: {
+            //         title:{
+            //                 text: 'Numero de Positivos y Negativos'
+            //                 },
+            //         stackLabels: {
+            //             enabled: true,
+            //             style: {
+            //                 fontWeight: 'bold',
+            //                 color: ( // theme
+            //                     Highcharts.defaultOptions.title.style &&
+            //                     Highcharts.defaultOptions.title.style.color
+            //                 ) || 'gray'
+            //             }
+            //         }
+            //     },
+            //     // xAxis: {                    
+            //     //     categories: catCon,          
+            //     //     },
+            //     legend: {
+            //         layout: 'vertical',
+            //         align: 'right',
+            //         verticalAlign: 'middle'
+            //     },
+            //     // series: [{name: "Vacunados", data: []} ],
+            //     plotOptions: {
+            //         column: {
+            //             stacking: 'normal',
+            //             dataLabels: {
+            //                 enabled: true
+            //             }
+            //         }
+            //     },                
+            //     responsive: {
+            //         rules: [{
+            //             condition: {
+            //                 maxWidth: 500
+            //             },
+            //             chartOptions: {
+            //                 legend: {
+            //                     layout: 'horizontal',
+            //                     align: 'center',
+            //                     verticalAlign: 'bottom'
+            //                 }
+            //             }
+            //         }]
+            //     }
 
-            function requestDataAnt(){               
-                fetch('/salacovid/antigenos',{
-                    method: 'GET',
-                    headers: {"Accept": "application/json"}}).then(function(response){                    
-                    return response.json()
-                }).then(function(data1){
-                    console.log(data1);
-                    var positivos = [];
-                    var negativos = [];
-                    var catAnt= [];
-                    data1.forEach(function(item){               
-                        switch (item.name) {  
-                            case 1: item.name = 'Enero'; break;
-                            case 2: item.name = 'Febreo'; break;
-                            case 3: item.name = 'Marzo'; break;
-                            case 4: item.name = 'April'; break;
-                            case 5: item.name = 'Mayo'; break;
-                            case 6: item.name = 'Junio'; break;
-                            case 7: item.name = 'Julio'; break;
-                            case 8: item.name = 'Agosto'; break;
-                            case 9: item.name = 'Septiembre'; break;
-                            case 10: item.name = 'Octubre'; break;
-                            case 11: item.name = 'Noviembre'; break;
-                            case 12: item.name = 'Diciembre'; break;
-                            default: break;
-                            }
+            // };
+
+            // var chartAnt = Highcharts.chart('antigenos', optionsAnt)
+
+            // function requestDataAnt(){               
+            //     fetch('/salacovid/antigenos',{
+            //         method: 'GET',
+            //         headers: {"Accept": "application/json"}}).then(function(response){                    
+            //         return response.json()
+            //     }).then(function(data1){
+            //         console.log(data1);
+            //         var positivos = [];
+            //         var negativos = [];
+            //         var catAnt= [];
+            //         data1.forEach(function(item){               
+            //             switch (item.name) {  
+            //                 case 1: item.name = 'Enero'; break;
+            //                 case 2: item.name = 'Febreo'; break;
+            //                 case 3: item.name = 'Marzo'; break;
+            //                 case 4: item.name = 'April'; break;
+            //                 case 5: item.name = 'Mayo'; break;
+            //                 case 6: item.name = 'Junio'; break;
+            //                 case 7: item.name = 'Julio'; break;
+            //                 case 8: item.name = 'Agosto'; break;
+            //                 case 9: item.name = 'Septiembre'; break;
+            //                 case 10: item.name = 'Octubre'; break;
+            //                 case 11: item.name = 'Noviembre'; break;
+            //                 case 12: item.name = 'Diciembre'; break;
+            //                 default: break;
+            //                 }
                         
-                        catAnt.push(item.name);
-                    });
+            //             catAnt.push(item.name);
+            //         });
 
-                    data1.forEach(function(item){
-                        positivos.push(parseInt(item.posi)); 
-                    });
-                    // data.forEach(function(item){
-                    //     negativos.push(parseInt(item.neg)); 
-                    // });
-                    // console.log(positivos);
-                    chartAnt.xAxis[0].categories = catAnt;
-                    chartAnt.addSeries({
-                            name: "Positivos",
-                            data: positivos,
-                            color: '#e3390f',
-                    }) ;
-                    // chartAnt.addSeries({
-                    //         name: "Negativos",
-                    //         data: negativos,
-                    //         color: '#64b4f4',
-                    // }) ;
-                })
-                .catch(function(error) {
-                    console.log(error);
-                })
-            }
+            //         data1.forEach(function(item){
+            //             positivos.push(parseInt(item.posi)); 
+            //         });
+            //         // data.forEach(function(item){
+            //         //     negativos.push(parseInt(item.neg)); 
+            //         // });
+            //         // console.log(positivos);
+            //         chartAnt.xAxis[0].categories = catAnt;
+            //         chartAnt.addSeries({
+            //                 name: "Positivos",
+            //                 data: positivos,
+            //                 color: '#e3390f',
+            //         }) ;
+            //         // chartAnt.addSeries({
+            //         //         name: "Negativos",
+            //         //         data: negativos,
+            //         //         color: '#64b4f4',
+            //         // }) ;
+            //     })
+            //     .catch(function(error) {
+            //         console.log(error);
+            //     })
+            // }
 
        
 

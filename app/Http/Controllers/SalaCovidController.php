@@ -28,6 +28,11 @@ class SalaCovidController extends Controller
         // ->groupBy('name')
         // ->get();
 
+        $antigenos = DB::table('rrhh_antigenos')
+        ->select(DB::raw("MONTH(fecha) as name"), DB::raw('sum(positivos) as posi'), DB::raw('sum(negativos) as neg')) 
+        ->groupBy('name')
+        ->get();
+
 
         // $positivos = RrhhRastrillaje::select(DB::raw("COUNT(*) AS count"))
         // ->whereYear("fecha", date('Y'))
@@ -42,7 +47,7 @@ class SalaCovidController extends Controller
         // return view('frontend.salacovid.salacovid', ["data" => json_encode($puntos)]);
         
         // dd(json_encode($vacunas));
-        return view('frontend.salacovid.salacovid', );
+        return view('frontend.salacovid.salacovid', compact('antigenos') );
     }
 
     public function positivos()
