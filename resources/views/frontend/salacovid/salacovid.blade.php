@@ -334,15 +334,13 @@
                 })
             }
 
+              /*******Vacunas**********/
 
-            /***********************************Vacuna por mes************************************************/
-
-
-            var options = {
+              var optionsVac = {
                chart: {
                    type: 'line',
                    events: {
-                       load:requestDataPos
+                       load:requestDataVac
                    }
                },
                 title: {
@@ -353,18 +351,19 @@
                     },
                 yAxis: {
                     title:{
-                            text: 'Numero de Vacunas'
-                    },                                                           
-                },
+                            text: 'Numero de Sospechosos'
+                            },                   
+                    },
                 // xAxis: {                    
-                //     categories: catVac,          
+                //     categories: catCon,          
                 //     },
                 legend: {
                     layout: 'vertical',
                     align: 'right',
                     verticalAlign: 'middle'
                 },
-                // series: [{name: "Vacunados", data: []} ],             
+                // series: [{name: "Vacunados", data: []} ],
+                
                 responsive: {
                     rules: [{
                         condition: {
@@ -382,10 +381,87 @@
 
             };
 
-            var chart = Highcharts.chart('vacunas', options)
+            var chartVac = Highcharts.chart('vacunas', optionsVac)
+
+            function requestDataVac(){               
+                fetch('/salacovid/vacunas',{
+                    method: 'GET',
+                    headers: {"Accept": "application/json"}
+                }).then(function(response){                    
+                    return response.json()
+                }).then(function(data){
+                    console.log(data);
+                    var valuesVac = [];
+                    var catVac = [];
+
+                    data.forEach(function(item){
+                        catVac.push(item.name);
+                        valuesVac.push(parseInt(item.dosisuno)); 
+                    });
+                    chartVac.xAxis[0].categories = catVac;
+                    chartVac.addSeries({
+                            name: "1era Dosis",
+                            data: valuesVac,
+                            color: "#b87316",
+                    }) ;
+                })
+                .catch(function(error) {
+                    console.log(error);
+                })
+            }
+
+
+            /***********************************Vacuna por mes************************************************/
+
+
+            // var options = {
+            //    chart: {
+            //        type: 'line',
+            //        events: {
+            //            load:requestDataPos
+            //        }
+            //    },
+            //     title: {
+            //         text: 'Vacunas'
+            //         },
+            //     subtitle: {
+            //         text: 'Fuente: Safci'
+            //         },
+            //     yAxis: {
+            //         title:{
+            //                 text: 'Numero de Vacunas'
+            //         },                                                           
+            //     },
+            //     // xAxis: {                    
+            //     //     categories: catVac,          
+            //     //     },
+            //     legend: {
+            //         layout: 'vertical',
+            //         align: 'right',
+            //         verticalAlign: 'middle'
+            //     },
+            //     // series: [{name: "Vacunados", data: []} ],             
+            //     responsive: {
+            //         rules: [{
+            //             condition: {
+            //                 maxWidth: 500
+            //             },
+            //             chartOptions: {
+            //                 legend: {
+            //                     layout: 'horizontal',
+            //                     align: 'center',
+            //                     verticalAlign: 'bottom'
+            //                 }
+            //             }
+            //         }]
+            //     }
+
+            // };
+
+            // var chart = Highcharts.chart('vacunas', options)
         
 
-            function requestDataPos(){
+            // function requestDataPos(){
                 // $.ajax({
                 //     url: '/salacovid/vacunas',
                 //     type: "GET",
@@ -403,16 +479,16 @@
                 //     },
                 //     // cache: false
                 // });
-                fetch('/salacovid/vacunas',{
-                    method: 'GET',
-                    headers: {"Accept": "application/json"}
-                    }).then(function(response){                    
-                        return response.json()
-                    }).then(function(data){                        
-                        console.log(data);
-                        var catVac = [];
-                        var dosis1 = [];
-                        var dosis2 = [];
+                // fetch('/salacovid/vacunas',{
+                //     method: 'GET',
+                //     headers: {"Accept": "application/json"}
+                //     }).then(function(response){                    
+                //         return response.json()
+                //     }).then(function(data){                        
+                //         console.log(data);
+                //         var catVac = [];
+                //         var dosis1 = [];
+                //         var dosis2 = [];
                     //     data.forEach(function(item){               
                     //     switch (item.name) {  
                     //         case 1: item.name = "Enero"; break;
@@ -431,25 +507,25 @@
                     //         };
                     //     catVac.push(item.name);
                     // }); 
-                    data.forEach(function(item){
-                        dosis1.push(parseInt(item.dosis1)); 
-                        dosis2.push(parseInt(item.dosis2)); 
-                    })                   
-                    chart.xAxis[0].categories = catVac,
-                    chart.addSeries({
-                            name: "1era Dosis",
-                            data: dosis1,
-                    });
-                    chart.addSeries({
-                            name: "2da Dosis",
-                            data: dosis2,
-                            color: "#10be2f",
-                    });
-                    })
-                    .catch(function(error) {
-                        console.log(error);
-                    })
-                }
+                //     data.forEach(function(item){
+                //         dosis1.push(parseInt(item.dosis1)); 
+                //         dosis2.push(parseInt(item.dosis2)); 
+                //     })                   
+                //     chart.xAxis[0].categories = catVac,
+                //     chart.addSeries({
+                //             name: "1era Dosis",
+                //             data: dosis1,
+                //     });
+                //     chart.addSeries({
+                //             name: "2da Dosis",
+                //             data: dosis2,
+                //             color: "#10be2f",
+                //     });
+                //     })
+                //     .catch(function(error) {
+                //         console.log(error);
+                //     })
+                // }
 
             /***********************************Antigeno por mes************************************************/
 
