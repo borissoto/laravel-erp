@@ -135,6 +135,11 @@
                             <div id="confirmados"></div>
                         </div>
                     </div>                
+                    <div class="col">
+                        <div class="mt-4 mb-2 shadow-md">
+                            <div id="confirmadosuno"></div>
+                        </div>
+                    </div>                
                 
                     
                 </div>
@@ -244,6 +249,81 @@
                     });
                     chartCon.xAxis[0].categories = catCon;
                     chartCon.addSeries({
+                            name: "Sospechosos",
+                            data: valuesV,
+                    }) ;
+                })
+                .catch(function(error) {
+                    console.log(error);
+                })
+            }
+
+            /*****************/
+
+            var optionsCon1 = {
+               chart: {
+                   type: 'line',
+                   events: {
+                       load:requestDataCon1
+                   }
+               },
+                title: {
+                    text: 'Rastrillaje 1'
+                    },
+                subtitle: {
+                    text: 'Fuente: Safci'
+                    },
+                yAxis: {
+                    title:{
+                            text: 'Numero de Sospechosos'
+                            },                   
+                    },
+                // xAxis: {                    
+                //     categories: catCon,          
+                //     },
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'middle'
+                },
+                // series: [{name: "Vacunados", data: []} ],
+                
+                responsive: {
+                    rules: [{
+                        condition: {
+                            maxWidth: 500
+                        },
+                        chartOptions: {
+                            legend: {
+                                layout: 'horizontal',
+                                align: 'center',
+                                verticalAlign: 'bottom'
+                            }
+                        }
+                    }]
+                }
+
+            };
+
+            var chartCon1 = Highcharts.chart('confirmadosuno', optionsCon1)
+
+            function requestDataCon1(){               
+                fetch('/salacovid/positivos',{
+                    method: 'GET',
+                    headers: {"Accept": "application/json"}
+                }).then(function(response){                    
+                    return response.json()
+                }).then(function(data){
+                    console.log(data);
+                    var valuesV = [];
+                    var catCon= [];
+
+                    data.forEach(function(item){
+                        catCon.push(item.name);
+                        valuesV.push(parseInt(item.data)); 
+                    });
+                    chartCon1.xAxis[0].categories = catCon;
+                    chartCon1.addSeries({
                             name: "Sospechosos",
                             data: valuesV,
                     }) ;
