@@ -28,10 +28,10 @@ class SalaCovidController extends Controller
         // ->groupBy('name')
         // ->get();
 
-        $antigenos = DB::table('rrhh_antigenos')
-        ->select(DB::raw("MONTH(fecha) as name"), DB::raw('sum(positivos) as posi'), DB::raw('sum(negativos) as neg')) 
-        ->groupBy('name')
-        ->get();
+        // $antigenos = DB::table('rrhh_antigenos')
+        // ->select(DB::raw("MONTH(fecha) as name"), DB::raw('sum(positivos) as posi'), DB::raw('sum(negativos) as neg')) 
+        // ->groupBy('name')
+        // ->get();
 
 
         // $positivos = RrhhRastrillaje::select(DB::raw("COUNT(*) AS count"))
@@ -47,7 +47,7 @@ class SalaCovidController extends Controller
         // return view('frontend.salacovid.salacovid', ["data" => json_encode($puntos)]);
         
         // dd(json_encode($vacunas));
-        return view('frontend.salacovid.salacovid', compact('antigenos') );
+        return view('frontend.salacovid.salacovid');
     }
 
     public function positivos()
@@ -74,23 +74,22 @@ class SalaCovidController extends Controller
         
     }
 
+    public function antigenos()
+    {
+        $antigenos = DB::table('rrhh_antigenos')
+        ->select(DB::raw("MONTH(fecha) as name"), DB::raw('sum(positivos) as posi'), DB::raw('sum(negativos) as neg')) 
+        ->groupBy('name')
+        ->get(); 
+        echo json_encode($antigenos);
+    }
+
     // public function antigenos()
     // {
     //     $antigenos = DB::table('rrhh_antigenos')
-    //     ->select(DB::raw("MONTH(fecha) as name"), DB::raw('sum(positivos) as posi'), DB::raw('sum(negativos) as neg')) 
+    //     ->select(DB::raw("MONTH(fecha) as name"), DB::raw('COUNT(positivos) as posi') ) 
     //     ->groupBy('name')
     //     ->get();
 
     //     echo json_encode($antigenos);
     // }
-
-    public function antigenos()
-    {
-        $antigenos = DB::table('rrhh_antigenos')
-        ->select(DB::raw("MONTH(fecha) as name"), DB::raw('COUNT(positivos) as posi') ) 
-        ->groupBy('name')
-        ->get();
-
-        echo json_encode($antigenos);
-    }
 }
