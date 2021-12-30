@@ -73,7 +73,7 @@ class SalaCovidController extends Controller
     public function vacunas()
     {
         $vacunas = DB::table('rrhh_vacunas')
-        ->select(DB::raw("DATE_TRUNC('month',fecha) as name"), DB::raw('sum(dosis1) as dosisuno'), DB::raw('sum(dosis2) as dosisdos'))
+        ->select(DB::raw("extract(MONTH from fecha) as name"), DB::raw('sum(dosis1) as dosisuno'), DB::raw('sum(dosis2) as dosisdos'))
         ->groupBy('name')
         ->orderBy('name', 'ASC')
         ->get();
@@ -86,6 +86,7 @@ class SalaCovidController extends Controller
         $antigenos = DB::table('rrhh_antigenos')
         ->select(DB::raw("extract(MONTH from fecha) as name"), DB::raw('sum(positivos) as posi'), DB::raw('sum(negativos) as neg')) 
         ->groupBy('name')
+        ->orderBy('name', 'ASC')
         ->get(); 
         echo json_encode($antigenos);
     }

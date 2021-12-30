@@ -394,11 +394,27 @@
                     var dosisuno = [];
                     var dosisdos = [];
                     var catVac = [];
-
-                    data.forEach(function(item){
+                    data.forEach(function(item){                        
+                        switch (item.name) {  
+                            case "1": item.name = "Enero"; break;
+                            case "2": item.name = "Febreo"; break;
+                            case "3": item.name = "Marzo"; break;
+                            case "4": item.name = "April"; break;
+                            case "5": item.name = "Mayo"; break;
+                            case "6": item.name = "Junio"; break;
+                            case "7": item.name = "Julio"; break;
+                            case "8": item.name = "Agosto"; break;
+                            case "9": item.name = "Septiembre"; break;
+                            case "10": item.name = "Octubre"; break;
+                            case "11": item.name = "Noviembre"; break;
+                            case "12": item.name = "Diciembre"; break;
+                            default: break;
+                            };
                         catVac.push(item.name);
                         dosisuno.push(parseInt(item.dosisuno)); 
                         dosisdos.push(parseInt(item.dosisdos)); 
+
+
                     });
                     chartVac.xAxis[0].categories = catVac;
                     chartVac.addSeries({
@@ -690,18 +706,18 @@
                     var catAnt= [];
                     data1.forEach(function(item){               
                         switch (item.name) {  
-                            case 1: item.name = 'Enero'; break;
-                            case 2: item.name = 'Febreo'; break;
-                            case 3: item.name = 'Marzo'; break;
-                            case 4: item.name = 'April'; break;
-                            case 5: item.name = 'Mayo'; break;
-                            case 6: item.name = 'Junio'; break;
-                            case 7: item.name = 'Julio'; break;
-                            case 8: item.name = 'Agosto'; break;
-                            case 9: item.name = 'Septiembre'; break;
-                            case 10: item.name = 'Octubre'; break;
-                            case 11: item.name = 'Noviembre'; break;
-                            case 12: item.name = 'Diciembre'; break;
+                            case '1': item.name = "Enero"; break;
+                            case '2': item.name = "Febreo"; break;
+                            case '3': item.name = "Marzo"; break;
+                            case '4': item.name = "April"; break;
+                            case '5': item.name = "Mayo"; break;
+                            case '6': item.name = "Junio"; break;
+                            case '7': item.name = "Julio"; break;
+                            case '8': item.name = "Agosto"; break;
+                            case '9': item.name = "Septiembre"; break;
+                            case '10': item.name = "Octubre"; break;
+                            case '11': item.name = "Noviembre"; break;
+                            case '12': item.name = "Diciembre"; break;
                             default: break;
                             }
                         
