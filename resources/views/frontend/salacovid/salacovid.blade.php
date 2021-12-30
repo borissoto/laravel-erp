@@ -324,42 +324,36 @@
                 // });
                 fetch('/salacovid/vacunas',{
                     method: 'GET',
-                    headers: {"Content-Type": "application/json"}})
-                    .then(function(response){                    
+                    headers: {"Accept": "application/json"}
+                    }).then(function(response){                    
                         return response.json()
-                        })
-                    .then(function(data){
+                    }).then(function(data){                        
                         console.log(data);
-                        var catVac= [];
+                        var catVac = [];
                         var dosis1 = [];
                         var dosis2 = [];
-                    data.forEach(function(item){               
-                        switch (item.name) {  
-                            case 1: item.name = 'Enero'; break;
-                            case 2: item.name = 'Febreo'; break;
-                            case 3: item.name = 'Marzo'; break;
-                            case 4: item.name = 'April'; break;
-                            case 5: item.name = 'Mayo'; break;
-                            case 6: item.name = 'Junio'; break;
-                            case 7: item.name = 'Julio'; break;
-                            case 8: item.name = 'Agosto'; break;
-                            case 9: item.name = 'Septiembre'; break;
-                            case 10: item.name = 'Octubre'; break;
-                            case 11: item.name = 'Noviembre'; break;
-                            case 12: item.name = 'Diciembre'; break;
-                            default: break;
-                            }
-                        // 
-                        catVac.push(item.name);
-                    }); 
+                    //     data.forEach(function(item){               
+                    //     switch (item.name) {  
+                    //         case 1: item.name = "Enero"; break;
+                    //         case 2: item.name = "Febreo"; break;
+                    //         case 3: item.name = "Marzo"; break;
+                    //         case 4: item.name = "April"; break;
+                    //         case 5: item.name = "Mayo"; break;
+                    //         case 6: item.name = "Junio"; break;
+                    //         case 7: item.name = "Julio"; break;
+                    //         case 8: item.name = "Agosto"; break;
+                    //         case 9: item.name = "Septiembre"; break;
+                    //         case 10: item.name = "Octubre"; break;
+                    //         case 11: item.name = "Noviembre"; break;
+                    //         case 12: item.name = "Diciembre"; break;
+                    //         default: break;
+                    //         };
+                    //     catVac.push(item.name);
+                    // }); 
                     data.forEach(function(item){
-                        dosis1.push(parseInt(item.dosis1)); // importante!!!
-                    })
-                    data.forEach(function(item){
-                        dosis2.push(parseInt(item.dosis2)); // importante!!!
-                    })
-                    // console.log(valuesV); //ver si devuelve array de strings o numeros
-                    // console.log(catVac);
+                        dosis1.push(parseInt(item.dosis1)); 
+                        dosis2.push(parseInt(item.dosis2)); 
+                    })                   
                     chart.xAxis[0].categories = catVac,
                     chart.addSeries({
                             name: "1era Dosis",
@@ -368,11 +362,11 @@
                     chart.addSeries({
                             name: "2da Dosis",
                             data: dosis2,
-                            color: '#10be2f',
-                    }) ;
+                            color: "#10be2f",
+                    });
                     })
                     .catch(function(error) {
-                    console.log(error);
+                        console.log(error);
                     })
                 }
 
@@ -522,9 +516,11 @@
             function requestDataAnt(){               
                 fetch('/salacovid/antigenos',{
                     method: 'GET',
-                    headers: {"Accept": "application/json"}}).then(function(response){                    
+                    headers: {"Accept": "application/json"}})
+                    .then(function(response){                    
                     return response.json()
-                }).then(function(data1){
+                    })
+                    .then(function(data1){
                     console.log(data1);
                     var positivos = [];
                     var negativos = [];
