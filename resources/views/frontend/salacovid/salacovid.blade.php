@@ -132,12 +132,12 @@
                 <div class="row">
                     <div class="col">
                         <div class="mt-4 mb-2 shadow-md">
-                            <div id="confirmados"></div>
+                            <div id="sospechosos"></div>
                         </div>
                     </div>                
                     <div class="col">
                         <div class="mt-4 mb-2 shadow-md">
-                            <div id="confirmadosuno"></div>
+                            <div id="atendidos"></div>
                         </div>
                     </div>                
                 
@@ -230,7 +230,7 @@
 
             };
 
-            var chartCon = Highcharts.chart('confirmados', optionsCon)
+            var chartCon = Highcharts.chart('sospechosos', optionsCon)
 
             function requestDataCon(){               
                 fetch('/salacovid/positivos',{
@@ -305,10 +305,10 @@
 
             };
 
-            var chartCon1 = Highcharts.chart('confirmadosuno', optionsCon1)
+            var chartCon1 = Highcharts.chart('atendidos', optionsCon1)
 
             function requestDataCon1(){               
-                fetch('/salacovid/positivos',{
+                fetch('/salacovid/atendidos',{
                     method: 'GET',
                     headers: {"Accept": "application/json"}
                 }).then(function(response){                    
@@ -324,8 +324,9 @@
                     });
                     chartCon1.xAxis[0].categories = catCon;
                     chartCon1.addSeries({
-                            name: "Sospechosos",
+                            name: "Atendidos",
                             data: valuesV,
+                            color: "#b87316",
                     }) ;
                 })
                 .catch(function(error) {

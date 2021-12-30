@@ -70,6 +70,7 @@ Route::get('/about', function () {
 Route::get('/salasituacional', [SalaSituacionalController::class, 'index'])->name('sala.index');   
 Route::get('/salacovid', [SalaCovidController::class, 'covid'])->name('sala.covid');
 Route::get('/salacovid/positivos', [SalaCovidController::class, 'positivos']);   
+Route::get('/salacovid/atendidos', [SalaCovidController::class, 'atendidos']);   
 Route::get('/salacovid/vacunas', [SalaCovidController::class, 'vacunas']);   
 Route::get('/salacovid/antigenos', [SalaCovidController::class, 'antigenos']);   
 // Route::get('/about', function () {

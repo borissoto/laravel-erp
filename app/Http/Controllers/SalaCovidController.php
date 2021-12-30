@@ -60,6 +60,16 @@ class SalaCovidController extends Controller
         echo json_encode($positivos);
     }
 
+    public function atendidos()
+    {
+        $positivos = DB::table('rrhh_rastrillajes')
+        ->select(DB::raw('DATE(fecha) AS name'), DB::raw('sum(atendidos) AS data')) 
+        ->groupBy('name')
+        ->orderBy('name', 'ASC')
+        ->get();   
+        echo json_encode($positivos);
+    }
+
     public function vacunas()
     {
         $vacunas = DB::table('rrhh_vacunas')
