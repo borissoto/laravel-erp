@@ -391,18 +391,24 @@
                     return response.json()
                 }).then(function(data){
                     console.log(data);
-                    var valuesVac = [];
+                    var dosisuno = [];
+                    var dosisdos = [];
                     var catVac = [];
 
                     data.forEach(function(item){
                         catVac.push(item.name);
-                        valuesVac.push(parseInt(item.dosisuno)); 
+                        dosisuno.push(parseInt(item.dosisuno)); 
+                        dosisdos.push(parseInt(item.dosisdos)); 
                     });
                     chartVac.xAxis[0].categories = catVac;
                     chartVac.addSeries({
                             name: "1era Dosis",
-                            data: valuesVac,
-                            color: "#b87316",
+                            data: dosisuno,                            
+                    }) ;
+                    chartVac.addSeries({
+                            name: "2da Dosis",
+                            data: dosisdos,
+                            color: "#10be2f",
                     }) ;
                 })
                 .catch(function(error) {
