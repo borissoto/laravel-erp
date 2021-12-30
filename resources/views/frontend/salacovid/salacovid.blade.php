@@ -91,13 +91,12 @@
                                 <li><a href="#">Implementacion SAFCI</a></li>
                             </ul>
                         </li>
-                        <li><a href=""><span> <i class="fa fa-chart-bar"></i></span>Sala Situacional</a></li>
+                        <li><a href="{{ route('sala.index')}}"><span> <i class="fa fa-chart-bar"></i></span>Sala Situacional</a></li>
                         <li class="submenu">
-                            <a href="{{ route('sala.index')}}"><span> <i class="fa fa-syringe"></i></span>Informacion Covid</a>
+                            <a href="#"><span> <i class="fa fa-syringe"></i></span>Informacion Covid</a>
                             <ul class="children">
                                 <li><a href="/descargas/fcov1.5.xlsx">Descarga formulario COVID-19 V. 1.5 <marquee width="300">ULTIMA VERSION</marquee></a></li>
-                            <li><a href="/php/covdirect.php">PRODUCCION COVID</a></li>
-                            <li><a href="/php/salacovid.php">SALA SITUACIONAL COVID-19 <marquee width="300">Nuevo</marquee></a></li>
+                            <li><a href="{{ route('sala.covid')}}">SALA SITUACIONAL COVID-19 <marquee width="300">Nuevo</marquee></a></li>
                             </ul>
                         </li>
                         <li class="submenu">
@@ -127,7 +126,7 @@
             </header>
         </div>
         <div class="bg-light pl-5 pr-5 pb-5 pt-4" >
-            <h1 class="text-center" style="font-size: 20px"><b> SALA COVID -19 </b> </h1>
+            <h1 class="text-center" style="font-size: 20px"><b> SALA SITUACIONAL COVID -19 (BRIGADAS)</b> </h1>
             
                 <div class="row">
                     <div class="col">
@@ -258,7 +257,7 @@
                 })
             }
 
-            /*****************/
+            /********Atendidos*********/
 
             var optionsCon1 = {
                chart: {
@@ -268,14 +267,14 @@
                    }
                },
                 title: {
-                    text: 'Rastrillaje 1'
+                    text: 'Rastrillaje'
                     },
                 subtitle: {
                     text: 'Fuente: Safci'
                     },
                 yAxis: {
                     title:{
-                            text: 'Numero de Sospechosos'
+                            text: 'Numero de Atendidos'
                             },                   
                     },
                 // xAxis: {                    
@@ -351,7 +350,7 @@
                     },
                 yAxis: {
                     title:{
-                            text: 'Numero de Sospechosos'
+                            text: 'Numero de Vacunas'
                             },                   
                     },
                 // xAxis: {                    
