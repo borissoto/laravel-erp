@@ -89,7 +89,11 @@ class RrhhIndex extends Component
 
     public function render()
     {
-        $nivel = auth()->user()->establecimiento->municipio->departamento->id;        
+        if(auth()->user()->establecimiento){
+            $nivel = auth()->user()->establecimiento->municipio->departamento->id;
+            $users = User::whereRelation('establecimiento.municipio.departamento', 'id', '=', $nivel);
+        }
+
 
         $users = User::whereRelation('establecimiento', 'nom_establecimiento', 'LIKE', '%' . $this->search . '%')
         ->orWhereRelation('establecimiento.municipio', 'nom_municipio', 'LIKE', '%' . $this->search . '%')
@@ -101,7 +105,7 @@ class RrhhIndex extends Component
         ->orWhere('ap_materno','LIKE', '%' . $this->search . '%')
         ->orWhere('ci','LIKE', '%' . $this->search . '%');
 
-        $users = User::whereRelation('establecimiento.municipio.departamento', 'id', '=', $nivel);
+        
 
         if ($this->campo && $this->order) {
             $users = $users->orderBy($this->campo, $this->order);
