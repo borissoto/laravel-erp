@@ -56,9 +56,11 @@
           </a>
           <ul class="nav nav-treeview">
             @can('admin.rrhh.list')   
-            <li class="nav-item"><a href="{{ route('rrhh.list') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Kardex General</a></li>
-            <li class="nav-item"><a href="{{ route('rrhh.departamental') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Kardex Departamental</a></li>
-            <li class="nav-item"><a href="{{ route('rrhh.municipal') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Kardex Municipal</a></li>
+            <li class="nav-item"><a href="{{ route('rrhh.list') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>RRHH Administrador</a></li>
+            <li class="nav-item"><a href="{{ route('rrhh.departamental') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>RRHH Departamental</a></li>
+            <li class="nav-item"><a href="{{ route('rrhh.municipal') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>RRHH Municipal</a></li>
+            <li class="nav-item"><a href="{{ route('rrhh.municipal') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>RRHH EESS</a></li>
+            <li class="nav-item"><a href="{{ route('rrhh.municipal') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>RRHH Residentes </a></li>
             @endcan            
           </ul>
         </li>
@@ -151,7 +153,7 @@
             </p>            
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item"><a href="{{ route('planestudios.residencias')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Residencias Modulos Temas</a></li>            
+            <li class="nav-item"><a href="{{ route('planestudios.residencias')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Administracion Pensum</a></li>            
             <li class="nav-item"><a href="{{ route('rastrillajes.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Evaluaciones por Curso</a></li>
             <li class="nav-item"><a href="{{ route('planestudios.residentes')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Estudiantes</a></li>
                      

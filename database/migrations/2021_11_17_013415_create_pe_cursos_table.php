@@ -15,11 +15,13 @@ class CreatePeCursosTable extends Migration
     {
         Schema::create('pe_cursos', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('pe_modulo_id')->nullable();
-            $table->foreign('pe_modulo_id')->references('id')->on('pe_modulos')->onDelete('set null');
-            $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null'); // id profesor jefe de enseñanza
-            $table->unsignedBigInteger('instructor')->nullable();;
-            $table->string('nom_curso')->nullable();;
+            $table->unsignedBigInteger('pe_residencia_id')->nullable();
+            $table->foreign('pe_residencia_id')->references('id')->on('pe_residencias')->onDelete('set null');
+            $table->string('modulo')->nullable();
+            $table->string('nom_curso')->nullable();
+            $table->string('parcial_nom')->nullable();
+            $table->string('parcial_nota_max')->nullable();            
+            $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null'); // id docente
             $table->timestamps();
         });
     }

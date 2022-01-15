@@ -16,6 +16,7 @@ class CreatePeResidenciasTable extends Migration
         Schema::create('pe_residencias', function (Blueprint $table) {
             $table->id();
             $table->string('nom_residencia')->nullable();
+            $table->integer('nivel')->nullable();
             $table->string('gestion_ini')->nullable();
             $table->string('mes_ini')->nullable();
             $table->string('gestion_fin')->nullable();

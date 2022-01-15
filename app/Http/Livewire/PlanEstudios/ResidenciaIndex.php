@@ -13,15 +13,19 @@ use App\Models\PeResidencia as Model;
 
 class ResidenciaIndex extends Component
 {
+    public $showComponents = false;
+    public $flag = 0;
 
     public $gestiones;
     public $selectedGestion;
 
     use WithPagination;
+    protected $paginationTheme = "bootstrap";
 
     public $paginate = 10;
 
     public $nom_residencia;
+    public $nivel;
     public $gestion_ini;
     public $mes_ini;
     public $gestion_fin;
@@ -50,6 +54,7 @@ class ResidenciaIndex extends Component
 
     protected $rules = [
         'nom_residencia' => 'required',
+        'nivel' => 'required',
         'gestion_ini' => 'required',
         'mes_ini' => 'required',
         'gestion_fin' => 'required',
@@ -99,11 +104,15 @@ class ResidenciaIndex extends Component
 
     public function edit($primaryId)
     {
+        $this->showComponents = false;
+        $this->flag = 0;
+        
         $this->mode = 'update';
         $this->primaryId = $primaryId;
         $model = Model::find($primaryId);
 
-        $this->nom_residencia= $model->nom_residencia;
+        $this->nom_residencia= Str::upper($model->nom_residencia);
+        $this->nivel= $model->nivel;
         $this->gestion_ini= $model->gestion_ini;
         $this->mes_ini= $model->mes_ini;
         $this->gestion_fin= $model->gestion_fin;
@@ -128,6 +137,7 @@ class ResidenciaIndex extends Component
         $model = new Model();
 
         $model->nom_residencia= Str::upper($this->nom_residencia);
+        $model->nivel= $this->nivel;
         $model->gestion_ini= $this->gestion_ini;
         $model->mes_ini= $this->mes_ini;
         $model->gestion_fin= $this->gestion_fin;
@@ -135,10 +145,16 @@ class ResidenciaIndex extends Component
         $model->estado= $this->estado;
         $model->save();
 
-        $this->resetForm();
-        $this->emit("hideForm");
-        session()->flash('message', 'Record Saved Successfully');
-        $this->showForm = false;
+        $gestionId = $model->id;
+
+        // $this->resetForm();
+        // $this->emit("hideForm");
+        // session()->flash('message', 'Record Saved Successfully');
+        // $this->showForm = false;
+
+        $this->emit('gestionId', $gestionId);
+        $this->showComponents = true;
+        $this->flag = 1;
 
     }
 
@@ -161,6 +177,7 @@ class ResidenciaIndex extends Component
         $model = Model::find($this->primaryId);
 
         $model->nom_residencia= $this->nom_residencia;
+        $model->nivel= $this->nivel;
         $model->gestion_ini= $this->gestion_ini;
         $model->mes_ini= $this->mes_ini;
         $model->gestion_fin= $this->gestion_fin;
@@ -168,10 +185,16 @@ class ResidenciaIndex extends Component
         $model->estado= $this->estado;
         $model->save();
 
+        $gestionId = $model->id;
 
-        $this->resetForm();
-        $this->emit("hideForm");
-        session()->flash('message', 'Record Updated Successfully');
+
+        // $this->resetForm();
+        // $this->emit("hideForm");
+        // session()->flash('message', 'Record Updated Successfully');
+        $this->emit('gestionId', $gestionId);
+        $this->showComponents = true;
+        $this->flag = 1;
+        // dd($gestionId);
     }
 
     public function confirmDelete($primaryId)
@@ -231,3 +254,4 @@ class ResidenciaIndex extends Component
         $this->dispatchBrowserEvent('showDiagram');
     }
 }
+ 

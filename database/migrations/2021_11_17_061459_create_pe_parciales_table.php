@@ -15,8 +15,8 @@ class CreatePeParcialesTable extends Migration
     {
         Schema::create('pe_parciales', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('pe_curso_id')->nullable();
-            $table->foreign('pe_curso_id')->references('id')->on('pe_cursos')->onDelete('set null');
+            // $table->unsignedBigInteger('pe_curso_id')->nullable();
+            // $table->foreign('pe_curso_id')->references('id')->on('pe_cursos')->onDelete('set null');
             // $table->unsignedBigInteger('pe_residente_id')->nullable();
             // $table->foreign('pe_residente_id')->references('id')->on('pe_residentes')->onDelete('set null');
             $table->unsignedBigInteger('parent_id')->nullable();

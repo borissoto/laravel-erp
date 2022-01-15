@@ -24,7 +24,7 @@
                 <button type="button"
                         class="btn btn-primary float-right"
                         wire:click="create">
-                   {{ __('Nueva Residencia') }}
+                   {{ __('Nueva Gestion') }}
                 </button>
             </div>
         </div>
@@ -35,7 +35,8 @@
                     <thead>
                     <tr>
 
-                        <th>Residencia</th>
+                        <th>Nivel de Formacion</th>
+                        <th>Codigo</th>
                         <th>Gestion Inicio</th>
                         <th>Mes Inicio</th>
                         <th>Gestion Fin</th>
@@ -49,6 +50,7 @@
                     <tbody>
                     @forelse($rows as $row)
                     <tr> 
+                        <td>{{ $row->nivel}}</td>
                         <td>{{ $row->nom_residencia}}</td>
                         <td>{{ $row->gestion_ini}}</td>
                         <td>{{ $row->mes_ini}}</td>
@@ -88,7 +90,7 @@
     {{--    create / edit form --}}
 
        <div class="modal fade" wire:ignore.self id="showForm" tabindex="-1" role="dialog" aria-labelledby="showFormLabel" aria-hidden="true">
-           <div class="modal-dialog" role="document">
+           <div class="modal-dialog modal-xl" role="document">
                <div class="modal-content">
                    <div class="modal-header">
                        <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Nueva Residencia' : 'Actualizar Residencia' }}</h5>
@@ -98,16 +100,26 @@
                    </div>
                    <div class="modal-body">
                         <div class='form-group row'>
-                            <label class="col-sm-4 col-form-label col-form-label-sm" for='nom_residencia'>Nombre residencia</label>
-                            <div class="col-sm-8">                            
-                                <input type='text' class='form-control form-control-sm  @error('nom_residencia')  is-invalid @enderror' wire:model='nom_residencia'>
+                            <label class="col-sm-3 col-form-label col-form-label-sm" for='nivel'>Nivel Formacion</label>
+                            <div class="col-sm-3">
+                                <select wire:model="nivel" id="nivel" class="form-control form-control-sm" {{ $flag == 1 ? 'disabled' : '' }} >                                         
+                                    <option value="">-Elija Nivel de Formacion-</option>
+                                    <option value="1">Nivel de Formacion <span style="font-weight: bolder"> 1er año </span></option>
+                                    <option value="2">Nivel de Formacion 2do año</option>
+                                    <option value="3">Nivel de Formacion 3er año</option>                                    
+                                </select> 
+                                @error('nivel')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                            </div>                      
+                            <label class="col-sm-3 col-form-label col-form-label-sm" for='nom_residencia'>Codigo Gestion</label>
+                            <div class="col-sm-3">                            
+                                <input type='text' class='form-control form-control-sm  @error('nom_residencia')  is-invalid @enderror' wire:model='nom_residencia' {{ $flag == 1 ? 'disabled' : '' }}>
                                 @error('nom_residencia')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         </div>
                         <div class='form-group row'>
-                            <label class="col-sm-4 col-form-label col-form-label-sm" for='gestion_ini'>Gestion inicio</label>
-                            <div class="col-sm-8">
-                                <select wire:model="gestion_ini"  name="gestion_ini" id="gestion_ini" class="form-control form-control-sm" required>
+                            <label class="col-sm-3 col-form-label col-form-label-sm" for='gestion_ini'>Gestion inicio</label>
+                            <div class="col-sm-3">
+                                <select wire:model="gestion_ini"  name="gestion_ini" id="gestion_ini" class="form-control form-control-sm" {{ $flag == 1 ? 'disabled' : '' }}>
                                     <option value="" class="text-primary">Escoja Gestion*</option>
                                     @foreach ($gestiones as $gestion)
                                         <option value="{{ $gestion->gestion }}">{{ $gestion->gestion }}</option>
@@ -115,11 +127,10 @@
                                 </select>
                                 @error('gestion_ini')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
-                        </div>
-                        <div class='form-group row'>
-                            <label class="col-sm-4 col-form-label col-form-label-sm" for='mes_ini'>Mes inicio</label>
-                            <div class="col-sm-8">
-                                <select wire:model="mes_ini" id="mes_ini" class="form-control form-control-sm" >                                         
+                        
+                            <label class="col-sm-3 col-form-label col-form-label-sm" for='mes_ini'>Mes inicio</label>
+                            <div class="col-sm-3">
+                                <select wire:model="mes_ini" id="mes_ini" class="form-control form-control-sm" {{ $flag == 1 ? 'disabled' : '' }}>                                         
                                     <option value="">-Elija Mes-</option>
                                     <option value="ENERO">ENERO</option>
                                     <option value="FEBRERO">FEBRERO</option>
@@ -138,9 +149,9 @@
                             </div>
                         </div>
                         <div class='form-group row'>
-                            <label class="col-sm-4 col-form-label col-form-label-sm" for='gestion_fin'>Gestion fin</label>
-                            <div class="col-sm-8">
-                                <select wire:model="gestion_fin"  name="gestion_fin" id="gestion_fin" class="form-control form-control-sm" required>
+                            <label class="col-sm-3 col-form-label col-form-label-sm" for='gestion_fin'>Gestion fin</label>
+                            <div class="col-sm-3">
+                                <select wire:model="gestion_fin"  name="gestion_fin" id="gestion_fin" class="form-control form-control-sm" {{ $flag == 1 ? 'disabled' : '' }}>
                                     <option value="" class="text-primary">Escoja Gestion*</option>
                                     @foreach ($gestiones as $gestion)
                                         <option value="{{ $gestion->gestion }}">{{ $gestion->gestion }}</option>
@@ -148,11 +159,9 @@
                                 </select>
                                 @error('gestion_fin')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
-                        </div>
-                        <div class='form-group row'>
-                            <label class="col-sm-4 col-form-label col-form-label-sm" for='mes_fin'>Mes fin</label>
-                            <div class="col-sm-8">
-                                <select wire:model="mes_fin" id="mes_fin" class="form-control form-control-sm" >                                         
+                            <label class="col-sm-3 col-form-label col-form-label-sm" for='mes_fin'>Mes fin</label>
+                            <div class="col-sm-3">
+                                <select wire:model="mes_fin" id="mes_fin" class="form-control form-control-sm" {{ $flag == 1 ? 'disabled' : '' }}>                                         
                                     <option value="">-Elija Mes-</option>
                                     <option value="ENERO">ENERO</option>
                                     <option value="FEBRERO">FEBRERO</option>
@@ -177,13 +186,18 @@
                                 @error('estado')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         </div> --}}
+                        <div class="col-sm-2 d-flex justify-content-center">
+                            <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary" {{ $flag == 1 ? 'disabled' : '' }}>
+                                {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
+                            </button>
+                        </div>
+
+                        @if($showComponents) 
+                        @livewire('plan-estudios.curso-index', ['nivel' => $nivel])                        
+                        @endif
 
                    </div>
-                   <div class="modal-footer">
-                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                       <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary">
-                         {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
-                       </button>
+                   <div class="modal-footer">                     
                    </div>
                </div>
            </div>

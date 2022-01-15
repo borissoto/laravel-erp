@@ -10,7 +10,7 @@
               Plan de Estudios
               <small>
               </small>
-              <span class=" text-lg"> - Residencias</span>
+              <span class=" text-lg"> - Gestiones</span>
               
             </h1>
           </div>
@@ -32,11 +32,11 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item" style="background-color: rgb(73, 131, 185); border-radius: 4px;">
-            <a class="nav-link text-light" href="{{ route('planestudios.residencias')}}">Residencias <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-light" href="{{ route('planestudios.residencias')}}">Gestiones<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a class="nav-link" href="{{route('planestudios.modulos')}}">Módulos</a>
-          </li>
+          </li> --}}
           <li class="nav-item">
             <a class="nav-link" href="{{route('planestudios.cursos')}}">Temas</a>
           </li>

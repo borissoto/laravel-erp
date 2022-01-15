@@ -32,13 +32,13 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="{{ route('planestudios.residencias')}}">Residencias </a>
+            <a class="nav-link" href="{{ route('planestudios.residencias')}}">Gestiones</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{route('planestudios.modulos')}}">Módulos </a>
-          </li>
+          {{-- <li class="nav-item"> --}}
+            {{-- <a class="nav-link" href="{{route('planestudios.modulos')}}">Módulos </a> --}}
+          {{-- </li> --}}
           <li class="nav-item" style="background-color: rgb(73, 131, 185); border-radius: 4px;">
-            <a class="nav-link text-light" href="{{route('planestudios.cursos')}}">Temas</a>
+            <a class="nav-link text-light" href="{{route('planestudios.cursos')}}">Cursos</a>
           </li>   
           <li class="nav-item">
             <a class="nav-link" href="{{route('planestudios.evaluaciones')}}">Evaluaciones</a>

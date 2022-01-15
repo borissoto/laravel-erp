@@ -11,6 +11,7 @@ class PeResidencia extends Model
 
     protected $fillable = [
         'nom_residencia',
+        'nivel',
         'gestion_ini',
         'mes_ini',
         'gestion_fin',
