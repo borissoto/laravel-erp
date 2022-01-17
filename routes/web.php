@@ -131,6 +131,7 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']], function(){
     Route::get('/planestudios/cursos', [PlanEstudiosController::class, 'cursos'])->name('planestudios.cursos'); 
     Route::get('/planestudios/evaluaciones', [PlanEstudiosController::class, 'evaluaciones'])->name('planestudios.evaluaciones'); 
     Route::get('/planestudios/materias', [PlanEstudiosController::class, 'materias'])->name('planestudios.materias'); 
+    Route::get('/planestudios/materias/estudiante/{id}', [PlanEstudiosController::class, 'matestudiantes'])->name('planestudios.materia.estudiantes');   
     //Plan de Estudios
     Route::get('/planestudios/residentes', [PlanEstudiosController::class, 'residentes'])->name('planestudios.residentes');   
     Route::get('/planestudios/matriculaciones', [PlanEstudiosController::class, 'matriculaciones'])->name('planestudios.matriculaciones'); 

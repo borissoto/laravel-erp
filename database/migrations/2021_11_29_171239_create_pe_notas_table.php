@@ -20,7 +20,9 @@ class CreatePeNotasTable extends Migration
             // $table->foreign('pe_parcial_id')->references('id')->on('pe_parciales')->onDelete('set null');
             $table->unsignedBigInteger('pe_curso_id')->nullable();
             $table->foreign('pe_curso_id')->references('id')->on('pe_cursos')->onDelete('set null');
-            $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null'); // id estudiante            
+            $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null'); // id estudiante     
+            $table->unsignedBigInteger('pe_residente_id')->nullable();
+            $table->foreign('pe_residente_id')->references('id')->on('pe_residentes')->onDelete('set null');       
             $table->decimal('nota')->nullable();           
             $table->decimal('rango_max')->nullable();
             $table->unsignedBigInteger('docente')->nullable();                       
