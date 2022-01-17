@@ -27,5 +27,9 @@ class PlanEstudiosController extends Controller
 
     public function matriculaciones(){
         return view('backend.planestudio.pe_matriculacion');
+    }
+
+    public function materias(){
+        return view('backend.planestudio.pe_materia');
     }  
 }

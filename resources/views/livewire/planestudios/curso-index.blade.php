@@ -47,15 +47,15 @@
                                     <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
                                 @endforeach
                             </select>                            
-                            @error('jefe')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                         </td>
+                        @error('jefe')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                     </tr>
                 </tbody>
             </table>
             <div class="mx-auto" style="width: 200px;">
-                PENSUM  <b> {{$nivel}}° AÑO </b>
+                PENSUM  <b> {{$nivel}}° AÑO</b>
             </div>
-            @if($nivel === 1 )
+            @if($nivel == 1)
                 <table width="100%" class="table table-sm table-bordered table-striped text-sm">
                     <thead>
                 
@@ -64,8 +64,8 @@
                     </tr>
                     <tr style="background-color: lightblue">
                         
-                        <th>Modulo</th>
-                        <th>Nombre Curso</th>
+                        <th>Nro</th>
+                        <th>Nombre Materia</th>
                         <th>Duracion</th>                    
                         <th>Nota Max.</th>                    
                         <th>Docente Calificador</th>
@@ -81,7 +81,7 @@
                             <td class="align-middle">
                                 <select wire:model="dr_obs"  name="dr_obs" class="form-control form-control-sm" required>
                                     <option value="" class="text-primary">Docente Instructor*</option>
-                                    @foreach ($usuarios as $user)
+                                    @foreach ($obstetricia as $user)
                                         <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
                                     @endforeach
                                 </select>                            
@@ -201,9 +201,9 @@
                         </tr>
                         <tr style="background-color: lightblue">
                             
-                            <th>Modulo</th>
-                            <th>Nombre Curso</th>
-                            <th>Duracion</th>                    
+                            <th>Nro</th>
+                            <th>Nombre Materia</th>
+                            <th>Nota Max.</th>                    
                             <th>Jefe de Enseñanza</th>
                         </tr>
                     </thead>
@@ -266,14 +266,157 @@
                         </tr>
                         <tr style="background-color: lightblue">
                             
-                            <th>Modulo</th>
-                            <th>Nombre Curso</th>
-                            <th>Duracion</th>                    
+                            <th>Nro</th>
+                            <th>Nombre Materia</th>
+                            <th>Nota Max.</th>                    
                             <th>Jefe de Enseñanza</th>
                         </tr>
                     </thead>
                     <tbody>
-
+                        <tr>
+                            <td class="align-middle">1</td>
+                            <td class="align-middle">MARZO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">2</td>
+                            <td class="align-middle">ABRIL</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">3</td>
+                            <td class="align-middle">MAYO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">4</td>
+                            <td class="align-middle">JUNIO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">5</td>
+                            <td class="align-middle">JULIO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">6</td>
+                            <td class="align-middle">AGOSTO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">7</td>
+                            <td class="align-middle">SEPTIEMBRE</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">8</td>
+                            <td class="align-middle">OCTUBRE</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">9</td>
+                            <td class="align-middle">NOVIEMBRE</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">10</td>
+                            <td class="align-middle">DICIEMBRE</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">11</td>
+                            <td class="align-middle">ENERO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">12</td>
+                            <td class="align-middle">FEBRERO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
                     </tbody>
                 </table>
                 <table width="100%" class="table table-sm table-bordered table-striped text-sm">
@@ -283,18 +426,31 @@
                         </tr>
                         <tr style="background-color: lightblue">
 
-                            <th>Modulo</th>
-                            <th>Nombre Curso</th>
-                            <th>Duracion</th>                    
+                            <th>Nro</th>
+                            <th>DEFENSA ANTE TRIBUNAL EVALUADOR</th>
+                            <th>Nota Max.</th>                    
                             <th>Jefe de Enseñanza</th>
                         </tr>
                     </thead>
                     <tbody>
-
+                        <tr>
+                            <td class="align-middle">1</td>
+                            <td class="align-middle">TRABAJO DE INVESTIGACION</td>                            
+                            <td class="align-middle">20</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
                     </tbody>
                 </table>
+                
+
                 {{--                 Nivel 2            --}}
-            @elseif($nivel === 2 )
+            @elseif($nivel == 2 )
                 <table width="100%" class="table table-sm table-bordered table-striped text-sm">
                     <thead>
                 
@@ -304,9 +460,9 @@
                     <tr style="background-color: lightblue">
 
                         
-                        <th>Modulo</th>
-                        <th>Nombre Curso</th>
-                        <th>Duracion (Meses)</th>                    
+                        <th>Nro</th>
+                        <th>Nombre Materia</th>
+                        <th>Duracion</th>                    
                         <th>Docente Calificador</th>
                         <th>Jefe de Enseñanza</th>
                     </tr>
@@ -318,13 +474,13 @@
                             <td class="align-middle">HERRAMIENTAS METODOLOGICAS  DE LA SAFCI</td>
                             <td class="align-middle">3</td>                        
                             <td class="align-middle">
-                                <select wire:model="user_id"  name="user_id" class="form-control form-control-sm" required>
+                                <select wire:model="dr_2_1"  name="dr_2_1" class="form-control form-control-sm" required>
                                     <option value="" class="text-primary">Docente Instructor*</option>
                                     @foreach ($usuarios as $user)
                                         <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
                                     @endforeach
                                 </select>                            
-                                @error('user_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                                @error('dr_2_1')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </td> 
                             <td class="align-middle">
                                 @if($nom_jefe)
@@ -341,13 +497,13 @@
                             <td class="align-middle">PROMOCION DE SALUD Y GESTION PARTICIPATIVA LOCAL EN SALUD</td>
                             <td class="align-middle">2</td>
                             <td class="align-middle">
-                                <select wire:model="user_id"  name="user_id" class="form-control form-control-sm" required>
+                                <select wire:model="dr_2_2"  name="dr_2_2" class="form-control form-control-sm" required>
                                     <option value="" class="text-primary">Docente Instructor*</option>
                                     @foreach ($usuarios as $user)
                                         <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
                                     @endforeach
                                 </select>                            
-                                @error('user_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                                @error('dr_2_2')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </td>
                             <td class="align-middle">
                                 @if($nom_jefe)
@@ -364,13 +520,13 @@
                             <td class="align-middle">INTERCULTURALIDAD</td>
                             <td class="align-middle">1</td>
                             <td class="align-middle">
-                                <select wire:model="user_id"  name="user_id" class="form-control form-control-sm" required>
+                                <select wire:model="dr_2_3"  name="dr_2_3" class="form-control form-control-sm" required>
                                     <option value="" class="text-primary">Docente Instructor*</option>
                                     @foreach ($usuarios as $user)
                                         <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
                                     @endforeach
                                 </select>                            
-                                @error('user_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                                @error('dr_2_3')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </td>
                             <td class="align-middle">
                                 @if($nom_jefe)
@@ -387,13 +543,13 @@
                             <td class="align-middle">DISEÑO, ELABORACION, GESTION Y EVALUACION DE PROYECTOS EN SALUD</td>
                             <td class="align-middle">3</td>
                             <td class="align-middle">
-                                <select wire:model="user_id"  name="user_id" class="form-control form-control-sm" required>
+                                <select wire:model="dr_2_4"  name="dr_2_4" class="form-control form-control-sm" required>
                                     <option value="" class="text-primary">Docente Instructor*</option>
                                     @foreach ($usuarios as $user)
                                         <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
                                     @endforeach
                                 </select>                            
-                                @error('user_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                                @error('dr_2_4')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </td>
                             <td class="align-middle">
                                 @if($nom_jefe)
@@ -410,13 +566,13 @@
                             <td class="align-middle">METODOLOGIA DE INVESTIGACION</td>
                             <td class="align-middle">3</td>
                             <td class="align-middle">
-                                <select wire:model="user_id"  name="user_id" class="form-control form-control-sm" required>
+                                <select wire:model="dr_2_5"  name="dr_2_5" class="form-control form-control-sm" required>
                                     <option value="" class="text-primary">Docente Instructor*</option>
                                     @foreach ($usuarios as $user)
                                         <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
                                     @endforeach
                                 </select>                            
-                                @error('user_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                                @error('dr_2_5')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </td>
                             <td class="align-middle">
                                 @if($nom_jefe)
@@ -437,9 +593,9 @@
                         </tr>
                         <tr style="background-color: lightblue">
                             
-                            <th>Modulo</th>
-                            <th>Nombre Curso</th>
-                            <th>Duracion</th>                    
+                            <th>Nro</th>
+                            <th>Nombre Materia</th>
+                            <th>Nota Max.</th>                    
                             <th>Jefe de Enseñanza</th>
                         </tr>
                     </thead>
@@ -502,14 +658,157 @@
                         </tr>
                         <tr style="background-color: lightblue">
                             
-                            <th>Modulo</th>
-                            <th>Nombre Curso</th>
-                            <th>Duracion</th>                    
+                            <th>Nro</th>
+                            <th>Nombre Materia</th>
+                            <th>Nota Max.</th>                    
                             <th>Jefe de Enseñanza</th>
                         </tr>
                     </thead>
                     <tbody>
-
+                        <tr>
+                            <td class="align-middle">1</td>
+                            <td class="align-middle">MARZO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">2</td>
+                            <td class="align-middle">ABRIL</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">3</td>
+                            <td class="align-middle">MAYO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">4</td>
+                            <td class="align-middle">JUNIO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">5</td>
+                            <td class="align-middle">JULIO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">6</td>
+                            <td class="align-middle">AGOSTO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">7</td>
+                            <td class="align-middle">SEPTIEMBRE</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">8</td>
+                            <td class="align-middle">OCTUBRE</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">9</td>
+                            <td class="align-middle">NOVIEMBRE</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">10</td>
+                            <td class="align-middle">DICIEMBRE</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">11</td>
+                            <td class="align-middle">ENERO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">12</td>
+                            <td class="align-middle">FEBRERO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
                     </tbody>
                 </table>
                 <table width="100%" class="table table-sm table-bordered table-striped text-sm">
@@ -519,16 +818,28 @@
                         </tr>
                         <tr style="background-color: lightblue">
 
-                            <th>Modulo</th>
-                            <th>Nombre Curso</th>
-                            <th>Duracion</th>                    
+                            <th>Nro</th>
+                            <th>DEFENSA ANTE TRIBUNAL EVALUADOR</th>
+                            <th>Nota Max.</th>                    
                             <th>Jefe de Enseñanza</th>
                         </tr>
                     </thead>
                     <tbody>
-
+                        <tr>
+                            <td class="align-middle">1</td>
+                            <td class="align-middle">TRABAJO DE INVESTIGACION</td>                            
+                            <td class="align-middle">20</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
                     </tbody>
-                </table>    
+                </table>
+           
 
                 {{--                 Nivel 3            --}}
             @else
@@ -540,92 +851,369 @@
                     </tr>
                     <tr style="background-color: lightblue">
     
-                        <th>Nivel de Formacion</th>
-                        <th>Modulo</th>
-                        <th>Nombre Curso</th>
-                        <th>Duracion (Meses)</th>                    
+                        <th>Nro</th>
+                        <th>Nombre Materia</th>
+                        <th>Duracion</th>                    
                         <th>Docente Calificador</th>
+                        <th>Jefe de Enseñanza</th>
                     </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="align-middle">1</td>
+                            
                             <td class="align-middle">1</td>
                             <td class="align-middle">EPIDEMIOLOGIA</td>
                             <td class="align-middle">4</td>                        
                             <td class="align-middle">
-                                <select wire:model="user_id"  name="user_id" class="form-control form-control-sm" required>
+                                <select wire:model="dr_3_1"  name="dr_3_1" class="form-control form-control-sm" required>
                                     <option value="" class="text-primary">Docente Instructor*</option>
                                     @foreach ($usuarios as $user)
                                         <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
                                     @endforeach
                                 </select>                            
-                                @error('user_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </td>   
+                                @error('dr_3_1')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                            </td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>    
     
                         </tr>
                         <tr>
-                            <td class="align-middle">1</td>
+                           
                             <td class="align-middle">2</td>
                             <td class="align-middle">GESTION PARTICIPATIVA MUNICIPAL</td>
                             <td class="align-middle">2</td>
                             <td class="align-middle">
-                                <select wire:model="user_id"  name="user_id" class="form-control form-control-sm" required>
+                                <select wire:model="dr_3_2"  name="dr_3_2" class="form-control form-control-sm" required>
                                     <option value="" class="text-primary">Docente Instructor*</option>
                                     @foreach ($usuarios as $user)
                                         <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
                                     @endforeach
                                 </select>                            
-                                @error('user_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </td>   
+                                @error('dr_3_2')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                            </td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>    
     
                         </tr>
                         <tr>
-                            <td class="align-middle">1</td>
+                            
                             <td class="align-middle">3</td>
                             <td class="align-middle">HABILIDADES GERENCIALES</td>
                             <td class="align-middle">2</td>
                             <td class="align-middle">
-                                <select wire:model="user_id"  name="user_id" class="form-control form-control-sm" required>
+                                <select wire:model="dr_3_3"  name="dr_3_3" class="form-control form-control-sm" required>
                                     <option value="" class="text-primary">Docente Instructor*</option>
                                     @foreach ($usuarios as $user)
                                         <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
                                     @endforeach
                                 </select>                            
-                                @error('user_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </td>   
+                                @error('dr_3_3')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                            </td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>    
     
                         </tr>
                         <tr>
-                            <td class="align-middle">1</td>
+                            
                             <td class="align-middle">4</td>
                             <td class="align-middle">EMERGENTOLOGIA DESASTRES-ATENCION PREHOSPITALARIA</td>
                             <td class="align-middle">4</td>
                             <td class="align-middle">
-                                <select wire:model="user_id"  name="user_id" class="form-control form-control-sm" required>
+                                <select wire:model="dr_3_4"  name="dr_3_4" class="form-control form-control-sm" required>
                                     <option value="" class="text-primary">Docente Instructor*</option>
                                     @foreach ($usuarios as $user)
                                         <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
                                     @endforeach
                                 </select>                            
-                                @error('user_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </td>   
+                                @error('dr_3_4')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                            </td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>    
     
-                        </tr>                  
-                        
+                        </tr>                                         
+                    </tbody>
+                </table>
+                <table width="100%" class="table table-sm table-bordered table-striped text-sm">
+                    <thead>
                         <tr class="thead-dark"> 
                             <th colspan="100%">EVALUACIONES TEORICO PRACTICAS TRIMESTRAL</th>
                         </tr>
+                        <tr style="background-color: lightblue">
+                            
+                            <th>Nro</th>
+                            <th>Nombre Materia</th>
+                            <th>Nota Max.</th>                    
+                            <th>Jefe de Enseñanza</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="align-middle">1</td>
+                            <td class="align-middle">EPIDEMIOLOGIA</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">2</td>
+                            <td class="align-middle">GESTION PARTICIPATIVA MUNICIPAL</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">3</td>
+                            <td class="align-middle">HABILIDADES GERENCIALES</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">4</td>
+                            <td class="align-middle">EMERGENTOLOGIA DESASTRES-ATENCION PREHOSPITALARIA</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+
+                    </tbody>
+                </table>
+                <table width="100%" class="table table-sm table-bordered table-striped text-sm">
+                    <thead>
                         <tr class="thead-dark"> 
                             <th colspan="100%">EVALUACIONES TEORICO PRACTICAS MENSUAL</th>
                         </tr>
+                        <tr style="background-color: lightblue">
+                            
+                            <th>Nro</th>
+                            <th>Nombre Materia</th>
+                            <th>Nota Max.</th>                    
+                            <th>Jefe de Enseñanza</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="align-middle">1</td>
+                            <td class="align-middle">MARZO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">2</td>
+                            <td class="align-middle">ABRIL</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">3</td>
+                            <td class="align-middle">MAYO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">4</td>
+                            <td class="align-middle">JUNIO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">5</td>
+                            <td class="align-middle">JULIO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">6</td>
+                            <td class="align-middle">AGOSTO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">7</td>
+                            <td class="align-middle">SEPTIEMBRE</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">8</td>
+                            <td class="align-middle">OCTUBRE</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">9</td>
+                            <td class="align-middle">NOVIEMBRE</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">10</td>
+                            <td class="align-middle">DICIEMBRE</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">11</td>
+                            <td class="align-middle">ENERO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                        <tr>
+                            <td class="align-middle">12</td>
+                            <td class="align-middle">FEBRERO</td>                            
+                            <td class="align-middle">15</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
+                        </tr>
+                    </tbody>
+                </table>
+                <table width="100%" class="table table-sm table-bordered table-striped text-sm">
+                    <thead>
                         <tr class="thead-dark"> 
                             <th colspan="100%">DEFENSA DE TRABAJO DE INVESTIGACION ANTE TRIBUNAL</th>
+                        </tr>
+                        <tr style="background-color: lightblue">
+
+                            <th>Nro</th>
+                            <th>DEFENSA ANTE TRIBUNAL EVALUADOR</th>
+                            <th>Nota Max.</th>                    
+                            <th>Jefe de Enseñanza</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="align-middle">1</td>
+                            <td class="align-middle">TRABAJO DE INVESTIGACION PROFUNDIDAD TESIS</td>                            
+                            <td class="align-middle">20</td>
+                            <td class="align-middle">
+                                @if($nom_jefe)
+                                    <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
+                                @else
+                                    <span class="text-primary">Escoja Jefe Enseñanza <span>
+                                @endif  
+                            </td>     
                         </tr>
                     </tbody>
                 </table>    
                 
             @endif      
+    </div>
+    <div class="card-footer text-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary">
+          {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
+        </button>
     </div>
 </div>
 
@@ -636,8 +1224,8 @@
                     <tr>
 
                         <th>Nivel de Formacion</th>
-                        <th>Modulo</th>
-                        <th>Nombre Tema (Curso)</th>
+                        <th>Nro</th>
+                        <th>Nombre Tema (Materia)</th>
                         <th>Docente Califica</th>
                        
                         <th>
@@ -649,7 +1237,7 @@
                     @forelse($rows as $row)<tr> 
                         <td>{{ $row->modulo->residencia->nom_residencia.' ('.$row->modulo->residencia->gestion_ini.' '.$row->modulo->residencia->mes_ini.' - '.$row->modulo->residencia->gestion_fin.' '.$row->modulo->residencia->mes_fin.')' }}</td>
                         <td>{{ $row->modulo->nom_modulo}}</td>
-                        <td>{{ $row->nom_curso}}</td>
+                        <td>{{ $row->nom_materia}}</td>
                         <td>{{ $row->usuario->nombres.' '.$row->usuario->ap_paterno.' '.$row->usuario->ap_materno}}</td>
                         <td>
                             <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
@@ -700,9 +1288,9 @@
                         </div>
                         @if (!is_null($selectedResidencia))
                         <div class='form-group'>
-                            <label for='pe_modulo_id'>Modulo</label>
+                            <label for='pe_modulo_id'>Nro</label>
                             <select wire:model="pe_modulo_id"  name="pe_modulo_id" class="form-control form-control-sm" required>                                
-                                <option value="" class="text-primary">Escoja Modulo*</option>
+                                <option value="" class="text-primary">Escoja Nro*</option>
                                 @foreach ($modulos as $modulo)
                                 <option value="{{ $modulo->id }}">{{ $modulo->nom_modulo }}</option>
                                 @endforeach
@@ -722,9 +1310,9 @@
                         </div>
                        
                         <div class='form-group'>
-                            <label for='nom_curso'>Nombre del Tema</label>
-                            <input type='text' class='form-control @error('nom_curso')  is-invalid @enderror' wire:model='nom_curso'>
-                            @error('nom_curso')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                            <label for='nom_materia'>Nombre del Tema</label>
+                            <input type='text' class='form-control @error('nom_materia')  is-invalid @enderror' wire:model='nom_materia'>
+                            @error('nom_materia')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                         </div>
                     </div>
                    <div class="modal-footer">

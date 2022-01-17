@@ -60,7 +60,7 @@
             <li class="nav-item"><a href="{{ route('rrhh.departamental') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>RRHH Departamental</a></li>
             <li class="nav-item"><a href="{{ route('rrhh.municipal') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>RRHH Municipal</a></li>
             <li class="nav-item"><a href="{{ route('rrhh.municipal') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>RRHH EESS</a></li>
-            <li class="nav-item"><a href="{{ route('rrhh.municipal') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>RRHH Residentes </a></li>
+            {{-- <li class="nav-item"><a href="{{ route('rrhh.municipal') }}" class="nav-link"><i class="fas fa-minus nav-icon"></i>RRHH Residentes </a></li> --}}
             @endcan            
           </ul>
         </li>
@@ -154,8 +154,8 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item"><a href="{{ route('planestudios.residencias')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Administracion Pensum</a></li>            
-            <li class="nav-item"><a href="{{ route('rastrillajes.index')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Evaluaciones por Curso</a></li>
-            <li class="nav-item"><a href="{{ route('planestudios.residentes')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Estudiantes</a></li>
+            <li class="nav-item"><a href="{{ route('planestudios.materias')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Notas</a></li>
+            <li class="nav-item"><a href="{{ route('planestudios.residentes')}}" class="nav-link"><i class="fas fa-minus nav-icon"></i>Residentes</a></li>
                      
             
           </ul>

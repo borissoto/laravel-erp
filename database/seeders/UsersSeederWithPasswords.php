@@ -8873,7 +8873,7 @@ class UsersTableSeeder extends Seeder
             295 => 
             array (
                 'id' => 435,
-                'name' => 'KCHOQUE',
+                'name' => 'KCHOQUE123',
                 'email' => '',
                 'email_verified_at' => NULL,
                 'password' => bcrypt('2584'),

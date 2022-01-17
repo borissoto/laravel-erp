@@ -56,9 +56,9 @@ class ResidenciaIndex extends Component
         'nom_residencia' => 'required',
         'nivel' => 'required',
         'gestion_ini' => 'required',
-        'mes_ini' => 'required',
-        'gestion_fin' => 'required',
-        'mes_fin' => 'required',
+        // 'mes_ini' => 'required',
+        // 'gestion_fin' => 'required',
+        // 'mes_fin' => 'required',
         // 'estado' => 'required',
     ];
 
@@ -192,6 +192,7 @@ class ResidenciaIndex extends Component
         // $this->emit("hideForm");
         // session()->flash('message', 'Record Updated Successfully');
         $this->emit('gestionId', $gestionId);
+        $this->emit('modecurso', $gestionId);
         $this->showComponents = true;
         $this->flag = 1;
         // dd($gestionId);

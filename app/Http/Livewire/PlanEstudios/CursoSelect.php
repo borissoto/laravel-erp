@@ -25,7 +25,7 @@ class CursoSelect extends Component
     public $pe_modulo_id;
     public $user_id;
     public $instructor;
-    public $nom_curso;
+    public $nom_materia;
 
 
     public $mode = 'create';
@@ -42,7 +42,7 @@ class CursoSelect extends Component
         'pe_modulo_id' => 'required',
         'user_id' => 'required',
         // 'instructor' => 'required',
-        'nom_curso' => 'required',        
+        'nom_materia' => 'required',        
     ];
 
 
@@ -70,7 +70,7 @@ class CursoSelect extends Component
         $model = Model::where('pe_modulo_id', 'like', '%'.$this->search.'%')->
         orWhere('user_id', 'like', '%'.$this->search.'%')->
         orWhere('instructor', 'like', '%'.$this->search.'%')->
-        orWhere('nom_curso', 'like', '%'.$this->search.'%')->latest()->paginate($this->paginate);
+        orWhere('nom_materia', 'like', '%'.$this->search.'%')->latest()->paginate($this->paginate);
         return view('livewire.planestudios.curso-select', [
             'rows'=> $model
         ]);

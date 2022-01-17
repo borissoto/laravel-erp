@@ -49,7 +49,7 @@
                     @forelse($rows as $row)<tr> 
                         <td>{{ $row->modulo->residencia->nom_residencia.' ('.$row->modulo->residencia->gestion_ini.' '.$row->modulo->residencia->mes_ini.' - '.$row->modulo->residencia->gestion_fin.' '.$row->modulo->residencia->mes_fin.')' }}</td>
                         <td>{{ $row->modulo->nom_modulo}}</td>
-                        <td>{{ $row->nom_curso}}</td>
+                        <td>{{ $row->nom_materia}}</td>
                         <td>{{ $row->usuario->nombres.' '.$row->usuario->ap_paterno.' '.$row->usuario->ap_materno}}</td>
                         <td>{{ $row->instructor ? $row->docinstructor->nombres.' '.$row->docinstructor->ap_paterno.' '.$row->docinstructor->ap_materno : 'N/A'}}</td>
                         <td class="align-middle">

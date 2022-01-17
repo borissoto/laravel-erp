@@ -37,12 +37,12 @@
           {{-- <li class="nav-item">
             <a class="nav-link" href="{{route('planestudios.modulos')}}">Módulos</a>
           </li> --}}
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a class="nav-link" href="{{route('planestudios.cursos')}}">Temas</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{route('planestudios.evaluaciones')}}">Evaluaciones</a>
-          </li>   
+          </li>    --}}
           
         </ul>
       

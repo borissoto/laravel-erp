@@ -24,6 +24,10 @@ class PeResidencia extends Model
          return $this->hasMany(PeModulo::class);
      }
 
+     public function cursos(){
+         return $this->hasMany(PeCurso::class);
+     }
+
      public function matriculaciones(){
          return $this->hasMany(PeMatriculaciones::class);
      }

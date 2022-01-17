@@ -100,8 +100,8 @@
                    </div>
                    <div class="modal-body">
                         <div class='form-group row'>
-                            <label class="col-sm-3 col-form-label col-form-label-sm" for='nivel'>Nivel Formacion</label>
-                            <div class="col-sm-3">
+                            <label class="col-sm-2 col-form-label col-form-label-sm text-right" for='nivel'>Nivel Formacion</label>
+                            <div class="col-sm-2">
                                 <select wire:model="nivel" id="nivel" class="form-control form-control-sm" {{ $flag == 1 ? 'disabled' : '' }} >                                         
                                     <option value="">-Elija Nivel de Formacion-</option>
                                     <option value="1">Nivel de Formacion <span style="font-weight: bolder"> 1er año </span></option>
@@ -110,15 +110,14 @@
                                 </select> 
                                 @error('nivel')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>                      
-                            <label class="col-sm-3 col-form-label col-form-label-sm" for='nom_residencia'>Codigo Gestion</label>
-                            <div class="col-sm-3">                            
+                            <label class="col-sm-2 col-form-label col-form-label-sm text-right" for='nom_residencia'>Codigo Gestion</label>
+                            <div class="col-sm-2">                            
                                 <input type='text' class='form-control form-control-sm  @error('nom_residencia')  is-invalid @enderror' wire:model='nom_residencia' {{ $flag == 1 ? 'disabled' : '' }}>
                                 @error('nom_residencia')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
-                        </div>
-                        <div class='form-group row'>
-                            <label class="col-sm-3 col-form-label col-form-label-sm" for='gestion_ini'>Gestion inicio</label>
-                            <div class="col-sm-3">
+
+                            <label class="col-sm-2 col-form-label col-form-label-sm text-right" for='gestion_ini'>Gestion</label>
+                            <div class="col-sm-2">
                                 <select wire:model="gestion_ini"  name="gestion_ini" id="gestion_ini" class="form-control form-control-sm" {{ $flag == 1 ? 'disabled' : '' }}>
                                     <option value="" class="text-primary">Escoja Gestion*</option>
                                     @foreach ($gestiones as $gestion)
@@ -127,8 +126,17 @@
                                 </select>
                                 @error('gestion_ini')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
+                        </div>
+                        <div class='form-group row'>
+                           
+
+                            <div class="col-sm-6 d-flex justify-content-end">
+                                <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary" {{ $flag == 1 ? 'disabled' : '' }}>
+                                    {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
+                                </button>
+                            </div>
                         
-                            <label class="col-sm-3 col-form-label col-form-label-sm" for='mes_ini'>Mes inicio</label>
+                            {{-- <label class="col-sm-3 col-form-label col-form-label-sm" for='mes_ini'>Mes inicio</label>
                             <div class="col-sm-3">
                                 <select wire:model="mes_ini" id="mes_ini" class="form-control form-control-sm" {{ $flag == 1 ? 'disabled' : '' }}>                                         
                                     <option value="">-Elija Mes-</option>
@@ -146,9 +154,9 @@
                                     <option value="DICIEMBRE">DICIEMBRE</option>
                                 </select> 
                                 @error('mes_ini')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </div>
+                            </div> --}}
                         </div>
-                        <div class='form-group row'>
+                        {{-- <div class='form-group row'>
                             <label class="col-sm-3 col-form-label col-form-label-sm" for='gestion_fin'>Gestion fin</label>
                             <div class="col-sm-3">
                                 <select wire:model="gestion_fin"  name="gestion_fin" id="gestion_fin" class="form-control form-control-sm" {{ $flag == 1 ? 'disabled' : '' }}>
@@ -178,7 +186,7 @@
                                 </select> 
                                 @error('mes_fin')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
-                        </div>
+                        </div> --}}
                         {{-- <div class='form-group row'>
                             <label class="col-sm-4 col-form-label col-form-label-sm" for='estado'>Estado</label>
                             <div class="col-sm-8">
@@ -186,14 +194,12 @@
                                 @error('estado')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         </div> --}}
-                        <div class="col-sm-2 d-flex justify-content-center">
-                            <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary" {{ $flag == 1 ? 'disabled' : '' }}>
-                                {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
-                            </button>
-                        </div>
-
+               
+                        
                         @if($showComponents) 
-                        @livewire('plan-estudios.curso-index', ['nivel' => $nivel])                        
+                        {{-- <input type="text" @if($mode == 'update') wire:click="edit()"  @else wire:click="create()" @endif  hidden> --}}
+                        @livewire('plan-estudios.curso-index', ['nivel' => $nivel])   
+                        
                         @endif
 
                    </div>
@@ -263,7 +269,7 @@
                                                             // dd($cursos);                                                            
                                                         @endphp
                                                             @forelse($cursos as $curso)
-                                                            <li><a href="#" >{{$curso->nom_curso ?? ''}}</a></li>
+                                                            <li><a href="#" >{{$curso->nom_materia ?? ''}}</a></li>
                                                             @empty
                                                                 No existe Cursos    
                                                             @endforelse

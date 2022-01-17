@@ -9757,7 +9757,7 @@ class UsersTableSeeder extends Seeder
             295 => 
             array (
                 'id' => 435,
-                'name' => 'KCHOQUE',
+                'name' => 'KCHOQUE12345',
                 'email' => '',
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$p2cvQSYaipcYaY/Cz14PZ.H6HBOtrBozy9sJap7hOskWl0oKml/p.',
