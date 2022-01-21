@@ -238,7 +238,7 @@
                 }).then(function(response){                    
                     return response.json()
                 }).then(function(data){
-                    console.log(data);
+                    // console.log(data);
                     var valuesV = [];
                     var catCon= [];
 
@@ -313,7 +313,7 @@
                 }).then(function(response){                    
                     return response.json()
                 }).then(function(data){
-                    console.log(data);
+                    // console.log(data);
                     var valuesV = [];
                     var catCon= [];
 
@@ -383,13 +383,13 @@
             var chartVac = Highcharts.chart('vacunas', optionsVac)
 
             function requestDataVac(){               
-                fetch('/salacovid/vacunas',{
+                fetch('{{ url('/salacovid/vacunas')}}',{
                     method: 'GET',
                     headers: {"Accept": "application/json"}
                 }).then(function(response){                    
                     return response.json()
                 }).then(function(data){
-                    console.log(data);
+                    // console.log(data);
                     var dosisuno = [];
                     var dosisdos = [];
                     var catVac = [];
@@ -699,7 +699,7 @@
                     return response.json()
                     })
                     .then(function(data1){
-                    console.log(data1);
+                    // console.log(data1);
                     var positivos = [];
                     var negativos = [];
                     var catAnt= [];
