@@ -232,7 +232,7 @@
             var chartCon = Highcharts.chart('sospechosos', optionsCon)
 
             function requestDataCon(){               
-                fetch('/salacovid/positivos',{
+                fetch('{{ url('/salacovid/positivos')}}',{
                     method: 'GET',
                     headers: {"Accept": "application/json"}
                 }).then(function(response){                    
@@ -307,7 +307,7 @@
             var chartCon1 = Highcharts.chart('atendidos', optionsCon1)
 
             function requestDataCon1(){               
-                fetch('/salacovid/atendidos',{
+                fetch('{{ url('/salacovid/atendidos')}}',{
                     method: 'GET',
                     headers: {"Accept": "application/json"}
                 }).then(function(response){                    
@@ -692,7 +692,7 @@
             var chartAnt = Highcharts.chart('antigenos', optionsAnt)
 
             function requestDataAnt(){               
-                fetch('/salacovid/antigenos',{
+                fetch('{{ url('/salacovid/antigenos')}}',{
                     method: 'GET',
                     headers: {"Accept": "application/json"}})
                     .then(function(response){                    
