@@ -282,12 +282,13 @@ class ComisionIndex extends Component
             'users' => $users,
         ];
 
-        $pdf = PDF::loadView('livewire.reportes.anuencia', $var)->output();
-        // return $pdf->download('solicitud.pdf');
-        return response()->streamDownload(
-            fn() => print($pdf),
-            "anuencia.pdf" 
-        );
+        $pdf = PDF::loadView('livewire.reportes.anuencia', array('com'=>$model, 'users'=>$users));
+        
+        return $pdf->download('anunecia.pdf');
+        // return response()->streamDownload(
+        //     fn() => print($pdf),
+        //     "anuencia.pdf" 
+        // );
     }
 
 }

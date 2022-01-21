@@ -312,11 +312,11 @@ class SolicitudIndex extends Component
         ];
 
         $pdf = PDF::loadView('livewire.reportes.almacen_solicitud', $var)->output();
-        // return $pdf->download('solicitud.pdf');
-        return response()->streamDownload(
-            fn() => print($pdf),
-            "solicitudalmacen.pdf" 
-        );
+        return $pdf->download('solicitud.pdf');
+        // return response()->streamDownload(
+        //     fn() => print($pdf),
+        //     "solicitudalmacen.pdf" 
+        // );
     }
 
 }

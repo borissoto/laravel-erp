@@ -252,11 +252,11 @@ class ViajeIndex extends Component
         ];
 
         $pdf = PDF::loadView('livewire.reportes.adm_viaje', $var)->output();
-        // return $pdf->download('solicitud.pdf');
-        return response()->streamDownload(
-            fn() => print($pdf),
-            "viajecomision.pdf" 
-        );
+        return $pdf->download('solicitud.pdf');
+        // return response()->streamDownload(
+        //     fn() => print($pdf),
+        //     "viajecomision.pdf" 
+        // );
     }
 
 }
