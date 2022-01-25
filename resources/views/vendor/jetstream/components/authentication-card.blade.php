@@ -1,7 +1,7 @@
 <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0" 
 {{-- style="background-image: url( {{url('/dist/img/bg-star.jpg')}}); " --}}
 >
-    <div class="page">
+    <div class="page" >
         <div class="contenedor">
             
             <div class="left">
