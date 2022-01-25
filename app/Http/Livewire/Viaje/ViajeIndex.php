@@ -12,6 +12,7 @@ use App\Models\User;
 use Carbon\Carbon;
 use DateTime;
 use Barryvdh\DomPDF\Facade as PDF;
+use Illuminate\Support\Facades\App;
 
 class ViajeIndex extends Component
 {
@@ -243,20 +244,27 @@ class ViajeIndex extends Component
     public function sendPrint($primaryId)
     {
 
-        $model = Model::find($primaryId);
+        $model = Model::find($primaryId)->get();
         // $art = AdmViaje::where('id', '=',$this->primaryId )->get();
         
         $var = [             
-            'viaje' => $model,
-            // 'peds' => $art,
+            'viaje' => $model,            
         ];
 
-        $pdf = PDF::loadView('livewire.reportes.adm_viaje', $var)->output();
-        return $pdf->download('solicitud.pdf');
+        // $pdf = PDF::loadView('livewire.reportes.adm_viaje', $var)->output();
+        // return $pdf->download('solicitud.pdf');
         // return response()->streamDownload(
         //     fn() => print($pdf),
         //     "viajecomision.pdf" 
         // );
+        return response()->streamDownload(
+            function () use($var) { 
+                // $pdf = PDF::loadView('livewire.reportes.anuencia', array('com'=>$model, 'users'=>$users))->output();
+                // $pdf = App::make('dompdf.wrapper');
+                $pdf = PDF::loadView('livewire.reportes.reporte_viaje', $var);
+                echo $pdf->stream();
+            }, "viajecomision.pdf"
+        );
     }
 
 }

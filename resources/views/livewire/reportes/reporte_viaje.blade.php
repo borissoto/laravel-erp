@@ -32,7 +32,8 @@ div.a{
 <body>
    
    <h4>MEMORANDUM</h4>
-   <h4>MSyD/PSAFCI/ME/{{$viaje->cite}}/2021</h4>
+   
+   <h4>MSyD/PSAFCI/ME/{{$viaje[0]->cite}}/2021</h4>
     <table width="100%">
 
         <tbody>
@@ -44,12 +45,12 @@ div.a{
                 </td>
                 <td style="padding-left: 8px">
                     Dr(a).<br/>
-                    <strong> {{$viaje->coordinador->nombres.' '.$viaje->coordinador->ap_paterno.' '.$viaje->coordinador->ap_materno}} </strong> <br/>
+                    <strong> {{$viaje[0]->coordinador->nombres.' '.$viaje[0]->coordinador->ap_paterno.' '.$viaje[0]->coordinador->ap_materno}} </strong> <br/>
                     COORDINADOR(A)<br/>
                     DEPARTAMENTAL DE LA <br/>
                     IMPLEMENTACION DE LA <br/>
                     POLITICA SAFCI - MI SALUD<br/>
-                    {{$viaje->departamento->nom_departamento}}<br/>
+                    {{$viaje[0]->departamento->nom_departamento}}<br/>
 
                 </td>
             </tr>
@@ -60,37 +61,37 @@ div.a{
     <br/>
     
 
-    Doctor(a):  {{$viaje->coordinador->ap_paterno}} <br/> <br/>
-    Mediante el presente memorandum tengo a bien comunicarle a usted, con el item Nro <b> {{$viaje->coordinador->item}} </b> y 
-    CI <b> {{$viaje->coordinador->ci}} </b> que fue designado en comision de viaje a fin de realizar <b> {{$viaje->objeto}} </b>
-    en el marco de la <strong> {{$viaje->poa->operacion}} </strong>, para el cumplimiento del mismo,
+    Doctor(a):  {{$viaje[0]->coordinador->ap_paterno}} <br/> <br/>
+    Mediante el presente memorandum tengo a bien comunicarle a usted, con el item Nro <b> {{$viaje[0]->coordinador->item}} </b> y 
+    CI <b> {{$viaje[0]->coordinador->ci}} </b> que fue designado en comision de viaje a fin de realizar <b> {{$viaje[0]->objeto}} </b>
+    en el marco de la <strong> {{$viaje[0]->poa->operacion}} </strong>, para el cumplimiento del mismo,
     se le designa a cumplir con el siguiente cronograma:
     <br/>
     <br/>
 
     <div class="a">
-        <label>Lugar: </label> <strong> {{$viaje->lugar}}</strong> 
+        <label>Lugar: </label> <strong> {{$viaje[0]->lugar}}</strong> 
     </div>
     <div class="a">
-        <label>Departamento: </label>  <strong> {{$viaje->departamento->nom_departamento}} </strong> 
+        <label>Departamento: </label>  <strong> {{$viaje[0]->departamento->nom_departamento}} </strong> 
     </div>
     <div class="a">
-        <label>Objeto de la comision: </label> <strong>  {{$viaje->poa->operacion}} </strong> 
+        <label>Objeto de la comision: </label> <strong>  {{$viaje[0]->poa->operacion}} </strong> 
     </div>
     <div class="a">
-        <label>Fecha Salida</label> <strong> {{ \Carbon\Carbon::parse($viaje->fecha_salida)->format('Y-m-d')}} <strong>
+        <label>Fecha Salida</label> <strong> {{ \Carbon\Carbon::parse($viaje[0]->fecha_salida)->format('Y-m-d')}} <strong>
     </div>
     <div class="a">
-        <label>Fecha Retorno</label> <strong> {{ \Carbon\Carbon::parse($viaje->fecha_retorno)->format('Y-m-d')}} </strong>
+        <label>Fecha Retorno</label> <strong> {{ \Carbon\Carbon::parse($viaje[0]->fecha_retorno)->format('Y-m-d')}} </strong>
     </div>
    <div class="a">
-       <label>Duracion: </label> <strong> {{$viaje->duracion}}</strong> dia(s).
+       <label>Duracion: </label> <strong> {{$viaje[0]->duracion}}</strong> dia(s).
    </div>
    <div class="a">
-       <label>Medio de Transporte: </label> <strong> {{$viaje->transporte}}</strong> 
+       <label>Medio de Transporte: </label> <strong> {{$viaje[0]->transporte}}</strong> 
    </div>
     {{-- <div>
-        <label>Justificativo</label><textarea> {{$viaje->justificativo}} </textarea>        
+        <label>Justificativo</label><textarea> {{$viaje[0]->justificativo}} </textarea>        
     </div> --}}
     <p></p>
     <br/>

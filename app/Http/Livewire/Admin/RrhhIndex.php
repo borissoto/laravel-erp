@@ -226,7 +226,7 @@ class RrhhIndex extends Component
             'ap_paterno' => 'required',
             // 'ap_materno' => 'required',
             'adm_departamento_id'=> 'required',
-            'ci' => 'required|numeric|min:5|max:9|unique:users',                        
+            'ci' => 'required|numeric|between:10000,12000000',                        
             'sexo' => 'required',
             // 'fecha_nac' => 'required',
             'telefono' => 'required',
@@ -245,7 +245,7 @@ class RrhhIndex extends Component
 
         User::create([           
 
-            'name' => $this->name,
+            'name' => Str::upper($this->name),
             'email' => $this->email,            
             'password' => $this->password,                                    
             'adm_establecimiento_id' => 0,                                    

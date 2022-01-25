@@ -9,6 +9,8 @@ use Carbon\Carbon;
 use Livewire\Component;
 use Livewire\WithPagination;
 use Barryvdh\DomPDF\Facade as PDF;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\View;
 
 class ComisionIndex extends Component
 {
@@ -282,13 +284,20 @@ class ComisionIndex extends Component
             'users' => $users,
         ];
 
-        $pdf = PDF::loadView('livewire.reportes.anuencia', array('com'=>$model, 'users'=>$users));
+        // $layout = View::make('livewire.reportes.anuencia', array('com'=>$model, 'users'=>$users)); 
         
-        return $pdf->download('anunecia.pdf');
-        // return response()->streamDownload(
-        //     fn() => print($pdf),
-        //     "anuencia.pdf" 
-        // );
+        // $pdf = App::make('dompdf.wrapper');
+        // $pdf->loadHTML($layout->render());
+        // return $pdf->stream();
+        // return $pdf->download('anunecia.pdf');
+        return response()->streamDownload(
+            function () use($var) { 
+                // $pdf = PDF::loadView('livewire.reportes.anuencia', array('com'=>$model, 'users'=>$users))->output();
+                // $pdf = App::make('dompdf.wrapper');
+                $pdf = PDF::loadView('livewire.reportes.reporte_anuencia', compact('var'));
+                echo $pdf->stream();
+            }, "anuencia.pdf"
+        );
     }
 
 }

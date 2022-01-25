@@ -31,6 +31,7 @@
                                             <option value="MEDICO RESIDENTE">MEDICO RESIDENTE</option>
                                             <option value="CONDUCTOR">CONDUCTOR</option>
                                             <option value="AUXILIAR DE ENFERMERIA">AUXILIAR DE ENFERMERIA</option>
+                                            <option value="AUXILIAR DE ENFERMERIA">ADMINISTRACION</option>                                            
                                         </select> 
                                         @error('nom_cargo') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>                                                   

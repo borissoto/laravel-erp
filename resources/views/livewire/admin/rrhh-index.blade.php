@@ -1,5 +1,5 @@
 <div>
-    <x-loading />
+    {{-- <x-loading /> --}}
     @include('livewire.modals.rrhh.create')
     @include('livewire.modals.rrhh.update')
     @if (session()->has('message'))
@@ -138,11 +138,15 @@
                                 <td class="align-middle">{{ $user->nombres}}</td>
                                 <td class="align-middle">{{ $user->ap_paterno}}</td>
                                 <td class="align-middle">{{ $user->ap_materno}}</td>
-                                <td class="align-middle">{{ $user->ci }}</td>                               
+                                <td class="align-middle">{{ $user->ci }}</td>
+                                @if ($user->cargos === 0 || $user->cargos === null)
+                                    <td class="align-middle"><span class="badge bg-secondary">No Cargo</span></td>
+                                @else                 
                                 <td class="align-middle">{{ $user->cargos->nom_cargo}}</td>  
+                                @endif  
                                 <td class="align-middle">{{ $user->nivel}}</td>  
                                 @if ($user->establecimiento === 0 || $user->establecimiento === null)                             
-                                <td class="align-middle"><span class="badge bg-secondary">No Depto</span></td>
+                                    <td class="align-middle"><span class="badge bg-secondary">No Depto</span></td>
                                 @else
                                     <td class="align-middle">{{ $user->establecimiento->departamento->nom_departamento}}</td>
                                 @endif                                   
@@ -152,7 +156,7 @@
                                     <td class="align-middle">{{ $user->establecimiento->municipio->nom_municipio}}</td>
                                 @endif
                                 @if ($user->establecimiento === 0 || $user->establecimiento === null)                             
-                                <td class="align-middle"><span class="badge bg-secondary">No EESS</span></td>
+                                    <td class="align-middle"><span class="badge bg-secondary">No EESS</span></td>
                                 @else
                                     <td class="align-middle">{{ $user->establecimiento->nom_establecimiento}}</td>
                                 @endif

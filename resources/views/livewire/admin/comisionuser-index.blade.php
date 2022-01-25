@@ -34,16 +34,18 @@
                 <table width="100%" class="table table-sm table-bordered text-sm">
                     <thead>
                     <tr>
-                        <th>Usuario</th>
                         <th>Anuencia Id</th>
+                        <th>Usuario</th>
+                        <th>Estado</th>
                         <th>Acciones</th>
                     </tr>
                     </thead>
                     <tbody>
                     @forelse($rows as $row)
                     <tr> 
-                        <td>{{ $row->usuario->nombres.' '.$row->usuario->ap_paterno.' '.$row->usuario->ap_materno}}</td>
                         <td>{{ $row->rrhh_comisiones_id}}</td>
+                        <td>{{ $row->usuario->nombres.' '.$row->usuario->ap_paterno.' '.$row->usuario->ap_materno}}</td>
+                        <td class="align-middle">{!! $row->usuario->estado === 1 ? '<span class="badge bg-success">ACTIVO</span>' : ($row->usuario->estado === 2 ?  '<span class="badge bg-warning">BAJA</span>' : '<span class="badge bg-danger">INACTIVO</span>') !!}</td>
                         <td>
                             {{-- <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
                                 <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
