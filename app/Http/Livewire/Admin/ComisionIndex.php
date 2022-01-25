@@ -8,6 +8,7 @@ use App\Models\User;
 use Carbon\Carbon;
 use Livewire\Component;
 use Livewire\WithPagination;
+use Illuminate\Support\Str;
 use Barryvdh\DomPDF\Facade as PDF;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\View;
@@ -188,8 +189,8 @@ class ComisionIndex extends Component
         $this->cite = $model->cite;
         $this->adm_departamento_id = $model->adm_departamento_id;
         $this->nota_interna = $model->nota_interna;
-        $this->descripcion = $model->descripcion;
-        $this->lugar = $model->lugar;
+        $this->descripcion = Str::upper($model->descripcion);
+        $this->lugar = Str::upper($model->lugar);
         $this->fecha_ini = Carbon::parse($model->fecha_ini)->format('Y-m-d');
         $this->fecha_fin = Carbon::parse($model->fecha_fin)->format('Y-m-d');            
         
@@ -241,8 +242,8 @@ class ComisionIndex extends Component
         $model->cite= $this->cite;
         $model->adm_departamento_id= $this->adm_departamento_id;
         $model->nota_interna= $this->nota_interna;
-        $model->descripcion= $this->descripcion;
-        $model->lugar= $this->lugar;
+        $model->descripcion= Str::upper($this->descripcion);
+        $model->lugar= Str::upper($this->lugar);
         $model->fecha_ini= $this->fecha_ini;
         $model->fecha_fin= $this->fecha_fin;      
                

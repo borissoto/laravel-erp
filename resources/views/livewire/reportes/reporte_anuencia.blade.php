@@ -4,7 +4,8 @@
     <title></title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <style>
+    <style type="text/css">
+          @page { margin-left: 80px; }
 .justtext {text-align: justify}        
 h4 {text-align: center;}
 h5 {text-align: center;}
@@ -25,6 +26,14 @@ table th {
 div.a{
     font-size: 14px;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+footer { position: fixed; bottom: 60px; left: 0px; right: 0px; background-color: lightblue; height: 50px; }
 
 
     </style>
@@ -32,17 +41,26 @@ div.a{
     
 </head>
 <body>
-   
-   <h4>INSTRUCTIVO</h4>  
-   <h5>MYSD/PSAFCI/IN/{{$var['com']->cite}}/2021</h5>
-    <div class="justtext">
+    
+        <img src="{{ public_path('img/anuencia_logo.jpg') }}" style="width: 100%">
+    
+    <br/>
+
+   <h4 >INSTRUCTIVO</h4>  
+   <h4>MYSD/PSAFCI/IN/{{$var['com']->cite}}/2021</h4>
+    <div class="justtext" style="font-size: 14px">
         
         LA COORDINADORA DEPARTAMENTAL Y PERSONAL DEPENDIENTE DEL PROGRAMA SAFCI DEL DEPARTAMENTO DE <strong> {{$var['com']->departamento->nom_departamento}} </strong>
-        EN RESPUESTSAA LA NOTA INTERNA <strong> {{$var['com']->nota_interna}} </strong> SE INSTRUYE: <strong> {{$var['com']->descripcion}} </strong>
+        EN RESPUESTA LA NOTA INTERNA <strong> {{$var['com']->nota_interna}} </strong> 
+        <br/>SE INSTRUYE: <strong> {{$var['com']->descripcion}} </strong>
         A SOLICITUD DE LA COORDINADORA DEPARTAMENTAL DEL PROGRAMA SAFCI.<br/>
-        LA ACTIVIDAD QUE SE DESARROLLARA EN FECHA <strong> {{ \Carbon\Carbon::parse($var['com']->fecha_ini)->format('Y/m/d')}}  </strong> AL <strong> {{\Carbon\Carbon::parse($var['com']->fecha_fin)->format('Y/m/d')}} </strong>
+        LA ACTIVIDAD QUE SE DESARROLLARA <strong> {{$var['com']->lugar}} </strong>. EN FECHA <strong> {{ \Carbon\Carbon::parse($var['com']->fecha_ini)->format('Y/m/d')}}  </strong> AL <strong> {{\Carbon\Carbon::parse($var['com']->fecha_fin)->format('Y/m/d')}} </strong>
 
-        <br/><br/> EL PERSONAL QUE PARTICIPARA SE DETALLLA A CONTINUACION:<br/><br/>
+
+        
+
+
+        <br/><br/> EL PERSONAL QUE PARTICIPARA SE DETALLLA A CONTINUACION:
     </div>
   
     <p></p>
@@ -76,9 +94,22 @@ div.a{
     </tbody>
 </table>
 <br/>
-    
-EL INCUMPLIMIENTO AL PRESENTE INSTRUCTIVO SERA SANCIONADO SEGUN NORMATIVA VIGENTE
+<div class="justtext" style="font-size: 14px">    
+    EL INCUMPLIMIENTO AL PRESENTE INSTRUCTIVO SERA SANCIONADO SEGUN NORMATIVA VIGENTE
+    <br/>
+    <br/>
+    ATENTAMENTE
+</div>
 <br/>
-ATENTAMENTE
+<br/>
+@php
+   \Carbon\Carbon::setLocale('es');
+@endphp
+<div style="text-align: right">
+La Paz, {{ \Carbon\Carbon::parse($var['com']->created_at)->translatedFormat('d F Y') }}
+</div>
+<footer>
+    <img src="{{ public_path('img/anuencia_footer.jpg') }}" style="width: 100%; ">
+</footer>
 </body>
 </html>

@@ -47,23 +47,29 @@
                             <table class="table table-sm table-bordered table-striped text-sm shadow ">
                                 <thead>
                                 <tr>
-                                    <th>Establecimiento</th>
+                                    <th>Estado</th>
+                                    <th>Municipio</th>
                                     <th>Nombres</th>
                                     <th>Ap Paterno</th>
                                     <th>Ap Materno</th>
                                     <th>CI</th>
                                     <th>Item</th>
-                                    <th>Grado</th>
+                                    <th>Cargo</th>
 
-                                    <th scope="col">
-                                        <span class="sr-only">Actions</span>
+                                    <th >
+                                        <span >Sel</span>
                                     </th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 @forelse($rows as $row)
                                 <tr>
-                                    <td>{{ $row->adm_establecimiento_id}}</td>
+                                    <td class="align-middle">{!! $row->estado === 1 ? '<span class="badge bg-success">ACTIVO</span>' : ($row->estado === 2 ?  '<span class="badge bg-warning">BAJA</span>' : '<span class="badge bg-danger">INACTIVO</span>') !!}</td>
+                                    @if ($row->establecimiento === 0 || $row->establecimiento === null)
+                                        <td class="align-middle"><span class="badge bg-secondary">No Mun</span></td>
+                                    @else
+                                        <td class="align-middle">{{ $row->establecimiento->municipio->nom_municipio}}</td>
+                                    @endif
                                     <td>{{ $row->nombres}}</td>
                                     <td>{{ $row->ap_paterno}}</td>
                                     <td>{{ $row->ap_materno}}</td>

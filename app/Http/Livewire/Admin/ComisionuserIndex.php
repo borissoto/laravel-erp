@@ -29,6 +29,7 @@ class ComisionuserIndex extends Component
     public $showForm = false;
 
     public $primaryId = null;
+    public $deleteId = null;
 
     public $search;
 
@@ -154,9 +155,11 @@ $this->rrhh_comisiones_id= $model->rrhh_comisiones_id;
         // session()->flash('message', 'Record Updated Successfully');
     }
 
-    public function confirmDelete($primaryId)
+    public function confirmDeleteComisionUser($deleteId)
     {
-        $this->primaryId = $primaryId;
+        // dd($primaryId);
+        $this->deleteId = $deleteId;
+        // dd($this->primaryId);
         $this->showConfirmDeletePopup = true;
         $this->emit('showConfirmDelete');
     }
@@ -166,9 +169,10 @@ $this->rrhh_comisiones_id= $model->rrhh_comisiones_id;
         $this->emit('hideConfirmDelete');
     }
 
-    public function destroy()
+    public function destroyComisionuser()
     {
-        Model::find($this->primaryId)->delete();
+        // dd($this->delteId);
+        Model::find($this->deleteId)->delete();
         $this->showConfirmDeletePopup = false;
         $this->emit('hideConfirmDelete');
         session()->flash('message', 'Record Deleted Successfully');

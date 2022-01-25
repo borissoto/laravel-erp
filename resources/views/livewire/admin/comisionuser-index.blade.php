@@ -35,17 +35,29 @@
                     <thead>
                     <tr>
                         <th>Anuencia Id</th>
-                        <th>Usuario</th>
                         <th>Estado</th>
-                        <th>Acciones</th>
+                        <th>Municipio</th>                        
+                        <th>Nombre Completo</th>
+                        <th>CI</th>
+                        <th>Item</th>
+                        <th>Cargo</th>
+                        <th>Elim</th>
                     </tr>
                     </thead>
                     <tbody>
                     @forelse($rows as $row)
                     <tr> 
                         <td>{{ $row->rrhh_comisiones_id}}</td>
-                        <td>{{ $row->usuario->nombres.' '.$row->usuario->ap_paterno.' '.$row->usuario->ap_materno}}</td>
                         <td class="align-middle">{!! $row->usuario->estado === 1 ? '<span class="badge bg-success">ACTIVO</span>' : ($row->usuario->estado === 2 ?  '<span class="badge bg-warning">BAJA</span>' : '<span class="badge bg-danger">INACTIVO</span>') !!}</td>
+                        @if ($row->establecimiento === 0 || $row->establecimiento === null)
+                            <td class="align-middle"><span class="badge bg-secondary">No Mun</span></td>
+                        @else
+                            <td class="align-middle">{{ $row->establecimiento->municipio->nom_municipio}}</td>
+                        @endif
+                        <td>{{ $row->usuario->nombres.' '.$row->usuario->ap_paterno.' '.$row->usuario->ap_materno}}</td>
+                        <td>{{ $row->ci}}</td>
+                        <td>{{ $row->item}}</td>
+                        <td>{{ $row->grado}}</td>
                         <td>
                             {{-- <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
                                 <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
@@ -53,7 +65,7 @@
                                     <path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd" />
                                 </svg>
                             </a> --}}
-                            <a href="#" class="text-danger" wire:click.prevent="confirmDelete({{ $row->id }})"> 
+                            <a href="#" class="text-danger" wire:click.prevent="confirmDeleteComisionUser({{ $row->id }})"> 
                                 <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
                                     <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2HzM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
                                 </svg>
@@ -120,11 +132,11 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                           Esta seguro de eliminar el registro?
+                           Esta segur@ de eliminar el usuario de la anunecia?
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" wire:click="destroy()" class="btn btn-danger">Delete</button>
+                            <button type="button" wire:click="destroyComisionuser()" class="btn btn-danger">Delete</button>
                         </div>
                     </div>
                 </div>
