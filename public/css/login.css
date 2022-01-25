@@ -34,7 +34,7 @@ body {
   
   
   
-  background-image: url("{{ url('img/bg-star.jpg')}}");
+  background-image: url("../img/bg-star.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
