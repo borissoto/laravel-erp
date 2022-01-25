@@ -18,9 +18,9 @@ class CreateRrhhComisionesTable extends Migration
             $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null');
             $table->unsignedBigInteger('adm_departamento_id');
             $table->string('cite')->nullable();
-            $table->string('descripcion')->nullable();
+            $table->text('descripcion')->nullable();
             $table->string('nota_interna')->nullable();
-            $table->string('lugar')->nullable();
+            $table->text('lugar')->nullable();
             $table->timestamp('fecha_ini')->nullable(); // fecha de la anuencia
             $table->timestamp('fecha_fin')->nullable(); // fecha de la anuencia
             $table->timestamps();
