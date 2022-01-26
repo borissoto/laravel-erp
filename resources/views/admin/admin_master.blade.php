@@ -227,6 +227,13 @@ window.livewire.on('showComisionUser', () => {
       $('#showFormComisionUser').modal('hide');
   });
 
+  window.livewire.on('showDeleteComisionUser', () => {
+      $('#deleteComisionUserModal').modal('show');
+  });
+  window.livewire.on('hideDeleteComisionUser', () => {
+      $('#deleteComisionUserModal').modal('hide');
+  });
+
 </script>
 
 

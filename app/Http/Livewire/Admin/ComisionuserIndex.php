@@ -127,7 +127,7 @@ $this->rrhh_comisiones_id= $model->rrhh_comisiones_id;
 
           $this->resetForm();
           $this->emit("hideComisionUser");
-        //   session()->flash('message', 'Record Saved Successfully');
+          session()->flash('message', 'Record Saved Successfully');
         //   $this->showForm = false;
 
     }
@@ -152,7 +152,7 @@ $this->rrhh_comisiones_id= $model->rrhh_comisiones_id;
 
         $this->resetForm();
         $this->emit("hideComisionUser");
-        // session()->flash('message', 'Record Updated Successfully');
+        session()->flash('message', 'Record Updated Successfully');
     }
 
     public function confirmDeleteComisionUser($deleteId)
@@ -161,12 +161,12 @@ $this->rrhh_comisiones_id= $model->rrhh_comisiones_id;
         $this->deleteId = $deleteId;
         // dd($this->primaryId);
         $this->showConfirmDeletePopup = true;
-        $this->emit('showConfirmDelete');
+        $this->emit('showDeleteComisionUser');
     }
 
     public function hideConfirmationModal()
     {
-        $this->emit('hideConfirmDelete');
+        $this->emit('hideDeleteComisionUser');
     }
 
     public function destroyComisionuser()
@@ -174,8 +174,16 @@ $this->rrhh_comisiones_id= $model->rrhh_comisiones_id;
         // dd($this->delteId);
         Model::find($this->deleteId)->delete();
         $this->showConfirmDeletePopup = false;
-        $this->emit('hideConfirmDelete');
+        $this->emit('hideDeleteComisionUser');
         session()->flash('message', 'Record Deleted Successfully');
+    }
+    
+    public function closeDeleteForm()
+    {
+        $this->showForm = false;
+
+        // $this->emit("hideForm");
+        $this->emit("hideDeleteComisionUser");
     }
 
     public function clearFlash()

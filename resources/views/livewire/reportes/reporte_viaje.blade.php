@@ -26,7 +26,7 @@ table th {
 div.a{
     font-size: 14px;
 }
-footer { position: fixed; bottom: 10px; left: 0px; right: 0px; background-color: lightblue; height: 50px; }
+footer { position: fixed; bottom: 40px; left: 0px; right: 0px; background-color: lightblue; height: 50px; }
 
     </style>
         
@@ -39,7 +39,7 @@ footer { position: fixed; bottom: 10px; left: 0px; right: 0px; background-color:
    <h4>MEMORANDUM</h4>
    
    <h4>MSyD/PSAFCI/ME/{{$viaje[0]->cite}}/2021</h4>
-    <table width="100%">
+    <table width="100%" style="font-size: 14px">
 
         <tbody>
             <tr>
@@ -64,8 +64,7 @@ footer { position: fixed; bottom: 10px; left: 0px; right: 0px; background-color:
         </tbody>
     </table>
     <br/>
-    <br/>
-    <br/>
+    <br/>   
     
 <div class="justtext" style="font-size: 14px">
 

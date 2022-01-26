@@ -27,6 +27,7 @@
                                             <option value="3ERA DOSIS">3ERA DOSIS</option>
                                             <option value="4TA DOSIS">4TA DOSIS</option>                                            
                                             <option value="5TA DOSIS">5TA DOSIS</option>                                                                                                                              
+                                            <option value="5TA DOSIS">6TA DOSIS</option>                                                                                                                              
                                                                                     
                                         </select>
                                         @error('dosis') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
@@ -43,6 +44,7 @@
                                             <option value="BIONTECH PFIZER">PFIZER</option>
                                             <option value="SPUTNIK V">SPUTNIK V</option>
                                             <option value="JOHNSON & JOHNSON">JOHNSON & JOHNSON</option>                                      
+                                            <option value="MODERNA">MODERNA</option>
                                                                                     
                                         </select>
                                         @error('nom_vacuna') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 

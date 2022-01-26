@@ -122,9 +122,9 @@ class ViajeIndex extends Component
         $this->lugar= $model->lugar;
         $this->adm_departamento_id= $model->adm_departamento_id;
         $this->adm_poa_id= $model->adm_poa_id;
-        $this->fecha_salida= $model->fecha_salida;
-        $this->fecha_retorno= $model->fecha_retorno;
-        // $this->duracion= $model->duracion;
+        $this->fecha_salida= Carbon::parse($model->fecha_salida)->format('Y-m-d');
+        $this->fecha_retorno= Carbon::parse($model->fecha_retorno)->format('Y-m-d');
+        $this->duracion= $model->duracion;
         $this->transporte= $model->transporte;
         // $this->estado= $model->estado;
         // $this->user_id= $model->user_id;
@@ -206,8 +206,8 @@ class ViajeIndex extends Component
         $model->fecha_retorno= $this->fecha_retorno;
         $model->duracion= $this->duracion;
         $model->transporte= $this->transporte;
-        $model->estado= $this->estado;
-        $model->user_id= $this->user_id;
+        $model->estado= 'SOLICITADO';
+        $model->user_id= auth()->user()->id;
         $model->coordinador_id= $this->coordinador_id;
         $model->save();
         

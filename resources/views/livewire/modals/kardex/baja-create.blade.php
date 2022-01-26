@@ -23,16 +23,16 @@
                                         <select wire:model="tipo" name="med" id="financiamiento" class="form-control">
                                             <option value="">- Escoja -</option>
                                             <option value="ACCIDENTE LABORAL">ACCIDENTE LABORAL</option>
-                                            <option value="BAJA MEDICA">BAJA MEDICA</option>                                            
-                                            <option value="BAJA MEDICA POR MATERNIDAD (PURPERIO)">BAJA MEDICA POR MATERNIDAD (PURPERIO)</option>
-                                            <option value="BAJA MEDICA POSTNATAL">BAJA MEDICA POSTNATAL</option>                                            
-                                            <option value="BAJA POR ACCIDENTES">BAJA POR ACCIDENTES</option>                                            
+                                            {{-- <option value="BAJA MEDICA">BAJA MEDICA</option>                                             --}}
+                                            {{-- <option value="BAJA MEDICA POR MATERNIDAD (PURPERIO)">BAJA MEDICA POR MATERNIDAD (PURPERIO)</option> --}}
+                                            <option value="BAJA MEDICA POSTNATAL">BAJA MEDICA PRENATAL Y POSTNATAL</option>                                            
+                                            {{-- <option value="BAJA POR ACCIDENTES">BAJA POR ACCIDENTES</option>                                             --}}
                                             <option value="BAJA POR COVID">BAJA POR COVID</option>                                            
                                             <option value="BAJA POR ENFERMEDAD (NO COVID)">BAJA POR ENFERMEDAD (NO COVID)</option>                                            
-                                            <option value="BAJA PRENATAL">BAJA PRENATAL</option>                                            
-                                            <option value="BAJA POR CORMOBILIDAD">BAJA POR CORMOBILIDAD</option>                                            
-                                            <option value="BAJA POR CONDICION DE BASE">BAJA POR CONDICION DE BASE</option>                                            
-                                            <option value="SIN PERMISO ESPECIAL">SIN PERMISO ESPECIAL</option>                                            
+                                            {{-- <option value="BAJA PRENATAL">BAJA PRENATAL</option>                                             --}}
+                                            {{-- <option value="BAJA POR CORMOBILIDAD">BAJA POR CORMOBILIDAD</option>                                             --}}
+                                            {{-- <option value="BAJA POR CONDICION DE BASE">BAJA POR CONDICION DE BASE</option>                                             --}}
+                                            {{-- <option value="SIN PERMISO ESPECIAL">SIN PERMISO ESPECIAL</option>                                             --}}
                                                                                     
                                         </select>
                                         @error('tipo') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
@@ -50,7 +50,14 @@
                                 <div class="form-group row">
                                     <label for="factor_riesgo" class="col-sm-4 col-form-label">Factor Riesgo</label>
                                     <div class="col-sm-8">
-                                        <input wire:model="factor_riesgo" class="form-control" type="text" value="" id="factor_riesgo">
+                                        {{-- <input wire:model="factor_riesgo" class="form-control" type="text" value="" id="factor_riesgo"> --}}
+                                        <select wire:model="factor_riesgo" name="factor_riesgo" id="factor_riesgo" class="form-control">
+                                            <option value="">- Escoja -</option>
+                                            <option value="MADRE CON HIJO(A) MENOR A 1 AÑO">MADRE CON HIJO(A) MENOR A 1 AÑO</option>
+                                            <option value="MAYOR DE 60">MAYOR DE 60</option>                                            
+                                            <option value="DISCAPACIDAD">DISCAPACIDAD</option>
+                                            <option value="OTROS">OTROS</option>
+                                        </select>
                                         @error('factor_riesgo') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>                                                                                   
                                 </div>

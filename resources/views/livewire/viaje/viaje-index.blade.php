@@ -38,13 +38,13 @@
                         <th>Cite</th>
                         <th>Lugar</th>
                         <th>Departamento</th>
+                        <th>Coordinador - Destinatario</th>
                         <th>Poa</th>
                         <th>Fecha Partida</th>
                         <th>Fecha Retorno</th>
                         <th>Duracion</th>                        
                         <th>Estado</th>
                         <th>Remitente</th>
-                        <th>Destinatario</th>
                         <th>Acciones</th>                        
                     </tr>
                     </thead>
@@ -54,14 +54,14 @@
                         
                         <td>{{ $row->cite}}</td>
                         <td>{{ $row->lugar}}</td>
-                        <td>{{ $row->adm_departamento_id}}</td>
+                        <td>{{ $row->departamento->nom_departamento}}</td>
+                        <td>{{ $row->coordinador->nombres.' '.$row->coordinador->ap_paterno.' '.$row->coordinador->ap_materno}}</td>
                         <td>{{ $row->poa->codigo}}</td>
                         <td>{{ \Carbon\Carbon::parse($row->fecha_salida)->format('Y-m-d')}}</td>
                         <td>{{ \Carbon\Carbon::parse($row->fecha_retorno)->format('Y-m-d')}}</td>
                         <td>{{ $row->duracion}}</td>                        
                         <td>{{ $row->estado}}</td>
                         <td>{{ $row->usuario->name}}</td>
-                        <td>{{ $row->coordinador->name}}</td>
                         <td>
                             <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
                                 <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">

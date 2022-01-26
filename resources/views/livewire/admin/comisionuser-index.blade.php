@@ -6,8 +6,8 @@
                 <b class="capitalize">{{ __('Success') }}!</b> {{ session('message') }}
                 </span>
                 <button wire:click="clearFlash()"
-                        class="float-right btn-xs btn btn-outline-success">
-                    <span>×</span>
+                        class="float-right btn btn-sm btn-outline-light">
+                    <span>X</span>
                 </button>
             </div>
         </div>
@@ -49,15 +49,15 @@
                     <tr> 
                         <td>{{ $row->rrhh_comisiones_id}}</td>
                         <td class="align-middle">{!! $row->usuario->estado === 1 ? '<span class="badge bg-success">ACTIVO</span>' : ($row->usuario->estado === 2 ?  '<span class="badge bg-warning">BAJA</span>' : '<span class="badge bg-danger">INACTIVO</span>') !!}</td>
-                        @if ($row->establecimiento === 0 || $row->establecimiento === null)
+                        @if ($row->usuario->establecimiento === 0 || $row->usuario->establecimiento === null)
                             <td class="align-middle"><span class="badge bg-secondary">No Mun</span></td>
                         @else
-                            <td class="align-middle">{{ $row->establecimiento->municipio->nom_municipio}}</td>
+                            <td class="align-middle">{{ $row->usuario->establecimiento->municipio->nom_municipio}}</td>
                         @endif
                         <td>{{ $row->usuario->nombres.' '.$row->usuario->ap_paterno.' '.$row->usuario->ap_materno}}</td>
-                        <td>{{ $row->ci}}</td>
-                        <td>{{ $row->item}}</td>
-                        <td>{{ $row->grado}}</td>
+                        <td>{{ $row->usuario->ci}}</td>
+                        <td>{{ $row->usuario->item}}</td>
+                        <td>{{ $row->usuario->grado}}</td>
                         <td>
                             {{-- <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
                                 <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
@@ -122,12 +122,12 @@
 
     {{--    delete popup--}}
     <div wire:ignore>
-            <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModal" aria-hidden="true">
+            <div class="modal fade" id="deleteComisionUserModal" tabindex="-1" role="dialog" aria-labelledby="deleteModal" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Eliminar Registro</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <button type="button" class="close" wire:click="closeDeleteForm()" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
@@ -135,8 +135,8 @@
                            Esta segur@ de eliminar el usuario de la anunecia?
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" wire:click="destroyComisionuser()" class="btn btn-danger">Delete</button>
+                            <button type="button" class="btn btn-secondary" wire:click="closeDeleteForm()">Cerrar</button>
+                            <button type="button" wire:click="destroyComisionuser()" class="btn btn-danger">Eliminar</button>
                         </div>
                     </div>
                 </div>

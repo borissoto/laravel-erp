@@ -47,7 +47,8 @@
         {{-- <div class="container"> --}}
             
             @if (Route::has('login'))
-            <div class="relative flex items-top justify-center h-10 bg-gray-800 sm:items-center py-2 sm:block text-white text-sm">
+            <div class="bg-gray-800  py-2 text-white text-sm" style="max-width: 1280px; width=100%; margin: auto;"> 
+            {{-- <div class="relative flex items-top justify-center h-10 bg-gray-800 sm:items-center py-2 sm:block text-white text-sm"> --}}
 
                 {{-- <div class="hidden fixed top-0 right-0 h-8 bg-gray-800 px-6 py-4 sm:block"> --}}
                     @auth
@@ -69,16 +70,21 @@
                 {{-- </div> --}}
             </div>
         @endif
+    <div class="bg-gray-50" style="max-width: 1280px; width=100%; margin: auto;"> 
             <header>
             
                {{-- <div class="container">  --}}
-                    <img src="{{asset('img/topbanner.jpg')}}"  id="banner" alt="Ministerio de Salud de Bolivia" style="display: block; margin-left:auto; margin-right:auto; width: 80%;">
+                   <div style="max-width: 1280px; width=100%; margin: auto; background-color:white;">
+                       <img src="{{asset('img/topbanner.jpg')}}"  id="banner" alt="Ministerio de Salud de Bolivia" style="display: block; margin-left:auto; margin-right:auto; width: 70%; background-color:rgb(243, 239, 239);">
+                   </div>
                 {{-- </div> --}}
                 <div class="menu_bar">
                     <a href="#" class="bt-menu"><span> <i class="material-icons">menu</i></span>Menú</a>
                 </div>
-                <nav class="navbar" style="background-color: #31487c;">
-                    <a class="navbar-brand" href="index1.html">PROGRAMA SAFCI</a>
+                {{-- <nav class="navbar" style="background-color: #31487c;"> --}}
+                {{-- <nav class="navbar" style="background-color: #e9ecf2;"> --}}
+                <nav class="navbar"  style="background-color: white;">
+                <a class="navbar-brand" href="index1.html">PROGRAMA SAFCI</a>
                     <ul>
                         <li><a href="#"><span> <i class="fa fa-home"></i></span>Inicio</a></li>
                         <li class="submenu">
@@ -200,7 +206,7 @@
             </div>
 
           
-        </div>
+        
 
         <div class="container-lg">
             <div class="parallax-completo1">
@@ -324,6 +330,7 @@
                 </div>
             </div>
         </div>
+    </div>    
 
         {{-- </div> --}}
         
