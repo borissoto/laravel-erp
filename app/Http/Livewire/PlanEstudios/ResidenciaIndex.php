@@ -97,6 +97,8 @@ class ResidenciaIndex extends Component
         $this->mode = 'create';
         $this->resetForm();
         $this->showForm = true;
+        $this->showComponents = false;
+        $this->flag = 0;
 
         $this->emit("showForm");
     }

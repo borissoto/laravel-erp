@@ -204,7 +204,13 @@ class ViajeIndex extends Component
         $model->adm_poa_id= $this->adm_poa_id;
         $model->fecha_salida= $this->fecha_salida;
         $model->fecha_retorno= $this->fecha_retorno;
-        $model->duracion= $this->duracion;
+        // $model->duracion= $this->duracion;
+        $inicio = new DateTime($this->fecha_salida);
+        $fin = new DateTime($this->fecha_retorno);
+        $duracion = $fin->diff($inicio);
+        $dias = $duracion->format('%a');
+        $model->duracion= $dias;
+        
         $model->transporte= $this->transporte;
         $model->estado= 'SOLICITADO';
         $model->user_id= auth()->user()->id;
@@ -243,9 +249,10 @@ class ViajeIndex extends Component
 
     public function sendPrint($primaryId)
     {
-
-        $model = Model::find($primaryId)->get();
+        
+        $model = Model::find($primaryId);
         // $art = AdmViaje::where('id', '=',$this->primaryId )->get();
+        // dd($model);
         
         $var = [             
             'viaje' => $model,            

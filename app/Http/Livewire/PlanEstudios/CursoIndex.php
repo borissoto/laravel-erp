@@ -197,7 +197,8 @@ class CursoIndex extends Component
             $nf1->nom_materia = "OBSTETRICIA";
             $nf1->cod_materia = "OBS1"; //Codigo de materia
             $nf1->nota_max = 50;
-            $nf1->user_id = $this->dr_obs;
+            // $nf1->user_id = $this->dr_obs;
+            $nf1->user_id = $this->jefe;
             $nf1->save();
 
             $nf1 = new Model();
@@ -206,7 +207,8 @@ class CursoIndex extends Component
             $nf1->nom_materia = "GINECOLOGIA";
             $nf1->cod_materia = "GIN1"; //Codigo de materia
             $nf1->nota_max = 50;
-            $nf1->user_id = $this->dr_gin;
+            // $nf1->user_id = $this->dr_gin;
+            $nf1->user_id = $this->jefe;
             $nf1->save();
 
             $nf1 = new Model();
@@ -215,7 +217,8 @@ class CursoIndex extends Component
             $nf1->nom_materia = "MEDICINA INTERNA";
             $nf1->cod_materia = "MI1"; //Codigo de materia
             $nf1->nota_max = 50;
-            $nf1->user_id = $this->dr_int;
+            // $nf1->user_id = $this->dr_int;
+            $nf1->user_id = $this->jefe;
             $nf1->save();
 
             $nf1 = new Model();
@@ -224,7 +227,8 @@ class CursoIndex extends Component
             $nf1->nom_materia = "PEDIATRIA";
             $nf1->cod_materia = "PED1"; //Codigo de materia
             $nf1->nota_max = 50;
-            $nf1->user_id = $this->dr_gin;
+            // $nf1->user_id = $this->dr_gin;
+            $nf1->user_id = $this->jefe;
             $nf1->save();
 
             $nf1 = new Model();
@@ -233,7 +237,8 @@ class CursoIndex extends Component
             $nf1->nom_materia = "NEONATOLOGIA";
             $nf1->cod_materia = "NEO1"; //Codigo de materia
             $nf1->nota_max = 50;
-            $nf1->user_id = $this->dr_ped;
+            // $nf1->user_id = $this->dr_ped;
+            $nf1->user_id = $this->jefe;
             $nf1->save();
 
             $nf1 = new Model();
@@ -242,7 +247,8 @@ class CursoIndex extends Component
             $nf1->nom_materia = "TRAUMATOLOGIA";
             $nf1->cod_materia = "TRA1"; //Codigo de materia
             $nf1->nota_max = 50;
-            $nf1->user_id = $this->dr_tra;
+            // $nf1->user_id = $this->dr_tra;
+            $nf1->user_id = $this->jefe;
             $nf1->save();
 
             $nf1 = new Model();
@@ -251,7 +257,8 @@ class CursoIndex extends Component
             $nf1->nom_materia = "CIRUGIA";
             $nf1->cod_materia = "CIR1"; //Codigo de materia
             $nf1->nota_max = 50;
-            $nf1->user_id = $this->dr_cir;
+            // $nf1->user_id = $this->dr_cir;
+            $nf1->user_id = $this->jefe;
             $nf1->save();
 
             $nf1 = new Model();
@@ -436,13 +443,34 @@ class CursoIndex extends Component
     {
         $this->validate();
 
-        $model = Model::find($this->primaryId);
+        // $model = Model::find($this->primaryId);
+        if($this->nivel == 1){
+            $model = Model::where('pe_residencia_id',$this->primaryId)->get();
+        // dd($model);
+        // $this->pe_residencia_id= $primaryId;
+        // $this->jefe= $model->user_id;
+        // $this->instructor= $model->instructor;
+        // $this->nom_materia= $model->nom_materia;
+        foreach ($model as $m) {
+            if($m->cod_materia === 'OBS1') $this->dr_obs = $m->user_id;
+            if($m->cod_materia === 'GIN1') $this->dr_gin = $m->user_id;
+            if($m->cod_materia === 'MI1') $this->dr_int = $m->user_id;
+            if($m->cod_materia === 'PED1') $this->dr_ped = $m->user_id;
+            if($m->cod_materia === 'NEO1') $this->dr_neo = $m->user_id;
+            if($m->cod_materia === 'TRA1') $this->dr_tra = $m->user_id;
+            if($m->cod_materia === 'CIR1') $this->dr_cir = $m->user_id;            
+            if($m->cod_materia === 'TRIM1') $this->jefe = $m->user_id;
+            $this->nom_jefe = User::select('name','nombres','ap_paterno','ap_materno')->where('id', $this->jefe)->first();     
+        }
+            
+           
+        }
 
-        $model->pe_residencia_id= $this->pe_residencia_id;
-        $model->user_id= $this->user_id;
-        $model->instructor= $this->instructor;
-        $model->nom_materia= Str::upper($this->nom_materia);
-        $model->save();
+        // $model->pe_residencia_id= $this->pe_residencia_id;
+        // $model->user_id= $this->user_id;
+        // $model->instructor= $this->instructor;
+        // $model->nom_materia= Str::upper($this->nom_materia);
+        // $model->save();
 
         // $this->resetForm();
         // $this->emit("hideForm");

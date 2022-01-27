@@ -37,10 +37,10 @@
 
                         <th>Nivel de Formacion</th>
                         <th>Codigo</th>
-                        <th>Gestion Inicio</th>
-                        <th>Mes Inicio</th>
-                        <th>Gestion Fin</th>
-                        <th>Mes Fin</th>
+                        <th>Gestion</th>
+                        {{-- <th>Mes Inicio</th> --}}
+                        {{-- <th>Gestion Fin</th> --}}
+                        {{-- <th>Mes Fin</th> --}}
                         {{-- <th>Estado</th> --}}
                         <th>
                             <span>Acciones</span>
@@ -53,9 +53,9 @@
                         <td>{{ $row->nivel}}</td>
                         <td>{{ $row->nom_residencia}}</td>
                         <td>{{ $row->gestion_ini}}</td>
-                        <td>{{ $row->mes_ini}}</td>
-                        <td>{{ $row->gestion_fin}}</td>
-                        <td>{{ $row->mes_fin}}</td>
+                        {{-- <td>{{ $row->mes_ini}}</td> --}}
+                        {{-- <td>{{ $row->gestion_fin}}</td> --}}
+                        {{-- <td>{{ $row->mes_fin}}</td> --}}
                         {{-- <td>{{ $row->estado}}</td> --}}
                         <td>
                             <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
@@ -102,7 +102,7 @@
                         <div class='form-group row'>
                             <label class="col-sm-2 col-form-label col-form-label-sm text-right" for='nivel'>Nivel Formacion</label>
                             <div class="col-sm-2">
-                                <select wire:model="nivel" id="nivel" class="form-control form-control-sm" {{ $flag == 1 ? 'disabled' : '' }} >                                         
+                                <select wire:model="nivel" id="nivel" class="form-control form-control-sm" {{ $flag == 1 ? 'disabled' : ''  }}  {{ $mode == 'create' ? '' : 'disabled' }}>                                         
                                     <option value="">-Elija Nivel de Formacion-</option>
                                     <option value="1">Nivel de Formacion <span style="font-weight: bolder"> 1er año </span></option>
                                     <option value="2">Nivel de Formacion 2do año</option>
