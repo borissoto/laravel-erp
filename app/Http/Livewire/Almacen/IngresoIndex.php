@@ -117,7 +117,7 @@ class IngresoIndex extends Component
         // $this->fecha_venc= $model->fecha_venc;
         // $this->user_id= $model->user_id;
         $this->valor_total= $model->valor_total;
-        $this->precio_unitario= bcdiv($this->valor_total ,$this->cantidad, 2);
+        $this->precio_unitario= number_format($this->valor_total / $this->cantidad, 2);
 
 
         $this->emit("showIngresoAdd");
@@ -142,7 +142,7 @@ class IngresoIndex extends Component
             $model->alm_comprobante_id= $this->comprobanteId;
             $model->fecha_venc= Carbon::now();
             $model->user_id= auth()->user()->id;
-            $model->precio_unitario= bcdiv($this->valor_total ,$this->cantidad, 2);
+            $model->precio_unitario= number_format($this->valor_total / $this->cantidad, 2);
             $model->valor_total= $this->valor_total;
             $model->save();
 
@@ -177,7 +177,7 @@ class IngresoIndex extends Component
             // $model->alm_comprobante_id= $this->comprobanteId;
             // $model->fecha_venc= Carbon::now();
             // $model->user_id= auth()->user()->id;
-            $model->precio_unitario= bcdiv($this->valor_total ,$this->cantidad, 2);
+            $model->precio_unitario= number_format($this->valor_total / $this->cantidad, 2);
             $model->valor_total= $this->valor_total;
             $model->save();
 
