@@ -31,4 +31,8 @@ class AdmDepartamento extends Model
     public function residentes(){
         return $this->hasMany(PeResidente::class);
     }
+
+    public function residencias(){
+        return $this->hasMany(PeResidencia::class);
+    }
 }

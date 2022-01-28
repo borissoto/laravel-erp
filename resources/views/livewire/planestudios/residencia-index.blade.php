@@ -34,7 +34,7 @@
                 <table class="table table-sm table-bordered table-striped text-sm">
                     <thead>
                     <tr>
-
+                        <th>Departamento</th>
                         <th>Nivel de Formacion</th>
                         <th>Codigo</th>
                         <th>Gestion</th>
@@ -50,6 +50,7 @@
                     <tbody>
                     @forelse($rows as $row)
                     <tr> 
+                        <td>{{ $row->departamento->nom_departamento}}</td>
                         <td>{{ $row->nivel}}</td>
                         <td>{{ $row->nom_residencia}}</td>
                         <td>{{ $row->gestion_ini}}</td>
@@ -98,9 +99,9 @@
                            <span aria-hidden="true">&times;</span>
                        </button>
                    </div>
-                   <div class="modal-body">
+                   <div class="modal-body">                 
                         <div class='form-group row'>
-                            <label class="col-sm-2 col-form-label col-form-label-sm text-right" for='nivel'>Nivel Formacion</label>
+                            <label class="col-sm-1 col-form-label col-form-label-sm text-right" for='nivel'>Nivel</label>
                             <div class="col-sm-2">
                                 <select wire:model="nivel" id="nivel" class="form-control form-control-sm" {{ $flag == 1 ? 'disabled' : ''  }}  {{ $mode == 'create' ? '' : 'disabled' }}>                                         
                                     <option value="">-Elija Nivel de Formacion-</option>
@@ -109,14 +110,30 @@
                                     <option value="3">Nivel de Formacion 3er año</option>                                    
                                 </select> 
                                 @error('nivel')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                            </div>
+                            <label for='adm_departamento_id' class="col-sm-1 col-form-label col-form-label-sm text-right" >Depto</label>
+                            <div class="col-sm-2">
+                                <select wire:model="adm_departamento_id" id="adm_departamento_id" class="form-control form-control-sm" required>
+                                        <option value="">-Escoja-</option>
+                                        <option value="1">LA PAZ</option>
+                                        <option value="2">ORURO</option>
+                                        <option value="3">POTOSI</option>
+                                        <option value="4">COCHABAMBA</option>
+                                        <option value="5">CHUQUISACA</option>
+                                        <option value="6">TARIJA</option>
+                                        <option value="7">PANDO</option>
+                                        <option value="8">BENI</option>
+                                        <option value="9">SANTA CRUZ</option>
+                                    </select>                            
+                                @error('adm_departamento_id') <span class="text-sm text-danger error">{{ $message }} </span>@enderror
                             </div>                      
-                            <label class="col-sm-2 col-form-label col-form-label-sm text-right" for='nom_residencia'>Codigo Gestion</label>
+                            <label class="col-sm-1 col-form-label col-form-label-sm text-right" for='nom_residencia'>Codigo</label>
                             <div class="col-sm-2">                            
                                 <input type='text' class='form-control form-control-sm  @error('nom_residencia')  is-invalid @enderror' wire:model='nom_residencia' {{ $flag == 1 ? 'disabled' : '' }}>
                                 @error('nom_residencia')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
 
-                            <label class="col-sm-2 col-form-label col-form-label-sm text-right" for='gestion_ini'>Gestion</label>
+                            <label class="col-sm-1 col-form-label col-form-label-sm text-right" for='gestion_ini'>Gestion</label>
                             <div class="col-sm-2">
                                 <select wire:model="gestion_ini"  name="gestion_ini" id="gestion_ini" class="form-control form-control-sm" {{ $flag == 1 ? 'disabled' : '' }}>
                                     <option value="" class="text-primary">Escoja Gestion*</option>

@@ -10,6 +10,7 @@ use App\Models\AlmMedida as Model;
 class MedidaIndex extends Component
 {
     use WithPagination;
+    protected $paginationTheme = "bootstrap";
 
     public $paginate = 10;
 

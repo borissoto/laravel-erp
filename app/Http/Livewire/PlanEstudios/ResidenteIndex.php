@@ -243,6 +243,7 @@ class ResidenteIndex extends Component
     {
         $this->nombres= "";
         $this->name= "";
+        $this->password= "";
         $this->email= "";
         $this->ap_paterno= "";
         $this->ap_materno= "";

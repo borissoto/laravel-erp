@@ -10,6 +10,7 @@ use App\Models\AdmUnidades as Model;
 class UnidadesIndex extends Component
 {
     use WithPagination;
+    protected $paginationTheme = "bootstrap";
 
     public $paginate = 10;
 

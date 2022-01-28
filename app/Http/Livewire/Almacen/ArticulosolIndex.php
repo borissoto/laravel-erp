@@ -74,7 +74,7 @@ class ArticulosolIndex extends Component
     {
         $model = Model::where('clase', 'like', '%'.$this->search.'%')->
         orWhere('descrip', 'like', '%'.$this->search.'%')->
-        orWhere('existencia_min', 'like', '%'.$this->search.'%')->
+        // orWhere('existencia_min', 'like', '%'.$this->search.'%')->
         orWhere('alm_subgrupo_id', 'like', '%'.$this->search.'%')->
         orWhere('codigo', 'like', '%'.$this->search.'%')->        
         orWhere('user_id', 'like', '%'.$this->search.'%')->latest()->paginate($this->paginate);
@@ -104,7 +104,7 @@ class ArticulosolIndex extends Component
         $this->descrip= $model->descrip;
         $this->alm_unidad_id= $model->alm_unidad_id;
         $this->marca= $model->marca;
-        $this->existencia_min= $model->existencia_min;
+        // $this->existencia_min= $model->existencia_min;
         $this->clase= $model->clase;
         $this->alm_subgrupo_id= $model->alm_subgrupo_id;
         $this->user_id= $model->user_id;
@@ -130,8 +130,8 @@ class ArticulosolIndex extends Component
         $model->codigo= $this->codigo;
         $model->descrip= Str::upper($this->descrip);
         $model->alm_unidad_id= $this->alm_unidad_id;
-        $model->marca= $this->marca;
-        $model->existencia_min= $this->existencia_min;
+        $model->marca= Str::upper($this->marca);
+        // $model->existencia_min= $this->existencia_min;
         $model->clase= $this->clase;
         $model->alm_subgrupo_id= $this->alm_subgrupo_id;
         $model->user_id= auth()->user()->id;
@@ -169,7 +169,7 @@ class ArticulosolIndex extends Component
             $model->descrip= $this->descrip;
             $model->alm_unidad_id= $this->alm_unidad_id;
             $model->marca= $this->marca;
-            $model->existencia_min= $this->existencia_min;
+            // $model->existencia_min= $this->existencia_min;
             $model->clase= $this->clase;
             $model->alm_subgrupo_id= $this->alm_subgrupo_id;            
             $model->save();

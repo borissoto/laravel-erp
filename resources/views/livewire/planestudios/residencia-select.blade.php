@@ -37,10 +37,10 @@
                         
                         <th>Id</th>
                         <th>Residencia</th>
-                        <th>Gestion Inicio</th>
-                        <th>Mes Inicio</th>
+                        <th>Gestion</th>
+                        {{-- <th>Mes Inicio</th>
                         <th>Gestion Fin</th>
-                        <th>Mes Fin</th>
+                        <th>Mes Fin</th> --}}
                         {{-- <th>Estado</th> --}}
                         <th>
                             <span>Ver</span>

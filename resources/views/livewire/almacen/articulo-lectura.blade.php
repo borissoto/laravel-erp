@@ -29,10 +29,10 @@
                                     <option value="100">100 por página</option> --}}
                                 </select>
                             </div>
-                            <button type="button" wire:click="create" class="btn btn-success btn-sm " data-toggle="modal" data-target="#articuloAdd" >
+                            {{-- <button type="button" wire:click="create" class="btn btn-success btn-sm " data-toggle="modal" data-target="#articuloAdd" >
                                 {{ __('Nuevo Articulo') }}
-                            </button>
-                           <span>  &emsp;&emsp;&emsp; SELECCIONAR ARTICULOS QUE INGRESARAN A ALMACENES </span>
+                            </button> --}}
+                           {{-- <span>  &emsp;&emsp;&emsp; SELECCIONAR ARTICULOS QUE INGRESARAN A ALMACENES </span> --}}
                             <div class="card-tools">
                                 <div class="input-group input-group-sm" style="width: 150px;">
                                     <input wire:model="search" class="form-control float-right" placeholder="Buscar...">
@@ -60,9 +60,9 @@
                                         {{-- <th>Existencia minima</th> --}}
                                         <th>Subgrupo</th>                                    
                                         <th>Usuario</th>
-                                        <th scope="col">
+                                        {{-- <th scope="col">
                                             <span class="sr-only">Acciones</span>
-                                        </th>
+                                        </th> --}}
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -76,30 +76,30 @@
                                     <td>{{ $row->marca}}</td>
                                     {{-- <td>{{ $row->existencia_min}}</td> --}}
                                     <td>{{ $row->subgrupo->descrip}}</td>                                
-                                    <td>{{ $row->user_id}}</td>
-                                    <td>
+                                    <td>{{ $row->usuario->name}}</td>
+                                    {{-- <td>
                                         <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
                                             <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
                                                 <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z" />
                                                 <path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd" />
                                             </svg>
-                                        </a>
+                                        </a> --}}
                                         {{-- <a href="#" class="text-danger" wire:click.prevent="confirmDelete({{ $row->id }})"> 
                                             <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
                                                 <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
                                             </svg>
                                         </a> --}}
-                                        <a href="#" class="text-success" wire:click.prevent="selectedArticulo({{ $row->id }})"> 
+                                        {{-- <a href="#" class="text-success" wire:click.prevent="selectedArticulo({{ $row->id }})">  --}}
                                             {{-- <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16" stroke="green" stroke-width="2" stroke-linecap="round">
                                                 <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
                                                 <path stroke-width="1" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z" clip-rule="evenodd"/>
                                               </svg> --}}
 
-                                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-down-square" viewBox="0 0 16 16" stroke="green"  stroke-width="2" stroke-linecap="round">
+                                              {{-- <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-down-square" viewBox="0 0 16 16" stroke="green"  stroke-width="2" stroke-linecap="round">
                                                 <path stroke-width="1" fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 2.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
-                                              </svg>
-                                        </a>
-                                    </td>
+                                              </svg> --}}
+                                        {{-- </a>
+                                    </td> --}}
                                 </tr>
                                 @endforeach
                               

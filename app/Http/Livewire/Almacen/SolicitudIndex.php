@@ -7,6 +7,7 @@ use Livewire\Component;
 use Livewire\WithPagination;
 use App\Models\AlmSolicitudes as Model;
 use Carbon\Carbon;
+use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Auth;
 use Barryvdh\DomPDF\Facade as PDF;
 
@@ -174,7 +175,7 @@ class SolicitudIndex extends Component
             $model->fecha_solicitud= Carbon::now();
             $model->impresion= 0;
             $model->imprimido= false;
-            $model->justificativo= $this->justificativo;
+            $model->justificativo= Str::upper($this->justificativo);
             $model->user_id= auth()->user()->id;
             $model->save();
             $solicitudId = $model->id;
@@ -228,7 +229,7 @@ class SolicitudIndex extends Component
             // $model->fecha_solicitud= $this->fecha_solicitud;
             // $model->impresion= $this->impresion;
             // $model->imprimido= $this->imprimido;
-            $model->justificativo= $this->justificativo;
+            $model->justificativo= Str::upper($this->justificativo);
             // $model->user_id= $this->user_id;
             $model->save();
             $solicitudId = $model->id;          
@@ -311,12 +312,21 @@ class SolicitudIndex extends Component
             'peds' => $art,
         ];
 
-        $pdf = PDF::loadView('livewire.reportes.almacen_solicitud', $var)->output();
-        return $pdf->download('solicitud.pdf');
+        // $pdf = PDF::loadView('livewire.reportes.almacen_solicitud', $var)->output();
+        // return $pdf->download('solicitud.pdf');
         // return response()->streamDownload(
         //     fn() => print($pdf),
         //     "solicitudalmacen.pdf" 
         // );
+
+        return response()->streamDownload(
+            function () use($var) { 
+                // $pdf = PDF::loadView('livewire.reportes.anuencia', array('com'=>$model, 'users'=>$users))->output();
+                // $pdf = App::make('dompdf.wrapper');
+                $pdf = PDF::loadView('livewire.reportes.reporte_alm_solicitud', compact('var'));
+                echo $pdf->stream();
+            }, "solicitud_almacen.pdf"
+        );
     }
 
 }

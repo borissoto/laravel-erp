@@ -20,7 +20,7 @@ class CreateAlmArticulosTable extends Migration
             $table->unsignedBigInteger('alm_unidad_id')->nullable();
             $table->foreign('alm_unidad_id')->references('id')->on('alm_medidas')->onDelete('set null');
             $table->string('marca')->nullable();
-            $table->integer('existencia_min');
+            $table->integer('existencia_min')->nullable();;
             $table->string('clase')->nullable();            
             $table->unsignedBigInteger('alm_subgrupo_id')->nullable();
             $table->foreign('alm_subgrupo_id')->references('id')->on('alm_subgrupos')->onDelete('set null');

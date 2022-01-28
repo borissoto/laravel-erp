@@ -41,5 +41,7 @@ class PeCurso extends Model
     {
         return $this->belongsTo(PeResidencia::class, 'pe_residencia_id');
     }
+
+   
 }
 

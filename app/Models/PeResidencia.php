@@ -12,6 +12,7 @@ class PeResidencia extends Model
     protected $fillable = [
         'nom_residencia',
         'nivel',
+        'adm_departamento_id',
         'gestion_ini',
         'mes_ini',
         'gestion_fin',
@@ -31,6 +32,10 @@ class PeResidencia extends Model
      public function matriculaciones(){
          return $this->hasMany(PeMatriculaciones::class);
      }
+
+     public function departamento(){
+        return $this->belongsTo(AdmDepartamento::class, 'adm_departamento_id');
+    }
 
      public function tree()
      {

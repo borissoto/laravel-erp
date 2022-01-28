@@ -40,7 +40,7 @@
                         <th>Proveedor</th>
                         <th>Tipo</th>                        
                         <th>Nro Factura</th>
-                        <th>Numero</th>                                                
+                        {{-- <th>Numero</th>--}}
                         <th>Usuario</th>
                         <th scope="col">
                             <span class="sr-only">Acciones</span>
@@ -55,7 +55,7 @@
                         <td>{{ $row->proveedor}}</td>
                         <td>{{ $row->modalidad_ingreso}}</td>
                         <td>{{ $row->nro_factura}}</td>
-                        <td>{{ $row->numero}}</td>                                                
+                        {{-- <td>{{ $row->numero}}</td>                                                 --}}
                         <td>{{ $row->user_id}}</td>
                         <td>
                             <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">

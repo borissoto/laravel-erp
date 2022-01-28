@@ -16,7 +16,7 @@ class PeMatriculaciones extends Model
 
     public function residente()
     {
-        return $this->belongsTo(PeResidente::class, 'pe_residente_id');
+        return $this->belongsTo(User::class, 'user_id');
     }
 
     public function residencia()

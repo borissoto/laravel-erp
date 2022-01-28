@@ -9,7 +9,7 @@ use App\Models\AlmMedida;
 use App\Models\AlmSubgrupo;
 use Illuminate\Support\Str;
 
-class ArticuloIndex extends Component
+class ArticuloLectura extends Component
 {
     use WithPagination;
 
@@ -78,7 +78,7 @@ class ArticuloIndex extends Component
         orWhere('alm_subgrupo_id', 'like', '%'.$this->search.'%')->
         orWhere('codigo', 'like', '%'.$this->search.'%')->        
         orWhere('user_id', 'like', '%'.$this->search.'%')->latest()->paginate($this->paginate);
-        return view('livewire.almacen.articulo-index', [
+        return view('livewire.almacen.articulo-lectura', [
             'rows'=> $model
         ]);
     }
@@ -131,7 +131,7 @@ class ArticuloIndex extends Component
         $model->descrip= Str::upper($this->descrip);
         $model->alm_unidad_id= $this->alm_unidad_id;
         $model->marca= $this->marca;
-        // $model->existencia_min= $this->existencia_min;
+        $model->existencia_min= $this->existencia_min;
         $model->clase= $this->clase;
         $model->alm_subgrupo_id= $this->alm_subgrupo_id;
         $model->user_id= auth()->user()->id;
@@ -150,7 +150,7 @@ class ArticuloIndex extends Component
         $this->descrip= "";
         $this->alm_unidad_id= "";
         $this->marca= "";
-        // $this->existencia_min= "";
+        $this->existencia_min= "";
         $this->alm_subgrupo_id= "";
         $this->clase= "";
         

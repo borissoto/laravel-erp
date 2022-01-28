@@ -34,6 +34,11 @@ class AlmArticulo extends Model
         return $this->belongsTo(AlmMedida::class, 'alm_unidad_id');
     }
 
+    public function usuario()
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
+
     public function pedidos(){
         return $this->hasMany(AlmPedido::class);
     }

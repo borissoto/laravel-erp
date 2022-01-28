@@ -31,6 +31,8 @@ class SubgrupoIndex extends Component
         'alm_partida_id' => 'required',
     ];
 
+    protected $paginationTheme = "bootstrap";
+
 
 
     public function updated($propertyName)

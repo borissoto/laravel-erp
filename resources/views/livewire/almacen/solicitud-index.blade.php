@@ -57,7 +57,8 @@
                         <td>{{ $row->fecha_solicitud}}</td>
                         <td width="20px" class="text-center">
                            
-                            <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
+                            {{-- <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})"> --}}
+                            <a href="#" class="text-primary" >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" fill="currentColor" class="bi bi-file-text-fill" viewBox="0 0 16 16">
                                     <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
                                 </svg>
@@ -66,7 +67,7 @@
                         <td width="20px" class="text-center">  
                             @if ($row->imprimido == false)                              
                                                     
-                            <a href="#" class="text-danger" wire:click.prevent="confirmDelete({{ $row->id }})">                                
+                            <a href="#" class="text-danger" wire:click.prevent="edit({{ $row->id }})">                                
                                 <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
                                     <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z" />
                                     <path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd" />

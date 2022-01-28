@@ -7,7 +7,7 @@ use Livewire\WithPagination;
 use App\Models\PeResidente as Model;
 use Illuminate\Support\Str;
 
-class ResidenteIndex extends Component
+class ResidenteIndexCopy extends Component
 {
     use WithPagination;
 

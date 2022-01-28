@@ -17,6 +17,7 @@ class CreatePeResidenciasTable extends Migration
             $table->id();
             $table->string('nom_residencia')->nullable();
             $table->integer('nivel')->nullable();
+            $table->unsignedBigInteger('adm_departamento_id')->nullable();
             $table->string('gestion_ini')->nullable();
             $table->string('mes_ini')->nullable();
             $table->string('gestion_fin')->nullable();

@@ -126,10 +126,14 @@ class User extends Authenticatable
         return $this->hasMany(RrhhBrigada::class);
     }
 
-    public function articulos(){
+    public function articulosweb(){
         return $this->hasMany(WebArticulo::class);
     }
 
+    public function articulos(){
+        return $this->hasMany(AlmArticulo::class);
+    }
+    
     public function solicitudes(){
         return $this->hasMany(AlmSolicitudes::class);
     }
@@ -147,7 +151,15 @@ class User extends Authenticatable
     }   
     
     //plan estudios
-    public function cursos(){
+    public function notas(){
+        return $this->hasOne(PeCurso::class);
+    }   
+    
+    public function materias(){
         return $this->hasMany(PeCurso::class);
+    }   
+    
+    public function matriculaciones(){
+        return $this->hasMany(PeMatriculaciones::class);
     }   
 }

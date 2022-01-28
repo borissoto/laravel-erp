@@ -183,9 +183,9 @@ class ComprobanteIndex extends Component
                 $model->save();
                 $comprobanteId = $model->id;
 
-        $this->resetForm();
-        $this->emit("hideForm");
-        session()->flash('message', 'Registro Actualizado Exitosamente');
+        // $this->resetForm();
+        // $this->emit("hideForm");
+        // session()->flash('message', 'Registro Actualizado Exitosamente');
         $this->emit('comprobanteId', $comprobanteId);
         $this->showComponents = true;
         $this->flag = 1;

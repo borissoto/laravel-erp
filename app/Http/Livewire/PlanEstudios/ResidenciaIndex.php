@@ -26,6 +26,7 @@ class ResidenciaIndex extends Component
 
     public $nom_residencia;
     public $nivel;
+    public $adm_departamento_id;
     public $gestion_ini;
     public $mes_ini;
     public $gestion_fin;
@@ -56,6 +57,7 @@ class ResidenciaIndex extends Component
         'nom_residencia' => 'required',
         'nivel' => 'required',
         'gestion_ini' => 'required',
+        'adm_departamento_id' => 'required',
         // 'mes_ini' => 'required',
         // 'gestion_fin' => 'required',
         // 'mes_fin' => 'required',
@@ -84,7 +86,12 @@ class ResidenciaIndex extends Component
         // }else{
         //     $modulos = null;
         // }
-        $model = Model::where('nom_residencia', 'like', '%'.$this->search.'%')->orWhere('gestion_ini', 'like', '%'.$this->search.'%')->orWhere('mes_ini', 'like', '%'.$this->search.'%')->orWhere('gestion_fin', 'like', '%'.$this->search.'%')->orWhere('mes_fin', 'like', '%'.$this->search.'%')->orWhere('estado', 'like', '%'.$this->search.'%')->latest()->paginate($this->paginate);
+        $model = Model::where('nom_residencia', 'like', '%'.$this->search.'%')
+        ->orWhere('gestion_ini', 'like', '%'.$this->search.'%')
+        // ->orWhere('mes_ini', 'like', '%'.$this->search.'%')
+        // ->orWhere('gestion_fin', 'like', '%'.$this->search.'%')
+        // ->orWhere('mes_fin', 'like', '%'.$this->search.'%')
+        ->orWhere('estado', 'like', '%'.$this->search.'%')->latest()->paginate($this->paginate);
         return view('livewire.planestudios.residencia-index', [
             'rows'=> $model,   
             // 'modulos' =>$modulos,         
@@ -115,6 +122,7 @@ class ResidenciaIndex extends Component
 
         $this->nom_residencia= Str::upper($model->nom_residencia);
         $this->nivel= $model->nivel;
+        $this->adm_departamento_id= $model->adm_departamento_id;
         $this->gestion_ini= $model->gestion_ini;
         $this->mes_ini= $model->mes_ini;
         $this->gestion_fin= $model->gestion_fin;
@@ -140,6 +148,7 @@ class ResidenciaIndex extends Component
 
         $model->nom_residencia= Str::upper($this->nom_residencia);
         $model->nivel= $this->nivel;
+        $model->adm_departamento_id= $this->adm_departamento_id;
         $model->gestion_ini= $this->gestion_ini;
         $model->mes_ini= $this->mes_ini;
         $model->gestion_fin= $this->gestion_fin;
@@ -180,6 +189,7 @@ class ResidenciaIndex extends Component
 
         $model->nom_residencia= $this->nom_residencia;
         $model->nivel= $this->nivel;
+        $model->adm_departamento_id= $this->adm_departamento_id;
         $model->gestion_ini= $this->gestion_ini;
         $model->mes_ini= $this->mes_ini;
         $model->gestion_fin= $this->gestion_fin;

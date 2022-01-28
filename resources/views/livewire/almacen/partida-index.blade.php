@@ -38,9 +38,9 @@
                         <th>Descripcion</th>
                         <th>Detalle</th>
                         <th>Numero</th>
-                        <th>Partida</th>
+                        {{-- <th>Partida</th>
                         <th>Tipo</th>
-                        <th>Vigente</th>
+                        <th>Vigente</th> --}}
                         <th scope="col">
                             <span class="sr-only">Acciones</span>
                         </th>
@@ -53,9 +53,9 @@
                         <td>{{ $row->descrip}}</td>
                         <td>{{ $row->detalle}}</td>
                         <td>{{ $row->numero}}</td>
-                        <td>{{ $row->partida}}</td>
+                        {{-- <td>{{ $row->partida}}</td>
                         <td>{{ $row->tipo}}</td>
-                        <td>{{ $row->vigente}}</td>
+                        <td>{{ $row->vigente}}</td> --}}
                     <td>
                         <a href="#" class="text-primary" wire:click.prevent="edit({{ $row->id }})">
                             <svg xmlns="http://www.w3.org/2000/svg" style="width:20px; height: 20px;" viewBox="0 0 20 20" fill="currentColor">
@@ -86,7 +86,7 @@
            <div class="modal-dialog" role="document">
                <div class="modal-content">
                    <div class="modal-header">
-                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Nuevo POA' : 'Actualizar POA' }}</h5>
+                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Nueva Partida' : 'Actualizar Partida' }}</h5>
                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                        </button>
@@ -108,7 +108,7 @@
                             @error('numero')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                         </div>
 
-                        <div class='form-group'>
+                        {{-- <div class='form-group'>
                             <label for='partida' class="col-form-label col-form-label-sm">Partida</label>
                             <input type='text' class='form-control form-control-sm @error('partida')  is-invalid @enderror' wire:model='partida'>
                             @error('partida')<div class='invalid-feedback'>{{ $message }}</div>@enderror
@@ -122,7 +122,7 @@
                             <label for='vigente' class="col-form-label col-form-label-sm">Vigente</label>
                             <input type='text' class='form-control form-control-sm @error('vigente')  is-invalid @enderror' wire:model='vigente'>
                             @error('vigente')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                        </div>
+                        </div> --}}
 
                    </div>
                    <div class="modal-footer">
