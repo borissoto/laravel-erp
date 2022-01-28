@@ -8,6 +8,7 @@ use App\Models\PeCurso as Model;
 use App\Models\PeModulo;
 use App\Models\PeResidencia;
 use App\Models\User;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
 class CursoIndex extends Component
@@ -416,6 +417,411 @@ class CursoIndex extends Component
 
         }
 
+        if($this->nivel == 2){
+            
+            $nf2 = new Model();
+            $nf2->pe_residencia_id = $this->pe_residencia_id;
+            $nf2->modulo = "MOD1NF2";
+            $nf2->nom_materia = "HERRAMIENTAS METODOLOGICAS  DE LA SAFCI";
+            $nf2->cod_materia = "HMS2"; //Codigo de materia
+            $nf2->nota_max = 50;
+            // $nf1->user_id = $this->dr_obs;
+            $nf2->user_id = $this->jefe;
+            $nf2->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD1NF2";
+            $nf1->nom_materia = "PROMOCION DE SALUD Y GESTION PARTICIPATIVA LOCAL EN SALUD";
+            $nf1->cod_materia = "PSG2"; //Codigo de materia
+            $nf1->nota_max = 50;
+            // $nf1->user_id = $this->dr_gin;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD1NF2";
+            $nf1->nom_materia = "INTERCULTURALIDAD";
+            $nf1->cod_materia = "INT2"; //Codigo de materia
+            $nf1->nota_max = 50;
+            // $nf1->user_id = $this->dr_int;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD1NF2";
+            $nf1->nom_materia = "DISEÑO, ELABORACION, GESTION Y EVALUACION DE PROYECTOS EN SALUD";
+            $nf1->cod_materia = "PED1"; //Codigo de materia
+            $nf1->nota_max = 50;
+            // $nf1->user_id = $this->dr_gin;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD1NF2";
+            $nf1->nom_materia = "METODOLOGIA DE INVESTIGACION";
+            $nf1->cod_materia = "NEO1"; //Codigo de materia
+            $nf1->nota_max = 50;
+            // $nf1->user_id = $this->dr_ped;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();          
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF2";
+            $nf1->nom_materia = "PRIMERO";
+            $nf1->cod_materia = "TRIM1NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF2";
+            $nf1->nom_materia = "SEGUNDO";
+            $nf1->cod_materia = "TRIM2NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF2";
+            $nf1->nom_materia = "TERCERO";
+            $nf1->cod_materia = "TRIM3NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF2";
+            $nf1->nom_materia = "CUARTO";
+            $nf1->cod_materia = "TRIM4NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD3NF2";
+            $nf1->nom_materia = "MARZO";
+            $nf1->cod_materia = "MES1NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD3NF2";
+            $nf1->nom_materia = "ABRIL";
+            $nf1->cod_materia = "MES2NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD3NF2";
+            $nf1->nom_materia = "MAYO";
+            $nf1->cod_materia = "MES3NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD3NF2";
+            $nf1->nom_materia = "JUNIO";
+            $nf1->cod_materia = "MES4NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD3NF2";
+            $nf1->nom_materia = "JULIO";
+            $nf1->cod_materia = "MES5NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD3NF2";
+            $nf1->nom_materia = "AGOSTO";
+            $nf1->cod_materia = "MES6NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD3NF2";
+            $nf1->nom_materia = "SEPTIEMBRE";
+            $nf1->cod_materia = "MES7NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD3NF2";
+            $nf1->nom_materia = "OCTUBRE";
+            $nf1->cod_materia = "MES8NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD3NF2";
+            $nf1->nom_materia = "NOVIEMBRE";
+            $nf1->cod_materia = "MES9NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD3NF2";
+            $nf1->nom_materia = "DICIEMBRE";
+            $nf1->cod_materia = "MES10NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD3NF2";
+            $nf1->nom_materia = "ENERO";
+            $nf1->cod_materia = "MES11NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD3NF2";
+            $nf1->nom_materia = "FEBRERO";
+            $nf1->cod_materia = "MES12NF2"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD4NF2";
+            $nf1->nom_materia = "TRABAJO DE INVESTIGACION";
+            $nf1->cod_materia = "TRAB1NF2"; //Codigo de materia
+            $nf1->nota_max = 20;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+        }
+
+        if($this->nivel == 3){
+            
+            $nf2 = new Model();
+            $nf2->pe_residencia_id = $this->pe_residencia_id;
+            $nf2->modulo = "MOD1NF3";
+            $nf2->nom_materia = "EPIDEMIOLOGIA";
+            $nf2->cod_materia = "EPI3"; //Codigo de materia
+            $nf2->nota_max = 50;
+            // $nf1->user_id = $this->dr_obs;
+            $nf2->user_id = $this->jefe;
+            $nf2->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD1NF3";
+            $nf1->nom_materia = "GESTION PARTICIPATIVA MUNICIPAL";
+            $nf1->cod_materia = "GPM3"; //Codigo de materia
+            $nf1->nota_max = 50;
+            // $nf1->user_id = $this->dr_gin;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD1NF3";
+            $nf1->nom_materia = "HABILIDADES GERENCIALES";
+            $nf1->cod_materia = "HAB3"; //Codigo de materia
+            $nf1->nota_max = 50;
+            // $nf1->user_id = $this->dr_int;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD1NF3";
+            $nf1->nom_materia = "EMERGENTOLOGIA DESASTRES-ATENCION PREHOSPITALARIA";
+            $nf1->cod_materia = "EDP3"; //Codigo de materia
+            $nf1->nota_max = 50;
+            // $nf1->user_id = $this->dr_gin;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+          
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "PRIMERO";
+            $nf1->cod_materia = "TRIM1NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "SEGUNDO";
+            $nf1->cod_materia = "TRIM2NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "TERCERO";
+            $nf1->cod_materia = "TRIM3NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "CUARTO";
+            $nf1->cod_materia = "TRIM4NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "MARZO";
+            $nf1->cod_materia = "MES1NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "ABRIL";
+            $nf1->cod_materia = "MES2NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "MAYO";
+            $nf1->cod_materia = "MES3NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "JUNIO";
+            $nf1->cod_materia = "MES4NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "JULIO";
+            $nf1->cod_materia = "MES5NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "AGOSTO";
+            $nf1->cod_materia = "MES6NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "SEPTIEMBRE";
+            $nf1->cod_materia = "MES7NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "OCTUBRE";
+            $nf1->cod_materia = "MES8NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "NOVIEMBRE";
+            $nf1->cod_materia = "MES9NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "DICIEMBRE";
+            $nf1->cod_materia = "MES10NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "ENERO";
+            $nf1->cod_materia = "MES11NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD2NF3";
+            $nf1->nom_materia = "FEBRERO";
+            $nf1->cod_materia = "MES12NF3"; //Codigo de materia
+            $nf1->nota_max = 15;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+            $nf1 = new Model();
+            $nf1->pe_residencia_id = $this->pe_residencia_id;
+            $nf1->modulo = "MOD4NF3";
+            $nf1->nom_materia = "TRABAJO DE INVESTIGACION";
+            $nf1->cod_materia = "TRAB1NF3"; //Codigo de materia
+            $nf1->nota_max = 20;
+            $nf1->user_id = $this->jefe;
+            $nf1->save();
+
+        }
+
         // $model->pe_residencia_id= $this->pe_residencia_id;
         // $model->user_id= $this->user_id;
         // $model->instructor= $this->instructor;
@@ -424,7 +830,7 @@ class CursoIndex extends Component
 
         $this->resetForm();
         $this->emit("hideForm");
-        session()->flash('message', 'Record Saved Successfully');
+        session()->flash('message', 'Registro Guardado Exitosamente');
         $this->showForm = false;
 
     }
@@ -444,37 +850,15 @@ class CursoIndex extends Component
         $this->validate();
 
         // $model = Model::find($this->primaryId);
-        if($this->nivel == 1){
-            $model = Model::where('pe_residencia_id',$this->primaryId)->get();
-        // dd($model);
-        // $this->pe_residencia_id= $primaryId;
-        // $this->jefe= $model->user_id;
-        // $this->instructor= $model->instructor;
-        // $this->nom_materia= $model->nom_materia;
-        foreach ($model as $m) {
-            if($m->cod_materia === 'OBS1') $this->dr_obs = $m->user_id;
-            if($m->cod_materia === 'GIN1') $this->dr_gin = $m->user_id;
-            if($m->cod_materia === 'MI1') $this->dr_int = $m->user_id;
-            if($m->cod_materia === 'PED1') $this->dr_ped = $m->user_id;
-            if($m->cod_materia === 'NEO1') $this->dr_neo = $m->user_id;
-            if($m->cod_materia === 'TRA1') $this->dr_tra = $m->user_id;
-            if($m->cod_materia === 'CIR1') $this->dr_cir = $m->user_id;            
-            if($m->cod_materia === 'TRIM1') $this->jefe = $m->user_id;
-            $this->nom_jefe = User::select('name','nombres','ap_paterno','ap_materno')->where('id', $this->jefe)->first();     
-        }
-            
+        // if($this->nivel == 1){
+            DB::table('pe_cursos')->where('pe_residencia_id',$this->primaryId)->update(['user_id' => $this->jefe ]);    
            
-        }
+        // }
 
-        // $model->pe_residencia_id= $this->pe_residencia_id;
-        // $model->user_id= $this->user_id;
-        // $model->instructor= $this->instructor;
-        // $model->nom_materia= Str::upper($this->nom_materia);
-        // $model->save();
 
-        // $this->resetForm();
-        // $this->emit("hideForm");
-        // session()->flash('message', 'Record Updated Successfully');
+        $this->resetForm();
+        $this->emit("hideForm");
+        session()->flash('message', 'Registro Actualizado Exitosamente');
     }
 
     public function confirmDelete($primaryId)
@@ -494,7 +878,7 @@ class CursoIndex extends Component
         Model::find($this->primaryId)->delete();
         $this->showConfirmDeletePopup = false;
         $this->emit('hideConfirmDelete');
-        session()->flash('message', 'Record Deleted Successfully');
+        session()->flash('message', 'Registro Eliminado Exitosamente');
     }
 
     public function clearFlash()

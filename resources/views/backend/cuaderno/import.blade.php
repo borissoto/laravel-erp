@@ -26,7 +26,9 @@
     </section>
     <div class="card">
         <div class="card-header">
-            Importar Excel    
+            Descargar    
+            <a class="btn btn-success btn-sm" href={{ asset('img/Form_CUADERNOS_sistema.xlsx') }}>Archivo Base Excel</a>
+            *
         </div>
         <div class="card-body">
           @if(session('status'))
@@ -35,7 +37,18 @@
 
             </div>
           @endif
-        
+            Instrucciones
+            <ul>
+              <li>Descargar el archivo Base Excel</li>
+              <li>Escoger Departamento, Municipio, Establecimiento y Medico que sube la informacion</li>
+              <li> <strong> NO USAR BORDES AL LLENAR </strong> los Cuadernos</li>
+              <img src="{{asset('img/no_bordes.jpg')}}" loading="lazy" alt="">
+            </ul>
+            
+
+              <h3 style="width: 100%; margin-left:30%; margin-right:30%;">Formulario Importar Excel</h3>
+            
+
 
             <form action="/admin/cuadernos/import" method="post" enctype="multipart/form-data">
                 @csrf

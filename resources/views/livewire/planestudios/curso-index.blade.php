@@ -512,7 +512,7 @@
                         <th>Nro</th>
                         <th>Nombre Materia</th>
                         <th>Duracion</th>                    
-                        <th>Docente Calificador</th>
+                        {{-- <th>Docente Calificador</th> --}}
                         <th>Jefe de Enseñanza</th>
                     </tr>
                     </thead>
@@ -522,7 +522,7 @@
                             <td class="align-middle">1</td>
                             <td class="align-middle">HERRAMIENTAS METODOLOGICAS  DE LA SAFCI</td>
                             <td class="align-middle">3</td>                        
-                            <td class="align-middle">
+                            {{-- <td class="align-middle">
                                 <select wire:model="dr_2_1"  name="dr_2_1" class="form-control form-control-sm" required>
                                     <option value="" class="text-primary">Docente Instructor*</option>
                                     @foreach ($usuarios as $user)
@@ -530,7 +530,7 @@
                                     @endforeach
                                 </select>                            
                                 @error('dr_2_1')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </td> 
+                            </td>  --}}
                             <td class="align-middle">
                                 @if($nom_jefe)
                                     <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
@@ -545,15 +545,15 @@
                             <td class="align-middle">2</td>
                             <td class="align-middle">PROMOCION DE SALUD Y GESTION PARTICIPATIVA LOCAL EN SALUD</td>
                             <td class="align-middle">2</td>
-                            <td class="align-middle">
-                                <select wire:model="dr_2_2"  name="dr_2_2" class="form-control form-control-sm" required>
-                                    <option value="" class="text-primary">Docente Instructor*</option>
-                                    @foreach ($usuarios as $user)
-                                        <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
-                                    @endforeach
-                                </select>                            
-                                @error('dr_2_2')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </td>
+                            {{-- <td class="align-middle"> --}}
+                                {{-- <select wire:model="dr_2_2"  name="dr_2_2" class="form-control form-control-sm" required> --}}
+                                    {{-- <option value="" class="text-primary">Docente Instructor*</option> --}}
+                                    {{-- @foreach ($usuarios as $user) --}}
+                                        {{-- <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option> --}}
+                                    {{-- @endforeach --}}
+                                {{-- </select>                             --}}
+                                {{-- @error('dr_2_2')<div class='invalid-feedback'>{{ $message }}</div>@enderror --}}
+                            {{-- </td> --}}
                             <td class="align-middle">
                                 @if($nom_jefe)
                                     <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
@@ -568,15 +568,15 @@
                             <td class="align-middle">3</td>
                             <td class="align-middle">INTERCULTURALIDAD</td>
                             <td class="align-middle">1</td>
-                            <td class="align-middle">
-                                <select wire:model="dr_2_3"  name="dr_2_3" class="form-control form-control-sm" required>
-                                    <option value="" class="text-primary">Docente Instructor*</option>
-                                    @foreach ($usuarios as $user)
-                                        <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
-                                    @endforeach
-                                </select>                            
-                                @error('dr_2_3')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </td>
+                            {{-- <td class="align-middle"> --}}
+                                {{-- <select wire:model="dr_2_3"  name="dr_2_3" class="form-control form-control-sm" required> --}}
+                                    {{-- <option value="" class="text-primary">Docente Instructor*</option> --}}
+                                    {{-- @foreach ($usuarios as $user) --}}
+                                        {{-- <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option> --}}
+                                    {{-- @endforeach --}}
+                                {{-- </select>                             --}}
+                                {{-- @error('dr_2_3')<div class='invalid-feedback'>{{ $message }}</div>@enderror --}}
+                            {{-- </td> --}}
                             <td class="align-middle">
                                 @if($nom_jefe)
                                     <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
@@ -591,15 +591,15 @@
                             <td class="align-middle">4</td>
                             <td class="align-middle">DISEÑO, ELABORACION, GESTION Y EVALUACION DE PROYECTOS EN SALUD</td>
                             <td class="align-middle">3</td>
-                            <td class="align-middle">
-                                <select wire:model="dr_2_4"  name="dr_2_4" class="form-control form-control-sm" required>
-                                    <option value="" class="text-primary">Docente Instructor*</option>
-                                    @foreach ($usuarios as $user)
-                                        <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
-                                    @endforeach
-                                </select>                            
-                                @error('dr_2_4')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </td>
+                            {{-- <td class="align-middle"> --}}
+                                {{-- <select wire:model="dr_2_4"  name="dr_2_4" class="form-control form-control-sm" required> --}}
+                                    {{-- <option value="" class="text-primary">Docente Instructor*</option> --}}
+                                    {{-- @foreach ($usuarios as $user) --}}
+                                        {{-- <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option> --}}
+                                    {{-- @endforeach --}}
+                                {{-- </select>                             --}}
+                                {{-- @error('dr_2_4')<div class='invalid-feedback'>{{ $message }}</div>@enderror --}}
+                            {{-- </td> --}}
                             <td class="align-middle">
                                 @if($nom_jefe)
                                     <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
@@ -614,15 +614,15 @@
                             <td class="align-middle">5</td>
                             <td class="align-middle">METODOLOGIA DE INVESTIGACION</td>
                             <td class="align-middle">3</td>
-                            <td class="align-middle">
-                                <select wire:model="dr_2_5"  name="dr_2_5" class="form-control form-control-sm" required>
-                                    <option value="" class="text-primary">Docente Instructor*</option>
-                                    @foreach ($usuarios as $user)
-                                        <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
-                                    @endforeach
-                                </select>                            
-                                @error('dr_2_5')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </td>
+                            {{-- <td class="align-middle"> --}}
+                                {{-- <select wire:model="dr_2_5"  name="dr_2_5" class="form-control form-control-sm" required> --}}
+                                    {{-- <option value="" class="text-primary">Docente Instructor*</option> --}}
+                                    {{-- @foreach ($usuarios as $user) --}}
+                                        {{-- <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option> --}}
+                                    {{-- @endforeach --}}
+                                {{-- </select>                             --}}
+                                {{-- @error('dr_2_5')<div class='invalid-feedback'>{{ $message }}</div>@enderror --}}
+                            {{-- </td> --}}
                             <td class="align-middle">
                                 @if($nom_jefe)
                                     <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
@@ -903,7 +903,7 @@
                         <th>Nro</th>
                         <th>Nombre Materia</th>
                         <th>Duracion</th>                    
-                        <th>Docente Calificador</th>
+                        {{-- <th>Docente Calificador</th> --}}
                         <th>Jefe de Enseñanza</th>
                     </tr>
                     </thead>
@@ -913,15 +913,15 @@
                             <td class="align-middle">1</td>
                             <td class="align-middle">EPIDEMIOLOGIA</td>
                             <td class="align-middle">4</td>                        
-                            <td class="align-middle">
-                                <select wire:model="dr_3_1"  name="dr_3_1" class="form-control form-control-sm" required>
-                                    <option value="" class="text-primary">Docente Instructor*</option>
-                                    @foreach ($usuarios as $user)
-                                        <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
-                                    @endforeach
-                                </select>                            
-                                @error('dr_3_1')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </td>
+                            {{-- <td class="align-middle"> --}}
+                                {{-- <select wire:model="dr_3_1"  name="dr_3_1" class="form-control form-control-sm" required> --}}
+                                    {{-- <option value="" class="text-primary">Docente Instructor*</option> --}}
+                                    {{-- @foreach ($usuarios as $user) --}}
+                                        {{-- <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option> --}}
+                                    {{-- @endforeach --}}
+                                {{-- </select>                             --}}
+                                {{-- @error('dr_3_1')<div class='invalid-feedback'>{{ $message }}</div>@enderror --}}
+                            {{-- </td> --}}
                             <td class="align-middle">
                                 @if($nom_jefe)
                                     <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
@@ -936,15 +936,15 @@
                             <td class="align-middle">2</td>
                             <td class="align-middle">GESTION PARTICIPATIVA MUNICIPAL</td>
                             <td class="align-middle">2</td>
-                            <td class="align-middle">
-                                <select wire:model="dr_3_2"  name="dr_3_2" class="form-control form-control-sm" required>
-                                    <option value="" class="text-primary">Docente Instructor*</option>
-                                    @foreach ($usuarios as $user)
-                                        <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
-                                    @endforeach
-                                </select>                            
-                                @error('dr_3_2')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </td>
+                            {{-- <td class="align-middle"> --}}
+                                {{-- <select wire:model="dr_3_2"  name="dr_3_2" class="form-control form-control-sm" required> --}}
+                                    {{-- <option value="" class="text-primary">Docente Instructor*</option> --}}
+                                    {{-- @foreach ($usuarios as $user) --}}
+                                        {{-- <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option> --}}
+                                    {{-- @endforeach --}}
+                                {{-- </select>                             --}}
+                                {{-- @error('dr_3_2')<div class='invalid-feedback'>{{ $message }}</div>@enderror --}}
+                            {{-- </td> --}}
                             <td class="align-middle">
                                 @if($nom_jefe)
                                     <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
@@ -959,15 +959,15 @@
                             <td class="align-middle">3</td>
                             <td class="align-middle">HABILIDADES GERENCIALES</td>
                             <td class="align-middle">2</td>
-                            <td class="align-middle">
-                                <select wire:model="dr_3_3"  name="dr_3_3" class="form-control form-control-sm" required>
-                                    <option value="" class="text-primary">Docente Instructor*</option>
-                                    @foreach ($usuarios as $user)
-                                        <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
-                                    @endforeach
-                                </select>                            
-                                @error('dr_3_3')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </td>
+                            {{-- <td class="align-middle"> --}}
+                                {{-- <select wire:model="dr_3_3"  name="dr_3_3" class="form-control form-control-sm" required> --}}
+                                    {{-- <option value="" class="text-primary">Docente Instructor*</option> --}}
+                                    {{-- @foreach ($usuarios as $user) --}}
+                                        {{-- <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option> --}}
+                                    {{-- @endforeach --}}
+                                {{-- </select>                             --}}
+                                {{-- @error('dr_3_3')<div class='invalid-feedback'>{{ $message }}</div>@enderror --}}
+                            {{-- </td> --}}
                             <td class="align-middle">
                                 @if($nom_jefe)
                                     <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>
@@ -982,15 +982,15 @@
                             <td class="align-middle">4</td>
                             <td class="align-middle">EMERGENTOLOGIA DESASTRES-ATENCION PREHOSPITALARIA</td>
                             <td class="align-middle">4</td>
-                            <td class="align-middle">
-                                <select wire:model="dr_3_4"  name="dr_3_4" class="form-control form-control-sm" required>
-                                    <option value="" class="text-primary">Docente Instructor*</option>
-                                    @foreach ($usuarios as $user)
-                                        <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option>
-                                    @endforeach
-                                </select>                            
-                                @error('dr_3_4')<div class='invalid-feedback'>{{ $message }}</div>@enderror
-                            </td>
+                            {{-- <td class="align-middle"> --}}
+                                {{-- <select wire:model="dr_3_4"  name="dr_3_4" class="form-control form-control-sm" required> --}}
+                                    {{-- <option value="" class="text-primary">Docente Instructor*</option> --}}
+                                    {{-- @foreach ($usuarios as $user) --}}
+                                        {{-- <option value="{{ $user->id }}">{{ $user->nombres.' '.$user->ap_paterno.' '.$user->ap_materno }}</option> --}}
+                                    {{-- @endforeach --}}
+                                {{-- </select>                             --}}
+                                {{-- @error('dr_3_4')<div class='invalid-feedback'>{{ $message }}</div>@enderror --}}
+                            {{-- </td> --}}
                             <td class="align-middle">
                                 @if($nom_jefe)
                                     <span>{{ $nom_jefe->nombres.' '.$nom_jefe->ap_paterno.' '.$nom_jefe->ap_materno }}</span>

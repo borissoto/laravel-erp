@@ -154,7 +154,7 @@ class ParcialIndex extends Component
 
         $this->resetForm();
         $this->emit("hideForm");
-        session()->flash('message', 'Record Saved Successfully');
+        session()->flash('message', 'Registro Guardado Exitosamente');
         $this->showForm = false;
 
     }
@@ -192,7 +192,7 @@ class ParcialIndex extends Component
 
         $this->resetForm();
         $this->emit("hideForm");
-        session()->flash('message', 'Record Updated Successfully');
+        session()->flash('message', 'Registro Actualizado Exitosamente');
     }
 
     public function confirmDelete($primaryId)
@@ -212,7 +212,7 @@ class ParcialIndex extends Component
         Model::find($this->primaryId)->delete();
         $this->showConfirmDeletePopup = false;
         $this->emit('hideConfirmDelete');
-        session()->flash('message', 'Record Deleted Successfully');
+        session()->flash('message', 'Registro Eliminado Exitosamente');
     }
 
     public function clearFlash()

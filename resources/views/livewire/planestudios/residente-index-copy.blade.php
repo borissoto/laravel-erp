@@ -142,50 +142,42 @@
                    </div>
                    <div class="modal-body">
                        <div class='form-group row'>
-                        <label for='estado' class="col-sm-2 col-form-label col-form-label-sm text-success text-right" >Estado</label>
-                        <div class="col-sm-4">
-                            <select wire:model="estado" name="estado" id="estado" class="form-control form-control-sm">
-                                    <option value="">Escoja Estado</option>
-                                    <option value="1">ACTIVO</option>
-                                    <option value="0">INACTIVO</option>
-                                </select>
-                                @error('estado') <span class="text-sm text-danger error">{{ $message }} </span>@enderror
-                        </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="email" class="col-sm-2 col-form-label col-form-label-sm text-right">Email</label>
-                            <div class="col-sm-4">
-                                <input wire:model="email" class="form-control form-control-sm" type="email" value="" id="email">
-                                @error('email') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
-                            </div>   
-                            <label for='nombres' class="col-sm-2 col-form-label col-form-label-sm text-right" >Nombres</label>
+                            <label for='nombres' class="col-sm-2 col-form-label col-form-label-sm" >Nombres</label>
                             <div class="col-sm-4">
                                 <input type='text' class='form-control form-control-sm @error('nombres')  is-invalid @enderror' wire:model='nombres'>
                                 @error('nombres')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
-                                                                                     
+                            <label for='estado' class="col-sm-2 col-form-label col-form-label-sm" >Estado</label>
+                            <div class="col-sm-4">
+                                <select wire:model="estado" name="estado" id="estado" class="form-control form-control-sm">
+                                        <option value="">Escoja Estado</option>
+                                        <option value="1">ACTIVO</option>
+                                        <option value="0">INACTIVO</option>
+                                    </select>
+                                    @error('estado') <span class="text-sm text-danger error">{{ $message }} </span>@enderror
+                                </div>
                         </div>
                         <div class='form-group row'>
-                            <label for='ap_paterno' class="col-sm-2 col-form-label col-form-label-sm text-right" >Ap paterno</label>
+                            <label for='ap_paterno' class="col-sm-2 col-form-label col-form-label-sm" >Ap paterno</label>
                             <div class="col-sm-4">
                                 <input type='text' class='form-control form-control-sm @error('ap_paterno')  is-invalid @enderror' wire:model='ap_paterno'>
                                 @error('ap_paterno')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         
-                            <label for='ap_materno' class="col-sm-2 col-form-label col-form-label-sm text-right" >Ap materno</label>
+                            <label for='ap_materno' class="col-sm-2 col-form-label col-form-label-sm" >Ap materno</label>
                             <div class="col-sm-4">
                                 <input type='text' class='form-control form-control-sm @error('ap_materno')  is-invalid @enderror' wire:model='ap_materno'>
                                 @error('ap_materno')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         </div>
                         <div class='form-group row'>
-                            <label for='ci' class="col-sm-2 col-form-label col-form-label-sm text-right" >CI</label>
+                            <label for='ci' class="col-sm-2 col-form-label col-form-label-sm" >CI</label>
                             <div class="col-sm-4">
                                 <input type='number' class='form-control form-control-sm @error('ci')  is-invalid @enderror' wire:model='ci'>
                                 @error('ci')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
 
-                            <label for='adm_departamento_id' class="col-sm-2 col-form-label col-form-label-sm text-right" >Ext</label>
+                            <label for='adm_departamento_id' class="col-sm-2 col-form-label col-form-label-sm" >Ext</label>
                             <div class="col-sm-4">
                                 <select wire:model="adm_departamento_id" id="adm_departamento_id" class="form-control form-control-sm" required>
                                         <option value="">-Escoja Extension-</option>
@@ -203,7 +195,7 @@
                             </div>
                         </div>
                         <div class='form-group row'>
-                            <label for='sexo' class="col-sm-2 col-form-label col-form-label-sm text-right" >Genero</label>
+                            <label for='sexo' class="col-sm-2 col-form-label col-form-label-sm" >Genero</label>
                             <div class="col-sm-4">
                                 <select wire:model="sexo" name="med" id="sexo" class="form-control form-control-sm">
                                     <option value="">-Genero-</option>
@@ -213,27 +205,27 @@
                                 @error('sexo') <span class="text-sm text-danger error">{{ $message }} </span>@enderror
                             </div>
                         
-                            <label for='fecha_nac' class="col-sm-2 col-form-label col-form-label-sm text-right" >Fecha nac</label>
+                            <label for='fecha_nac' class="col-sm-2 col-form-label col-form-label-sm" >Fecha nac</label>
                             <div class="col-sm-4">
                                 <input type='date' class='form-control form-control-sm @error('fecha_nac')  is-invalid @enderror' wire:model='fecha_nac'>
                                 @error('fecha_nac')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         </div>
                         <div class='form-group row'>
-                            <label for='telefono' class="col-sm-2 col-form-label col-form-label-sm text-right" >Telefono</label>
+                            <label for='telefono' class="col-sm-2 col-form-label col-form-label-sm" >Telefono</label>
                             <div class="col-sm-4">
                                 <input type='text' class='form-control form-control-sm @error('telefono')  is-invalid @enderror' wire:model='telefono'>
                                 @error('telefono')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         
-                            <label for='domicilio' class="col-sm-2 col-form-label col-form-label-sm text-right" >Domicilio</label>
+                            <label for='domicilio' class="col-sm-2 col-form-label col-form-label-sm" >Domicilio</label>
                             <div class="col-sm-4">
                                 <input type='text' class='form-control form-control-sm @error('domicilio')  is-invalid @enderror' wire:model='domicilio'>
                                 @error('domicilio')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         </div>
                         <div class='form-group row'>
-                            <label for='universidad' class="col-sm-2 col-form-label col-form-label-sm text-right" >Universidad</label>
+                            <label for='universidad' class="col-sm-2 col-form-label col-form-label-sm" >Universidad</label>
                             <div class="col-sm-4">
                             <select wire:model="universidad"  id="UNIVERSIDAD" class="form-control form-control-sm">
                                 <option value="">-Universidad de Egreso-</option>
@@ -261,50 +253,19 @@
                             @error('universidad') <span class="text-sm text-danger error">{{ $message }} </span>@enderror
                             </div>
                         
-                            <label for='grado' class="col-sm-2 col-form-label col-form-label-sm text-right" >Titulo</label>
+                            <label for='grado' class="col-sm-2 col-form-label col-form-label-sm" >Titulo</label>
                             <div class="col-sm-4">
-                                <select wire:model="grado" id="grado" class="form-control form-control-sm">
-                                    <option value="">-Escoja Grado-</option>                                    
-                                    <option value="MEDICO MGI">MEDICO GENERAL INTEGRAL</option>
-                                    <option value="MEDICO GENERAL">MEDICO GENERAL</option>
-                                    <option value="NO CORRESPONDE">NO CORRESPONDE</option>                                            
-                                </select>
-                                {{-- <input type='text' class='form-control form-control-sm @error('grado')  is-invalid @enderror' wire:model='grado'> --}}
+                                <input type='text' class='form-control form-control-sm @error('grado')  is-invalid @enderror' wire:model='grado'>
                                 @error('grado')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         </div>
                         <div class='form-group row'>
-                            <label for='obs' class="col-sm-2 col-form-label col-form-label-sm text-right" >Observaciones</label>
+                            <label for='obs' class="col-sm-2 col-form-label col-form-label-sm" >Observaciones</label>
                             <div class="col-sm-10">
                                 <textarea type='text' class='form-control form-control-sm @error('obs')  is-invalid @enderror' wire:model='obs'></textarea>
                                 @error('obs')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         </div>
-                        <div class="form-group row">
-                            <label for="item" class="col-sm-2 col-form-label col-form-label-sm text-right">Item</label>
-                            <div class="col-sm-4">
-                                <input class="form-control form-control-sm" value="0"  disabled>
-                                {{-- <input wire:model="item" class="form-control form-control-sm" type="number" value="" id="item"> --}}
-                                {{-- @error('item') <span class="text-sm text-danger error">{{ $message }}</span>@enderror  --}}
-                            </div>
-                            <label for="docente" class="col-sm-2 col-form-label col-form-label-sm text-right">EdPerm</label>
-                            <div class="col-sm-4">
-                                <input class="form-control form-control-sm" value="RESIDENTE"  disabled>
-                            </div>                                                   
-                        </div>  
-                        <div class="form-group row">
-                            <label for="name" class="col-sm-2 col-form-label col-form-label-sm text-right text-primary text-right">Usuario</label>
-                            <div class="col-sm-4">
-                                <input wire:model="name" class="form-control form-control-sm" type="text" value="" id="name">
-                                @error('name') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
-                            </div>
-                            <label for="password" class="col-sm-2 col-form-label col-form-label-sm text-right text-primary text-right" > Contraseña </label>
-                            <div class="col-sm-4">  
-                                <input wire:model="password" class="form-control form-control-sm" id="password" type="password" name="password" required autocomplete="new-password" {{ $mode == 'create' ? '' : 'disabled' }} />
-                                @error('password') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
-                            </div>
-                        </div> 
-                        
                      
 
                    </div>

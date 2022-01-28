@@ -109,7 +109,7 @@ footer { position: fixed; bottom: 10px; left: 0px; right: 0px; background-color:
 La Paz, {{ \Carbon\Carbon::parse($var['com']->created_at)->translatedFormat('d F Y') }}
 </div>
 <footer>
-    <img src="{{ public_path('img/anuencia_footer.jpg') }}" style="width: 100%; ">
+    <img src="{{ public_path('img/comision_footer.jpg') }}" style="width: 100%; ">
 </footer>
 </body>
 </html>

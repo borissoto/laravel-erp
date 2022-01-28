@@ -108,11 +108,11 @@
                                         <input wire:model="item" class="form-control form-control-sm" type="number" value="" id="item">
                                         @error('item') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>
-                                    <label for="docente" class="col-sm-2 col-form-label col-form-label-sm">Docente</label>
+                                    <label for="docente" class="col-sm-2 col-form-label col-form-label-sm">EdPerm</label>
                                     <div class="col-sm-4">
                                         <select wire:model="docente" name="med" id="docente" class="form-control form-control-sm">
                                             <option value="">NO APLICA</option>
-                                            <option value="EDPERM">EDPERM</option>                                            
+                                            <option value="EDPERM">Docente EDPERM</option>                                            
                                         </select>
                                         @error('docente') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>                                                   
@@ -166,7 +166,7 @@
                                     </div>                                                                                   
                                 </div>
                                 <div class="form-group row">
-                                    <label for="password" class="col-sm-2 col-form-label col-form-label-sm" > Contraseña </label>
+                                    <label for="password" class="col-sm-2 col-form-label col-form-label-sm text-danger" > Contraseña </label>
                                     <div class="col-sm-4">  
                                         <input wire:model="password" class="form-control form-control-sm" id="password" type="password" name="password" required autocomplete="new-password" />
                                         @error('password') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 

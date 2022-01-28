@@ -106,7 +106,7 @@ footer { position: fixed; bottom: 40px; left: 0px; right: 0px; background-color:
     <p></p>
     <br/>
 
-    Por lo que se declara en comision en la efcha mencionadas, cabe señalar que el pago de viaticos y combustible y
+    Por lo que se declara en comision en la fecha mencionadas, cabe señalar que el pago de viaticos y combustible y
     matenimiento sera con la Unidad Ejecutora 59, Programa de Atencion Primaria Integral SAFCI - MI SALUD, D.A. 10, Fuente 42
     - Transferenica de Recursos Especificos, Organismo 230 - Otros Recursos Especificos.
     <br/>
@@ -141,7 +141,7 @@ footer { position: fixed; bottom: 40px; left: 0px; right: 0px; background-color:
         </tbody>
     </table> --}}
     <footer>
-        <img src="{{ public_path('img/anuencia_footer.jpg') }}" style="width: 100%; ">
+        <img src="{{ public_path('img/comision_footer.jpg') }}" style="width: 100%; ">
     </footer>
 </body>
 </html>

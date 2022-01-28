@@ -109,7 +109,10 @@
                                         <span class="fa fa{{$campo === 'nivel' ? $icon : '-sort'}}"></span>                                         
                                     </button>
                                 </th>
-                                <th>Depto EESS
+                                <th>Depto EESS</th>
+                                <th>Mun EESS</th>
+                                <th>Establecimiento</th>
+                                {{-- <th>Depto EESS
                                     <button wire:click="sorteable('ap_materno')" class="border-0">
                                         <span class="fa fa{{$campo === 'ap_materno' ? $icon : '-sort'}}"></span>                                         
                                     </button>
@@ -123,9 +126,9 @@
                                     <button wire:click="sorteable('adm_establecimiento_id')" class="border-0">
                                         <span class="fa fa{{$campo === 'adm_establecimiento_id' ? $icon : '-sort'}}"></span>                                         
                                     </button>
-                                </th>
+                                </th> --}}
                                 <th>Telefono</th>
-                                <th>Docente</th>
+                                <th>EdPerm</th>
                                 <th>Acciones</th>
                             </tr>
                         </thead>

@@ -88,7 +88,7 @@ class KardexIndex extends Component
     public function update()
     {
         $this->validate([
-            'name' => 'required|unique:users,name,'.$this->user_id,
+            'name' => 'required|unique:users,id,'.$this->user_id,
             'email' => 'required|unique:users,email,'.$this->user_id,            
             'password' => 'required|min:6',                                    
             'nombres' => 'required',

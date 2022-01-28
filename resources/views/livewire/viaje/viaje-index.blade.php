@@ -186,7 +186,14 @@
                         <div class='form-group row'>
                             <label for='transporte' class="col-sm-4 col-form-label">Transporte</label>
                             <div class="col-sm-8" >
-                            <input type='text' class='form-control form-control-sm @error('transporte')  is-invalid @enderror' wire:model='transporte'>
+                            {{-- <input type='text' class='form-control form-control-sm @error('transporte')  is-invalid @enderror' wire:model='transporte'> --}}
+                            <select wire:model="transporte" id="transporte" class="form-control form-control-sm" required>                                        
+                                <option value="">-Elija-</option>
+                                <option value="Terrestre">Terrestre</option>
+                                <option value="Aereo">Aereo</option>
+                                <option value="Terrestre y Aereo">Terrestre y Aereo</option>
+                                <option value="Aereo">Fluvial</option>
+                            </select>  
                             @error('transporte')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                             </div>
                         </div>
