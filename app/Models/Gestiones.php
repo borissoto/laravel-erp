@@ -14,4 +14,9 @@ class Gestiones extends Model
         'gestion',
         'is_active',        
      ];
+
+    public function poas()
+    {
+        return $this->hasMany(AdmPoa::class);
+    }
 }

@@ -5,7 +5,7 @@ namespace App\Http\Livewire\Configuracion;
 use Livewire\Component;
 use Livewire\WithPagination;
 use App\Models\AdmPoa as Model;
-
+use App\Models\Gestiones;
 
 class PoaIndex extends Component
 {
@@ -47,6 +47,11 @@ class PoaIndex extends Component
     public function updatingSearch()
     {
         $this->resetPage();
+    }
+
+    public function mount()
+    {
+        $this->gestiones = Gestiones::all();
     }
 
     public function render()

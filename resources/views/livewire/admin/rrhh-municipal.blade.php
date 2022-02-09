@@ -27,36 +27,36 @@
                             <option value="100">100 por página</option>
                         </select>
                     </div>
-                    {{-- <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#rrhhCreate">
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#rrhhCreate">
                         Nuevo
-                    </button> --}}
-                    {{-- <span> Exportar  --}}
-                    {{-- <button class="btn btn-sm btn-secondary uppercase mr-1" --}}
-                            {{-- type="button" --}}
-                            {{-- wire:click="export('csv')" --}}
-                            {{-- wire:loading.attr="disabled"> --}}
-                            {{-- CSV --}}
-                        {{-- </button> --}}
-                        {{-- <button --}}
-                            {{-- class="btn btn-sm btn-secondary uppercase mr-1" --}}
-                            {{-- type="button" --}}
-                            {{-- wire:click="export('xlsx')" --}}
-                            {{-- wire:loading.attr="disabled"> --}}
-                            {{-- XLS --}}
-                        {{-- </button> --}}
-                        {{-- <button --}}
-                        {{-- disabled --}}
-                            {{-- class="btn btn-sm btn-secondary uppercase mr-1" --}}
-                            {{-- type="button" --}}
-                            {{-- wire:click="export('pdf')" --}}
-                            {{-- wire:loading.attr="disabled"> --}}
-                            {{-- PDF --}}
-                        {{-- </button> --}}
-                    {{-- </span> --}}
+                    </button>
+                    <span> Exportar 
+                    <button class="btn btn-sm btn-secondary uppercase mr-1"
+                            type="button"
+                            wire:click="export('csv')"
+                            wire:loading.attr="disabled">
+                            CSV
+                        </button>
+                        <button
+                            class="btn btn-sm btn-secondary uppercase mr-1"
+                            type="button"
+                            wire:click="export('xlsx')"
+                            wire:loading.attr="disabled">
+                            XLS
+                        </button>
+                        <button
+                        disabled
+                            class="btn btn-sm btn-secondary uppercase mr-1"
+                            type="button"
+                            wire:click="export('pdf')"
+                            wire:loading.attr="disabled">
+                            PDF
+                        </button>
+                    </span>
                     
                     <div class="card-tools">                    
-                        <div class="input-group input-group-sm " style="width: 250px;">
-                          <input wire:model="search" class="form-control float-right" placeholder="Buscar...">  
+                        <div class="input-group input-group-sm " style="width: 350px;">
+                          <input wire:model="search" class="form-control float-right" placeholder="Buscar por Nombre, Apellido, CI, Establecimiento...">  
                           <div class="input-group-append">
                             <button class="btn btn-default disabled">
                               <i class="fas fa-search"></i>
@@ -168,13 +168,13 @@
                                 <td width="20px">
                                     <div class="btn-group">
                                       {{-- <button type="button" class="btn btn-secondary">Action</button> --}}
-                                      <button type="button" class="btn btn-sm btn-primary dropdown-toggle " data-toggle="dropdown">Permisos
+                                      <button type="button" class="btn btn-sm btn-primary dropdown-toggle " data-toggle="dropdown">Acciones
                                         <span class="sr-only">Toggle Dropdown</span>
                                       </button>
                                       <div class="dropdown-menu dropdown-menu-right" style="min-width: 1rem;" role="menu">
                                         {{-- wire:click="showModal({{$user->id}})" --}}
                                       {{-- <a class="dropdown-item" wire:click="showModal({{$user->id}})"  href="javascript:void(0">Ver</a> --}}
-                                        <a class="dropdown-item" href="{{ route('rrhh.kardex.index', $user->id)}}">Cambiar Permiso</a>
+                                        <a class="dropdown-item" href="{{ route('rrhh.kardex.index', $user->id)}}">Ver Kardex</a>
                                         {{-- <a class="dropdown-item" href="{{ route('rrhh.edit', $user->id)}}">Editar</a>
                                         <a class="dropdown-item" href="#"></a>
                                         <div class="dropdown-divider"></div>

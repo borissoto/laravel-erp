@@ -18,8 +18,8 @@
   </div><!-- /.container-fluid -->
 </section>
          
-{{-- @livewire('admin.rrhh-index') --}}
-{{-- @push('modals') --}}
-  {{-- @livewire('live-modal') --}}
-{{-- @endpush --}}
+@livewire('admin.rrhh-departamental')
+@push('modals')
+  @livewire('live-modal')
+@endpush
 @endsection

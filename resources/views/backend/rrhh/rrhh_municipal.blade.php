@@ -18,7 +18,7 @@
   </div><!-- /.container-fluid -->
 </section>
          
-@livewire('admin.rrhh-index')
+@livewire('admin.rrhh-municipal')
 @push('modals')
   @livewire('live-modal')
 @endpush

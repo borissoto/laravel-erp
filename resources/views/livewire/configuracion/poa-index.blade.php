@@ -47,7 +47,7 @@
                     <tbody>
                     @forelse($rows as $row)
                     <tr> 
-                        <td>{{ $row->gestiones_id}}</td>
+                        <td>{{ $row->poas->gestion}}</td>
                         <td>{{ $row->codigo}}</td>
                         <td>{{ $row->operacion}}</td>
                         <td>{{ $row->producto}}</td>
@@ -90,7 +90,13 @@
                    <div class="modal-body">
                         <div class='form-group'>
                             <label for='gestiones_id'>Gestiones id</label>
-                            <input type='text' class='form-control @error('gestiones_id')  is-invalid @enderror' wire:model='gestiones_id'>
+                            {{-- <input type='text' class='form-control @error('gestiones_id')  is-invalid @enderror' wire:model='gestiones_id'> --}}
+                            <select wire:model="gestiones_id"  name="gestiones_id" id="gestiones_id" class="form-control form-control-sm" >
+                                <option value="" class="text-primary">Escoja Gestion*</option>
+                                @foreach ($gestiones as $gestion)
+                                    <option value="{{ $gestion->gestion }}">{{ $gestion->gestion }}</option>
+                                @endforeach
+                            </select>
                             @error('gestiones_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror
                         </div>
                         <div class='form-group'>

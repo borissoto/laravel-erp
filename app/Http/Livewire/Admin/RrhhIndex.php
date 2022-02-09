@@ -97,7 +97,7 @@ class RrhhIndex extends Component
 
         $users = User::whereRelation('establecimiento', 'nom_establecimiento', 'LIKE', '%' . $this->search . '%')
         ->orWhereRelation('establecimiento.municipio', 'nom_municipio', 'LIKE', '%' . $this->search . '%')
-        // ->orWhereRelation('establecimiento.municipio.departamento', 'nom_departamento', 'LIKE', '%' . $this->search . '%')
+        ->orWhereRelation('establecimiento.municipio.departamento', 'nom_departamento', 'LIKE', '%' . $this->search . '%')
         // ->orWhereRelation('establecimiento.municipio.departamento', 'id', '=', $nivel)
         ->orWhere('name', 'LIKE', '%' . $this->search . '%')
         ->orWhere('nombres','LIKE', '%' . $this->search . '%')

@@ -5,6 +5,7 @@ namespace App\Http\Livewire\Almacen;
 use Livewire\Component;
 use Livewire\WithPagination;
 use App\Models\AlmComprobante as Model;
+use Illuminate\Support\Str;
 use Carbon\Carbon;
 
 class ComprobanteIndex extends Component
@@ -102,8 +103,8 @@ class ComprobanteIndex extends Component
         $this->fecha= Carbon::parse($model->fecha)->format('Y-m-d');
         $this->nro_factura= $model->nro_factura;
         // $this->numero= $model->numero;
-        $this->obs= $model->obs;
-        $this->proveedor= $model->proveedor;
+        $this->obs= Str::upper($model->obs);
+        $this->proveedor= Str::upper($model->proveedor);
         // $this->seccion= $model->seccion;
         $this->modalidad_ingreso= $model->modalidad_ingreso;        
         // $this->user_id= $model->user_id;
@@ -130,8 +131,8 @@ class ComprobanteIndex extends Component
             $model->fecha= $this->fecha;
             $model->nro_factura= $this->nro_factura;
             // $model->numero= $this->numero;
-            $model->obs= $this->obs;
-            $model->proveedor= $this->proveedor;
+            $model->obs= Str::upper($this->obs);
+            $model->proveedor= Str::upper($this->proveedor);
             // $model->seccion= $this->seccion;
             $model->modalidad_ingreso= $this->modalidad_ingreso;
             

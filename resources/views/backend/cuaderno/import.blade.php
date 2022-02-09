@@ -116,7 +116,8 @@
           $('#municipio').append(`<option value="0" disabled selected>Procesando...</option>`);
           $.ajax({
             type: 'GET',
-            url: '/admin/getMunicipio/' + id,
+            url: '/admin/getMunicipio/' +id,
+            // data: {'id': id},
             success: function (response) {
               var response = JSON.parse(response);
               console.log(response);

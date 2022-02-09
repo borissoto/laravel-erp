@@ -2,16 +2,19 @@
 
 namespace App\Http\Livewire\Admin;
 
-use App\Models\User;
 use App\Exports\UsersExport;
+use App\Models\AdmDepartamento;
+use App\Models\AdmEstablecimiento;
+use App\Models\AdmMunicipio;
+use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 use Livewire\Component;
+use Livewire\WithPagination;
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Facades\Excel;
 use Symfony\Component\HttpFoundation\Response;
-use Livewire\WithPagination;
-use Spatie\Permission\Models\Role;
 
-class RolesIndex extends Component
+class RrhhDepartamental extends Component
 {
 
     public $name;
@@ -92,15 +95,35 @@ class RolesIndex extends Component
         }
 
 
-        $users = User::whereRelation('establecimiento', 'nom_establecimiento', 'LIKE', '%' . $this->search . '%')
-        ->orWhereRelation('establecimiento.municipio', 'nom_municipio', 'LIKE', '%' . $this->search . '%')
-        ->orWhereRelation('establecimiento.municipio.departamento', 'nom_departamento', 'LIKE', '%' . $this->search . '%')
-        // ->orWhereRelation('establecimiento.municipio.departamento', 'id', '=', $nivel)
-        ->orWhere('name', 'LIKE', '%' . $this->search . '%')
+        $users = User::where('name', 'LIKE', '%' . $this->search . '%')
+        ->whereHas('establecimiento.municipio.departamento', function ($query) use($nivel){
+            $query-> where('id', '=', $nivel);
+        })
         ->orWhere('nombres','LIKE', '%' . $this->search . '%')
+        ->whereHas('establecimiento.municipio.departamento', function ($query) use($nivel){
+            $query-> where('id', '=', $nivel);
+        })
         ->orWhere('ap_paterno','LIKE', '%' . $this->search . '%')
+        ->whereHas('establecimiento.municipio.departamento', function ($query) use($nivel){
+            $query-> where('id', '=', $nivel);
+        })
         ->orWhere('ap_materno','LIKE', '%' . $this->search . '%')
-        ->orWhere('ci','LIKE', '%' . $this->search . '%');
+        ->whereHas('establecimiento.municipio.departamento', function ($query) use($nivel){
+            $query-> where('id', '=', $nivel);
+        })
+        ->orWhere('ci','LIKE', '%' . $this->search . '%')
+        ->whereHas('establecimiento.municipio.departamento', function ($query) use($nivel){
+            $query-> where('id', '=', $nivel);
+        });
+        
+        // ->whereRelation('establecimiento', 'nom_establecimiento', 'LIKE', '%' . $this->search . '%')
+        // ->orWhereRelation('establecimiento.municipio', 'nom_municipio', 'LIKE', '%' . $this->search . '%')
+        // ->orWhereRelation('establecimiento.municipio.departamento', 'nom_departamento', 'LIKE', '%' . $this->search . '%')        
+        
+        // ->orWhere('nombres','LIKE', '%' . $this->search . '%')
+        // ->orWhere('ap_paterno','LIKE', '%' . $this->search . '%')
+        // ->orWhere('ap_materno','LIKE', '%' . $this->search . '%')
+        // ->orWhere('ci','LIKE', '%' . $this->search . '%');
 
         
 
@@ -112,9 +135,10 @@ class RolesIndex extends Component
             $users = $users->whereRelation('cargos', 'nom_cargo')->orderBy('nom_cargo', $this->order);
         }
 
+        // $users = $users->whereRelation('establecimiento.municipio.departamento', 'id', '=', $nivel)->latest()->paginate($this->perPage);
         $users = $users->latest()->paginate($this->perPage);
 
-        return view('livewire.admin.roles-index', compact('users'));
+        return view('livewire.admin.rrhh-departamental', compact('users'));
     }
 
     public function sorteable($campo)
@@ -237,8 +261,8 @@ class RolesIndex extends Component
             // 'estado' => 'required',
         ]);
 
-        // $this->password = Hash::make($this->password); 
-        // $this->name = Str::upper($this->name);
+        $this->password = Hash::make($this->password); 
+        $this->name = Str::upper($this->name);
 
         User::create([           
 
@@ -276,7 +300,4 @@ class RolesIndex extends Component
         
         return Excel::download(new UsersExport, 'usuarios_exportados.' . $ext);
     }
-
-   
 }
- 
