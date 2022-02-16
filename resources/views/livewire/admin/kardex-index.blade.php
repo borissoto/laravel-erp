@@ -1,6 +1,7 @@
 <div>
     <x-loading />
     @include('livewire.modals.kardex.info-update')    
+    @include('livewire.modals.kardex.pass-update')    
     @if (session()->has('message'))
         <div class="alert alert-success" style="margin-top:30px;">x
           {{ session('message') }}
@@ -51,7 +52,7 @@
                     {{-- <a class="dropdown-item" wire:click="showModal({{$user->id}})"  href="javascript:void(0)">Ver</a> --}}
                       <a class="dropdown-item"  wire:click="edit({{ $user->id }})"  data-toggle="modal" data-target="#kardexInfoUpdate"  href="">Editar</a>                      
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" data-toggle="modal" data-target="#modal-default" href="#">Cambiar Contraseña</a>
+                      <a class="dropdown-item" wire:click="passEdit({{ $user->id }})" data-toggle="modal" data-target="#kardexPassUpdate" >Cambiar Contraseña</a>
                       
                     </div>
                   </div>
@@ -70,6 +71,10 @@
                               <label for="name" class="col-sm-2 col-form-label col-form-label-sm">Estado</label>
                               <div class="col-sm-4">
                                 <span > {!! $user->estado === 1 ? '<span class="badge bg-success">ACTIVO</span>' : ($user->estado === 2 ?  '<span class="badge bg-warning">BAJA</span>' : '<span class="badge bg-danger">INACTIVO</span>') !!}</span>
+                              </div>
+                              <label for="rol" class="col-sm-2 col-form-label col-form-label-sm">Rol</label>
+                              <div class="col-sm-4">
+                                <input class="form-control form-control-sm text-primary" type="text" disabled value="{{ $user->roles[0]->name }}" id="ci">
                               </div>                                                       
                             </div>   
                             <div class="form-group row">

@@ -6,7 +6,7 @@
                 <b class="capitalize">{{ __('Success') }}!</b> {{ session('message') }}
                 </span>
                 <button wire:click="clearFlash()"
-                        class="float-right btn-xs btn btn-outline-success">
+                        class="float-right btn-xs btn btn-outline-light">
                     <span>×</span>
                 </button>
             </div>

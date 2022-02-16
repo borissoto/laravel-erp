@@ -104,7 +104,7 @@
                                         <span class="fa fa{{$cargocampo === 'cargo' ? $icon : '-sort'}}"></span>                                         
                                     </button>
                                 </th>                                
-                                <th>Nivel
+                                <th>Rol
                                     <button wire:click="sorteable('nivel')" class="border-0">
                                         <span class="fa fa{{$campo === 'nivel' ? $icon : '-sort'}}"></span>                                         
                                     </button>
@@ -147,7 +147,11 @@
                                 @else                 
                                 <td class="align-middle">{{ $user->cargos->nom_cargo}}</td>  
                                 @endif  
-                                <td class="align-middle">{{ $user->nivel}}</td>  
+                                @if ($user->roles)                             
+                                <td class="align-middle">{{ $user->roles[0]->name}}</td>  
+                                @else
+                                <td class="align-middle">S/N rol </td>  
+                                @endif
                                 @if ($user->establecimiento === 0 || $user->establecimiento === null)                             
                                     <td class="align-middle"><span class="badge bg-secondary">No Depto</span></td>
                                 @else

@@ -171,6 +171,16 @@
                                         <input wire:model="password" class="form-control form-control-sm" id="password" type="password" name="password" required autocomplete="new-password" />
                                         @error('password') <span class="text-sm text-danger error">{{ $message }}</span>@enderror 
                                     </div>
+                                    <label for='rol' class="col-sm-2 col-form-label col-form-label-sm text-danger">Rol Usuario</label>
+                                    <div class="col-sm-4">  
+                                        <select wire:model="rol"  name="rol" id="rol" class="form-control form-control-sm" >
+                                            <option value="" class="text-primary">Escoja Rol Sistema*</option>
+                                            @foreach ($roles as $rol)
+                                            <option value="{{ $rol->id }}">{{ $rol->name }}</option>
+                                            @endforeach
+                                        </select>
+                                        @error('rol')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                                    </div>  
                                 </div>                                          
                             </div>
                           <!-- /.col -->

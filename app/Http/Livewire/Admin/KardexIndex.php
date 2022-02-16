@@ -4,8 +4,10 @@ namespace App\Http\Livewire\Admin;
 
 use App\Models\User;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Hash;
 use Livewire\Component;
 use Illuminate\Support\Str;
+use Spatie\Permission\Models\Role;
 
 class KardexIndex extends Component
 {
@@ -35,6 +37,8 @@ class KardexIndex extends Component
     public $docente;
     public $obs;
     public $estado;
+    public $roles;
+    public $rol;
 
     public $updateMode = false;
 
@@ -45,10 +49,11 @@ class KardexIndex extends Component
         // Ya no se usa typed properties como User $user
         $this->user = User::find($user->id);
         // $this->passid = User::find($serid);
+        $this->roles = Role::all();
     }
 
     protected $listeners = ['update' => 'render'];
-
+    
     public function render()
     {
         // dd($this->user);
@@ -80,7 +85,35 @@ class KardexIndex extends Component
         $this->grado = $usuario->grado;
         $this->docente = $usuario->docente;
         $this->obs = $usuario->obs;
-        $this->estado = $usuario->estado;             
+        $this->estado = $usuario->estado;     
+        $this->rol = $usuario->nivel;        
+    }
+
+    public function passEdit($id)
+    {
+        $this->updateMode = true;
+        // $usuario = User::where('id',$id)->first();        
+        $this->user_id = $id;
+    }
+
+    public function passUpdate()
+    {
+        $this->validate([
+            'password' => 'required|min:6',                                    
+            
+        ]);
+        if ($this->user_id) {
+            $user = User::find($this->user_id);
+            $user->update([                                          
+                'password' => Hash::make($this->password),
+            ]);
+            $this->updateMode = false;
+            // session()->flash('message', 'Users Updated Successfully.');
+            $this->resetInputFields();
+            $this->emit('update');
+            $this->emit('closeKardexPassUpdate');
+
+        }
     }
 
     
@@ -103,6 +136,7 @@ class KardexIndex extends Component
             // 'incorporacion' => 'required',
             'universidad' => 'required',
             'grado' => 'required',
+            // 'nivel' => 'required',
             // 'docente' => 'required',
             // 'obs' => 'required',
             // 'estado' => 'required',
@@ -130,7 +164,21 @@ class KardexIndex extends Component
                 'docente' => $this->docente,
                 'obs' => $this->obs,
                 'estado' => $this->estado,
+                'nivel' => $this->rol,
             ]);
+
+            $roles = Role::all();
+            $rol_name = null;
+            foreach ($roles as $rol) {
+                if($rol->id == $this->rol){
+                    $rol_name = $rol->name;
+                }
+            }
+    
+            $user->syncRoles($rol_name);
+
+
+
             $this->updateMode = false;
             // session()->flash('message', 'Users Updated Successfully.');
             $this->resetInputFields();
@@ -157,6 +205,7 @@ class KardexIndex extends Component
         $this->universidad = '';
         $this->grado = '';
         $this->obs = '';
+        $this->rol = '';
         
 
     }

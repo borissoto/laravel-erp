@@ -13,6 +13,7 @@ use Livewire\WithPagination;
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Facades\Excel;
 use Symfony\Component\HttpFoundation\Response;
+use Spatie\Permission\Models\Role;
 
 class RrhhIndex extends Component
 {
@@ -38,6 +39,8 @@ class RrhhIndex extends Component
     public $docente;
     public $obs;
     public $estado;
+    public $rol;
+    public $roles;
 
     // public $departamentos;
     // public $municipios;
@@ -82,6 +85,10 @@ class RrhhIndex extends Component
 
     // }
 
+    public function mount()
+    {
+        $this->roles = Role::all();
+    }
 
     public function updatingSearch(){
         $this->resetPage();
@@ -209,6 +216,7 @@ class RrhhIndex extends Component
         $this->universidad = '';
         $this->grado = '';
         $this->obs = '';
+        $this->rol = '';
         
 
     }
@@ -235,6 +243,7 @@ class RrhhIndex extends Component
             // 'incorporacion' => 'required',
             'universidad' => 'required',
             'grado' => 'required',
+            'rol' => 'required',
             // 'docente' => 'required',
             // 'obs' => 'required',
             // 'estado' => 'required',
@@ -243,7 +252,7 @@ class RrhhIndex extends Component
         $this->password = Hash::make($this->password); 
         $this->name = Str::upper($this->name);
 
-        User::create([           
+        $user = User::create([           
 
             'name' => Str::upper($this->name),
             'email' => $this->email,            
@@ -265,7 +274,20 @@ class RrhhIndex extends Component
             'docente' => $this->docente,
             'obs' => $this->obs,
             'estado' => 1,
+            'nivel' => $this->rol,
         ]);
+
+        $roles = Role::all();
+        $rol_name = null;
+        foreach ($roles as $rol) {
+            if($rol->id == $this->rol){
+                $rol_name = $rol->name;
+            }
+        }
+
+        $user->assignRole($rol_name);
+
+       
 
         // session()->flash('message', 'Usuario creado satisfactoriamente');
         $this->resetInputFields();

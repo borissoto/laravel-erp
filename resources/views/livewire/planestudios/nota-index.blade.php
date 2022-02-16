@@ -6,7 +6,7 @@
                 <b class="capitalize">{{ __('Success') }}!</b> {{ session('message') }}
                 </span>
                 <button wire:click="clearFlash()"
-                        class="float-right btn-xs btn btn-outline-success">
+                        class="float-right btn-xs btn btn-outline-light">
                     <span>×</span>
                 </button>
             </div>
@@ -25,7 +25,7 @@
                 <button type="button"
                         class="btn btn-primary float-right"
                         wire:click="create">
-                   {{ __('Add New Record') }}
+                   {{ __('Nuevo Registro') }}
                 </button>
             </div> --}}
         </div>
@@ -136,7 +136,7 @@
                         </div> --}}
                     </div>
                    <div class="modal-footer">
-                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                        <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary">
                          {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
                        </button>
@@ -153,17 +153,17 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Are You Sure?</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Eliminar Registro</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                           This Action Can not be Undone.
+                           Esta segur@ de eliminar el registro?
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" wire:click="destroy()" class="btn btn-danger">Delete</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" wire:click="destroy()" class="btn btn-danger">Eliminar</button>
                         </div>
                     </div>
                 </div>

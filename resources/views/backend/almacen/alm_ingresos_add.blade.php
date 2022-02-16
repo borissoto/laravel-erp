@@ -92,7 +92,7 @@
               </div>
 
               <div class="form-group row">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                 <button type="button" wire:click="store()" class="btn btn-primary">Guardar</button>
              </div>
             

@@ -54,7 +54,8 @@ class User extends Authenticatable
         'grado',
         'docente',
         'obs',
-        'estado',            
+        'estado',
+        'nivel',
     ];
     
 

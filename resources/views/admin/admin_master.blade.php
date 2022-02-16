@@ -120,6 +120,9 @@
     window.livewire.on('closeKardexInfoUpdate', () => {
         $('#kardexInfoUpdate').modal('hide');
     });
+    window.livewire.on('closeKardexPassUpdate', () => {
+        $('#kardexPassUpdate').modal('hide');
+    });
     window.livewire.on('closeKardexCargoCreate', () => {
         $('#kardexCargoCreate').modal('hide');
     });

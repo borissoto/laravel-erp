@@ -6,7 +6,7 @@
                 <b class="capitalize">{{ __('Success') }}!</b> {{ session('message') }}
                 </span>
                 <button wire:click="clearFlash()"
-                        class="float-right btn-xs btn btn-outline-success">
+                        class="float-right btn-xs btn btn-outline-light">
                     <span>×</span>
                 </button>
             </div>
@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-3">
                 <input wire:model="search"
-                       class="form-control"
+                       class="form-control form-control-sm"
                        id="search" type="text" name="search" wire:model="search" required="required"
                        autofocus="autofocus"/>
             </div>
@@ -24,7 +24,7 @@
                 <button type="button"
                         class="btn btn-primary float-right"
                         wire:click="create">
-                   {{ __('Add New Record') }}
+                   {{ __('Nuevo Registro') }}
                 </button>
             </div>
         </div>
@@ -101,30 +101,96 @@
            <div class="modal-dialog" role="document">
                <div class="modal-content">
                    <div class="modal-header">
-                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Add New Record' : 'Update Record ' }}</h5>
+                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Nuevo Registro' : 'Actualizar ' }}</h5>
                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                        </button>
                    </div>
                    <div class="modal-body">
-                        <div class='form-group'><label for='adm_municipio_id'>Adm municipio id</label><input type='text' class='form-control @error('adm_municipio_id')  is-invalid @enderror' wire:model='adm_municipio_id'>@error('adm_municipio_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='rrhh_brigada_id'>Rrhh brigada id</label><input type='text' class='form-control @error('rrhh_brigada_id')  is-invalid @enderror' wire:model='rrhh_brigada_id'>@error('rrhh_brigada_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='prueba'>Prueba</label><input type='text' class='form-control @error('prueba')  is-invalid @enderror' wire:model='prueba'>@error('prueba')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='tipo'>Tipo</label><input type='text' class='form-control @error('tipo')  is-invalid @enderror' wire:model='tipo'>@error('tipo')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='muestras'>Muestras</label><input type='text' class='form-control @error('muestras')  is-invalid @enderror' wire:model='muestras'>@error('muestras')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='positivos'>Positivos</label><input type='text' class='form-control @error('positivos')  is-invalid @enderror' wire:model='positivos'>@error('positivos')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='negativos'>Negativos</label><input type='text' class='form-control @error('negativos')  is-invalid @enderror' wire:model='negativos'>@error('negativos')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='referencias'>Referencias</label><input type='text' class='form-control @error('referencias')  is-invalid @enderror' wire:model='referencias'>@error('referencias')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='kits'>Kits</label><input type='text' class='form-control @error('kits')  is-invalid @enderror' wire:model='kits'>@error('kits')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='canastas'>Canastas</label><input type='text' class='form-control @error('canastas')  is-invalid @enderror' wire:model='canastas'>@error('canastas')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='fecha'>Fecha</label><input type='text' class='form-control @error('fecha')  is-invalid @enderror' wire:model='fecha'>@error('fecha')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='user_id'>User id</label><input type='text' class='form-control @error('user_id')  is-invalid @enderror' wire:model='user_id'>@error('user_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
+                        <div class='form-group'><label class="col-form-label col-form-label-sm" for='adm_municipio_id'>Municipio (Del Depto al que su EESS pertenece)</label>
+                            <select wire:model="municipio"  name="municipio" id="municipio" class="form-control form-control-sm form-control form-control-sm-sm" >
+                                @if($municipios)
+                                <option value="" class="text-primary">Escoja Municipio*</option>
+                                    @foreach ($municipios as $municipio)
+                                        <option value="{{ $municipio->id }}">{{ $municipio->nom_municipio }}</option>
+                                    @endforeach
+                                @else                                    
+                                    <option disabled value="" class="text-danger">Usuario Sin Establecimiento</option>
+                                    <option disabled value="" class="text-danger">Usuario Sin Establecimiento</option>
+                                @endif    
+                            </select>
+                            @error('municipio')<span class="text-sm text-danger error">{{ $message }}</span>@enderror
+                        </div>
+                        <div class='form-group'><label class="col-form-label col-form-label-sm" for='rrhh_brigada_id'>Brigada</label>
+                            @if (!is_null($municipio))                 
+                            
+                            
+                                <select wire:model="selectedMunicipio" name="brigadas" class="form-control form-control-sm form-control form-control-sm-sm" required>
+                                    <option value="" class="text-primary">Escoja Municipio Primero*</option>
+                                    @foreach ($brigadas as $brigada)
+                                        <option value="{{ $brigada->id }}">{{ $brigada->nom_brigada }}</option>
+                                    @endforeach
+                                </select>
+                            
+                            
+                            @endif    
+                            @error('selectedMunicipio')<span class="text-sm text-danger error">{{ $message }}</span>@enderror
+                        </div>
+                        <div class='form-group'><label class="col-form-label col-form-label-sm" for='prueba'>Prueba</label>
+                            
+                            <select wire:model="prueba" id="prueba" class="form-control form-control-sm" autofocus>
+                                <option value="">Tipo de Prueba*</option>
+                                <option value="ANTIGENO">ANTIGENO NASAL</option>
+                                <option value="PRUEBA RAPIDA">PRUEBA RAPIDA</option>
+                            </select>
+                            
+                            @error('prueba')<span class="text-sm text-danger error">{{ $message }}</span>@enderror
+                        </div>
+                        <div class='form-group'><label class="col-form-label col-form-label-sm" for='tipo'>Tipo</label>
+                            <select wire:model="tipo" id="tipo" class="form-control form-control-sm" autofocus>
+                                <option value="">Tipo de Atencion*</option>
+                                <option value="EN VISITA">EN VISITA</option>
+                                <option value="EN ESTABLECIMIENTO">EN ESTABLECIMIENTO</option>
+                                <option value="EN FERIA">EN FERIA</option>
+                                <option value="MACRO BRIGADA COD">MACRO BRIGADA COD</option>
+                            </select>
+                            @error('tipo')<span class="text-sm text-danger error">{{ $message }}</span>@enderror
+                        </div>
+                        <div class='form-group'><label class="col-form-label col-form-label-sm" for='muestras'>Muestras</label>
+                            <input type='number' class='form-control form-control-sm @error('muestras')  is-invalid @enderror' wire:model='muestras'>
+                            @error('muestras')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'><label class="col-form-label col-form-label-sm" for='positivos'>Positivos</label>
+                            <input type='number' class='form-control form-control-sm @error('positivos')  is-invalid @enderror' wire:model='positivos'>
+                            @error('positivos')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'><label class="col-form-label col-form-label-sm" for='negativos'>Negativos</label>
+                            <input type='number' class='form-control form-control-sm @error('negativos')  is-invalid @enderror' wire:model='negativos'>
+                            @error('negativos')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'><label class="col-form-label col-form-label-sm" for='referencias'>Referencias</label>
+                            <input type='number' class='form-control form-control-sm @error('referencias')  is-invalid @enderror' wire:model='referencias'>
+                            @error('referencias')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'><label class="col-form-label col-form-label-sm" for='kits'>Kits</label>
+                            <input type='number' class='form-control form-control-sm @error('kits')  is-invalid @enderror' wire:model='kits'>
+                            @error('kits')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'><label class="col-form-label col-form-label-sm" for='canastas'>Canastas</label>
+                            <input type='number' class='form-control form-control-sm @error('canastas')  is-invalid @enderror' wire:model='canastas'>
+                            @error('canastas')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        <div class='form-group'><label class="col-form-label col-form-label-sm" for='fecha'>Fecha</label>
+                            <input type='date' class='form-control form-control-sm @error('fecha')  is-invalid @enderror' wire:model='fecha'>
+                            @error('fecha')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                        </div>
+                        
 
                    </div>
                    <div class="modal-footer">
-                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                        <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary">
-                         {{ $mode == 'create' ? 'Save Record' : 'Update Record' }}
+                         {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
                        </button>
                    </div>
                </div>
@@ -139,17 +205,17 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Are You Sure?</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Eliminar Registro</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                           This Action Can not be Undone.
+                           Esta segur@ de eliminar el registro?
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" wire:click="destroy()" class="btn btn-danger">Delete</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" wire:click="destroy()" class="btn btn-danger">Eliminar</button>
                         </div>
                     </div>
                 </div>

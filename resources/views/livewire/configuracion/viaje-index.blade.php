@@ -6,7 +6,7 @@
                 <b class="capitalize">{{ __('Success') }}!</b> {{ session('message') }}
                 </span>
                 <button wire:click="clearFlash()"
-                        class="float-right btn-xs btn btn-outline-success">
+                        class="float-right btn-xs btn btn-outline-light">
                     <span>×</span>
                 </button>
             </div>
@@ -120,7 +120,7 @@
            <div class="modal-dialog" role="document">
                <div class="modal-content">
                    <div class="modal-header">
-                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Add New Record' : 'Update Record ' }}</h5>
+                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Nuevo Registro' : 'Actualizar ' }}</h5>
                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                        </button>
@@ -139,7 +139,7 @@
 
                    </div>
                    <div class="modal-footer">
-                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                        <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary">
                          {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
                        </button>
@@ -162,7 +162,7 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                           Esta seguro de eliminar el registro?
+                           Esta segur@ de eliminar el registro?
 
                         </div>
                         <div class="modal-footer">

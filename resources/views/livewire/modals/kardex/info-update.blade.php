@@ -28,7 +28,17 @@
                                             <option value="1">ACTIVO</option>                                            
                                             <option value="2" disabled style="background-color: rgb(104, 104, 104); color: rgb(194, 194, 194);">BAJA (No elegible)</option>
                                         </select>
-                                    </div>                                                  
+                                    </div>
+                                    <label for='rol' class="col-sm-2 col-form-label col-form-label-sm text-danger">Rol Usuario</label>
+                                    <div class="col-sm-4">  
+                                        <select wire:model="rol"  name="rol" id="rol" class="form-control form-control-sm" >
+                                            <option value="" class="text-primary">Escoja Rol Sistema*</option>
+                                            @foreach ($roles as $rol)
+                                            <option value="{{ $rol->id }}">{{ $rol->name }}</option>
+                                            @endforeach
+                                        </select>
+                                        @error('rol')<div class='invalid-feedback'>{{ $message }}</div>@enderror
+                                    </div>                                                    
                                 </div>   
                                 <div class="form-group row">
                                     <input type="hidden" wire:model="user_id">

@@ -6,7 +6,7 @@
                 <b class="capitalize">{{ __('Success') }}!</b> {{ session('message') }}
                 </span>
                 <button wire:click="clearFlash()"
-                        class="float-right btn-xs btn btn-outline-success">
+                        class="float-right btn-xs btn btn-outline-light">
                     <span>×</span>
                 </button>
             </div>
@@ -159,11 +159,11 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                           Esta seguro de eliminar el registro?
+                           Esta segur@ de eliminar el registro?
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" wire:click="destroy()" class="btn btn-danger">Delete</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" wire:click="destroy()" class="btn btn-danger">Eliminar</button>
                         </div>
                     </div>
                 </div>

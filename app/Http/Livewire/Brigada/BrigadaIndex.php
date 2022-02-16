@@ -2,10 +2,13 @@
 
 namespace App\Http\Livewire\Brigada;
 
+use App\Models\AdmMunicipio;
 use Livewire\Component;
 use Livewire\WithPagination;
 use App\Models\RrhhBrigada as Model;
-
+use App\Models\RrhhBrigada;
+use App\Models\User;
+use Illuminate\Support\Str;
 
 class BrigadaIndex extends Component
 {
@@ -19,6 +22,8 @@ class BrigadaIndex extends Component
     public $tipo;
     public $user_id;
     public $integrantes;
+
+    public $municipios;
 
 
     public $mode = 'create';
@@ -35,7 +40,7 @@ class BrigadaIndex extends Component
     'adm_municipio_id' => 'required',
     'nom_brigada' => 'required',
     'tipo' => 'required',
-    'user_id' => 'required',
+    // 'user_id' => 'required',
     'integrantes' => 'required',
 
 ];
@@ -50,6 +55,18 @@ class BrigadaIndex extends Component
     public function updatingSearch()
     {
         $this->resetPage();
+    }
+
+    public function mount()
+    {
+        if(auth()->user()->establecimiento){
+            $nivel = auth()->user()->establecimiento->municipio->departamento->id;
+            // dd($nivel);
+            // $this->brigadas = RrhhBrigada::whereRelation('establecimiento.municipio.departamento', 'id', '=', $nivel);
+            $this->municipios = AdmMunicipio::where('adm_departamento_id', '=', $nivel)->get();
+            // dd($this->municipios);
+        }
+        
     }
 
     public function render()
@@ -78,10 +95,10 @@ class BrigadaIndex extends Component
         $model = Model::find($primaryId);
 
         $this->adm_municipio_id= $model->adm_municipio_id;
-$this->nom_brigada= $model->nom_brigada;
-$this->tipo= $model->tipo;
-$this->user_id= $model->user_id;
-$this->integrantes= $model->integrantes;
+        $this->nom_brigada= $model->nom_brigada;
+        $this->tipo= $model->tipo;
+        // $this->user_id= $model->user_id;
+        $this->integrantes= $model->integrantes;
 
 
         $this->emit("showForm");
@@ -101,12 +118,12 @@ $this->integrantes= $model->integrantes;
 
           $model = new Model();
 
-             $model->adm_municipio_id= $this->adm_municipio_id;
-$model->nom_brigada= $this->nom_brigada;
-$model->tipo= $this->tipo;
-$model->user_id= $this->user_id;
-$model->integrantes= $this->integrantes;
- $model->save();
+            $model->adm_municipio_id= $this->adm_municipio_id;
+            $model->nom_brigada= Str::upper($this->nom_brigada);
+            $model->tipo= $this->tipo;
+            $model->user_id= auth()->user()->id;
+            $model->integrantes= $this->integrantes;
+            $model->save();
 
           $this->resetForm();
           $this->emit("hideForm");
@@ -120,7 +137,7 @@ $model->integrantes= $this->integrantes;
         $this->adm_municipio_id= "";
 $this->nom_brigada= "";
 $this->tipo= "";
-$this->user_id= "";
+// $this->user_id= "";
 $this->integrantes= "";
 
     }
@@ -133,11 +150,11 @@ $this->integrantes= "";
           $model = Model::find($this->primaryId);
 
              $model->adm_municipio_id= $this->adm_municipio_id;
-$model->nom_brigada= $this->nom_brigada;
-$model->tipo= $this->tipo;
-$model->user_id= $this->user_id;
-$model->integrantes= $this->integrantes;
- $model->save();
+             $model->nom_brigada= Str::upper($this->nom_brigada);
+             $model->tipo= $this->tipo;
+            //  $model->user_id= $this->user_id;
+             $model->integrantes= $this->integrantes;
+             $model->save();
 
           $this->resetForm();
          $this->emit("hideForm");

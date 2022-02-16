@@ -6,7 +6,7 @@
                 <b class="capitalize">{{ __('Success') }}!</b> {{ session('message') }}
                 </span>
                 <button wire:click="clearFlash()"
-                        class="float-right btn-xs btn btn-outline-success">
+                        class="float-right btn-xs btn btn-outline-light">
                     <span>×</span>
                 </button>
             </div>
@@ -24,7 +24,7 @@
                 <button type="button"
                         class="btn btn-primary float-right"
                         wire:click="create">
-                   {{ __('Add New Record') }}
+                   {{ __('Nuevo Registro') }}
                 </button>
             </div>
         </div>
@@ -90,23 +90,48 @@
            <div class="modal-dialog" role="document">
                <div class="modal-content">
                    <div class="modal-header">
-                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Add New Record' : 'Update Record ' }}</h5>
+                       <h5 class="modal-title" id="showFormLabel"> {{ $mode == 'create' ? 'Nuevo Registro' : 'Actualizar ' }}</h5>
                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                        </button>
                    </div>
                    <div class="modal-body">
-                        <div class='form-group'><label for='adm_municipio_id'>Adm municipio id</label><input type='text' class='form-control @error('adm_municipio_id')  is-invalid @enderror' wire:model='adm_municipio_id'>@error('adm_municipio_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='nom_brigada'>Nom brigada</label><input type='text' class='form-control @error('nom_brigada')  is-invalid @enderror' wire:model='nom_brigada'>@error('nom_brigada')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='tipo'>Tipo</label><input type='text' class='form-control @error('tipo')  is-invalid @enderror' wire:model='tipo'>@error('tipo')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='user_id'>User id</label><input type='text' class='form-control @error('user_id')  is-invalid @enderror' wire:model='user_id'>@error('user_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
-<div class='form-group'><label for='integrantes'>Integrantes</label><input type='text' class='form-control @error('integrantes')  is-invalid @enderror' wire:model='integrantes'>@error('integrantes')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
+                        <div class='form-group'><label for='adm_municipio_id'>Municipio (Del Depto al que su EESS pertenece)</label>
+                            {{-- <input type='text' class='form-control @error('adm_municipio_id')  is-invalid @enderror' wire:model='adm_municipio_id'> --}}
+                            <select wire:model="adm_municipio_id"  name="adm_municipio_id" id="adm_municipio_id" class="form-control form-control-sm" >
+                                @if($municipios)
+                                <option value="" class="text-primary">Escoja Municipio*</option>
+                                    @foreach ($municipios as $municipio)
+                                        <option value="{{ $municipio->id }}">{{ $municipio->nom_municipio }}</option>
+                                    @endforeach
+                                @else                                    
+                                    <option disabled value="" class="text-danger">Usuario Sin Establecimiento</option>
+                                    <option disabled value="" class="text-danger">Usuario Sin Establecimiento</option>
+                                @endif    
+                            </select>
+                            @error('adm_municipio_id')<span class="text-sm text-danger error">{{ $message }}</span>@enderror
+                        </div>
+                        <div class='form-group'><label for='nom_brigada'>Nombre brigada</label><input type='text' class='form-control @error('nom_brigada')  is-invalid @enderror' wire:model='nom_brigada'>@error('nom_brigada')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
+                        <div class='form-group'><label for='tipo'>Tipo</label>
+                            {{-- <input type='text' class='form-control @error('tipo')  is-invalid @enderror' wire:model='tipo'> --}}
+                            <select wire:model="tipo" id="tipo" class="form-control form-control-sm" required>
+                                <option value="">-Escoja Tipo-</option>                                
+                                <option value="VACUNACION">VACUNACION</option>
+                                <option value="TOMA DE MUESTRA">TOMA DE MUESTRA</option>
+                                <option value="RASTRILLAJE">RASTRILLAJE</option>
+                                <option value="ENTREGA DE CANASTAS">ENTREGA DE  CANASTAS DE ALIMENTOS</option>
+                            </select>   
+                            @error('tipo')<span class="text-sm text-danger error">{{ $message }}</span>@enderror</div>
+                        {{-- <div class='form-group'><label for='user_id'>User id</label><input type='text' class='form-control @error('user_id')  is-invalid @enderror' wire:model='user_id'>@error('user_id')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div> --}}
+                        <div class='form-group'><label for='integrantes'>Integrantes</label>
+                            <input type='number' class='form-control @error('integrantes')  is-invalid @enderror' wire:model='integrantes'>
+                            @error('integrantes')<div class='invalid-feedback'>{{ $message }}</div>@enderror</div>
 
                    </div>
                    <div class="modal-footer">
-                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                        <button type="button" @if($mode == 'create') wire:click="store()" @else wire:click="update()" @endif  class="btn btn-primary">
-                         {{ $mode == 'create' ? 'Save Record' : 'Update Record' }}
+                         {{ $mode == 'create' ? 'Guardar' : 'Actualizar' }}
                        </button>
                    </div>
                </div>
@@ -121,17 +146,17 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Are You Sure?</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Eliminar Registro</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                           This Action Can not be Undone.
+                           Esta segur@ de eliminar el registro?
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" wire:click="destroy()" class="btn btn-danger">Delete</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" wire:click="destroy()" class="btn btn-danger">Eliminar</button>
                         </div>
                     </div>
                 </div>
