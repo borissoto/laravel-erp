@@ -1554,18 +1554,12 @@
                 });
                 
 
-                // const ctaLayer = new google.maps.KmlLayer({
-                //     url: "http://drive.google.com/uc?export=download&id=1MCeDfcIvcMAcdl9YJnYSYn3a2_LhsqT0",
-                //     // url: "http://drive.google.com/file/d/1MCeDfcIvcMAcdl9YJnYSYn3a2_LhsqT0/view?usp=sharing",
-                //     //  url: "https://drive.google.com/file/d/1F3s2aQStR4TPLmIe59-vBBeQXlp8N86m",                    
-                //     // url: "https://googlearchive.github.io/js-v2-samples/ggeoxml/cta.kml",                  
-                //     map: map,
-                // });
+              
 
             }
         </script>
 
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwC0dKzZNKNbnzsslPYLNSExYd8uLqRIk&callback=initMap"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
     </body>
 
     <footer>
